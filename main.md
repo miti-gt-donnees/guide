@@ -402,7 +402,7 @@ Choisir les référentiels de métadonnées (thésaurus, ontologies)
 Utilisation de standards d'interopérabilité dans la gestion des métadonnées
 
 Pourquoi un catalogue de métadonnées ?
-Outil de diffusion / valorisation●Outil de recherche●Directive Inspire sur les données géographiques publiques (2007)–Catalogage des données–Accès gratuit aux métadonnées
+Outil de diffusion / valorisation Outil de recherche Directive Inspire sur les données géographiques publiques (2007)–Catalogage des données–Accès gratuit aux métadonnées
 
 Mise en place de catalogues INSPIRE et de leur alimentation automatique.                                       
 https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf

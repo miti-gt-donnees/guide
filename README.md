@@ -5,9 +5,3 @@
 ```
 make
 ```
-
-- En utilisant Docker
-
-```
-make use_docker=True
-```
