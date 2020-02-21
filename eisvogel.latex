@@ -599,6 +599,8 @@ $endif$
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0.4pt}
 
+\usepackage[left]{lineno}
+\linenumbers
 %%
 %% end added
 %%
