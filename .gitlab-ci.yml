@@ -1,0 +1,10 @@
+image: boileaum/pandoc
+
+synthese_2020_pdf:
+  script:
+    - make
+  tags:
+    - docker, pandoc
+  artifacts:
+    paths:
+      - "synthese_2020.pdf"
