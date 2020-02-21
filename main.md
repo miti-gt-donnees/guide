@@ -153,7 +153,7 @@ Le mouvement dit des "big data" est souvent présenté comme une révolution sus
 https://fredoc2015.sciencesconf.org/conference/fredoc2015/pages/Salaun_FREDOC2015.pdf 
 
 
-Politique d'accompagnement à la gestion des données 
+# Politique d'accompagnement à la gestion des données 
 
 « Les politiques d’accompagnement des données : une comparaison internationale » : Simon Hodson (ISCU-CODATA)  - Frédocs2013 - Gestion et valorisation des données de la recherche -  7 au 10 octobre 2013, Aussois
 http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf (Très complet - Panorama des différentes politiques - Tendances - Vision très prospective dans laquelle nous sommes projetés aujourd'hui - considérations sur les défis et les obstacles à lever pour la mise en place des données de la recherche vu par CO DATA un organe international) Intéressant parce que c'est S. Hodson ! Et parce que c'est lui qui a attiré (notre) attention à la nécessité d'avoir des actions du terrain (bottom) qui rejoignent celles de la gouvernance (up).
@@ -202,7 +202,7 @@ Seront mis en exergue le rôle des données scientifiques dans la qualité de la
 
 
 
-2. Concevoir et planifier
+# 2. Concevoir et planifier
 
 Contexte : Définition des tâches, élaboration de plannings, recherche de partenaires, de financement, spécifications, métadonnées, plan de diffusion ...). Les réseaux apportent un appui sur la gestion de projet des méthodologies de conduite de projet:  définition des indicateurs, interopérabilité des systèmes, aide à la rédaction des plans de gestion de données, planification du type de données à collecter, identification des nouveaux supports de publications...).Il est nécessaire de prévoir le mode de collecte et de stockage afin d’organiser la traçabilité en amont susceptible de garantir la réutilisation des données
 
@@ -228,7 +228,7 @@ La cartographie des risques  pour améliorer les services relatifs à la gestion
 
 
 
-Disponibilités des infrastructures (lieu, fonctionnalités, capacités) et services
+# Disponibilités des infrastructures (lieu, fonctionnalités, capacités) et services
 
 Infrastructure pour l'open science EOSC
 https://jcad2019.sciencesconf.org/data/EOSC_FranceGrilles_Beckmann_20191011.pdf
@@ -270,7 +270,7 @@ ppt -  https://anfdonnees2017.sciencesconf.org/data/pages/Presentation_DoRANum_A
 http://renatis.cnrs.fr/IMG/pdf/SILBERMAN_08102013.pdf
 
 
-Prévoir les  modes de collecte et de stockage 
+# Prévoir les  modes de collecte et de stockage 
  
 
 Amorcer un Plan de gestion de données :
@@ -300,7 +300,7 @@ Accompagner les chercheurs : 5 tutoriels à votre disposition pour la rédaction
 https://fredoc2015.sciencesconf.org/conference/fredoc2015/pages/Lafosse_Atelier_FreDoc2015_tutosH2020_Ecologie.pdf
 
 
-Structuration générale des données
+# Structuration générale des données
 
 Caractéristiques des données (formats de fichiers, conventions de nommage …)
 
@@ -312,7 +312,7 @@ définir la façon d'harmoniser les données en fonction de leur provenance pour
 faudra faire attention a ce qu'il n'y ait pas de redites ou redondances]]
 
 
-Concevoir les bases de données nécessaires
+# Concevoir les bases de données nécessaires
 
 
 
@@ -336,7 +336,7 @@ http://renatis.cnrs.fr/IMG/pdf/LESTEVEN.pdf
 
 
 
-3. Collecter
+# 3. Collecter
 
 Phase de constitution des jeux de données avec leur métadonnées. Les réseaux participent à la constitution des jeux de données, des métadonnées et du choix des référentiels associés,et à la mise en place d’un environnement leur permettant d’assurer le stockage, le «versionning», et l’accessibilité des données et des jeux de données via des bases ou des supports fiables et bien documentés, dans le respect des règles de traitement spécifiques des données personnelles.
 
@@ -397,7 +397,7 @@ Architectures de stockage traditionnels (ANF 2016)
 https://indico.mathrice.fr/event/5/contribution/2/material/slides/0.pdf
 
 
-Organiser les données
+# Organiser les données
 
 Choisir les référentiels de métadonnées (thésaurus, ontologies)
 
@@ -416,7 +416,7 @@ INSPIRE un cadre pour mieux partager es données de la recherche : Marc Leobet (
  http://renatis.cnrs.fr/IMG/pdf/Leobet_INSPIRE_Fredoc2013.pdf
 
 
-Format et métadonnées
+# Format et métadonnées
     
 Format et métadonnées - Catherine Morel-Pair - Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données -  6-8 juil. 2016 Paris (France) 
 Vidéo -    https://youtu.be/obGDFrXyBiU?t=3
@@ -431,7 +431,7 @@ Les métadonnées dans un DMP- Marie Puren (INRIA) - Participer à l'organisatio
  https://anfdonnees2017.sciencesconf.org/data/pages/20170706_dmp_metadonnees_puren_1.pdf
 
 
-Utiliser des Standards d'interopérabilité - 
+# Utiliser des Standards d'interopérabilité - 
 
 * Protocoles interopérables (en sciences de l'environnement)
 
@@ -526,7 +526,7 @@ Présentation de la solution ODK (MC. Quidoz) (http://rbdd.cnrs.fr/IMG/pdf/deplo
 
 
 
-4. Traiter
+# 4. Traiter
 
 Contexte: Cette étape du cycle de vie des données est destinée à Filtrer, regrouper, choisir les données pertinentes, reformater, gérer les métadonnées : Les réseaux participent au traitement des jeux de données via la mise en place de procédures ou logiciels assurant la qualité des données et la qualité des traitements (modélisation et reformatage des données ; mise en base de données ; mise à disposition de moyens informatiques; aide aux choix de la solution la plus adaptée, détection des erreurs de saisie ou des incohérences relatives aux modèles de données, mise en place d’un contrôle qualité)
 
@@ -560,13 +560,13 @@ Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelle
 - Régis Hocdé, Institut de Recherche pour le Développement
 
 
-Métrologie des équipements 
+# Métrologie des équipements 
 
 La confiance dans la qualité d’un recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par des chercheurs différents à des moments différents. De ca fait, il convient d'avoir une totale maitrise des équipements de traitement :
 Métrologie des équipements : https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf
     
 
-Contrôle Qualité des données - Mise en place de procédures qualité
+# Contrôle Qualité des données - Mise en place de procédures qualité
 
 Plusieurs présentations et ateliers sur ce thème ont eu lieu lors de l'ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données »(http://rbdd.cnrs.fr/spip.php?article288) - du 5 au 7 novembre 2018 à Sète. En particulier l'Atelier qualité des données dont les travaux portaient sur les questions suivantes : 
 Quelles sont les différentes notions de qualité des données ?
@@ -598,7 +598,7 @@ http://renatis.cnrs.fr/IMG/pdf/emma-morlock-fredocs-2013.pdf
 
 
 
-5. Analyser
+# 5. Analyser
 
 Contexte: La participation à l’analyse des données se réalise au travers d’un accompagnement sur la mise en place de procédures qualité, par l’optimisation des calculs ou des temps d’accès, ainsi que dans le choix et la mise en œuvre des techniques et outils d’analyse et éventuellement dans leur conception,en fonction des besoins (formats, interopérabilité, performance, ergonomie, visualisation, travail collaboratif...)
 
@@ -681,7 +681,7 @@ https://sist16.sciencesconf.org/data/pages/09_P_Techine.pdf
 
 
 
-6. Archiver, pérenniser  (préserver et archiver)
+# 6. Archiver, pérenniser  (préserver et archiver)
 
 Contexte: L’essentiel de l’accompagnement des réseaux sur cette étape se formalise par l’intégration des notions de pérennisation des données, de traçabilité et d’intégrité des données ainsi que des outils permettant de les exploiter. Les réseaux  sont  également  amenés  à  participer  à  la  définition  des  politiques  de sauvegarde et d’archivage,et à la mise en place des procédures associées dans les collectifs de recherche.
 
@@ -742,7 +742,7 @@ ppt -  https://anfdonnees2017.sciencesconf.org/resource/page/id/3
 
 
 
-7. Publier et diffuser
+# 7. Publier et diffuser
 
 Contexte: Etape finale d’un  projet  de  recherche  impliquant  une  gestion  des  données,  l’accompagnement  des  réseaux s’exerce sur la documentation des données et leurs formats d’exploitation, pour en permettre l’accès et en assurer la reproductibilité ou la réplicabilité. Ainsi les réseaux travaillent sur l’ensemble des informations(données, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial
   
