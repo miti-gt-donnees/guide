@@ -9,6 +9,6 @@ make
 # Télécharger le PDF
 
 - Il faut cliquer sur la fusée dans le menu de gauche ensuite sur `pipelines`. Sur la droite du dernier job
-- vous avez un bouton nommée `downlaod artefact` c'est la!
+- vous avez un bouton nommée `download artefact` c'est la!
 
 
