@@ -1,5 +1,6 @@
 
-Pad de rédaction GT-données
+# Pad de rédaction GT-données
+
 v2.0  18/12/2019
 pour rappel la cartographie des actions des réseaux : http://www.cnrs.fr/mi/IMG/pdf/gtinterreseaux-cartosynthesev6.pdf
 
@@ -7,7 +8,8 @@ Cette nouvelle version v2.0 s'apparente davantage a un centre de ressources édi
 dans laquelle on rassemble les productions de chaque réseau en matiere de gestion de données
 [la 1ere version avec des idées clés, plus textuelle qu'on a abandonnée est là: https://etherpad.in2p3.fr/p/gbp-donnees]
 
-Objectifs: 
+# Objectifs: 
+
     rassembler l'ensemble des productions (formation, conférences, séminaires, présentations...) de chaque réseau apparentées avec la gestion des données, par phase du cycle de vie des données
 
 Le think tank :
@@ -33,7 +35,7 @@ Question sur des options possibles quant à la finalité de ce guide  : Fait-on 
 
 
 
-1. Imaginer
+# 1. Imaginer
 
 Contexte: Les réseaux participent à cette étape du cycle de vie en identifiant les problématiques techniques, en proposant des outils technologiques les plus pertinents pour accompagner la construction, la mise en œuvre du projet et la valorisation des résultats. Pour réaliser cet accompagnement, les réseaux organisent une veille  sur  les  nouvelles  technologies  en  émergence  permettant  le  traitement  et  l’analyse  des  données,  sur  les  nouveaux  supports de valorisation de la recherche,  les  contraintes  et  opportunités  qu’elles  soient  réglementaires,  juridiques  (politiques d’Open Data,  H2020  par  exemple)  ou  bien  techniques, technologiques (TDM, ...) ou encore organisationnelles (plans de gestion de données). L’apport des réseaux dans cette étape est également important en termes de croisement des disciplines et des métiers permettant un accompagnement de haute valeur
 
@@ -99,7 +101,7 @@ Assurer des fonctions de mise en relation (BDD, équipes, technos, disciplines)
 - intégrer des réseaux métiers, réseaux technologiques
 
 
-Gestion des données et principes FAIR
+# Gestion des données et principes FAIR
 
 FaiR ou Fair-RR ? Réutilisation vs Recherche Reproductible ? Atelier Dialogu'IST, 3 décembre 2019
 Dialogu’IST vous propose dans la continuité un 8e atelier, plus particulièrement sur la Réutilisation des données dans le contexte de la Recherche Reproductible et de la Science Ouverte. Après une première partie rappelant le contexte et les enjeux, la seconde partie de la session présentera différents retours d’expériences de formations pour parvenir à la production de données réutilisables, réplicables et reproductibles. Des interventions orales, avec des témoignages et des retours d’expériences, seront proposées aux scientifiques – chercheurs, enseignants-chercheurs, doctorants, ingénieurs – ainsi qu’aux professionnels de l’information. Basé sur la dynamique d’échanges libres et spontanés, cet atelier-formation fera ainsi intervenir tous les acteurs concernés. Afin de donner la parole au plus grand nombre, cet atelier aura lieu en visioconférence, sur les sites organisateurs et sur des sites collaborateurs. Vous pouvez contacter les différents responsables de sites pour nous rejoindre.
@@ -110,7 +112,7 @@ Après une intervention de Francis André, coordinateur de l’alliance RDA Fran
 http://renatis.cnrs.fr/spip.php?article519
 
 
-[Calcul]
+# [Calcul]
 
 
 [RBdD]
@@ -144,7 +146,7 @@ ppt - https://anfdonnees2016.sciencesconf.org/data/pages/ANF_RENATIS_2016_FANDRE
 https://anfdonnees2017.sciencesconf.org/data/pages/ANF_RENATIS_FANDRE_20170703_final.pdf     [plus récente mais pas de vidéo donc à voir ] OK
 
 
-État des lieux / prospection
+# État des lieux / prospection
 
  Big data et métiers de la documentation  (J.M. Saläun, ENS Lyon) - Frédocs 2015 - Mieux accompagner la recherche : réalités d'aujourd'hui et perspectives pour les fonctions IST - 29 septembre - 2 octobre 2015, Saintes-Foy-Lès-Lyon
 Le mouvement dit des "big data" est souvent présenté comme une révolution susceptible de transformer radicalement des pans entiers de l'activité économique. A-t-il une conséquence sur celle des documentalistes ? Bien des caractéristiques de ce mouvement sont familières au monde de la documentation, à commencer par sa structure. Mais la documentarisation de tous les objets et de tous les événements issue de leur numérisation bouleverse les méthodes traditionnelles du métier par les effets d'échelle et les capacités de calcul et modifie sans doute aussi notre relation au savoir. Il est alors indispensable de renouveler les compétences pratiques et de se maintenir éveillé face au renouvellement de la demande de connaissances, même si le raisonnement documentaire reste pérenne.

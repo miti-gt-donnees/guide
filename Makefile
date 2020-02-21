@@ -1,4 +1,4 @@
-PDF := synthese.pdf
+PDF := synthese_2020.pdf
 
 OPT := 	--from markdown \
 	--template=eisvogel.latex \
@@ -11,7 +11,7 @@ md_files := \
 		main.md 
 
 
-action = pandoc -s -o $@ $(md_files) $(OPT)
+action = pandoc -s --toc -o $@ $(md_files) $(OPT)
  
 $(PDF): $(md_files) Makefile
 	$(action)
