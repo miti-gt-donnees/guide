@@ -2,7 +2,7 @@ image: boileaum/pandoc
 
 synthese_2020_pdf:
   script:
-    - sudo apt-get install texlive-lang-french
+    - apt-get install texlive-lang-french
     - make
   tags:
     - docker, pandoc
