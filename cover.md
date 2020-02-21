@@ -14,4 +14,5 @@ margin-left: 64pt
 margin-right: 64pt
 margin-top: 48pt
 margin-bottom: 48pt
+lang: fr-FR
 ...
