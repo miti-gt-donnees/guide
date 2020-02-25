@@ -1,4 +1,4 @@
-image: boileaum/pandoc
+image: pnavaro/pandoc
 
 synthese_2020_pdf:
   script:
