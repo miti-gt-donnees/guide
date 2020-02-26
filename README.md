@@ -6,6 +6,9 @@
 make
 ```
 
+Un [Apercu HTML](https://mi-gt-donnees.pages.math.unistra.fr/synthese) est aussi disponible.
+
+
 # Modifier un fichier
 
 - Choisissez un fichier à modifier
