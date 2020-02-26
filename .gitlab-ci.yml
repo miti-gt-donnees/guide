@@ -1,22 +1,14 @@
 image: pnavaro/pandoc
 
-build:
-  stage: build
-  script:
-    - make
-  tags:
-    - pandoc
-  artifacts:
-    paths:
-      - "synthese_2020.pdf"
-
 pages:
   stage: deploy
   script:
+    - make
     - mkdir public
     - pandoc -s --toc main.md -o public/index.html
   tags:
     - pandoc
   artifacts:
     paths:
+      - "synthese_2020.pdf"
       - public
