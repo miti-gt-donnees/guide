@@ -4,8 +4,7 @@ pages:
   stage: deploy
   script:
     - make
-    - mkdir public
-    - pandoc -s --toc -c pandoc.css main.md -o public/index.html
+    - make html
   tags:
     - pandoc, docker
   artifacts:
