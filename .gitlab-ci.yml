@@ -1,6 +1,7 @@
 image: pnavaro/pandoc
 
-synthese_2020_pdf:
+build:
+  stage: build
   script:
     - make
   tags:
@@ -8,3 +9,11 @@ synthese_2020_pdf:
   artifacts:
     paths:
       - "synthese_2020.pdf"
+
+pages:
+  stage: deploy
+  script:
+    - pandoc -s --toc main.md -o public/index.html
+  artifacts:
+    paths:
+      - public
