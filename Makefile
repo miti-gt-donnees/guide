@@ -6,7 +6,7 @@ OPT := 	--from markdown \
 	--variable titlepage="True"
 # 	--latex-engine=xelatex
 
-md_files := $(filter-out README.md, $(wildcard *.md))
+md_files := $(sort $(filter-out README.md, $(wildcard *.md)))
 
 
 action = pandoc -s --toc -o $@ $(md_files) $(OPT)
