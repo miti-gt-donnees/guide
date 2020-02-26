@@ -7,7 +7,7 @@ pages:
     - mkdir public
     - pandoc -s --toc -c pandoc.css main.md -o public/index.html
   tags:
-    - pandoc
+    - pandoc, docker
   artifacts:
     paths:
       - "synthese_2020.pdf"
