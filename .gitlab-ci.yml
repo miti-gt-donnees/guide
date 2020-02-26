@@ -1,13 +1,21 @@
 image: pnavaro/pandoc
 
-pages:
-  stage: deploy
+pdf:
+  stage: build
   script:
     - make
-    - make html
   tags:
     - pandoc, docker
   artifacts:
     paths:
       - "synthese_2020.pdf"
+
+pages:
+  stage: deploy
+  script:
+    - make html
+  tags:
+    - pandoc, docker
+  artifacts:
+    paths:
       - public
