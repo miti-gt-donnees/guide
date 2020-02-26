@@ -5,7 +5,7 @@ build:
   script:
     - make
   tags:
-    - docker
+    - pandoc
   artifacts:
     paths:
       - "synthese_2020.pdf"
@@ -16,7 +16,7 @@ pages:
     - mkdir public
     - pandoc -s --toc main.md -o public/index.html
   tags:
-    - docker
+    - pandoc
   artifacts:
     paths:
       - public
