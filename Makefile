@@ -16,6 +16,10 @@ action = pandoc -s --toc -o $@ $(md_files) $(OPT)
 $(PDF): $(md_files) Makefile
 	$(action)
 
+html: $(md_files)
+	mkdir -p public 
+	pandoc -s --toc -c pandoc.css $^ -o public/index.html
+
 .PHONY: clean
 
 clean:
