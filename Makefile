@@ -8,7 +8,6 @@ OPT := 	--from markdown \
 
 md_files := $(sort $(filter-out README.md, $(wildcard *.md)))
 
-
 action = pandoc -s --toc -o $@ $(md_files) $(OPT)
  
 $(PDF): $(md_files) Makefile
