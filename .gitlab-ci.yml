@@ -5,7 +5,7 @@ build:
   script:
     - make
   tags:
-    - docker, pandoc
+    - docker
   artifacts:
     paths:
       - "synthese_2020.pdf"
