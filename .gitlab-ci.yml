@@ -14,6 +14,8 @@ pages:
   stage: deploy
   script:
     - pandoc -s --toc main.md -o public/index.html
+  tags:
+    - docker, pandoc
   artifacts:
     paths:
       - public
