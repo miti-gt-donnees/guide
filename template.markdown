@@ -4,6 +4,6 @@ $if(toc-title)$
 
 $endif$
 
-$table-of-contents$
+$toc$
 
 $endif$
