@@ -8,7 +8,7 @@ pages:
     - cp synthese_2020.pdf public/
     - make html
   tags:
-    - pandoc, docker
+    - pandoc
   artifacts:
     paths:
       - public
