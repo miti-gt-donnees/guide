@@ -5,8 +5,8 @@ pages:
   script:
     - make
     - mkdir -p public
-    - cp synthese_2020.pdf public/
     - make html
+    - cp synthese_2020.pdf public/
   tags:
     - pandoc
   artifacts:
