@@ -6,7 +6,6 @@ pages:
     - make
     - mkdir -p public
     - cp synthese_2020.pdf public/
-    - apt-get install -yq mkdocs
     - make html
   tags:
     - pandoc, docker
