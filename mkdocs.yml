@@ -1,0 +1,14 @@
+site_name: Synthese
+
+theme:
+    name: mkdocs
+    include_sidebar: true
+
+nav:
+    - Imaginer: 1.imaginer.md
+    - Concevoir: 2.concevoir_planifier.md
+    - Collecter: 3.collecter.md
+    - Traiter: 4.traiter.md
+    - Analyser: 5.analyser.md
+    - Archiver: 6.archiver.md
+    - Publier: 7.publier.md

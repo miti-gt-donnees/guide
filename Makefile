@@ -15,7 +15,15 @@ $(PDF): $(md_files) Makefile
 
 html: $(md_files)
 	mkdir -p public 
-	pandoc -s --toc -c pandoc.css $^ -o public/index.html
+	rm -rf build
+	mkdocs new build
+	pandoc -s --toc -V toc-title:"Table des matières" --template=template.markdown -o build/toc.md $(filter-out 0.intro.md, $(md_files))
+	cat 0.intro.md build/toc.md > build/docs/index.md
+	cp $(md_files) build/docs
+	cp mkdocs.yml build
+	cd build; mkdocs build --site-dir ../public
+    
+	#pandoc -s --toc -c pandoc.css $^ -o public/index.html
 
 .PHONY: clean
 
