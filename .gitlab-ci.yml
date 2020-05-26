@@ -3,7 +3,6 @@ image: pnavaro/pandoc
 pages:
   stage: deploy
   script:
-    - python -m pip install --user mkdocs-material
     - make
     - mkdir -p public
     - make html

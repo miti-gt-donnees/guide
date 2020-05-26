@@ -1,8 +1,7 @@
 site_name: Synthese
 
 theme:
-    name: material
-    language: fr
+    name: mkdocs
 
 nav:
     - Imaginer: 1.imaginer.md
