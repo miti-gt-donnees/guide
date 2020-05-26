@@ -1,8 +1,8 @@
 site_name: Synthese
 
 theme:
-    name: mkdocs
-    include_sidebar: true
+    name: material
+    language: fr
 
 nav:
     - Imaginer: 1.imaginer.md
