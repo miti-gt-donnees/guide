@@ -18,3 +18,7 @@ lang:
 
 markdown_extensions:
     - footnotes
+
+plugins:
+    - search
+    - add-number
