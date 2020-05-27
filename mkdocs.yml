@@ -15,3 +15,6 @@ nav:
 
 lang:
     default: ['fr']
+
+markdown_extensions:
+    - footnotes
