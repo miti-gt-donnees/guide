@@ -21,4 +21,6 @@ markdown_extensions:
 
 plugins:
     - search
-    - add-number
+    - add-number:
+        increment_topnav: True
+        increment_pages: True
