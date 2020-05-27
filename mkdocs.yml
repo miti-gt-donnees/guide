@@ -11,6 +11,7 @@ nav:
     - Analyser: 5.analyser.md
     - Archiver: 6.archiver.md
     - Publier: 7.publier.md
+    - Conclusion Bibliographie: 8.conclusion.md
 
 lang:
     default: ['fr']
