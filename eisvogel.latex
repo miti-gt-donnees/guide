@@ -446,7 +446,7 @@ $endif$
 % line spacing
 %
 \usepackage{setspace}
-\setstretch{1.2}
+\setstretch{1.5}
 
 %
 % break urls
