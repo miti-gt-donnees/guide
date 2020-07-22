@@ -14,8 +14,6 @@ nav:
     - Archiver: 6.archiver.md
     - Publier: 7.publier.md
     - Conclusion Bibliographie: 8.conclusion.md
-    - Annexe 1: 98.Infrastructures.md
-    - Annexe 2: 99.Reproductibilité.md
 
 lang:
     default: ['fr']
