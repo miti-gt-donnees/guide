@@ -1,43 +1,12 @@
-# Pour créer le pdf à partir des fichiers markdown
-
-- Si pandoc et latex sont installés sur votre poste
-
-```
-make
-```
-
-Un [Apercu HTML](https://mi-gt-donnees.pages.math.unistra.fr/synthese) est aussi disponible.
-
-
-# Modifier un fichier
-
-- Choisissez un fichier à modifier
-- Cliquer sur Edit-WebIDE
-- Modifier le fichier .md markdown en ligne.
-- Vous avez un onglet preview pour voir la version formatée et passer de l’un à l’autre.
-
-# Enregistrer vos modications et les soumettre à relecture
-
-- Lorsque vos changements sont terminés, vous cliquez sur `Commit` en bas à gauche.
-- Laisser les options cochées notamment “Start a new merge request” et “create a new branch”
-- Vous cliquez sur `Commit` et votre `Merge Request` apparait.
-- Dans le champ “Assignee” vous choisissez quelqu’un pour relire votre contribution. Vous pouvez vous désigner vous-même comme relecteur.
-- Ensuite vous cliquez sur `Submit Merge Request`
-
-# Relecture d'une `Merge request`
-
-- La liste de toutes les `Merge requests` est disponible tout en haut à droite. 
-- Pour le relecteur qui recevra un message, en haut vous avez un onglet `Changes` ou vous voyez 
-toutes les contributions avec les numéros de lignes. Vous pouvez cliquer sur ces numéros de lignes pour commencer
-une discussion avec l’auteur sur ses modifications.
-- Lorsque tout est bon, vous revenez dans l’onglet `Overview` et cliquez sur le bouton vert “Merge”
-
-**Les modifications sont validées!**
-
-# Télécharger le PDF
-
-- Il faut cliquer sur la fusée dans le menu de gauche ensuite sur `pipelines`. Sur la droite du dernier job
-- vous avez un bouton nommée `download artefact` c'est la!
-
-
-
+0.	Intro : christine
+1.	Imaginer : christine
+2.	concevoir_planifier : Geneviève 
+3.	collecter : alain
+4.	traiter : violaine
+5.	analyser: violaine 
+6.	archiver: marie claude 
+7.	publier: maurice
+8.	conclusion : 
+9.	glossaire :
+10.	infrastructure : Geneviève
+11.	reproductibilite :
