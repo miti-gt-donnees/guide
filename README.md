@@ -1,3 +1,8 @@
+# Synthese
+
+[Document pdf](https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf)
+
+
 0.	Intro : christine
 1.	Imaginer : christine
 2.	concevoir_planifier : Geneviève 
