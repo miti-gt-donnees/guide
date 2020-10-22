@@ -25,6 +25,13 @@ html: $(md_files)
     
 	#pandoc -s --toc -c pandoc.css $^ -o public/index.html
 
+book:
+	mkdir -p public
+	rm -rf book/_build
+	cp $(md_files) book
+	${HOME}/.local/bin/jupyter-book build book
+	mv book/_build/html public/jupyter-book
+
 .PHONY: clean
 
 clean:
