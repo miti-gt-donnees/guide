@@ -7,7 +7,7 @@ pages:
     - mkdir -p public
     - make html
     - cp synthese_2020.pdf public/
-    - pip install jupyter-book
+    - python3 -m pip install jupyter-book
     - jupyter-book build .                                                          
     - mv _build/html public/new
 
