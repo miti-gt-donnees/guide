@@ -3,7 +3,7 @@
 [Document pdf](https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf)
 
 
-0.	Intro : christine
+0.	[![](https://img.shields.io/badge/synthese-intro-green)](https://mi-gt-donnees.pages.math.unistra.fr/synthese) : Christine
 1.	Imaginer : christine
 2.	concevoir_planifier : Geneviève 
 3.	collecter : alain
