@@ -7,3 +7,6 @@ exclude_patterns: [README.md]
 
 html:
     navbar_number_sections: true
+
+repository:
+    path_to_book: synthese/jupyter-book
