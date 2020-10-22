@@ -22,11 +22,6 @@ html: $(md_files)
 	cp $(md_files) build/docs
 	cp mkdocs.yml build
 	cd build; python3 -m mkdocs build --site-dir ../public
-    
-	#pandoc -s --toc -c pandoc.css $^ -o public/index.html
-
-book:
-	mkdir -p public
 	rm -rf book/_build
 	cp $(md_files) book
 	${HOME}/.local/bin/jupyter-book build book
@@ -36,4 +31,3 @@ book:
 
 clean:
 	rm -f $(PDF)
-
