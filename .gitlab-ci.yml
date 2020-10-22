@@ -5,9 +5,9 @@ pages:
   script:
     - rm -rf public
     - make
-    - mv synthese_2020.pdf public/
     - make book
     - make html
+    - mv synthese_2020.pdf public/
 
   tags:
     - pandoc
