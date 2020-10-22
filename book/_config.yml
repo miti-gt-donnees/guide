@@ -3,7 +3,7 @@ title: Synthèse
 author: Groupe de travail "Atelier Données"
 logo: logo.png
 
-exclude_patterns: [README.md]
+exclude_patterns: [README.md,82.Credits.md,81.Glossaire.md]
 
 html:
     navbar_number_sections: true
