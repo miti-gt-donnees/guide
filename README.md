@@ -4,13 +4,13 @@
 
 
 0.	[![](https://img.shields.io/badge/synthese-intro-green)](https://mi-gt-donnees.pages.math.unistra.fr/synthese) : Christine
-1.	Imaginer : christine
+1.	Imaginer : Christine
 2.	concevoir_planifier : Geneviève 
-3.	collecter : alain
-4.	traiter : violaine
-5.	analyser: violaine 
-6.	archiver: marie claude 
-7.	publier: maurice
+3.	collecter : Alain
+4.	traiter : Violaine
+5.	analyser: Violaine 
+6.	archiver: Marie-Claude 
+7.	publier: Maurice
 8.	conclusion : 
 9.	glossaire :
 10.	infrastructure : Geneviève
