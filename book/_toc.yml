@@ -1,12 +1,12 @@
-- file: intro.md
-
-- file: 1.imaginer.md
-- file: 2.concevoir_planifier.md
-- file: 3.collecter.md
-- file: 4.traiter.md
-- file: 5.analyser.md
-- file: 6.archiver.md
-- file: 7.publier.md
-- file: 8.conclusion.md
-- file: 98.Infrastructures.md
-- file: 99.Reproductibilite.md
+- file: intro
+  sections:
+    - file: 1.imaginer
+    - file: 2.concevoir_planifier
+    - file: 3.collecter
+    - file: 4.traiter
+    - file: 5.analyser
+    - file: 6.archiver
+    - file: 7.publier
+    - file: 8.conclusion
+    - file: 98.Infrastructures
+    - file: 99.Reproductibilite
