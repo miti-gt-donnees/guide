@@ -6,7 +6,9 @@ pages:
     - make
     - mkdir -p public
     - make html
-    - cp synthese_2020.pdf public/
+    - mv synthese_2020.pdf public/
+    - jupyter-book build .                                                          
+    - mv _build/html public/new
 
   tags:
     - pandoc
