@@ -7,6 +7,7 @@ exclude_patterns: [README.md]
 
 html:
     navbar_number_sections: true
+    baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese/jupyter-book/"
 
 repository:
     path_to_book: "synthese/jupyter-book"
