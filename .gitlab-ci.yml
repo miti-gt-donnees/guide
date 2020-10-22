@@ -5,7 +5,6 @@ pages:
   script:
     - rm -rf public
     - make
-    - make book
     - make html
     - mv synthese_2020.pdf public/
 
