@@ -7,6 +7,7 @@ pages:
     - mkdir -p public
     - make html
     - mv synthese_2020.pdf public/
+    - pip3 install --user jupyter-book
     - /home/euler/.local/bin/jupyter-book build .                                                          
     - mv _build/html public/new
 
