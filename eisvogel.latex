@@ -600,7 +600,7 @@ $endif$
 \renewcommand{\footrulewidth}{0.4pt}
 
 \usepackage[left]{lineno}
-\linenumbers
+%% \linenumbers
 %%
 %% end added
 %%
