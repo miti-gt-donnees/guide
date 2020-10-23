@@ -16,6 +16,7 @@ $(PDF): $(md_files) Makefile
 html: $(md_files)
 	rm -rf public
 	mkdir -p public 
+	pandoc README.md -o public/index.html
 	rm -rf build
 	python3 -m mkdocs new build
 	pandoc -s --toc -V toc-title:"Table des matières" --template=template.markdown -o build/toc.md $(filter-out 0.intro.md, $(md_files))

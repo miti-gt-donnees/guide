@@ -1,17 +1,25 @@
-# Synthese
+---                                                                                         
+title: Synthèse
+author: Atelier Données
+date: October 20, 2020                                                                      
+---                                                                                         
+
+Il y a 3 exports html proposés pour ce guide:
+	- [mkdocs](https://mi-gt-donnees.pages.math.unistra.fr/synthese/mkdocs)
+	- [jupyter-book](https://mi-gt-donnees.pages.math.unistra.fr/synthese/jupyter-book)
+	- [bookdown](https://mi-gt-donnees.pages.math.unistra.fr/synthese/bookdown)
 
 [Document pdf](https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf)
 
-
-0.	[![](https://img.shields.io/badge/synthese-intro-green)](https://mi-gt-donnees.pages.math.unistra.fr/synthese) : Christine
+0.	Introduction : Christine
 1.	Imaginer : Christine
-2.	concevoir_planifier : Geneviève 
-3.	collecter : Alain
-4.	traiter : Violaine
-5.	analyser: Violaine 
-6.	archiver: Marie-Claude 
-7.	publier: Maurice
-8.	conclusion : 
-9.	glossaire :
-10.	infrastructure : Geneviève
-11.	reproductibilite :
+2.	Concevoir-Planifier : Geneviève 
+3.	Collecter : Alain
+4.	Traiter : Violaine
+5.	Analyser: Violaine 
+6.	Archiver: Marie-Claude 
+7.	Publier: Maurice
+8.	Conclusion : 
+9.	Glossaire :
+10.	Infrastructure : Geneviève
+11.	Reproductibilite :

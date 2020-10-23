@@ -3,7 +3,6 @@ image: pnavaro/pandoc
 pages:
   stage: deploy
   script:
-    - rm -rf public
     - make
     - make html
     - mv synthese_2020.pdf public/
