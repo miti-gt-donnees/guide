@@ -1,6 +1,6 @@
 ---
-title: "A Book"
-author: "Frida Gomam"
+title: "Synthèse"
+author: "Atelier Données"
 output:
   bookdown::html_book:
     toc: yes
