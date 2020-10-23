@@ -10,6 +10,8 @@
     - file: 7.publier.md
     - file: 8.conclusion.md
 
-- file: 98.Infrastructures.md
-- file: 99.Reproductibilite.md
-- file: 82.Credits.md
+- part: Annexes
+  numbered: false
+    - file: 98.Infrastructures.md
+    - file: 99.Reproductibilite.md
+    - file: 82.Credits.md
