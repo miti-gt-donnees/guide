@@ -27,6 +27,8 @@ html: $(md_files)
 	mv book/0.intro.md book/intro.md
 	${HOME}/.local/bin/jupyter-book build book
 	mv book/_build/html public/jupyter-book
+	cp $(md_files) down
+	cd down; Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
 
 .PHONY: clean
 

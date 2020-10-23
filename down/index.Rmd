@@ -1,0 +1,7 @@
+---
+title: "A Book"
+author: "Frida Gomam"
+output:
+  bookdown::html_book:
+    toc: yes
+---
