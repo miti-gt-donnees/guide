@@ -5,3 +5,5 @@ output:
   bookdown::html_book:
     toc: yes
 ---
+
+# Synthese {-}
