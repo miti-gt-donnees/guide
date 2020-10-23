@@ -12,7 +12,7 @@
     - file: 7.publier.md
     - file: 8.conclusion.md
 
-- part: Annexes
+- part: 
   numbered: false
   chapters:
     - file: 98.Infrastructures.md
