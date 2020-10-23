@@ -11,3 +11,6 @@ html:
 
 repository:
     path_to_book: "synthese/jupyter-book"
+
+parse:
+  myst_extended_syntax: true
