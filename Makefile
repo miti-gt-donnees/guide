@@ -14,6 +14,7 @@ $(PDF): $(md_files) Makefile
 	$(action)
 
 html: $(md_files)
+	rm -rf public
 	mkdir -p public 
 	rm -rf build
 	python3 -m mkdocs new build
@@ -21,7 +22,7 @@ html: $(md_files)
 	cat 0.intro.md build/toc.md > build/docs/index.md
 	cp $(md_files) build/docs
 	cp mkdocs.yml build
-	cd build; python3 -m mkdocs build --site-dir ../public
+	cd build; python3 -m mkdocs build --site-dir ../public/mkdocs
 	rm -rf book/_build
 	cp $(md_files) book
 	mv book/0.intro.md book/intro.md
