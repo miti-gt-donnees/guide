@@ -5,7 +5,3 @@ output:
   bookdown::html_book:
     toc: yes
 ---
-
-# Synthèse
-
-Atelier Données
