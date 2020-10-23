@@ -12,6 +12,6 @@
 
 - part: Annexes
   numbered: false
-    - file: 98.Infrastructures.md
-    - file: 99.Reproductibilite.md
-    - file: 82.Credits.md
+  - file: 98.Infrastructures.md
+  - file: 99.Reproductibilite.md
+  - file: 82.Credits.md
