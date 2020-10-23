@@ -6,4 +6,4 @@ output:
     toc: yes
 ---
 
-# Synthese {-}
+# Cycle de vie des données {-}
