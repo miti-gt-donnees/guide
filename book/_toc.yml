@@ -1,4 +1,5 @@
 - file: intro
+  numbered: true
   sections:
     - file: 1.imaginer.md
     - file: 2.concevoir_planifier.md
