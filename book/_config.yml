@@ -8,6 +8,7 @@ exclude_patterns: [README.md,81.Glossaire.md]
 html:
     navbar_number_sections: true
     baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese"
+    use_repository_button: true
 
 repository:
     path_to_book: "synthese"
