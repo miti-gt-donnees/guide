@@ -1,5 +1,5 @@
 # Book settings
-title: Synthèse
+title: Guide de bonnes pratiques sur les données
 author: Groupe de travail "Atelier Données"
 logo: logo.png
 
@@ -7,10 +7,11 @@ exclude_patterns: [README.md,81.Glossaire.md]
 
 html:
     navbar_number_sections: true
-    baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese/jupyter-book/"
+    baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese"
 
 repository:
-    path_to_book: "synthese/jupyter-book"
+    path_to_book: "synthese"
+    url         : https://gitlab.math.unistra.fr/mi-gt-donnees/synthese
 
 parse:
   myst_extended_syntax: true
