@@ -2,7 +2,7 @@
 
 Groupe de travail "Atelier Données"
 
-[![](https://img.shields.io/badge/jupyter-book-blue)](https://mi-gt-donnees.pages.math.unistra.fr/synthese) [![](https://img.shields.io/badge/pdf-document-blue)](https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf)
+[![](https://img.shields.io/badge/jupyter-book-blue)](https://mi-gt-donnees.pages.math.unistra.fr/synthese) [![](https://img.shields.io/badge/pdf-document-blue)](https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf) [![pipeline status](https://gitlab.math.unistra.fr/mi-gt-donnees/synthese/badges/master/pipeline.svg)](https://gitlab.math.unistra.fr/mi-gt-donnees/synthese/-/commits/master)
 
 0.	Introduction : Christine
 1.	Imaginer : Christine
