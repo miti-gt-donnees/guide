@@ -1,15 +1,9 @@
 ---                                                                                         
-title: Synthèse
+title: Guide bonnes pratiques sur les données
 author: Atelier Données
 date: October 20, 2020                                                                      
 ---                                                                                         
-
-Il y a 3 exports html proposés pour ce guide:
-	- [mkdocs](https://mi-gt-donnees.pages.math.unistra.fr/synthese/mkdocs)
-	- [jupyter-book](https://mi-gt-donnees.pages.math.unistra.fr/synthese/jupyter-book)
-	- [bookdown](https://mi-gt-donnees.pages.math.unistra.fr/synthese/bookdown)
-
-[Document pdf](https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf)
+[![](https://img.shields.io/badge/jupyter-book-blue)](https://mi-gt-donnees.pages.math.unistra.fr/synthese) [![](https://img.shields.io/badge/pdf-document-blue)](https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf)
 
 0.	Introduction : Christine
 1.	Imaginer : Christine

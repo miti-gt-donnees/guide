@@ -1,9 +1,0 @@
----
-title: "Synthèse"
-author: "Atelier Données"
-output:
-  bookdown::html_book:
-    toc: yes
----
-
-# Cycle de vie des données {-}

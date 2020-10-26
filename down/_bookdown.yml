@@ -1,4 +1,0 @@
-rmd_files: ["index.Rmd", "0.intro.md", "1.imaginer.md", "2.concevoir_planifier.md", "3.collecter.md", "4.traiter.md", "5.analyser.md", "6.archiver.md", "7.publier.md", "8.conclusion.md"]
-output_dir: "../public/bookdown"
-delete_merged_file: true
-
