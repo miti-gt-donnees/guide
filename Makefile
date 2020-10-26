@@ -15,12 +15,11 @@ $(PDF): $(md_files) Makefile
 
 html: $(md_files)
 	rm -rf public
-	mkdir -p public 
 	rm -rf book/_build
 	cp $(md_files) book
 	mv book/0.intro.md book/intro.md
 	${HOME}/.local/bin/jupyter-book build book
-	mv book/_build/html/* public
+	mv book/_build/html public
 
 .PHONY: clean
 
