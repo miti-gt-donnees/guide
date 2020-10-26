@@ -1,8 +1,7 @@
----                                                                                         
-title: Guide de bonnes pratiques sur les données
-author: Atelier Données
-date: October 20, 2020                                                                      
----                                                                                         
+# Guide de bonnes pratiques sur les données
+
+Groupe de travail "Atelier Données"
+
 [![](https://img.shields.io/badge/jupyter-book-blue)](https://mi-gt-donnees.pages.math.unistra.fr/synthese) [![](https://img.shields.io/badge/pdf-document-blue)](https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf)
 
 0.	Introduction : Christine
