@@ -20,7 +20,7 @@ html: $(md_files)
 	cp $(md_files) book
 	mv book/0.intro.md book/intro.md
 	${HOME}/.local/bin/jupyter-book build book
-	mv book/_build/html public
+	mv book/_build/html/* public
 
 .PHONY: clean
 
