@@ -1,5 +1,5 @@
 ---                                                                                         
-title: Guide bonnes pratiques sur les données
+title: Guide de bonnes pratiques sur les données
 author: Atelier Données
 date: October 20, 2020                                                                      
 ---                                                                                         
