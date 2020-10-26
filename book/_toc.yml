@@ -19,4 +19,5 @@
     - file: 99.Reproductibilite.md
     - file: 82.Credits.md
 
-- url: "https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf"
+- title: PDF
+  url: https://mi-gt-donnees.pages.math.unistra.fr/synthese/synthese_2020.pdf
