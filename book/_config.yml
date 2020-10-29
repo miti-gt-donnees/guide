@@ -10,11 +10,9 @@ repository:
     branch: master
 
 html:
-    navbar_number_sections: true
     baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese"
     use_repository_button: true
     use_edit_page_button: false
-
 
 parse:
   myst_extended_syntax: true
