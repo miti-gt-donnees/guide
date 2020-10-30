@@ -4,8 +4,6 @@ pages:
   stage: deploy
   script:
     - make
-    - make html
-    - mv synthese_2020.pdf public/
 
   tags:
     - pandoc
