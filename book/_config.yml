@@ -16,3 +16,16 @@ html:
 
 parse:
   myst_extended_syntax: true
+
+sphinx:
+  config:
+    language: 'fr'
+    latex_logo: 'logo_small.png'
+    latex_toplevel_sectioning: 'chapter'
+
+latex:
+  latex_documents:
+     targetname: guide_donnees.tex
+     title: "Guide de bonnes pratiques"
+     author: "Atelier Données"
+     theme: "manual"
