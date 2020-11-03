@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -78,6 +78,7 @@ var addUtterances = () => {
 }
 commentsRunWhenDOMLoaded(addUtterances);
 </script>
+    <script src="_static/translations.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.be0a4a0c39cd630af62a2fcf693f3f06.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
@@ -87,13 +88,23 @@ commentsRunWhenDOMLoaded(addUtterances);
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="canonical" href="https://guide-donnees.github.io/markdown.html" />
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Search" href="search.html" />
+    <link rel="search" title="Recherche" href="search.html" />
     <link rel="prev" title="Content in Jupyter Book" href="content.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
 
+
+<!-- Opengraph tags -->
+<meta property="og:url"         content="https://guide-donnees.github.io/markdown.html" />
+<meta property="og:type"        content="article" />
+<meta property="og:title"       content="Markdown Files" />
+<meta property="og:description" content="Markdown Files  Whether you write your book’s content in Jupyter Notebooks (.ipynb) or in regular markdown files (.md), you’ll write in the same flavor of markd" />
+<meta property="og:image"       content="https://guide-donnees.github.io/_static/logo.png" />
+
+<meta name="twitter:card" content="summary" />
 
 
   </head>
@@ -118,7 +129,7 @@ commentsRunWhenDOMLoaded(addUtterances);
 
 <form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
 </form>
 
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
@@ -168,15 +179,15 @@ commentsRunWhenDOMLoaded(addUtterances);
         
         <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
             data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
             <i class="fas fa-bars"></i>
             <i class="fas fa-arrow-left"></i>
             <i class="fas fa-arrow-up"></i>
         </button>
         
         <div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
             class="fas fa-download"></i></button>
 
     
@@ -185,21 +196,36 @@ commentsRunWhenDOMLoaded(addUtterances);
         
         <!-- Download raw file -->
         <a class="dropdown-buttons" href="_sources/markdown.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
             onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
     </div>
     
 </div>
         <!-- Source interaction buttons -->
 
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://gitlab.math.unistra.fr/mi-gt-donnees/synthese"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Dépôt source"><i
+                    class="fab fa-github"></i>dépôt</button></a>
+        
+        <a class="edit-button" href="https://github.com/mi-gt-donnees/synthese/edit/master/markdown.md"><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Modifier cette page"><i class="fas fa-pencil-alt"></i>problème ouvert</button></a>
+    </div>
+</div>
+
 
         <!-- Full screen (wrap in <a> to have style consistency -->
         <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-                title="Fullscreen mode"><i
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                title="Mode plein écran"><i
                     class="fas fa-expand"></i></button></a>
 
         <!-- Launch buttons -->
@@ -210,7 +236,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
+            <i class="fas fa-list"></i> Contenu
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -248,19 +274,19 @@ commentsRunWhenDOMLoaded(addUtterances);
               <div>
                 
   <div class="section" id="markdown-files">
-<h1>Markdown Files<a class="headerlink" href="#markdown-files" title="Permalink to this headline">¶</a></h1>
+<h1>Markdown Files<a class="headerlink" href="#markdown-files" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Whether you write your book’s content in Jupyter Notebooks (<code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or
 in regular markdown files (<code class="docutils literal notranslate"><span class="pre">.md</span></code>), you’ll write in the same flavor of markdown
 called <strong>MyST Markdown</strong>.</p>
 <div class="section" id="what-is-myst">
-<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Permalink to this headline">¶</a></h2>
-<p>MyST stands for “Markedly Structured Text”. It
-is a slight variation on a flavor of markdown called “CommonMark” markdown,
+<h2>What is MyST?<a class="headerlink" href="#what-is-myst" title="Lien permanent vers ce titre">¶</a></h2>
+<p>MyST stands for « Markedly Structured Text ». It
+is a slight variation on a flavor of markdown called « CommonMark » markdown,
 with small syntax extensions to allow you to write <strong>roles</strong> and <strong>directives</strong>
 in the Sphinx ecosystem.</p>
 </div>
 <div class="section" id="what-are-roles-and-directives">
-<h2>What are roles and directives?<a class="headerlink" href="#what-are-roles-and-directives" title="Permalink to this headline">¶</a></h2>
+<h2>What are roles and directives?<a class="headerlink" href="#what-are-roles-and-directives" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Roles and directives are two of the most powerful tools in Jupyter Book. They
 are kind of like functions, but written in a markup language. They both
 serve a similar purpose, but <strong>roles are written in one line</strong>, whereas
@@ -268,7 +294,7 @@ serve a similar purpose, but <strong>roles are written in one line</strong>, whe
 and what they do with those inputs depends on the specific role or directive
 that is being called.</p>
 <div class="section" id="using-a-directive">
-<h3>Using a directive<a class="headerlink" href="#using-a-directive" title="Permalink to this headline">¶</a></h3>
+<h3>Using a directive<a class="headerlink" href="#using-a-directive" title="Lien permanent vers ce titre">¶</a></h3>
 <p>At its simplest, you can insert a directive into your book’s content like so:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>```{mydirectivename}
 My directive content
@@ -294,7 +320,7 @@ Here is a note
 <a class="reference external" href="https://myst-parser.readthedocs.io/">MyST documentation</a>.</p>
 </div>
 <div class="section" id="using-a-role">
-<h3>Using a role<a class="headerlink" href="#using-a-role" title="Permalink to this headline">¶</a></h3>
+<h3>Using a role<a class="headerlink" href="#using-a-role" title="Lien permanent vers ce titre">¶</a></h3>
 <p>Roles are very similar to directives, but they are less-complex and written
 entirely on one line. You can insert a role into your book’s content with
 this pattern:</p>
