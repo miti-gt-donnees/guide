@@ -1,3 +1,5 @@
-[![Licence Creative Commons](https://i.creativecommons.org/l/by/3.0/fr/88x31.png)](http://creativecommons.org/licenses/by/3.0/fr/)
+# Licence
 
-Ce(tte) œuvre est mise à disposition selon les termes de la [Licence Creative Commons Attribution 3.0 France](http://creativecommons.org/licenses/by/3.0/fr/).
+Cet ouvrage est mis à disposition selon les termes de la licence Creative Commons CC BY 4.0
+
+[![](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/deed.fr)
