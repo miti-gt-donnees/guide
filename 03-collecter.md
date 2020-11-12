@@ -30,9 +30,8 @@ Catherine Morel-Pair propose une présentation riche et complète sur les format
 - La première partie de sa présentation porte sur les fichiers de données (organisation et nommage, format et critères d’interopérabilité-pérennité) 
 - la deuxième partie est dédiée aux métadonnées et à la documentation  (définitions, présentation des standards, des identifiants pérennes pour les données et syntaxes d’échange). Elle termine par un focus sur les sites de dépôt, de portails ou d’entrepôts de données et leur schéma de métadonnées associées.
 
-```{admonition} Réference
+```{admonition} [Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données](https://anfdonnees2016.sciencesconf.org/data/pages/2016_07_07_ANF_Renatis_Formats_Standards_et_Metadonnees_1.pdf)
 :class: seealso
-[Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données](https://anfdonnees2016.sciencesconf.org/data/pages/2016_07_07_ANF_Renatis_Formats_Standards_et_Metadonnees_1.pdf)
 [vidéo](https://youtu.be/obGDFrXyBiU?t=3)  
 Catherine Morel-Pair , INIST, CNRS  
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données" -2016 Paris   
@@ -42,9 +41,8 @@ ANF "Participer à l'organisation du management des données de la recherche : g
 
 Cette présentation de Marie Puren a été conçue pour animer un atelier de formation qui avait pour objectif de définir et comprendre l’importance des métadonnées dans le cadre de la rédaction d’un DMP. Elle définit, en donnant des exemples, ce qu’est une métadonnée, à quoi elle sert, quelle information elle donne. Elle distingue et détaille la spécificité des métadonnées de description, des métadonnées de gestion et des métadonnées de préservation. Elle aborde ensuite le chapitre du cycle de vie des métadonnées (créer, entretenir, mettre à jour, stocker, gérer la suppression des données, publier). Elle spécifie les métadonnées à faire figurer dans un DMP, explique comment les collecter et propose quelques outils d’extraction automatique de métadonnées. Autour de la notion de métadonnée, elle précise l’importance de définir des responsabilités en s’appuyant sur les chercheurs, documentalistes, bibliothécaires et informaticiens. Elle complète sa présentation avec une description des principaux standards interdisciplinaires et disciplinaires de métadonnées. Elle explique où et comment choisir ces standards. Elle explique également l’intérêt d’associer des ontologies ou vocabulaires contrôlés. Les dernières recommandations de sa présentation portent sur la gestion des métadonnées à long terme, l’importance d’évaluer leur qualité et revient sur la notion d’ouverture des métadonnées et la nécessité de choisir des licences pour nos métadonnées.
 
-```{admonition} Réference
+```{admonition} [Les métadonnées dans un DMP](https://anfdonnees2017.sciencesconf.org/data/pages/20170706_dmp_metadonnees_puren_1.pdf)  
 :class: seealso
-[Les métadonnées dans un DMP](https://anfdonnees2017.sciencesconf.org/data/pages/20170706_dmp_metadonnees_puren_1.pdf)  
 Marie Puren, INRIA  
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données", réseau Renatis, Paris, 2017   
 ```
@@ -82,9 +80,8 @@ L'échange de données d'une plateforme à l'autre se fait au travers de protoco
 
 Les standards OGC sont importants à connaitre dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l'INSU. Pour ce dernier réseau, l'interopérabilité dans la gestion des données des Observatoires de l'INSU est un enjeu important.
 
-```{admonition} Réference
+```{admonition} [Les Normes OGC (Open Geospatial Consortium)](https://sist15.sciencesconf.org/data/program/ogc.pdf)   
 :class: seealso
-[Les Normes OGC (Open Geospatial Consortium)](https://sist15.sciencesconf.org/data/program/ogc.pdf)   
 François André, Aeris   
 Séminaire SIST15 - OSU Pytheas Marseille
 ```
@@ -96,27 +93,24 @@ Grâce à ce protocole, on peut constituer des réseaux de catalogues tels que d
    
 Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d'interopérabilité WMS, CSW, SOS et qui permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d'observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.
 
-```{admonition} Réference
+```{admonition} ["Gestion des données d'observation : les outils informatiques pour la valorisation" ](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)   
 :class: seealso
-["Gestion des données d'observation : les outils informatiques pour la valorisation" ](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)   
 ANF SIST17 Fréjus - ANF SIST18 Autrans   
 ```
 
 De nombreux instituts et auteurs, gestionnaires de données suivent  ces standards OGC : 
 
 Sylvain Grelet communique par exemple le retour d'expérience sur l'utilisation et le déploiement des standards d'interopérabilité au BRGM :
-```{admonition} Réference
+```{admonition} [De la définition au déploiement de standards d'interopérabilité :](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz#pdfviewer) retour d'expérience de la Direction des Systèmes d'Information (DSI) du BRGM   
 :class: seealso
-[De la définition au déploiement de standards d'interopérabilité :](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz#pdfviewer) retour d'expérience de la Direction des Systèmes d'Information (DSI) du BRGM   
 Grellet Sylvain, Stéphane Loigerot, BRGM   
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)  
 ```
 
 Véronique Chaffard nous présente la mise en oeuvre des standards de l'OGC dans le projet AMMA-CATCH :
 
-```{admonition} Réference 
+```{admonition} [Portail Web d'accès aux données de l'observatoire AMMA-CATCH et mise en oeuvre des standards d'échange des données OGC ](<https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz>)   
 :class: seealso
-[Portail Web d'accès aux données de l'observatoire AMMA-CATCH et mise en oeuvre des standards d'échange des données OGC ](<https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz>)   
 Véronique Chaffard, IRD  
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)
 ```
@@ -130,9 +124,8 @@ Il est important que le processus de collecte des données soit clairement défi
 Par nature, la recherche n’est pas un processus répétitif, elle est pleine d'aléas et d'incertitudes contrairement à un processus industriel. 
 La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par des chercheurs différents à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées, cela est le cas de toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse) et que la traçabilité des activités de recherche soit ainsi assurée. 
 
-```{admonition} Réference
+```{admonition} [Confirmation métrologique des équipements](<https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf>)    
 :class: seealso
-[Confirmation métrologique des équipements](<https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf>)    
 Virginie JAN LOGASSI, DAPEQ LUE   
 ANF Outils qualité, réseau QeR, 2019       
 ```
@@ -146,9 +139,8 @@ En débutant par un point sur l’état de l’art (définition, réglementation
 - Quels sont les critères de surveillance et systèmes de contrôle des installations ? 
 - Comment doit-on travailler en salles propres ? Quelles sont les bonnes pratiques de gestion d'une salle propre ?
 
-```{admonition} Réference
+```{admonition} [Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences](<https://sallespropres17.sciencesconf.org/program>)   
 :class: seealso
-[Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences](<https://sallespropres17.sciencesconf.org/program>)   
 Journée thématique, réseau QeR, 2017   
 ```
 
@@ -164,9 +156,8 @@ Pour la gestion des capteurs, l'[OGC (Open Geospatial Consortium)](https://www.o
 
 Le protocole "SOS" (Sensor observation service) de l'OGC permet de présenter de manière standardisée les données issues de capteurs de terrain de manière interopérable. Ce standard définit une interface de service Web qui permet d'interroger les observations, les métadonnées des capteurs, ainsi que les représentations des caractéristiques observées. En outre, cette norme définit les moyens d'enregistrer de nouveaux capteurs et de supprimer les capteurs existants. Elle définit également les opérations permettant d'insérer de nouvelles observations de capteurs. 
 
-```{admonition} Réference
+```{admonition} [Sensor Web Enablement Standards & Technology](<https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk>)   
 :class: seealso
-[Sensor Web Enablement Standards & Technology](<https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk>)   
 Christoph Stasch, Simon Jirka,52North   
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)
 ```
@@ -177,9 +168,8 @@ Actuellement on trouve deux implémentations intéressantes du protocole SOS dan
 
 istSOS est un logiciel libre et fonctionne sur toutes les principales plates-formes (Windows, Linux, Mac OS X), même s'il n'a été utilisé en production que dans l'environnement Linux.
 
-```{admonition} Réference
+```{admonition} [Présentation du logiciel istSOS](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2FVideos-presentations-2409-apresmidi)   
 :class: seealso
-[Présentation du logiciel istSOS](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2FVideos-presentations-2409-apresmidi)   
 Massimiliano Canata   
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org) 
 ```
@@ -188,9 +178,8 @@ Ces 2 logiciels ont été présentés par Christoph Stasch, et Massimiliano Cana
 
 Stephane Debard présente l'utilisation d'istSOS dans la gestion de mesures altimétriques radars : 
 
-```{admonition} Réference
+```{admonition} [Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS ](https://sist19.sciencesconf.org/data/pages/SIST19_S_Debard.pdf)   
 :class: seealso
-[Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS ](https://sist19.sciencesconf.org/data/pages/SIST19_S_Debard.pdf)   
 Stéphane Debard IRD   
 [Séminaire SIST19 OMP Toulouse](http://sist19.sciencesconf.org)   
 ```
@@ -200,23 +189,21 @@ Les gestionnaires de données environnementales mettent en place des chaînes de
 
 Regis Hocdé et ses collègues nous présentent un retour d'expérience sur le réseau de suivi de température des eaux côtières dans la région du Pacifique Sud et Sud-Ouest :
 
-```{admonition} Réference
+```{admonition} [Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2F#pdfviewer)   
 :class: seealso
-[Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2F#pdfviewer)   
 Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement    
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)   
 ```
-```{admonition} Réference
+```{admonition} [Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf>)   
 :class: seealso
-[Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf>)   
 Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de Recherche pour le Développement    
 Séminaire SIST16, OSU OREME Montpellier 
 ```
 
 Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d'un réseau de stations météorologiques de la région rennaise.
-```{admonition} Réference
+
+```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2F#pdfviewer) :  exemple de la métropole rennaise (Zone Atelier Armorique)   
 :class: seealso
-[Collecte de mesures météorologiques à l’aide d’un système autonome](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2F#pdfviewer) :  exemple de la métropole rennaise (Zone Atelier Armorique)   
 Alban Thomas - Hervé Quénol UMR LETG Rennes    
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)   
 ```
@@ -240,9 +227,8 @@ L’ensemble des données produites par la recherche doit être répertorié et 
 
 Alain Rivet positionne le cahier de laboratoire comme un outil de gestion des données de la recherche : 
 
-```{admonition} Réference
+```{admonition} [Cahier de laboratoire et gestion des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Rivet.pdf)
 :class: seealso
-[Cahier de laboratoire et gestion des données de la recherche](<http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Rivet.pdf>)   
 Alain Rivet, CERMAV  
 Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserver ? »,réeau Renatis, 2020   
 ```
@@ -256,38 +242,33 @@ Le site [datacc.org](https://www.datacc.org) consacre la mise en œuvre d’un s
 
 Diverses expérimentations au sein de structures de recherche ont été réalisées :
 
-```{admonition} Réference
+```{admonition} [Les cahiers de laboratoire électroniques : atelier elabFTW](https://eq2020.sciencesconf.org/data/pages/06_QuaRES_EQ2020_A1_Rivet_Valeins.pdf)  
 :class: seealso
-[Les cahiers de laboratoire électroniques : atelier elabFTW](https://eq2020.sciencesconf.org/data/pages/06_QuaRES_EQ2020_A1_Rivet_Valeins.pdf)  
 Alain Rivet, Henri Valeins, CNRS    
 Ecole QUARES, Montpellier, 2020
 ```
 
-```{admonition} Réference
+```{admonition} [Utilisation du cahier de laboratoire électronique BIOVIA au sein de l'Institut de Biologie Structurale](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_laguri.pdf)   
 :class: seealso
-[Utilisation du cahier de laboratoire électronique BIOVIA au sein de l'Institut de Biologie Structurale](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_laguri.pdf)   
 Cédric Laguri, IBS   
 ANF "Traçabilité des activités de recherche et gestion des connaissances", Réseau Qualité en Recherche, Grenoble, 16-18 octobre 2017   
 ```
 
 L'INSERM s'est fortement intéressé à la version numérique des cahiers de laboratoires, comme une réplique du cahier papier. L'INSERM pense que si la version électronique reste une solution d’enregistrement au quotidien des expériences scientifiques, c’est désormais devenu un outil différent, fortement axé sur la qualité, la gestion de la connaissance, la gestion de projets et le travail collaboratif. Paul-Guy Dupré et ses collaborateurs présentent les cahiers de laboratoires qui ont été mis en place à l'INSERM :
 
-```{admonition} Réference
+```{admonition} [Expérimentation du cahier de laboratoire électronique à l’Inserm](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_dupre.pdf)  
 :class: seealso
-[Expérimentation du cahier de laboratoire électronique à l’Inserm](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_dupre.pdf)  
 Paul-Guy Dupré, INSERM    
 ANF "Traçabilité des activités de recherche et gestion des connaissances", Réseau QeR, Grenoble, 2017 
 ```
 
-```{admonition} Réference
+```{admonition} [Expérimentation du cahier de laboratoire électronique à l’Inserm : les apports de l’électronique au cahier de laboratoire](https://conf-ng.jres.org/2017/document_revision_2866.html?download)   
 :class: seealso
-[Expérimentation du cahier de laboratoire électronique à l’Inserm : les apports de l’électronique au cahier de laboratoire](https://conf-ng.jres.org/2017/document_revision_2866.html?download)   
 Paul-Guy Dupré, Fanny Brizzi Inserm, DSI   
 [JRES2017  ](https://2017.jres.org/fr/contenu-th%C3%A9matique)  
 ```
-```{admonition} Réference
+```{admonition} [Déploiement du cahier de laboratoire  électronique à l’INSERM et nouvelles perspectives]( https://conf-ng.jres.org/2019/document_revision_5213.html?download)   
 :class: seealso
-[Déploiement du cahier de laboratoire  électronique à l’INSERM et nouvelles perspectives]( https://conf-ng.jres.org/2019/document_revision_5213.html?download)   
 PaulGuy Dupré Inserm & Claudia Gallina-Muller - Inserm DSI   
 [JRES2019  ](https://www.jres.org/fr/programme/)   
 ```
@@ -316,9 +297,8 @@ Deux solutions ont été étudiées au Centre d'Ecologie Fonctionnelle et Evolut
 
 Un premier retour d'expérience basé sur QGIS détaille l'étude et le développement d'un ensemble d'outils interopérables avec le système d'information du laboratoire CEFE et qui permet aux intervenants sur le terrain de collecter les données :
 
-```{admonition} Réference
+```{admonition} [Carnet de terrain électronique, Retour d’expérience sur la création d’une boite à outils](http://video.rmll.info/videos/carnet-de-terrain-electronique/)   
 :class: seealso
-[Carnet de terrain électronique, Retour d’expérience sur la création d’une boite à outils](http://video.rmll.info/videos/carnet-de-terrain-electronique/)   
 Marie-Claude Quidoz, CEFE  
 15èmes Rencontres Mondiales du Logiciel Libre, Montpellier, 2014    
 ```
@@ -327,18 +307,16 @@ Les deux solutions étudiées au CEFE (application nomade basée sur QGIS et app
 
 Des applicatifs « clef en main » ont été développés à partir du moteur ODK. Le plus connu est sans doute [KoboToolbox](https://www.kobotoolbox.org/), qui, aux fonctionnalités de base, a ajouté quelques fonctionnalités supplémentaires telles que le Formbuilder et la bibliothèque de questions.
 
-```{admonition} Réference
+```{admonition} [Collecte de données terrain avec un smartphone : Prise en main de Kobotolbox et de Kobocollect](https://github.com/OSGeo-fr/FOSS4G-fr-2018/blob/master/ateliers/Atelier-kobo.pdf)   
 :class: seealso
-[Collecte de données terrain avec un smartphone : Prise en main de Kobotolbox et de Kobocollect](https://github.com/OSGeo-fr/FOSS4G-fr-2018/blob/master/ateliers/Atelier-kobo.pdf)   
 Akaouette, Ata Franck   
 FOSS4G-fr, Marne-la-vallée, 2018   
 ```
 
 De nombreuses autres solutions sont aussi envisageables, nous invitons le lecteur a consulté les ateliers et séminaires suivants pour en découvrir leurs avantages et inconvénients :
  
-```{admonition} Réference
+```{admonition} [Atelier « Carnets de terrain électroniques »](http://rbdd.cnrs.fr/spip.php?article270)   
 :class: seealso
-[Atelier « Carnets de terrain électroniques »](http://rbdd.cnrs.fr/spip.php?article270)   
 Réseau Zones Ateliers, Montpellier, 2018   
 
 [Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? »](http://rbdd.cnrs.fr/spip.php?article206)   
@@ -347,9 +325,8 @@ Réseau rBDD, Paris, 2016
 
 Il est à noter que la collecte sur le terrain nécessite de s'équiper d'un matériel apte à être utilisé sur des terrains parfois hostiles. Le choix de l'équipement conditionne aussi le choix de la solution logicielle comme le montre Marie-Claude Quidoz lors de cette présentation :
 
-```{admonition} Réference
+```{admonition} [Carnet de terrain électronique](https://indico.mathrice.fr/event/27/contribution/11/material/slides/)   
 :class: seealso
-[Carnet de terrain électronique](https://indico.mathrice.fr/event/27/contribution/11/material/slides/)   
 [video](https://indico.mathrice.fr/event/27/contribution/11/material/0/)   
 Marie-Claude Quidoz, CEFE   
 Séminaire « les technologies mobiles : retours d'expériences et prospectives », Réseau ResInfo, Paris, 2016   
@@ -365,9 +342,8 @@ Séminaire « les technologies mobiles : retours d'expériences et prospectives 
 
 Fruit d’une collaboration initiale entre l'Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENSs à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.
 
-```{admonition} Référence
+```{admonition} [Stockez et retrouvez vos échantillons avec Collec-Science](http://rbdd.cnrs.fr/spip.php?article304)   
 :class: seealso
-[Stockez et retrouvez vos échantillons avec Collec-Science](http://rbdd.cnrs.fr/spip.php?article304)   
 Marie-Claude Quidoz   
 ```
 
@@ -375,16 +351,14 @@ Marie-Claude Quidoz
 
 Dès la phase de collecte, il convient de se préoccuper des aspects de stockage et de sauvegarde qui seront plus largement abordés dans la phase 6 du cycle de vie des données. En effet, dès le début d'un projet, il est nécessaire, d'une part, d'estimer le stockage nécessaire à la collecte de données et d'autre part, de mettre en place les moyens de sauvegarde des données récoltées. La duplication des données par stockage redondant sur des supports différents de ceux de l'équipement utilisé (poste de travail fixe, mobile, serveur, ...) est un des principes de base d’une bonne conservation. Il convient de préférez un archivage centralisé conformément à la règle du 3-2-1 généralement recommandée (3 copies sur 2 supports différents dont 1 sur un lieu déporté). À cet effet, il conviendra de travailler en amont avec une équipe informatique afin que les dispositifs de stockage soient disponibles.
 
-```{admonition} Réference
+```{admonition} [Rappels théoriques concernant les architectures de stockage traditionnel](https://indico.mathrice.fr/event/5/contribution/2/material/slides/0.pdf)  
 :class: seealso
-[Rappels théoriques concernant les architectures de stockage traditionnel](https://indico.mathrice.fr/event/5/contribution/2/material/slides/0.pdf)  
 Sylvain Maurin  
 ANF  2016 : Stockage Distribué   
 ```
 
-```{admonition} Réference
+```{admonition} [Outils algorithmiques et logiciels pour le stockage distribué](https://indico.mathrice.fr/event/5/contribution/3/material/slides/0.pdf)  
 :class: seealso
-[Outils algorithmiques et logiciels pour le stockage distribué](https://indico.mathrice.fr/event/5/contribution/3/material/slides/0.pdf)  
 Benoit Parrein  
 ANF Des données au BigData : exploitez le stockage distribué ! Savoir anticiper les nouveaux outils, les technologies émergentes en matière (ANF 2016)   
 ```
@@ -395,14 +369,13 @@ Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des f
 
 Un retour d'expérience sur le [logiciel borgbackup](https://borgbackup.readthedocs.io/en/stable/) donne des résultats intéressants et prend tout son sens quand on a beaucoup de gros fichiers peu différents.
 
-```{admonition} Réference
+```{admonition} [Sauvegardes dédupliquées avec BorgBackup : retour d'expérience](https://2017.jres.org/fr/presentation?id=35)  
 :class: seealso
-[Sauvegardes dédupliquées avec BorgBackup : retour d'expérience](https://2017.jres.org/fr/presentation?id=35)  
 Maurice Libes - Didier Mallarino OSU Pytheas   
 JRES 2017 Nantes   
 ```
 
-
-```{warning} Respecter le RGPD !
+```{admonition} Respecter le RGPD !
+:class: warning
 Enfin n'oublions pas que, dès lors que l’on va collecter des données personnelles (données permettant l’identification directe ou indirecte d’une personne), il sera important de respecter des principes essentiels sur la durée de conservation des données, le droit à l’information et l’obligation de sécuriser les données. Il ne faut pas hésiter à se rapprocher du correspondant du Délégué à la protection des données (DPD) de votre délégation (pour le CNRS) ou du Délégué à la protection des données de votre établissement.
 ```

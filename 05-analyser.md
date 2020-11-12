@@ -33,9 +33,8 @@ Certains langages de programmation sont plus particulièrement utilisés pour l'
 
 - Python devient de plus en plus utilisé en science des données. Une [introduction sur le sujet](https://github.com/fran6w/IRMAR/blob/master/IRMAR.pdf) a été réalisée en décembre 2017 par Francis Wolinski (Société Yotta Conseil) dans le cadre d'une journée organisée par le réseau Calcul.
 
-```{admonition} Réference
+```{admonition} [Présentation et illustration de l’écosystème Python pour la data science](https://github.com/fran6w/IRMAR/blob/master/IRMAR.pdf)
 :class: seealso
-[Présentation et illustration de l’écosystème Python pour la data science](https://github.com/fran6w/IRMAR/blob/master/IRMAR.pdf)
 Francis Wolinski (Société Yotta Conseil) 
 Journée Python et Data Science IRMAR Rennes - 2017
 ```
@@ -95,57 +94,59 @@ L'analyse des données peut nécessiter la mise en place d'un workflow de traite
 
 VIP, the Virtual Imaging Platform, est un portail qui permet à ses utilisateurs d'accéder simplement à leurs données, de les traiter facilement avec des logiciels préinstallés sur la plateforme. Traitements et données sont distribués sur l'infrastructure EGI. Pour répondre au besoin d'interopérabilité des données, l'API CARMIN est maintenant utilisée par VIP. Cette présentation explique les différentes étapes du fonctionnement du système mis en place. 
 
-```{admonition} Références
+```{admonition} [VIP : towards data interoperability through CARMIN](https://jcad2019.sciencesconf.org/data/VIP_Axel_Bonnet.pdf), [vidéo](https://prismes.univ-toulouse.fr/player.php?code=vC6b9705) 
 :class: seealso
-[VIP : towards data interoperability through CARMIN](https://jcad2019.sciencesconf.org/data/VIP_Axel_Bonnet.pdf), [vidéo](https://prismes.univ-toulouse.fr/player.php?code=vC6b9705) 
 Axel Bonnet, Pascal Wassong, Frederic Cervenansky, Camarasu-Pop Sorina, CREATIS et , Tristan Glatard, Concordia University
 [JCAD 2019](https://jcad2019.sciencesconf.org)
+```
 
-[Virtual Imaging Platform](https://jcad2018.sciencesconf.org/data/VIP_poster.pdf)
+```{admonition} [Virtual Imaging Platform](https://jcad2018.sciencesconf.org/data/VIP_poster.pdf)
+:class: seealso
 Sorina Camarasu-Pop, Axel Bonnet, Frédéric Cervenansky, CREATIS, Tristan Glatard, Concordia University
 [JCAD 2018](https://jcad2018.sciencesconf.org)
 ```
 
 Une autre plateforme, Pangeo, utilisée plus particulièrement dans la communauté géosciences a également été présentée lors des JCAD 2019 et 2018 :
 
-```{admonition} Références
+```{admonition} [Analyse de simulations numériques de l’océan en préparation aux missions satellite : cas d’utilisation des outils PANGEO](https://jcad2019.sciencesconf.org/data/Briol_pangeo_swot_jcad2019_2019_10_10.pdf)
 :class: seealso
-[Analyse de simulations numériques de l’océan en préparation aux missions satellite : cas d’utilisation des outils PANGEO](https://jcad2019.sciencesconf.org/data/Briol_pangeo_swot_jcad2019_2019_10_10.pdf)
 A. Albert, F. Briol, L. Brodeau, G. Dibarboure, G. Eynard-Bontemps, J. Le Sommer, A. Ponte
 [JCAD 2019](https://jcad2019.sciencesconf.org)
+```
 
-[Jupyter, Dask : traitement distribué simple et interactif en Python sur HPC avec l'écosystème Pangeo](https://jcad2018.sciencesconf.org/data/20181026_JCAD2018_CNES_GuillaumeEynard.pdf) 
+```{admonition} [Jupyter, Dask : traitement distribué simple et interactif en Python sur HPC avec l'écosystème Pangeo](https://jcad2018.sciencesconf.org/data/20181026_JCAD2018_CNES_GuillaumeEynard.pdf) 
+:class: seealso
 Guillaume Eynard-Bontemps, Centre National d'Etudes Spatiales
 [JCAD 2018](https://jcad2018.sciencesconf.org)
 ```
 
 D'autres environnements de management de workflow existent :
 
-```{admonition} Référence
+```{admonition} [WRENCH: Workflow Management System Simulation Workbench](https://jcad2018.sciencesconf.org/data/2018_010_23_JCAD_FSuter.pdf)
 :class: seealso
-[WRENCH: Workflow Management System Simulation Workbench](https://jcad2018.sciencesconf.org/data/2018_010_23_JCAD_FSuter.pdf)
 Frederic Suter, Henri Casanova, Rafael Ferreira Da Silva, CC IN2P3
 [JCAD 2018](https://jcad2018.sciencesconf.org)
 ```
 
 Enfin, les environnements de notebooks sont des outils de plus en plus utilisés dans le cadre de l'analyse de données. Plusieurs interventions ont eu lieu sur ce sujet :
 
-```{admonition} Références
+```{admonition} [Towards reproducible Jupyternotebooks](https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf)
 :class: seealso
-[Towards reproducible Jupyternotebooks](https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf)
 Ludovic Courtès, INRIA
 [JCAD 2019](https://jcad2019.sciencesconf.org)
+```
 
-[EGI Notebooks : Jupyter as a Service and EGI Check-In AAI](https://jcad2018.sciencesconf.org/data/EGI_Notebooks_et_Check_in_AAI.pdf)
+```{admonition} [EGI Notebooks : Jupyter as a Service and EGI Check-In AAI](https://jcad2018.sciencesconf.org/data/EGI_Notebooks_et_Check_in_AAI.pdf)
+:class: seealso
 Baptiste Grenier, egi.eu
-[JCAD 2018](https://jcad2018.sciencesconf.org)
-
-[RomeoLAB, le portail web HPC : cas d'utilisation pour la pédagogie et les logiciels à la demande](https://jcad2018.sciencesconf.org/data/20181024_JCAD_romeolab.pdf)
-Arnaud RENARD, Université de Reims Champagne-Ardenne
 [JCAD 2018](https://jcad2018.sciencesconf.org)
 ```
 
-
+```{admonition} [RomeoLAB, le portail web HPC : cas d'utilisation pour la pédagogie et les logiciels à la demande](https://jcad2018.sciencesconf.org/data/20181024_JCAD_romeolab.pdf)
+:class: seealso
+Arnaud RENARD, Université de Reims Champagne-Ardenne
+[JCAD 2018](https://jcad2018.sciencesconf.org)
+```
 
 ### Qualité logicielle
 
@@ -155,18 +156,23 @@ L’ensemble des activités, normes, contrôles et procédures mis en place doit
 
 Une [journée du réseau Qualité en Recherche](https://jt-aql.sciencesconf.org/) a été entièrement consacrée à ce sujet en 2019. Plusieurs exposés ont permis d'illustrer les concepts associés à la qualité logicielle :
 
-```{admonition} Références
+```{admonition} [Qu'est-ce qu'un logiciel et qu'est-ce que la qualité ?](<https://jt-aql.sciencesconf.org/data/program/jt_aql_Paris_2019_v5_HV.pdf>)
 :class: seealso
-[Qu'est-ce qu'un logiciel et qu'est-ce que la qualité ?](<https://jt-aql.sciencesconf.org/data/program/jt_aql_Paris_2019_v5_HV.pdf>)
 Henri VALEINS
+```
 
-[Plans de Gestion de Logiciel et Assurance Qualité Logiciel, les apports de PRESOFT](https://jt-aql.sciencesconf.org/data/program/PRESOFT_qualite_en_recherche2019v1_GR.pdf) 
+```{admonition} [Plans de Gestion de Logiciel et Assurance Qualité Logiciel, les apports de PRESOFT](https://jt-aql.sciencesconf.org/data/program/PRESOFT_qualite_en_recherche2019v1_GR.pdf) 
+:class: seealso
 Geneviève Romier, CC IN2P3
+```
 
-[Référentiels et normes de codage](https://jt-aql.sciencesconf.org/data/program/ref_normes_codage_ZT.pdf) 
+```{admonition} [Référentiels et normes de codage](https://jt-aql.sciencesconf.org/data/program/ref_normes_codage_ZT.pdf) 
+:class: seealso
 Z.Tucsnak
+```
 
-[Qualité Logiciel dans un projet de Nanosatellite](https://jt-aql.sciencesconf.org/data/program/qualite_nanosat_v2_CG.pdf)
+```{admonition} [Qualité Logiciel dans un projet de Nanosatellite](https://jt-aql.sciencesconf.org/data/program/qualite_nanosat_v2_CG.pdf)
+:class: seealso
 Colin Gonzalez, AstroParticules et Cosmologie
 ```
 
@@ -183,18 +189,20 @@ Dans le domaine environnemental, les chaines logicielles sont également mises e
 
 Plusieurs présentations issues des journées du réseau SIST illustrent des mises en oeuvre de chaîne logicielle d'analyse de données  :
 
-```{admonition} Références
+```{admonition} [Filtrage interactif de données multidimensionnelles](https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf)  
 :class: seealso
-[Filtrage interactif de données multidimensionnelles](https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf)  
 Patrick Brockmann, Laboratoire des Sciences du Climat et de l'Environnement   
 [SIST 2016](https://sist16.sciencesconf.org/)    
+```
 
-[Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf)   
+```{admonition} [Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf)   
+:class: seealso
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
 [SIST 2018](https://sist18.sciencesconf.org/)   
+```
     
-          
-[Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf)   
+```{admonition} [Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf)   
+:class: seealso
 David Wolyniec, OSU Grenoble - Jonathan Schaeffer, OSU Grenoble   
 [SIST 2016](https://sist16.sciencesconf.org/)   
 ```
@@ -207,35 +215,42 @@ Il est donc important de s'assurer d'optimiser l'utilisation de ces ressources.
 
 En particulier au niveau des codes de calcul, le réseau Calcul propose régulièrement des journées sur ces sujets :
 
-```{admonition} Références
+```{admonition} [Une journée d'introduction à l'évaluation des performances des codes de calcul](https://indico.obspm.fr/event/60/)
 :class: seealso
-[Une journée d'introduction à l'évaluation des performances des codes de calcul](https://indico.obspm.fr/event/60/)
 Observatoire de Paris, 2018
+```
 
-[Une formation sur l'évaluation de la performance des codes](https://calcul.math.cnrs.fr/2019-09-anf-perf-eval-hpc.html), en particulier à travers les outils Paraver et Scalasca.
+```{admonition} [Une formation sur l'évaluation de la performance des codes](https://calcul.math.cnrs.fr/2019-09-anf-perf-eval-hpc.html), en particulier à travers les outils Paraver et Scalasca.
+:class: seealso
 Observatoire de Haute Provence, 2019
 ```
 
 Enfin, l'optimisation des ressources s'entend aussi au niveau environnemental, afin de réduire l'impact des analyses de données. Le [GDS EcoInfo](https://ecoinfo.cnrs.fr/)  a organisé en 2017 une [journée sur l'impact des logiciels sur l’environnement](https://ecoinfo.cnrs.fr/2017/01/05/conf-ecoinfo-3-fevrier-2017-impact-des-logiciels-sur-lenvironnement-quid-de-leco-conception/), dont certains exposés peuvent directement concerner la problématique de l'analyse des données :
 
-```{admonition} Références
+```{admonition} [Écoconception logicielle, retours d’expérience sur la réduction de l’impact des logiciels](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/greenspector.pdf)
 :class: seealso
-[Écoconception logicielle, retours d’expérience sur la réduction de l’impact des logiciels](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/greenspector.pdf)
 Olivier Philippot, GreenSpector
-
-[TEEC: Logiciel vert et durable](https://gricad-media.univ-grenoble-alpes.fr/video/teec-logiciel-vert-et-durable)
-Hayri ACAR, Université Lyon 1
-
-[Écoconception logicielle pour la gestion des datacentres de calcul](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/ecoinfo-soft.pdf)
-Olivier Richard, LIG
-
-[Calcul Intensif, Consommation et Changement Climatique](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/20170203-Ecoconception.pdf)
-Xavier Vigouroux
-
-[Eco-élasticité logicielle pour un Cloud frugal](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/Eco-Info-3fev-PDF.pdf)
-Thomas Ledoux, Ecole des Mines de Nantes 
 ```
 
+```{admonition} [TEEC: Logiciel vert et durable](https://gricad-media.univ-grenoble-alpes.fr/video/teec-logiciel-vert-et-durable)
+:class: seealso
+Hayri ACAR, Université Lyon 1
+```
+
+```{admonition} [Écoconception logicielle pour la gestion des datacentres de calcul](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/ecoinfo-soft.pdf)
+:class: seealso
+Olivier Richard, LIG
+```
+
+```{admonition} [Calcul Intensif, Consommation et Changement Climatique](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/20170203-Ecoconception.pdf)
+:class: seealso
+Xavier Vigouroux
+```
+
+```{admonition} [Eco-élasticité logicielle pour un Cloud frugal](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/Eco-Info-3fev-PDF.pdf)
+:class: seealso
+Thomas Ledoux, Ecole des Mines de Nantes 
+```
 
 ## Traitements sémantiques/ linguistiques
 
@@ -248,28 +263,25 @@ Ce projet a pour objectif d’**analyser les publications** d’un département 
 
 Fabien Amarger, présente quant à lui un projet qui consiste à **construire une base de connaissance à partir de source et de données hétérogènes**. Il explique ce qu’est une base de connaissance et comment l’interroger.
 
-```{admonition} Références
+```{admonition} [Des technologies sémantiques pour l’information scientifique et technique](http://renatis.cnrs.fr/IMG/pdf/Nedellec_Girard_Fredoc-v4.pdf)  
 :class: seealso
-[Des technologies sémantiques pour l’information scientifique et technique](http://renatis.cnrs.fr/IMG/pdf/Nedellec_Girard_Fredoc-v4.pdf)  
 Claire Nedellec, Agnès Girard, INRA  
 Frédocs2013 - Gestion et valorisation des données de la recherche - 7 au 10 octobre 2013, Aussois   
+```
 
-[Annotation des Bulletins de santé du végétal (BSV) et interrogation](http://renatis.cnrs.fr/IMG/pdf/FreDoc_Irstea.pdf)  
+```{admonition} [Annotation des Bulletins de santé du végétal (BSV) et interrogation](http://renatis.cnrs.fr/IMG/pdf/FreDoc_Irstea.pdf)  
+:class: seealso
 Fabien Amarger , IRIT-IRSTEA  
 Frédocs2013 - Gestion et valorisation des données de la recherche - 7 au 10 octobre 2013, Aussois  
 ```
-
 
 Plus récemment, Laurence El Khoury (DIST-CNRS) et Stéphane Schneider (INIST – CNRS) à l’occasion des Frédocs2018 ont présenté les projets [ISTEX](https://www.istex.fr/),  [VisaTM](https://objectif-tdm.inist.fr/2018/11/29/le-projet-visa-tm/) et [OpenMinteD](http://openminted.eu/) pour illustrer la mise à disposition d’une infrastructure de text-mining. 
 ISTEX est une base documentaire qui propose un accès à distance et de manière pérenne à un corpus multidisciplinaire (plus de 23 millions de documents) en texte intégral. Cette base propose également des services permettant la mise en place de traitements des données : extraction, fouille de textes, production de synthèses documentaires. La première partie de l’intervention présente les objectifs, les ressources et les possibilités offertes par la plateforme. 
 La seconde partie s’intéresse plus particulièrement à la fouille de texte et au projet VisaTM. Ce projet porté par l’INRA vise à étudier les conditions de production de services TDM à haute valeur ajoutée basés sur l’analyse sémantique à destination des chercheurs pour une généralisation des approches TDM dans les activités de recherche.
 Le Projet européen H2020 OpenMinteD présenté en 3e partie est une e-infrastructure encourageant et facilitant l’utilisation des technologies de fouille de textes. Sa connexion à ISTEX permet l’exploration de corpus. Plateforme open source, ouverte et pérenne elle offre aux chercheurs la possibilité de découvrir, créer, partager et réutiliser des logiciels, des documents et des ressources pour le text-mining, le TALN, l’Extraction d’Information en travaillant à partir de sources documentaires licitement utilisables tels qu’ISTEX, OPENAIRE et CORE. 
 
-```{admonition} Références
+```{admonition} [Bases de ressources numériques et services aux chercheurs. Avec ISTEX et OpenMintedD, l'alliance pour une infrastructure de text-mining]( https://fredoc2018.sciencesconf.org/data/pages/Pres_istex_visa_omtd_ElKhouri_Schneider.pdf)  
 :class: seealso
-[Bases de ressources numériques et services aux chercheurs. Avec ISTEX et OpenMintedD, l'alliance pour une infrastructure de text-mining]( https://fredoc2018.sciencesconf.org/data/pages/Pres_istex_visa_omtd_ElKhouri_Schneider.pdf)  
 Laurence El Khoury (DIST-CNRS), Stéphane Schneider (INIST – CNRS)  
 Frédocs2018 - Démarches innovantes en IST : expérimenter, proposer (se) réinventer, 3-5 octobre 2018, Albi
 ```
-
-

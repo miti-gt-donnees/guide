@@ -8,10 +8,11 @@ p {
   border: 1px solid transparent;
   border-radius: 4px;
   text-align: left;
+  font-style: italic !important;
 }
 .admonition-title {
   background-color: #ffffff !important;
-  font-style: italic !important;
-  font-weight: normal !important;
+  font-style: normal !veryimportant;
+  font-weight: normal !veryimportant;
   text-align: left;
 }

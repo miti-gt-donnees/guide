@@ -47,9 +47,8 @@ Le recueil des métadonnées ainsi que la rédaction et la mise à jour des mét
 C. Bernard J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme,
 de manière automatique à partir de données stockées dans une base de données interne à l'unité.
 
-```{admonition} Réference
+```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf)  
 :class: seealso
-[Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf)  
 C. Bernard,   J. Fabre, et O. Lobry  
 [Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)
 ```
@@ -62,18 +61,16 @@ De la même manière, Emmanuel Blondel présente un ensemble de librairies de pr
   - Gérer des données dans GeoServer avec la librairie R *geosapi*   
   - Gérer des métadonnées dans GeoNetwork avec la librairie R *geonapi*   
 
-```{admonition} Réference
+```{admonition} [GeoFlow :  workflow R pour gérer les données spatiales](https://sist19.sciencesconf.org/data/pages/SIST19_J_Barde.pdf)   
 :class: seealso
-[GeoFlow :  workflow R pour gérer les données spatiales](https://sist19.sciencesconf.org/data/pages/SIST19_J_Barde.pdf)   
 Julien Barde,   Emmanuel Blondel et  Wilfried Heintz  
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
 Ce logiciel de catalogage est utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC ont été utilisés.
 
-```{admonition} Réference
+```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
 :class: seealso
-[Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
 Michael Treguer  
 [journées SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
 ```
@@ -85,9 +82,8 @@ De nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces c
 
 B. Debray nous présente le projet DataOSU à l'Observatoire de Besançon :
 
-```{admonition} Réference
+```{admonition} [Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf)   
 :class: seealso
-[Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf)   
 Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et environnement, Molécules  
 [Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)    
 ```
@@ -103,9 +99,8 @@ Marc Leobet, chargé de mission à la Mission information géographique du minis
 * [La Directive INSPIRE pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)  
 F. Merrien, M. Léobet, M. Francès   Mission de l'information géographique du ministère de l'Environnement  
 
-```{admonition} Réference
+```{admonition} [Gestion et valorisation des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/Leobet_INSPIRE_Fredoc2013.pdf)
 :class: seealso
-[Gestion et valorisation des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/Leobet_INSPIRE_Fredoc2013.pdf)
 Marc Leobet, Chargé de mission et PCE INSPIRE     
 Frédocs2013 -7 au 10 octobre 2013, Aussois  
 ```
@@ -118,9 +113,8 @@ Les catalogues et portails d'accès aux données se matérialisent également au
 
 La mission de [l’IR Data Terra](https://www.data-terra.org/) consiste à organiser de manière intégrée la diffusion et l’accès aux données, en mettant à disposition les données, les produits et des services relatifs à l’observation du système Terre, via les pôles de données et de services existants :
 
-```{admonition} Réference
+```{admonition} [Présentation de l'IR Data terra](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_IRDataTerra.pdf)  
 :class: seealso
-[Présentation de l'IR Data terra](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_IRDataTerra.pdf)  
 Richard Moreno, directeur technique IR Data Terra  
 [Séminaire SIST 2019](http://sist19.sciencesconf.org), OMP Toulouse
 ```
@@ -152,18 +146,16 @@ Seadatanet est un exemple d'envergure européenne pour la mise en place de stand
 
 Une présentation du projet Seadatanet a été faite par Michele Fichaut et Florence Conquet  
 
-```{admonition} Réference
+```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://sist15.sciencesconf.org/program)
 :class: seealso
-[Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://sist15.sciencesconf.org/program)
 Michèle Fichaut, Systèmes d'Informations Scientifiques pour la Mer   
 [Séminaire SIST15 OSU Pytheas Marseille](https://sist15.sciencesconf.org/)   
 ```
 
 Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ présente un exemple de dépôt de données dans le portail de données Seadatanet sur des données de cytométrie en flux. Il est intéressant de voir la démarche et le workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un certain nombre de standards.
 
-```{admonition} Réference
+```{admonition} [Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf)  
 :class: seealso
-[Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf)  
 Soumaya Lahbib  
 [Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
 ```
@@ -182,9 +174,8 @@ De nombreux thesaurus existent comme celui de
 
 Lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.loterre.fr/skosmos/BLH/fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées
 
-```{admonition} Réference
+```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv.pdf)
 :class: seealso
-[T_Semandiv le thésaurus de la biodiversité](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv.pdf)
 [Poster résumant le thesaurus T_Semandiv](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv_Poster.pdf)  
 Dominique Vachez, Institut de l’information scientifique et technique   
 [Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
@@ -192,22 +183,22 @@ Dominique Vachez, Institut de l’information scientifique et technique
 
 La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont : élaboration collaborative des termes et procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
 
-```{admonition} Réferences
+```{admonition} [Création d'un thésaurus collaboratif : cas d'un groupe CESAB,  Fondation pour la Recherche sur la Biodiversité, 2015](http://rbdd.cnrs.fr/IMG/pdf/creation_d_un_thesaurus_collaboratif.pdf?139/f6b1cdc1818726f3cdfc7646cc98afb22687cfd5)
 :class: seealso
-[Création d'un thésaurus collaboratif : cas d'un groupe CESAB,  Fondation pour la Recherche sur la Biodiversité, 2015](http://rbdd.cnrs.fr/IMG/pdf/creation_d_un_thesaurus_collaboratif.pdf?139/f6b1cdc1818726f3cdfc7646cc98afb22687cfd5)
 Baptiste Laporte (Centre de synthèse et d’analyse sur la biodiversité)
 JrBDD 2015, Sète, mercredi 21/10/2015
+```
 
-[Thesauform un outil collaboratif pour faciliter la création de vocabulaire contrôlé par des experts de domaine](https://sist18.sciencesconf.org/data/pages/12_MC_Quidoz_Thesauform.pdf)  
+```{admonition} [Thesauform un outil collaboratif pour faciliter la création de vocabulaire contrôlé par des experts de domaine](https://sist18.sciencesconf.org/data/pages/12_MC_Quidoz_Thesauform.pdf)  
+:class: seealso
 MC Quidoz  
 [Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
 ```
 
 **En Archéologie**, Blandine Nouvel nous présente l'intérêt du _thésaurus PACTOLS_ pour l’archéologie sur le web des données de manière à ouvrir son utilisation au-delà des seules bibliothèques
 
-```{admonition} Réference
+```{admonition} [Évolution et nouvelles pratiques autour du thésaurus PACTOLS de Frantiq pour l’édition numérique en archéologie](https://fredoc2018.sciencesconf.org/data/pages/PACTOLS_B_Nouvel.pdf)
 :class: seealso
-[Évolution et nouvelles pratiques autour du thésaurus PACTOLS de Frantiq pour l’édition numérique en archéologie](https://fredoc2018.sciencesconf.org/data/pages/PACTOLS_B_Nouvel.pdf)
 Blandine Nouvel  (Centre Camille Jullian / Frantiq)  
 
 [La révision des PACTOLS au regard du BackBone Thesaurus](https://f.hypotheses.org/wp-content/blogs.dir/1718/files/2018/12/JourneesMASA_Pactols.pdf)  
@@ -224,9 +215,8 @@ Afin d'être cités et réutilisés, les données et documents numériques de ma
 
 Il existe différents types d'identifiants pérennes pour toutes sortes d'objets y compris les humains. Cet article de J-L Archimbaud fait le point sur les identifiants des documents numériques et leurs usages :
 
-```{admonition} Réference
+```{admonition} [Identifiants des documents numériques : ISBN, ISSN, URL, Handle, DOI, OpenURL, OAI, ARK](http://rbdd.cnrs.fr/IMG/pdf/2015.10.ident-num.jla.v3.1.pdf?141/a989c95a6a9294128c99df8e2cfe4932718d2416)
 :class: seealso
-[Identifiants des documents numériques : ISBN, ISSN, URL, Handle, DOI, OpenURL, OAI, ARK](http://rbdd.cnrs.fr/IMG/pdf/2015.10.ident-num.jla.v3.1.pdf?141/a989c95a6a9294128c99df8e2cfe4932718d2416)
 Jean-Luc Archimbaud
 Journées « Conduire et construire un plan de gestion des données : de la base de données à la pérennisation » du réseau CNRS Bases de Données (rBDD) Sète – 22 oct 2015
 ```
@@ -254,9 +244,8 @@ Herbert Gruttemeier illustre ses propos par des exemples de jeux de données exp
 Data Cite propose un certain nombre de **services** (création de différents formats de citation pour les DOI, exposition des métadonnées, schéma de métadonnées DataCite et un environnement de test) que l’auteur détaille. Il est question aussi de **« Data Citation Index »** et de métrique, de l’importance d’accéder à la découverte des données (principe de moissonnage des 
 métadonnées DataCite), **des partenariats** avec ORCID, OPENAIR, CODATA, FORCE 11, RDA …
 
-```{admonition} Réference
+```{admonition} [DataCite : identifiants pérennes pour le partage des données](http://renatis.cnrs.fr/IMG/pdf/DataCite_FreDoc.pdf)  
 :class: seealso
-[DataCite : identifiants pérennes pour le partage des données](http://renatis.cnrs.fr/IMG/pdf/DataCite_FreDoc.pdf)  
 Herbert Gruttemeier, INIST/ CNRS  
 Frédocs2013 - Gestion et valorisation des données de la recherche -  7 au 10 octobre 2013, Aussois   
 ```
@@ -268,9 +257,8 @@ Il présente les 26 membres, la structure, les différents rôles qui lui sont a
 
 Pour en savoir plus sur le DOI de DataCite  
 
-```{admonition} Réferences
+```{admonition} [DOI de DataCite : Système d'identification pour valoriser les données de la recherche,](https://seminaire.inrae.fr/data/content/download/3449/36374/version/1/file/03+Yahia+doi+datacite.pdf)  
 :class: seealso
-[DOI de DataCite : Système d'identification pour valoriser les données de la recherche,](https://seminaire.inrae.fr/data/content/download/3449/36374/version/1/file/03+Yahia+doi+datacite.pdf)  
 Mohamed Salah Yahia INIST  
 
 Nécessité de publier en identifiant les jeux de données par des  "DOI": 
@@ -284,22 +272,19 @@ Mohamed Salah Yahia, Institut de l'information scientifique et technique du CNRS
 
 Une unité CNRS a la possibilité de souscrire un contrat avec l'INIST du CNRS pour être détenteur d'un préfixe de DOI qui servira à construire et déposer un DOI 
 
-```{admonition} Réference
+```{admonition} [Workflow d’attribution de DOI par l’Inist-CNRS](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
 :class: seealso
-[Workflow d’attribution de DOI par l’Inist-CNRS](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
 Mohamed Salah Yahia
 [Séminaire SIST16 OSU Oreme Montpellier](http://sist16.sciencesconf.org)
 ```
-
 
 Par ailleurs certaines infrastructures proposent un service de fourniture de DOI comme le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit des D.O.I pour les données *marines* <https://www.seanoe.org/>.
 
 Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork.
 Dans cette présentation Annick Battais indique comment assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
-```{admonition} Réference
+```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist19.sciencesconf.org/data/pages/SIST19\_A\_BATTAIS.pdf)  
 :class: seealso
-[Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist19.sciencesconf.org/data/pages/SIST19\_A\_BATTAIS.pdf)  
 Annick Battais  
 [Séminaire SIST2019 Toulouse](http://sist19.sciencesconf.org)   
 ```
@@ -309,22 +294,22 @@ Annick Battais
 Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l'INIST du CNRS
 qui en tant que membre de DataCite peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.
 
-```{admonition} Réferences
+```{admonition} [Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](https://sist16.sciencesconf.org/data/pages/16_P_Techine.pdf)    
 :class: seealso
-[Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](https://sist16.sciencesconf.org/data/pages/16_P_Techine.pdf)    
 Philippe Téchiné, Laboratoire d'études en Géophysique et océanographie spatiales    
 [Journée SIST16 Montpellier](https://sist16.sciencesconf.org/)
+```
 
-[Création de DOI sur les données et produits grillés du Service National d'Observation SSS  ](https://sist18.sciencesconf.org/data/pages/14_P_Techine_DOI_sur_les_donnees_du_SNO_SSS.pdf)                                 
+```{admonition} [Création de DOI sur les données et produits grillés du Service National d'Observation SSS  ](https://sist18.sciencesconf.org/data/pages/14_P_Techine_DOI_sur_les_donnees_du_SNO_SSS.pdf)                                 
+:class: seealso
 Philippe Téchiné, Laboratoire d'études en Géophysique et océanographie spatiales
 [Journée SIST18 OVSQ](https://sist18.sciencesconf.org/)
 ```
 
 Juliette Fabre et Olivier Lobry nous indiquent leur solution pour attribuer des DOI aux jeux de données du Service National d'Observation  "Karst"  
 
-```{admonition} Réference
+```{admonition} [Retour d'expérience sur l'attribution de DOI à l'OSU OREME.](https://sist16.sciencesconf.org/data/pages/17_O_Lobry.pdf)  
 :class: seealso
-[Retour d'expérience sur l'attribution de DOI à l'OSU OREME.](https://sist16.sciencesconf.org/data/pages/17_O_Lobry.pdf)  
 Juliette Fabre, OSU OREME - Olivier Lobry, OSU OREME
 [Journée SIST16 Montpellier](https://sist16.sciencesconf.org/)
 ```
@@ -332,18 +317,16 @@ Juliette Fabre, OSU OREME - Olivier Lobry, OSU OREME
 * Établissement de DOI sur des requêtes dynamiques sur des Bases de données
 Dans l’atelier traçabilité organisé par RBDD en novembre 2018, MC Quidoz avait traité  la possibilité de mettre un identifiant pérenne sur une requête SQL vers une base de données, pour la rejouer. C’est d'ailleurs une des recommandations de RDA https://www.rd-alliance.org/system/files/RDA-DC-Recommendations_151020.pdf 
 
-```{admonition} Réference
+```{admonition} [identifiant pérenne sur une requête SQL vers une base de données](http://rbdd.cnrs.fr/IMG/pdf/atelier_tracabilite.pdf?523/29abaadfb5e2e0fff8aed53afd88d7aad1ded34f)
 :class: seealso
-[identifiant pérenne sur une requête SQL vers une base de données](http://rbdd.cnrs.fr/IMG/pdf/atelier_tracabilite.pdf?523/29abaadfb5e2e0fff8aed53afd88d7aad1ded34f)
 MC Quidoz
 atelier traçabilité RBDD 2018](http://rbdd.cnrs.fr/spip.php?article288)
 ```
 
 Sophie Pamerlon rappelle les définitions des identifiants uniques et persistants, puis présente le "Integrated Publishing Toolkit" (IPT) mis en place par le GBIF dans le domaine de la biodiversité et ses nouvelles fonctionnalités, en particulier l'attribution de DOI lors de la publication d'un jeu de données.
 
-```{admonition} Réference
+```{admonition} [Le GBIF et les identifiants persistants](http://rbdd.cnrs.fr/IMG/pdf/ipt_doi_rbdd.pdf?137/a5e7031e901f58c648f3f12eff64396a7b34a169) : Application des DOI aux jeux de données  
 :class: seealso
-[Le GBIF et les identifiants persistants](http://rbdd.cnrs.fr/IMG/pdf/ipt_doi_rbdd.pdf?137/a5e7031e901f58c648f3f12eff64396a7b34a169) : Application des DOI aux jeux de données  
 Sophie Pamerlon (Système mondial d’information sur la biodiversité - Global Biodiversity Information Facility), 2015  
 RBDD
 ```
@@ -378,26 +361,28 @@ On y répond à des questions fréquentes concernant les entrepôts comme :
 
 Laurent Pelletier de l'INIST, dans une présentation générale sur les entrepôts de données, revient sur les différentes définitions des données, les métadonnées et les principes FAIR. Il explique pourquoi et comment partager les données et comment les entrepôts de données sont impliqués dans ce partage. Il présente les différents types d'entrepôts, les différentes fonctionnalités et les critères de choix pour un entrepôt.
 
-```{admonition} Réference
+```{admonition} [Les entrepôts de données, ](http://rbdd.cnrs.fr/IMG/pdf/20181029-jrbdd-presentationentrepotdonnees.pdf?516/9dc0c4b9f755d121305cf83c440d1d8faed96d73)
 :class: seealso
-[Les entrepôts de données, ](http://rbdd.cnrs.fr/IMG/pdf/20181029-jrbdd-presentationentrepotdonnees.pdf?516/9dc0c4b9f755d121305cf83c440d1d8faed96d73)
 Laurent PELLETIER, INIST
 ANF rBDD du 5 au 7 novembre 2018 à Sète
 ```
 
 Dans cette présentation complète Jean-Christophe Desconnets passe en revue les rôles, les fonctionnalités et les domaines d'utilisation des entrepôts de données :
 
-```{admonition} Réferences
+```{admonition} [Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  ](https://sist20.sciencesconf.org/data/pages/SIST20_entrepot_de_donnees_Desconnets.pdf)      
 :class: seealso
-[Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  ](https://sist20.sciencesconf.org/data/pages/SIST20_entrepot_de_donnees_Desconnets.pdf)      
 Jean-Christophe Desconnets   
 [Séminaire SIST2020 OSU Lyon](https://sist20.sciencesconf.org/)   
+```
 
-[Les entrepôts de données : pierre angulaire du partage des données de la recherche](https://anfdonnees2016.sciencesconf.org/conference/anfdonnees2016/pages/Entrepots_ANFRenatis.pptx)  
+```{admonition} [Les entrepôts de données : pierre angulaire du partage des données de la recherche](https://anfdonnees2016.sciencesconf.org/conference/anfdonnees2016/pages/Entrepots_ANFRenatis.pptx)  
+:class: seealso
 Ester Dzale Yeumo (INRA)  
 [participer à l'organisation du management des données de la recherche](https://anfdonnees2016.sciencesconf.org/resource/page/id/1) : gestion de contenu et documentation des données -  2016 Paris 
+```
 
-[Les entrepôts de données de recherche](https://anfdonnees2017.sciencesconf.org/data/pages/Entrepots_ANFRenatis_2017_Cocaud_Aventurier_1.pdf)
+```{admonition} [Les entrepôts de données de recherche](https://anfdonnees2017.sciencesconf.org/data/pages/Entrepots_ANFRenatis_2017_Cocaud_Aventurier_1.pdf)
+:class: seealso
 Sylvie Cocaud (INRA)  
 [Participer à l'organisation du management des données de la recherche](https://anfdonnees2017.sciencesconf.org/), gestion de contenu et documentation des données - 2017 Vandoeuvre-lès-Nancy   
 ```
@@ -433,9 +418,8 @@ La [Research Data Alliance](https://www.rd-alliance.org/) recommande les critèr
 
 Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté en quoi consiste l'intérêt d'une certification "Core Trust Seal" :
 
-```{admonition} Réference
+```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"
 :class: seealso
-"[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"
 [vidéo :](https://sist20.sciencesconf.org/resource/page/id/5)
 Aude Chambodut
 [Séminaires SIST20](https://sist20.sciencesconf.org/)   
@@ -474,9 +458,8 @@ Le data paper est publié, en libre accès, sous la forme d'un article examiné 
 
 Après avoir expliqué pourquoi le GBIF et l’éditeur de revues PENSOFT ont proposé le concept de data paper, Sophie Pamerlon en explique les avantages et à travers quelques exemples concrets comment les outils du GBIF facilitent la rédaction d'un datapaper en biodiversité.
 
-```{admonition} Réference
+```{admonition} [Data papers : Une incitation à la publication de données sur la biodiversité,](http://rbdd.cnrs.fr/IMG/pdf/data-papers-rbdd.pdf?136/a3858796a8f136546895fd84a9fc34f24e62a842)
 :class: seealso
-[Data papers : Une incitation à la publication de données sur la biodiversité,](http://rbdd.cnrs.fr/IMG/pdf/data-papers-rbdd.pdf?136/a3858796a8f136546895fd84a9fc34f24e62a842)
 Sophie Pamerlon (Système mondial d’information sur la biodiversité - Global Biodiversity Information Facility)   
 ```
 
@@ -486,27 +469,24 @@ Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux 
 *  IPT (Integrated Publishing Toolkit) qui  facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper
 * ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.
 
-```{admonition} Réference
+```{admonition} Exemple d’intégration du data paper à un workflow de publication de jeux données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper
 :class: seealso
-Exemple d’intégration du data paper à un workflow de publication de jeux données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel
 ```
 
 Pour se faire une idée d'un exemple de datapaper, Annegret Nicolai nous présente un [exemple de datapaper du projet bioBlitz](https://bdj.pensoft.net/article/50451/), et les avantages et inconvénients qu'elle y trouve :
 
 
-```{admonition} Réference
+```{admonition} BioBlitz 2017 à la Station Biologique de Paimpont – un data paper de science citoyenne   
 :class: seealso
-BioBlitz 2017 à la Station Biologique de Paimpont – un data paper de science citoyenne   
 Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont)   
 ```
 
 Dans sa présentation Clémentine Cottineau nous indique quels sont les principes et le processus d'Évaluation d'un datapaper pour la revue Cybergeo: Retour d’expérience et difficultés rencontrées.
 On trouvera sur cybergeo  un [exemple de recommandations aux auteurs pour un datapaper](https://journals.openedition.org/cybergeo/23412#tocto1n7).
 
-```{admonition} Réference
+```{admonition} Évaluer un data paper : retour d'expérience de la revue Cybergeo
 :class: seealso
-Évaluer un data paper : retour d'expérience de la revue Cybergeo
 Clémentine Cottineau, CNRS – Centre Maurice Halbwachs
 Denise Pumain, Univ. Paris 1 – UMR Géographie-Cités
 Christine Kosmopoulos, CNRS – UMR Géographie-Cités
@@ -514,30 +494,29 @@ Christine Kosmopoulos, CNRS – UMR Géographie-Cités
 
 Victor Gay nous présente un retour d'expérience de rédaction d'un [datapaper publié sur HAL](https://hal.archives-ouvertes.fr/hal-02951461) selon le modèle de la revue [Scientific Data](https://www.nature.com/sdata/)
 
-```{admonition} Réference
+```{admonition} Retour d’expérience d’un producteur de data paper
 :class: seealso
-Retour d’expérience d’un producteur de data paper
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse
 ```
 
 Joachim Schöpfel, synthetise en indiquant qu'un data  paper fournit l'information "*on the what, where, why, how and who of the data*".
 
-```{admonition} Réference
+```{admonition} Synthèse du webinaire et échanges (à partir des questions du tchat)
 :class: seealso
-Synthèse du webinaire et échanges (à partir des questions du tchat)
 Joachim Schöpfel, Université Lille 3 – GERiiCO
 ```
 
 En guise d'exercice de conclusion, pour terminer  Wilfried Heintz nous fait part de sa conception d'une gestion pérenne des données scientifiques, en reliant nos différentes actions depuis l'étape initiale de la rédaction d'un DMP (Plan de gestion des données) jusqu'à à la publication d'un DataPaper :
 
-```{admonition} Réference
+```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie](https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf)
 :class: seealso
-[Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie](https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf)
 Wilfried Heintz, UMR 1201 Dynafor   
 [Séminaire SIST18 OVSQ](http://sist18.sciencesconf.org)
+```
 
-[Gestion pérenne des données scientifiques : du plan de gestion de données au datapaper.](http://rbdd.cnrs.fr/IMG/pdf/sd2018_datamanagement_wheintz.pdf?435/8949f16992fdffdffe7b7ef53258e71f9500c685)
-HEINTZ Wilfried 
+```{admonition} [Gestion pérenne des données scientifiques : du plan de gestion de données au datapaper.](http://rbdd.cnrs.fr/IMG/pdf/sd2018_datamanagement_wheintz.pdf?435/8949f16992fdffdffe7b7ef53258e71f9500c685)
+:class: seealso
+Wilfried Heintz, UMR 1201 Dynafor   
 Storage Day 2018, Paris.   
 ```
 
@@ -549,9 +528,8 @@ Selon Wikipedia, « le Web des données (linked data, en anglais) est une initia
 
 Tim Berners-Lee (inventeur du Web et directeur du W3C), qui supervise le développement des technologies communes du Web sémantique a défini le web sémantique comme « une toile de données, données qui peuvent être traitées directement et indirectement par des machines pour aider leurs utilisateurs à créer de nouvelles connaissances ».
 
-```{admonition} Réference
+```{admonition} [Rendre nos Données accessibles et interopérables sur le Web,](http://rbdd.cnrs.fr/IMG/pdf/rbdd15_-_rendre_nos_donnees_accessibles_et_interoperables_sur_le_web.pdf?122/a040d4391568c6a41ec2da15ce602e0ec0faa20c)   
 :class: seealso
-[Rendre nos Données accessibles et interopérables sur le Web,](http://rbdd.cnrs.fr/IMG/pdf/rbdd15_-_rendre_nos_donnees_accessibles_et_interoperables_sur_le_web.pdf?122/a040d4391568c6a41ec2da15ce602e0ec0faa20c)   
 Franck Michel (I3S - UMR 7271, CNRS - Univ. Nice Sophia), 2015   
 mots-clés : SPARQL, web sémantique, RDF, SKOS, OWL   
 Action nationale de formation RBDD 2015
@@ -565,9 +543,8 @@ Rendre les données interopérables sur le web est le sujet essentiel de cette p
 
 Il détaille le modèle RDF (Resource Description Framework) du W3C, puis, le langage de requêtes SPARQL. Il explique ensuite le standard SKOS (Simple Knowledge Organization System) utilisé pour représenter les vocabulaires contrôlés, les taxonomies et thesauri. Il termine en montrant comment publier des données ouvertes sur le web.
 
-```{admonition} Réference
+```{admonition} Atelier ["Mise en place d’un SPARQL EndPoint. Servir du RDF via HTTP avec Jena et Fuseki"](http://wheintz.github.io/jRBDD1015.html#1)
 :class: seealso
-Atelier ["Mise en place d’un SPARQL EndPoint. Servir du RDF via HTTP avec Jena et Fuseki"](http://wheintz.github.io/jRBDD1015.html#1)
 Wilfried Heintz (Unité Mixte de Recherche "Dynamiques et écologie des paysages agriforestiers"), 2015
 ```
   
