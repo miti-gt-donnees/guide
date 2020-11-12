@@ -3,9 +3,8 @@ p {
 }
 
 p.admonition-title {
-    font-weight: normal;
+    font-weight: normal !important;
     display: inline;
-    color: #696969;
 }
 
 div.admonition{
