@@ -1,6 +1,7 @@
 md_files := $(sort $(wildcard *.*.md))
 
 default: $(md_files)
+	mv 0.intro.md intro.md
 	rm -rf public
 	rm -rf _build
 	${HOME}/.local/bin/jupyter-book build .
