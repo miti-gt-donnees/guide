@@ -2,14 +2,16 @@ p {
     text-align: justify;
 }
 
-p.admonition-title {
-    font-weight: normal !important;
-    display: inline;
+.admonition.seealso {
+  padding: 0 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: left;
 }
-
-div.admonition{
-    margin: 20px 0px;
-    padding: 10px 30px;
-    background-color: #ffffff;
-    border: 1px solid #ffffff;
+.admonition-title {
+  background-color: #ffffff !important;
+  font-style: italic !important;
+  font-weight: normal !important;
+  text-align: left;
 }
