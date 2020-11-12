@@ -1,23 +1,23 @@
-- file: 0-intro
+- file: 00-introduction
   numbered: false
 
 - part:
   numbered: true
   chapters:
-    - file: 1.imaginer.md
-    - file: 2.concevoir_planifier.md
-    - file: 3.collecter.md
-    - file: 4.traiter.md
-    - file: 5.analyser.md
-    - file: 6.archiver.md
-    - file: 7.publier.md
+    - file: 01-imaginer.md
+    - file: 02-concevoir_planifier.md
+    - file: 03-collecter.md
+    - file: 04-traiter.md
+    - file: 05-analyser.md
+    - file: 06-archiver.md
+    - file: 07-publier.md
 
 - part: 
   numbered: false
   chapters:
-    - file: 8.conclusion.md
-    - file: 98.Infrastructures.md
-    - file: 99.Reproductibilite.md
-    - file: 82.Credits.md
+    - file: 08-conclusion.md
+    - file: 10-infrastructures.md
+    - file: 11-reproductibilite.md
+    - file: 12-credits.md
     - title: pdf
       url: https://mi-gt-donnees.pages.math.unistra.fr/synthese/guide_donnees.pdf

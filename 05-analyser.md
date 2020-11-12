@@ -21,7 +21,7 @@ De façon générale, on distingue :
 - les ressources de type cloud (par exemple le cloud distribué de France Grille France Cloud),
 - les ressources de type grille de calcul ou HTC (High Throughput Computing), par exemple l'infrastructure France Grille ou le Centre de Calcul de l'IN2P3.
 
-Elles sont décrites dans une [page spécifique](98.Infrastructures.md).
+Elles sont décrites dans une [page spécifique](10-infrastructures.md).
 
 ## Outils pour l'analyse des données
 
