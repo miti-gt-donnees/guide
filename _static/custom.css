@@ -7,7 +7,7 @@ p {
   margin-bottom: 20px;
   border: 1px solid transparent;
   border-radius: 4px;
-  text-align: left;
+  text-align: left !important;
   font-style: italic !important;
 }
 .admonition-title {
