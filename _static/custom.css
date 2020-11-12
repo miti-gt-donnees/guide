@@ -1,0 +1,16 @@
+p {
+    text-align: justify;
+}
+
+p.admonition-title {
+    font-weight: normal;
+    display: inline;
+    color: #696969;
+}
+
+div.admonition{
+    margin: 20px 0px;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
