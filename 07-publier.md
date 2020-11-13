@@ -239,10 +239,10 @@ Attention la pérennité est purement une question de service et n'est pas inhé
 
 **Pourquoi citer les données ?**
 
-Herbert Gruttemeier illustre ses propos par des exemples de jeux de données exposés et cités dans différents entrepôts. Il présente la **position « officielle » des éditeurs sur l’accès aux données de la recherche**  et s’attarde sur le **type de données et de ressources concernées** par l’attribution de DOI. 
+Herbert Gruttemeier illustre ses propos par des exemples de jeux de données exposés et cités dans différents entrepôts. Il présente la position « officielle » des éditeurs sur l’accès aux données de la recherche  et s’attarde sur le type de données et de ressources concernées par l’attribution de DOI. 
 
-Data Cite propose un certain nombre de **services** (création de différents formats de citation pour les DOI, exposition des métadonnées, schéma de métadonnées DataCite et un environnement de test) que l’auteur détaille. Il est question aussi de **« Data Citation Index »** et de métrique, de l’importance d’accéder à la découverte des données (principe de moissonnage des 
-métadonnées DataCite), **des partenariats** avec ORCID, OPENAIR, CODATA, FORCE 11, RDA …
+Data Cite propose un certain nombre de services (création de différents formats de citation pour les DOI, exposition des métadonnées, schéma de métadonnées DataCite et un environnement de test) que l’auteur détaille. Il est question aussi de « Data Citation Index » et de métrique, de l’importance d’accéder à la découverte des données (principe de moissonnage des 
+métadonnées DataCite), des partenariats avec ORCID, OPENAIR, CODATA, FORCE 11, RDA …
 
 ```{admonition} [DataCite : identifiants pérennes pour le partage des données](http://renatis.cnrs.fr/IMG/pdf/DataCite_FreDoc.pdf)  
 :class: seealso
@@ -250,9 +250,9 @@ Herbert Gruttemeier, INIST/ CNRS
 Frédocs2013 - Gestion et valorisation des données de la recherche -  7 au 10 octobre 2013, Aussois   
 ```
 
-Cette présentation est consacrée au service proposé par **DataCite**. Herbert Gruttemeier explique pour commencer ce qu’est un DOI (dentifiant  persistant qui permet la citation et fournit un lien stable vers des ressources numériques,  comme les données de la recherche) et le **principe de citation, pourquoi utiliser un DOI**,  **comment le DOI s’inscrit dans le système Handle**. 
+Cette présentation est consacrée au service proposé par DataCite. Herbert Gruttemeier explique pour commencer ce qu’est un DOI (dentifiant  persistant qui permet la citation et fournit un lien stable vers des ressources numériques,  comme les données de la recherche) et le principe de citation, pourquoi utiliser un DOI,  comment le DOI s’inscrit dans le système Handle. 
 
-Il aborde la question de la **qualité des DOI** qui nécessite la mise en place d’une politique institutionnelle. La suite de son exposé est consacrée à la **présentation de  DataCite**, Consortium international porté par des institutions locales, créé officiellement à Londres en décembre 2009. 
+Il aborde la question de la qualité des DOI qui nécessite la mise en place d’une politique institutionnelle. La suite de son exposé est consacrée à la présentation de  DataCite, Consortium international porté par des institutions locales, créé officiellement à Londres en décembre 2009. 
 Il présente les 26 membres, la structure, les différents rôles qui lui sont assignés (agence d’attribution de DOI et agence de donnée). 
 
 Pour en savoir plus sur le DOI de DataCite  
@@ -278,15 +278,15 @@ Mohamed Salah Yahia
 [Séminaire SIST16 OSU Oreme Montpellier](http://sist16.sciencesconf.org)
 ```
 
-Par ailleurs certaines infrastructures proposent un service de fourniture de DOI comme le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit des D.O.I pour les données *marines* <https://www.seanoe.org/>.
+Par ailleurs certaines infrastructures proposent un service de fourniture de DOI comme le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit des D.O.I pour les données *marines* sur le site Seanoe <https://www.seanoe.org/>.
 
-Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork.
+Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork que nous avons vu précédemment pour élaborer des catalogues de jeux de données.
 Dans cette présentation Annick Battais indique comment assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
 ```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist19.sciencesconf.org/data/pages/SIST19\_A\_BATTAIS.pdf)  
 :class: seealso
 Annick Battais  
-[Séminaire SIST2019 Toulouse](http://sist19.sciencesconf.org)   
+[Séminaire SIST2019 Toulouse 2019](http://sist19.sciencesconf.org)   
 ```
 
 ### Retour d'expériences d'utilisation de DOI:
