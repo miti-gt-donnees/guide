@@ -96,8 +96,10 @@ Cette [directive](http://cnig.gouv.fr/?page_id=8991)  vise à établir en Europe
 
 Marc Leobet, chargé de mission à la Mission information géographique du ministère en charge du développement durable pose, dans cette présentation réalisée en 2013, le cadre de la Directive Inspire. Il présente tout d’abord l’utilité de cette Directive (identification des données, gestion de la confidentialité, des problèmes de conventionnement  et qualité des données), son contexte, les obligations qu’elle induit, le contexte autour de la réutilisation des données du secteur public et  l’application de la Directive inspire dans le domaine de la recherche. 
 
-* [La Directive INSPIRE pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)  
+```{admonition} [La Directive INSPIRE pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)  
+:class: seealso
 F. Merrien, M. Léobet, M. Francès   Mission de l'information géographique du ministère de l'Environnement  
+```
 
 ```{admonition} [Gestion et valorisation des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/Leobet_INSPIRE_Fredoc2013.pdf)
 :class: seealso
