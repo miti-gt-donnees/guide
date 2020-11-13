@@ -221,7 +221,7 @@ D’un réseau à l’autre, l’organisation et le fonctionnement varient :
 
 La [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) du CNRS par exemple accueille et pilote actuellement [22 réseaux métiers et technologiques](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
 
-Les instituts du CNRS supportent également des réseaux qui viennent en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense certains dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
+Les instituts du CNRS soutiennent également des réseaux qui viennent en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense certains dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
 
 
 ### Se former
