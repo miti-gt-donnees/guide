@@ -35,6 +35,7 @@ Et enfin, last but not least : nous espérons à travers ce guide apporter notre
 
 
 >CH - Alternative un peu modifiée partant de la proposition de Joanna  avec en + les compléments de Maurice et certaines remarques de MC - Peut-être faudrait il ajouter encore des idées complémentaires ?*
+>STP c'est sur de lire 2 version alternatives, je te propose d'agreger les 2 et mettre dans la version du dessus ce qui te semble >manquer ou différent dans la version du dessous...j'ai relu et j'y retrouve quasiment les memes idées. voies si il manque une idée >forte interessante a mettre 
 
 Motivé par les évolutions voire des accélérations récentes autour des problématiques liées à la gestion des données de la recherche le groupe de travail inter-réseaux « Atelier Données » a réalisé ce guide afin de regrouper, mettre en commun, partager la réflexion transversale des membres des réseaux de la MITI (*et des Instituts CNRS ?*) et apporter un témoignage de l’implication des différents métiers dans le travail autour de la donnée.
 
