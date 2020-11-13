@@ -18,24 +18,30 @@ Différentes initiatives institutionnelles sont développées au sein de nos ét
 À l’occasion d’une rencontre déjà ancienne, les « FréDoc 2013 », Simon Hodson (Directeur exécutif de CODATA) dresse un panorama très complet des différentes politiques institutionnelles, des tendances gouvernementales et internationales. Nous percevons déjà cette année-là très distinctement les défis et obstacles à lever pour la mise en place d’une gestion des données de la recherche. On comprend l’importance d’analyser le comportement des communautés de recherche pour parvenir à construire ensemble une politique autour des données et aussi l’intérêt d’une approche convergente « top down et bottom up » pour la mise en place d’actions de terrain qui rejoignent les actions de la gouvernance. Les nombreux défis à la mise en place d’une politique des données de la recherche sont bien présents à commencer par le fait d’instaurer au sein de nos communautés une culture du partage de la donnée et de mettre à disposition des chercheurs des infrastructures et des services de formation.   
 Simon Hudson souligne aussi le rôle essentiel des politiques et parties prenantes pour mettre en place des actions et des concertations.
 
-* [Les politiques d’accompagnement des données : une comparaison internationale](http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf)  
+```{admonition} [Les politiques d’accompagnement des données : une comparaison internationale](http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf)  
+:class: seealso
 Simon Hodson, ISCU-CODATA  
 ANF "Frédocs2013 - Gestion et valorisation des données de la recherche", 2013 Aussois
+```
 
 Plus récemment, en 2017 à l’occasion d’une ANF dédiée à l’organisation du management des données de la recherche et dans le contexte d’omniprésence du numérique et des défis sociétaux actuels, Francis André (Chargé des données de la recherche à la DIST du CNRS) présente l’évolution des pratiques scientifiques et le cadre stratégique offert par l’open science autour des données de la recherche. 
 
 On découvre à travers son intervention les principes FAIR et l’importance de disposer de métadonnées de qualité. On comprend également la nécessité du partage pour faire évoluer les connaissances. Francis André distingue dans sa présentation différents types de données, d’infrastructures et de services à l’échelle européenne et internationale avec un focus sur le fonctionnement et les groupes de travail de [la Research Data Alliance (RDA)](https://www.rd-alliance.org/). Il revient sur les résultats d’une enquête réalisée auprès des directeurs d’unité pour aborder la question du point de vue du chercheur et insiste sur la nécessité de réinventer nos métiers et de s’approprier la gestion des données. 
 
-* [Gestion des données de la recherche dans le contexte d'Open Science](https://anfdonnees2017.sciencesconf.org/data/pages/ANF_RENATIS_FANDRE_20170703_final.pdf)  
+```{admonition} [Gestion des données de la recherche dans le contexte d'Open Science](https://anfdonnees2017.sciencesconf.org/data/pages/ANF_RENATIS_FANDRE_20170703_final.pdf)  
+:class: seealso
 Francis André, DIST-CNRS  
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données", 2017, Paris 
+```
 
 
 La gestion des données s’organise également au sein des structures d’accompagnement au niveau européen comme en témoigne Susan Reilly (Directeur exécutif de la Ligue Européenne des Bibliothèques de Recherche [LIBER](https://libereurope.eu/)) qui pointe en particulier les besoins de réorganisation et d’adaptation des structures d’accompagnement de la recherche pour aider les chercheurs dans la gestion des données. Le rôle des bibliothèques est crucial dans ces actions et les opportunités à saisir pour évoluer dans ce sens sont nombreuses. Partant du constat que sans une infrastructure qui aide les chercheurs à gérer leurs données de façon adéquate et efficace, aucune culture du partage n’est possible. Elle expose dans le cadre de LIBER une démarche proactive au sein des bibliothèques de recherche en Europe et présente 10 recommandations à suivre pour répondre aux besoins des chercheurs en termes de services et de supports.
 
-* [From data management policy to implementation : opportunities and challenges for libraries](http://renatis.cnrs.fr/IMG/pdf/ReillyFredoc.pdf)  
+```{admonition} [From data management policy to implementation : opportunities and challenges for libraries](http://renatis.cnrs.fr/IMG/pdf/ReillyFredoc.pdf)  
+:class: seealso
 Susan Reilly, Liber  
 ANF "Frédocs2013 - Gestion et valorisation des données de la recherche", 2013, Aussois 
+```
 
 On constate en effet aujourd’hui en 2020 que les services communs de documentation, nouvellement investis de ces problématiques d’open acces et de gestion des données de la recherche ont entrepris une restructuration de fond au sein des Universités pour proposer des services d’accompagnement à destination des équipes de recherches *(Voir [Arabesque n°95](http://www.abes.fr/Publications-Evenements/Arabesques/Arabesques-n-95), ADBU, 2019)*. De nouveaux services d'appui à la recherche se constituent peu à peu et proposent un soutien pour la publication en libre accès ou la rédaction de plan de gestion de données.  *(voir [SOS-PGD](https://openaccess.couperin.org/sos-pgd/), répertoire des services opérationnels de soutien à la rédaction de plans de Gestion de données au sein des établissements de l'enseignement supérieur et de la recherche)*  
 
@@ -61,16 +67,20 @@ De nombreuses initiatives internationales et programmes européens ont été con
 
 Une présentation de Françoise Genova et de Francis André détaille le fonctionnement de la RDA, organisation internationale créée en mars 2013, pilotée par la communauté, qui vise à construire les ponts sociaux et techniques pour le meilleur partage des données. Les groupes d’intérêt et de travail y sont présentés par thématiques ainsi que les productions et recommandations issues de ces groupes. Un focus particulier est porté sur le Nœud National RDA France, ses objectifs et ses activités.
                                 
-* [Les activités de RDA : perspectives dans le cadre du noeud national français](https://sist18.sciencesconf.org/data/pages/27_F_Andre_Research_Data_Alliance.pdf)  
+```{admonition} [Les activités de RDA : perspectives dans le cadre du noeud national français](https://sist18.sciencesconf.org/data/pages/27_F_Andre_Research_Data_Alliance.pdf)  
+:class: seealso
 Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Strasbourg
 SIST 2018 : Séries Interopérables et Systèmes de Traitement, 2016, Guyancourt
+```
 
 Dans cette autre présentation, Volker Beckman, chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS, explique comment concrètement les chercheurs pourront utiliser l'EOSC.
 Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui coordonne les initiatives et projets de construction de cet espace à destination de la recherche et des chercheurs. Partant des nombreux projets qui ont été financés pour élaborer ce cloud (EOSCpilot, EOSC-Pillar. EOSC-hub, etc.), il montre les possibilités de collaboration. Depuis 2019, une structuration est en cours avec la mise en place d’une gouvernance temporaire et une implication forte des ministères en charge de la recherche dans les différents pays européens. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement complémentaires dans le programme cadre "Horizon Europe".
 
-* [European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf)  
+```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf)  
+:class: seealso
 Volker Beckman,  CNRS/IN2P3
 Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020
+```
 
 Pour accompagner les communautés de chercheurs, une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/cid70554/la-feuille-de-route-nationale-des-infrastructures-de-recherche.html) est mise à disposition sur son site par le ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation. Elle recense aujourd’hui 99 infrastructures et est régulièrement remise à jour. 
 
@@ -94,15 +104,17 @@ Les notions de « document administratif », d’universalité et de gratuité d
 
 Dans tous les cas, l’application des textes législatifs aux données de la recherche n’est pas toujours aisée. Nathalie Gandon, nous apporte des renseignements précieux à travers une check-list pour déterminer si les résultats de recherche sont ou ne sont pas des « documents administratifs » à diffuser. Il convient de s’interroger tout d’abord sur la nature et la forme du résultat concerné (le document doit être achevé), ensuite sur l’auteur du résultat (le document doit être produit dans le cadre d’une mission de service public) et enfin sur les conditions de production du résultat (collaboration publique ou privée). Il existe également de nombreuses exceptions prévues par la loi qui conduisent à une interdiction totale d’accès et de réutilisation (documents secret défense etc.) et les données communicables seulement aux intéressés (données personnelles, etc.). On trouvera sur ces supports le détail des exceptions liées aux données environnementales et personnelles.
 
-
-* [Résultats de la recherche et open data : le cadre juridique](https://fredoc2018.sciencesconf.org/data/pages/Open_data_cadre_juridique_N_Gandon.pdf)  
+```{admonition} [Résultats de la recherche et open data : le cadre juridique](https://fredoc2018.sciencesconf.org/data/pages/Open_data_cadre_juridique_N_Gandon.pdf)  
+:class: seealso
 Nathalie Gandon, INRA  
 ANF  "Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se) réinventer", 2018, Albi
+```
 
-* [Questions juridiques autour de l’ouverture des données](http://rbdd.cnrs.fr/IMG/pdf/20181107_questions_juridiques_autour_de_l_ouverture_des_donnees_rbdd.pdf?515/adba03a95aa28dd17a08e0c052414e099ad26347)  
+```{admonition} [Questions juridiques autour de l’ouverture des données](http://rbdd.cnrs.fr/IMG/pdf/20181107_questions_juridiques_autour_de_l_ouverture_des_donnees_rbdd.pdf?515/adba03a95aa28dd17a08e0c052414e099ad26347)  
+:class: seealso
 Nathalie Le Ba (DAJ du CNRS)   
 ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données » - 2018 Sète      
-
+```
 En complément de ces présentations, il est important de retenir que le droit des producteurs de bases de données (droit sui generis) est désormais "neutralisé" par la Loi sur la république numérique. Comme toute administration, les universités et établissements de recherche ne peuvent opposer leur droit de producteur de bases de données à la libre réutilisation des informations qu'elles produisent. Le principe d'ouverture par défaut s'applique. Pour plus d'information sur ce point nous vous invitons à consulter l'article de Lionel Maurel : [les universités françaises et l’Open Data après la loi numérique](https://scinfolex.com/2016/11/01/les-universites-francaises-et-lopen-data-apres-la-loi-numerique/).
 
 **Les données à caractère personnel**
@@ -115,9 +127,11 @@ Les principes énoncés dans ce règlement doivent être connus et respectés, c
 
 On trouvera dans l'intervention de Patrick Guillot (CIL des établissements universitaires de la ComUE Université Grenoble Alpes), une présentation riche et complète comprenant entre autres, un rappel des définitions et principes fondamentaux de la loi, une définition des "données à caractère personnel", un historique des principaux textes et un quiz de questions-réponses (vrai/faux) très utile pour comprendre l'évolution de la réglementation.
 
-* [Prise en compte des données personnelles - Évolution de la règlementation](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_guillot_1.pdf)  
+```{admonition} [Prise en compte des données personnelles - Évolution de la règlementation](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_guillot_1.pdf)  
+:class: seealso
 Patrick Guillot, Univ. Grenoble Alpes     
 ANF "Traçabilité des activités de recherche et gestion des connaissances", Réseau Qualité en Recherche, Grenoble, 16-18 octobre 2017 
+```
 
 **Les licences**
 
@@ -146,8 +160,10 @@ Les principes FAIR ont pour objectif de guider le partage et la publication des 
 Cette journée s’appuie plus spécifiquement sur les notions de pérennisation et d’interopérabilité des données dans les projets de recherche, et cherche à en comprendre les facteurs ressorts de réussite et les points sensibles à surveiller.     
 Elle a pour ambition d’analyser les complémentarités des expériences au travers des métiers représentés par les réseaux ; de formuler des points de convergence de bonnes pratiques et d’accroître les échanges entre les réseaux de la MI sur des questions à forts enjeux pour l’évolution de nos métiers.
 
-* [Interopérabilité et pérennisation des données de la recherche : Comment FAIR en pratique ? Retour d’expérience](https://gt-donnees2018.sciencesconf.org/)  
+```{admonition} [Interopérabilité et pérennisation des données de la recherche : Comment FAIR en pratique ? Retour d’expérience](https://gt-donnees2018.sciencesconf.org/)  
+:class: seealso
 Atelier Données Inter réseau, 2018
+```
 
 ## Prévoir la traçabilité des données 
 
@@ -162,7 +178,8 @@ Il ne suffit pas qu’une donnée soit riche en métadonnées pour que ce soit u
 
 Nos tutelles, en réponse à cette problématique d'intégrité scientifique, ont mis en place une stratégie nationale avec la rédaction début 2016 d’une charte de déontologie des métiers de la recherche qui insiste sur l’importance de permettre la traçabilité des travaux expérimentaux et la conservation des données de la recherche. Une bonne gestion des données de la recherche apparait comme une réponse au problème soulevé.
 
-* [Activités de recherche et gestion des connaissances](https://anfdonnees2016.sciencesconf.org/data/pages/donnees_renatis_Al1_Rivet_2016.pdf)  
+```{admonition} [Activités de recherche et gestion des connaissances](https://anfdonnees2016.sciencesconf.org/data/pages/donnees_renatis_Al1_Rivet_2016.pdf)  
+:class: seealso
 Alain Rivet, CNRS_CERMAV  
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données" -  6-8 juillet 2016 Paris (France)        
 Voir aussi les vidéos :
@@ -171,8 +188,7 @@ Voir aussi les vidéos :
 [La qualité en recherche : contexte et définition](https://youtu.be/7apGMS9gg5g) (séquence 3)
 [La qualité au service de la gestion des données dans les laboratoires]( https://youtu.be/Ld5vEByAMNA) (séquence 4)
 [Conclusion : Développer les démarches "qualité" comme outil de gestion de données](https://youtu.be/wVgQ_2fM10s) (séquence 5)
-
-
+```
 
 ## Envisager la curation des données
 
@@ -190,9 +206,11 @@ Pour illustrer une pratique de curation des données en SHS, Emmanuelle Morlock,
 
 Cette présentation s’organise en trois parties : les spécificités de la « data curation », les défis spécifiques aux SHS et ce que la TEI (Text Encoding Initiative) propose pour les relever à travers l’exemple de l’encodage de sources textuelles. Dans un premier temps Emmanuelle Morlock définit la notion de curation, les notions qui gravitent autour et celle de data curation. Elle présente les activités transversales associées à la curation des données et les défis que cela représente pour les sciences humaines et sociales. Elle s’intéresse ensuite aux types d’objets de la curation, les difficultés associées. Elle aborde ensuite le chapitre de l’édition savante en précisant qu’il s’agit de bien plus qu’une simple reproduction augmentée, indiquant par exemple qu’il convient là de garantir la fiabilité et la lisibilité du texte, de mettre en forme un dispositif de lecture en fonction des attentes et des conventions d’un lectorat donné, de faire des choix, etc.  Le numérique apporte à ce stade un certain nombre de promesses (démultiplie les interfaces de lecture et les possibilités de navigation), mais connait aussi ses limites (demande des investissements, des compétences spécifiques en encodage, structuration, etc.). Ceci l’amène à définir précisément ce qu’est l’édition numérique (un texte enrichi, exploitable par des machines) et à présenter, définir et expliquer le processus d’édition dans un format XML TEI. Elle explique aussi l’apport de la TEI dans la réponse aux défis posés par l’édition numérique (distinction de niveaux d’interprétation via le balisage, conservation et documentation des choix de manière formalisée) et termine sa présentation sur le rôle des « curateurs » pour repérer les manques dans un objectif de réutilisation à long terme ou pour aider les chercheurs à améliorer leurs pratiques de documentation de leurs données.
 
-* [De quelques défis spécifiques de la curation numérique des données en SHS : petite incursion dans l’univers de l’édition critique de sources au format TEI](http://renatis.cnrs.fr/IMG/pdf/emma-morlock-fredocs-2013)  
+```{admonition} [De quelques défis spécifiques de la curation numérique des données en SHS : petite incursion dans l’univers de l’édition critique de sources au format TEI](http://renatis.cnrs.fr/IMG/pdf/emma-morlock-fredocs-2013)  
+:class: seealso
 Emmanuelle Morlock, HiSoMa)  
 Frédocs2013 - Gestion et valorisation des données de la recherche - 2013, Aussois
+```
 
 Dans le domaine spécifique des humanités numériques, il existe un guide auquel se référer : le [DH Curation Guide](https://guide.dhcuration.org/about/). Il est composé d’un recueil d’articles fiables sur la curation des données, contextualisés par des rédacteurs experts et des membres de la communauté. Ce guide, réalisé suite à une analyse de besoins exprimés par des professionnels en Humanités numériques dans le cadre d’un projet de recherche (Data Curation Education Program for the Humanities (DCEP-H) a été conçu avec l’objectif d’aider à relever les défis posés par la curation des données.
 
@@ -252,11 +270,8 @@ Un dispositif de formation à distance sur les données de la recherche est acce
 Le réseau national des [URFIST](http://gis-reseau-urfist.fr/) (Unité Régionale de Formation à l'Information Scientifique et Technique), créé en 1982 est un réseau inter-académique structuré depuis 2017 en Groupement d’Intérêt Scientifique (GIS) qui a pour objectif de développer l’usage de l’IST dans l’enseignement supérieur et de la recherche. 
 Il est constitué de sept unités régionales situées à [Bordeaux](http://weburfist.univ-bordeaux.fr/), [Lyon](https://urfist.univ-lyon1.fr/), [Paris](https://urfist.chartes.psl.eu/formations/stages/programme), [Nice](https://urfist.univ-cotedazur.fr/), [Renne](https://www.sites.univ-rennes2.fr/urfist/formations/stages/presentation-du-programme-en-cours), [Strasbourg](http://urfist.unistra.fr/formations/) et [Toulouse](http://urfist.univ-toulouse.fr/formations/sessions-date). Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information. Outre les actions de formation, d’expérimentations et innovations pédagogiques initiées par les Urfist, le réseau met à disposition un blog « [UrfistInfo](https://urfistinfo.hypotheses.org/) ».
 
-
-
 ### Suivre les travaux du Collège Compétences et formation du COSO
 
 Le plan national pour la science ouverte engage les opérateurs de la recherche à mettre en œuvre une politique de science ouverte et à  *« Développer les compétences sur les données de la recherche, notamment à travers des offres de formation en ligne à destination de la communauté scientifique »*. C’est précisément l’objectif principal du [Collège Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/) du Comité pour la science ouverte (COSO).       
 Le collège n’est pas une structure de formation, mais appuie les acteurs de la formation à la science ouverte. Parmi les réalisations récentes, on peut citer la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente », la réalisation du [Passeport pour la science ouverte](https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/) destiné aux doctorants de toutes disciplines et le livret « Je publie, quels sont mes droits » [bientôt disponible via le site [Ouvrir la science](https://www.ouvrirlascience.fr/)] qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits.
-
 
