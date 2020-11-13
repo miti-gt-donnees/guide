@@ -105,7 +105,7 @@ Ce logiciel "Talend" a été également utilisé par Soumaya Lahbib pour traiter
 ```{admonition} [Gestion des données du projet EMSO avec Talend et Erddap](https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf)    
 :class: seealso
 Maurice Libes, Soumaya Lahbib   
-[Séminaire SIST18 OVSQ](https://sist18.sciencesconf.org)   
+[Séminaire SIST18 OVSQ](https://sist18.sciencesconf.org), Guyancourt.   
 ```
 
 ### Déposer et structurer dans des plateformes de gestion de données locales
