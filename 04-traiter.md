@@ -13,17 +13,17 @@ Cette partie est donc structurée en différentes sections décrivant cette pré
 
 ## Préparer les fichiers de données en vue de leur analyse
 
-Bien souvent, les données "brutes" sont issues de capteurs ou divers instruments de collecte sur le terrain. Ils se présentent fréquemment sous la forme de fichiers dans des formats propriétaires peu exploitables et peu interopérables directement tels quels.
+Bien souvent, les données "brutes" sont issues de capteurs ou divers instruments de collecte sur le terrain. Ils se présentent fréquemment sous la forme de fichiers dans des formats propriétaires, peu exploitables et peu interopérables directement tels quels.
 
-Dans une optique de gestion FAIR, il est donc important de se préoccuper du format des données afin de les rendre "ouverts" et interopérables. La notion de frmat "ouvert" est importante, et à cet effet, le site Doranum propose une [introduction à la définition de formats ouverts ou fermés](https://doranum.fr/stockage-archivage/quiz-format-ouvert-ou-ferme/).
+Dans une optique de gestion FAIR, il est donc important de se préoccuper du format des données afin de les rendre "ouverts" et interopérables. La notion de format "ouvert" est importante, et à cet effet, le site Doranum propose une [introduction à la définition de formats ouverts ou fermés](https://doranum.fr/stockage-archivage/quiz-format-ouvert-ou-ferme/).
 
 De plus, si l'objectif est le traitement massif des données, il est important de choisir des formats capables de supporter des entrées / sorties intensives sur des infrastructures de calcul.
 
 ### Utiliser des formats standards 
 
-Parmi les premiers traitements opérés sur des données brutes provenant du terrain, les données issues de capteurs environnementaux sont  souvent illisibles et peu exploitables par un être humain. Il convient alors de traiter les fichiers bruts de manière à en extraire les données utiles, et les réécrire dans des formats standards utilisables par un grand nombre de logiciels, et une communauté d'utilisateurs.
+Parmi les premiers traitements opérés sur des données brutes provenant du terrain, les données issues de capteurs environnementaux sont  souvent illisibles et peu exploitables par un être humain. Il convient alors de traiter les fichiers bruts de manière à en extraire les données utiles, et de les réécrire dans des formats standards utilisables par un grand nombre de logiciels, et une communauté d'utilisateurs.
 
-Chaque discipline utilise voire définit un certain nombre de formats standards, et il est bon de les connaitre et de s'y référer.
+Chaque discipline utilise, voire définit un certain nombre de formats standards, et il est bon de les connaitre et de s'y référer.
 
 On ne pourra pas tous les citer mais à titre d'exemple dans les domaines Océan, Atmosphère par exemple, le format [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l'environnement. Il est très bien adapté et utilisé, par exemple pour formater des données représentent des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit "auto-descriptif" en ce sens qu'il permet de ne pas avoir besoin d'un fichier de description complémentaire. Les métadonnées sont en effet insérées dans l'entête du fichier, avec les données elles-mêmes.
 On peut ainsi décrire de manière assez précise les données du fichier, par exemple en insérant les unités de mesure des paramètres mesurés, la licence de diffusion, les propriétaires, etc., ainsi que l'organisation des données.
