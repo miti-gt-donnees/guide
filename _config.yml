@@ -13,9 +13,6 @@ html:
     baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese"
     use_repository_button: true
     use_edit_page_button: false
-    comments:
-        utterances:
-            repo: "guide-donnees/guide-donnees.github.io"
 
 parse:
   myst_extended_syntax: true
