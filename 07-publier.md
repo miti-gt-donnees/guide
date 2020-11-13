@@ -54,7 +54,7 @@ C. Bernard,   J. Fabre, et O. Lobry
 ```
 
 
-De la même manière, Emmanuel Blondel est l'auter d'un ensemble de librairies de programmation écrites en "R", destinées
+De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de librairies de programmation écrites en "R", destinées
 à faciliter l'insertion de métadonnées dans les catalogues "GeoNetwork". Ces développements ont été présentés lors d'un atelier organisé par le réseau RBDD et SIST :
 * [Atelier "Métadonnées et R"](https://sist.cnrs.fr/les-formations/2018-atelier-metadonnees-et-r)   
   - Écrire et Lire des métadonnées avec la librairie R *geometa*  
@@ -140,7 +140,7 @@ Données surfaces continentales : <https://www.theia-land.fr/>
 
 #### Les portails de données européens
 
-Par ailleurs de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du BODC.
+Par ailleurs de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du [British Oceanographic Data Center : BODC](https://www.bodc.ac.uk/).
 Le projet européen Seadatanet vise à élaborer et mettre en place un portail européen d'accès aux données marines en se basant sur de nombreux standards rendant les données FAIR
 Seadatanet est un exemple d'envergure européenne pour la mise en place de standards d'interopérabilité. Il repose sur de nombreux vocabulaires contrôlés fournis par le BODC 
 
@@ -149,7 +149,7 @@ Une présentation du projet Seadatanet a été faite par Michele Fichaut et Flor
 ```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://sist15.sciencesconf.org/program)
 :class: seealso
 Michèle Fichaut, Systèmes d'Informations Scientifiques pour la Mer   
-[Séminaire SIST15 OSU Pytheas Marseille](https://sist15.sciencesconf.org/)   
+[Séminaire SIST15 OSU Pytheas Marseille 2015](https://sist15.sciencesconf.org/)   
 ```
 
 Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ présente un exemple de dépôt de données dans le portail de données Seadatanet sur des données de cytométrie en flux. Il est intéressant de voir la démarche et le workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un certain nombre de standards.
@@ -157,7 +157,7 @@ Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ présente un exemple 
 ```{admonition} [Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf)  
 :class: seealso
 Soumaya Lahbib  
-[Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
+[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
 ```
 
 ## Utilisation de thesaurus 
@@ -178,10 +178,10 @@ Lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur l
 :class: seealso
 [Poster résumant le thesaurus T_Semandiv](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv_Poster.pdf)  
 Dominique Vachez, Institut de l’information scientifique et technique   
-[Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
+[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
 ```
 
-La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont : élaboration collaborative des termes et procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
+La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont : une élaboration collaborative des termes, et une procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
 
 ```{admonition} [Création d'un thésaurus collaboratif : cas d'un groupe CESAB,  Fondation pour la Recherche sur la Biodiversité, 2015](http://rbdd.cnrs.fr/IMG/pdf/creation_d_un_thesaurus_collaboratif.pdf?139/f6b1cdc1818726f3cdfc7646cc98afb22687cfd5)
 :class: seealso
@@ -205,7 +205,7 @@ Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 ```
 
-Enfin notons la création du logiciel open source "[opentheso](https://www.mom.fr/ressources-numeriques/opentheso)". Il permet l'élaboration collaborative d'un thésaurus tout comme ThesauForm mais aussi la gestion de thésaurus multilingue supportant la polyhiérarchie, conforme à la norme ISO 25964.
+Enfin notons la création du logiciel open source "[opentheso](https://www.mom.fr/ressources-numeriques/opentheso)". Il permet l'élaboration collaborative d'un thésaurus tout comme ThesauForm, mais aussi la gestion de thésaurus multilingue supportant la polyhiérarchie, conforme à la norme ISO 25964.
  
 ## Utiliser des Identifiants pérennes
 
