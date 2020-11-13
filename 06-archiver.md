@@ -140,7 +140,7 @@ Dans la présentation référencée, Lorène Béchard et Marion Massol présente
 - Sur le très long terme …et au-delà,
 - De manière à ce qu’il soit en permanence accessible et compréhensible.
 
-```{admonition} Réference [Les critères à prendre en compte pour la conservation des données](http://rbdd.cnrs.fr/IMG/pdf/2014-11-06_rbdd_ae_cines_bdd.pdf?180/f1eef63ef0e72ac628e9435afadcf0c0fc82abfb)  
+```{admonition} [Les critères à prendre en compte pour la conservation des données](http://rbdd.cnrs.fr/IMG/pdf/2014-11-06_rbdd_ae_cines_bdd.pdf?180/f1eef63ef0e72ac628e9435afadcf0c0fc82abfb)  
 :class: seealso
 [video](http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines)   
 Lorène Béchard, CINES & Marion Massol, CINES   
