@@ -28,6 +28,10 @@ Ce guide n'a pas la prétention d'être exhaustif, mais il illustre les thèmes 
 
 Les pratiques et conseils cités dans ce guide ne se substituent pas aux recommandations présentées par les agences de financement, les établissements, ou les instituts, ..., mais sont là pour éclairer, accompagner les personnels de la recherche en charge de la gestion des données.
 
+Il est clair désormais qu'il faut considérer la gestion de données comme une tâche à part entière dans les projets de recherche, qu'on doit anticiper comment les données seront acquises/collectées, stockées, diffusées et bien entendu respecter les réglements de manière à "ouvrir les données autant que possible, les fermer autant que nécessaire" 
+
+Le lecteur aura désormais connaissance des infrastructures existantes et pourra se positionner en fonction de sa discipline, et enfin faire appel aux réseaux métiers pour aider à la bonne gestion des données.
+
 Et enfin, last but not least : nous espérons à travers ce guide apporter notre pierre à l’édifice pour une meilleure prise en compte du travail, parfois fastidieux, consacré aux données de la recherche, pour qu’elles puissent être accessibles, bien documentées, réutilisables et donc réutilisées dans le cadre d'une science ouverte et transparente.
 
 
