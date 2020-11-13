@@ -9,7 +9,7 @@ dans la conclusion je ferai bien deux parties :
 
 >@MCQ propose un paragraphe sur le cycle de vie alors, ML
 
-La rédaction de ce Guide a été motivée par d'une part, par les évolutions récentes liées aux problématiques de gestion des données de la recherche dans le cadre d'une science ouverte, et d'autre part, par le regroupement et la réflexion transversale interdisciplinaire des membres des réseaux de la MITI et des Intituts CNRS.
+La rédaction de ce Guide a été motivée par d'une part, par les évolutions récentes liées aux problématiques de gestion des données de la recherche dans le cadre d'une science ouverte, et d'autre part, par le regroupement et la réflexion interdisciplinaire des membres des réseaux de la MITI et des Intituts CNRS.
 
 Les réseaux métiers sont en effet particulièrement actifs et investis dans la veille technologique et la diffusion de savoirs nécessaires pour une bonne gestion FAIR des données. Grâce à leurs actions ils constituent le relais nécessaire pour diffuser les bonnes pratiques utiles et nécessaires pour le travail dans les laboratoires. En ce sens à travers les multiples séminaires et formations qui ont été organisées, on peut dire qu'ils sont vecteurs de bonnes pratiques et de diffusion du savoir dans la gestion des données de la recherche.
 
