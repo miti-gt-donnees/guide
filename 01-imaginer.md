@@ -127,6 +127,10 @@ L'ouverture et le partage des données impliquent par ailleurs l'utilisation de 
 
 Pour accompagner les équipes dans le traitement juridique des données, un collectif de juristes issus de l’enseignement supérieur et de la recherche a rédigé un guide de référence  [“Ouverture des données de recherche. Guide d’analyse du cadre juridique en France”](http://prodinra.inra.fr/ft/C7D38E14-877E-4883-AB91-0536DD4D63B9) qui explique les principes à respecter en matière de diffusion des données
 
+## Connaitre et comprendre les principes FAIR
+
+Enoncés initialement par le groupe de travail FORCE 11, les principes FAIR « The FAIR Guiding Principles for scientific data management and stewardhip » ont été publiés en mars 2016 dans la revue Scientific Data. Elaborés par des représentants du monde universitaire, de l’édition, de l’industrie et des organismes de financement, ils répondent aux besoins urgents d’amélioration des infrastructures permettant la réutilisation des données scientifiques.
+
 ### Définir les principes FAIR pour guider les stratégies de gestion des données
 
 Il s’agit d’un ensemble de [principes directeurs](https://www.ouvrirlascience.fr/fair-principles/) visant à rendre les données de la recherche, Faciles à trouver, Accessibles, Interopérables et Réutilisables (FAIR) par les êtres humains et les machines. 
