@@ -222,12 +222,12 @@ Virginie JAN LOGASSI, Université de Lorraine
 
 Plusieurs présentations et ateliers sur ce thème ont eu lieu lors de l'ANF "[Sciences des données : un nouveau challenge pour les métiers liés aux bases de données](http://rbdd.cnrs.fr/spip.php?article288)" en 2018 à Sète. En particulier l'Atelier qualité des données dont les travaux portaient sur les questions suivantes :
 
-```{admonition} Une explicitation des notions autour de la [qualité des données](http://rbdd.cnrs.fr/IMG/pdf/qualite_des_donnees_plumejeaud_2018_04112018.pdf?517/365a13edab604bd0700b045bfac29a3607acb649)   
+```{admonition} [Une explicitation des notions autour de la qualité des données](http://rbdd.cnrs.fr/IMG/pdf/qualite_des_donnees_plumejeaud_2018_04112018.pdf?517/365a13edab604bd0700b045bfac29a3607acb649)   
 :class: seealso
 Christine Plumejeaud, Nadine Mandran   
 ```
 
-```{admonition} Une [présentation autour de l'outil OpenRefine de nettoyage et mise en forme des données.](http://rbdd.cnrs.fr/IMG/pdf/openrefinecours.pdf?518/a69ce451abd02003a0e96957e39828e0f2e9f2ee)   
+```{admonition} [Une présentation autour de l'outil OpenRefine de nettoyage et mise en forme des données.](http://rbdd.cnrs.fr/IMG/pdf/openrefinecours.pdf?518/a69ce451abd02003a0e96957e39828e0f2e9f2ee)   
 :class: seealso
 Mathieu SABY, BU Université de Nice Sophia-Antipolis  
 ```
