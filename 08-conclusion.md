@@ -7,8 +7,7 @@ dans la conclusion je ferai bien deux parties :
 
 * une sur le guide (ce que vous avez mis) [MCQ]
 
-
-> j'ai réécrit et rajouté des passages ML 
+>@MCQ propose un paragraphe sur le cycle de vie alors, ML
 
 La rédaction de ce Guide a été motivée par d'une part, par les évolutions récentes liées aux problématiques de gestion des données de la recherche dans le cadre d'une science ouverte, et d'autre part, par le regroupement et la réflexion transversale interdisciplinaire des membres des réseaux de la MITI et des Intituts CNRS.
 
