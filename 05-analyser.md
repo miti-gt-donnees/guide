@@ -192,19 +192,19 @@ Plusieurs présentations issues des journées du réseau SIST illustrent des mis
 ```{admonition} [Filtrage interactif de données multidimensionnelles](https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf)  
 :class: seealso
 Patrick Brockmann, Laboratoire des Sciences du Climat et de l'Environnement   
-[SIST 2016](https://sist16.sciencesconf.org/)    
+[SIST16 OSU OREME Montpellier, 2016](https://sist16.sciencesconf.org/)    
 ```
 
 ```{admonition} [Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf)   
 :class: seealso
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
-[SIST 2018](https://sist18.sciencesconf.org/)   
+[SIST18 Observatoire Versailles, 2018](https://sist18.sciencesconf.org/)   
 ```
     
 ```{admonition} [Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf)   
 :class: seealso
 David Wolyniec, OSU Grenoble - Jonathan Schaeffer, OSU Grenoble   
-[SIST 2016](https://sist16.sciencesconf.org/)   
+[SIST16 OSU OREME Montpellier, 2016](https://sist16.sciencesconf.org/) 
 ```
 
 ## Optimiser l'utilisation des ressources
@@ -258,21 +258,21 @@ L’accroissement massif de la production scientifique (données et publications
 
 En 2013, déjà le réseau Renatis avait accueilli Claire Nedellec et Agnès Girad (INRA)  pour illustrer l’usage possible des technologies sémantiques pour la gestion de l’information scientifique et technique ainsi que Fabien Amarger (IRIT IRSTEA) pour témoigner de la construction d’une base de connaissance partant d’un cas d’usage : l’annotation des Bulletins de Santé du Végétal 
 
-Dans leur présentation, Claire Nedellec et Agnès Girard expliquent les **principes de l’analyse sémantique de texte** à travers un exemple en recherche documentaire et présentent le projet TirPhase.  La notion d’**indexation sémantique**  à travers un exemple en physiologie animale est abordée en début de présentation sous les traits d’une carte d’identité thématique associée au document.  Les auteurs présentent également la notion de **termino-ontologie** et définissent l’ontologie comme « un graphe où les nœuds sont des concepts et les arcs des relations entre ces concepts ». Elles expliquent que l’analyse sémantique identifie les unités sémantiques du texte et les associe aux concepts de l’ontologie. Partant de là, elle présente le **processus de conception de termino-ontologie** à partir de corpus en deux étapes : extraction automatique de termes avec l’outil Syntex et structuration et modélisation avec l’outil Protégé. La deuxième partie de la présentation est consacrée à la présentation du projet TriPhase. 
-Ce projet a pour objectif d’**analyser les publications** d’un département de recherche à des fins stratégiques (analyse quantitative des termes au cours du temps) et disposer d’un moteur de recherche sémantique bibliographique spécialisé. Les auteurs expliquent les différentes phases de la construction de la termino-ontologie TriPhase et l’apport des documentalistes dans ce travail collaboratif.
+Dans leur présentation, Claire Nedellec et Agnès Girard expliquent les principes de l’analyse sémantique de texte à travers un exemple en recherche documentaire et présentent le projet TirPhase.  La notion d’indexation sémantique  à travers un exemple en physiologie animale est abordée en début de présentation sous les traits d’une carte d’identité thématique associée au document.  Les auteurs présentent également la notion de termino-ontologie et définissent l’ontologie comme « un graphe où les nœuds sont des concepts et les arcs des relations entre ces concepts ». Elles expliquent que l’analyse sémantique identifie les unités sémantiques du texte et les associe aux concepts de l’ontologie. Partant de là, elle présente le processus de conception de termino-ontologie à partir de corpus en deux étapes : extraction automatique de termes avec l’outil Syntex et structuration et modélisation avec l’outil Protégé. La deuxième partie de la présentation est consacrée à la présentation du projet TriPhase. 
+Ce projet a pour objectif d’analyser les publications d’un département de recherche à des fins stratégiques (analyse quantitative des termes au cours du temps) et disposer d’un moteur de recherche sémantique bibliographique spécialisé. Les auteurs expliquent les différentes phases de la construction de la termino-ontologie TriPhase et l’apport des documentalistes dans ce travail collaboratif.
 
-Fabien Amarger, présente quant à lui un projet qui consiste à **construire une base de connaissance à partir de source et de données hétérogènes**. Il explique ce qu’est une base de connaissance et comment l’interroger.
+Fabien Amarger, présente quant à lui un projet qui consiste à construire une base de connaissance à partir de source et de données hétérogènes. Il explique ce qu’est une base de connaissance et comment l’interroger.
 
 ```{admonition} [Des technologies sémantiques pour l’information scientifique et technique](http://renatis.cnrs.fr/IMG/pdf/Nedellec_Girard_Fredoc-v4.pdf)  
 :class: seealso
 Claire Nedellec, Agnès Girard, INRA  
-Frédocs2013 - Gestion et valorisation des données de la recherche - 7 au 10 octobre 2013, Aussois   
+Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois   
 ```
 
 ```{admonition} [Annotation des Bulletins de santé du végétal (BSV) et interrogation](http://renatis.cnrs.fr/IMG/pdf/FreDoc_Irstea.pdf)  
 :class: seealso
 Fabien Amarger , IRIT-IRSTEA  
-Frédocs2013 - Gestion et valorisation des données de la recherche - 7 au 10 octobre 2013, Aussois  
+Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois  
 ```
 
 Plus récemment, Laurence El Khoury (DIST-CNRS) et Stéphane Schneider (INIST – CNRS) à l’occasion des Frédocs2018 ont présenté les projets [ISTEX](https://www.istex.fr/),  [VisaTM](https://objectif-tdm.inist.fr/2018/11/29/le-projet-visa-tm/) et [OpenMinteD](http://openminted.eu/) pour illustrer la mise à disposition d’une infrastructure de text-mining. 
@@ -283,5 +283,5 @@ Le Projet européen H2020 OpenMinteD présenté en 3e partie est une e-infrastru
 ```{admonition} [Bases de ressources numériques et services aux chercheurs. Avec ISTEX et OpenMintedD, l'alliance pour une infrastructure de text-mining]( https://fredoc2018.sciencesconf.org/data/pages/Pres_istex_visa_omtd_ElKhouri_Schneider.pdf)  
 :class: seealso
 Laurence El Khoury (DIST-CNRS), Stéphane Schneider (INIST – CNRS)  
-Frédocs2018 - Démarches innovantes en IST : expérimenter, proposer (se) réinventer, 3-5 octobre 2018, Albi
+Frédocs2018 - Démarches innovantes en IST : expérimenter, proposer (se) réinventer,  2018, Albi
 ```
