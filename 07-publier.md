@@ -2,20 +2,20 @@
 # Publier et diffuser
 
 
-Cette dernière étape d’un projet de  recherche représente un peu la finalité de toute une politique de gestion de données puisqu'elle vise à publier et diffuser les données de manière à ce qu'elles soient visibles et réutilisables selon des formats et des processus interopérables.
+Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute une politique de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient visibles et réutilisables selon des formats et des processus interopérables.
 
 L’accompagnement  des  réseaux s’exerce sur la publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives faisant partie de vocabulaires contrôlés, et de leurs formats d’exploitation pour en assurer la réutilisabilité.
 
 Ainsi les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
 
-Cette étape de publication et de diffusion est en outre désormais accompagnée d'une action d'_identification_ des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
+Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action d'_identification_ des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
 
 
 ## Communiquer et documenter  
 
 ### Finaliser le PGD 
 
-En fin de projet n'oublions pas qu'il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données :vérifier que les premières informations qui ont été rédigées sont encore valides et valables, et les mettre à jour en rajoutant les dernières informations disponibles.
+En fin de projet n'oublions pas qu'il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire vérifier que les premières informations qui ont été rédigées sont encore valides et valables, et les mettre à jour en rajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
@@ -29,7 +29,7 @@ Par exemple, dans les sciences de  l'environnement la norme ISO 19115 et la norm
 
 - L'ISO 19115-1 définit le schéma requis pour décrire des informations géographiques et des services au moyen de métadonnées. 
 Elle fournit des informations concernant l'identification, l'étendue, la qualité, les aspects spatiaux et temporels, le contenu, la référence spatiale, la représentation des données, la distribution et d'autres propriétés des données géographiques numériques et des services.
-- L'ISO 19139 définit le schéma d'implémentation XML pour représenter les métadonnées ISO 19115
+- L'ISO 19139 définit le schéma d'implémentation et d'encodage XML pour représenter les métadonnées ISO 19115
 
 En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est un des logiciels de référence pour décrire et représenter les jeux de données géolocalisés, et constituer un *catalogue* qui inventorie les différents jeux de données d'un Institut.
 
@@ -54,7 +54,7 @@ C. Bernard,   J. Fabre, et O. Lobry
 ```
 
 
-De la même manière, Emmanuel Blondel présente un ensemble de librairies de programmation écrites en "R", destinées
+De la même manière, Emmanuel Blondel est l'auter d'un ensemble de librairies de programmation écrites en "R", destinées
 à faciliter l'insertion de métadonnées dans les catalogues "GeoNetwork". Ces développements ont été présentés lors d'un atelier organisé par le réseau RBDD et SIST :
 * [Atelier "Métadonnées et R"](https://sist.cnrs.fr/les-formations/2018-atelier-metadonnees-et-r)   
   - Écrire et Lire des métadonnées avec la librairie R *geometa*  
@@ -75,7 +75,7 @@ Michael Treguer
 [journées SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
 ```
 
-De nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues très utiles pour inventorier les jeux de données disponibles dans les unités de recherche, comme par exemple :
+A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues très utiles pour inventorier les jeux de données disponibles dans les unités de recherche :
  - <https://sig.oreme.org/geonetwork>
  - <http://portail.indigeo.fr/geonetwork>
  - <https://dataset.osupytheas.fr/geonetwork>
