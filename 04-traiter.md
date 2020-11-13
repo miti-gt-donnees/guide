@@ -36,17 +36,20 @@ Les formats NetCDF et ODV sont les formats recommandés et utilisés par le pôl
 
 ```{admonition} [Présentation du format NetCDF](<https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_JS.pdf>)   
 :class: seealso
-Joël Sudre, LEGOS   
+Joël Sudre, LEGOS
+[Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
 ```{admonition} [La convention CF (climate forecast) pour les fichiers NetCDF](https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_CF_ML.pdf)   
 :class: seealso
 Joël Sudre, LEGOS et Maurice Libes, Institut Pytheas   
+[Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
 ```{admonition} [Utilisation de l'API de programmation Python pour NetCDF](<https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_python.pdf>)   
 :class: seealso
 Maurice Libes, Didier Mallarino, Institut Phyteas   
+[Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
 
@@ -58,14 +61,12 @@ C'est un format très utilisé lorsqu'on veut traiter ou simuler des données gr
 
 Des supports de formation sur ce format sont de ce fait disponibles via les infrastructures et réseaux en lien avec le calcul intensif :
 
-```{admonition} Références
+```{admonition} Formations PRACE
 :class: seealso
 HDF5 : theory & practice [1](https://materials.prace-ri.eu/386/6.haslightboxThumbnailVersion/hdf51.pdf) et [2](https://materials.prace-ri.eu/386/7.haslightboxThumbnailVersion/hdf52.pdf)   
 
 Prace Advanced Training Centers, [Course: Parallel I/O and management of large scientific data, 2014](https://materials.prace-ri.eu/386/)
 ```
-
-
 
 ## Organiser les données
 
@@ -88,7 +89,7 @@ Le logiciel "Lavoisier" développé au CC-IN2P3, permet de récupérer, transfor
 ```{admonition} [Lavoisier : un cadre d’applications d'agrégation de données](https://jcad2018.sciencesconf.org/data/jcad2018_lavoisier_2_.pdf),  [vidéo de la présentation](https://webcast.in2p3.fr/video/lavoisier-un-framework-dagregation-de-donnees-1)    
 :class: seealso
 Cyril L'Orphelin, Sylvain Reynaud, CC-IN2P3, CNRS   
-JCAD 2018
+JCAD 2018, Lyon.
 ```
 
 D'autres outils logiciels existent, permettant l'intégration de données. Dans la catégorie des logiciels "ETL" (Extract, Transform, Load, le logiciel "[Talend Open Studio](https://www.talend.com/fr/products/talend-open-studio/)" par exemple, a été abordé lors d'une session de formation du réseau RBDD :
@@ -96,7 +97,7 @@ D'autres outils logiciels existent, permettant l'intégration de données. Dans 
 ```{admonition} ["Utilisation et maîtrise d'un ETL : intégrations de données avec Talend Open Studio"](http://rbdd.cnrs.fr/spip.php?article215)  
 :class: seealso
 Eric Quinton  
-Réseau RBDD, 2017   
+Réseau RBDD, 2017. Paris.   
 ```
 
 Ce logiciel "Talend" a été également utilisé par Soumaya Lahbib pour traiter les fichiers de données issues des capteurs du [projet EMSO Ligure-ouest](https://www.osupytheas.fr/?Presentation-du-projet-EMSO) et les transformer en fichier CSV utilisable facilement.
@@ -143,7 +144,7 @@ Lorsque les données sont géoréférencées, on peut aussi déposer et faire g�
 ```{admonition} [Geoserver - Installation, configuration, affichage et diffusion de jeux de données géospatialisés](http://162.38.140.228/doc_tp_geoserver/presentation/index.html)   
 :class: seealso
 Juliette Fabre, Olivier Lobry   
-ANF SIST 2018   
+ANF SIST 2018, Toulouse.   
 ```
   
 *  l'application GeoCMS permettent la visualisation de données géospatiales sur le web et de mettre en place une Infrastructure de Données Géographique (IDG). on peut voir un exemple de l'interet de cette application sur un[ portail comme celui de  Indigeo ](https://portail.indigeo.fr/geocms/maps/new/false#project)
@@ -151,9 +152,8 @@ ANF SIST 2018
 ```{admonition} [TP GeoCMS - Installation, configuration, visualisation et interrogation de jeux de données géospatialisés](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/anfsist18-geocms.zip)   
 :class: seealso
 Mathias Rouan, Jonathan Schaeffer   
-ANF SIST 2018    
+ANF SIST 2018, Toulouse.
 ```
-
 
 #### Exemple de mise en oeuvre de plateformes de données
 
@@ -174,7 +174,7 @@ Thierry Valéro, Institut de Recherche pour le Développement, Laboratoire d'Oc�
 ```{admonition} [Gestion des données du projet EMSO avec Talend et Erddap](<https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf>)   
 :class: seealso
 Soumaya Lahbib, Maurice Libes, OSU Pytheas  
-[Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/)   
+[Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.
 ```
 
 ```{admonition} [Eccad, un exemple de mise en oeuvre de Thredds](https://sist19.sciencesconf.org/data/pages/SIST19_S_Darras.pdf)   
@@ -195,7 +195,7 @@ Jean-Christophe Desconnets, UMR Espace-Dev, IRD
 ```{admonition} [Publication automatique de données et de métadonnées dans geOrchestra](https://sist18.sciencesconf.org/data/pages/19_E_Chiarello_GeOrchestra.pdf)  
 :class: seealso
 Ernest Chiarello, Théoriser et modéliser pour aménager, MSHE   
-[Séminaire SIST 2018](https://sist18.sciencesconf.org/)   
+[Séminaire SIST 2018](https://sist18.sciencesconf.org/), Guyancourt.
 ```
 
 Loic Salaun nous montre un exemple de consultation des données à partir d’un visualiseur cartographique (visualiseur d’INDIGEO), utilisant les services web géographiques (WMS, WFS, WCS, CSW)
@@ -203,7 +203,7 @@ Loic Salaun nous montre un exemple de consultation des données à partir d’un
 ```{admonition} [Mise en place d'une IDS pour le programme de recherche Réseau de Suivi et de Surveillance de l'Environnement.](https://sist16.sciencesconf.org/data/pages/02_L_Salaun.pdf)   
 :class: seealso
 Loïc Salaun, Observatoire des Sciences de l'Univers Nantes Atlantique   
-[Séminaire SIST 2016](https://sist16.sciencesconf.org)   
+[Séminaire SIST 2016](https://sist16.sciencesconf.org), Montpellier.   
 ```
 
 ## Mettre en place un contrôle qualité des données
@@ -217,7 +217,7 @@ Le contrôle sur les équipements est le premier pas vers la traçabilité des d
 ```{admonition} [Traçabilité des données de la recherche. Confirmation métrologique des équipements](https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf)  
 :class: seealso
 Virginie JAN LOGASSI, Université de Lorraine  
-[Rencontres du réseau Qualité en Recherche, 2019](https://qualsimp.sciencesconf.org/)  
+[Rencontres du réseau Qualité en Recherche, 2019](https://qualsimp.sciencesconf.org/), Nancy.
 ```
 
 Plusieurs présentations et ateliers sur ce thème ont eu lieu lors de l'ANF "[Sciences des données : un nouveau challenge pour les métiers liés aux bases de données](http://rbdd.cnrs.fr/spip.php?article288)" en 2018 à Sète. En particulier l'Atelier qualité des données dont les travaux portaient sur les questions suivantes :
