@@ -243,7 +243,7 @@ ANF "Interfacer les outils mobiles avec son système d’information", réseau R
 ```{admonition} [Retour terrain : la délicate question de l’intégration des données](http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33)   
 :class: seealso
 Pierre-Yves Arnould, CNRS, OTELo   
-ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019   
+ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019, Sète.   
 ```
 
 ### La qualité de données en sciences environnementales
@@ -267,13 +267,13 @@ André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques
 ```{admonition} [ATCQc : Un outil pour le QA/QC de mesures atmosphériques du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/29_L_Hazan_ATCQc.pdf), [vidéo](https://sist18.sciencesconf.org/data/pages/29_L_Hazan_ATCQc.mp4)   
 :class: seealso
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
-[Séminaire SIST 2018 OVSQ ](https://sist18.sciencesconf.org/)   
+[Séminaire SIST 2018 OVSQ ](https://sist18.sciencesconf.org/), Guyancourt.   
 ```
 
 ```{admonition} [La qualité des données à l'OSU OREME](https://sist18.sciencesconf.org/data/pages/31_F_Fabre_O_Lobry_Qualite_des_donnees_de_l_OSU_OREME_.pdf)   
 :class: seealso
 Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'Environnement    
-[Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/)    
+[Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
 ```
 
 Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/) permettent de qualifier les données et d'attribuer un code qualité a des données après analyse par un expert du domaine.
