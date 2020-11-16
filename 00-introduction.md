@@ -24,7 +24,7 @@ C'est précisément ce travail de soutien que nous nous proposons de rendre comp
 
 Certes de nombreux guides existent déjà dans le domaine, mais l'originalité de ce document réside dans son application aux données de la recherche sous l'angle de différents métiers de la recherche. Il fournit donc un point de vue transversal intéressant et traduit les efforts et le soutien mis en place par les personnels d’appui à la recherche au sein des réseaux, dans la gestion et la valorisation des données scientifiques.
 
-<h2>Objectifs du guide</h2>
+##Objectifs du guide
 
 Ce guide est la production de l'"[Atelier Données](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html)" du groupe de travail Données inter-réseaux. Il s’agit d'un groupe de travail composé de plusieurs réseaux métiers de la MITI ([Calcul](https://calcul.math.cnrs.fr/), [Devlog](http://devlog.cnrs.fr/), [QeR](http://qualite-en-recherche.cnrs.fr/), [Rbdd](http://rbdd.cnrs.fr/), [Renatis](http://renatis.cnrs.fr/), [Resinfo](https://resinfo.org/), [Medici](http://medici.in2p3.fr/)), du [réseau SIST](http://sist.cnrs.fr), regroupant les gestionnaires de données environnementales, et labellisé par l'Institut INSU , de l'INIST, et de la Direction de l’Information Scientifique et Technique du CNRS (DIST-CNRS). [Les activités de cet Atelier](https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf) de la MITI ont été présentées lors du séminaire SIST 2019.
 
@@ -46,7 +46,7 @@ Ce Guide abordera l'ensemble des phases et actions nécessaires pour une gestion
 - les phases 3 et 4 "{ref}`collecter` et {ref}`traiter`" sont les phases de collecte et de traitement des données. On s'attache à bien associer des métadonnées sur les données collectées. On insiste sur l'importance des standards et normes dans les protocoles et les formats de données pour assurer l'interopérabilité et la réutilisabilité des données. On commence à se préoccuper du stockage et de la sauvegarde des données, et à les déposer sur des plateformes de gestion de données locales.
 - la phase 5 "{ref}`analyser`" est une phase d'analyse dans laquelle on s'occupe de définir et mettre en place des chaines logicielles avec des méthodes et des outils d'analyse des données
 - la phase 6 "{ref}`archiver`" rend compte de l'importance de préserver et archiver les données sur le long terme. On s'attarde a bien définir les termes, réfléchir aux données pertinentes à préserver et voir quelles solutions s'offrent à nous.
-- la phase 7 "{ref}`publier`" est la phase finale permettant de diffuser les données correctement de manière interopérable à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapaper.
+- la phase 7 "{ref}`publier`" est la phase finale permettant de diffuser les données correctement de manière interopérable à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapapers.
 
 Pour terminer, ce guide s’adresse ainsi à toute personne désireuse de se former à la gestion des données de la recherche et son objectif est d'aider le lecteur à analyser son besoin et trouver des solutions adaptées, voire se rapprocher des réseaux métiers qui les ont exprimées. Il est destiné à être évolutif et s'enrichira au fil du temps par les pratiques des réseaux métiers. 
 
