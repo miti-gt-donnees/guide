@@ -2,7 +2,7 @@
 # Traiter les données
 
 Cette phase du cycle de vie des données correspond au prétraitement des données brutes issues des acquisitions et des collectes.
-Il s'agit souvent de regrouper, choisir, qualifier les données pertinentes, les reformater dans des formats standards interopérables, et les préparer en vue de leur analyse ultérieure.
+Il s'agit souvent de regrouper, choisir, qualifier les données pertinentes parmi celles qui ont été collectées, puis les reformater dans des formats standards interopérables, et les préparer en vue de leur analyse ultérieure.
 
 Cette partie est donc structurée en différentes sections décrivant cette préparation des données :
 
@@ -15,7 +15,7 @@ Cette partie est donc structurée en différentes sections décrivant cette pré
 
 Bien souvent, les données "brutes" sont issues de capteurs ou divers instruments de collecte sur le terrain. Ils se présentent fréquemment sous la forme de fichiers dans des formats propriétaires, peu exploitables et peu interopérables directement tels quels.
 
-Dans une optique de gestion FAIR, il est donc important de se préoccuper du format des données afin de les rendre "ouverts" et interopérables. La notion de format "ouvert" est importante, et à cet effet, le site Doranum propose une [introduction à la définition de formats ouverts ou fermés](https://doranum.fr/stockage-archivage/quiz-format-ouvert-ou-ferme/).
+Dans une optique de gestion FAIR, il est donc important de se préoccuper du format des données afin de les rendre "ouverts" et interopérables. La notion de format "ouvert" est importante pour que les données puissent être partagées, interopéables et préservées sur le long terme. A cet effet, le site Doranum propose une [introduction à la définition de formats ouverts ou fermés](https://doranum.fr/stockage-archivage/quiz-format-ouvert-ou-ferme/).
 
 De plus, si l'objectif est le traitement massif des données, il est important de choisir des formats capables de supporter des entrées / sorties intensives sur des infrastructures de calcul.
 
@@ -25,7 +25,7 @@ Parmi les premiers traitements opérés sur des données brutes provenant du ter
 
 Chaque discipline utilise, voire définit un certain nombre de formats standards, et il est bon de les connaitre et de s'y référer.
 
-On ne pourra pas tous les citer mais à titre d'exemple dans les domaines Océan, Atmosphère par exemple, le format [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l'environnement. Il est très bien adapté et utilisé, par exemple pour formater des données représentent des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit "auto-descriptif" en ce sens qu'il permet de ne pas avoir besoin d'un fichier de description complémentaire. Les métadonnées sont en effet insérées dans l'entête du fichier, avec les données elles-mêmes.
+On ne pourra pas tous les citer, mais à titre d'exemple dans les domaines Océan, Atmosphère par exemple, le format [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l'environnement. Il est très bien adapté et utilisé, par exemple pour représenter et formater des données qui sont des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit "auto-descriptif" en ce sens qu'il permet de ne pas avoir besoin d'un fichier de description complémentaire. Les métadonnées sont en effet insérées dans l'entête du fichier, avec les données elles-mêmes.
 On peut ainsi décrire de manière assez précise les données du fichier, par exemple en insérant les unités de mesure des paramètres mesurés, la licence de diffusion, les propriétaires, etc., ainsi que l'organisation des données.
 
 Toutefois dans son format originel NetCDF n'a pas imposé des métadonnées, et il était possible d'inscrire n'importe quel libellé de variables, unités, etc. Afin de proposer une standardisation, la  [convention CF (climate forecast)](https://cfconventions.org/) propose et fournit une [table de standardisation des variables et unités de mesures](https://cfconventions.org/Data/cf-standard-names/76/build/cf-standard-name-table.html) à inscrire dans l'entete d'un fichier NetCDF.
