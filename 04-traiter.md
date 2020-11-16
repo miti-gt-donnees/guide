@@ -246,9 +246,12 @@ Pierre-Yves Arnould, CNRS, OTELo
 ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019, Sète.   
 ```
 
-### La qualité de données en sciences environnementales
+En sciences environnementales, la qualification des données est importante pour estimer un degré de qualité de la donnée. On utilise pour cela des codes qui renseignent sur la qualité de la donnée : bonne, mauvaise, manquante, modifiée etc... Dans ce domaine également une standardisatin des codes qualité est bienvenue.
 
-En sciences environnementales, on retrouve de nombreuses méthodes pour essayer de qualifier les données, illustrées par les exposés suivants donnés lors des journées de séminaires SIST (Séries Interopérables et Systèmes de Traitement) du réseau technologique des informaticiens et gestionnaires de données des observatoires :
+L'infrastructure de données européenne Seadatanet utilise par exemple une [table "L20" standardisant les codes qualité](https://vocab.seadatanet.org/v_bodc_vocab_v2/browse.asp?order=conceptid&formname=search&screen=0&lib=l20&v0_0=&v1_0=conceptid%2Cpreflabel%2Caltlabel%2Cdefinition%2Cmodified&v2_0=0&v0_1=&v1_1=conceptid&v2_1=3&v0_2=&v1_2=preflabel&v2_2=3&v0_3=&v1_3=altlabel&v2_3=3&v0_4=&v1_4=modified&v2_4=9&v0_5=&v1_5=modified&v2_5=10&x=27&y=12&v1_6=&v2_6=&v1_7=&v2_7=) à placer sur les données 
+
+
+On retrouve de nombreuses méthodes dans le milieu environnemental pour essayer de qualifier les données, illustrées par les exposés suivants donnés lors des journées de séminaires SIST (Séries Interopérables et Systèmes de Traitement) du réseau technologique des informaticiens et gestionnaires de données des observatoires :
 
 P. Téchiné présente les méthodes de suivi de la qualité de diverses mesures comme le niveau de la mer ou la salinité de surface (SSS: Sea Surface Salinity ) dans différents projets :
 
@@ -279,4 +282,3 @@ Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'En
 Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/) permettent de qualifier les données et d'attribuer un code qualité a des données après analyse par un expert du domaine.
 ODV est un format de fichiers, et un logiciel utilisés par le projet européen [SeadataNet](https://www.seadatanet.org/Software/ODV). 
 
-Concernant les codes qualité, l'infrastructure de données européenne Seadatanet utilise par exemple le vocabulaire contrôlé du BODC dans une [table "L20" standardisant les codes qualité](https://vocab.seadatanet.org/v_bodc_vocab_v2/browse.asp?order=conceptid&formname=search&screen=0&lib=l20&v0_0=&v1_0=conceptid%2Cpreflabel%2Caltlabel%2Cdefinition%2Cmodified&v2_0=0&v0_1=&v1_1=conceptid&v2_1=3&v0_2=&v1_2=preflabel&v2_2=3&v0_3=&v1_3=altlabel&v2_3=3&v0_4=&v1_4=modified&v2_4=9&v0_5=&v1_5=modified&v2_5=10&x=27&y=12&v1_6=&v2_6=&v1_7=&v2_7=) à placer sur les données 
