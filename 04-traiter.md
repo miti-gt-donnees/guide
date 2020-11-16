@@ -267,6 +267,13 @@ André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques
 [SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
 ```
 
+Dans cette présentation Lynn Hazan décrit son processus d'atribution de code qualité.
+Comme nous l'avons indiqué précédemment dans la phase de traitement, Les données sont obtenues en temps quasi-réel et sont transformées en données consolidées par un traitement qui permet d’en augmenter la précision et la confiance.
+Les étapes de consolidation incluent une expertise humaine avec une inspection visuelle afin de détecter des problèmes
+potentiels difficilement détectables automatiquement.
+L’outil ATCQc a été développé afin de permettre aux scientifiques de visualiser et qualifier rapidement leurs données
+issues des instruments de mesures du réseau.
+
 ```{admonition} [ATCQc : Un outil pour le QA/QC de mesures atmosphériques du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/29_L_Hazan_ATCQc.pdf), [vidéo](https://sist18.sciencesconf.org/data/pages/29_L_Hazan_ATCQc.mp4)   
 :class: seealso
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
