@@ -254,9 +254,9 @@ Les réseaux favorisent le maintien et le développement des compétences, l’�
 
 Les réseaux rattachés à la [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) du CNRS  sont transversaux à tous les Instituts du CNRS, et accessibles aux personnels de l’Enseignement supérieur et de la Recherche,
 
-La [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) du CNRS par exemple accueille et pilote actuellement [22 réseaux métiers et technologiques](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
+La MITI par exemple accueille et pilote actuellement [22 réseaux](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
 
-Les résaux labellisés par les instituts du CNRS viennent plus spcifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense uncertain nombre dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
+Les résaux labellisés par les instituts du CNRS viennent plus spécifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense uncertain nombre dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
 
 
 
