@@ -42,10 +42,18 @@ Journée Python et Data Science IRMAR Rennes - 2017
 - Julia est un des langages qui prend de l'importance sur ce sujet. Plusieurs présentations qui lui sont consacrées apportent un éclairage intéressant :
 	- Une [journée d'introduction au langage](https://calcul.math.cnrs.fr/2019-01-journee-julia.html) et à son utilisation en traitement de données aborde en particulier [le cadre des algorithmes Map/Reduce](https://calcul.math.cnrs.fr/attachments/spip/Documents/Journees/jan2019/julia_map_reduce.pdf), ainsi que [les performances du langage sous forme de benchmarks](https://plmlab.math.cnrs.fr/fabreges/julia-2019/-/blob/master/bench.pdf) .
 
+```{admonition} [MapReduce](https://calcul.math.cnrs.fr/2019-01-journee-julia.html#programme)
+:class: seealso
+Xavier Vasseur, 2019, Lyon.
+```
 Des retours d'expérience illustrent l'utilisation de ces outils :
 
 Concernant les outils python, l'[utilisation de Dask à la place de job array](https://jcad2019.sciencesconf.org/data/20191009_JCAD2019TutoDaskJobArray.pdf) a été présentée lors des JCAD 2019 par Guillaume Eynard-Bontemps, CNES.
 
+```{admonition} [Tutoriel Dask et Job array](https://jcad2019.sciencesconf.org/data/20191009_JCAD2019TutoDaskJobArray.pdf)
+:class: seealso
+ Guillaume Eynard-Bontemps, JCAD 2019, Toulouse.
+```
 
 
 ### Approches méthodologiques
@@ -97,7 +105,7 @@ VIP, the Virtual Imaging Platform, est un portail qui permet à ses utilisateurs
 ```{admonition} [VIP : towards data interoperability through CARMIN](https://jcad2019.sciencesconf.org/data/VIP_Axel_Bonnet.pdf), [vidéo](https://prismes.univ-toulouse.fr/player.php?code=vC6b9705) 
 :class: seealso
 Axel Bonnet, Pascal Wassong, Frederic Cervenansky, Camarasu-Pop Sorina, CREATIS et , Tristan Glatard, Concordia University
-[JCAD 2019](https://jcad2019.sciencesconf.org)
+[JCAD 2019](https://jcad2019.sciencesconf.org), Toulouse.
 ```
 
 ```{admonition} [Virtual Imaging Platform](https://jcad2018.sciencesconf.org/data/VIP_poster.pdf)
@@ -111,13 +119,13 @@ Une autre plateforme, Pangeo, utilisée plus particulièrement dans la communaut
 ```{admonition} [Analyse de simulations numériques de l’océan en préparation aux missions satellite : cas d’utilisation des outils PANGEO](https://jcad2019.sciencesconf.org/data/Briol_pangeo_swot_jcad2019_2019_10_10.pdf)
 :class: seealso
 A. Albert, F. Briol, L. Brodeau, G. Dibarboure, G. Eynard-Bontemps, J. Le Sommer, A. Ponte
-[JCAD 2019](https://jcad2019.sciencesconf.org)
+[JCAD 2019](https://jcad2019.sciencesconf.org), Toulouse.
 ```
 
 ```{admonition} [Jupyter, Dask : traitement distribué simple et interactif en Python sur HPC avec l'écosystème Pangeo](https://jcad2018.sciencesconf.org/data/20181026_JCAD2018_CNES_GuillaumeEynard.pdf) 
 :class: seealso
 Guillaume Eynard-Bontemps, Centre National d'Etudes Spatiales
-[JCAD 2018](https://jcad2018.sciencesconf.org)
+[JCAD 2018](https://jcad2018.sciencesconf.org), Lyon.
 ```
 
 D'autres environnements de management de workflow existent :
@@ -125,7 +133,7 @@ D'autres environnements de management de workflow existent :
 ```{admonition} [WRENCH: Workflow Management System Simulation Workbench](https://jcad2018.sciencesconf.org/data/2018_010_23_JCAD_FSuter.pdf)
 :class: seealso
 Frederic Suter, Henri Casanova, Rafael Ferreira Da Silva, CC IN2P3
-[JCAD 2018](https://jcad2018.sciencesconf.org)
+[JCAD 2018](https://jcad2018.sciencesconf.org), Lyon.
 ```
 
 Enfin, les environnements de notebooks sont des outils de plus en plus utilisés dans le cadre de l'analyse de données. Plusieurs interventions ont eu lieu sur ce sujet :
@@ -133,19 +141,19 @@ Enfin, les environnements de notebooks sont des outils de plus en plus utilisés
 ```{admonition} [Towards reproducible Jupyternotebooks](https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf)
 :class: seealso
 Ludovic Courtès, INRIA
-[JCAD 2019](https://jcad2019.sciencesconf.org)
+[JCAD 2019](https://jcad2019.sciencesconf.org), Toulouse.
 ```
 
 ```{admonition} [EGI Notebooks : Jupyter as a Service and EGI Check-In AAI](https://jcad2018.sciencesconf.org/data/EGI_Notebooks_et_Check_in_AAI.pdf)
 :class: seealso
 Baptiste Grenier, egi.eu
-[JCAD 2018](https://jcad2018.sciencesconf.org)
+[JCAD 2018](https://jcad2018.sciencesconf.org), Lyon.
 ```
 
 ```{admonition} [RomeoLAB, le portail web HPC : cas d'utilisation pour la pédagogie et les logiciels à la demande](https://jcad2018.sciencesconf.org/data/20181024_JCAD_romeolab.pdf)
 :class: seealso
 Arnaud RENARD, Université de Reims Champagne-Ardenne
-[JCAD 2018](https://jcad2018.sciencesconf.org)
+[JCAD 2018](https://jcad2018.sciencesconf.org), Lyon.
 ```
 
 ### Qualité logicielle
@@ -156,24 +164,24 @@ L’ensemble des activités, normes, contrôles et procédures mis en place doit
 
 Une [journée du réseau Qualité en Recherche](https://jt-aql.sciencesconf.org/) a été entièrement consacrée à ce sujet en 2019. Plusieurs exposés ont permis d'illustrer les concepts associés à la qualité logicielle :
 
-```{admonition} [Qu'est-ce qu'un logiciel et qu'est-ce que la qualité ?](<https://jt-aql.sciencesconf.org/data/program/jt_aql_Paris_2019_v5_HV.pdf>)
+```{admonition} [Qu'est-ce qu'un logiciel et qu'est-ce que la qualité ?](https://jt-aql.sciencesconf.org/data/program/jt_aql_Paris_2019_v5_HV.pdf)
 :class: seealso
-Henri VALEINS
+Henri VALEINS, Journée thématique Assurance Qualité Logiciel 2019, Paris.
 ```
 
 ```{admonition} [Plans de Gestion de Logiciel et Assurance Qualité Logiciel, les apports de PRESOFT](https://jt-aql.sciencesconf.org/data/program/PRESOFT_qualite_en_recherche2019v1_GR.pdf) 
 :class: seealso
-Geneviève Romier, CC IN2P3
+Geneviève Romier, CC IN2P3, Journée thématique Assurance Qualité Logiciel 2019, Paris.
 ```
 
 ```{admonition} [Référentiels et normes de codage](https://jt-aql.sciencesconf.org/data/program/ref_normes_codage_ZT.pdf) 
 :class: seealso
-Z.Tucsnak
+Z.Tucsnak,  Journée thématique Assurance Qualité Logiciel 2019, Paris.
 ```
 
 ```{admonition} [Qualité Logiciel dans un projet de Nanosatellite](https://jt-aql.sciencesconf.org/data/program/qualite_nanosat_v2_CG.pdf)
 :class: seealso
-Colin Gonzalez, AstroParticules et Cosmologie
+Colin Gonzalez, AstroParticules et Cosmologie,  Journée thématique Assurance Qualité Logiciel 2019, Paris.
 ```
 
   
@@ -192,19 +200,19 @@ Plusieurs présentations issues des journées du réseau SIST illustrent des mis
 ```{admonition} [Filtrage interactif de données multidimensionnelles](https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf)  
 :class: seealso
 Patrick Brockmann, Laboratoire des Sciences du Climat et de l'Environnement   
-[SIST16 OSU OREME Montpellier, 2016](https://sist16.sciencesconf.org/)    
+[SIST16 OSU OREME 2016, Montpellier](https://sist16.sciencesconf.org/).
 ```
 
 ```{admonition} [Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf)   
 :class: seealso
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
-[SIST18 Observatoire Versailles, 2018](https://sist18.sciencesconf.org/)   
+[SIST18 2018, Observatoire Versailles](https://sist18.sciencesconf.org/).
 ```
     
 ```{admonition} [Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf)   
 :class: seealso
 David Wolyniec, OSU Grenoble - Jonathan Schaeffer, OSU Grenoble   
-[SIST16 OSU OREME Montpellier, 2016](https://sist16.sciencesconf.org/) 
+[SIST16 OSU OREME 2016, Montpellier](https://sist16.sciencesconf.org/).
 ```
 
 ## Optimiser l'utilisation des ressources
@@ -217,12 +225,12 @@ En particulier au niveau des codes de calcul, le réseau Calcul propose réguli�
 
 ```{admonition} [Une journée d'introduction à l'évaluation des performances des codes de calcul](https://indico.obspm.fr/event/60/)
 :class: seealso
-Observatoire de Paris, 2018
+2018, Observatoire de Paris.
 ```
 
 ```{admonition} [Une formation sur l'évaluation de la performance des codes](https://calcul.math.cnrs.fr/2019-09-anf-perf-eval-hpc.html), en particulier à travers les outils Paraver et Scalasca.
 :class: seealso
-Observatoire de Haute Provence, 2019
+2019, Observatoire de Haute Provence.
 ```
 
 Enfin, l'optimisation des ressources s'entend aussi au niveau environnemental, afin de réduire l'impact des analyses de données. Le [GDS EcoInfo](https://ecoinfo.cnrs.fr/)  a organisé en 2017 une [journée sur l'impact des logiciels sur l’environnement](https://ecoinfo.cnrs.fr/2017/01/05/conf-ecoinfo-3-fevrier-2017-impact-des-logiciels-sur-lenvironnement-quid-de-leco-conception/), dont certains exposés peuvent directement concerner la problématique de l'analyse des données :
@@ -230,26 +238,31 @@ Enfin, l'optimisation des ressources s'entend aussi au niveau environnemental, a
 ```{admonition} [Écoconception logicielle, retours d’expérience sur la réduction de l’impact des logiciels](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/greenspector.pdf)
 :class: seealso
 Olivier Philippot, GreenSpector
+Conf EcoInfo 2017, Grenoble.
 ```
 
 ```{admonition} [TEEC: Logiciel vert et durable](https://gricad-media.univ-grenoble-alpes.fr/video/teec-logiciel-vert-et-durable)
 :class: seealso
 Hayri ACAR, Université Lyon 1
+Conf EcoInfo 2017, Grenoble.
 ```
 
 ```{admonition} [Écoconception logicielle pour la gestion des datacentres de calcul](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/ecoinfo-soft.pdf)
 :class: seealso
 Olivier Richard, LIG
+Conf EcoInfo 2017, Grenoble.
 ```
 
 ```{admonition} [Calcul Intensif, Consommation et Changement Climatique](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/20170203-Ecoconception.pdf)
 :class: seealso
 Xavier Vigouroux
+Conf EcoInfo 2017, Grenoble.
 ```
 
 ```{admonition} [Eco-élasticité logicielle pour un Cloud frugal](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/Eco-Info-3fev-PDF.pdf)
 :class: seealso
 Thomas Ledoux, Ecole des Mines de Nantes 
+Conf EcoInfo 2017, Grenoble.
 ```
 
 ## Traitements sémantiques/ linguistiques
