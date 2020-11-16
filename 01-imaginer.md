@@ -234,41 +234,38 @@ Pour plus de détail, on se reportera à la section {ref}`archiver`.
 
 Évoluer dans nos pratiques suppose de développer de nouvelles expertises et d’acquérir de nouvelles connaissances. Les réseaux professionnels, vecteurs de partage et d’échange sont particulièrement indiqués pour organiser et faciliter l'acquisition de nouvelles compétences. 
 
-### Se rapprocher des réseaux métiers et technologiques
-
-Initiés et portés par des membres d’un même métier ou travaillant avec les mêmes technologies (outils, instruments, méthodes, etc.), les réseaux professionnels du CNRS ont vocation à faciliter les échanges d’informations et d’idées entre leurs membres. Ses réseaux sont de différents types :
-
-* Les réseaux technologiques : animés par des experts de la technologie autour de laquelle ils se sont constitués, ils rassemblent les utilisateurs au sein de plusieurs laboratoires et parfois dans des instituts différents.
-
-* Les réseaux métiers : ils fédèrent une communauté exerçant le même type de fonction afin de participer au maintien et au développement des compétences et limiter l’isolement professionnel.
-
-Les réseaux favorisent le maintien et le développement des compétences, l’échange des pratiques professionnelles, l’implication et la motivation. Ils développent une connaissance fine de l’évolution des métiers et/ou des technologies de demain en assurant ainsi une veille pour les établissements d'Enseignement Supérieur et de la Recherche.
-
-D’un réseau à l’autre, l’organisation et le fonctionnement varient :
-- les réseaux rattachés à la Mission pour l’Interdisciplinarité sont accessibles à tous les personnels de l’Enseignement supérieur et de la Recherche,
-- les réseaux rattachés à des instituts sont parfois restreints à leurs agents.
-
-La [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) du CNRS par exemple accueille et pilote actuellement [22 réseaux métiers et technologiques](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
-
-Les instituts du CNRS soutiennent également des réseaux qui viennent en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense certains dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
-
-
 ### Se former
 
-La formation continue des personnels est capitale pour suivre l'évolution des métiers et des technologies.
+La formation continue des personnels est fondamentale pour suivre l'évolution des métiers et des technologies.
 
 Au CNRS, la formation continue est pilotée par le Service formation et Itinéraire Professionnel ([SFIP](https://www.dgdr.cnrs.fr/drh/mission/mission.htm#sfip)). Celui-ci met en oeuvre des actions adaptées aux orientations et à la stratégie de l’établissement à travers deux dispositifs de formation principaux : les Actions Nationales de Formation (ANF) fortement orientée sur les technologies et ingénierie, et les "Écoles Thématiques"  d'un contenu davantage scientifique et plutôt en relation avec les chercheurs. Le SFIP soutient également des actions régionales de formation.
 
-Dans ces dispositifs de formation institutionnels, les réseaux métiers sont fréquemment au coeur des propositions de programme, du montage et de l'organisation des ANF. Chaque année de nombreuses formations sont en effet régulièrement organisées par les réseaux, et les supports de formations présentés sont habituellement capitalisés sous une forme ou une autre (résumé, pdf, vidéo) sur les sites des réseaux.
+**Les réseaux métiers et réseaux technologiques**
+
+Dans ces dispositifs de formation institutionnels, _les réseaux métiers_ sont fréquemment au coeur des propositions de programme, du montage et de l'organisation des ANF. Chaque année de nombreuses formations sont en effet régulièrement organisées par les réseaux, et les supports de formations présentés sont habituellement capitalisés sous une forme ou une autre (résumé, pdf, vidéo) sur les sites des réseaux.
 
 Outre les ANF, les réseaux organisent également de manière autonome, sur budget propre attribués par la MITI ou les Instituts, des journées de séminaires qui regroupent les membres des réseaux comme par exemple les [journées thématiques organisées par le groupe de travail inter-réseaux « Atelier données »](https://mi-gt-donnees.pages.math.unistra.fr/site) ou les [séminaires annuels du réseau SIST](https://sist.cnrs.fr/les-seminaires).
 
 Ils constituent bien évidemment des vecteurs importants de l'état de l'art et des connaissances à acquérir dans une discipline et contribuent à développer la connaissance d’un domaine de compétence.
 
+Initiés et portés par des membres d’un même métier ou travaillant avec les mêmes technologies (outils, instruments, méthodes, etc.), les réseaux professionnels du CNRS ont vocation à faciliter les échanges d’informations et d’idées entre leurs membres.
+
+Les réseaux favorisent le maintien et le développement des compétences, l’échange des pratiques professionnelles, l’implication et la motivation. Ils développent une connaissance fine de l’évolution des métiers et/ou des technologies de demain en assurant ainsi une veille pour les établissements d'Enseignement Supérieur et de la Recherche.
+
+Les réseaux rattachés à la [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) du CNRS  sont transversaux à tous les Instituts du CNRS, et accessibles aux personnels de l’Enseignement supérieur et de la Recherche,
+
+La [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) du CNRS par exemple accueille et pilote actuellement [22 réseaux métiers et technologiques](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
+
+Les résaux labellisés par les instituts du CNRS viennent plus spcifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense uncertain nombre dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
+
+
+
+
 Un dispositif de formation à distance sur les données de la recherche est accessible sur le site [DoRANum](https://doranum.fr/) (Données de la Recherche : Apprentissage NUMérique à la gestion et au partage). Cette plateforme met à disposition différentes ressources d’autoformation en libre accès sur la gestion et le partage des données de la recherche.
 
 Le réseau national des [URFIST](http://gis-reseau-urfist.fr/) (Unité Régionale de Formation à l'Information Scientifique et Technique), créé en 1982 est un réseau inter-académique structuré depuis 2017 en Groupement d’Intérêt Scientifique (GIS) qui a pour objectif de développer l’usage de l’IST dans l’enseignement supérieur et de la recherche. 
 Il est constitué de sept unités régionales situées à [Bordeaux](http://weburfist.univ-bordeaux.fr/), [Lyon](https://urfist.univ-lyon1.fr/), [Paris](https://urfist.chartes.psl.eu/formations/stages/programme), [Nice](https://urfist.univ-cotedazur.fr/), [Renne](https://www.sites.univ-rennes2.fr/urfist/formations/stages/presentation-du-programme-en-cours), [Strasbourg](http://urfist.unistra.fr/formations/) et [Toulouse](http://urfist.univ-toulouse.fr/formations/sessions-date). Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information. Outre les actions de formation, d’expérimentations et innovations pédagogiques initiées par les Urfist, le réseau met à disposition un blog « [UrfistInfo](https://urfistinfo.hypotheses.org/) ».
+
 
 ### Suivre les travaux du Collège Compétences et formation du COSO
 
