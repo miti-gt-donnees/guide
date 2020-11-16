@@ -1,6 +1,7 @@
 # Introduction
 
-##Importance de la gestion des données de la recherche
+
+## De l'importance de la gestion des données de la recherche
 
 La gestion rigoureuse et cohérente des données de la recherche constitue aujourd’hui un enjeu de taille pour la production de nouvelles connaissances scientifiques. Guidés par le « [Plan National pour la Science Ouverte](https://www.ouvrirlascience.fr/plan-national-pour-la-science-ouverte/) », les différents organismes de recherche et les Instituts du CNRS s’emparent de ces questions primordiales aux côtés des acteurs de la Science Ouverte pour participer à la réflexion et à la mise à dispositions des outils, méthodes et infrastructures répondant aux besoins des communautés scientifiques en matière de gestion et de partage des données scientifiques. 
 
@@ -16,7 +17,7 @@ Gérer les données de la recherche est un processus difficile qui suppose un tr
 ```
 Pour formaliser les différentes étapes de gestion des données nous nous sommes servis du "[cycle de vie des données](https://www.cnrs.fr/mi/IMG/png/donnees.png)". Il s’agit d’un cercle vertueux qu'on peut faire correspondre aux différentes phases d’un projet scientifique.
 
-<h2>L'apport des réseaux métiers du CNRS</h2>
+## L'apport des réseaux métiers du CNRS
 
 Dans leurs différentes pratiques, les réseaux métiers du CNRS, regroupés au sein de la [MITI](https://miti.cnrs.fr) (Mission pour les Initiatives Transverses Interdisciplinaires) et des Instituts du CNRS sont en première ligne pour participer à ce mouvement d’ouverture et de partage des données. Les personnels des organismes de recherche qui les constituent, œuvrent pour mettre en place de bonnes pratiques de gestion et participent également au processus de production des données scientifiques aux côtés des équipes de recherche. C’est aussi dans ce cadre qu’ils interviennent en appui et soutien à la recherche scientifique.
 
@@ -24,7 +25,7 @@ C'est précisément ce travail de soutien que nous nous proposons de rendre comp
 
 Certes de nombreux guides existent déjà dans le domaine, mais l'originalité de ce document réside dans son application aux données de la recherche sous l'angle de différents métiers de la recherche. Il fournit donc un point de vue transversal intéressant et traduit les efforts et le soutien mis en place par les personnels d’appui à la recherche au sein des réseaux, dans la gestion et la valorisation des données scientifiques.
 
-##Objectifs du guide
+## Objectifs du guide
 
 Ce guide est la production de l'"[Atelier Données](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html)" du groupe de travail Données inter-réseaux. Il s’agit d'un groupe de travail composé de plusieurs réseaux métiers de la MITI ([Calcul](https://calcul.math.cnrs.fr/), [Devlog](http://devlog.cnrs.fr/), [QeR](http://qualite-en-recherche.cnrs.fr/), [Rbdd](http://rbdd.cnrs.fr/), [Renatis](http://renatis.cnrs.fr/), [Resinfo](https://resinfo.org/), [Medici](http://medici.in2p3.fr/)), du [réseau SIST](http://sist.cnrs.fr), regroupant les gestionnaires de données environnementales, et labellisé par l'Institut INSU , de l'INIST, et de la Direction de l’Information Scientifique et Technique du CNRS (DIST-CNRS). [Les activités de cet Atelier](https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf) de la MITI ont été présentées lors du séminaire SIST 2019.
 
