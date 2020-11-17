@@ -31,9 +31,7 @@ On peut ainsi décrire de manière assez précise les données du fichier, par e
 
 Toutefois dans son format originel NetCDF n'a pas imposé des métadonnées, et il était possible d'inscrire n'importe quel libellé de variables, unités, etc. Afin de proposer une standardisation, la  [convention CF (climate forecast)](https://cfconventions.org/) propose et fournit une [table de standardisation des variables et unités de mesures](https://cfconventions.org/Data/cf-standard-names/76/build/cf-standard-name-table.html) à inscrire dans l'entete d'un fichier NetCDF.
 
-- **Le format ODV** (ocean data view) [https://odv.awi.de/](https://odv.awi.de/)  est également un format standard ouvert intéressant. Il se rapproche d'un format CSV, composé de colonnes de données séparées par des virgules (ou tout autre séparateur), à cette différence près que le format ODV permet l'insertion d'un entête assez riche permettant de placer des métadonnées en début de fichier.
-
-Les formats NetCDF et ODV sont les formats recommandés et utilisés par le pôle de données Odatis  <https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions> et par le projet européen Seadatanet <https://www.seadatanet.org/>, et  a été présenté au [séminaire SIST19 à l'OMP](https://sist19.sciencesconf.org) de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :
+Ce format standard, la convention "CF", et l'interface de programmation (API) en Python pour créer des fichiers NetCDF par programme ont été présentés au [séminaire SIST19 à l'OMP](https://sist19.sciencesconf.org) de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :
 
 ```{admonition} [Présentation du format NetCDF](<https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_JS.pdf>)   
 :class: seealso
@@ -52,6 +50,12 @@ Joël Sudre, LEGOS et Maurice Libes, Institut Pytheas
 Maurice Libes, Didier Mallarino, Institut Phyteas   
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
+
+
+
+- **Le format ODV** (ocean data view) [https://odv.awi.de/](https://odv.awi.de/)  est également un format standard ouvert intéressant. Il se rapproche d'un format CSV, composé de colonnes de données séparées par des virgules (ou tout autre séparateur), à cette différence près que le format ODV permet l'insertion d'un entête assez riche permettant de placer des métadonnées en début de fichier.
+
+Les formats NetCDF et ODV sont les formats recommandés et utilisés par le pôle de données Odatis  <https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions> et par le projet européen Seadatanet <https://www.seadatanet.org/>
 
 
 - **Le format HDF5**
