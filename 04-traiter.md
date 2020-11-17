@@ -82,9 +82,9 @@ ANF « Interfacer les outils mobiles avec son système d’information », Rése
 
 ### Utiliser un cadre d’applications d’agrégation de données
 
-Lorsque les données à traiter sont hétérogènes et que les technologies qui permettent de les fournir sont également différentes, une solution est d'utiliser un "framework" d’agrégation de données, i.e. un cadre d’applications d’agrégation de données, autrement dit un outil qui va permettre de traiter des données de formats différents de façon transparente pour l'utilisateur final.
+Lorsque les données à traiter sont hétérogènes et que les technologies qui permettent de les fournir sont également différentes, une solution est d'utiliser un "framework" d’agrégation de données. Un "framework" est un cadre d’applications d’agrégation de données, autrement dit un outil qui va permettre de traiter des données de formats différents de façon transparente pour l'utilisateur final.
 
-Le logiciel "Lavoisier" développé au CC-IN2P3, permet de récupérer, transformer,  fusionner, et requêter des données de sources différentes. Il est utilisé dans plusieurs contextes.
+Le[ logiciel "Lavoisier" ](http://software.in2p3.fr/lavoisier/) développé au centre de calcul de l'IN2P3 (CC-IN2P3), permet de récupérer, transformer,  fusionner, et requêter des données de sources différentes. Il est utilisé dans plusieurs contextes pour fournir une vue unifiée des données collectées à partir de multiples sources hétérogènes
 
 ```{admonition} [Lavoisier : un cadre d’applications d'agrégation de données](https://jcad2018.sciencesconf.org/data/jcad2018_lavoisier_2_.pdf),  [vidéo de la présentation](https://webcast.in2p3.fr/video/lavoisier-un-framework-dagregation-de-donnees-1)    
 :class: seealso
