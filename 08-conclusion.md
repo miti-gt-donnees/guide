@@ -21,9 +21,9 @@ L'originalité de ce document est qu'il rassemble une grande partie des activit�
 
 Les références indiquées dans ce guide ont été sélectionnées du fait de leur caractère synthétique et toujours actuel, mais aussi lorsque ce sont des retours d'expérience du terrain qui illustrent un processus de gestion des données.
 
-À l'issue de la lecture de ce guide, des termes comme "DMP", "plans de gestion de donnes", "identifiants pérennes", "DOI", "métadonnées", "vocabulaires contrôlés", "thesaurus", "infrastructures", "plateforme de traitement", "interopérabilité", "standards", "normes", "qualité", ... devraient prendre tout le sens et la place qu'ils doivent occuper de nos jours dans la gestion des données.
+À l'issue de la lecture de ce guide, des termes comme "DMP", "plans de gestion de donnes", "identifiants pérennes", "DOI", "métadonnées", "vocabulaires contrôlés", "thesaurus", "entrepôts", "interopérabilité", "standards", "normes", "qualité", ... devraient prendre tout le sens et la place qu'ils doivent occuper de nos jours dans la gestion des données.
 
-Ce guide n'a pas la prétention d'être exhaustif, mais il illustre les thèmes de fort intérêt de ces dernières années, pour les différentes communautés, menés par les réseaux métiers qui s'inscrivent dans la politique nationale liée à la science ouverte. Il sera complété au fil du temps par d'autres thèmes et actions d'intérêt organisés par les réseaux.
+Ce guide n'a pas la prétention d'être exhaustif, mais il illustre les thèmes de fort intérêt de ces dernières années menés par les réseaux métiers qui s'inscrivent dans la politique nationale liée à la science ouverte. Il sera complété au fil du temps par d'autres thèmes et actions d'intérêt organisés par les réseaux.
 
 Les pratiques et conseils cités dans ce guide ne se substituent pas aux recommandations présentées par les agences de financement, les établissements, ou les instituts, ..., mais sont là pour éclairer, accompagner les personnels de la recherche en charge de la gestion des données.
 
