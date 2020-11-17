@@ -53,7 +53,10 @@ Maurice Libes, Didier Mallarino, Institut Phyteas
 
 
 
-- **Le format ODV** (ocean data view) [https://odv.awi.de/](https://odv.awi.de/)  est également un format standard ouvert intéressant. Il se rapproche d'un format CSV, composé de colonnes de données séparées par des virgules (ou tout autre séparateur), à cette différence près que le format ODV permet l'insertion d'un entête assez riche permettant de placer des métadonnées en début de fichier.
+- **Le format ODV** (ocean data view) [https://odv.awi.de/](https://odv.awi.de/)  est également un format standard ouvert intéressant. C'est un format de type "tableur", ensemble de lignes comportant un nombre fixe de colonnes qui se rapproche d'un format CSV, composé de colonnes de données séparées par des virgules (ou tout autre séparateur), à cette différence près que le format ODV permet l'insertion d'un entête assez riche permettant de placer des métadonnées en début de fichier.
+On trouvera un exemple https://data.ifremer.fr/Tout-savoir-sur-les-donnees/Gestion-des-donnees/Formats/ODV
+
+Le format de données ODV permet un stockage dense et un accès très rapide aux données. De grandes collections de données comprenant des millions de stations peuvent être facilement entretenues et explorées sur des ordinateurs de bureau. 
 
 Les formats NetCDF et ODV sont les formats recommandés et utilisés par le pôle de données Odatis  <https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions> et par le projet européen Seadatanet <https://www.seadatanet.org/>
 
