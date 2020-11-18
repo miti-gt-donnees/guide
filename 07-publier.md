@@ -428,9 +428,15 @@ Aude Chambodut
 ```
 
 A ce sujet [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/) 
-nous rappelle que " rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"
+nous rappelle que : _"rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"_
 
-A ce titre s'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes Trust ((Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
+A ce titre s'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes TRUST (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
+
+- Transparence :	La transparence signifie que la gestion doit etre vérifiable par des preuves accessibles au public.
+- Responsabilité :	La responsabilité implique de fournir toutes les fonctionnalités de fiabilité et de pérennité de l'entrepot
+- Utilisateur orienté :	implique de veiller aux attentes des utilisateurs en matière de dépot de données
+- Durabilité : 	Maintenir les services et préserver les collections de données à long terme.
+- Technologie :	implique de fournir l’infrastructure et les capacités nécessaires pour obtenir des services sécurisés, pérennes et fiables.
 
 
 ### Déposer/Publier dans des entrepôts institutionnels
