@@ -1,10 +1,10 @@
 (imaginer)=
 # Imaginer
 
-Imaginer est la première étape de notre cycle de vie. Celle où l’on va se projeter, chercher, trouver, anticiper, comprendre, se former, s’informer pour envisager sereinement le déroulement de notre projet.
+Imaginer est la première étape de notre cycle de vie. Celle où l’on va se projeter, chercher, trouver, anticiper, comprendre, se former ou s’informer pour envisager sereinement le déroulement de notre projet.
 Cette étape correspond à l’identification des problématiques générales, techniques et juridiques associées à la gestion des données dans un projet de recherche ou dans la pratique quotidienne. C’est une étape initiale importante pour appréhender globalement la gestion des données, l’écosystème dans lequel elle s’inscrit avec ses contraintes et opportunités, les outils et infrastructures disponibles ou nécessaires, les politiques d’accompagnement et la multiplicité des acteurs qui interagissent, les réglementations en vigueur ou encore les compétences et expertises à acquérir.
  
-L’apport des réseaux est ici comme à chaque étape importante en termes de croisement des disciplines et des métiers, mais les professionnels de l’information documentation regroupés autour du réseau Renatis ont ces dernières années été particulièrement investis pour apporter un éclairage global dans la compréhension de la transition numérique et dans la nécessaire évolution des métiers et compétences pour répondre aux exigences des financeurs de la recherche d’une part et aux besoins de la communauté scientifique d’autre part. 
+L’apport des réseaux est ici comme à chaque étape importante en termes de croisement des disciplines et des métiers pour apporter un éclairage global dans la compréhension de la transition numérique ou dans la nécessaire évolution des métiers et compétences et répondre au mieux aux besoins des communautés scientifique. 
 
 ## Comprendre le paysage de la gestion des données
 
@@ -21,7 +21,7 @@ Simon Hudson souligne aussi le rôle essentiel des politiques et parties prenant
 ```{admonition} [Les politiques d’accompagnement des données : une comparaison internationale](http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf)  
 :class: seealso
 Simon Hodson, ISCU-CODATA  
-ANF "Frédocs2013 - Gestion et valorisation des données de la recherche", 2013 Aussois
+ANF "Frédocs2013 - Gestion et valorisation des données de la recherche", 2013, Aussois
 ```
 
 Plus récemment, en 2017 à l’occasion d’une ANF dédiée à l’organisation du management des données de la recherche et dans le contexte d’omniprésence du numérique et des défis sociétaux actuels, Francis André (Chargé des données de la recherche à la DIST du CNRS) présente l’évolution des pratiques scientifiques et le cadre stratégique offert par l’open science autour des données de la recherche. 
@@ -45,7 +45,7 @@ ANF "Frédocs2013 - Gestion et valorisation des données de la recherche", 2013,
 
 On constate en effet aujourd’hui en 2020 que les services communs de documentation, nouvellement investis de ces problématiques d’open acces et de gestion des données de la recherche ont entrepris une restructuration de fond au sein des Universités pour proposer des services d’accompagnement à destination des équipes de recherches *(Voir [Arabesque n°95](http://www.abes.fr/Publications-Evenements/Arabesques/Arabesques-n-95), ADBU, 2019)*. De nouveaux services d'appui à la recherche se constituent peu à peu et proposent un soutien pour la publication en libre accès ou la rédaction de plan de gestion de données.  *(voir [SOS-PGD](https://openaccess.couperin.org/sos-pgd/), répertoire des services opérationnels de soutien à la rédaction de plans de Gestion de données au sein des établissements de l'enseignement supérieur et de la recherche)*  
 
-L’INSU par ailleurs est aussi depuis les années 1990 à l’origine d’un dispositif d'accompagnement de la recherche à caractère national ou international qui bénéficie d’un processus de labellisation et qui a pour vocation d’apporter un service à la communauté scientifique. Il s’agit des  [Services Nationaux d’Observation](https://www.insu.cnrs.fr/fr/les-services-nationaux-dobservation) (SNO) labellisés par la direction de l'INSU. Ces services ont été créés pour répondre au besoin de documenter sur le long terme la formation, l'évolution, la variabilité des systèmes astronomiques et des milieux terrestres, et de faire progresser les connaissances dans ces domaines. 
+L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'accompagnement de la recherche à caractère national ou international qui bénéficie d’un processus de labellisation et qui a pour vocation d’apporter un service à la communauté scientifique. Il s’agit des  [Services Nationaux d’Observation](https://www.insu.cnrs.fr/fr/les-services-nationaux-dobservation) (SNO) labellisés par la direction de l'INSU. Ces services ont été créés pour répondre au besoin de documenter sur le long terme la formation, l'évolution, la variabilité des systèmes astronomiques et des milieux terrestres, et de faire progresser les connaissances dans ces domaines. 
 
 ### Assurer une veille technologique et réglementaire
 
@@ -55,6 +55,8 @@ Ces dernières années, la réglementation en matière de science ouverte a larg
 
 En 2018, à la suite des objectifs fixés par l'Europe, la France s'est dotée d'un [plan national pour la science ouverte](https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf). Présenté le 4 juillet par Frédérique Vidal, la ministre de l’Enseignement et de la Recherche, ce plan prône la diffusion sans entraves des publications et des données de la recherche. Il comporte différentes mesures déclinées en trois axes stratégiques et pose les conditions du développement de la science ouverte dans nos établissements. Dans la continuité de ce plan, le CNRS, a rédigé une [feuille de route pour la science ouverte](https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf) s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d'une culture de la gestion et du partage des données, (iii) développement d'infrastructure pour la fouille et (iv) l'analyse des contenus et la transformation des modalités d'évaluation des chercheurs). 
 
+Dans la continuité de cette feuille de route, le CNRS a publié en novembre 2020 un [plan Données de la recherche](https://www.cnrs.fr/sites/default/files/pdf/Plaquette_PlanDDOR_Nov20.pdf) avec l'objectif d'encourager les chercheurs à rendre leur données accessibles et réutilisables. A côté de la mise en place d'une politique des données en phase avec les besoins des communautés scientifiques, ce plan envisage un nouveau mode de gouvernance et un plan d'action pour les données de la recherche.
+
 Du côté des financeurs de la recherche, l’ANR dans son plan d’action 2020 réaffirme son engagement en faveur de la science ouverte. En lien avec le plan national pour la science ouverte, elle demande l’élaboration d’un Plan de Gestion des Données (PGD) pour les projets financés à partir de 2019. Partant des recommandations du [Comité pour la Science Ouverte](https://www.ouvrirlascience.fr/) (CoSO), elle a adopté un [modèle de PGD](https://anr.fr/fileadmin/documents/2019/ANR-modele-PGD.pdf) proposé par Science Europe qui vise à harmoniser la gestion des données au niveau international. Ce plan constitue désormais un livrable de tout projet financé par l'ANR.
 
 Le partage des données suppose également la mise en place d'un cadre juridique. La [loi pour la république numérique](https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=07E750787BCCD444B7B3283884EB327C.tplgfr33s_3?cidTexte=JORFTEXT000033202746&categorieLien=id), dite loi Lemaire, a posé ce cadre en octobre 2016 afin de favoriser l’ouverture et la circulation des données, de garantir un environnement numérique ouvert et respectueux de la vie privée et faciliter l'accès et la réutilisation des données. Le [Règlement général sur la protection des données](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679) (RGPD) instaure quant à lui un nouveau cadre juridique pour la protection des données personnelles.
@@ -63,17 +65,17 @@ Le partage des données suppose également la mise en place d'un cadre juridique
 
 En complément de la veille règlementaire, et d’une attention particulière sur les besoins des communautés scientifiques, une veille technologique portant sur les services, outils, plateformes et infrastructures de stockage, de partage ou d’archivage des données de la recherche doit être assurée pour permettre d’adapter les moyens mis œuvre aux besoins exprimés.
 
-De nombreuses initiatives internationales et programmes européens ont été constitués pour travailler à l'ouverture progressive des données de la recherche, produire et harmoniser des outils et méthodologies. Nombre d'entre eux sont des espaces de travail et d'échange pour les ingénieurs et chercheurs, comme [RDA](https://www.rd-alliance.org/) (Research Data Alliance) qui a pour motto "*Building the social and technical bridges to enable open sharing and re-use of data*" ou [Go FAIR](https://www.go-fair.org/) dont l'objectif est de promouvoir les principes FAIR. Le ["European Open Science Cloud"](https://www.eosc-portal.eu/) a été initié par la commission européenne. Il est défini comme "*The system resulting from the activities and initiatives promoted by the European Commission to support its policies on Open Science and Open Innovation 2.0*", cf le [Glossaire de l'EOSC](https://www.eosc-portal.eu/glossary). 
+De nombreuses initiatives internationales et programmes européens ont été constitués pour travailler à l'ouverture progressive des données de la recherche, produire et harmoniser des outils et méthodologies. Nombre d'entre eux sont des espaces de travail et d'échange pour les ingénieurs et chercheurs, comme [RDA](https://www.rd-alliance.org/) (Research Data Alliance) qui a pour motto "*Building the social and technical bridges to enable open sharing and re-use of data*" ou [Go FAIR](https://www.go-fair.org/) dont l'objectif est de promouvoir les principes FAIR. Le ["European Open Science Cloud"](https://www.eosc-portal.eu/) a été initié par la commission européenne. Il est défini comme "*The system resulting from the activities and initiatives promoted by the European Commission to support its policies on Open Science and Open Innovation 2.0*" (voir le [Glossaire de l'EOSC](https://www.eosc-portal.eu/glossary)). 
 
 Une présentation de Françoise Genova et de Francis André détaille le fonctionnement de la RDA, organisation internationale créée en mars 2013, pilotée par la communauté, qui vise à construire les ponts sociaux et techniques pour le meilleur partage des données. Les groupes d’intérêt et de travail y sont présentés par thématiques ainsi que les productions et recommandations issues de ces groupes. Un focus particulier est porté sur le Nœud National RDA France, ses objectifs et ses activités.
                                 
 ```{admonition} [Les activités de RDA : perspectives dans le cadre du noeud national français](https://sist18.sciencesconf.org/data/pages/27_F_Andre_Research_Data_Alliance.pdf)  
 :class: seealso
-Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Strasbourg
+Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Strasbourg    
 SIST 2018 : Séries Interopérables et Systèmes de Traitement, 2016, Guyancourt
 ```
 
-Dans cette autre présentation, Volker Beckman, chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS, explique comment concrètement les chercheurs pourront utiliser l'EOSC.
+Dans cette autre présentation, Volker Beckman (chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS) explique comment concrètement les chercheurs pourront utiliser l'EOSC.
 Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui coordonne les initiatives et projets de construction de cet espace à destination de la recherche et des chercheurs. Partant des nombreux projets qui ont été financés pour élaborer ce cloud (EOSCpilot, EOSC-Pillar. EOSC-hub, etc.), il montre les possibilités de collaboration. Depuis 2019, une structuration est en cours avec la mise en place d’une gouvernance temporaire et une implication forte des ministères en charge de la recherche dans les différents pays européens. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement complémentaires dans le programme cadre "Horizon Europe".
 
 ```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf)  
@@ -84,15 +86,15 @@ Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’I
 
 Pour accompagner les communautés de chercheurs, une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/cid70554/la-feuille-de-route-nationale-des-infrastructures-de-recherche.html) est mise à disposition sur son site par le ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation. Elle recense aujourd’hui 99 infrastructures et est régulièrement remise à jour. 
 
-Les projets de recherche au sein de ces infrastructures ont donné lieu à certains retours d’expériences qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche.  [Ils sont détaillés dans la partie dédiée aux infrastructures]
+Les projets de recherche au sein de ces infrastructures ont donné lieu à certains retours d’expériences qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche.  (Ils sont détaillés dans la partie dédiée aux {ref}`infrastructures`)
 
-Il est important également de suivre attentivement l’évolution des espaces de partage des données de la recherche sont différents en fonction des communautés scientifiques. Les organismes de financement, les éditeurs ou les établissements de recherche ont pour coutume de recommander le dépôt des données dans des entrepôts, car ceux-ci permettent de conserver, rendre visible et accessible les données de recherche. Il en existe plusieurs catégories : entrepôts généralistes comme [Zenodo](https://zenodo.org/) ou [Dryad](https://datadryad.org/stash), institutionnels comme [Dataverse Cirad](https://dataverse.cirad.fr/), [Datapartage](https://data.inra.fr/) à INRAE, [dataSuds](https://dataverse.ird.fr/) à l’IRD ou thématiques comme [GBIF](https://www.gbif.org/) pour les données de biodiversité, ou [Pangaea](https://www.pangaea.de/) pour les données des géosciences.
+Il est important également de suivre attentivement l’évolution des espaces de partage des données de la recherche qui sont différents en fonction des communautés scientifiques. Les organismes de financement, les éditeurs ou les établissements de recherche ont pour coutume de recommander le dépôt des données dans des entrepôts, car ceux-ci permettent de conserver, rendre visible et accessible les données de recherche. Il en existe plusieurs catégories : entrepôts généralistes comme [Zenodo](https://zenodo.org/) ou [Dryad](https://datadryad.org/stash), institutionnels comme [Dataverse Cirad](https://dataverse.cirad.fr/), [Datapartage](https://data.inra.fr/) à INRAE, [dataSuds](https://dataverse.ird.fr/) à l’IRD ou thématiques comme [GBIF](https://www.gbif.org/) pour les données de biodiversité, ou [Pangaea](https://www.pangaea.de/) pour les données des géosciences.
 
 Des répertoires de données comme [Re3Data](https://www.re3data.org/) (répertoire d’entrepôts créé par DataCite) ou [Cat Opidor](https://cat.opidor.fr/index.php/Entrep%C3%B4t_de_donn%C3%A9es) (catalogue de services hébergé à l’INIST) sont accessibles pour guider les recherches.
 
 Afin de pérenniser l’accès des données de la recherche, certains organismes comme le [CINES](https://www.cines.fr/) ou les archives nationales proposent des services d’archivage pérenne qui garantissent sur le très long terme (au-delà de 30 ans) la conservation du document, son accessibilité et son intelligibilité.
          
-Pour plus de détails, on se reportera à la partie du guide dédiée aux {ref}`infrastructures`.
+Pour plus de détails, on se reportera à la section {ref}`infrastructures`.
 
 ## Comprendre et respecter la législation en vigueur
 
@@ -162,7 +164,7 @@ Elle a pour ambition d’analyser les complémentarités des expériences au tra
 
 ```{admonition} [Interopérabilité et pérennisation des données de la recherche : Comment FAIR en pratique ? Retour d’expérience](https://gt-donnees2018.sciencesconf.org/)  
 :class: seealso
-Atelier Données Inter réseau, 2018
+Atelier Données Inter réseau, 2018, Paris
 ```
 
 ## Prévoir la traçabilité des données 
@@ -181,7 +183,7 @@ Nos tutelles, en réponse à cette problématique d'intégrité scientifique, on
 ```{admonition} [Activités de recherche et gestion des connaissances](https://anfdonnees2016.sciencesconf.org/data/pages/donnees_renatis_Al1_Rivet_2016.pdf)  
 :class: seealso
 Alain Rivet, CNRS_CERMAV  
-ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données" -  6-8 juillet 2016 Paris (France)        
+ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données", 2016, Paris      
 Voir aussi les vidéos :
 [La problématique de la donnée dans la perspective de la traçabilité des activités de recherche : contexte et enjeux]( https://youtu.be/UhBwjJDQcdg) (séquence 1)
 [Le défi organisationnel de la gestion des données dans les laboratoires et les établissements](https://youtu.be/6IaYJ_Rvm28) (séquence 2)
