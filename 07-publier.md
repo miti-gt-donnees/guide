@@ -404,7 +404,7 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 * [Pour découvrir pas à pas l'interface de NAKALA ainsi que les modalités de l'authentification](https://www.huma-num.fr/ressources/videos )
 
 
-### La certification des entrepôts de données
+### Vers des entrepôts de données de confiance ou certifiés
 
 Dans le but d'être dignes de confiance, accessibles et réutilisables, déposer des données dans des entrepôts institutionnels nécessite un certain nombre de prérequis pour afficher la rigueur de leur gestion : 
 - avoir des données validées et présentant un code  renseignant sur la qualité des données 
@@ -426,6 +426,12 @@ Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminai
 Aude Chambodut
 [Séminaires SIST20](https://sist20.sciencesconf.org/)   
 ```
+
+A ce sujet [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/) 
+nous rappelle que " rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"
+
+A ce titre s'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes Trust ((Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
+
 
 ### Déposer/Publier dans des entrepôts institutionnels
 
