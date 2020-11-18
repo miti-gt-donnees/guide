@@ -399,12 +399,8 @@ Dans le but d'être dignes de confiance, accessibles et réutilisables, déposer
 
 Pour être dignes de confiance, les entrepôts doivent répondre à certains prérequis et spécifications qui, si besoin, peuvent amener à une certification.
 
-CoreTrustSeal est un organisme communautaire sans but lucratif qui promeut le développement d'infrastructures de données durables et fiables et spécifie _les critères de conformité qui peuvent certifier un entrepôt_
-
-La [Research Data Alliance](https://www.rd-alliance.org/) recommande les critères de conformités de Core trust Seal, qui spécifient un entrepôt de confiance : <https://www.rd-alliance.org/coretrustseal-criteres-de-conformite>
-* [Entrepôts de données de confiance: critères de conformité](https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf)
-
 Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle  nous rappelle que : _"rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"_
+
 
 ```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"
 :class: seealso
@@ -414,13 +410,21 @@ Aude Chambodut
 ```
 
 
-A ce titre s'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes TRUST (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
+CoreTrustSeal est un organisme communautaire sans but lucratif qui promeut le développement d'infrastructures de données durables et fiables et spécifie _les critères de conformité qui peuvent certifier un entrepôt_
+
+La [Research Data Alliance](https://www.rd-alliance.org/) recommande les critères de conformités de Core trust Seal, qui spécifient un entrepôt de confiance : <https://www.rd-alliance.org/coretrustseal-criteres-de-conformite>
+* [Entrepôts de données de confiance: critères de conformité](https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf)
+
+S'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes TRUST (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
 
 - Transparence :	La transparence signifie que la gestion doit etre vérifiable par des preuves accessibles au public.
 - Responsabilité :	La responsabilité implique de fournir toutes les fonctionnalités de fiabilité et de pérennité de l'entrepot
 - Utilisateur orienté :	implique de veiller aux attentes des utilisateurs en matière de dépot de données
 - Durabilité : 	Maintenir les services et préserver les collections de données à long terme.
 - Technologie :	implique de fournir l’infrastructure et les capacités nécessaires pour obtenir des services sécurisés, pérennes et fiables.
+
+
+Les principes TRUST donnent aux utilisateurs l’assurance qu’ils bénéficient d’entrepôts sûrs avec des moyens durables. 
 
 
 ### Entrepôts en SHS 
