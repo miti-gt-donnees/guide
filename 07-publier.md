@@ -417,10 +417,11 @@ La [Research Data Alliance](https://www.rd-alliance.org/) recommande les critèr
 
 S'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes TRUST (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
 
-- Transparence :	La transparence signifie que la gestion doit etre vérifiable par des preuves accessibles au public.
-- Responsabilité :	La responsabilité implique de fournir toutes les fonctionnalités de fiabilité et de pérennité de l'entrepot
+
+- Transparence :	La transparence signifie que la gestion de l'entrepôt doit etre vérifiable par des preuves accessibles au public.
+- Responsabilité :	La responsabilité implique de fournir toutes les garanties d'intégrité des données, de fiabilité et de pérennité de l'entrepot
 - Utilisateur orienté :	implique de veiller aux attentes des utilisateurs en matière de dépot de données
-- Durabilité : 	Maintenir les services et préserver les collections de données à long terme.
+- Durabilité : 	demande à ce que les collections de données soient préservées sur le long terme.
 - Technologie :	implique de fournir l’infrastructure et les capacités nécessaires pour obtenir des services sécurisés, pérennes et fiables.
 
 
