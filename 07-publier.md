@@ -2,11 +2,11 @@
 # Publier et diffuser
 
 
-Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute une politique de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient visibles et réutilisables selon des formats et des processus interopérables.
+Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute la politique de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient visibles et réutilisables selon des formats et des processus interopérables.
 
-L’accompagnement  des  réseaux s’exerce sur la publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives faisant partie de vocabulaires contrôlés, et de leurs formats d’exploitation pour en assurer la réutilisabilité.
+L’accompagnement  des  réseaux métiers s’exerce sur la publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité.
 
-Ainsi les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
+Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
 
 Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action d'_identification_ des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
 
