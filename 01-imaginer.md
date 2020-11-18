@@ -80,7 +80,7 @@ Il présente la stratégie européenne d’élaboration de ce Cloud européen la
 
 ```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf)  
 :class: seealso
-Volker Beckman,  CNRS/IN2P3
+Volker Beckman,  CNRS/IN2P3   
 Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020
 ```
 
@@ -115,7 +115,7 @@ ANF  "Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se
 ```{admonition} [Questions juridiques autour de l’ouverture des données](http://rbdd.cnrs.fr/IMG/pdf/20181107_questions_juridiques_autour_de_l_ouverture_des_donnees_rbdd.pdf?515/adba03a95aa28dd17a08e0c052414e099ad26347)  
 :class: seealso
 Nathalie Le Ba (DAJ du CNRS)   
-ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données » - 2018 Sète      
+ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données », 2018, Sète      
 ```
 En complément de ces présentations, il est important de retenir que le droit des producteurs de bases de données (droit sui generis) est désormais "neutralisé" par la Loi sur la république numérique. Comme toute administration, les universités et établissements de recherche ne peuvent opposer leur droit de producteur de bases de données à la libre réutilisation des informations qu'elles produisent. Le principe d'ouverture par défaut s'applique. Pour plus d'information sur ce point nous vous invitons à consulter l'article de Lionel Maurel : [les universités françaises et l’Open Data après la loi numérique](https://scinfolex.com/2016/11/01/les-universites-francaises-et-lopen-data-apres-la-loi-numerique/).
 
@@ -132,7 +132,7 @@ On trouvera dans l'intervention de Patrick Guillot (CIL des établissements univ
 ```{admonition} [Prise en compte des données personnelles - Évolution de la règlementation](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_guillot_1.pdf)  
 :class: seealso
 Patrick Guillot, Univ. Grenoble Alpes     
-ANF "Traçabilité des activités de recherche et gestion des connaissances", Réseau Qualité en Recherche, Grenoble, 16-18 octobre 2017 
+ANF "Traçabilité des activités de recherche et gestion des connaissances", Réseau Qualité en Recherche, 2017, Grenoble 
 ```
 
 **Les licences**
@@ -211,7 +211,7 @@ Cette présentation s’organise en trois parties : les spécificités de la « 
 ```{admonition} [De quelques défis spécifiques de la curation numérique des données en SHS : petite incursion dans l’univers de l’édition critique de sources au format TEI](http://renatis.cnrs.fr/IMG/pdf/emma-morlock-fredocs-2013)  
 :class: seealso
 Emmanuelle Morlock, HiSoMa)  
-Frédocs2013 - Gestion et valorisation des données de la recherche - 2013, Aussois
+Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois
 ```
 
 Dans le domaine spécifique des humanités numériques, il existe un guide auquel se référer : le [DH Curation Guide](https://guide.dhcuration.org/about/). Il est composé d’un recueil d’articles fiables sur la curation des données, contextualisés par des rédacteurs experts et des membres de la communauté. Ce guide, réalisé suite à une analyse de besoins exprimés par des professionnels en Humanités numériques dans le cadre d’un projet de recherche (Data Curation Education Program for the Humanities (DCEP-H) a été conçu avec l’objectif d’aider à relever les défis posés par la curation des données.
