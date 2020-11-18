@@ -8,34 +8,33 @@ L’accompagnement  des  réseaux métiers s’exerce sur la publication des don
 
 Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
 
-Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action d'_identification_ des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
+Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action d'identification des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
 
 
 ## Communiquer et documenter  
 
 ### Finaliser le PGD 
 
-En fin de projet n'oublions pas qu'il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire vérifier que les premières informations qui ont été rédigées sont encore valides et valables, et les mettre à jour en rajoutant les dernières informations disponibles.
+En fin de projet, n'oublions pas qu'il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
 - **Utilisation de catalogues de métadonnées**
 
-Les *catalogues de métadonnées* représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. 
-Ils permettent de faciliter la recherche et l'identification des données (F de FAIR)
+Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
 
 Pour être interopérables, ces catalogues s'appuient en général sur des normes pour représenter les métadonnées.
-Par exemple, dans les sciences de  l'environnement la norme ISO 19115 et la norme ISO 19139 sont des références pour représenter les données géospatialisées et l'information géographique dans le domaine des métadonnées.
+Par exemple, dans les sciences de  l'environnement les normes ISO 19115 et ISO 19139 sont des références pour représenter les données géospatialisées et l'information géographique dans le domaine des métadonnées.
 
 - L'ISO 19115-1 définit le schéma requis pour décrire des informations géographiques et des services au moyen de métadonnées. 
 Elle fournit des informations concernant l'identification, l'étendue, la qualité, les aspects spatiaux et temporels, le contenu, la référence spatiale, la représentation des données, la distribution et d'autres propriétés des données géographiques numériques et des services.
-- L'ISO 19139 définit le schéma d'implémentation et d'encodage XML pour représenter les métadonnées ISO 19115
+- L'ISO 19139 définit le schéma d'implémentation et d'encodage XML pour représenter les métadonnées ISO 19115.
 
-En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est un des logiciels de référence pour décrire et représenter les jeux de données géolocalisés, et constituer un *catalogue* qui inventorie les différents jeux de données d'un Institut.
+En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est un des logiciels de référence pour décrire et représenter les jeux de données géolocalisés et constituer un catalogue qui inventorie les différents jeux de données d'un Institut.
 
-Ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web), et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres, réseau notamment demandé par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991)
+Ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres, réseau notamment demandé par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
 
-Le logiciel GeoNetwork utilise en outre le protocole [WMS (Web Map Service) de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/), ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.
+Le logiciel GeoNetwork utilise, en outre, le protocole [WMS (Web Map Service) de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/), ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.
 
 L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation du [réseau SIST](https://sist.cnrs.fr/) pour laquelle on trouvera les informations
 * [https://sist.cnrs.fr/les-formations/anf-2017-1](https://sist.cnrs.fr/les-formations/anf-2017-1)  
@@ -44,15 +43,13 @@ L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une act
 
 Le recueil des métadonnées ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d'automatiser la constitution des catalogues. Plusieurs développements se sont intéressés à l'utilisation de l'interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage "R". 
 
-C. Bernard J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme,
-de manière automatique à partir de données stockées dans une base de données interne à l'unité.
+C. Bernard J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à l'unité.
 
 ```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf)  
 :class: seealso
 C. Bernard,   J. Fabre, et O. Lobry  
 [Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)
 ```
-
 
 De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de librairies de programmation écrites en "R", destinées
 à faciliter l'insertion de métadonnées dans les catalogues "GeoNetwork". Ces développements ont été présentés lors d'un atelier organisé par le réseau RBDD et SIST :
@@ -67,7 +64,7 @@ Julien Barde,   Emmanuel Blondel et  Wilfried Heintz
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
-Ce logiciel de catalogage est utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC ont été utilisés.
+Ce logiciel de catalogage est utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC utilisés.
 
 ```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
 :class: seealso
@@ -92,9 +89,7 @@ Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et e
 
 La directive [INSPIRE](https://www.ecologie.gouv.fr/directive-europeenne-inspire), élaborée par la Direction générale de l’environnement de la Commission européenne en 2007, vise à établir en Europe une infrastructure de données géographiques pour favoriser la protection de l’environnement, assurer l’interopérabilité entre bases de données et faciliter la diffusion, la disponibilité, l’utilisation et la réutilisation de l’information géographique en Europe. INSPIRE vise ainsi à mieux partager les données de la recherche.
 
-Cette [directive](http://cnig.gouv.fr/?page_id=8991)  vise à établir en Europe une infrastructure de données géographiques pour assurer l’interopérabilité entre bases de données et faciliter la diffusion, la disponibilité, l’utilisation et la réutilisation de l’information géographique en Europe.
-
-Marc Leobet, chargé de mission à la Mission information géographique du ministère en charge du développement durable pose, dans cette présentation réalisée en 2013, le cadre de la Directive Inspire. Il présente tout d’abord l’utilité de cette Directive (identification des données, gestion de la confidentialité, des problèmes de conventionnement  et qualité des données), son contexte, les obligations qu’elle induit, le contexte autour de la réutilisation des données du secteur public et  l’application de la Directive inspire dans le domaine de la recherche. 
+Marc Leobet, chargé de mission à la Mission information géographique du ministère en charge du développement durable pose, dans cette présentation réalisée en 2013, le cadre de la Directive Inspire. Il présente tout d’abord l’utilité de cette Directive (identification des données, gestion de la confidentialité, les problèmes de conventionnement et la qualité des données), son contexte, les obligations qu’elle induit, le contexte autour de la réutilisation des données du secteur public et l’application de la Directive inspire dans le domaine de la recherche. 
 
 ```{admonition} [La Directive INSPIRE pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)  
 :class: seealso
