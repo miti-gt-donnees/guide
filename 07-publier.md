@@ -137,11 +137,10 @@ Données surfaces continentales : <https://www.theia-land.fr/>
 
 #### Les portails de données européens
 
-Par ailleurs de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du [British Oceanographic Data Center : BODC](https://www.bodc.ac.uk/).
-Le projet européen Seadatanet vise à élaborer et mettre en place un portail européen d'accès aux données marines en se basant sur de nombreux standards rendant les données FAIR
-Seadatanet est un exemple d'envergure européenne pour la mise en place de standards d'interopérabilité. Il repose sur de nombreux vocabulaires contrôlés fournis par le BODC 
+Par ailleurs, de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du [British Oceanographic Data Center : BODC](https://www.bodc.ac.uk/).
+Le projet européen Seadatanet vise à élaborer et mettre en place un portail européen d'accès aux données marines en se basant sur de nombreux standards rendant les données FAIR. 
 
-Une présentation du projet Seadatanet a été faite par Michele Fichaut et Florence Conquet  
+Seadatanet est un exemple d'envergure européenne pour la mise en place de standards d'interopérabilité. Il repose sur de nombreux vocabulaires contrôlés fournis par le BODC. Une présentation du projet Seadatanet a été faite par Michele Fichaut et Florence Conquet  
 
 ```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://sist15.sciencesconf.org/program)
 :class: seealso
@@ -149,7 +148,7 @@ Michèle Fichaut, Systèmes d'Informations Scientifiques pour la Mer
 [Séminaire SIST15 OSU Pytheas Marseille 2015](https://sist15.sciencesconf.org/)   
 ```
 
-Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ présente un exemple de dépôt de données dans le portail de données Seadatanet sur des données de cytométrie en flux. Il est intéressant de voir la démarche et le workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un certain nombre de standards.
+Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ présente un exemple de dépôt de données dans le portail de données Seadatanet sur des données de cytométrie en flux. Il est intéressant de prendre connaissance de la démarche et du workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un certain nombre de standards.
 
 ```{admonition} [Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf)  
 :class: seealso
@@ -159,17 +158,15 @@ Soumaya Lahbib
 
 ## Utilisation de thesaurus 
 
-Un vocabulaire contrôlé est une liste de termes (mots et expressions) soigneusement choisis pour désigner les concepts d'un domaine (un seul terme préférentiel et éventuellement plusieurs entrées nonpréférentielles). Il réduit l'ambiguïté inhérente au langage humain naturel, où différents noms peuvent être attribués à un même concept.
-
-Un thésaurus permet d'organiser et de structurer un vocabulaire contrôlé à partir de relations sémantiques entre concepts (de types hiérarchiques ou associatifs) et d'équivalence entre termes
+Un vocabulaire contrôlé est une liste de termes (mots et expressions) soigneusement choisis pour désigner les concepts d'un domaine (un seul terme préférentiel et éventuellement plusieurs entrées non préférentielles). Il réduit l'ambiguïté inhérente au langage humain naturel, où différents noms peuvent être attribués à un même concept. Un thésaurus permet d'organiser et de structurer un vocabulaire contrôlé à partir de relations sémantiques entre concepts (de types hiérarchiques ou associatifs) et d'équivalence entre termes.
 
 Pour être interopérables sémantiquement, les catalogues de métadonnées se doivent d'utiliser des vocabulaires contrôlés relevant de la discipline scientifique concernée. Ces vocabulaires sont regroupés dans des thésaurus qui sont des listes organisées de termes contrôlés et normalisés (descripteurs et non-descripteurs) représentant les concepts d'un domaine de la connaissance. Un thésaurus permet d'organiser et de structurer un vocabulaire contrôlé.
 
 De nombreux thesaurus existent comme celui de 
 - "[Inspire](https://www.eionet.europa.eu/gemet/en/inspire-themes/)" ou 
-- "[GEMET](https://www.eionet.europa.eu/gemet/en/themes/)". Ce dernier est un thésaurus documentaire multilingue développé et publié par l'Agence européenne pour l'environnement. Cependant selon le domaine scientifique certains thesaurus doivent être créés ou nécessitent de multiples évolutions et mises à jour.
+- "[GEMET](https://www.eionet.europa.eu/gemet/en/themes/)". Ce dernier est un thésaurus documentaire multilingue développé et publié par l'Agence européenne pour l'environnement. Cependant, selon le domaine scientifique, certains thesaurus doivent être créés ou nécessitent de multiples évolutions et mises à jour.
 
-Lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.loterre.fr/skosmos/BLH/fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées
+Lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.loterre.fr/skosmos/BLH/fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
 
 ```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv.pdf)
 :class: seealso
@@ -178,7 +175,7 @@ Dominique Vachez, Institut de l’information scientifique et technique
 [Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
 ```
 
-La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont : une élaboration collaborative des termes, et une procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
+La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont une élaboration collaborative des termes et une procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
 
 ```{admonition} [Création d'un thésaurus collaboratif : cas d'un groupe CESAB,  Fondation pour la Recherche sur la Biodiversité, 2015](http://rbdd.cnrs.fr/IMG/pdf/creation_d_un_thesaurus_collaboratif.pdf?139/f6b1cdc1818726f3cdfc7646cc98afb22687cfd5)
 :class: seealso
@@ -192,7 +189,7 @@ MC Quidoz
 [Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
 ```
 
-**En Archéologie**, Blandine Nouvel nous présente l'intérêt du _thésaurus PACTOLS_ pour l’archéologie sur le web des données de manière à ouvrir son utilisation au-delà des seules bibliothèques
+En Archéologie, Blandine Nouvel nous présente l'intérêt du thésaurus PACTOLS pour l’archéologie sur le web des données de manière à ouvrir son utilisation au-delà des seules bibliothèques.
 
 ```{admonition} [Évolution et nouvelles pratiques autour du thésaurus PACTOLS de Frantiq pour l’édition numérique en archéologie](https://fredoc2018.sciencesconf.org/data/pages/PACTOLS_B_Nouvel.pdf)
 :class: seealso
@@ -202,13 +199,13 @@ Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 ```
 
-Enfin notons la création du logiciel open source "[opentheso](https://www.mom.fr/ressources-numeriques/opentheso)". Il permet l'élaboration collaborative d'un thésaurus tout comme ThesauForm, mais aussi la gestion de thésaurus multilingue supportant la polyhiérarchie, conforme à la norme ISO 25964.
+Enfin, notons la création du logiciel open source [opentheso](https://www.mom.fr/ressources-numeriques/opentheso) qui permet l'élaboration collaborative d'un thésaurus tout comme ThesauForm, mais aussi la gestion de thésaurus multilingue supportant la polyhiérarchie, en conformité avec la norme ISO 25964.
  
 ## Utiliser des Identifiants pérennes
 
-Afin d'être cités et réutilisés, les données et documents numériques de manière générale doivent disposer d'un *identifiant pérenne* pour qu'ils puissent être référencés, visibles et accessibles de manière univoque.
+Afin d'être cités et réutilisés, les données et documents numériques se doivent de disposer d'un identifiant pérenne pour qu'ils puissent être référencés, visibles et accessibles de manière univoque.
 
-### Le cas des documents :
+### Le cas des documents
 
 Il existe différents types d'identifiants pérennes pour toutes sortes d'objets y compris les humains. Cet article de J-L Archimbaud fait le point sur les identifiants des documents numériques et leurs usages :
 
@@ -222,7 +219,7 @@ Il faut aussi noter que dans le domaine de la bio-informatique, des identifiants
 
 ### Les DOI : "Digital Object Identification"
 
-Les D.O.I (Digital Object Identification) permettent de citer les données de manière univoque et  que
+Les D.O.I (Digital Object Identification) permettent de citer les données de manière univoque et que
 l'on puisse les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité, et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
 
 L'obtention de D.O.I se fait auprès de [l'organisme international "Datacite"](https://doi.datacite.org/) ou bien tout partenaire contractualisé avec Datacite comme l'INIST du CNRS. Il implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "*landing page*") qui permet de fournir les métadonnées principales pour décrire les données et d'y accéder.
