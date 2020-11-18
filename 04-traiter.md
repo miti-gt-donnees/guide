@@ -222,6 +222,10 @@ Il est donc essentiel de s’assurer que l’ensemble des activités de recherch
 
 Le contrôle sur les équipements est le premier pas vers la traçabilité des données comme l'illustre l'exposé suivant :
 
+[MCQ - début ] j'aime bien ce passage page 6. L'auteur parle des équipements mais on pourrait totalement imaginé le même texte pour des collectes faits par des humains. je mettrai bien quelque chose comme cela en intro car pour moi la qualité des données, ce n'est pas seulement la répétivité que tu décris
+"Réaliser une mesure ne se limite pas à relever une valeur affichée par un appareil. Cette valeur peut être affectée par des erreurs de sources variées : Performances de l’équipement / Personnel/ Environnement / Consommables et réactifs / Méthode/mode opératoire"
+[MCQ - fin]
+
 ```{admonition} [Traçabilité des données de la recherche. Confirmation métrologique des équipements](https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf)  
 :class: seealso
 Virginie JAN LOGASSI, Université de Lorraine  
