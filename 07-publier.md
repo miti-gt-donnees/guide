@@ -392,16 +392,16 @@ Sylvie Cocaud (INRA)
 
 ### Vers des entrepôts de données de confiance ou certifiés
 
-Dans le but de pouvoir etre pérenissées et réutilisées les données ont intéret à être déposées dans des entrepôts. 
-Déposer des données dans des entrepôts nécessite un certain nombre de prérequis pour afficher la rigueur de leur gestion : 
-- favoriser des données dans des formats ouverts interopérables
+Dans le but de pouvoir etre pérennisées et réutilisées, les données ont intérêt à être déposées dans des entrepôts. 
+Déposer des données dans des entrepôts nécessite un certain nombre de prérequis pour assurer la qualité des données déposées : 
+- favoriser le dépôt des données dans des formats ouverts interopérables
 - avoir des données validées et présentant un code renseignant sur la qualité des données 
 - avoir des métadonnées descriptives bien renseignées et faisant partie d'un thesaurus identifié
 
-Il est également nécessaire de se préoccuper de la qualité des entrpôts que l'on va choisir et utiliser.
+Il est également nécessaire de se préoccuper de la qualité des entrepôts que l'on va choisir et utiliser pour déposer les données.
 Pour être dignes de confiance, les entrepôts doivent également répondre à certains prérequis et spécifications qui, si besoin, peuvent amener à une certification.
 
-Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle  nous rappelle que : _"rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"_
+Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle  nous rappelle que : _"rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"_
 
 
 ```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"
@@ -428,6 +428,7 @@ S'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima res
 
 
 Les principes TRUST donnent aux utilisateurs l’assurance qu’ils bénéficient d’entrepôts sûrs avec des moyens durables. 
+
 
 
 ### Entrepôts en SHS 
