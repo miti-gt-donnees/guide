@@ -2,40 +2,39 @@
 # Publier et diffuser
 
 
-Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute une politique de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient visibles et réutilisables selon des formats et des processus interopérables.
+Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute la politique de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient visibles et réutilisables selon des formats et des processus interopérables.
 
-L’accompagnement  des  réseaux s’exerce sur la publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives faisant partie de vocabulaires contrôlés, et de leurs formats d’exploitation pour en assurer la réutilisabilité.
+L’accompagnement  des  réseaux métiers s’exerce sur la publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité.
 
-Ainsi les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
+Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
 
-Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action d'_identification_ des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
+Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action d'identification des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
 
 
 ## Communiquer et documenter  
 
 ### Finaliser le PGD 
 
-En fin de projet n'oublions pas qu'il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire vérifier que les premières informations qui ont été rédigées sont encore valides et valables, et les mettre à jour en rajoutant les dernières informations disponibles.
+En fin de projet, n'oublions pas qu'il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
 - **Utilisation de catalogues de métadonnées**
 
-Les *catalogues de métadonnées* représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. 
-Ils permettent de faciliter la recherche et l'identification des données (F de FAIR)
+Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
 
 Pour être interopérables, ces catalogues s'appuient en général sur des normes pour représenter les métadonnées.
-Par exemple, dans les sciences de  l'environnement la norme ISO 19115 et la norme ISO 19139 sont des références pour représenter les données géospatialisées et l'information géographique dans le domaine des métadonnées.
+Par exemple, dans les sciences de  l'environnement les normes ISO 19115 et ISO 19139 sont des références pour représenter les données géospatialisées et l'information géographique dans le domaine des métadonnées.
 
 - L'ISO 19115-1 définit le schéma requis pour décrire des informations géographiques et des services au moyen de métadonnées. 
 Elle fournit des informations concernant l'identification, l'étendue, la qualité, les aspects spatiaux et temporels, le contenu, la référence spatiale, la représentation des données, la distribution et d'autres propriétés des données géographiques numériques et des services.
-- L'ISO 19139 définit le schéma d'implémentation et d'encodage XML pour représenter les métadonnées ISO 19115
+- L'ISO 19139 définit le schéma d'implémentation et d'encodage XML pour représenter les métadonnées ISO 19115.
 
-En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est un des logiciels de référence pour décrire et représenter les jeux de données géolocalisés, et constituer un *catalogue* qui inventorie les différents jeux de données d'un Institut.
+En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est un des logiciels de référence pour décrire et représenter les jeux de données géolocalisés et constituer un catalogue qui inventorie les différents jeux de données d'un Institut.
 
-Ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web), et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres, réseau notamment demandé par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991)
+Ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres, réseau notamment demandé par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
 
-Le logiciel GeoNetwork utilise en outre le protocole [WMS (Web Map Service) de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/), ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.
+Le logiciel GeoNetwork utilise, en outre, le protocole [WMS (Web Map Service) de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/), ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.
 
 L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation du [réseau SIST](https://sist.cnrs.fr/) pour laquelle on trouvera les informations
 * [https://sist.cnrs.fr/les-formations/anf-2017-1](https://sist.cnrs.fr/les-formations/anf-2017-1)  
@@ -44,15 +43,13 @@ L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une act
 
 Le recueil des métadonnées ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d'automatiser la constitution des catalogues. Plusieurs développements se sont intéressés à l'utilisation de l'interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage "R". 
 
-C. Bernard J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme,
-de manière automatique à partir de données stockées dans une base de données interne à l'unité.
+C. Bernard J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à l'unité.
 
 ```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf)  
 :class: seealso
 C. Bernard,   J. Fabre, et O. Lobry  
 [Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)
 ```
-
 
 De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de librairies de programmation écrites en "R", destinées
 à faciliter l'insertion de métadonnées dans les catalogues "GeoNetwork". Ces développements ont été présentés lors d'un atelier organisé par le réseau RBDD et SIST :
@@ -67,7 +64,7 @@ Julien Barde,   Emmanuel Blondel et  Wilfried Heintz
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
-Ce logiciel de catalogage est utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC ont été utilisés.
+Ce logiciel de catalogage est utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC utilisés.
 
 ```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
 :class: seealso
@@ -92,9 +89,7 @@ Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et e
 
 La directive [INSPIRE](https://www.ecologie.gouv.fr/directive-europeenne-inspire), élaborée par la Direction générale de l’environnement de la Commission européenne en 2007, vise à établir en Europe une infrastructure de données géographiques pour favoriser la protection de l’environnement, assurer l’interopérabilité entre bases de données et faciliter la diffusion, la disponibilité, l’utilisation et la réutilisation de l’information géographique en Europe. INSPIRE vise ainsi à mieux partager les données de la recherche.
 
-Cette [directive](http://cnig.gouv.fr/?page_id=8991)  vise à établir en Europe une infrastructure de données géographiques pour assurer l’interopérabilité entre bases de données et faciliter la diffusion, la disponibilité, l’utilisation et la réutilisation de l’information géographique en Europe.
-
-Marc Leobet, chargé de mission à la Mission information géographique du ministère en charge du développement durable pose, dans cette présentation réalisée en 2013, le cadre de la Directive Inspire. Il présente tout d’abord l’utilité de cette Directive (identification des données, gestion de la confidentialité, des problèmes de conventionnement  et qualité des données), son contexte, les obligations qu’elle induit, le contexte autour de la réutilisation des données du secteur public et  l’application de la Directive inspire dans le domaine de la recherche. 
+Marc Leobet, chargé de mission à la Mission information géographique du ministère en charge du développement durable pose, dans cette présentation réalisée en 2013, le cadre de la Directive Inspire. Il présente tout d’abord l’utilité de cette Directive (identification des données, gestion de la confidentialité, les problèmes de conventionnement et la qualité des données), son contexte, les obligations qu’elle induit, le contexte autour de la réutilisation des données du secteur public et l’application de la Directive inspire dans le domaine de la recherche. 
 
 ```{admonition} [La Directive INSPIRE pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)  
 :class: seealso
@@ -389,6 +384,47 @@ Sylvie Cocaud (INRA)
 [Participer à l'organisation du management des données de la recherche](https://anfdonnees2017.sciencesconf.org/), gestion de contenu et documentation des données - 2017 Vandoeuvre-lès-Nancy   
 ```
 
+
+### Vers des entrepôts de données de confiance ou certifiés
+
+Dans le but de pouvoir etre pérennisées et réutilisées, les données ont intérêt à être déposées dans des entrepôts. 
+Déposer des données dans des entrepôts nécessite un certain nombre de prérequis pour assurer la qualité des données déposées : 
+- favoriser le dépôt des données dans des formats ouverts interopérables
+- avoir des données validées et présentant un code renseignant sur la qualité des données 
+- avoir des métadonnées descriptives bien renseignées et faisant partie d'un thesaurus identifié
+
+Il est également nécessaire de se préoccuper de la qualité des entrepôts que l'on va choisir et utiliser pour déposer les données.
+Pour être dignes de confiance, les entrepôts doivent également répondre à certains prérequis et spécifications qui, si besoin, peuvent amener à une certification.
+
+Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle  nous rappelle que : _"rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"_
+
+
+```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"    
+:class: seealso    
+[vidéo :](https://sist20.sciencesconf.org/resource/page/id/5)    
+Aude Chambodut    
+[Séminaires SIST20](https://sist20.sciencesconf.org/)   
+```
+
+
+CoreTrustSeal est un organisme communautaire sans but lucratif qui promeut le développement d'infrastructures de données durables et fiables et spécifie _les critères de conformité qui peuvent certifier un entrepôt_
+
+La [Research Data Alliance](https://www.rd-alliance.org/) recommande les critères de conformités de Core trust Seal, qui spécifient un entrepôt de confiance : <https://www.rd-alliance.org/coretrustseal-criteres-de-conformite>
+* [Entrepôts de données de confiance: critères de conformité](https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf)
+
+S'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes TRUST (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
+
+- Transparence :	La transparence signifie que la gestion de l'entrepôt doit etre vérifiable par des preuves accessibles au public.
+- Responsabilité :	La responsabilité implique de fournir toutes les garanties d'intégrité des données, de fiabilité et de pérennité de l'entrepot
+- Utilisateur orienté :	implique de veiller aux attentes des utilisateurs en matière de dépot de données
+- Durabilité : 	demande à ce que les collections de données soient préservées sur le long terme.
+- Technologie :	implique de fournir l’infrastructure et les capacités nécessaires pour obtenir des services sécurisés, pérennes et fiables.
+
+
+Les principes TRUST donnent aux utilisateurs l’assurance qu’ils bénéficient d’entrepôts sûrs avec des moyens durables. 
+
+
+
 ### Entrepôts en SHS 
 
 En sciences humaines et sociales, NAKALA est un service proposé par [l'infrastructure de Recherches "Huma-Num"](https://www.huma-num.fr/) pour déposer, documenter et diffuser les données de la recherche. Il permet de rendre les données interopérables et de diffuser très simplement, dans des publications électroniques, les données déposées dans NAKALA
@@ -402,41 +438,6 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 * [Un tutoriel pour deposer et documenter ses donnees dans nakala](https://doranum.fr/2017/06/22/tutoriel-deposer-et-documenter-ses-donnees-dans-nakala/) 
 * [Utilisation de nakala pour deposer et diffuser les donnees de larecherche](https://doranum.fr/2016/10/12/nakala-plate-forme-pour-deposer-documenter-et-diffuser-les-donnees-de-la-recherche/) 
 * [Pour découvrir pas à pas l'interface de NAKALA ainsi que les modalités de l'authentification](https://www.huma-num.fr/ressources/videos )
-
-
-### Vers des entrepôts de données de confiance ou certifiés
-
-Dans le but d'être dignes de confiance, accessibles et réutilisables, déposer des données dans des entrepôts institutionnels nécessite un certain nombre de prérequis pour afficher la rigueur de leur gestion : 
-- avoir des données validées et présentant un code  renseignant sur la qualité des données 
-- avoir des métadonnées descriptives bien renseignées et faisant partie d'un thesaurus identifié
-- si nécessaire certifier le centre de dépôt avec la certification "Core Trust Seal" par exemple
-
-Pour être dignes de confiance, les entrepôts doivent répondre à certains prérequis et spécifications qui, si besoin, peuvent amener à une certification.
-
-CoreTrustSeal est un organisme communautaire sans but lucratif qui promeut le développement d'infrastructures de données durables et fiables et spécifie _les critères de conformité qui peuvent certifier un entrepôt_
-
-La [Research Data Alliance](https://www.rd-alliance.org/) recommande les critères de conformités de Core trust Seal, qui spécifient un entrepôt de confiance : <https://www.rd-alliance.org/coretrustseal-criteres-de-conformite>
-* [Entrepôts de données de confiance: critères de conformité](https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf)
-
-Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté en quoi consiste l'intérêt d'une certification "Core Trust Seal" :
-
-```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"
-:class: seealso
-[vidéo :](https://sist20.sciencesconf.org/resource/page/id/5)
-Aude Chambodut
-[Séminaires SIST20](https://sist20.sciencesconf.org/)   
-```
-
-A ce sujet [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/) 
-nous rappelle que : _"rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"_
-
-A ce titre s'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes TRUST (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
-
-- Transparence :	La transparence signifie que la gestion doit etre vérifiable par des preuves accessibles au public.
-- Responsabilité :	La responsabilité implique de fournir toutes les fonctionnalités de fiabilité et de pérennité de l'entrepot
-- Utilisateur orienté :	implique de veiller aux attentes des utilisateurs en matière de dépot de données
-- Durabilité : 	Maintenir les services et préserver les collections de données à long terme.
-- Technologie :	implique de fournir l’infrastructure et les capacités nécessaires pour obtenir des services sécurisés, pérennes et fiables.
 
 
 ### Déposer/Publier dans des entrepôts institutionnels
