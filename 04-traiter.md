@@ -265,7 +265,7 @@ PB avec cette présentation :
 A deplacer dans collecter car c'est un retour d'expérience de l'utilisation d'un carnet de terrain ?  à jeter ? à mettre dnas ### Développer les procédures d'intégration des données dans les bases de données de ce chapitre ?
 ```{admonition} [Retour terrain : la délicate question de l’intégration des données](http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33)   
 :class: seealso
-Pierre-Yves Arnould, CNRS, OTELo   
+Pierre-Yves Arnould, OTELo   
 ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019, Sète.   
 ```
 [MCQ - fin] 
@@ -307,12 +307,14 @@ issues des instruments de mesures du réseau.
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
 [Séminaire SIST 2018 OVSQ ](https://sist18.sciencesconf.org/), Guyancourt.   
 ```
+[MCQ - debut] Dans cette présentation, les auteurs abordent la qualité des données sous l'angle utilisation de référentiels pour décrire finement les données et les rendre interopérables
 
 ```{admonition} [La qualité des données à l'OSU OREME](https://sist18.sciencesconf.org/data/pages/31_F_Fabre_O_Lobry_Qualite_des_donnees_de_l_OSU_OREME_.pdf)   
 :class: seealso
 Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'Environnement    
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
 ```
+[MCQ - fin] 
 
 Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/) permettent de qualifier les données et d'attribuer un code qualité a des données après analyse par un expert du domaine.
 ODV est un format de fichiers, et un logiciel utilisés par le projet européen [SeadataNet](https://www.seadatanet.org/Software/ODV). 
