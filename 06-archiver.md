@@ -11,7 +11,7 @@ Les notions de stockage, de sauvegarde et d'archivage ainsi que les actions de p
 
 ```{glossary}
 Stocker
-  C'est l'étape première qui consiste à déposer les données sur un support numérique. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme. Cette notion ne fait pas référence à la notion de sauvegarde sauf dans le cas où elle est associée au terme « sécurisé » (cf. sauvegarde).   
+  C'est l'étape première qui consiste à déposer les données sur un support numérique. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme.
 
 Sauvegarder
   La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde bit à bit (la recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte - vision à court terme -).
