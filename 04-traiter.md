@@ -222,8 +222,9 @@ Il est donc essentiel de s’assurer que l’ensemble des activités de recherch
 
 Le contrôle sur les équipements est le premier pas vers la traçabilité des données comme l'illustre l'exposé suivant :
 
-[MCQ - début ] j'aime bien ce passage page 6. L'auteur parle des équipements mais on pourrait totalement imaginé le même texte pour des collectes faits par des humains. je mettrai bien quelque chose comme cela en intro car pour moi la qualité des données, ce n'est pas seulement la répétivité que tu décris
+[MCQ - début ] j'aime bien ce passage page 6 qui explique pouquoi il faut faire de la qualité
 "Réaliser une mesure ne se limite pas à relever une valeur affichée par un appareil. Cette valeur peut être affectée par des erreurs de sources variées : Performances de l’équipement / Personnel/ Environnement / Consommables et réactifs / Méthode/mode opératoire"
+L'auteur parle des équipements mais on pourrait totalement imaginé le même texte pour des collectes faites par des humains. je mettrai bien quelque chose comme cela en intro car pour moi la qualité des données, ce n'est pas seulement la répétivité que tu décris
 [MCQ - fin]
 
 ```{admonition} [Traçabilité des données de la recherche. Confirmation métrologique des équipements](https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf)  
@@ -239,7 +240,7 @@ Le réseau rBDD a consacré un atelier à la qualité des données pour apporter
 * Faut-il automatiser le contrôle de la qualité dans les bases de données ?
 * Quels sont les outils disponibles et comment les utiliser ?
 
-Le programme de l'atelier s'appuie sur les travaux de [Laure Berti Equille](http://pageperso.lif.univ-mrs.fr/~laure.berti/) qui « classe les travaux autour de la problématique de la qualité des données selon quatres grands types d'approches complémentaires : prévenir / diagnostiquer / corriger /adapter ». Dans la première partie de la présentation, après avoir explicité les notions autour de la qualité des données, Christine Plumejeaud nous donne des bonnes pratiques comme celle d'attribuer un code standard (suivant une norme choisie et citée) décrivant l'état de la valeur. Elle cite comme exemple le standart [SDMX](https://sdmx.org/?page_id=3215), qui est une initiative internationale, utilisée entre autre par Eurostat et l'INSEE. Elle cite aussi les travaux faits par le Service d'Observation en Milieu Littoral (SOMLIT) qui a défini sa propre classification. Sa présentation se poursuit sur l'utilisation des contraintes SQL pour éviter l'insertion en base de données de valeurs incohérentes ou impossibles. Ces contraintes sont la transcription des régles de gestion définies lors de la modélisation de la base de données. Une fois la structure de la base de données définies, il reste une étape de nettoyage des données a réalisé avant l'intégration des données en base. Le réseau rBDD conseille pour cela le logiciel [OpenRefine](https://openrefine.org/) très simple à prendre en main mais très puissant.
+Le programme de l'atelier s'appuie sur les travaux de [Laure Berti Equille](http://pageperso.lif.univ-mrs.fr/~laure.berti/) qui « classe les travaux autour de la problématique de la qualité des données selon quatres grands types d'approches complémentaires : prévenir / diagnostiquer / corriger /  adapter ». Dans la première partie de la présentation, après avoir explicité les notions autour de la qualité des données, Christine Plumejeaud nous donne de bonnes pratiques comme celle d'attribuer un code standard (suivant une norme choisie et citée) décrivant l'état de la valeur. Elle cite comme exemple le standart [SDMX](https://sdmx.org/?page_id=3215), qui est une initiative internationale, utilisée entre autre par Eurostat et l'INSEE. Elle cite aussi les travaux faits par le Service d'Observation en Milieu Littoral [SOMLIT](https://www.somlit.fr/en/) qui a défini sa propre classification. Sa présentation se poursuit sur l'utilisation de contraintes SQL pour éviter l'insertion en base de données de valeurs incohérentes ou impossibles. Ces contraintes sont la transcription des régles de gestion définies lors de la modélisation de la base de données. Une fois la structure de la base de données définie, il reste une étape, celle du nettoyage des données, a réalisé avant l'intégration des données en base. Le réseau rBDD conseille pour cela le logiciel [OpenRefine](https://openrefine.org/) très simple à prendre en main mais très puissant.
 
 ```{admonition} [Qualité des données](http://rbdd.cnrs.fr/IMG/pdf/qualite_des_donnees_plumejeaud_2018_04112018.pdf?517/365a13edab604bd0700b045bfac29a3607acb649)   
 :class: seealso
@@ -252,7 +253,7 @@ ANF « Sciences des données : un nouveau challenge pour les métiers liés aux 
 Mathieu SABY, BU Université de Nice Sophia-Antipolis  
 ```
 
-Dans cette intervention, Chrsitine Plumejeaud se place dans le cadre de l'utilisation d'outils nomades qui envoient directement les données collectées sur tablette dans un schéma d’une base de données PostgreSQL. La problèmatique est sensiblement différente : sur le terrain, il est communément recommandé de laisser la saisie la plus libre possible pour permettre une prise en compte des aléas plus faciles, la détection des choses non conformes aux régles métier sont donc à traiter après coup. 
+Dans cette intervention, Christine Plumejeaud se place dans le cadre de l'utilisation d'outils nomades qui envoient directement les données collectées sur tablette dans une base de données. La problèmatique est sensiblement différente. Partant du principe que sur le terrain, il est communément recommandé de laisser la saisie la plus libre possible pour permettre une prise en compte des aléas plus faciles, la détection des choses non conformes aux régles métier est à traiter a posteriori. 
 
 ```{admonition} [Outils nomades : validation des données](http://rbdd.cnrs.fr/IMG/pdf/anf_rbbd_2019_outils_mobiles_tp_qualite.pdf?573/e1425561fd10c6bd1dd92fdee22871bc427f9873)   
 :class: seealso
@@ -260,12 +261,14 @@ Christine Plumejeaud-Perreau, CNRS, U.M.R 7266 LIENSs, la Rochelle
 ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019   
 ```
 
-A deplacer dans collecter ou a jeter
+PB avec cette présentation : 
+A deplacer dans collecter car c'est un retour d'expérience de l'utilisation d'un carnet de terrain ?  à jeter ? à mettre dnas ### Développer les procédures d'intégration des données dans les bases de données de ce chapitre ?
 ```{admonition} [Retour terrain : la délicate question de l’intégration des données](http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33)   
 :class: seealso
 Pierre-Yves Arnould, CNRS, OTELo   
 ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019, Sète.   
 ```
+[MCQ - fin] 
 
 En sciences environnementales, la qualification des données est importante pour estimer un degré de qualité de la donnée. On utilise pour cela des codes qui renseignent sur la qualité de la donnée : bonne, mauvaise, manquante, modifiée etc... Dans ce domaine bien souvent chacun utilise une codification personnelle, cependant une standardisation des codes qualité est bienvenue.
 
