@@ -219,21 +219,17 @@ Il faut aussi noter que dans le domaine de la bio-informatique, des identifiants
 
 ### Les DOI : "Digital Object Identification"
 
-Les D.O.I (Digital Object Identification) permettent de citer les données de manière univoque et que
-l'on puisse les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité, et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
+Les D.O.I (Digital Object Identification) permettent de citer les données de manière univoque afin de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
 
-L'obtention de D.O.I se fait auprès de [l'organisme international "Datacite"](https://doi.datacite.org/) ou bien tout partenaire contractualisé avec Datacite comme l'INIST du CNRS. Il implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "*landing page*") qui permet de fournir les métadonnées principales pour décrire les données et d'y accéder.
+L'obtention de D.O.I se fait auprès de [l'organisme international "Datacite"](https://doi.datacite.org/) ou bien tout partenaire contractualisé avec Datacite comme l'INIST du CNRS. Il implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "landing page") qui permet de fournir les métadonnées principales pour décrire les données et d'y accéder.
 
-Pour créer une "landing page", page d'accueil pour décrire un jeu de données, il faut s'assurer que certaines métadonnées obligatoires sont bien mentionnées et renseignées pour permettre une recherche .
-- Le site Datacite rappelle quelles sont les métadonnées obligatoires : <https://support.datacite.org/docs/schema-mandatory-properties-v43>
+Pour créer une "landing page", page d'accueil pour décrire un jeu de données, il faut s'assurer que certaines métadonnées obligatoires sont bien mentionnées et renseignées pour permettre une recherche. Le site Datacite rappelle quelles sont les métadonnées obligatoires : <https://support.datacite.org/docs/schema-mandatory-properties-v43>. Pour en savoir plus sur les identifiants pérennes, on peut consulter la page de Doranum <https://doranum.fr/identifiants-perennes-pid/>
 
-Pour en savoir plus sur les identifiants pérennes, on peut consulter la page de Doranum <https://doranum.fr/identifiants-perennes-pid/>
-
-Attention la pérennité est purement une question de service et n'est pas inhérente à un objet, ni conféré par une syntaxe de nommage particulier.  La pérennité du lien vers la localisation de la ressource est de la responsabilité du déposant ou du créateur de l'identifiant.
+Attention la pérennité est purement une question de service et n'est pas inhérente à un objet, ni conféré par une syntaxe de nommage particulier. La pérennité du lien vers la localisation de la ressource est de la responsabilité du déposant ou du créateur de l'identifiant.
 
 **Pourquoi citer les données ?**
 
-Herbert Gruttemeier illustre ses propos par des exemples de jeux de données exposés et cités dans différents entrepôts. Il présente la position « officielle » des éditeurs sur l’accès aux données de la recherche  et s’attarde sur le type de données et de ressources concernées par l’attribution de DOI. 
+Herbert Gruttemeier illustre ses propos par des exemples de jeux de données exposés et cités dans différents entrepôts. Il présente la position « officielle » des éditeurs sur l’accès aux données de la recherche et s’attarde sur le type de données et de ressources concernées par l’attribution de DOI. 
 
 Data Cite propose un certain nombre de services (création de différents formats de citation pour les DOI, exposition des métadonnées, schéma de métadonnées DataCite et un environnement de test) que l’auteur détaille. Il est question aussi de « Data Citation Index » et de métrique, de l’importance d’accéder à la découverte des données (principe de moissonnage des 
 métadonnées DataCite), des partenariats avec ORCID, OPENAIR, CODATA, FORCE 11, RDA …
@@ -244,12 +240,9 @@ Herbert Gruttemeier, INIST/ CNRS
 Frédocs2013 - Gestion et valorisation des données de la recherche -  7 au 10 octobre 2013, Aussois   
 ```
 
-Cette présentation est consacrée au service proposé par DataCite. Herbert Gruttemeier explique pour commencer ce qu’est un DOI (dentifiant  persistant qui permet la citation et fournit un lien stable vers des ressources numériques,  comme les données de la recherche) et le principe de citation, pourquoi utiliser un DOI,  comment le DOI s’inscrit dans le système Handle. 
+Cette présentation est consacrée au service proposé par DataCite. Herbert Gruttemeier explique pour commencer ce qu’est un DOI, le principe de citation, pourquoi utiliser un DOI,  comment le DOI s’inscrit dans le système Handle. Il aborde la question de la qualité des DOI qui nécessite la mise en place d’une politique institutionnelle. La suite de son exposé est consacrée à la présentation de  DataCite, Consortium international porté par des institutions locales, créé officiellement à Londres en décembre 2009. Il présente les 26 membres, la structure, les différents rôles qui lui sont assignés (agence d’attribution de DOI et agence de donnée). 
 
-Il aborde la question de la qualité des DOI qui nécessite la mise en place d’une politique institutionnelle. La suite de son exposé est consacrée à la présentation de  DataCite, Consortium international porté par des institutions locales, créé officiellement à Londres en décembre 2009. 
-Il présente les 26 membres, la structure, les différents rôles qui lui sont assignés (agence d’attribution de DOI et agence de donnée). 
-
-Pour en savoir plus sur le DOI de DataCite  
+Pour en savoir plus sur le DOI de DataCite :  
 
 ```{admonition} [DOI de DataCite : Système d'identification pour valoriser les données de la recherche,](https://seminaire.inrae.fr/data/content/download/3449/36374/version/1/file/03+Yahia+doi+datacite.pdf)  
 :class: seealso
@@ -264,7 +257,7 @@ Mohamed Salah Yahia, Institut de l'information scientifique et technique du CNRS
 
 ### Comment obtenir des DOI ?
 
-Une unité CNRS a la possibilité de souscrire un contrat avec l'INIST du CNRS pour être détenteur d'un préfixe de DOI qui servira à construire et déposer un DOI 
+Une unité CNRS a la possibilité de souscrire un contrat avec l'INIST du CNRS pour être détenteur d'un préfixe de DOI qui servira à construire et déposer un DOI. 
 
 ```{admonition} [Workflow d’attribution de DOI par l’Inist-CNRS](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
 :class: seealso
@@ -272,10 +265,9 @@ Mohamed Salah Yahia
 [Séminaire SIST16 OSU Oreme Montpellier](http://sist16.sciencesconf.org)
 ```
 
-Par ailleurs certaines infrastructures proposent un service de fourniture de DOI comme le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit des D.O.I pour les données *marines* sur le site Seanoe <https://www.seanoe.org/>.
+Par ailleurs, certaines infrastructures proposent un service de fourniture de DOI comme le [pôle de données Odatis](https://www.odatis-ocean.fr/) qui fournit des D.O.I pour les données *marines* sur le site Seanoe <https://www.seanoe.org/>.
 
-Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork que nous avons vu précédemment pour élaborer des catalogues de jeux de données.
-Dans cette présentation Annick Battais indique comment assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
+Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
 ```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist19.sciencesconf.org/data/pages/SIST19\_A\_BATTAIS.pdf)  
 :class: seealso
@@ -285,8 +277,7 @@ Annick Battais
 
 ### Retour d'expériences d'utilisation de DOI:
 
-Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l'INIST du CNRS
-qui en tant que membre de DataCite peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.
+Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l'INIST du CNRS qui, en tant que membre de DataCite, peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.
 
 ```{admonition} [Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](https://sist16.sciencesconf.org/data/pages/16_P_Techine.pdf)    
 :class: seealso
@@ -300,7 +291,7 @@ Philippe Téchiné, Laboratoire d'études en Géophysique et océanographie spat
 [Journée SIST18 OVSQ](https://sist18.sciencesconf.org/)
 ```
 
-Juliette Fabre et Olivier Lobry nous indiquent leur solution pour attribuer des DOI aux jeux de données du Service National d'Observation  "Karst"  
+Juliette Fabre et Olivier Lobry nous indiquent leur solution pour attribuer des DOI aux jeux de données du Service National d'Observation  "Karst".  
 
 ```{admonition} [Retour d'expérience sur l'attribution de DOI à l'OSU OREME.](https://sist16.sciencesconf.org/data/pages/17_O_Lobry.pdf)  
 :class: seealso
@@ -309,7 +300,7 @@ Juliette Fabre, OSU OREME - Olivier Lobry, OSU OREME
 ```
 
 * Établissement de DOI sur des requêtes dynamiques sur des Bases de données
-Dans l’atelier traçabilité organisé par RBDD en novembre 2018, MC Quidoz avait traité  la possibilité de mettre un identifiant pérenne sur une requête SQL vers une base de données, pour la rejouer. C’est d'ailleurs une des recommandations de RDA https://www.rd-alliance.org/system/files/RDA-DC-Recommendations_151020.pdf 
+Dans l’atelier traçabilité organisé par RBDD en novembre 2018, MC Quidoz avait traité la possibilité de mettre un identifiant pérenne sur une requête SQL vers une base de données, pour la rejouer. C’est d'ailleurs une des recommandations de RDA https://www.rd-alliance.org/system/files/RDA-DC-Recommendations_151020.pdf 
 
 ```{admonition} [identifiant pérenne sur une requête SQL vers une base de données](http://rbdd.cnrs.fr/IMG/pdf/atelier_tracabilite.pdf?523/29abaadfb5e2e0fff8aed53afd88d7aad1ded34f)
 :class: seealso
@@ -325,24 +316,15 @@ Sophie Pamerlon (Système mondial d’information sur la biodiversité - Global 
 RBDD
 ```
 
-
 ## Les entrepôts de données
 
-Dans un contexte de sciences ouvertes, les acteurs de la recherche s'accordent aujourd'hui pour considérer les données de la recherche comme des produits de la recherche et appellent à mieux les gérer et à les partager. En France, la loi CADA modifiée par la loi Valter le 28 décembre 2012 incite à mettre les données de la recherche à disposition sous format ouvert et librement réutilisable. 
+Dans un contexte de science ouverte, les acteurs de la recherche s'accordent aujourd'hui pour considérer les données de la recherche comme des produits de la recherche et appellent à mieux les gérer et à les partager. En France, la loi CADA modifiée par la loi Valter le 28 décembre 2012, incite à mettre les données de la recherche à disposition sous format ouvert et librement réutilisable. 
 
-Les enjeux liés à la gestion et au partage des données de la recherche nécessitent des outils appropriés communément appelés _"Entrepôts de données"_
+Les enjeux liés à la gestion et au partage des données de la recherche nécessitent des outils appropriés communément appelés "Entrepôts de données". Mais qu'est-ce qu'un entrepôt de données et quelles en sont les principales caractéristiques ? Comment les entrepôts de données contribuent-ils à la gestion et au partage des données ? 
 
-Mais qu'est-ce qu'un entrepôt de données et quelles en sont les principales caractéristiques ? Comment les entrepôts de données contribuent-ils à la gestion et au partage des données? 
+Le partage des données et des connaissances, mais également le partage des logiciels, des méthodes et des processus n’ont de réel bénéfice que s'ils sont accompagnés en amont par une gestion rigoureuse et de qualité des données, basé sur des principes clairs et consensuels.
 
-Le partage des données et des connaissances, mais également le partage des logiciels, des méthodes et des processus n’ont de réel bénéfice que s'il est accompagné en amont par une gestion rigoureuse et de qualité des données, basé sur des principes clairs et consensuels.
-
-Qu'est-ce qui différencie un entrepôt de données d'une base de données classique dans le contexte de l'ouverture des données ? Quels
-services peut-on attendre d'un entrepôt de données aux différentes étapes du cycle de vie de la donnée? Comment trouver et choisir
-un entrepôt de données ?
-
-Un certain nombre de ces questions relatives aux entrepôts ont été abordées lors d'une [journée de type Hackaton intitulée "entrepôts de données, comment améliorer le dépôt et le partage des données de la recherche ?"](https://gt-donnees2020.sciencesconf.org/)
-
-Cette journée consacrée aux entrepôts de données a permis de cerner les fonctionnalités que l'on se doit d'attendre d'un entrepôt de données FAIR et les conditions d’utilisation de ce type de service. 
+Qu'est-ce qui différencie un entrepôt de données d'une base de données classique dans le contexte de l'ouverture des données ? Quels services peut-on attendre d'un entrepôt de données aux différentes étapes du cycle de vie de la donnée? Comment trouver et choisir un entrepôt de données ? Un certain nombre de ces questions relatives aux entrepôts ont été abordées lors d'une [journée de type Hackaton intitulée "entrepôts de données, comment améliorer le dépôt et le partage des données de la recherche ?"](https://gt-donnees2020.sciencesconf.org/). Cette journée consacrée aux entrepôts de données a permis de cerner les fonctionnalités que l'on se doit d'attendre d'un entrepôt de données FAIR et les conditions d’utilisation de ce type de service. 
 
 Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la synthèse des échanges qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ?" ». Elle est enrichie régulièrement des discussions sur la liste “données”.
 * <https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html>
@@ -361,7 +343,7 @@ Laurent PELLETIER, INIST
 ANF rBDD du 5 au 7 novembre 2018 à Sète
 ```
 
-Dans cette présentation complète Jean-Christophe Desconnets passe en revue les rôles, les fonctionnalités et les domaines d'utilisation des entrepôts de données :
+Dans cette présentation complète, Jean-Christophe Desconnets passe en revue les rôles, les fonctionnalités et les domaines d'utilisation des entrepôts de données :
 
 ```{admonition} [Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  ](https://sist20.sciencesconf.org/data/pages/SIST20_entrepot_de_donnees_Desconnets.pdf)      
 :class: seealso
@@ -381,19 +363,18 @@ Sylvie Cocaud (INRA)
 [Participer à l'organisation du management des données de la recherche](https://anfdonnees2017.sciencesconf.org/), gestion de contenu et documentation des données - 2017 Vandoeuvre-lès-Nancy   
 ```
 
-
 ### Vers des entrepôts de données de confiance ou certifiés
 
 Dans le but de pouvoir etre pérennisées et réutilisées, les données ont intérêt à être déposées dans des entrepôts. 
 Déposer des données dans des entrepôts nécessite un certain nombre de prérequis pour assurer la qualité des données déposées : 
-- favoriser le dépôt des données dans des formats ouverts interopérables
-- avoir des données validées et présentant un code renseignant sur la qualité des données 
-- avoir des métadonnées descriptives bien renseignées et faisant partie d'un thesaurus identifié
+- favoriser le dépôt des données dans des formats ouverts interopérables,
+- avoir des données validées et présentant un code renseignant sur la qualité des données, 
+- avoir des métadonnées descriptives bien renseignées et faisant partie d'un thesaurus identifié.
 
-Il est également nécessaire de se préoccuper de la qualité des entrepôts que l'on va choisir et utiliser pour déposer les données.
+Il est également nécessaire de se préoccuper de la qualité des entrepôts que l'on va choisir pour y déposer les données.
 Pour être dignes de confiance, les entrepôts doivent également répondre à certains prérequis et spécifications qui, si besoin, peuvent amener à une certification.
 
-Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle  nous rappelle que : _"rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté"_
+Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle nous rappelle que : "rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté".
 
 
 ```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"    
@@ -403,30 +384,27 @@ Aude Chambodut
 [Séminaires SIST20](https://sist20.sciencesconf.org/)   
 ```
 
+CoreTrustSeal est un organisme communautaire sans but lucratif qui promeut le développement d'infrastructures de données durables et fiables et spécifie les critères de conformité qui permettent de certifier un entrepôt.
 
-CoreTrustSeal est un organisme communautaire sans but lucratif qui promeut le développement d'infrastructures de données durables et fiables et spécifie _les critères de conformité qui peuvent certifier un entrepôt_
-
-La [Research Data Alliance](https://www.rd-alliance.org/) recommande les critères de conformités de Core trust Seal, qui spécifient un entrepôt de confiance : <https://www.rd-alliance.org/coretrustseal-criteres-de-conformite>
+La [Research Data Alliance](https://www.rd-alliance.org/) recommande les critères de conformité de Core trust Seal, qui spécifient un entrepôt de confiance : <https://www.rd-alliance.org/coretrustseal-criteres-de-conformite>
 * [Entrepôts de données de confiance: critères de conformité](https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf)
 
-S'ils ne sont pas certifiés, les entrepôts de confiance devraient a minima respecter les 5 principes TRUST (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).)
+S'ils ne sont pas certifiés, les entrepôts de confiance devraient, a minima, respecter les 5 principes TRUST : transparence (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology).
 
 - Transparence :	La transparence signifie que la gestion de l'entrepôt doit etre vérifiable par des preuves accessibles au public.
-- Responsabilité :	La responsabilité implique de fournir toutes les garanties d'intégrité des données, de fiabilité et de pérennité de l'entrepot
-- Utilisateur orienté :	implique de veiller aux attentes des utilisateurs en matière de dépot de données
+- Responsabilité :	La responsabilité implique de fournir toutes les garanties d'intégrité des données, de fiabilité et de pérennité de l'entrepot.
+- Orienté utilisateur :	implique de veiller aux attentes des utilisateurs en matière de dépot de données.
 - Durabilité : 	demande à ce que les collections de données soient préservées sur le long terme.
 - Technologie :	implique de fournir l’infrastructure et les capacités nécessaires pour obtenir des services sécurisés, pérennes et fiables.
-
 
 Les principes TRUST donnent aux utilisateurs l’assurance qu’ils bénéficient d’entrepôts sûrs avec des moyens durables. 
 
 
-
 ### Entrepôts en SHS 
 
-En sciences humaines et sociales, NAKALA est un service proposé par [l'infrastructure de Recherches "Huma-Num"](https://www.huma-num.fr/) pour déposer, documenter et diffuser les données de la recherche. Il permet de rendre les données interopérables et de diffuser très simplement, dans des publications électroniques, les données déposées dans NAKALA
+En sciences humaines et sociales, NAKALA est un service proposé par [l'infrastructure de Recherches "Huma-Num"](https://www.huma-num.fr/) pour déposer, documenter et diffuser les données de la recherche. Il permet de rendre les données interopérables et de diffuser très simplement, dans des publications électroniques, les données déposées dans NAKALA.
 
-L'entrepôt de données de recherche NAKALA, est destiné à accueillir, conserver et rendre visible et accessible les données de recherche selon les principes FAIR. Il permet d’enregistrer des données numériques de tout type (fichiers texte, son, images, vidéo), de les décrire en vue de les exposer et les rendre réutilisables et citables. Ainsi le dépôt de données dans NAKALA va offrir des services sur plusieurs étapes du cycle de vie de vos données, sur la préservation, la publication et la réutilisation. Le service NAKALA offre deux niveaux de préservation :
+L'entrepôt de données de recherche NAKALA, est destiné à accueillir, conserver et rendre visibles et accessibles les données de recherche selon les principes FAIR. Il permet d’enregistrer des données numériques de tout type (fichiers texte, son, images, vidéo), de les décrire en vue de les exposer et les rendre réutilisables et citables. Ainsi le dépôt de données dans NAKALA va offrir des services sur plusieurs étapes du cycle de vie de vos données, sur la préservation, la publication et la réutilisation. Le service NAKALA offre deux niveaux de préservation :
 - Un niveau par défaut qui est mis en pratique dès lors qu’une donnée est enregistrée dans NAKALA. La donnée est décrite, contextualisée et stockée de manière sécurisée. Au titre de la préservation, déposer et décrire ses données dans NAKALA apporte la garantie d’une conservation des données dans un environnement sécurisé. Accompagnée d’une description, elle apporte aussi une conservation au niveau intellectuel garantissant sa compréhension à long terme.
 - Les données peuvent être organisées et regroupées dans des collections qui elles mêmes peuvent être décrites et identifiables. Le projet NAKALA_Press permet de présenter de façon personnalisable vos collections en complément des pages de recherche et de consultation disponibles directement dans NAKALA.
 
@@ -441,9 +419,7 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 
 **Déposer dans des Entrepôts.. lesquels? comment?**
 
-Il existe beaucoup d'entrepôts de données, de nature et de qualité différentes. Certains sont des entrepôts Institutionnels (Portail Data INRAE, DataSuds, Didomena, … ), d'autres sont thématiques (PANGAEA pour les données environnementales, SEANOE spécifique aux données marines …) ou généralistes (Dryad, Zenodo, …) 
-
-Pour aider à trouver et à choisir un entrepôt, des catalogues sont disponibles : <https://cat.opidor.fr/>, <https://www.re3data.org/> et <https://fairsharing.org/databases/>. Des entrepôts spécifiques peuvent être suggérés (ou imposés) par le journal dans lequel on dépose un article, mais aussi par le financeur, le consortium du projet ou l’institution dans laquelle on travaille. Il est conseillé de vérifier si l'établissement dans lequel on travaille a mis en place une politique de partage de données et de s'y référer pour éviter la dispersion des données tous azimuts.
+Il existe beaucoup d'entrepôts de données, de nature et de qualité différentes. Certains sont des entrepôts Institutionnels (Portail Data INRAE, DataSuds, Didomena, … ), d'autres sont thématiques (PANGAEA pour les données environnementales, SEANOE spécifique aux données marines …) ou généralistes (Dryad, Zenodo, …). Pour aider à trouver et à choisir un entrepôt, des catalogues sont disponibles : <https://cat.opidor.fr/>, <https://www.re3data.org/> et <https://fairsharing.org/databases/>. Des entrepôts spécifiques peuvent être suggérés (ou imposés) par le journal dans lequel on dépose un article, mais aussi par le financeur, le consortium du projet ou l’institution dans laquelle on travaille. Il est conseillé de vérifier si l'établissement dans lequel on travaille a mis en place une politique de partage de données et de s'y référer pour éviter la dispersion des données tous azimuts.
 
 
 ### Les Infrastructures de Recherche nationales
@@ -455,18 +431,18 @@ Le [ministère  de l'Enseignement supérieur, de la Recherche et de l'Innovation
 Le data paper est un article scientifique sur les données : il permet de décrire un jeu de données de recherche (data, dataset), à l’aide d’informations plus précises et détaillées que celles qu'on peut trouver dans un "plan de gestion de données" (DMP), notamment en insistant sur :
 
 - Les aspects méthodologiques,
-- la qualité des données et de leur méthode de collecte et de traitement.
-- l’originalité et la portée de ce jeu de données, ainsi que leur potentiel pour des utilisations futures (arguments décisifs pour l'acceptation de la publication).
+- la qualité des données et de leur méthode de collecte et de traitement,
+- l’originalité et la portée de ce jeu de données, ainsi que leur potentiel pour des utilisations futures (arguments décisifs pour l'acceptation de la publication),
 - l'accès au jeu de données, dans un fichier attaché ou par un lien pérenne (URL, DOI) vers un entrepôt où le jeu est déposé et accessible.
 
 Publier un data paper permet de :
 
-- valoriser les données 
-- faciliter leur réutilisation 
-- leur apporter de la visibilité
+- valoriser les données, 
+- faciliter leur réutilisation, 
+- leur apporter de la visibilité,
 - les rendre plus facilement repérables et citables; le data paper étant une publication citable, au même titre que tout article scientifique, il met en valeur ses auteurs en tant que créateur de données et permet la traçabilité des citations et des réutilisations.
 
-Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers.  Des listes de revues publiant des data papers sont disponibles sur :
+Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers. Des listes de revues publiant des data papers sont disponibles sur :*******************
 
 Après avoir expliqué pourquoi le GBIF et l’éditeur de revues PENSOFT ont proposé le concept de data paper, Sophie Pamerlon en explique les avantages et à travers quelques exemples concrets comment les outils du GBIF facilitent la rédaction d'un datapaper en biodiversité.
 
