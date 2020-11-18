@@ -277,7 +277,7 @@ L'infrastructure de données européenne Seadatanet utilise par exemple une [tab
 
 On retrouve de nombreuses méthodes dans le milieu environnemental pour essayer de qualifier les données, illustrées par les exposés suivants donnés lors des journées de séminaires SIST (Séries Interopérables et Systèmes de Traitement) du réseau technologique des informaticiens et gestionnaires de données des observatoires :
 
-P. Téchiné présente les méthodes de suivi de la qualité de diverses mesures comme le niveau de la mer ou la salinité de surface (SSS: Sea Surface Salinity ) dans différents projets. ON peut constater la diversité des solutions en mises en place :
+P. Téchiné présente les méthodes de suivi de la qualité de diverses mesures comme le niveau de la mer ou la salinité de surface (SSS: Sea Surface Salinity ) dans différents projets. On peut constater la diversité des solutions en mises en place.
 
 ```{admonition} [Suivi de la qualité des mesures de réseaux d'observation océanographique](https://sist16.sciencesconf.org/data/pages/09_P_Techine.pdf)   
 :class: seealso
@@ -285,6 +285,7 @@ Philippe Téchiné, B. Buisson, L. Testut, T. Delcroix, G. Alory, Laboratoire d'
 [Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)   
 ```
 
+[MCQ - debut] je me demande si ca n'irait pas plus dans la partie ## Organiser les données
 Dans son projet A. Campos utilise un ensemble de Script en python pour convertir les fichiers "xls" en fichier ascii, puis effectue un nettoyage avec la commande "awk" de Unix. Enfin des scripts en langage "R" permet de faire des moyennes glissantes, des graphes et des exports des fichiers au formt Netcdf
 
 ```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
@@ -292,6 +293,7 @@ Dans son projet A. Campos utilise un ensemble de Script en python pour convertir
 André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques   
 [SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
 ```
+[MCQ - fin] 
 
 Dans cette présentation Lynn Hazan décrit son processus d'atribution de code qualité.
 Comme nous l'avons indiqué précédemment dans la phase de traitement, Les données sont obtenues en temps quasi-réel et sont transformées en données consolidées par un traitement qui permet d’en augmenter la précision et la confiance.
