@@ -232,11 +232,19 @@ Virginie JAN LOGASSI, Université de Lorraine
 [Rencontres du réseau Qualité en Recherche, 2019](https://qualsimp.sciencesconf.org/), Nancy.
 ```
 
-Plusieurs présentations et ateliers sur ce thème ont eu lieu lors de l'ANF "[Sciences des données : un nouveau challenge pour les métiers liés aux bases de données](http://rbdd.cnrs.fr/spip.php?article288)" en 2018 à Sète. En particulier l'Atelier qualité des données dont les travaux portaient sur les questions suivantes :
+[MCQ - debut] 
+Le réseau rBDD a consacré un atelier à la qualité des données pour apporter des éclairages sur les questions suivantes :
+* Quelles sont les différentes notions de qualité des données ?
+* Comment contrôler la qualité des données dans la BDD : avant ou pendant l’insertion de données
+* Faut-il automatiser le contrôle de la qualité dans les bases de données ?
+* Quels sont les outils disponibles et comment les utiliser ?
 
-```{admonition} [Une explicitation des notions autour de la qualité des données](http://rbdd.cnrs.fr/IMG/pdf/qualite_des_donnees_plumejeaud_2018_04112018.pdf?517/365a13edab604bd0700b045bfac29a3607acb649)   
+Le programme de l'atelier s'appuie sur les travaux de [Laure Berti Equille](http://pageperso.lif.univ-mrs.fr/~laure.berti/) qui « classe les travaux autour de la problématique de la qualité des données selon quatres grands types d'approches complémentaires : prévenir / diagnostiquer / corriger /adapter ». Dans la première partie de la présentation, après avoir explicité les notions autour de la qualité des données, Christine Plumejeaud nous donne des bonnes pratiques comme celle d'attribuer un code standard (suivant une norme choisie et citée) décrivant l'état de la valeur. Elle cite comme exemple le standart [SDMX](https://sdmx.org/?page_id=3215), qui est une initiative internationale, utilisée entre autre par Eurostat et l'INSEE. Elle cite aussi les travaux faits par le Service d'Observation en Milieu Littoral (SOMLIT) qui a défini sa propre classification. Sa présentation se poursuit sur l'utilisation des contraintes SQL pour éviter l'insertion en base de données de valeurs incohérentes ou impossibles. Ces contraintes sont la transcription des régles de gestion définies lors de la modélisation de la base de données. Une fois la structure de la base de données définies, il reste une étape de nettoyage des données a réalisé avant l'intégration des données en base. Le réseau rBDD conseille pour cela le logiciel [OpenRefine](https://openrefine.org/) très simple à prendre en main mais très puissant.
+
+```{admonition} [Qualité des données](http://rbdd.cnrs.fr/IMG/pdf/qualite_des_donnees_plumejeaud_2018_04112018.pdf?517/365a13edab604bd0700b045bfac29a3607acb649)   
 :class: seealso
-Christine Plumejeaud, Nadine Mandran   
+Christine Plumejeaud, LIENSs & Nadine Mandran, LIG
+ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données », réseau rBDD, Sète, 2018
 ```
 
 ```{admonition} [Une présentation autour de l'outil OpenRefine de nettoyage et mise en forme des données.](http://rbdd.cnrs.fr/IMG/pdf/openrefinecours.pdf?518/a69ce451abd02003a0e96957e39828e0f2e9f2ee)   
@@ -244,7 +252,7 @@ Christine Plumejeaud, Nadine Mandran
 Mathieu SABY, BU Université de Nice Sophia-Antipolis  
 ```
 
-D'autres interventions concernant la validation des données de terrain, et leur intégration apportent un point de vue différent :
+Dans cette intervention, Chrsitine Plumejeaud se place dans le cadre de l'utilisation d'outils nomades qui envoient directement les données collectées sur tablette dans un schéma d’une base de données PostgreSQL. La problèmatique est sensiblement différente : sur le terrain, il est communément recommandé de laisser la saisie la plus libre possible pour permettre une prise en compte des aléas plus faciles, la détection des choses non conformes aux régles métier sont donc à traiter après coup. 
 
 ```{admonition} [Outils nomades : validation des données](http://rbdd.cnrs.fr/IMG/pdf/anf_rbbd_2019_outils_mobiles_tp_qualite.pdf?573/e1425561fd10c6bd1dd92fdee22871bc427f9873)   
 :class: seealso
@@ -252,6 +260,7 @@ Christine Plumejeaud-Perreau, CNRS, U.M.R 7266 LIENSs, la Rochelle
 ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019   
 ```
 
+A deplacer dans collecter ou a jeter
 ```{admonition} [Retour terrain : la délicate question de l’intégration des données](http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33)   
 :class: seealso
 Pierre-Yves Arnould, CNRS, OTELo   
