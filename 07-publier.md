@@ -77,7 +77,7 @@ A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mett
  - <http://portail.indigeo.fr/geonetwork>
  - <https://dataset.osupytheas.fr/geonetwork>
 
-B. Debray nous présente le projet DataOSU à l'Observatoire de Besançon destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php).
+B. Debray nous présente le projet DataOSU à l'Observatoire de Besançon destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php). Iil décrit toute l'organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à élaborer l'interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF
 
 
 ```{admonition} [Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf)   
