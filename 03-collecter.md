@@ -154,7 +154,7 @@ L'AEI traite de manière privilégiée les aspects de mesure et de méthodologie
 
 Pour la gestion des capteurs, l'[OGC (Open Geospatial Consortium)](https://www.ogc.org/standards) cité précédemment, publie un standard d’interopérabilité, [Sensor Web Enablement (SWE)](http://docs.opengeospatial.org/wp/07-165r1/), qui permet de présenter des données de capteurs de manière standardisée et interopérable. Ce protocole et les logiciels qui les implémentent sont bien adaptés à la description des capteurs et à la gestion des séries temporelles.
 
-Le protocole "SOS" (Sensor observation service) de l'OGC permet de présenter de manière standardisée les données issues de capteurs de terrain de manière interopérable. Ce standard définit une interface de service Web qui permet d'interroger les observations, les métadonnées des capteurs, ainsi que les représentations des caractéristiques observées. En outre, cette norme définit les moyens d'enregistrer de nouveaux capteurs et de supprimer les capteurs existants. Elle définit également les opérations permettant d'insérer de nouvelles observations de capteurs. 
+Le protocole "[SOS" (Sensor observation service) de l'OGC](https://www.ogc.org/standards/sos) permet de présenter de manière standardisée les données issues de capteurs de terrain de manière interopérable. Ce standard définit une interface de service Web qui permet d'interroger les observations, les métadonnées des capteurs, ainsi que les représentations des caractéristiques observées. En outre, cette norme définit les moyens d'enregistrer de nouveaux capteurs et de supprimer les capteurs existants. Elle définit également les opérations permettant d'insérer de nouvelles observations de capteurs. 
 
 ```{admonition} [Sensor Web Enablement Standards & Technology](<https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk>)   
 :class: seealso
@@ -322,6 +322,7 @@ Réseau Zones Ateliers, Montpellier, 2018
 [Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? »](http://rbdd.cnrs.fr/spip.php?article206)   
 Réseau rBDD, Paris, 2016   
 ```
+
 
 Il est à noter que la collecte sur le terrain nécessite de s'équiper d'un matériel apte à être utilisé sur des terrains parfois hostiles. Le choix de l'équipement conditionne aussi le choix de la solution logicielle comme le montre Marie-Claude Quidoz lors de cette présentation :
 
