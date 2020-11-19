@@ -313,6 +313,18 @@ Akaouette, Ata Franck
 FOSS4G-fr, Marne-la-vallée, 2018   
 ```
 
+
+Pierre-Yves Arnould nous présente sa solution à base de ODK pour Faciliter la saisie, Rendre autonome les chercheurs dans leur saisie
+Uniformiser la structure des fichiers, Génération d’étiquettes pour les échantillons, et Sauvegarder automatiquement sur un micro-serveur
+sur le terrain puis sur le SI OTELo
+
+```{admonition} [Retour terrain : la délicate question de l’intégration des données](http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33)   
+:class: seealso   
+Pierre-Yves Arnould, OTELo   
+ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019, Sète.   
+```
+
+
 De nombreuses autres solutions sont aussi envisageables, nous invitons le lecteur a consulté les ateliers et séminaires suivants pour en découvrir leurs avantages et inconvénients :
  
 ```{admonition} [Atelier « Carnets de terrain électroniques »](http://rbdd.cnrs.fr/spip.php?article270)   
