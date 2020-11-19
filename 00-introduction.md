@@ -39,11 +39,6 @@ Il nous est apparu opportun d'aller plus loin et de détailler plus précisémen
   - des compétences et expertises développées prenant appui sur des pratiques standardisées qui font leurs preuves sur le terrain,    
   - de la diffusion de recommandations et de solutions techniques et organisationnelles au sein des communautés grâce à la veille technologique et juridique réalisée très régulièrement.
 
-[Dans ce document, nous avons donc voulu témoigner des travaux qui rendent compte des processus de gestion des données de la recherche,réalisés au sein de nos réseaux métiers, tout en guidant le lecteur vers
-d’autres ressources pédagogiques lui permettant d’approfondir le sujet.
-Ce guide fera des renvois systématiques vers des ateliers, séminaires, formations organisés par les réseaux pour rendre compte et approfondir ces bonnes pratiques. A SUPPRIMER ET REMPLACER PAR LE PARAGRAPHE QUI SUIT]
-
-
 Dans ce document, nous avons donc voulu témoigner des travaux réalisés au sein de nos réseaux métiers qui rendent compte de la gestion des données de la recherche tout en guidant le lecteur vers des bonnes pratiques en l’invitant aussi à cliquer sur des liens qui constituent des ressources lui permettant d’approfondir le sujet. 
 
 Ce guide est donc un document un peu hybride proche du vadémécum, composé d’un inventaire d’actions de formations (conférences, séminaires, présentations), d’un répertoire de liens, de recommandations professionnelles, complétées de définitions utiles, pour approfondir le sujet de la gestion des données dans les réseaux métiers.
