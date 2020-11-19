@@ -22,7 +22,7 @@ Il convient de prendre en compte les besoins des utilisateurs du projet, quelque
 organisée en mai 2016, Nadine Mandran, du laboratoire LIG, explique comme intégrer l'utilisateur au sein d'un projet. 
 Elle présente en parallèle, la méthode Agile et la Démarche centrée utilisateur. Le contenu de cette présentation est très concret et illustré par des exemples.
 
-```{adminition} [Méthodes pour intégrer l’utilisateur dans la construction des applications](http://rbdd.cnrs.fr/IMG/pdf/utilisateurs\_anfrbdd.pdf?171/5b534aea6e9bfe597fcf71ff840c5cf48c67033c)  
+```{admonition} [Méthodes pour intégrer l’utilisateur dans la construction des applications](http://rbdd.cnrs.fr/IMG/pdf/utilisateurs\_anfrbdd.pdf?171/5b534aea6e9bfe597fcf71ff840c5cf48c67033c)  
 :class: seealso
     [vidéo](https://webcast.in2p3.fr/video/methodes_pour_integrer_l_utilisateur_dans_la_construction_des_applications)  
     Nadine MANDRAN, LIG   
