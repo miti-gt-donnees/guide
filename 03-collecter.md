@@ -295,7 +295,7 @@ Au niveau logiciel, cinq stratégies sont possibles pour développer des carnets
 
 Deux solutions ont été étudiées au Centre d'Ecologie Fonctionnelle et Evolutive (CEFE) : le développement d'une application nomade basée sur le système d'information géographique, libre, multiplate-forme, publié sous licence GPL [QGIS](https://www.qgis.org/fr/site/) ainsi qu'une application nomade utilisant une boite à outils de génération de carnets de terrain électronique [Open Data Kit](https://opendatakit.org/). 
 
-Un premier retour d'expérience basé sur QGIS détaille l'étude et le développement d'un ensemble d'outils interopérables avec le système d'information du laboratoire CEFE et qui permet aux intervenants sur le terrain de collecter les données :
+Dans la présentation détaillant la solution basée sur QGIS, l'auteur détaille l'étude et le développement de l'applicatif interopérable avec le système d'information du laboratoire CEFE et qui permet aux intervenants sur le terrain de collecter les données :
 
 ```{admonition} [Carnet de terrain électronique, Retour d’expérience sur la création d’une boite à outils](http://video.rmll.info/videos/carnet-de-terrain-electronique/)   
 :class: seealso
@@ -303,7 +303,7 @@ Marie-Claude Quidoz, CEFE
 15èmes Rencontres Mondiales du Logiciel Libre, Montpellier, 2014    
 ```
 
-Les deux solutions étudiées au CEFE (application nomade basée sur QGIS et application nomade utilisant ODK) ont été présentées à l'occasion de l'ANF ["Interfacer les outils mobiles avec son système d’information"](http://rbdd.cnrs.fr/spip.php?article317). C'est d'ailleurs la solution basée sur ODK qui a été utilisée lors de l'ANF car la solution ODK permet de couvrir les étapes allant de la création du formulaire à la sécurisation en bases de données.
+La solution basée sur ODK a servi de fil rouge à l'ANF ["Interfacer les outils mobiles avec son système d’information"](http://rbdd.cnrs.fr/spip.php?article317) en 2019, car la solution ODK permet de couvrir les étapes allant de la création du formulaire à la sécurisation en bases de données.
 
 Des applicatifs « clef en main » ont été développés à partir du moteur ODK. Le plus connu est sans doute [KoboToolbox](https://www.kobotoolbox.org/), qui, aux fonctionnalités de base, a ajouté quelques fonctionnalités supplémentaires telles que le Formbuilder et la bibliothèque de questions.
 
