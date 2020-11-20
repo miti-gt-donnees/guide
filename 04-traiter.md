@@ -304,14 +304,29 @@ issues des instruments de mesures du réseau.
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
 [Séminaire SIST 2018 OVSQ ](https://sist18.sciencesconf.org/), Guyancourt.   
 ```
-[MCQ - debut] Dans cette présentation, les auteurs abordent la qualité des données sous l'angle utilisation de référentiels pour décrire finement les données et les rendre interopérables
+
+Dans cette présentation, les auteurs abordent la qualité des données sous l'angle utilisation de référentiels pour décrire finement les données et les rendre interopérables
 
 ```{admonition} [La qualité des données à l'OSU OREME](https://sist18.sciencesconf.org/data/pages/31_F_Fabre_O_Lobry_Qualite_des_donnees_de_l_OSU_OREME_.pdf)   
 :class: seealso
 Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'Environnement    
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
 ```
-[MCQ - fin] 
+
+```{admonition} [La qualité des données à l'OSU OREME](https://sist18.sciencesconf.org/data/pages/31_F_Fabre_O_Lobry_Qualite_des_donnees_de_l_OSU_OREME_.pdf)   
+:class: seealso
+Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'Environnement    
+[Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
+```
+
+Dans cette présentation, les auteurs proposent un développement graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour visualiser et valider des données de séries temporelles.
+
+```{admonition} 
+[Outil web interactif de visualisation et validation de séries temporelles](https://nuage.osupytheas.fr/s/qmJrrMLFHwN729G)
+Olivier Lobry, Juliette Fabre
+[Séminaire SIST 2015 OSU Pytheas Marseille](https://sist18.sciencesconf.org/), Guyancourt.    
+```
+
 
 Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/) permettent de qualifier les données et d'attribuer un code qualité a des données après analyse par un expert du domaine.
 ODV est un format de fichiers, et un logiciel utilisés par le projet européen [SeadataNet](https://www.seadatanet.org/Software/ODV). 
