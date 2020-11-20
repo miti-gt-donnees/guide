@@ -47,7 +47,7 @@ Marie Puren, INRIA
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données", réseau Renatis, Paris, 2017   
 ```
 
-### Référentiels de métadonnées 
+### Kes référentiels de métadonnées 
 
 Les référentiels de métadonnées peuvent être des standards ou des normes; ce sont des documents importants qui se chargent de définir les informations nécessaires pour décrire les données elles-mêmes. Ils sont de ce fait utilisés pour donner toutes les informations nécessaires à la compréhension et à l'utilisation des données et ainsi faciliter leur réutilisabilité. Il est donc fortement recommandé de décrire ses données avec des normes ou des standards reconnus dans les disciplines concernées. Le choix d'un standard de métadonnées va dépendre du type de ressource, du domaine d'application, mais également de la communauté à laquelle on s'adresse. 
 
@@ -74,7 +74,7 @@ On trouve plusieurs standards et normes qui permettent de définir un ensemble d
 Pour la description des jeux de données géolocalisées, les [normes ISO 19115 et ISO 19139](https://pro.arcgis.com/fr/pro-app/help/metadata/create-iso-19115-and-iso-19139-metadata.htm) sont des normes de référence dans le domaine des métadonnées pour l'information géographique. L'ISO 19115 fournit une structure permettant de décrire et de découvrir des données géospatiales, y compris le moment et l'endroit de leur localisation, une vue d'ensemble de leur contenu, de leurs propriétés, de leur qualité, de leur utilisation adéquate, du mécanisme de distribution, des points de contact pour les demandes d'informations, etc.
 La norme ISO 19139 est l'implémentation XML de la norme ISO 19115. Elle définit le codage XML des métadonnées géographiques, une implémentation de schéma XML dérivée de la norme ISO 19115. La norme ISO 19139 est le modèle principal utilisé pour décrire des données dans le logiciel GeoNetwork et constituer ainsi un catalogue de données géospatialisées que l'on abordera dans le chapitre 7 "Publier" du présent guide.
 
-### Protocoles standards en information Géographique 
+### Les protocoles standards en information Géographique 
 
 L'échange de données d'une plateforme à l'autre se fait au travers de protocoles informatiques. De ce fait, si l'on veut que les systèmes soient interopérables entre eux, il est nécessaire d'utiliser des protocoles ouverts et standards pour permettre l'interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, [l'Open Geospatial Consortium (OGC)](https://www.ogc.org/standards/), est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l'interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l'information géographique. 
 
@@ -273,7 +273,7 @@ PaulGuy Dupré Inserm & Claudia Gallina-Muller - Inserm DSI
 [JRES2019  ](https://www.jres.org/fr/programme/)   
 ```
 
-### Tablettes et carnets de terrain
+### Les tablettes et carnets de terrain
 
 Les données et documents produits directement sur le terrain témoignent de l’activité de recherche dans diverses disciplines, notamment en sciences humaines et sociales, en sciences de la terre... Il s’agit aussi bien de carnets issus d’entretiens de sociologues, d’ethnologues, de carnets de prélèvements en géochimie, géologie que de carnets de fouilles en archéologie, de notes, de photographies prises sur le terrain, etc. De plus, certaines données peuvent se révéler d'une valeur inestimable, qu'il s'agisse de données fortement temporelles (images satellites de la banquise, données sur les glaciers alpins) ou de données provenant de sites aujourd'hui endommagés ou détruits (Notre Dame de Paris, cité antique de Palmyre, etc). Il est de ce fait essentiel que ces données soient répertoriées et archivées. 
 
