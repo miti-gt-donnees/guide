@@ -4,7 +4,7 @@
 Imaginer est la première étape de notre cycle de vie. Celle où l’on va se projeter, anticiper, s’informer, comprendre pour envisager sereinement le déroulement de notre projet.
 c'est une phase préparatoire qui correspond à l’identification des problématiques générales, techniques et juridiques associées à la gestion des données dans un projet de recherche ou dans la pratique quotidienne. C’est une étape initiale importante pour appréhender globalement la gestion des données, l’écosystème dans lequel elle s’inscrit avec ses contraintes et opportunités, les outils et infrastructures disponibles ou nécessaires, les politiques d’accompagnement et la multiplicité des acteurs qui interagissent, les réglementations en vigueur ou encore les compétences et expertises à acquérir.
  
-L’apport des réseaux est ici comme à chaque étape importante en termes de croisement des disciplines et des métiers pour apporter un éclairage global dans la compréhension de la transition numérique ou dans la nécessaire évolution des métiers et compétences et répondre au mieux aux besoins des communautés scientifique. 
+L’apport des réseaux est ici importante en termes de croisement des disciplines et des métiers pour apporter un éclairage global dans la nécessaire évolution des métiers et compétences et répondre au mieux aux besoins des communautés scientifique. 
 
 ## Comprendre le paysage de la gestion des données
 
