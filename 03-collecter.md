@@ -168,10 +168,10 @@ Actuellement on trouve deux implémentations intéressantes du protocole SOS dan
 
 istSOS est un logiciel libre et fonctionne sur toutes les principales plates-formes (Windows, Linux, Mac OS X), même s'il n'a été utilisé en production que dans l'environnement Linux.
 
-```{admonition} [Présentation du logiciel istSOS](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2FVideos-presentations-2409-apresmidi)   
+```{admonition} [Présentation du logiciel istSOS](https://nuage.osupytheas.fr/s/eK7y9w6ewfL36Kk)
 :class: seealso
 Massimiliano Canata   
-[Séminaire SIST15, Marseille](http://sist15.sciencesconf.org) 
+[Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)  
 ```
 
 Ces 2 logiciels ont été présentés par Christoph Stasch, et Massimiliano Canata lors du séminaire du réseau [SIST](http://sist.cnrs.fr) en 2015 à l'[OSU Pytheas Marseille](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz).
@@ -183,6 +183,8 @@ Stephane Debard présente l'utilisation d'istSOS dans la gestion de mesures alti
 Stéphane Debard IRD   
 [Séminaire SIST19 OMP Toulouse](http://sist19.sciencesconf.org)   
 ```
+
+
 
 ### Les chaines de collecte
 Les gestionnaires de données environnementales mettent en place des chaînes de collecte de données provenant de capteurs de terrains ou de modèles numériques. Ils se préoccupent de l’utilisation de normes interopérables dans les protocoles d'échange et dans les formats de données.
