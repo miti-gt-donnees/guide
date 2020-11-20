@@ -264,7 +264,7 @@ Mohamed Salah Yahia
 [Séminaire SIST16 OSU Oreme Montpellier](http://sist16.sciencesconf.org)
 ```
 
-Par ailleurs, certaines infrastructures proposent un service de fourniture de DOI comme le [pôle de données Odatis](https://www.odatis-ocean.fr/) qui fournit des D.O.I pour les données *marines* sur le site Seanoe <https://www.seanoe.org/>.
+Par ailleurs, certaines infrastructures proposent un service de fourniture de DOI comme le [pôle de données Odatis](https://www.odatis-ocean.fr/) qui fournit des D.O.I pour les données *marines* sur le site [Seanoe](https://www.seanoe.org/).
 
 Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
@@ -274,7 +274,7 @@ Annick Battais
 [Séminaire SIST2019 Toulouse 2019](http://sist19.sciencesconf.org)   
 ```
 
-### Retour d'expériences d'utilisation de DOI:
+### Retour d'expériences d'utilisation de DOI
 
 Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l'INIST du CNRS qui, en tant que membre de DataCite, peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.
 
