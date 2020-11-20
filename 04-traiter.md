@@ -190,12 +190,6 @@ Sabine Darras, Observatoire Midi-Pyrénées
 ```
 
 
-```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist16.sciencesconf.org/data/pages/11_T_Valero_F_Bongat.pdf)    
-:class: seealso
-Thierry Valéro, Institut de Recherche pour le Développement, Laboratoire d'Océanographie et du Climat   
-[Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)    
-```
-
 Dans cette présentation les auteurs montrent un workflow complexe depuis l'acquisition de données a 2500m de profondeur, jusqu'à l'affichage et la diffusion sur un serveur Erddap.
 Les données de capteurs sont traitées avec l'ETL Talend pour produire des fichiers CSV et NetCDF qui sont diffusées via la plateforme Erddap. Dans le cas de séries temporelles qui s'enrichissent quotidiennement, erddap permet d'aggréger automatiquement les données  journalières qui sont déposées par programme dans un répertoire, sans intervention humaine.
 
@@ -205,6 +199,13 @@ Soumaya Lahbib, Maurice Libes, OSU Pytheas
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.
 ```
 La plateforme de gestion de données Erddap est utilisée dans le projet Européen EMSO et permet de constituer un réseau de serveurs qui  regroupe les données d'un même projet avec des données issues de sites différents  http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000
+
+Dans cette présentation, les auteurs avaient pour objectif de diffuser des données dans un environnement tropical et ont utilisé et comparés les platformes logicielles Thredds et Erddap 
+```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist16.sciencesconf.org/data/pages/11_T_Valero_F_Bongat.pdf)    
+:class: seealso
+Thierry Valéro, Institut de Recherche pour le Développement, Laboratoire d'Océanographie et du Climat   
+[Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)    
+```
 
 
 Les présentations suivantes fournissent  un certain nombre de connaissances sur l’utilisation d'infrastructure
