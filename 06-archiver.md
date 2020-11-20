@@ -22,9 +22,9 @@ Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, q
 Laurent Pelletier, lors de l'ANF PostgreSQL Administration, a présenté les questions à se poser pour définir sa politique de sauvegarde autour des bases de données.
 
 ```{admonition} [Sauvegardes](http://rbdd.cnrs.fr/IMG/pdf/sauvegardes-01-intro-politiquedesauvegarde-texte-s-v3.pdf?349/f4115e73fa9d2d7789f635ea68300364244a28e3)  
-:class: seealso
-Laurent Pelletier, INIST-CNRS   
-ANF « PostgreSQL Administration », réseau rBDD, Sète, 2017   
+:class: seealso   
+Laurent Pelletier, INIST-CNRS    
+ANF « PostgreSQL Administration », réseau rBDD, Sète, 2017    
 ```
 
 ```{glossary}
@@ -35,10 +35,10 @@ Archiver
 Le terme archive est défini par le législateur : *les archives sont l'ensemble des documents, y compris les données, quels que soient leur date, leur lieu de conservation, leur forme et leur support produits ou reçus par toute personne physique ou morale, et par tout service ou organisme public ou privé dans l'exercice de leur activité* (art. L. 211-1 du code du patrimoine). Les données de la recherche entrent pleinement dans le périmètre des archives. 
 
 Pour en savoir plus sur le statut des archives scientifiques du CNRS et sur le délai de conservation, nous vous conseillons ces deux documents :
-```{admonition} [Textes réglementaires et durée de conservation](https://dataarchivage.sciencesconf.org/data/pages/20191120_archives_scientifiquesGRICAD.pdf)   
-:class: seealso
-Marie-Laure Bachèlerie, DAJ-CNRS   
-Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019   
+```{admonition} [Textes réglementaires et durée de conservation](https://dataarchivage.sciencesconf.org/data/pages/20191120_archives_scientifiquesGRICAD.pdf)    
+:class: seealso   
+Marie-Laure Bachèlerie, DAJ-CNRS    
+Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019     
 ```
 
 ```{admonition} [Traçabilité des activités de recherche et gestion des connaissances - Guide pratique de mise en place](http://qualite-en-recherche.cnrs.fr/IMG/pdf/guide_tracabilite_activites_recherche_gestion_connaissances.pdf)   
@@ -70,7 +70,7 @@ Nous pouvons résumer la finalité de la « protection du patrimoine scientifiqu
 - assurer la protection juridique (risques administratifs, risques pénaux, perte d’image de marque).
 
 ```{admonition} [L'analyse de risques dans le cadre du système d'information](http://qualite-en-recherche.cnrs.fr/IMG/pdf/gestion_risques_ssi_rivet_2015.pdf)   
-:class: seealso
+:class: seealso   
 Alain Rivet, CERMAV   
 6ème rencontres du Réseau Qualité en Recherche, réseau QeR, Biarritz, 2015   
 ```
@@ -92,7 +92,7 @@ Les solutions peuvent être apportées à différents niveaux :
 ```{admonition} [La sécurisation des données (accès, sauvegarde, archivage...)](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_bras.pdf)   
 :class: seealso
 Cyril Bras, CERMAV   
-7ème rencontres du Réseau Qualité en Recherche, réseau QeR, Grenoble, 2017   
+7ème rencontres du Réseau Qualité en Recherche, réseau QeR, Grenoble, 2017    
 ```
 
 La protection du patrimoine scientifique et technique est l’affaire de tous, mais elle ne se limite pas à des mesures techniques.
@@ -100,10 +100,10 @@ La protection du patrimoine scientifique et technique est l’affaire de tous, m
 Sans prise de conscience de tous sur la nécessité de préserver le patrimoine scientifique, une disparition (généralisée) de nos données est plus que probable. Marion Massol lors de sa présentation au séminaire SIST en 2016 nous rappelle cependant que des solutions d'avenir existent déjà (au CINES). 
 
 ```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist16.sciencesconf.org/data/pages/18_M_Massol.pdf)   
-:class: seealso
+:class: seealso    
 [video](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
 Marion MASSOL, CINES   
-Séminaire SIST 2016 : Séries Interopérables et Systèmes de Traitement, réseau SIST, Montpellier, 2016   
+Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
 ```
 
 ### Préserver la masse de données scientifiques
@@ -113,7 +113,7 @@ Cette présentation est une bonne entrée en la matière : Cristinel Diaconu int
 La dernière partie de sa présentation est consacrée au projet **PREDON** qui propose une approche nouvelle qui mélange les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.
 
 ```{admonition} [La préservation des données scientifiques](http://renatis.cnrs.fr/IMG/pdf/DIACONU_DPHEP_PREDON_FREDOCS.pdf)   
-:class: seealso
+:class: seealso   
 Cristinel Diaconu, CPPM   
 FRéDoc « Gestion et valorisation des données de la recherche », réseau Renatis, Aussois, 2013   
 ```
@@ -144,14 +144,14 @@ Dans la présentation référencée, Lorène Béchard et Marion Massol présente
 :class: seealso
 [video](http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines)   
 Lorène Béchard, CINES & Marion Massol, CINES   
-Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014   
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014    
 ```
 
 Dans cette présentation, après avoir évoqué le contexte réglementaire en matière de gestion d'**archives publiques**, Magalie Moysan, coordinatrice du pôle Sécurisation des données et documents et responsable du département archives à l'Université de Paris, aborde les enjeux de leur préservation ainsi que les outils et méthodes disponibles pour procéder à leur sélection. Elle insiste sur le statut « d'archives publiques » souvent méconnu dans nos établissements et sur les obligations légales et réglementaires qui y sont associées notamment l'obligation de bien gérer, conserver et archiver ses documents ou l'interdiction de les détruire sans visa préalable des autorités compétentes. Elle explique ensuite l'intérêt de concevoir l'archivage comme un moyen de « conserver les preuves », de garantir une antériorité, d'assurer le suivi d'une activité, de fiabiliser les résultats et de constituer un patrimoine scientifique. La sélection des données en vue de leur conservation suppose très en amont de pouvoir anticiper cette tâche en procédant à une description rigoureuse des données et de leur contexte de production (contenu, date, modalité d'entrée, conditions d'accès etc.). Le processus de sélection s'organise autour de quelques grands principes (intérêt scientifique, juridique, historique de la donnée, intelligibilité de la donnée) et se détermine souvent dans le cadre d'un échange entre scientifique et archiviste. Les référentiels de conservation sont des outils d'aide intéressants pour accompagner le processus de sélection.
 
-```{admonition} [Sélectionner les données pour la préservation : enjeux et méthodes](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Moysan.pdf)   
-:class: seealso
-Magalie Moysan, Université de Paris   
+```{admonition} [Sélectionner les données pour la préservation : enjeux et méthodes](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Moysan.pdf)    
+:class: seealso   
+Magalie Moysan, Université de Paris    
 Atelier Dialogu’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
 ```
 
@@ -168,8 +168,8 @@ Voici quelques exemples de préservation d'objets numériques qui ont fait l'obj
 - dans le monde des tableurs, où à ce jour les seuls formats durables sont CSV / TXT, ne pas oublier de prendre en compte, lors de la création des fichiers, la perte de fonctionnalités de ce format par rapport aux formats natifs
 - avoir le réflexe de valider son fichier avec l'outil [FACILE](https://facile.cines.fr/) du CINES
 
-```{admonition} [Sécuriser les données produites par les carnets de terrain électroniques](http://rbdd.cnrs.fr/IMG/pdf/quidoz_atelier2018.pdf?480/cd645e6864223eaae2a37ea4d2b45077f07b61d1)   
-:class: seealso
+```{admonition} [Sécuriser les données produites par les carnets de terrain électroniques](http://rbdd.cnrs.fr/IMG/pdf/quidoz_atelier2018.pdf?480/cd645e6864223eaae2a37ea4d2b45077f07b61d1)    
+:class: seealso    
 Marie-Claude Quidoz, CEFE   
 Atelier « Carnets de terrain électroniques », Montpellier, 2018   
 ```
@@ -192,20 +192,20 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
 Dans cette présentation, François Morris aborde le cas des données protégées par un chiffrement. Après un rappel de ce qu'est le chiffrement, il présente le chiffrement dans la durée : archivage des données chiffrées et utilisation de ces données, donc comment déchiffrer ces données archivées dans le futur.
 
 ```{admonition} [La pérennisation des données chiffrées ? Quel est l’impact du chiffrement sur le long terme ?](http://rbdd.cnrs.fr/IMG/pdf/chiffrement-perennisation.pdf?185/c4475004eab7dcd07a72e8230a8d74d493dc2495)   
-:class: seealso
+:class: seealso   
 [video](http://webcast.in2p3.fr/videos-la_perennisation_des_donnees_chiffrees_quel_est_l_impact_du_chiffrement_sur_le_long_terme)   
-François Moris, CNRS   
-Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014   
+François Moris, CNRS    
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014     
 ```
 
 ### Les données à caractère personnel
 
 Dans cette présentation, Emilie Masson et Patrick Guillot proposent une carte mentale avec deux parties distinctes. À droite du terme « données personnelles et archivage » ils donnent une définition des données à caractère personnel et des traitements de données personnelles. À gauche du terme « données personnelles et archivage », ils rappellent les obligations de la RGPD en termes de conservation après l'exercice de la finalité et ils établissent des recommandations en fonction de trois types d'archives : archives courantes / archives intermédiaires et archives définitives.
 
-```{admonition} [Données personnelles et archivage](https://dataarchivage.sciencesconf.org/data/pages/Donne_es_personnelles_et_archivage.pdf)   
-:class: seealso
-Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes   
-Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019   
+```{admonition} [Données personnelles et archivage](https://dataarchivage.sciencesconf.org/data/pages/Donne_es_personnelles_et_archivage.pdf)    
+:class: seealso   
+Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes    
+Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019    
 ```
 
 ### Les logiciels / les codes sources 
@@ -234,27 +234,27 @@ Gilles Duvert témoigne quant à lui de la préservation des données en Astrono
 ```{admonition} [Archivage des données à Huma-NUM](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf)
 :class: seealso
 [video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)  
-Michel Jacobson, Huma-Num  
-Archivage Numérique des Données de Recherche, 2019, Grenoble   
+Michel Jacobson, Huma-Num   
+Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```  
 
 ```{admonition} [Archivage des données à l'In2p3](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)   
 :class: seealso
 [video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
-Yonny Cardenas, CC-IN2P3   
-Archivage Numérique des Données de Recherche, 2019, Grenoble   
+Yonny Cardenas, CC-IN2P3    
+Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
 ```{admonition} [Gestion des données scientifiques à l'Institut Laue Langevin](https://dataarchivage.sciencesconf.org/data/pages/2019_11_19_IMAG_Journee_archivage.pdf)   
 :class: seealso
 Jean-Francois Perrin, ILL   
-Archivage Numérique des Données de Recherche, 2019, Grenoble  
+Archivage Numérique des Données de Recherche, 2019, Grenoble   
 
 
 ```{admonition} [L'archivage des données en astronomie](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)   
-:class: seealso
+:class: seealso 
 [video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4)   
-Françoise Genova,observatoire astronomique de Strasbourg, Gilles Duvert, IPAG, OSUG et JMMC  
-Archivage Numérique des Données de Recherche, 2019, Grenoble   
+Françoise Genova,observatoire astronomique de Strasbourg, Gilles Duvert, IPAG, OSUG et JMMC   
+Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
 
 
@@ -276,9 +276,9 @@ Le premier retour d'expérience du siècle dernier est un échec tandis que le d
 
 ```{admonition} [Retour d’expérience - Les données de l’Écothèque Méditerranéenne](http://rbdd.cnrs.fr/IMG/pdf/retour_experience_ecotheque-4.pdf?184/0378d1933926fb7f47381934f4f5e92b8022c929)   
 :class: seealso
-[vidéo](https://webcast.in2p3.fr/video/retour_d_experience_les_donnees_de_l_ecotheque_mediterraneenne_cefe)   
+[vidéo](https://webcast.in2p3.fr/video/retour_d_experience_les_donnees_de_l_ecotheque_mediterraneenne_cefe)    
 Marie-Claude Quidoz, CEFE   
-Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014      
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014       
 ```
 
 ### Retour d'expérience sur des données orales en SHS
@@ -286,8 +286,8 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
 Michel Jacobson débute sa présentation par la présentation de la plateforme technique Cocoon pour « COllections de COrpus Oraux Numériques ». C'est une plateforme technique qui accompagne les producteurs de ressources orales, à créer, structurer et archiver leurs corpus ; un corpus pouvant se composer d'enregistrements (en général audio) accompagnés éventuellement d'annotations de ces enregistrements. Cette plateforme s'appuie sur les services d'Huma-Num. Ensuite, il détaille les différentes étapes suivies pour mener à bien l'archivage pérenne mis en place en collaboration avec le CINES. 
 
 ```{admonition} [Organisation du Centre de ressources numériques Cocoon comme service versant pour l’archivage de données orales en SHS](http://rbdd.cnrs.fr/IMG/pdf/rbdd_cocoon.pdf?182/90fe1749f3bc65530849f4ed42f395c4078a1e55)   
-:class: seealso
-[vidéo](http://webcast.in2p3.fr/videos-organisation_du_centre_de_ressources_numeriques_cocoon)   
-Michel Jacobson, LLL   
+:class: seealso  
+[vidéo](http://webcast.in2p3.fr/videos-organisation_du_centre_de_ressources_numeriques_cocoon)    
+Michel Jacobson, 
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014      
 ```
