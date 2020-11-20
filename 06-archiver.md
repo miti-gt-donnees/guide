@@ -219,8 +219,7 @@ La pérennisation des objets numériques s'appuie sur les mêmes concepts que la
 
 ### Archivage à long terme et politiques de préservation
 
-Pour illuster les démarches en cours dans nos instituts, infrastructures ou unités de recherche,  ces retours d'expériences ont été faites lors du séminaire "[Archivage Numérique des Données de Recherche](https://dataarchivage.sciencesconf.org/)", Grenoble, 20 novembre 2019.
-
+Ces retours d'expériences recueillis lors du séminaire "[Archivage Numérique des Données de Recherche](https://dataarchivage.sciencesconf.org/)", Grenoble, 20 novembre 2019 illustrent les démarches en cours dans certains instituts et certaines infrastructures pour mettre en oeuvres des politiques d'archivage et de préservation des données.
 
 Ces présentations offrent un panorama des différents processus ou démarches d’archivage à long terme mis en place dans diverses disciplines scientifiques. On y découvre les politiques de gestion ou de partage des données et les démarches spécifiques à chaque structure pour mettre en place ou organiser un système d’archivage et de préservation des données sur le long terme. 
 
