@@ -83,7 +83,7 @@ Les standards OGC sont importants à connaitre dans la mesure où ils définisse
 ```{admonition} [Les Normes OGC (Open Geospatial Consortium)](https://sist15.sciencesconf.org/data/program/ogc.pdf)   
 :class: seealso
 François André, Aeris   
-Séminaire SIST15 - OSU Pytheas Marseille
+Séminaire SIST15 - OSU Pytheas Marseille 2015
 ```
 
 Parmi les standards de l'OGC les plus utilisés dans nos réseaux métiers chez les gestionnaires de données environnementales, on peut citer :
@@ -101,7 +101,7 @@ ANF SIST17 Fréjus - ANF SIST18 Autrans
 De nombreux instituts et auteurs, gestionnaires de données suivent  ces standards OGC : 
 
 Sylvain Grelet communique par exemple le retour d'expérience sur l'utilisation et le déploiement des standards d'interopérabilité au BRGM :
-```{admonition} [De la définition au déploiement de standards d'interopérabilité :](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz#pdfviewer) retour d'expérience de la Direction des Systèmes d'Information (DSI) du BRGM   
+```{admonition} [De la définition au déploiement de standards d'interopérabilité :](https://nuage.osupytheas.fr/s/aQogG6iPq6eGabf) retour d'expérience de la Direction des Systèmes d'Information (DSI) du BRGM   
 :class: seealso
 Grellet Sylvain, Stéphane Loigerot, BRGM   
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)  
@@ -109,10 +109,10 @@ Grellet Sylvain, Stéphane Loigerot, BRGM
 
 Véronique Chaffard nous présente la mise en oeuvre des standards de l'OGC dans le projet AMMA-CATCH :
 
-```{admonition} [Portail Web d'accès aux données de l'observatoire AMMA-CATCH et mise en oeuvre des standards d'échange des données OGC ](<https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz>)   
+```{admonition} [Portail Web d'accès aux données de l'observatoire AMMA-CATCH et mise en oeuvre des standards d'échange des données OGC ](https://nuage.osupytheas.fr/s/Mrm2oRT8QFt9HS9)   
 :class: seealso
 Véronique Chaffard, IRD  
-[Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)
+[Séminaire SIST15, OSU Pytheas Marseille](http://sist15.sciencesconf.org)
 ```
 
 ## Les systèmes d'acquisition : maîtriser l’acquisition et la collecte des données
@@ -191,7 +191,7 @@ Les gestionnaires de données environnementales mettent en place des chaînes de
 
 Regis Hocdé et ses collègues nous présentent un retour d'expérience sur le réseau de suivi de température des eaux côtières dans la région du Pacifique Sud et Sud-Ouest :
 
-```{admonition} [Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2F#pdfviewer)   
+```{admonition} [Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG)   
 :class: seealso
 Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement    
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)   
@@ -199,15 +199,15 @@ Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement
 ```{admonition} [Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf>)   
 :class: seealso
 Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de Recherche pour le Développement    
-Séminaire SIST16, OSU OREME Montpellier 
+[Séminaire SIST16,  OSU OREME Montpellier ](http://sist16.sciencesconf.org) 
 ```
 
 Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d'un réseau de stations météorologiques de la région rennaise.
 
-```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?path=%2F#pdfviewer) :  exemple de la métropole rennaise (Zone Atelier Armorique)   
+```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome](https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX) :  exemple de la métropole rennaise (Zone Atelier Armorique)   
 :class: seealso
 Alban Thomas - Hervé Quénol UMR LETG Rennes    
-[Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)   
+[Séminaire SIST15, OSU Pytheas Marseille](http://sist15.sciencesconf.org)   
 ```
 
 ### Web scraping, collecte automatique et analyse de données 
