@@ -321,10 +321,10 @@ Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'En
 
 Dans cette présentation, les auteurs proposent un développement graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour visualiser et valider des données de séries temporelles.
 
-```{admonition} 
-[Outil web interactif de visualisation et validation de séries temporelles](https://nuage.osupytheas.fr/s/qmJrrMLFHwN729G)
+```{admonition} [Outil web interactif de visualisation et validation de séries temporelles](https://nuage.osupytheas.fr/s/qmJrrMLFHwN729G)
+:class: seealso
 Olivier Lobry, Juliette Fabre
-[Séminaire SIST 2015 OSU Pytheas Marseille](https://sist18.sciencesconf.org/), Guyancourt.    
+[Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/).    
 ```
 
 
