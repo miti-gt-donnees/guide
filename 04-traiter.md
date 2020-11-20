@@ -167,6 +167,7 @@ ANF SIST 2018, Toulouse.
 
 Des exemples d'utilisation des plateformes logicielles Erddap et Thredds ont été présentés lors de différentes sessions des journées du réseau SIST :
 
+G. Brissebrat nous montre comment son diffusées des données maillées NetCDF du SEDOO avec la plateforme logicielle Thredds
 ```{admonition} [Distribution et visualisation de données avec Thredds, exemples d'utilisation au SEDOO](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz#pdfviewer)     
 :class: seealso
 Guillaume Brissebrat, Service de données de l'OMP   
