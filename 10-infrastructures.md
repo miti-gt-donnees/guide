@@ -177,7 +177,19 @@ Le projet **Software Heritage** a pour objectif de collecter, préserver et rend
 
 ### Plateformes d'archivage des données
 
-**PARTIE A REDIGER**
+Agrée par le Service Interministériel des Archives de France, le [CINES](https://www.cines.fr/) (Centre Informatique National de l’Enseignement Supérieur) est le centre officiel d’archivage d’une partie de la production scientifique de nos établissements.   
+Il offre une solution pour la conservation à long terme du patrimoine numérique (données scientifiques : issues d’observations ou de calculs, données patrimoniales, données administratives) et est impliqué le projet européen [EUDAT](https://www.eudat.eu/) visant à mettre en place une infrastructure européenne d’échange et de conservation de données.
+
+A l’occasion d’une intervention au Gricad à Grenoble, Olivier Rouchon, détaille largement l’offre de service du CINES et témoigne de la variété des données archivées. Il retrace également le processus d’archivage et rend compte des défis et problématiques qu’il pose.  
+
+* [L’offre de service archivage du CINES ](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf)    
+Oliver Rouchon, CINES   
+Archivage numérique des données de la recherche, 2019, Grenoble   
+[vidéo](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4)  
+  
+
+
+
 
 Ces retours d'expériences ont été faites lors du séminaire "[Archivage Numérique des Données de Recherche](https://dataarchivage.sciencesconf.org/)", Grenoble, 20 novembre 2019. Elles ne sont pas de même nature (seul la plateforme du CINES est une plateforme d'archivage pérenne), mais toutes ont été construites pour préserver les données sur un temps long.
 
