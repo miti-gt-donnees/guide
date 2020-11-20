@@ -233,7 +233,7 @@ Attention la pérennité est purement une question de service et n'est pas inhé
 Herbert Gruttemeier illustre ses propos par des exemples de jeux de données exposés et cités dans différents entrepôts. Il présente la position « officielle » des éditeurs sur l’accès aux données de la recherche et s’attarde sur le type de données et de ressources concernées par l’attribution de DOI. 
 
 Data Cite propose un certain nombre de services (création de différents formats de citation pour les DOI, exposition des métadonnées, schéma de métadonnées DataCite et un environnement de test) que l’auteur détaille. Il est question aussi de « Data Citation Index » et de métrique, de l’importance d’accéder à la découverte des données (principe de moissonnage des 
-métadonnées DataCite), des partenariats avec ORCID, OPENAIR, CODATA, FORCE 11, RDA …
+métadonnées DataCite), des partenariats avec ORCID, OPENAIR, CODATA, FORCE 11, RDA...
 
 ```{admonition} [DataCite : identifiants pérennes pour le partage des données](http://renatis.cnrs.fr/IMG/pdf/DataCite_FreDoc.pdf)  
 :class: seealso
@@ -443,27 +443,31 @@ Publier un data paper permet de :
 - leur apporter de la visibilité,
 - les rendre plus facilement repérables et citables; le data paper étant une publication citable, au même titre que tout article scientifique, il met en valeur ses auteurs en tant que créateur de données et permet la traçabilité des citations et des réutilisations.
 
-Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers. Des listes de revues publiant des data papers sont disponibles sur :*******************
+Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers. Il n’existe pas, à ce jour, de catalogue ou de répertoire à proprement dit mais nous vous recommandons la consultation de ces listes de liens génériques :
+- [CIRAD](https://coop-ist.cirad.fr/content/download/6265/45560/version/3/file/Coopist-Revues+publiant+des+datapapers-nov+2017.pdf),
+- [Forschungsdaten](https://www.forschungsdaten.org/index.php/Data_Journals),
+- [Datashare](https://www.wiki.ed.ac.uk/display/datashare/Sources+of+dataset+peer+review)
+- et dans le [domaine de la bio-diversité](http://www.gbif.fr/page/contrib/publier-un-datapaper).
 
-Après avoir expliqué pourquoi le GBIF et l’éditeur de revues PENSOFT ont proposé le concept de data paper, Sophie Pamerlon en explique les avantages et à travers quelques exemples concrets comment les outils du GBIF facilitent la rédaction d'un datapaper en biodiversité.
+Après avoir expliqué pourquoi le GBIF et l’éditeur de revues PENSOFT ont proposé le concept de data paper, Sophie Pamerlon en explique les avantages et comment les outils du GBIF facilitent la rédaction d'un datapaper en biodiversité à travers quelques exemples concrets.
 
 ```{admonition} [Data papers : Une incitation à la publication de données sur la biodiversité,](http://rbdd.cnrs.fr/IMG/pdf/data-papers-rbdd.pdf?136/a3858796a8f136546895fd84a9fc34f24e62a842)
 :class: seealso
 Sophie Pamerlon (Système mondial d’information sur la biodiversité - Global Biodiversity Information Facility)   
 ```
 
-On trouvera de nombreuses informations sur la création et l'évaluation de Data paper dans le Webinaire intitulé "DataPaper: une incitation à la qualification et à la réutilisation des jeux de données" organisé par  l'"[Atelier Données](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html)" du groupe de travail Données inter-réseaux de la MITI.
+On trouvera de nombreuses informations sur la création et l'évaluation de Data papers dans le Webinaire intitulé "DataPaper: une incitation à la qualification et à la réutilisation des jeux de données" organisé par  l'"[Atelier Données](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html)" du groupe de travail Données inter-réseaux de la MITI.
 
 Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux outils de rédaction de datapaper :
 *  IPT (Integrated Publishing Toolkit) qui  facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper
 * ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.
 
-```{admonition} Exemple d’intégration du data paper à un workflow de publication de jeux données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper
+```{admonition} Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper
 :class: seealso
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel
 ```
 
-Pour se faire une idée d'un exemple de datapaper, Annegret Nicolai nous présente un [exemple de datapaper du projet bioBlitz](https://bdj.pensoft.net/article/50451/), et les avantages et inconvénients qu'elle y trouve :
+Pour se faire une idée d'un exemple de datapaper, Annegret Nicolai nous présente un [exemple de datapaper du projet bioBlitz](https://bdj.pensoft.net/article/50451/) et les avantages et inconvénients qu'elle y trouve :
 
 
 ```{admonition} BioBlitz 2017 à la Station Biologique de Paimpont – un data paper de science citoyenne   
@@ -471,7 +475,7 @@ Pour se faire une idée d'un exemple de datapaper, Annegret Nicolai nous présen
 Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont)   
 ```
 
-Dans sa présentation Clémentine Cottineau nous indique quels sont les principes et le processus d'Évaluation d'un datapaper pour la revue Cybergeo: Retour d’expérience et difficultés rencontrées.
+Dans sa présentation, Clémentine Cottineau nous indique quels sont les principes et le processus d'évaluation d'un datapaper pour la revue Cybergeo: Retour d’expérience et difficultés rencontrées.
 On trouvera sur cybergeo  un [exemple de recommandations aux auteurs pour un datapaper](https://journals.openedition.org/cybergeo/23412#tocto1n7).
 
 ```{admonition} Évaluer un data paper : retour d'expérience de la revue Cybergeo
@@ -488,14 +492,14 @@ Victor Gay nous présente un retour d'expérience de rédaction d'un [datapaper 
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse
 ```
 
-Joachim Schöpfel, synthetise en indiquant qu'un data  paper fournit l'information "*on the what, where, why, how and who of the data*".
+Joachim Schöpfel, synthetise en indiquant qu'un data paper fournit l'information "on the what, where, why, how and who of the data".
 
 ```{admonition} Synthèse du webinaire et échanges (à partir des questions du tchat)
 :class: seealso
 Joachim Schöpfel, Université Lille 3 – GERiiCO
 ```
 
-En guise d'exercice de conclusion, pour terminer  Wilfried Heintz nous fait part de sa conception d'une gestion pérenne des données scientifiques, en reliant nos différentes actions depuis l'étape initiale de la rédaction d'un DMP (Plan de gestion des données) jusqu'à à la publication d'un DataPaper :
+En guise d'exercice de conclusion, Wilfried Heintz nous fait part de sa conception d'une gestion pérenne des données scientifiques, en reliant nos différentes actions depuis l'étape initiale de la rédaction d'un DMP (Plan de gestion des données) jusqu'à à la publication d'un DataPaper :
 
 ```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie](https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf)
 :class: seealso
