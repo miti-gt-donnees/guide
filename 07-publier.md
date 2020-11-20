@@ -13,7 +13,7 @@ Cette étape de publication et de diffusion est en outre accompagnée désormais
 
 ### Finaliser le PGD 
 
-En fin de projet, n'oublions pas qu'il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
+En fin de projet, il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
@@ -200,7 +200,7 @@ Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 
 Enfin, notons la création du logiciel open source [opentheso](https://www.mom.fr/ressources-numeriques/opentheso) qui permet l'élaboration collaborative d'un thésaurus tout comme ThesauForm, mais aussi la gestion de thésaurus multilingue supportant la polyhiérarchie, en conformité avec la norme ISO 25964.
  
-## Utiliser des Identifiants pérennes
+## Utiliser des identifiants pérennes
 
 Afin d'être cités et réutilisés, les données et documents numériques se doivent de disposer d'un identifiant pérenne pour qu'ils puissent être référencés, visibles et accessibles de manière univoque.
 
@@ -323,8 +323,7 @@ Les enjeux liés à la gestion et au partage des données de la recherche néces
 
 Qu'est-ce qui différencie un entrepôt de données d'une base de données classique dans le contexte de l'ouverture des données ? Quels services peut-on attendre d'un entrepôt de données aux différentes étapes du cycle de vie de la donnée? Comment trouver et choisir un entrepôt de données ? Un certain nombre de ces questions relatives aux entrepôts ont été abordées lors d'une [journée de type Hackaton intitulée "entrepôts de données, comment améliorer le dépôt et le partage des données de la recherche ?"](https://gt-donnees2020.sciencesconf.org/). Cette journée consacrée aux entrepôts de données a permis de cerner les fonctionnalités que l'on se doit d'attendre d'un entrepôt de données FAIR et les conditions d’utilisation de ce type de service. 
 
-Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la synthèse des échanges qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ?" ». Elle est enrichie régulièrement des discussions sur la liste “données”.
-* <https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html>
+Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ?" ». Elle est enrichie régulièrement des discussions sur la liste “données”.
 
 On y répond à des questions fréquentes concernant les entrepôts comme :
   - Qu'est-ce qu'un entrepôt de données ?
