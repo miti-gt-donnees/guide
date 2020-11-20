@@ -187,40 +187,9 @@ Oliver Rouchon, CINES
 Archivage numérique des données de la recherche, 2019, Grenoble   
 [vidéo](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4)  
   
+A noter :  
+La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de données tout au long du processus d’archivage à long terme vers un dépôt au CINES. (Voir la présentation de Michel Jacobson « [Archivage des données à Huma-Num](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf) » présentée dans la section Préserver et archiver )
 
-
-
-
-Ces retours d'expériences ont été faites lors du séminaire "[Archivage Numérique des Données de Recherche](https://dataarchivage.sciencesconf.org/)", Grenoble, 20 novembre 2019. Elles ne sont pas de même nature (seul la plateforme du CINES est une plateforme d'archivage pérenne), mais toutes ont été construites pour préserver les données sur un temps long.
-
-[Proposition CH
-
-Ces présentations offrent un panorama des différents processus ou démarches d’archivage à long terme mis en place dans diverses disciplines scientifiques. On y découvre les politiques de gestion ou de partage des données et les démarches spécifiques à chaque structure pour mettre en place ou organiser un système d’archivage et de préservation des données sur le long terme. 
-
-L’offre de service du CINES est largement détaillée et témoigne de la variété des données archivées. Olivier Rochon retrace le processus d’archivage et rend compte des défis et problématiques qu’il pose.  
-Michel Jacobson présente quant à lui l’offre de service de la TGIR Huma-Num pour l’archivage à long terme.
-
-Ce service co-construit en partenariat avec le CINES consiste en un accompagnement méthodologique et parfois techniques pour l’archivage au sein même du CINES. Il prend la forme aussi de recommandations, d’un dialogue, d’une médiation entre les producteurs de données et le CINES et la prise en charge des coûts d’archivage pour l’utilisateur. Il illustre sa présentation par différents exemples d’archivage en SHS.
-
-Les présentations de Yonny Cardenas et de Jean-François Perrin présentent les politiques de gestion, partage et diffusion des données au centre Paul Langevin et au centre de calcul de l’IN2P3. Yonny Cardenas insiste en particulier sur les qualités et faiblesses de la politique de gestion mise en place, il présente un cas d’utilisation qui mobilise des compétences multidisciplinaires de chercheurs, informaticiens et documentalistes et révèle un besoin crucial d’archivage à long terme.
-
-Gilles Duvert témoigne quant à lui de la préservation des données en Astronomie, discipline dans laquelle les données et l’interopérabilité sont au cœurs de la démarche scientifique depuis 40 ans. Il signale entre autres la pratique qui consiste à archiver et documenter les données à l’aide de standards partagés au niveau international.]
-
-- **Archivage des données au CINES**  (Olivier Rouchon)
-    * [Présentation](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf)
-    * [Enregistrement](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4)
-- **Archivage des données à Huma-NUM** (Michel Jacobson)
-    * [Présentation](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf)
-    * [Enregistrement](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)
-- **Archivage des données à l'In2p3** (Yonny Cardenas)
-    * [Présentation](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)
-    * [Enregistrement](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)
-- **Archivage des données à l'ILL**  (Jean-Francois Perrin)
-    * [Présentation](https://dataarchivage.sciencesconf.org/data/pages/2019_11_19_IMAG_Journee_archivage.pdf)
-    * Enregistrement
-- **Archivage des données en Astronomie** (Gilles Duvert)
-    * [Présentation](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)
-    * [Enregistrement](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4)
 
 
 ### Infrastructures thématiques
