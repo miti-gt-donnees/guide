@@ -210,7 +210,7 @@ Emmanuelle Morlock définit ici la notion de curation et les notions associées,
 Elle aborde ensuite le chapitre de l’édition savante qui l’amène à définir précisément ce qu’est l’édition numérique (un texte enrichi, exploitable par des machines) et à présenter, définir et expliquer le processus d’édition dans un format XML TEI. 
 Elle explique aussi l’apport de la TEI dans la réponse aux défis posés par l’édition numérique (distinction de niveaux d’interprétation via le balisage, conservation et documentation des choix de manière formalisée) et termine sa présentation sur le rôle des « curateurs » pour repérer les manques dans un objectif de réutilisation à long terme ou pour aider les chercheurs à améliorer leurs pratiques de documentation de leurs données.
 
-```{admonition} [De quelques défis spécifiques de la curation numérique des données en SHS : petite incursion dans l’univers de l’édition critique de sources au format TEI](http://renatis.cnrs.fr/IMG/pdf/emma-morlock-fredocs-2013)  
+```{admonition} [De quelques défis spécifiques de la curation numérique des données en SHS : petite incursion dans l’univers de l’édition critique de sources au format TEI](http://renatis.cnrs.fr/IMG/pdf/emma-morlock-fredocs-2013.pdf)
 :class: seealso
 Emmanuelle Morlock, HiSoMa)  
 Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois
