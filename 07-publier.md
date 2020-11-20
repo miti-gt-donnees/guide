@@ -163,8 +163,9 @@ Pour être interopérables sémantiquement, les catalogues de métadonnées se d
 
 De nombreux thesaurus existent comme celui de 
 - "[Inspire](https://www.eionet.europa.eu/gemet/en/inspire-themes/)" ou 
-- "[GEMET](https://www.eionet.europa.eu/gemet/en/themes/)". Ce dernier est un thésaurus documentaire multilingue développé et publié par l'Agence européenne pour l'environnement. Cependant, selon le domaine scientifique, certains thesaurus doivent être créés ou nécessitent de multiples évolutions et mises à jour.
+- "[GEMET](https://www.eionet.europa.eu/gemet/en/themes/)". Ce dernier est un thésaurus documentaire multilingue développé et publié par l'Agence européenne pour l'environnement. 
 
+Cependant, selon le domaine scientifique, certains thesaurus doivent être créés ou nécessitent de multiples évolutions et mises à jour.
 Lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.loterre.fr/skosmos/BLH/fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
 
 ```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv.pdf)
