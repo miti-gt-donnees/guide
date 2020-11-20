@@ -108,7 +108,7 @@ Eric Quinton
 Réseau RBDD, 2017. Paris.   
 ```
 
-Ce logiciel "Talend" a été également utilisé par Soumaya Lahbib pour traiter les fichiers de données issues des capteurs du [projet EMSO Ligure-ouest](https://www.osupytheas.fr/?Presentation-du-projet-EMSO) et les transformer en fichier CSV utilisable facilement.
+Ce logiciel "Talend" a été également utilisé par Soumaya Lahbib pour traiter les fichiers de données issues des capteurs du [projet EMSO Ligure-ouest](https://www.osupytheas.fr/?Presentation-du-projet-EMSO) et les transformer en fichiers CSV utilisables facilement.
 
 ```{admonition} [Gestion des données du projet EMSO avec Talend et Erddap](https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf)    
 :class: seealso
@@ -167,7 +167,7 @@ ANF SIST 2018, Toulouse.
 
 Des exemples d'utilisation des plateformes logicielles Erddap et Thredds ont été présentés lors de différentes sessions des journées du réseau SIST :
 
-G. Brissebrat nous montre comment son diffusées des données maillées NetCDF du SEDOO avec la plateforme logicielle Thredds. Les avantages évoqués sont nombreux :
+G. Brissebrat nous montre comment sont diffusées des données maillées NetCDF du SEDOO avec la plateforme logicielle Thredds. Les avantages évoqués sont nombreux :
 - Consulter les métadonnées sans avoir à télécharger le jeu de données
 - Accéder uniquement à une partie d’un jeu de données
 - Télécharger un seul fichier même si les données originales sont réparties dans plusieurs fichiers
@@ -183,19 +183,21 @@ Guillaume Brissebrat, Service de données de l'OMP
 [Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/)    
 ```
 
-```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist16.sciencesconf.org/data/pages/11_T_Valero_F_Bongat.pdf)    
-:class: seealso
-Thierry Valéro, Institut de Recherche pour le Développement, Laboratoire d'Océanographie et du Climat   
-[Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)    
-```
 ```{admonition} [Eccad, un exemple de mise en oeuvre de Thredds](https://sist19.sciencesconf.org/data/pages/SIST19_S_Darras.pdf)   
 :class: seealso
 Sabine Darras, Observatoire Midi-Pyrénées   
 [Séminaire SIST 2019 OMP Toulouse](https://sist19.sciencesconf.org/)   
 ```
 
+
+```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist16.sciencesconf.org/data/pages/11_T_Valero_F_Bongat.pdf)    
+:class: seealso
+Thierry Valéro, Institut de Recherche pour le Développement, Laboratoire d'Océanographie et du Climat   
+[Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)    
+```
+
 Dans cette présentation les auteurs montrent un workflow complexe depuis l'acquisition de données a 2500m de profondeur, jusqu'à l'affichage et la diffusion sur un serveur Erddap.
-les données de capteurs sont traitées avec l'ETL Talend pour produire des fichiers CSV et NetCDF qui sont diffuséq via la plateforme Erddap. Dans le cas de séries temporelles qui s'enrichissent quotidiennement, erddap permet d'aggréger automatiquement les données  journalières qui sont déposées par programme dans un répertoire, sans intervention humaine.
+Les données de capteurs sont traitées avec l'ETL Talend pour produire des fichiers CSV et NetCDF qui sont diffusées via la plateforme Erddap. Dans le cas de séries temporelles qui s'enrichissent quotidiennement, erddap permet d'aggréger automatiquement les données  journalières qui sont déposées par programme dans un répertoire, sans intervention humaine.
 
 ```{admonition} [Gestion des données du projet EMSO avec Talend et Erddap](<https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf>)   
 :class: seealso
