@@ -167,8 +167,17 @@ ANF SIST 2018, Toulouse.
 
 Des exemples d'utilisation des plateformes logicielles Erddap et Thredds ont été présentés lors de différentes sessions des journées du réseau SIST :
 
-G. Brissebrat nous montre comment son diffusées des données maillées NetCDF du SEDOO avec la plateforme logicielle Thredds
-```{admonition} [Distribution et visualisation de données avec Thredds, exemples d'utilisation au SEDOO](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz#pdfviewer)     
+G. Brissebrat nous montre comment son diffusées des données maillées NetCDF du SEDOO avec la plateforme logicielle Thredds. Les avantages évoqués sont nombreux :
+- Consulter les métadonnées sans avoir à télécharger le jeu de données
+- Accéder uniquement à une partie d’un jeu de données
+- Télécharger un seul fichier même si les données originales sont réparties dans plusieurs fichiers
+- Avoir le choix entre plusieurs moyens d’accéder aux données
+- Accéder aux données dans des format compatibles avec les outils communs d’analyse ou de visualisation de données
+- Offrir plusieurs formats et protocoles d’accès aux données-
+- Fournir une prévisualisation des données
+- Pouvoir moissonner des données d’un autre serveur Thredds
+
+```{admonition} [Distribution et visualisation de données avec Thredds, exemples d'utilisation au SEDOO](https://nuage.osupytheas.fr/s/XsJSkXxCjkHwrfP)
 :class: seealso
 Guillaume Brissebrat, Service de données de l'OMP   
 [Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/)    
@@ -179,18 +188,22 @@ Guillaume Brissebrat, Service de données de l'OMP
 Thierry Valéro, Institut de Recherche pour le Développement, Laboratoire d'Océanographie et du Climat   
 [Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)    
 ```
+```{admonition} [Eccad, un exemple de mise en oeuvre de Thredds](https://sist19.sciencesconf.org/data/pages/SIST19_S_Darras.pdf)   
+:class: seealso
+Sabine Darras, Observatoire Midi-Pyrénées   
+[Séminaire SIST 2019 OMP Toulouse](https://sist19.sciencesconf.org/)   
+```
+
+Dans cette présentation les auteurs montrent un workflow complexe depuis l'acquisition de données a 2500m de profondeur, jusqu'à l'affichage et la diffusion sur un serveur Erddap.
+les données de capteurs sont traitées avec l'ETL Talend pour produire des fichiers CSV et NetCDF qui sont diffuséq via la plateforme Erddap. Dans le cas de séries temporelles qui s'enrichissent quotidiennement, erddap permet d'aggréger automatiquement les données  journalières qui sont déposées par programme dans un répertoire, sans intervention humaine.
 
 ```{admonition} [Gestion des données du projet EMSO avec Talend et Erddap](<https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf>)   
 :class: seealso
 Soumaya Lahbib, Maurice Libes, OSU Pytheas  
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.
 ```
+La plateforme de gestion de données Erddap est utilisée dans le projet Européen EMSO et permet de constituer un réseau de serveurs qui  regroupe les données d'un même projet avec des données issues de sites différents  http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000
 
-```{admonition} [Eccad, un exemple de mise en oeuvre de Thredds](https://sist19.sciencesconf.org/data/pages/SIST19_S_Darras.pdf)   
-:class: seealso
-Sabine Darras, Observatoire Midi-Pyrénées   
-[Séminaire SIST 2019 OMP Toulouse](https://sist19.sciencesconf.org/)   
-```
 
 Les présentations suivantes fournissent  un certain nombre de connaissances sur l’utilisation d'infrastructure
 de données géographiques (IDS, IDG) et de différentes plateforme logicielle de gestion des données
