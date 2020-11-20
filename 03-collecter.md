@@ -6,7 +6,7 @@ Cette phase du cycle de vie de la donnée concerne les aspects d'acquisition et 
 La description  de ces jeux de données nécessite d'utiliser, autant que faire se peut, des référentiels de vocabulaires contrôlés (thésaurus) si possible standardisés et les plus appropriés au domaine étudié. Il est conseillé de gérer les jeux de données dans un environnement technique qui permette d’assurer la sauvegarde, l'archivage, le "versionning",  l’accessibilité et l'interopérabilité des données. Cette gestion se fait via des infrastructures techniques, des bases ou des supports qui doivent être fiables et bien documentés, et ce dans le respect des règles de traitement spécifiques des données personnelles.
 
 Cette phase "Collecter" va nécessiter :
-de
+
    * de disposer des données et de fournir les métadonnées nécessaires pour apporter toutes les informations utiles à la description des données brutes elles-mêmes (libellés des paramètres, unités de mesure, localisation, propriétaires etc.), ainsi que sur les dispositifs d'acquisition (capteurs de mesures, modèles numériques...);
    * de mettre en place des chaines de collecte : du capteur jusqu'aux espaces disques et aux applications sur des serveurs où les traitements pourront être réalisés, avec la documentation adaptée;
    * d'utiliser des protocoles si possibles normalisés ou standardisés pour présenter les données brutes et les dispositifs d'acquisition (capteurs...) et les rendre interopérables;
