@@ -43,29 +43,25 @@ Dans ce document, nous avons donc voulu témoigner des travaux réalisés au sei
 
 Ce guide est donc un document un peu hybride proche du vadémécum, composé d’un inventaire d’actions de formations (conférences, séminaires, présentations), d’un répertoire de liens, de recommandations professionnelles, complétées de définitions utiles, pour approfondir le sujet de la gestion des données dans les réseaux métiers.
 
-Il s’adresse à toute personne désireuse de se former à la gestion des données de la recherche et son objectif et aider le lecteur à analyser son besoin et trouver des solutions. Il consititue aussi une invitation à se rapprocher des réseaux métiers.
+Il s’adresse à toute personne désireuse de se former à la gestion des données de la recherche, et son objectif et d'aider le lecteur à analyser son besoin et trouver des solutions parmi l'eventail des communications qui sont présentées. Il constitue aussi une invitation à se rapprocher des réseaux métiers.
 
 ## Sommaire 
 
 Ce Guide abordera l'ensemble des phases et actions nécessaires pour une gestion FAIR des données :
 
-- Les 2 premières phases « {ref}`imaginer` et {ref}`concevoir-planifier` », sont les étapes préparatoires d’un projet, où l’on se préoccupe d’avoir toutes les informations nécessaires à la bonne gestion des données et du projet. C’est l’étape où l’on réfléchit au de plan de gestion de données, où l’on prépare les espaces de stockage et où l’on met en place les outils de gestion de projet. Cette partie, très générique et a pour objectif de conduire le lecteur à s’interroger sur ses besoins, les moyens dont il dispose, à se poser les bonnes questions et à s’orienter pour trouver des solutions adaptées dans un environnement riche, construction et à surveiller.
+- Les 2 premières phases « {ref}`imaginer` et {ref}`concevoir-planifier` », sont les étapes préparatoires d’un projet, où l’on se préoccupe d’avoir toutes les informations nécessaires à la bonne gestion des données et du projet. C’est l’étape où l’on réfléchit au  plan de gestion de données, où l’on prépare les espaces de stockage et où l’on met en place les outils de gestion de projet. Cette partie, très générique et a pour objectif de conduire le lecteur à s’interroger sur ses besoins, les moyens dont il dispose, à se poser les bonnes questions et à s’orienter pour trouver des solutions adaptées dans un environnement riche, en construction et à surveiller.
 
 Les phases suivantes apportent des éléments plus spécifiques au lecteur pour répondre à des besoins plus techniques
 
-- L’étape 3 « "{ref}`collecter`" » rend compte de la pratique de collecte et du processus d’acquisition des données (équipements, capteurs …). Elle informe tout particulièrement sur l’usage des normes et standards d’interopérabilité nécessaires à la constitution et « FAIRISATION » des jeux de données. Elle apporte aussi un éclairage sur les environnements de stockage des données existants et la nécessité de sauvegarder des données.
+- L’étape 3 « "{ref}`collecter`" » rend compte de la pratique de collecte et du processus d’acquisition des données (équipements, capteurs …). Elle informe tout particulièrement sur l’usage des normes et standards d’interopérabilité nécessaires à la constitution et « FAIR-isation » des jeux de données. Elle apporte aussi un éclairage sur les environnements de stockage des données existants et la nécessité de sauvegarder des données.
 
--	L’étape phases 4 « "{ref}`traiter`" » témoigne du prétraitement des données brutes acquises et collectées précédemment. Elle guide le lecteur sur la nécessaire préparation des fichiers de données pour les rendre ouvert et interopérables. Ici tout comme dans la phase précédente la connaissance et la maîtrise des formats et standards est importante.  Cette étape est également celle de l’organisation des données qui implique dans certains cas de développer des procédures d’intégration des données dans les bases de données ou d’utiliser un cadre d’application d’agrégation de données. Il est important aussi à ce stade de se préoccuper du dépôt des données dans des plateformes de gestion locales qui facilitent leur gestion et de mettre en place un contrôle qualité
+-	L’étape phases 4 « "{ref}`traiter`" » témoigne du prétraitement des données brutes acquises et collectées précédemment. Elle guide le lecteur sur la nécessaire préparation des fichiers de données pour les rendre ouverts et interopérables. La connaissance et la maîtrise des formats et standards est importante.  Cette étape est également celle de l’organisation des données qui implique dans certains cas de développer des procédures d’intégration des données dans les bases de données ou d’utiliser un cadre d’application d’agrégation de données. Il est important aussi à ce stade de se préoccuper du dépôt des données dans des plateformes de gestion locales qui facilitent leur accès etgestion, et de mettre en place un contrôle qualité.
 
 -	la phase 5 "{ref}`analyser`" est la phase d’analyse dans laquelle on s’occupe de définir et mettre en place des chaines logicielles avec des méthodes et des outils. Cette partie informe le lecteur sur les plateformes, outils et méthodes utilisés principalement dans la communauté du calcul pour analyser et visualiser les données.  Elle présente également quelques projet d’analyse sémantiques de données textuelles ainsi que des services Text and Data Mining.
 
 -	la phase 6 "{ref}`archiver`" rend compte de l’importance de préserver et archiver les données sur le long terme. On s’attache dans cette partie a bien définir et clarifier les termes, réfléchir aux données pertinentes à préserver et voir quelles solutions s’offrent à nous.
 
-- la phase 6 "{ref}`archiver`" rend compte de l'importance de préserver et archiver les données sur le long terme. On s'attarde a bien définir le sens des termes, réfléchir aux données pertinentes à préserver et voir quelles solutions s'offrent à nous.
-
 - la phase 7 "{ref}`publier`" est la phase finale permettant de diffuser les données correctement de manière interopérable à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapapers.
-
-A TRAVILLER :
 
 Ce guide n'a pas un caractère exhaustif, il n'a pas le soutiens métier de tous les réseau et nous invitons les réseaux à nous faire remonter
 
