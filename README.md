@@ -17,3 +17,23 @@ Groupe de travail "Atelier Données"
 10.	[Infrastructure](10-infrastructures.md) : Geneviève
 11.	[Reproductibilite](11-reproductibilite.md)
 
+## Compilation locale
+
+Téléchargez le dépôt:
+```
+git clone https://gitlab.math.unistra.fr/mi-gt-donnees/synthese
+```
+
+Installez les paquets python
+```
+cd synthese
+pip install -r requirements.txt
+```
+
+Compilez le document et visualiser le document
+```
+make
+cd public
+python -m http.server
+```
+Ouvrez votre navigateur à l'adresse <http://localhost:8000>
