@@ -234,9 +234,9 @@ Gilles Duvert témoigne quant à lui de la préservation des données en Astrono
 
 ```{admonition} [Archivage des données à Huma-NUM](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf)
 :class: seealso
-Michel Jacobson, Huma-Num
-[Archivage Numérique des Données de Recherche, 2019, Grenoble
-[Voir aussi la Vidéo](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)
+[video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)
+Michel Jacobson, Huma-Num  
+Archivage Numérique des Données de Recherche, 2019, Grenoble   
 ```  
 
 
