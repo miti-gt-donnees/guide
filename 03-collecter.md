@@ -115,11 +115,11 @@ Véronique Chaffard, IRD
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)
 ```
 
-### Les systèmes d'acquisition : maîtriser l’acquisition et la collecte des données
+## Les systèmes d'acquisition : maîtriser l’acquisition et la collecte des données
 
 Il est important que le processus de collecte des données soit clairement défini et validé. Par exemple, il conviendra de s'assurer que les systèmes d'acquisition sont bien étalonnés. Par ailleurs, l'ensemble des données produites doit être parfaitement répertorié et enregistré. Nous disposons pour ce faire d’un certain nombre de supports tels que les cahiers de laboratoires, les carnets de terrain... 
 
-#### Métrologie des équipements
+### Métrologie des équipements
 
 Par nature, la recherche n’est pas un processus répétitif, elle est pleine d'aléas et d'incertitudes contrairement à un processus industriel. 
 La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par des chercheurs différents à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées, cela est le cas de toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse) et que la traçabilité des activités de recherche soit ainsi assurée. 
@@ -145,7 +145,7 @@ Journée thématique, réseau QeR, 2017
 ```
 
 
-#### Les capteurs
+### Les capteurs
 
 Diverses communautés scientifiques sont intéressées par les problématiques inhérentes aux systèmes d'acquisitions et aux instruments associés. Différents aspects de collecte de données existent, qu'ils proviennent d'un équipement, d'un capteur automatisé, d'un modèle numérique ou qu'ils soient obtenus par un personnel de terrain, par une enquête, au moyen d'interfaces... Dès lors, il convient d'élaborer des méthodologies de collecte, de se documenter sur les choix des référentiels de métadonnées et des thésaurus de vocabulaire, mais également de développer les procédures d'intégration des données dans les bases.
 
@@ -208,7 +208,7 @@ Alban Thomas - Hervé Quénol UMR LETG Rennes
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)   
 ```
 
-#### Web scraping, collecte automatique et analyse de données 
+### Web scraping, collecte automatique et analyse de données 
 
 "Le Web scraping est une technique permettant de convertir des données présentes dans un format non structuré (balises HTML) sur le Web en un format structuré facilement utilisable. Les exemples peuvent aller du texte sur Wikipedia, à des images sur Flickr en passant par les commentaires sur TripAdvisor, les articles d’actualité ou de chercheurs ou n’importe quelle page web présente sur Internet" [Introduction au Webscraping](https://stateofther.github.io/finistR2018/atelier1_webscraping_intro.html).
 
