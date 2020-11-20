@@ -309,7 +309,7 @@ MC Quidoz
 atelier traçabilité RBDD 2018](http://rbdd.cnrs.fr/spip.php?article288)
 ```
 
-Sophie Pamerlon rappelle les définitions des identifiants uniques et persistants, puis présente le "Integrated Publishing Toolkit" (IPT) mis en place par le GBIF dans le domaine de la biodiversité et ses nouvelles fonctionnalités, en particulier l'attribution de DOI lors de la publication d'un jeu de données.
+Sophie Pamerlon rappelle les définitions des identifiants uniques et persistants, puis présente le "Integrated Publishing Toolkit" (IPT) mis en place par le GBIF Global Biodiversity Information Facility) dans le domaine de la biodiversité et ses nouvelles fonctionnalités, en particulier l'attribution de DOI lors de la publication d'un jeu de données.
 
 ```{admonition} [Le GBIF et les identifiants persistants](http://rbdd.cnrs.fr/IMG/pdf/ipt_doi_rbdd.pdf?137/a5e7031e901f58c648f3f12eff64396a7b34a169) : Application des DOI aux jeux de données  
 :class: seealso
@@ -443,11 +443,7 @@ Publier un data paper permet de :
 - leur apporter de la visibilité,
 - les rendre plus facilement repérables et citables; le data paper étant une publication citable, au même titre que tout article scientifique, il met en valeur ses auteurs en tant que créateur de données et permet la traçabilité des citations et des réutilisations.
 
-Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers. Il n’existe pas, à ce jour, de catalogue ou de répertoire à proprement dit mais nous vous recommandons la consultation de ces listes de liens génériques :
-- [CIRAD](https://coop-ist.cirad.fr/content/download/6265/45560/version/3/file/Coopist-Revues+publiant+des+datapapers-nov+2017.pdf),
-- [Forschungsdaten](https://www.forschungsdaten.org/index.php/Data_Journals),
-- [Datashare](https://www.wiki.ed.ac.uk/display/datashare/Sources+of+dataset+peer+review)
-- et dans le [domaine de la bio-diversité](http://www.gbif.fr/page/contrib/publier-un-datapaper).
+Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers. Il n’existe pas, à ce jour, de catalogue ou de répertoire à proprement dit mais nous vous recommandons la consultation de ces listes de liens génériques : [CIRAD](https://coop-ist.cirad.fr/content/download/6265/45560/version/3/file/Coopist-Revues+publiant+des+datapapers-nov+2017.pdf), [Forschungsdaten](https://www.forschungsdaten.org/index.php/Data_Journals), [Datashare](https://www.wiki.ed.ac.uk/display/datashare/Sources+of+dataset+peer+review) et dans le [domaine de la bio-diversité](http://www.gbif.fr/page/contrib/publier-un-datapaper).
 
 Après avoir expliqué pourquoi le GBIF et l’éditeur de revues PENSOFT ont proposé le concept de data paper, Sophie Pamerlon en explique les avantages et comment les outils du GBIF facilitent la rédaction d'un datapaper en biodiversité à travers quelques exemples concrets.
 
