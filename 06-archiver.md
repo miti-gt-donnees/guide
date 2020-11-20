@@ -242,14 +242,14 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 ```{admonition} [Archivage des données à l'In2p3](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)   
 :class: seealso
 [video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
-Yonny Cardenas, CC IN2P3   
+Yonny Cardenas, CC-IN2P3   
 Archivage Numérique des Données de Recherche, 2019, Grenoble   
 ```
-
 ```{admonition} [Gestion des données scientifiques à l'Institut Laue Langevin](https://dataarchivage.sciencesconf.org/data/pages/2019_11_19_IMAG_Journee_archivage.pdf)   
+:class: seealso
 Jean-Francois Perrin, ILL   
-Archivage Numérique des Données de Recherche, 2019, Grenoble   
-```
+Archivage Numérique des Données de Recherche, 2019, Grenoble  
+
 
 ```{admonition} [L'archivage des données en astronomie](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)   
 :class: seealso
