@@ -15,7 +15,7 @@ Cette phase "Collecter" va nécessiter :
    * de définir le stockage nécessaire à la collecte de données : travailler en amont avec une équipe informatique en mode projet (gestion de projet).
 
 
-## Utiliser des Normes et Standards d'interopérabilité
+## Utiliser des normes et des standards d'interopérabilité
 
 L'AFUL (Association Francophone des Utilisateurs de Logiciels Libres) donne une définition de [l’interopérabilité](https://aful.org/gdt/interop) qui est "la capacité que possède un produit ou un système, dont les interfaces sont intégralement connues, à fonctionner avec d'autres produits ou systèmes existants ou futurs, et ce sans restriction d'accès ou de mise en œuvre" . Développer l'interopérabilité consiste donc à mettre en place et utiliser des normes et des standards qui fixent des règles permettant d'assurer le bon fonctionnement et les échanges entre deux systèmes informatiques.
 
@@ -47,7 +47,7 @@ Marie Puren, INRIA
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données", réseau Renatis, Paris, 2017   
 ```
 
-### Kes référentiels de métadonnées 
+### Les référentiels de métadonnées 
 
 Les référentiels de métadonnées peuvent être des standards ou des normes; ce sont des documents importants qui se chargent de définir les informations nécessaires pour décrire les données elles-mêmes. Ils sont de ce fait utilisés pour donner toutes les informations nécessaires à la compréhension et à l'utilisation des données et ainsi faciliter leur réutilisabilité. Il est donc fortement recommandé de décrire ses données avec des normes ou des standards reconnus dans les disciplines concernées. Le choix d'un standard de métadonnées va dépendre du type de ressource, du domaine d'application, mais également de la communauté à laquelle on s'adresse. 
 
@@ -119,7 +119,7 @@ Véronique Chaffard, IRD
 
 Il est important que le processus de collecte des données soit clairement défini et validé. Par exemple, il conviendra de s'assurer que les systèmes d'acquisition sont bien étalonnés. Par ailleurs, l'ensemble des données produites doit être parfaitement répertorié et enregistré. Nous disposons pour ce faire d’un certain nombre de supports tels que les cahiers de laboratoires, les carnets de terrain... 
 
-### Métrologie des équipements
+### La métrologie des équipements
 
 Par nature, la recherche n’est pas un processus répétitif, elle est pleine d'aléas et d'incertitudes contrairement à un processus industriel. 
 La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par des chercheurs différents à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées, cela est le cas de toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse) et que la traçabilité des activités de recherche soit ainsi assurée. 
@@ -184,7 +184,7 @@ Stéphane Debard IRD
 [Séminaire SIST19 OMP Toulouse](http://sist19.sciencesconf.org)   
 ```
 
-### Des chaines de collecte
+### Les chaines de collecte
 Les gestionnaires de données environnementales mettent en place des chaînes de collecte de données provenant de capteurs de terrains ou de modèles numériques. Ils se préoccupent de l’utilisation de normes interopérables dans les protocoles d'échange et dans les formats de données.
 
 Regis Hocdé et ses collègues nous présentent un retour d'expérience sur le réseau de suivi de température des eaux côtières dans la région du Pacifique Sud et Sud-Ouest :
