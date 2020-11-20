@@ -272,7 +272,10 @@ ANF "Interfacer les outils mobiles avec son système d’information", réseau R
 ```
 
 
-On retrouve de nombreuses méthodes dans le milieu environnemental pour essayer de qualifier les données, illustrées par les exposés suivants donnés lors des journées de séminaires SIST (Séries Interopérables et Systèmes de Traitement) du réseau technologique des informaticiens et gestionnaires de données des observatoires :
+Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/) permettent de qualifier les données et d'attribuer un code qualité a des données après analyse par un expert du domaine.
+ODV est un format de fichiers, et un logiciel utilisés par le projet européen [SeadataNet](https://www.seadatanet.org/Software/ODV). 
+
+Cependant peu de logiciels de traitement de données propose d'associer des codes qualités aux données, aussi on retrouve souvent de nombreuses méthodes et implémtenations personnelles pour essayer de qualifier les données, illustrées par les exposés suivants donnés lors des journées de séminaires SIST (Séries Interopérables et Systèmes de Traitement) :
 
 P. Téchiné présente les méthodes de suivi de la qualité de diverses mesures comme le niveau de la mer ou la salinité de surface (SSS: Sea Surface Salinity ) dans différents projets. On peut constater la diversité des solutions mises en place.
 
@@ -282,17 +285,7 @@ Philippe Téchiné, B. Buisson, L. Testut, T. Delcroix, G. Alory, Laboratoire d'
 [Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)   
 ```
 
-[MCQ - debut] je me demande si ca n'irait pas plus dans la partie ## Organiser les données
-Dans son projet A. Campos utilise un ensemble de Script en python pour convertir les fichiers "xls" en fichier ascii, puis effectue un nettoyage avec la commande "awk" de Unix. Enfin des scripts en langage "R" permet de faire des moyennes glissantes, des graphes et des exports des fichiers au formt Netcdf
-
-```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
-:class: seealso
-André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques   
-[SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
-```
-[MCQ - fin] 
-
-Dans cette présentation Lynn Hazan décrit son processus d'atribution de code qualité.
+- Dans cette présentation Lynn Hazan décrit son processus d'atribution de code qualité.
 Comme nous l'avons indiqué précédemment dans la phase de traitement, Les données sont obtenues en temps quasi-réel et sont transformées en données consolidées par un traitement qui permet d’en augmenter la précision et la confiance.
 Les étapes de consolidation incluent une expertise humaine avec une inspection visuelle afin de détecter des problèmes
 potentiels difficilement détectables automatiquement.
@@ -305,7 +298,7 @@ Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement
 [Séminaire SIST 2018 OVSQ ](https://sist18.sciencesconf.org/), Guyancourt.   
 ```
 
-Dans cette présentation, les auteurs abordent la qualité des données sous l'angle utilisation de référentiels pour décrire finement les données et les rendre interopérables
+- Dans cette présentation, les auteurs abordent la qualité des données sous l'angle utilisation de référentiels pour décrire finement les données et les rendre interopérables
 
 ```{admonition} [La qualité des données à l'OSU OREME](https://sist18.sciencesconf.org/data/pages/31_F_Fabre_O_Lobry_Qualite_des_donnees_de_l_OSU_OREME_.pdf)   
 :class: seealso
@@ -319,7 +312,7 @@ Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'En
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
 ```
 
-Dans cette présentation, les auteurs proposent un développement graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour visualiser et valider des données de séries temporelles.
+- Dans cette présentation, les auteurs proposent un développement graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour visualiser et valider des données de séries temporelles.
 
 ```{admonition} [Outil web interactif de visualisation et validation de séries temporelles](https://nuage.osupytheas.fr/s/qmJrrMLFHwN729G)
 :class: seealso
@@ -327,7 +320,12 @@ Olivier Lobry, Juliette Fabre
 [Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/).    
 ```
 
+Dans son projet A. Campos utilise un ensemble de Script en python pour convertir les fichiers "xls" en fichier ascii, puis effectue un nettoyage avec la commande "awk" de Unix. Enfin des scripts en langage "R" permet de faire des moyennes glissantes, des graphes et des exports des fichiers au formt Netcdf
 
-Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/) permettent de qualifier les données et d'attribuer un code qualité a des données après analyse par un expert du domaine.
-ODV est un format de fichiers, et un logiciel utilisés par le projet européen [SeadataNet](https://www.seadatanet.org/Software/ODV). 
+```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
+:class: seealso
+André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques   
+[SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
+```
+
 
