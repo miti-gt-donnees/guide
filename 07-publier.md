@@ -141,7 +141,7 @@ Le projet européen Seadatanet vise à élaborer et mettre en place un portail e
 
 Seadatanet est un exemple d'envergure européenne pour la mise en place de standards d'interopérabilité. Il repose sur de nombreux vocabulaires contrôlés fournis par le BODC. Une présentation du projet Seadatanet a été faite par Michele Fichaut et Florence Conquet  
 
-```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://sist15.sciencesconf.org/program)
+```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://nuage.osupytheas.fr/s/9iKa6GLzHGJ95Zz)
 :class: seealso
 Michèle Fichaut, Systèmes d'Informations Scientifiques pour la Mer   
 [Séminaire SIST15 OSU Pytheas Marseille 2015](https://sist15.sciencesconf.org/)   
