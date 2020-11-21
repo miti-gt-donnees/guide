@@ -22,18 +22,22 @@ Plus récemment dans le cadre de l'atelier Dialogu’IST, Réseau Renatis, le 9 
 
 L'infrastructure EGI a été présentée de façon complète en 2018 lors des JCAD, Journées Calcul et Données : la fédération, les participants, le catalogue de services, les utilisateurs, le positionnement dans EOSC. Le projet EOSC-Hub qui participe à la construction d'EOSC est également détaillé. C'est la présentation à consulter si vous souhaitez savoir ce qu'est EGI.
 
-* [EGI, the EOSC and the Hub](https://jcad2018.sciencesconf.org/data/20181024_JCAD_EGI_v1.1.pdf)  
+```{admonition} [EGI, the EOSC and the Hub](https://jcad2018.sciencesconf.org/data/20181024_JCAD_EGI_v1.1.pdf)  
+:class: seealso
     [vidéo EGI, the EOSC and the Hub](https://webcast.in2p3.fr/video/egi)   
     Yannick Legré, directeur de la fondation EGI  
     JCAD 2018
+```
 * Pour compléter, vous pouvez aussi consulter [une présentation plus détaillée de son mode de fonctionnement]( https://jcad2018.sciencesconf.org/data/Federation_EGI_Operations_AAI_et_cloud.pdf) 
 
 Une présentation des évolutions a eu lieu en 2019 avec un focus sur quelques services EGI - Check-in, Cloud, Stockage, Notebooks, Application on Demand - et quelques communautés utilisatrices.
 
-* [Update about EGI and services to support user communities and Federation's participants](https://jcad2019.sciencesconf.org/data/EGI_update_about_services_2019_10_10_JCAD_v3_vf.pdf)      
+```{admonition} [Update about EGI and services to support user communities and Federation's participants](https://jcad2019.sciencesconf.org/data/EGI_update_about_services_2019_10_10_JCAD_v3_vf.pdf)      
+:class: seealso
     [vidéo](https://prismes.univ-toulouse.fr/player.php?code=4Q88P63z&width=100%&height=100%)   
     Baptiste Grenier, fondation EGI  
     JCAD 2019
+```
 
 ## Infrastructures Nationales
 
@@ -61,22 +65,30 @@ De nombreuses infrastructures offrent des services à la communauté scientifiqu
 
 Le catalogue de services de France Grilles propose des services de traitement de données qui s'appuient sur une infrastructure de grille et une infrastructure cloud ainsi que des services de stockage de données. L'ensemble est interconnecté permettant aux données stockées d'être traitées grâce aux services grille et cloud.
 
-* Un poster présente le service de stockage de France Grilles : [FG-iRODS : un service de gestion de données pour les communautés scientifiques à l'échelle nationale et européenne basé une infrastructure fédérée](https://jcad2019.sciencesconf.org/data/Poster_FG_iRODS_2019_JCAD.pdf)   
+Un poster présente le service de stockage de France Grilles : 
+
+```{admonition} [FG-iRODS : un service de gestion de données pour les communautés scientifiques à l'échelle nationale et européenne basé une infrastructure fédérée](https://jcad2019.sciencesconf.org/data/Poster_FG_iRODS_2019_JCAD.pdf)   
+:class: seealso
     Emmanuel Medernach, Jérôme Pansanel, Raphaël Flores, Christine Gondrand, Patrick Moreau, Vincent Negre, Genevieve Romier  
     JCAD 2019
+```
 
-* Un autre poster a pour objet le cloud France Grilles : [FG-Cloud: the French Academic Cloud for Scientific computing](https://jcad2018.sciencesconf.org/data/Poster_FG_Cloud_2018.pdf)   
+```{admonition} Un autre poster a pour objet le cloud France Grilles : [FG-Cloud: the French Academic Cloud for Scientific computing](https://jcad2018.sciencesconf.org/data/Poster_FG_Cloud_2018.pdf)   
+:class: seealso
     Groupe FG-Cloud   
     JCAD 2018
+```
 
 Il est aussi important de se faire une idée à travers des retours d'expérience réalisés par des collègues. En voici quelques exemples récents :
 
 Le projet Phénome, Infrastructure nationale de phénomique végétale, regroupe sur 9 sites des plateformes expérimentales de phénotypage haut-débit(champ, serre, omique). Un système complet a été mis en place pour ce projet, système qui s'appuie sur les services FG-iRODS et FG-Cloud.
 
-* [Déploiement de la plateforme de traitement des données phénotypage haut débit 4P sur l'infrastructure France Grilles](https://jcad2019.sciencesconf.org/data/4P.pdf)   
+```{admonition} [Déploiement de la plateforme de traitement des données phénotypage haut débit 4P sur l'infrastructure France Grilles](https://jcad2019.sciencesconf.org/data/4P.pdf)   
+:class: seealso
     [vidéo](https://prismes.univ-toulouse.fr/player.php?code=P0420GlL&width=100%&height=100%)   
     Vincent Negre, Eric David, Philippe Burger, Romain Chapuis, Boris Adam,  Anne Tireau, Patrick Moreau, Antony Tong, Samuel Thomas, Gallian Colombeau, Pascal Neveu, Jérôme Pansanel, Frédéric Baret, Marie Weiss  
     JCAD 2019
+```
 
 **Centres de calcul de GENCI**
 
@@ -85,10 +97,12 @@ Les plateformes de calcul intensif nationales, ainsi que leurs évolutions, sont
 - Ainsi lors des [JCAD 2019](https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf) a été abordé le supercalculateur Jean Zay dont une partie est dédiée à l'Intelligence Articficielle (IA)
 - La [présentation de GENCI au JCAD 2018](https://jcad2018.sciencesconf.org/data/presentation_genci_24_10_2018.pdf) propose une approche plus générale et introduit également l'écosystème national des mésocentres, et les projets européens liés au calcul intensif. 
 
-* [Actualité GENCI](https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf)   
+```{admonition} [Actualité GENCI](https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf)   
+:class: seealso
     [vidéo](https://prismes.univ-toulouse.fr/player.php?code=0j2Egs4s&width=100%&height=100%)   
     Philippe Lavocat représenté par Elise Quentel et Jean-Philippe Proux, GENCI  
     JCAD 2019
+```
 
 **Infrastructures des mésocentres et centres régionaux, quelques exemples**
  
@@ -104,19 +118,23 @@ Les plateformes de calcul intensif nationales, ainsi que leurs évolutions, sont
  
 Il est aussi possible d'utiliser des ressources fournies par plusieurs mésocentres dans le cadre d'un même projet. Ce retour d'expérience dans le domaine de la chimie en est un témoignage.
 
-* [Calculs de chimie quantique distribués entre méso-centres avec Quantum Package](https://jcad2019.sciencesconf.org/data/JCAD2019AScemama.pdf)
+```{admonition} [Calculs de chimie quantique distribués entre méso-centres avec Quantum Package](https://jcad2019.sciencesconf.org/data/JCAD2019AScemama.pdf)
+:class: seealso
     [vidéo](https://prismes.univ-toulouse.fr/player.php?code=6E3Cefg2&width=100%&height=100%)   
     Anthony Scemama, Patrick BOUSQUET-MELOU, Marie-Sophie Cabot, Nicolas Renon  
     JCAD 2019
+```
 
 **Infrastructure pour les expériences à grande échelle en informatique**
 
 SILECS, Super Infrastructure for Large-scale Experimental Computer Science est une infrastructure dédiée aux expériences à grande échelle en informatique basée sur les infrastructures FIT et GRID'5000. Cette infrastructure, tout en conservant les objectifs de FIT et GRID'5000, vise de nouveaux challenges : IoT et Clouds, nouvelles générations de plateformes Cloud et de piles logicielles (Edge, FOG), applications de Data streaming, gestion de volumes de données importants, mobilité...
 
-* [SILECS, une infrastructure pour les expériences à grande échelle en informatique](https://jcad2019.sciencesconf.org/data/silecs_jcad2019.pdf)   
+```{admonition} [SILECS, une infrastructure pour les expériences à grande échelle en informatique](https://jcad2019.sciencesconf.org/data/silecs_jcad2019.pdf)   
+:class: seealso
     [vidéo](https://prismes.univ-toulouse.fr/player.php?code=4HxTGQp2&width=100%&height=100%)   
     Frédéric Desprez, Christian Perez, Inria  
     JCAD 2019
+```
 
 **Les "datalakes"**
 
@@ -124,32 +142,38 @@ De nouvelles infrastructures de stockage de grandes quantités de données appar
 
 Jean-Pierre Gleyze présente le contexte du CNES, quelques applications et leur dimensionnement. Les points de vue des utilisateurs et des administeurs des infrastructures sont exposés, aussi cet exposé intéressera autant les informaticiens que les utilisateurs scientifiques.  
 
-*  [Keynote : Infrastructures de traitement de données : vers un datalake CNES](https://jcad2019.sciencesconf.org/data/JACD_2019_datalake_CNES.pdf)   
+```{admonition} [Keynote : Infrastructures de traitement de données : vers un datalake CNES](https://jcad2019.sciencesconf.org/data/JACD_2019_datalake_CNES.pdf)   
+:class: seealso
     [vidéo](https://prismes.univ-toulouse.fr/player.php?code=x9b2k0Gd&width=100%&height=100%)   
     Jean-Pierre Gleyze, CNES   
     JCAD 2019
+```
 
 CEBA, a pour ambition la création d’un « grand » observatoire de l’environnement en Auvergne, unique en Europe. Ce cloud environnemental permettra la gestion des données à tous les stades de leur cycle de vie. Il propose différents services comme un site Web, des outils d’ingestion, un moteur d’indexation, un catalogue de données, des outils de visualisation qui s'appuient sur une infrastructure incluant des bases de données et système de fichiers.
 
-* [CEBA, un data lake dédié à l'observation des écosystèmes environnementaux](https://jcad2019.sciencesconf.org/data/20191002_JCAD_CEBA.pdf)   
+```{admonition} [CEBA, un data lake dédié à l'observation des écosystèmes environnementaux](https://jcad2019.sciencesconf.org/data/20191002_JCAD_CEBA.pdf)   
+:class: seealso
     [vidéo](https://prismes.univ-toulouse.fr/player.php?code=gS95Z11G&width=100%&height=100%)   
     Francis Ogereau, Vincent Breton, Alexandre Claude, David Grimbichler, Antoine Mahul, Gilles Mailhot, Jérémy Mezhoud, Christine Plumejeaud, Laurent Royer,  Estelle Théveniaud, Richard Vandaele, David Sarramia  
     JCAD 2019
+```
 
 Le projet international DOMA n’est pas un projet de DATALAKE ni un produit mais une organisation qui participera à définir ce que sera un DATALAKE. Ses objectifs sont de
 suivre les avancées et les développements, être un forum de partage d’informations et veiller à l’interopérabilité des différentes solutions de stockage. Une première présentation de DOMA a eu lieu en 2018 et une présentation des évolutions en 2019.
 
-* [Projet DOMA : Réflexions et axes de recherche pour les services de stockage de données scientifiques à l'horizon 2025.](https://jcad2018.sciencesconf.org/data/DOMA_JCAD_v2.pdf)   
+```{admonition} [Projet DOMA : Réflexions et axes de recherche pour les services de stockage de données scientifiques à l'horizon 2025.](https://jcad2018.sciencesconf.org/data/DOMA_JCAD_v2.pdf)   
+:class: seealso
     [vidéo](https://webcast.in2p3.fr/video/projet-doma-reflexions-et-axes-de-recherche-pour-les-services-de-stockage-de-donnees-scientifiques-a-lhorizon-2025)   
     Eric Fede, Centre de Calcul de l'IN2P3, CNRS  
     JCAD 2018
+```
 
-* [Projet DOMA : Retour sur la première année des études faites autour des futurs services de stockage de données scientifiques.](https://jcad2019.sciencesconf.org/data/DOMA_JCAD_2019_v2.pdf)   
+```{admonition} [Projet DOMA : Retour sur la première année des études faites autour des futurs services de stockage de données scientifiques.](https://jcad2019.sciencesconf.org/data/DOMA_JCAD_2019_v2.pdf)   
+:class: seealso
     [video](https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&width=100%&height=100%)   
     Eric Fede, CC-IN2P3, CNRS  
     JCAD 2019
-
-
+```
 
 ### Infrastructures pour l'information scientifique et technique
 
@@ -162,18 +186,22 @@ le partage et l’intéropérabilité des données de la recherche. Et pour fini
 LODEX ou VISA TM pour créer et gérer la terminologie scientifique et permettre le recueil des données sur les publications et la production d’indicateurs 
 bibliométriques
 
-* [Positionnement et offre globale de l’INIST dans le contexte IST en évolution](https://fredoc2018.sciencesconf.org/data/pages/INIST_C_Francois.pd)   
+```{admonition} [Positionnement et offre globale de l’INIST dans le contexte IST en évolution](https://fredoc2018.sciencesconf.org/data/pages/INIST_C_Francois.pd)   
+:class: seealso
     Claire François  
     FREDOC 2018
+```
 
 ### Infrastructures pour les logiciels / les codes sources
 
 Le projet **Software Heritage** a pour objectif de collecter, préserver et rendre disponible le code source (et son historique) de tous les logiciels publiquement disponibles. Cette présentation explique le contexte et les motivations qui ont donné lieu à Software Heritage, puis, l'architecture mise en oeuvre. 
 
-* [Software Heritage: source code archival and analysis at the scale of the world](https://jcad2019.sciencesconf.org/data/2019_10_10_jcadSoftwareHeritage.pdf)  
+```{admonition} [Software Heritage: source code archival and analysis at the scale of the world](https://jcad2019.sciencesconf.org/data/2019_10_10_jcadSoftwareHeritage.pdf)  
+:class: seealso
     [vidéo](https://prismes.univ-toulouse.fr/player.php?code=9rW78559&width=100%&height=100%)  
     Stefano Zacchiroli, Inria  
     JCAD 2019
+```
 
 ### Plateformes d'archivage des données
 
@@ -182,15 +210,15 @@ Il offre une solution pour la conservation à long terme du patrimoine numériqu
 
 A l’occasion d’une intervention au Gricad à Grenoble, Olivier Rouchon, détaille largement l’offre de service du CINES et témoigne de la variété des données archivées. Il retrace également le processus d’archivage et rend compte des défis et problématiques qu’il pose.  
 
-* [L’offre de service archivage du CINES ](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf)    
+```{admonition} [L’offre de service archivage du CINES ](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf)    
+:class: seealso
 Oliver Rouchon, CINES   
 Archivage numérique des données de la recherche, 2019, Grenoble   
 [vidéo](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4)  
+```
   
 A noter :  
 La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de données tout au long du processus d’archivage à long terme vers un dépôt au CINES. (Voir la présentation de Michel Jacobson « [Archivage des données à Huma-Num](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf) » présentée dans la section Préserver et archiver )
-
-
 
 ### Infrastructures thématiques
 
@@ -204,17 +232,21 @@ Les projets de recherche au sein de ces infrastructures ont donné lieu à des r
 
 Dans le domaine de la sismologie et de la géodésie, Résif (Réseau sismologique et géodésique français), une infrastructure de recherche pour l’observation des déformations de la terre a été mise en place. Catherine Pequegnat lors de son intervention aux Frédocs 2013, présente la spécificité des données de sismologie, les réseaux de capteurs associés à ces données et pointe les manques et les avancées en termes de description, de norme, formats pour la transcription et l’échange des données. Elle aborde aussi la question des possibilités d’accès aux données. Elle présente ensuite la TGIR Résif, son projet, son centre de données national (possibilités d’hébergement et de stockage) et sa contribution au projet européen EPOS
 
-* [« RESIF (données sismologiques et géodésiques) »](http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf)  
+```{admonition} [« RESIF (données sismologiques et géodésiques) »](http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf)  
+:class: seealso
 Catherine Pequenat, Institut des Sciences de la Terre, Observatoire des Sciences de l’Univers de Grenoble  
 Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois 
+```
 
 **Astronomie**
 
 Soizick Lesteven, retrace ensuite les missions du centre astronomique de Strasbourg qui depuis 1972 collecte des informations « utiles » sur les objets astronomiques. Elle détaille les processus de collecte et de traitements effectués pour mettre à disposition des données. Elle explique comment se crée l’interopérabilité des données entre les bases « Simbad », « Vizier », « Aladin » et leur interaction avec le dictionnaire des nomenclatures des objets célestes. Elle explique ainsi le processus de création de contenu de qualité, des données d’observations réutilisables et à forte valeur ajoutée pour les équipes de recherche.
 
-* [La gestion des données astronomiques à l’Observatoire Astronomique de Strasbourg](http://renatis.cnrs.fr/IMG/pdf/LESTEVEN.pdf)  
+```{admonition} [La gestion des données astronomiques à l’Observatoire Astronomique de Strasbourg](http://renatis.cnrs.fr/IMG/pdf/LESTEVEN.pdf)  
+:class: seealso
 Soizick Lesteven, Observatoire Astronomique de Strasbourg  
 Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois  
+```
 
 **Sciences Sociales**
 
@@ -226,7 +258,8 @@ infrastructure européenne, le CESSDA (réseau européen des archives de donnée
 Après avoir expliqué les grandes fonctions de Quetelet (dépôt, archivage, documentation, diffusion des données), elle revient sur quelques **enjeux pour l’état, 
 les politiques publiques et autres  acteurs économiques**, le paysage qui se dessine autour de la donnée et qui bouscule les frontières dans le contexte de l’open data.  
 
-* [Réseau Quetelet : Banques de données pour les sciences sociales](http://renatis.cnrs.fr/IMG/pdf/SILBERMAN_08102013.pdf)   
+```{admonition} [Réseau Quetelet : Banques de données pour les sciences sociales](http://renatis.cnrs.fr/IMG/pdf/SILBERMAN_08102013.pdf)   
+:class: seealso
     Roxane Silberman  
     Quetelet, 2013
-
+```
