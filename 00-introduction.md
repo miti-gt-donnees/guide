@@ -20,6 +20,14 @@ Gérer les données de la recherche est un processus complexe qui suppose un tra
 
 Pour formaliser les différentes étapes de gestion des données nous nous sommes servis du "[cycle de vie des données](https://www.cnrs.fr/mi/IMG/png/donnees.png)". Il s’agit d’un cercle vertueux qu'on peut faire correspondre aux différentes phases d’un projet scientifique.
 
+[MCQ - debut] 
+
+on pointe dans le paragraphe sur le schéma (non corrigé) du groupe et d'ailleurs on se demande pourquoi on met un lien vu que l'on met ce cycle de vie en dessus. Ce serait pour mettre le schéma et mettre en dessous une légende style "Cycle de vie des données de la recherche établi par l'Atelier Données en 2017". Pour ma part j'enleverai "etapes pour une gestion FAIR pour les données d'un projet de recherche" et je changerai le texte en dessous "Pour formaliser les différentes étapes de gestion des données, nous nous sommes servis du cyle de vie des données que nous avons élaboré au sein de l'Atelier Données. Il s'agit d'un cercle verteux qu'on peut faire correspondre aux différentes phases d'un projet scientifique". 
+
+Remarque : si quelqu'un se rappelle pourquoi on avait créé son propre cycle de vie plutot que de répartir de cycle de vie existant ca serait bien de l'indiquer. ...
+
+[MCQ - fin]
+
 ## L'apport des réseaux métiers du CNRS
 
 Dans leurs différentes pratiques, les réseaux métiers du CNRS, regroupés au sein de la [Mission pour les Initiatives Transverses Interdisciplinaires](https://miti.cnrs.fr) (MITI) ou soutenus par les Instituts sont en première ligne pour participer à ce mouvement d’ouverture et de partage des données. Les personnels des organismes de recherche qui les constituent, œuvrent pour mettre en place de bonnes pratiques de gestion et participent également au processus de production des données scientifiques aux côtés des équipes de recherche. C’est aussi dans ce cadre qu’ils interviennent en appui et soutien à la recherche scientifique.
@@ -30,7 +38,7 @@ Certes de nombreux guides existent déjà dans le domaine, mais l'originalité d
 
 ## Objectifs du guide
 
-Ce guide est la production de l'[Atelier Données](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html) du groupe de travail Données inter-réseaux. Il s’agit d'un groupe composé de plusieurs réseaux métiers de la MITI ([Calcul](https://calcul.math.cnrs.fr/), [Devlog](http://devlog.cnrs.fr/), [QeR](http://qualite-en-recherche.cnrs.fr/), [Rbdd](http://rbdd.cnrs.fr/), [Renatis](http://renatis.cnrs.fr/), [Resinfo](https://resinfo.org/), [Medici](http://medici.in2p3.fr/)), du [réseau SIST](http://sist.cnrs.fr), (labellisé par l'INSU et regroupant les gestionnaires de données environnementales), de l'INIST, et de la Direction des données ouvertes de la recherche (DDOR-CNRS[^dist]). [Les activités de cet atelier](https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf) ont été présentées lors du séminaire SIST 2019.
+Ce guide est la production du groupe de travail inter-réseaux "[Atelier Données](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html)". Il s’agit d'un groupe composé de plusieurs réseaux métiers de la MITI ([Calcul](https://calcul.math.cnrs.fr/), [Devlog](http://devlog.cnrs.fr/), [QeR](http://qualite-en-recherche.cnrs.fr/), [rBDD](http://rbdd.cnrs.fr/), [Renatis](http://renatis.cnrs.fr/), [Resinfo](https://resinfo.org/), [Medici](http://medici.in2p3.fr/)), du [réseau SIST](http://sist.cnrs.fr), (labellisé par l'INSU et regroupant les gestionnaires de données environnementales), de l'INIST, et de la Direction des données ouvertes de la recherche (DDOR-CNRS[^dist]). [Les activités de cet atelier](https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf) ont été présentées lors du séminaire SIST 2019.
 
 [^dist]: Anciennement DIST.
 
@@ -55,9 +63,9 @@ Ce guide abordera l'ensemble des phases et actions nécessaires pour une gestion
 
 Les phases suivantes apportent des éléments plus spécifiques au lecteur pour répondre à des besoins plus techniques
 
-- L’étape 3 « "{ref}`collecter`" » rend compte de la pratique de collecte et du processus d’acquisition des données (équipements, capteurs …). Elle informe tout particulièrement sur l’usage des normes et standards d’interopérabilité nécessaires à la constitution et « FAIR-isation » des jeux de données. Elle apporte aussi un éclairage sur les environnements de stockage des données existants et la nécessité de sauvegarder des données.
+- L’étape 3 « {ref}`collecter` » rend compte de la pratique de collecte et du processus d’acquisition des données (équipements, capteurs …). Elle informe tout particulièrement sur l’usage des normes et standards d’interopérabilité nécessaires à la constitution et « FAIR-isation » des jeux de données. Elle apporte aussi un éclairage sur les environnements de stockage des données existants et la nécessité de sauvegarder des données.
 
--	L’étape phases 4 « "{ref}`traiter`" » témoigne du prétraitement des données brutes acquises et collectées précédemment. Elle guide le lecteur sur la nécessaire préparation des fichiers de données pour les rendre ouverts et interopérables. La connaissance et la maîtrise des formats et standards est importante.  Cette étape est également celle de l’organisation des données qui implique dans certains cas de développer des procédures d’intégration des données dans les bases de données ou d’utiliser un cadre d’application d’agrégation de données. Il est important aussi à ce stade de se préoccuper du dépôt des données dans des plateformes de gestion locales qui facilitent leur accès et de mettre en place un contrôle qualité.
+-	L’étape phases 4 « {ref}`traiter` » témoigne du prétraitement des données brutes acquises et collectées précédemment. Elle guide le lecteur sur la nécessaire préparation des fichiers de données pour les rendre ouverts et interopérables. La connaissance et la maîtrise des formats et standards est importante.  Cette étape est également celle de l’organisation des données qui implique dans certains cas de développer des procédures d’intégration des données dans les bases de données ou d’utiliser un cadre d’application d’agrégation de données. Il est important aussi à ce stade de se préoccuper du dépôt des données dans des plateformes de gestion locales qui facilitent leur accès et de mettre en place un contrôle qualité.
 
 -	la phase 5 "{ref}`analyser`" est la phase d’analyse dans laquelle on s’occupe de définir et mettre en place des chaines logicielles avec des méthodes et des outils. Cette partie informe le lecteur sur les plateformes, outils et méthodes utilisés principalement dans la communauté du calcul pour analyser et visualiser les données.  Elle présente également quelques projet d’analyse sémantiques de données textuelles ainsi que des services Text and Data Mining.
 
