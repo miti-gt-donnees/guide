@@ -21,7 +21,7 @@ Konrad Hinsen présente ici les enjeux et les défis de la recherche reproductib
 
 ```{admonition} [Enjeux et défis de la recherche reproductible](https://indico.mathrice.fr/event/165/contribution/1/material/slides/0.pdf)  
 :class: seealso
-   [vidéo](https://webcast.in2p3.fr/video/les-enjeux-et-defis-de-la-recherche-reproductible)  
+[vidéo](https://webcast.in2p3.fr/video/les-enjeux-et-defis-de-la-recherche-reproductible)  
 Konrad HINSEN, Centre de Biophysique Moléculaire Orléans et Synchrotron SOLEIL  
 Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019
 ```
@@ -100,8 +100,8 @@ Les utilisateurs de Julia sont bien sûr également concernés par la reproducti
 
 ```{admonition} [Getting started with Julia tools for reproducible science](http://matbesancon.github.io/slides/JuliaNantes/JuliaTools#/10)    
 :class: seealso
-    Mathieu Besançon, Centrale Lille et Polytechnique Montréal  
-    Atelier JuliaNantes, 2019
+Mathieu Besançon, Centrale Lille et Polytechnique Montréal  
+Atelier JuliaNantes, 2019
 ```
 
 Lorsque la reproductibilité n'est pas garantie, la validation, la vérification des logiciels, le processus de développement doivent être abordés différemment. On doit être en mesure d'estimer la précision des résultats numériques d'un logiciel et mettre en place des solutions pour contenir les sources d'imprécision. Lors de l'école [Précisions, Reproductibilité en Calcul et Informatique Scientifique](https://precis.sciencesconf.org/) quatre thèmes en lien avec ces problématiques ont été abordés :
