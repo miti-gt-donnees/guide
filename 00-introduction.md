@@ -17,12 +17,9 @@ Gérer les données de la recherche est un processus complexe qui suppose un tra
 :width: 350px
 ```
 
-
-Pour formaliser les différentes étapes de gestion des données nous nous sommes servis du "[cycle de vie des données](https://www.cnrs.fr/mi/IMG/png/donnees.png)". Il s’agit d’un cercle vertueux qu'on peut faire correspondre aux différentes phases d’un projet scientifique.
+Pour formaliser les différentes étapes de gestion des données, nous nous sommes servis du cyle de vie des données que nous avons élaboré au sein de l'Atelier Données. Il s'agit d'un cercle verteux qu'on peut faire correspondre aux différentes phases d'un projet scientifique.
 
 [MCQ - debut] 
-
-on pointe dans le paragraphe sur le schéma (non corrigé) du groupe et d'ailleurs on se demande pourquoi on met un lien vu que l'on met ce cycle de vie en dessus. Ce serait pour mettre le schéma et mettre en dessous une légende style "Cycle de vie des données de la recherche établi par l'Atelier Données en 2017". Pour ma part j'enleverai "etapes pour une gestion FAIR pour les données d'un projet de recherche" et je changerai le texte en dessous "Pour formaliser les différentes étapes de gestion des données, nous nous sommes servis du cyle de vie des données que nous avons élaboré au sein de l'Atelier Données. Il s'agit d'un cercle verteux qu'on peut faire correspondre aux différentes phases d'un projet scientifique". 
 
 Remarque : si quelqu'un se rappelle pourquoi on avait créé son propre cycle de vie plutot que de répartir de cycle de vie existant ca serait bien de l'indiquer. ...
 
