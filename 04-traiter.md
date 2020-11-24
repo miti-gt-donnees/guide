@@ -58,6 +58,9 @@ On trouvera un exemple https://data.ifremer.fr/Tout-savoir-sur-les-donnees/Gesti
 
 Le format de données ODV permet un stockage dense et un accès très rapide aux données. De grandes collections de données comprenant des millions de stations peuvent être facilement entretenues et explorées sur des ordinateurs de bureau. 
 
+Un explorateur et extracteur de données webODV est disponible sur le portail[ EMODnet Chemistry.](https://emodnet-chemistry.webodv.awi.de/). L'outil webODV Data Explorer and Extractor, développé à l'Institut Alfred Wegener en Allemagne, permet aux utilisateurs d'explorer, de visualiser et d'extraire des sous-ensembles de données validées simplement en utilisant leur navigateur web.  
+
+
 Les formats NetCDF et ODV sont les formats recommandés et utilisés par le pôle de données Odatis  <https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions> et par le projet européen Seadatanet <https://www.seadatanet.org/>
 
 
