@@ -16,6 +16,9 @@ Ce paysage s’appréhende dans le cadre du mouvement open science, de la politi
 
 Différentes initiatives institutionnelles sont développées au sein de nos établissements en France ou à l’étranger pour accompagner la politique des données de la recherche. Il est intéressant de se pencher sur ces travaux pour anticiper les besoins et prévoir les évolutions stratégiques possibles au sein de notre environnement.
  
+> est ce que cette reference n'est pas trop ancienne 2013? pour de la politique institutionnelle?
+> Alain et moi meme serions d'avis de commencer en 2017
+
 À l’occasion de journées déjà ancienne, les « FréDoc 2013 », Simon Hodson (Directeur exécutif de CODATA) dresse un panorama très complet des différentes politiques institutionnelles, des tendances gouvernementales et internationales. Nous percevons déjà cette année-là très distinctement les défis et obstacles à lever pour la mise en place d’une gestion des données de la recherche. On comprend l’importance d’analyser le comportement des communautés de recherche pour parvenir à construire ensemble une politique autour des données et aussi l’intérêt d’une approche convergente « top down et bottom up » pour la mise en place d’actions de terrain qui rejoignent les actions de la gouvernance. Les nombreux défis à la mise en place d’une politique des données de la recherche sont bien présents à commencer par le fait d’instaurer au sein de nos communautés une culture du partage de la donnée et de mettre à disposition des chercheurs des infrastructures et des services de formation.   
 Simon Hodson souligne aussi le rôle essentiel des politiques et parties prenantes pour mettre en place des actions et des concertations.
 
@@ -35,6 +38,7 @@ Francis André, DIST-CNRS
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données", 2017, Paris 
 ```
 
+> idem ? est ce qu'on laisse les références de 2013 ?
 
 La gestion des données s’organise également au sein des structures d’accompagnement au niveau européen comme en témoigne Susan Reilly (Directeur exécutif de la Ligue Européenne des Bibliothèques de Recherche [LIBER](https://libereurope.eu/)) qui pointe en particulier les besoins de réorganisation et d’adaptation des structures d’accompagnement de la recherche pour aider les chercheurs dans la gestion des données. Le rôle des bibliothèques est crucial dans ces actions et les opportunités à saisir pour évoluer dans ce sens sont nombreuses. Partant du constat que sans une infrastructure qui aide les chercheurs à gérer leurs données de façon adéquate et efficace, aucune culture du partage n’est possible. Elle expose dans le cadre de LIBER une démarche proactive au sein des bibliothèques de recherche en Europe et présente 10 recommandations à suivre pour répondre aux besoins des chercheurs en termes de services et de supports.
 
@@ -76,6 +80,8 @@ Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Stra
 SIST 2018 : Séries Interopérables et Systèmes de Traitement, 2016, Guyancourt
 ```
 
+> il faudrait rajouter des liens sur EOSCpilot, EOSC-Pillar. EOSC-hub  ML
+
 Dans cette autre présentation, Volker Beckman (chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS) explique comment concrètement les chercheurs pourront utiliser l'EOSC.
 Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2018, qui coordonne les initiatives et projets de construction de cet espace à destination de la recherche et des chercheurs. Partant des nombreux projets qui ont été financés pour élaborer ce cloud (EOSCpilot, EOSC-Pillar. EOSC-hub, etc.), il montre les possibilités de collaboration. Depuis 2019, une structuration est en cours avec la mise en place d’une gouvernance temporaire et une implication forte des ministères en charge de la recherche dans les différents pays européens. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement complémentaires dans le programme cadre "Horizon Europe".
 
@@ -93,17 +99,20 @@ Il est important également de suivre attentivement l’évolution des espaces d
 
 Des répertoires de données comme [Re3Data](https://www.re3data.org/) (répertoire d’entrepôts créé par DataCite) ou [Cat OPIDoR](https://cat.opidor.fr/index.php/Cat_OPIDoR,_wiki_des_services_d%C3%A9di%C3%A9s_aux_donn%C3%A9es_de_la_recherche) (catalogue de services dédié aux données de la recherche hébergé à l’INIST) sont accessibles pour guider les recherches.
 
+> utilité de ce paragraphe sur le CINES??  est ce que ce paragraphe est utile a cet endroit ?
+
 Afin de pérenniser l’accès des données de la recherche, certains organismes comme le [CINES](https://www.cines.fr/) ou les archives nationales proposent des services d’archivage pérenne qui garantissent sur le très long terme (au-delà de 30 ans) la conservation du document, son accessibilité et son intelligibilité.
-         
+
 Pour plus de détails, on se reportera à la section {ref}`infrastructures`.
 
 ## Comprendre et respecter la législation en vigueur
 
 Gérer les données de la recherche suppose de clarifier en amont les modalités de partage et de mise à disposition des données de la recherche et le cadre juridique applicable aux projets de recherche.  
 
+> il faudrait mettre des liens sur les lois Valter , loi CADA et loi rep numérique svp
+
 Comme le précisent les interventions de Nathalie Gandon (Frédocs 2018) ou Nathalie Le Ba (ANF Sciences des données), il existe un certain nombre de principes fondamentaux associés à la notion d’open data et un certain nombre de textes législatifs en France et en Europe qui réglementent ou impactent la gestion des données de la recherche et la réutilisation des informations publiques. Parmi ces textes, figurent principalement la loi Valter (2015) et la Loi pour la république numérique (2016) qui toutes deux élargissent le champ d’application de la Loi CADA et ont pour objectif de favoriser la réutilisation de l’information publique. La loi Valter instaure le principe de gratuité dans la réutilisation des informations publiques tandis que la Loi pour la république numérique (Loi Lemaire) conduit à l'obligation de mise en ligne spontanée des documents administratifs librement réutilisables (y compris à des fins commerciales). Ces deux lois sont à l'origine du principe d'ouverture ou d'open data par défaut.
 Les notions de « document administratif », d’universalité et de gratuité des informations publiques sont ici des notions incontournables à saisir pour passer d’une logique de demande citoyenne à une logique de diffusion volontaire des informations du secteur public.
-
 
 Dans tous les cas, l’application des textes législatifs aux données de la recherche n’est pas toujours aisée. Nathalie Gandon, nous apporte des renseignements précieux à travers une check-list pour déterminer si les résultats de recherche sont ou ne sont pas des « documents administratifs » à diffuser. Il convient de s’interroger tout d’abord sur la nature et la forme du résultat concerné (le document doit être achevé), ensuite sur l’auteur du résultat (le document doit être produit dans le cadre d’une mission de service public) et enfin sur les conditions de production du résultat (collaboration publique ou privée). Il existe également de nombreuses exceptions prévues par la loi qui conduisent à une interdiction totale d’accès et de réutilisation (documents secret défense etc.) et les données communicables seulement aux intéressés (données personnelles, etc.). On trouvera sur ces supports le détail des exceptions liées aux données environnementales et personnelles.
 
@@ -130,6 +139,9 @@ Les principes énoncés dans ce règlement doivent être connus et respectés, c
 
 On trouvera dans l'intervention de Patrick Guillot (CIL des établissements universitaires de la ComUE Université Grenoble Alpes), une présentation riche et complète comprenant entre autres, un rappel des définitions et principes fondamentaux de la loi, une définition des "données à caractère personnel", un historique des principaux textes et un quiz de questions-réponses (vrai/faux) très utile pour comprendre l'évolution de la réglementation.
 
+> il faudrait dire QUI il faudrait indiquer qui contacter au CNRS pour avoir les conseils et renseignements nécessaires pour
+> les données a caractere personnel ML AR
+
 ```{admonition} [Prise en compte des données personnelles - Évolution de la règlementation](https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_guillot_1.pdf)  
 :class: seealso
 Patrick Guillot, Univ. Grenoble Alpes     
@@ -140,9 +152,10 @@ ANF "Traçabilité des activités de recherche et gestion des connaissances", R�
 
 Le choix des licences est également réglementé par la Loi pour une république numérique
 
-L'ouverture et le partage des données impliquent par ailleurs l'utilisation de licences (GNU, CC, CeCILL, et autres) qui fixent les conditions dans lesquelles les données peuvent être réutilisées. La Loi pour une république numérique impose l'utilisation de licences applicables aux "informations publiques" d'une part et aux codes sources et logiciels d'autre part. Les licences utilisables sont référencées sur [cette liste](https://www.data.gouv.fr/fr/licences) fixée par décret et applicable par les administrations. Si toutefois, le consortium du projet dans lequel les données ont été créées impose un autre choix, il faut s'y conformer. La [Licence ouverte / open licence](https://www.etalab.gouv.fr/licence-ouverte-open-licence) conçue par Etalab est considérée comme une licence de référence par le gouvernement pour la réutilisation et la publication de données publiques.
+L'ouverture et le partage des données impliquent par ailleurs l'utilisation de licences (GNU, [CreativeCommon](https://creativecommons.org/licenses/?lang=fr-FR), [CeCILL](https://cecill.info/licences.fr.html), et autres) qui fixent les conditions dans lesquelles les données peuvent être réutilisées. La Loi pour une république numérique impose l'utilisation de licences applicables aux "informations publiques" d'une part et aux codes sources et logiciels d'autre part. Les licences utilisables sont référencées sur [cette liste](https://www.data.gouv.fr/fr/licences) fixée par décret et applicable par les administrations. Si toutefois, le consortium du projet dans lequel les données ont été créées impose un autre choix, il faut s'y conformer. La [Licence ouverte / open licence](https://www.etalab.gouv.fr/licence-ouverte-open-licence) conçue par Etalab est considérée comme une licence de référence par le gouvernement pour la réutilisation et la publication de données publiques.
 
-Pour accompagner les équipes dans le traitement juridique des données, un collectif de juristes issus de l’enseignement supérieur et de la recherche a rédigé un guide de référence  [“Ouverture des données de recherche. Guide d’analyse du cadre juridique en France”](http://prodinra.inra.fr/ft/C7D38E14-877E-4883-AB91-0536DD4D63B9) qui explique les principes à respecter en matière de diffusion des données
+Pour accompagner les équipes dans le traitement juridique des données, un collectif de juristes issus de l’enseignement supérieur et de la recherche a rédigé un guide de référence  [“Ouverture des données de recherche. Guide d’analyse du cadre juridique en France”](http://prodinra.inra.fr/ft/C7D38E14-877E-4883-AB91-0536DD4D63B9) qui explique les principes à respecter en matière de diffusion des données.
+
 
 ## Connaitre et comprendre les principes FAIR
 
@@ -170,7 +183,7 @@ Atelier Données Inter réseau, 2018, Paris
 
 ## Prévoir la traçabilité des données 
 
-Dans un environnement où l'information arrive en masse, pouvoir assurer la gouvernance et la traçabilité des données est essentiel. Les données numériques représentent un enjeu majeur pour la recherche et il est important d'intégrer une démarche qualité au sein des structures de recherche pour disposer de données fiables et réutilisables. 
+Dans un environnement où l'information arrive en masse, pouvoir assurer la traçabilité des données est essentiel. Les données numériques représentent un enjeu majeur pour la recherche et il est important d'intégrer une démarche qualité au sein des structures de recherche pour disposer de données fiables et réutilisables. 
 
 Le réseau Qualité en Recherche particulièrement investi sur ce sujet, a élaboré en 2018, un guide de référence : [Traçabilité des activités de recherche et gestion des connaissances](http://qualite-en-recherche.cnrs.fr/IMG/pdf/guide_tracabilite_activites_recherche_gestion_connaissances.pdf), à destination des agents des unités de recherche.
 Ce guide a pour objectif de fournir des recommandations et bonnes pratiques pouvant être appliquées dans tous les domaines d’activités, tant administratifs, techniques que scientifiques, afin d’assurer la traçabilité des activités de recherche et d’améliorer la gestion des données de la recherche.
@@ -203,6 +216,11 @@ La définition ci-dessus semble de nature à mieux cadrer l’activité de curat
 
 Le DCC propose également un Briefing paper [« What is Digital Curation »](https://www.dcc.ac.uk/sites/default/files/documents/resource/briefing-papers/what-is-digital-curation.pdf) qui explique les bénéfices d’une curation des données.
 
+>
+> il serait peut etre bien de déplacer ce paragraphe ci dessous ailleurs dans le chapitre 3 ou on parles des formats de données TEI
+> ca semble  trop specifique SHS pour rester dans le chapitre général Imaginer
+>
+
 Pour illustrer une pratique de curation des données en SHS, Emmanuelle Morlock, Ingénieure au Laboratoire HiSoMa a présenté un travail réalisé dans l’univers de l’édition critique des sources.
 
 Cette présentation s’organise en trois parties : les spécificités de la « data curation », les défis spécifiques aux SHS et les solutions proposées par l’encodage TEI (Text Encoding Initiative) de sources textuelle pour relever ces défis.
@@ -226,7 +244,9 @@ Pour les archivistes de la section « Aurore » de l’association des archivist
 
 Se préoccuper de l’archivage des données fait partie intégrante d’une bonne gestion des données. Dans une logique de préservation, l’archivage se conçoit très en amont d’un projet, dès la création de la donnée. Son objectif est de décrire, documenter, contextualiser les données pour pouvoir ensuite assurer leur diffusion et leur préservation à long terme. Il concerne tout type de données (bases de données, questionnaire d’enquête, données brutes, photos, etc.). Au-delà du stockage, il s’agit là de faire en sorte qu’une donnée soit réexploitable (intègre, lisible, intelligible) dans 10, 20 ou 50 ans par une nouvelle communauté de chercheur. 
 
-*Les données sont des archives publiques dès lors qu’elles sont créées au sein d’un établissement public et l’archivage institutionnel est réglementé par la loi et notamment le [code du patrimoine](https://www.codes-et-lois.fr/code-du-patrimoine/toc-partie-legislative-livre-ii-archives-texte-integral). Au sein de son unité de recherche, le chercheur se doit de reverser aux archives nationales ou départementales ce qu’il produit ou reçoit dans le cadre de son activité pour garder la mémoire scientifique des recherches accomplies, il n’en est pas propriétaire. Toutefois, les données doivent faire l’objet d’un tri, d’une sélection, idéalement à la suite d’un échange entre chercheur et archiviste.* A CLARIFIER AVEC MARIE LAURE BACHELERIE OU A SUPP/MODIF 
+*Les données sont des archives publiques dès lors qu’elles sont créées au sein d’un établissement public et l’archivage institutionnel est réglementé par la loi et notamment le [code du patrimoine](https://www.codes-et-lois.fr/code-du-patrimoine/toc-partie-legislative-livre-ii-archives-texte-integral). Au sein de son unité de recherche, le chercheur se doit de reverser aux archives nationales ou départementales ce qu’il produit ou reçoit dans le cadre de son activité pour garder la mémoire scientifique des recherches accomplies, il n’en est pas propriétaire. Toutefois, les données doivent faire l’objet d’un tri, d’une sélection, idéalement à la suite d’un échange entre chercheur et archiviste.* 
+
+> A CLARIFIER AVEC MARIE LAURE BACHELERIE OU A SUPP/MODIF 
 
 Des outils existent pour aider à la sélection des données notamment le [référentiel de gestion des archives de la recherche](https://www.archivistes.org/Referentiel-de-gestion-des-archives-de-la-recherche). Ce référentiel est organisé par thématiques et indique pour chaque type de document sa durée de conservation, son sort final (tri, conservation, destruction) et les aspects légaux à connaître. 
 
@@ -266,14 +286,23 @@ Les résaux labellisés par les instituts du CNRS viennent plus spécifiquement 
 Un dispositif de formation à distance sur les données de la recherche est accessible sur le site [DoRANum](https://doranum.fr/) (Données de la Recherche : Apprentissage NUMérique à la gestion et au partage). Cette plateforme met à disposition différentes ressources d’autoformation en libre accès sur la gestion et le partage des données de la recherche.
 
 Le réseau national des [URFIST](http://gis-reseau-urfist.fr/) (Unité Régionale de Formation à l'Information Scientifique et Technique), créé en 1982 est un réseau inter-académique structuré depuis 2017 en Groupement d’Intérêt Scientifique (GIS) qui a pour objectif de développer l’usage de l’IST dans l’enseignement supérieur et de la recherche. 
-Il est constitué de sept unités régionales situées à [Bordeaux](http://weburfist.univ-bordeaux.fr/), [Lyon](https://urfist.univ-lyon1.fr/), [Paris](https://urfist.chartes.psl.eu/formations/stages/programme), [Nice](https://urfist.univ-cotedazur.fr/), [Renne](https://www.sites.univ-rennes2.fr/urfist/formations/stages/presentation-du-programme-en-cours), [Strasbourg](http://urfist.unistra.fr/formations/) et [Toulouse](http://urfist.univ-toulouse.fr/formations/sessions-date). Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information. Outre les actions de formation, d’expérimentations et innovations pédagogiques initiées par les Urfist, le réseau met à disposition un blog « [UrfistInfo](https://urfistinfo.hypotheses.org/) ».
+
+> ce paragraphe ci dessous nous parait trop détaillé 
+
+Il est constitué de sept unités régionales situées à [Bordeaux](http://weburfist.univ-bordeaux.fr/), [Lyon](https://urfist.univ-lyon1.fr/), [Paris](https://urfist.chartes.psl.eu/formations/stages/programme), [Nice](https://urfist.univ-cotedazur.fr/), [Renne](https://www.sites.univ-rennes2.fr/urfist/formations/stages/presentation-du-programme-en-cours), [Strasbourg](http://urfist.unistra.fr/formations/) et [Toulouse](http://urfist.univ-toulouse.fr/formations/sessions-date). Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information. 
+< fin >
+
+Outre les actions de formation, d’expérimentations et innovations pédagogiques initiées par les Urfist, le réseau met à disposition un blog « [UrfistInfo](https://urfistinfo.hypotheses.org/) ».
 
 
-### Suivre les travaux du Collège Compétences et formation du COSO
+### Suivre les travaux du Collège "Compétences et formation du COSO"
 
 Le Plan national pour la science ouverte, s’appuyant sur trois axes, engage les opérateurs de la recherche à "*mettre en œuvre une politique de science ouverte et à structurer et ouvrir les données de la recherche"*. La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions de deux collèges du  [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (COSO) :  les collèges [Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
 
 Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mette en oeuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte. 
+
+> il faudrait mettre un lien sur le Guide cité Pour une politique des données de la recherche : guide stratégique svp
+
 Parmi les réalisations récentes, on peut citer le guide « Pour une politique des données de la recherche : guide stratégique » où le CoSO émet sept recommandations pour aider à la formalisation et à la mise en œuvre d'une politique des données de la recherche au sein des établissements de l’ESR, la réalisation du [Passeport pour la science ouverte](https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/) destiné aux doctorants de toutes disciplines, le guide « [Je publie, quels sont mes droits](https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/) » qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits et la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente ».
 
 .
