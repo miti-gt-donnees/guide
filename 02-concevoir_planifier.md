@@ -24,9 +24,9 @@ Elle présente en parallèle, la méthode Agile et la Démarche centrée utilisa
 
 ```{admonition} [Méthodes pour intégrer l’utilisateur dans la construction des applications](http://rbdd.cnrs.fr/IMG/pdf/utilisateurs\_anfrbdd.pdf?171/5b534aea6e9bfe597fcf71ff840c5cf48c67033c)  
 :class: seealso
-    [vidéo](https://webcast.in2p3.fr/video/methodes_pour_integrer_l_utilisateur_dans_la_construction_des_applications)  
-    Nadine MANDRAN, LIG   
-    Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? », 2016, rBDD
+[vidéo](https://webcast.in2p3.fr/video/methodes_pour_integrer_l_utilisateur_dans_la_construction_des_applications)  
+Nadine MANDRAN, LIG   
+Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? », 2016, rBDD
 ```
 
 ## Mettre en place une gestion de projet
