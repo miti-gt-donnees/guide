@@ -214,6 +214,8 @@ Les informations concernant les logiciels et les codes sources sont détaillées
 
 ## Pérenniser les objets numériques
 
+[MCQ - debut] je propose d'appeler ce paragraphe "archiver les objets numériques" et changer le mot "pér"nnisation" par "archivage" dans l'introduction [MCQ - fin]
+
 La pérennisation des objets numériques s'appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d'archivage homologué aux fonctionnalités d'interrogation moindre.
 
 
