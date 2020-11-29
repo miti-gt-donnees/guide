@@ -55,7 +55,7 @@ Pérenniser
    Ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L'archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).
 ```
 
-Dans son article "[l'archivage des données de la recherche à l'Inra. Eléments de réflexion, démarche et perspectives](https://hal.inrae.fr/hal-02861909)", les auteurs indiquent que pour eux, la pérennisation et la préservation sont la même action :  *La pérennisation (ou préservation) permet de faire face à la perte d'informations d'identification ainsi qu'à l'obsolescence des supports et des logiciels. Elle consiste en effet à identifier et à conserver des documents et des données pour les rendre accessibles sur le moyen (10 ans et plus) et le long terme (50 ans et plus)*
+Dans son article "[l'archivage des données de la recherche à l'Inra. Eléments de réflexion, démarche et perspectives](https://hal.inrae.fr/hal-02861909)", les auteurs indiquent que pour eux, la pérennisation et la préservation sont le même concept :  *La pérennisation (ou préservation) permet de faire face à la perte d'informations d'identification ainsi qu'à l'obsolescence des supports et des logiciels. Elle consiste en effet à identifier et à conserver des documents et des données pour les rendre accessibles sur le moyen (10 ans et plus) et le long terme (50 ans et plus)*
 
 Dans la suite de ce chapître, nous utiliserons le terme "préservation" qui est le terme le plus utilisé actuellement.
 
@@ -218,7 +218,7 @@ Les informations concernant les logiciels et les codes sources sont détaillées
 
 ## Pérenniser les objets numériques
 
-[MCQ - debut] je propose d'appeler ce paragraphe "archiver les objets numériques" et changer le mot "pér"nnisation" par "archivage" dans l'introduction [MCQ - fin]
+[MCQ - debut] je propose d'appeler ce paragraphe "archiver les objets numériques" et changer le mot "pérénnisation" par "archivage" dans l'introduction [MCQ - fin]
 
 La pérennisation des objets numériques s'appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d'archivage homologué aux fonctionnalités d'interrogation moindre.
 
