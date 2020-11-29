@@ -49,11 +49,15 @@ MITI-CNRS, 2018
 
 ```{glossary}
 Préserver
-   Cette action fait référence au fait de garantir, protéger, mettre à l'abri, sauver d'un mal (cf. notion de sauvegarder) et au fait de tenir dans le même état, en bon état (intelligible) ; faire durer (cf. notion d'archivage).    
+   Cette action fait référence au fait de garantir, protéger, mettre à l'abri, sauver d'un mal (cf. notion de sauvegarde) et au fait de tenir dans le même état, en bon état (intelligible). Elle fait aussi référence à la notion de durer dans le temps (cf. notion d'archivage).    
 
 Pérenniser
    Ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L'archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).
 ```
+
+Dans son article "[l'archivage des données de la recherche à l'Inra. Eléments de réflexion, démarche et perspectives](https://hal.inrae.fr/hal-02861909)", les auteurs indiquent que pour eux, la pérennisation et la préservation sont la même action :  *La pérennisation (ou préservation) permet de faire face à la perte d'informations d'identification ainsi qu'à l'obsolescence des supports et des logiciels. Elle consiste en effet à identifier et à conserver des documents et des données pour les rendre accessibles sur le moyen (10 ans et plus) et le long terme (50 ans et plus)*
+
+Dans la suite de ce chapître, nous utiliserons le terme "préservation" qui est le terme le plus utilisé actuellement.
 
 ### Protéger et sécuriser le patrimoine scientifique
 
