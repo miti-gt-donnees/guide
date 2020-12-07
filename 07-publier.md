@@ -453,7 +453,8 @@ Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux 
 *  IPT (Integrated Publishing Toolkit) qui  facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper
 * ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.
 
-```{admonition} Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper
+```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf)
+[video](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275) : 
 :class: seealso
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel
 ```
@@ -461,7 +462,9 @@ Sophie Pamerlon, GBIF France – USM Patrimoine naturel
 Pour se faire une idée d'un exemple de datapaper, Annegret Nicolai nous présente un [exemple de datapaper du projet bioBlitz](https://bdj.pensoft.net/article/50451/) et les avantages et inconvénients qu'elle y trouve :
 
 
-```{admonition} BioBlitz 2017 à la Station Biologique de Paimpont – un data paper de science citoyenne   
+```{admonition} [BioBlitz 2017 à la Station Biologique de Paimpont – un data paper de science citoyenne](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)   
+[Vidéo](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)  
+
 :class: seealso
 Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont)   
 ```
