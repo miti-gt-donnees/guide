@@ -438,7 +438,22 @@ Publier un data paper permet de :
 - leur apporter de la visibilité,
 - les rendre plus facilement repérables et citables; le data paper étant une publication citable, au même titre que tout article scientifique, il met en valeur ses auteurs en tant que créateur de données et permet la traçabilité des citations et des réutilisations.
 
-Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers. Il n’existe pas, à ce jour, de catalogue ou de répertoire à proprement dit mais nous vous recommandons la consultation de ces listes de liens génériques : [CIRAD](https://coop-ist.cirad.fr/content/download/6265/45560/version/3/file/Coopist-Revues+publiant+des+datapapers-nov+2017.pdf), [Forschungsdaten](https://www.forschungsdaten.org/index.php/Data_Journals), [Datashare](https://www.wiki.ed.ac.uk/display/datashare/Sources+of+dataset+peer+review) et dans le domaine de la [bio-diversité](http://www.gbif.fr/page/contrib/publier-un-datapaper).
+Un data paper est une publication scientifique. Comme un article scientifique, il est validé par des "reviewer". Mais c’est un article scientifique qui se distingue des articles présentant des résultats de recherche en plusieurs points :
+
+- Il est centré sur un jeu de données  et il a pour finalité de le décrire. 
+- Il se distingue d’un article scientifique traditionnel par le fait qu’il ne comporte pas d’hypothèses, ni d’interprétation, ni de discussion de résultats, ni de conclusions  sur une question de recherche scientifiques 
+
+Selon les journaux et les communautés, la portée du "peer review" va varier. Certains vérifient uniquement la cohérence et la qualité  de la description du jeux de données, d’autres évaluent les données elles-mêmes. Il est donc important de prendre en compte les politiques des revues par rapport aux données (cf. [https://datascience.codata.org/articles/10.5334/dsj-2020-005/](https://datascience.codata.org/articles/10.5334/dsj-2020-005/)
+
+La différence est plus délicate lorsqu'il s'agit de comparer un data paper et un article contenant des « _supplementary data_ » qu’il décrit. Là en effet, les distinctions ne sont pas toujours claires, surtout du fait du manque de recul car ce sont des pratiques récentes et toujours émergentes. Certains data paper sont très très bref et ne vont pas beaucoup plus loin que ce qu’on trouve dans la fiche accompagnant le jeu de données dans l’entrepôt, d’autres sont beaucoup plus complexes et jouent plus profondément la carte de la réutilisation en tentant d’expliciter les implications des jeux de données et des traitements subis.
+
+Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers. 
+
+Il n’existe pas, à ce jour, de _catalogues ou de répertoires_ à proprement parlé, mais nous recommandons la consultation de ces listes de liens génériques : 
+- [CIRAD](https://coop-ist.cirad.fr/content/download/6265/45560/version/3/file/Coopist-Revues+publiant+des+datapapers-nov+2017.pdf), 
+- [Forschungsdaten](https://www.forschungsdaten.org/index.php/Data_Journals), 
+- [Datashare](https://www.wiki.ed.ac.uk/display/datashare/Sources+of+dataset+peer+review) et dans le domaine de la 
+- [bio-diversité](http://www.gbif.fr/page/contrib/publier-un-datapaper).
 
 Après avoir expliqué pourquoi le GBIF et l’éditeur de revues PENSOFT ont proposé le concept de data paper, Sophie Pamerlon en explique les avantages et comment les outils du GBIF facilitent la rédaction d'un datapaper en biodiversité à travers quelques exemples concrets.
 
