@@ -2,18 +2,18 @@
 # Publier et diffuser
 
 
-Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute la politique de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient visibles et réutilisables selon des formats et des processus interopérables.
+Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute une politique de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient bien accessibles et réutilisables selon des formats et des processus interopérables.
 
-L’accompagnement  des  réseaux métiers s’exerce sur la publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
+L’accompagnement des  réseaux métiers s’exerce sur le processus de publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
 
-Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action d'identification des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
+Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action nécessaire d'identification des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
 
 
 ## Communiquer et documenter  
 
 ### Finaliser le PGD 
 
-En fin de projet, il est nécessaire de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
+Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
@@ -22,15 +22,15 @@ En fin de projet, il est nécessaire de mettre à jour et finaliser la rédactio
 Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
 
 Pour être interopérables, ces catalogues s'appuient en général sur des normes pour représenter les métadonnées.
-Par exemple, dans les sciences de  l'environnement les normes ISO 19115 et ISO 19139 sont des références pour représenter les données géospatialisées et l'information géographique dans le domaine des métadonnées.
+Par exemple, dans les sciences de  l'environnement les normes ISO 19115 et ISO 19139 sont des références pour représenter  l'information géographique à l'aide de métadonnées dans les domaines où les données sont géospatialisées.
 
 - L'ISO 19115-1 définit le schéma requis pour décrire des informations géographiques et des services au moyen de métadonnées. 
 Elle fournit des informations concernant l'identification, l'étendue, la qualité, les aspects spatiaux et temporels, le contenu, la référence spatiale, la représentation des données, la distribution et d'autres propriétés des données géographiques numériques et des services.
 - L'ISO 19139 définit le schéma d'implémentation et d'encodage XML pour représenter les métadonnées ISO 19115.
 
-En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est un des logiciels de référence pour décrire et représenter les jeux de données géolocalisés et constituer un catalogue qui inventorie les différents jeux de données d'un Institut.
+En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est une des références importante pour décrire et représenter les jeux de données géolocalisés et constituer un catalogue qui inventorie les différents jeux de données d'un Institut.
 
-Ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres, réseau notamment demandé par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
+Grace a l'utilisation de protocoles d'échanges normalisés, ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres, réseau notamment demandé par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
 
 Le logiciel GeoNetwork utilise, en outre, le protocole [WMS (Web Map Service) de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/), ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.
 
@@ -147,7 +147,7 @@ Michèle Fichaut, Systèmes d'Informations Scientifiques pour la Mer
 [Séminaire SIST15 OSU Pytheas Marseille 2015](https://sist15.sciencesconf.org/)   
 ```
 
-Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ présente un exemple de dépôt de données dans le portail de données Seadatanet sur des données de cytométrie en flux. Il est intéressant de prendre connaissance de la démarche et du workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un certain nombre de standards.
+Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ de Versailles, présente un exemple de dépôt de données de cytométrie en flux dans le portail de données Seadatanet. Il est intéressant de prendre connaissance de la démarche et du workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un grand nombre de standards.
 
 ```{admonition} [Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf)  
 :class: seealso
@@ -219,13 +219,13 @@ Il faut aussi noter que dans le domaine de la bio-informatique, des identifiants
 
 ### Les DOI : "Digital Object Identification"
 
-Les D.O.I (Digital Object Identification) permettent de citer les données de manière univoque afin de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
+Dans le domaine des données, les D.O.I (Digital Object Identification) permettent de citer un jeu de données homogène de manière univoque afin de les citer et de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
 
-L'obtention de D.O.I se fait auprès de [l'organisme international "Datacite"](https://doi.datacite.org/) ou bien tout partenaire contractualisé avec Datacite comme l'INIST du CNRS. Il implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "landing page") qui permet de fournir les métadonnées principales pour décrire les données et d'y accéder.
+L'obtention de D.O.I se fait auprès de [l'organisme international "Datacite"](https://doi.datacite.org/) ou bien tout partenaire contractualisé avec Datacite comme [l'INIST du CNRS](https://opidor.fr/identifier/). Il implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "landing page") qui permet de fournir les métadonnées principales pour décrire les données et d'y accéder.
 
 Pour créer une "landing page", page d'accueil pour décrire un jeu de données, il faut s'assurer que certaines métadonnées obligatoires sont bien mentionnées et renseignées pour permettre une recherche. Le site Datacite rappelle quelles sont les métadonnées obligatoires : <https://support.datacite.org/docs/schema-mandatory-properties-v43>. Pour en savoir plus sur les identifiants pérennes, on peut consulter la page de Doranum <https://doranum.fr/identifiants-perennes-pid/>
 
-Attention la pérennité est purement une question de service et n'est pas inhérente à un objet, ni conféré par une syntaxe de nommage particulier. La pérennité du lien vers la localisation de la ressource est de la responsabilité du déposant ou du créateur de l'identifiant.
+Attention la pérennité demandée est purement une question de service et n'est pas inhérente à un objet, ni conféré par une syntaxe de nommage particulier. Maintenir la pérennité du lien vers la localisation de la ressource est de la responsabilité du déposant ou du créateur de l'identifiant.
 
 **Pourquoi citer les données ?**
 
@@ -265,7 +265,7 @@ Mohamed Salah Yahia
 [Séminaire SIST16 OSU Oreme Montpellier](http://sist16.sciencesconf.org)
 ```
 
-Par ailleurs, certaines infrastructures proposent un service de fourniture de DOI comme le [pôle de données Odatis](https://www.odatis-ocean.fr/) qui fournit des D.O.I pour les données *marines* sur le site [Seanoe](https://www.seanoe.org/).
+Cependant dans le paysage national actuel des données environnementales, certaines infrastructures de recherche comme Data Terra seront en charge de fournir des DOI selon les disciplines concernées. Dans le comaine marin le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit d'ores et déjà un service de fourniture de D.O.I via le site [Seanoe](https://www.seanoe.org/).
 
 Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
