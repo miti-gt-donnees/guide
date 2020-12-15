@@ -1,17 +1,19 @@
 
-
 # Reproductibilité
 
-[ML: en intro on ne dit rien de quelle reproductibilité cela concerne... des mesures? des traitements? de l'acces aux données... quelques phrases de plus pour situer le contexte de la reproductibiltié seraient bienvenues]
-[GR : je préférais raisonner par l'absurde en disant que sans reproductibilité, la confiance est impossible et la science ne progresse donc que difficilement]
-La reproductibilité d'une mesure est essentielle pour valider scientifiquement une expérience. En effet, une mesure scientifique convenable doit rester la même lorsque l'expérience est menée par d'autres scientifiques, dans les mêmes conditions. Une expérience répétée qui ne donne pas les mêmes résultats sera considéré n'ayant aucune valeur scientifique. in [Wikipedia](https://fr.wikipedia.org/wiki/Reproductibilit%C3%A9) 
-[GR : l'article wikipedia me semble imparfait (ébauche) et trop général (il parle de l'industrie).]
+> ML: en intro on ne dit rien de quelle reproductibilité cela concerne... des mesures? des traitements? de l'acces aux données... quelques phrases de plus pour situer le contexte de la reproductibiltié seraient bienvenues]
+> GR : je préférais raisonner par l'absurde en disant que sans reproductibilité, la confiance est impossible et la science ne progresse donc que difficilement]
 
-[ML: est ce qu'on ne définirait  pas les termes reproductibilité répétabilité , tel qu'on l'a fait sur la sauvegarde, archivage
+La reproductibilité d'une mesure est essentielle pour valider scientifiquement une expérience. En effet, une mesure scientifique convenable doit rester la même lorsque l'expérience est menée par d'autres scientifiques, dans les mêmes conditions. Une expérience répétée qui ne donne pas les mêmes résultats sera considéré n'ayant aucune valeur scientifique. in [Wikipedia](https://fr.wikipedia.org/wiki/Reproductibilit%C3%A9) 
+
+>GR : l'article wikipedia me semble imparfait (ébauche) et trop général (il parle de l'industrie).]
+
+> ML: est ce qu'on ne définirait  pas les termes reproductibilité répétabilité , tel qu'on l'a fait sur la sauvegarde, archivage
 ce sont des termes définis par les normes iso]
 
 Capacité d'une instrumentation, d’une méthode, utilisée par plusieurs opérateurs, à reproduire de façon cohérente la même mesure de la même pièce, dans les mêmes conditions. La reproductibilité au même titre que la répétabilité sont deux composantes de précision dans un système de mesure.
-[GR : oui mais ce qui est traité dans les articles est plus large, j'ai peur qu'on donnant une définition trop stricte, les lecteurs soit ne regardent pas la suite, soit se disent oh la la, ce n'est pas pour moi]
+
+>GR : oui mais ce qui est traité dans les articles est plus large, j'ai peur qu'on donnant une définition trop stricte, les lecteurs soit ne regardent pas la suite, soit se disent oh la la, ce n'est pas pour moi]
 
 ## Comprendre les enjeux et défis
 
@@ -35,7 +37,7 @@ David Hill, Université Clermont Auvergne
 JCAD 2019
 ```
 
-La présentation de Christophe Pouzat commence par un historique des raisons qui ont mené la communauté scientifique à prendre conscience puis à prendre en compte le besoin de reproductibilité. La seconde partie de la présentation s'adresse plutôt aux développeurs qui produisent des codes.
+La présentation de Christophe Pouzat commence par un historique des raisons qui ont mené la communauté scientifique à prendre conscience, puis à prendre en compte le besoin de reproductibilité. La seconde partie de la présentation s'adresse plutôt aux développeurs qui produisent des codes.
 
 ```{admonition} [Une brève histoire de la recherche reproductible et de ses outils](https://calcul.math.cnrs.fr/attachments/spip/IMG/html/pouzat_20160513.html)  
 :class: seealso
@@ -94,9 +96,9 @@ Lorsqu'on développe un code de calcul, seul ou à plusieurs, il est primordial 
 
 L’intégration continue fournit des outils permettant de valider l’intégrité du code à chaque soumission de modifications via github, gitlab, etc. Si, auparavant, il était assez fastidieux de mettre en oeuvre et d'administrer une chaîne d'intégration continue, les outils actuels sont très faciles à déployer. Ils offrent de plus des fonctionnalités qui permettent d’aller bien plus loin que la simple exécution de tests : la couverture du code, la validation syntaxique, la construction d’images de conteneurs et leur déploiement sur un dépôt, etc.
 
-En 2017, le groupe calcul a organisé un "[Atelier intégration continue](https://calcul.math.cnrs.fr/2017-05-atelier-integration-continue.html)" visant à se familiariser à trois outils d’intégration continue : Jenkins, Travis CI et Gitlab CI, en commençant par une introduction à deux outils couramment utilisés dans une chaîne d'intégration continue : Git pour gérer les versions et les publier vers un dépôt distant, puis Docker pour exécuter les tâches de compilation et de tests.
+En 2017, le réseau "calcul" a organisé un "[Atelier intégration continue](https://calcul.math.cnrs.fr/2017-05-atelier-integration-continue.html)" visant à se familiariser à trois outils d’intégration continue : _Jenkins, Travis CI et Gitlab CI_, en commençant par une introduction à deux outils couramment utilisés dans une chaîne d'intégration continue : "Git" pour gérer les versions et les publier vers un dépôt distant, puis "Docker" pour exécuter les tâches de compilation et de tests.
 
-Les utilisateurs de Julia sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l'atelier JuliaNantes, les réponses aux questions qu'ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.
+Les utilisateurs de "Julia" sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l'atelier "JuliaNantes", les réponses aux questions qu'ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.
 
 ```{admonition} [Getting started with Julia tools for reproducible science](http://matbesancon.github.io/slides/JuliaNantes/JuliaTools#/10)    
 :class: seealso
