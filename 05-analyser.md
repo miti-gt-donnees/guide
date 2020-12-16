@@ -41,7 +41,7 @@ Journée Python et Data Science IRMAR Rennes - 2017
 
 - Julia est un des langages qui prend de l'importance sur ce sujet. Plusieurs présentations, lors d'une  [journée d'introduction au langage](https://calcul.math.cnrs.fr/2019-01-journee-julia.html) organisée par le réseau Calcul en janvier 2019, apportent un éclairage intéressant, en particulier le cadre des algorithmes Map/Reduce, ainsi que les performances du langage sous forme de benchmarks.
 
-```{admonition}[Map/Reduce operations for scientific computing in Julia](https://calcul.math.cnrs.fr/attachments/spip/Documents/Journees/jan2019/julia_map_reduce.pdf)
+```{admonition} [Map/Reduce operations for scientific computing in Julia](https://calcul.math.cnrs.fr/attachments/spip/Documents/Journees/jan2019/julia_map_reduce.pdf)
 :class: seealso
 Xavier Vasseur (ISAE-SUPAERO) 
 [Journée Julia - Lyon 2019](https://calcul.math.cnrs.fr/2019-01-journee-julia.html)
