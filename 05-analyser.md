@@ -17,11 +17,11 @@ Plusieurs évènements récurrents, annuels ou bisannuels, auxquels participent 
 De nombreuses ressources sont disponibles, à différentes échelles, pour analyser et traiter des données.
 De façon générale, on distingue :
 
-- Les ressources de type calcul intensif ou HPC (High Performance Computing) organisée à l'échelle européenne (EuroHPC ou Tier 0), nationale (GENCI et les centres nationaux ou Tier 1) et régionale (mésocentres ou Tier 2),
-- les ressources de type cloud (par exemple le cloud distribué de France Grille France Cloud),
-- les ressources de type grille de calcul ou HTC (High Throughput Computing), par exemple l'infrastructure France Grille ou le Centre de Calcul de l'IN2P3.
+- Les ressources de type calcul intensif ou HPC (High Performance Computing) organisée à l'échelle européenne (EuroHPC ou Tier 0), nationale (GENCI et les centres nationaux ou Tier 1) et régionale (mésocentres ou Tier 2). Ces ressources sont adaptées aux simulations massives.
+- Les ressources de type cloud (par exemple le cloud distribué de France Grille France Cloud). Ces ressources souples répondent aux besoins de calcul à la demande ou lorsque la maîtrise de l'ensemble du système est nécessaire.
+- les ressources de type grille de calcul ou HTC (High Throughput Computing), par exemple l'infrastructure France Grille ou le Centre de Calcul de l'IN2P3. Ces ressources sont utilisées pour faire du traitement massif de données.
 
-Elles sont décrites dans une [page spécifique](10-infrastructures.md).
+Elles sont décrites dans une [page spécifique](10-infrastructures.md). Le choix du type d'infrastructures adapté au besoin n'est pas forcément trivial. Il est souvent plus pertinent de s'adresser à des spécialistes qui sauront vous orienter. En général, les mésocentres de calcul, grâce à leur proximité et à leur connaissance du domaine, sont de bons conseils. Une liste est disponible sur le [site du réseau Calcul](https://calcul.math.cnrs.fr/pages/mesocentres_en_france.html).
 
 ## Outils pour l'analyse des données
 
@@ -55,9 +55,9 @@ Benoît Fabrèges (Institut Camille Jordan, Lyon)
 
 
 
-Des retours d'expérience illustrent l'utilisation de ces outils :
+Des retours d'expérience illustrent l'utilisation de ces outils.
 
-Concernant les outils python, l'utilisation de Dask à la place de job array a été présentée lors des JCAD 2019 par Guillaume Eynard-Bontemps, CNES.
+Concernant les outils python, l'utilisation de Dask à la place de job array a été présentée lors des JCAD 2019 par Guillaume Eynard-Bontemps, CNES. Dask est une bibliothèque parallèle python qui facilite l'exécution massive de calculs.
 
 ```{admonition} [Simulation paramétrique : Passez d'un job array à Dask](https://jcad2019.sciencesconf.org/data/20191009_JCAD2019TutoDaskJobArray.pdf)
 :class: seealso
@@ -130,7 +130,7 @@ La visualisation des données est également au coeur des problématiques des ut
 ## Mettre en place des méthodes d'analyse et des chaînes logicielles
 L'analyse des données peut nécessiter la mise en place d'un workflow de traitement utilisant des chaînes logicielles. Il existe des environnements virtuels de recherche (VRE Virtual Research Environment) qui facilitent la mise en place de ces méthodes d'analyse complexes.
 
-VIP, the Virtual Imaging Platform, est un portail qui permet à ses utilisateurs d'accéder simplement à leurs données, de les traiter facilement avec des logiciels préinstallés sur la plateforme. Traitements et données sont distribués sur l'infrastructure EGI. Pour répondre au besoin d'interopérabilité des données, l'API CARMIN est maintenant utilisée par VIP. Cette présentation explique les différentes étapes du fonctionnement du système mis en place. 
+VIP, the Virtual Imaging Platform, est un portail qui permet à ses utilisateurs d'accéder simplement à leurs données, de les traiter facilement avec des logiciels préinstallés sur la plateforme. Traitements et données sont distribués sur l'infrastructure EGI (infrastructure de grille de calcul européenne). Pour répondre au besoin d'interopérabilité des données, l'[API CARMIN](https://github.com/CARMIN-org/CARMIN-API) (API web) est maintenant utilisée par VIP. Cette présentation explique les différentes étapes du fonctionnement du système mis en place. 
 
 ```{admonition} [VIP : towards data interoperability through CARMIN](https://jcad2019.sciencesconf.org/data/VIP_Axel_Bonnet.pdf), [vidéo](https://prismes.univ-toulouse.fr/player.php?code=vC6b9705) 
 :class: seealso
@@ -144,7 +144,9 @@ Sorina Camarasu-Pop, Axel Bonnet, Frédéric Cervenansky, CREATIS, Tristan Glata
 [JCAD 2018](https://jcad2018.sciencesconf.org)
 ```
 
-Une autre plateforme, Pangeo, utilisée plus particulièrement dans la communauté géosciences a également été présentée lors des JCAD 2019 et 2018 :
+Pangeo est une communauté qui travaille au développement de logiciels et d'infrastructures pour faciliter la mise en œuvre des géosciences, dans le domaine du "Big Data". Cette communauté développe tout un écosystème d'outils open source pour les géosciences.
+
+Cet écosystème a été présenté lors des JCAD 2019 et 2018 :
 
 ```{admonition} [Analyse de simulations numériques de l’océan en préparation aux missions satellite : cas d’utilisation des outils PANGEO](https://jcad2019.sciencesconf.org/data/Briol_pangeo_swot_jcad2019_2019_10_10.pdf)
 :class: seealso
@@ -166,7 +168,9 @@ Frederic Suter, Henri Casanova, Rafael Ferreira Da Silva, CC IN2P3
 [JCAD 2018](https://jcad2018.sciencesconf.org), Lyon.
 ```
 
-Enfin, les environnements de notebooks sont des outils de plus en plus utilisés dans le cadre de l'analyse de données. Plusieurs interventions ont eu lieu sur ce sujet :
+Enfin, les environnements de notebooks sont des outils de plus en plus utilisés dans le cadre de l'analyse de données. Les notebooks sont des programmes qui contiennent à la fois du texte et du code, dans différents langages (Python, Julia, R ...), exécutables via une interface web. Ces outils sont de plus en plus couramment utilisés en sciences des données. Jupyter est l'application de notebooks la plus utilisée actuellement.
+
+Plusieurs interventions ont eu lieu sur ce sujet. La première, exposée lors des JCAD 2019, met particulièrement en avant l'intérêt des notebooks pour la reproductibilité.
 
 ```{admonition} [Towards reproducible Jupyternotebooks](https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf)
 :class: seealso
@@ -174,11 +178,15 @@ Ludovic Courtès, INRIA
 [JCAD 2019](https://jcad2019.sciencesconf.org), Toulouse.
 ```
 
+La présentation suivante, qui a eu lieu lors des JCAD 2018, expose les services de notebooks proposés par l'infrastructure de grille européenne EGI.
+
 ```{admonition} [EGI Notebooks : Jupyter as a Service and EGI Check-In AAI](https://jcad2018.sciencesconf.org/data/EGI_Notebooks_et_Check_in_AAI.pdf)
 :class: seealso
 Baptiste Grenier, egi.eu
 [JCAD 2018](https://jcad2018.sciencesconf.org), Lyon.
 ```
+
+Enfin, ce dernier exposé, des JCAD 2018, montre l'utilité des notebooks pour la pédagogie et la formation.
 
 ```{admonition} [RomeoLAB, le portail web HPC : cas d'utilisation pour la pédagogie et les logiciels à la demande](https://jcad2018.sciencesconf.org/data/20181024_JCAD_romeolab.pdf)
 :class: seealso
