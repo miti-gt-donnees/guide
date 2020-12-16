@@ -31,7 +31,7 @@ Il existe de très nombreux outils permettant d'analyser ses données, allant du
 
 Certains langages de programmation sont plus particulièrement utilisés pour l'analyse de données. En dehors du langage R spécifique aux statistiques et à la science des données, l'écosystème s'enrichit très rapidement :
 
-- Python devient de plus en plus utilisé en science des données. Une [introduction sur le sujet](https://github.com/fran6w/IRMAR/blob/master/IRMAR.pdf) a été réalisée en décembre 2017 par Francis Wolinski (Société Yotta Conseil) dans le cadre d'une journée organisée par le réseau Calcul.
+- Python devient de plus en plus utilisé en science des données. Une introduction sur le sujet a été réalisée en décembre 2017 par Francis Wolinski (Société Yotta Conseil) dans le cadre d'une journée organisée par le réseau Calcul.
 
 ```{admonition} [Présentation et illustration de l’écosystème Python pour la data science](https://github.com/fran6w/IRMAR/blob/master/IRMAR.pdf)
 :class: seealso
@@ -39,20 +39,29 @@ Francis Wolinski (Société Yotta Conseil)
 Journée Python et Data Science IRMAR Rennes - 2017
 ```
 
-- Julia est un des langages qui prend de l'importance sur ce sujet. Plusieurs présentations qui lui sont consacrées apportent un éclairage intéressant :
-	- Une [journée d'introduction au langage](https://calcul.math.cnrs.fr/2019-01-journee-julia.html) et à son utilisation en traitement de données aborde en particulier [le cadre des algorithmes Map/Reduce](https://calcul.math.cnrs.fr/attachments/spip/Documents/Journees/jan2019/julia_map_reduce.pdf), ainsi que [les performances du langage sous forme de benchmarks](https://plmlab.math.cnrs.fr/fabreges/julia-2019/-/blob/master/bench.pdf) .
+- Julia est un des langages qui prend de l'importance sur ce sujet. Plusieurs présentations, lors d'une  [journée d'introduction au langage](https://calcul.math.cnrs.fr/2019-01-journee-julia.html) organisée par le réseau Calcul en janvier 2019, apportent un éclairage intéressant, en particulier le cadre des algorithmes Map/Reduce, ainsi que les performances du langage sous forme de benchmarks.
 
-```{admonition} [MapReduce](https://calcul.math.cnrs.fr/2019-01-journee-julia.html#programme)
+```{admonition}[Map/Reduce operations for scientific computing in Julia](https://calcul.math.cnrs.fr/attachments/spip/Documents/Journees/jan2019/julia_map_reduce.pdf)
 :class: seealso
-Xavier Vasseur, 2019, Lyon.
+Xavier Vasseur (ISAE-SUPAERO) 
+[Journée Julia - Lyon 2019](https://calcul.math.cnrs.fr/2019-01-journee-julia.html)
 ```
+
+```{admonition} [Julia : benchmark et bonnes pratiques](https://plmlab.math.cnrs.fr/fabreges/julia-2019/-/blob/master/bench.pdf)   
+:class: seealso
+Benoît Fabrèges (Institut Camille Jordan, Lyon) 
+[Journée Julia - Lyon 2019](https://calcul.math.cnrs.fr/2019-01-journee-julia.html)
+```
+
+
+
 Des retours d'expérience illustrent l'utilisation de ces outils :
 
-Concernant les outils python, l'[utilisation de Dask à la place de job array](https://jcad2019.sciencesconf.org/data/20191009_JCAD2019TutoDaskJobArray.pdf) a été présentée lors des JCAD 2019 par Guillaume Eynard-Bontemps, CNES.
+Concernant les outils python, l'utilisation de Dask à la place de job array a été présentée lors des JCAD 2019 par Guillaume Eynard-Bontemps, CNES.
 
-```{admonition} [Tutoriel Dask et Job array](https://jcad2019.sciencesconf.org/data/20191009_JCAD2019TutoDaskJobArray.pdf)
+```{admonition} [Simulation paramétrique : Passez d'un job array à Dask](https://jcad2019.sciencesconf.org/data/20191009_JCAD2019TutoDaskJobArray.pdf)
 :class: seealso
- Guillaume Eynard-Bontemps, JCAD 2019, Toulouse.
+ Guillaume Eynard-Bontemps (CNES), [JCAD 2019, Toulouse](https://jcad2019.sciencesconf.org).
 ```
 
 
@@ -75,12 +84,33 @@ Elle l'a abordé sous plusieurs angles :
  Cette approche a été abordée lors d'une [école thématique qui a eu lieu en 2017](https://calcul.math.cnrs.fr/2017-09-anf-reduction-dimension.html).
  Cette formation, nécessitant des connaissances de base en calcul matriciel, a permis d'approfondir certaines des techniques matricielles (recherche de valeurs propres, décomposition en valeurs singulières), sur le plan à la fois théorique et pratique.
 
- On peut trouver un exemple d'[utilisation concrète de ce type de technique](https://jcad2018.sciencesconf.org/data/afranc_jcad_2018_vendredi.pdf) présenté lors des JCAD 2018 par Alain Franc, INRA, appliqué à la biologie.
+ On peut trouver un exemple d'utilisation concrète de ce type de technique présenté lors des JCAD 2018 par Alain Franc, INRA, appliqué à la biologie.
+
+```{admonition} [L'exploration de la diversité des protistes : l'apport du calcul intensif](https://jcad2018.sciencesconf.org/data/afranc_jcad_2018_vendredi.pdf)   
+:class: seealso
+J.-M. Frigerio, P. Chaumeil, F. Rué, S. Thérond, V. Louvet, O.Coulaud & A. Franc 
+[JCAD 2018 - Lyon](https://jcad2018.sciencesconf.org)
+```
+
+
 
  De façon un peu générale, toutes ces approches conduisent ou sont la base de certains pans de l'Intelligence Artificielle. De plus en plus d'évènements sont consacrés à ces technologies.
 
-Une [introduction](https://indico.mathrice.fr/event/130/contribution/3/material/slides/0.pdf) sur cette thématique a été réalisée en 2018 dans le cadre des Journées Système du réseau ResInfo.
-De même, le réseau SARI grenoblois a organisé une journée sur le sujet, avec une [présentation de Jean-Luc Parouty](https://sari.grenoble-inp.fr/lib/exe/fetch.php?media=theme:ia_deep_learning:ia_deep_learning:ia_machinelearning_pres20190606.pdf) particulièrement didactique.
+Une introduction sur cette thématique a été réalisée en 2018 dans le cadre des Journées Système du réseau ResInfo.
+
+```{admonition} [Intelligence artificielle: une longue histoire ... et demain ?](https://indico.mathrice.fr/event/130/contribution/3/material/slides/0.pdf)   
+:class: seealso
+Pierre Gançarski (Université de Strasbourg)
+[Josy Intelligence Artificielle - Strasbourg 2018](https://indico.mathrice.fr/event/130/)
+```
+
+De même, le réseau SARI grenoblois a organisé une journée sur le sujet, avec une [présentation de Jean-Luc Parouty particulièrement didactique.
+
+```{admonition} [AI Machine Learning & Deep Learning](https://sari.grenoble-inp.fr/lib/exe/fetch.php?media=theme:ia_deep_learning:ia_deep_learning:ia_machinelearning_pres20190606.pdf)   
+:class: seealso
+Jean-Luc Parouty (SIMAP)
+[Séminaire SARI 2019](https://sari.grenoble-inp.fr/doku.php?id=theme:ia_deep_learning:ia_deep_learning:ia)
+```
 
 Compte tenu de l'engouement engendré autour de l'IA, de nombreuses journées et conférences sont organisées sur le sujet. En particulier, il fait l'objet de sessions spéciales lors des Journées Développement (Jdev) de [2020](http://devlog.cnrs.fr/jdev2020/t8) et [2017](http://devlog.cnrs.fr/jdev2017/t7).
 
@@ -184,7 +214,7 @@ Z.Tucsnak,  Journée thématique Assurance Qualité Logiciel 2019, Paris.
 Colin Gonzalez, AstroParticules et Cosmologie,  Journée thématique Assurance Qualité Logiciel 2019, Paris.
 ```
 
-  
+
 ### Retours d'expérience
 
 Dans le domaine environnemental, les chaines logicielles sont également mises en place pour automatiser et ecnhaine un certain nombr de traitements comme :
@@ -208,7 +238,7 @@ Patrick Brockmann, Laboratoire des Sciences du Climat et de l'Environnement
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
 [SIST18 2018, Observatoire Versailles](https://sist18.sciencesconf.org/).
 ```
-    
+
 ```{admonition} [Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf)   
 :class: seealso
 David Wolyniec, OSU Grenoble - Jonathan Schaeffer, OSU Grenoble   
