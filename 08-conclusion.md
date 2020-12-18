@@ -1,16 +1,13 @@
 # Conclusion
 
-> [MCQ] dans la conclusion je ferais bien deux parties : 
+La rédaction de ce guide a été motivée par d'une part, par les évolutions récentes liées aux problématiques de gestion des données de la recherche dans le cadre d'une science ouverte, et d'autre part, par le regroupement et la réflexion interdisciplinaire des membres de réseaux de la MITI et d'Intituts CNRS.
 
-* une sur le cycle de vie de la donnée style "Dans ce guide, les septs étapes décrites que nous avons décrites ne sont pas forcément originales, ce qui l'est par contre c'est qu'elles soient présentées comme un cycle. La vie des données ne s'arrête pas avec le projet. Elle doit se prolonger et s'inscrire dans une durée sans limite, qui part de la constitution à la réutilisation des données, selon un cycle de vie qui doit assurer aux données les meilleures conditions à leur bonne utilisation et à leur archivage pérenne ainsi qu'à leur réutilisation pour d'autres besoins et d'autres projets que ceux pour lesquels elles ont été initialement constituées" 
+Les réseaux métiers sont en effet particulièrement actifs et investis dans la veille technologique et la diffusion de savoirs nécessaires pour une bonne gestion FAIR des données. Grâce à leurs actions ils constituent le relais nécessaire pour diffuser les bonnes pratiques utiles pour le travail dans les laboratoires. En ce sens à travers les multiples séminaires et formations et ANF qui ont été organisés, on peut dire qu'ils sont vecteurs de bonnes pratiques et de diffusion du savoir dans la gestion des données de la recherche.
 
-* une sur le guide (ce que vous avez mis) [MCQ]
 
->@MCQ propose un paragraphe sur le cycle de vie alors, ML
+Dans ce guide, les septs étapes décrites que nous avons décrites ne sont pas forcément originales, ce qui l'est par contre c'est qu'elles soient présentées comme un cycle. La vie des données ne s'arrête pas avec le projet. Elle doit se prolonger et s'inscrire dans une durée sans limite, qui part de la constitution à la réutilisation des données, selon un cycle de vie qui doit assurer aux données les meilleures conditions à leur bonne utilisation et à leur archivage pérenne ainsi qu'à leur réutilisation pour d'autres besoins et d'autres projets que ceux pour lesquels elles ont été initialement constituées" 
 
-La rédaction de ce Guide a été motivée par d'une part, par les évolutions récentes liées aux problématiques de gestion des données de la recherche dans le cadre d'une science ouverte, et d'autre part, par le regroupement et la réflexion interdisciplinaire des membres des réseaux de la MITI et des Intituts CNRS.
 
-Les réseaux métiers sont en effet particulièrement actifs et investis dans la veille technologique et la diffusion de savoirs nécessaires pour une bonne gestion FAIR des données. Grâce à leurs actions ils constituent le relais nécessaire pour diffuser les bonnes pratiques utiles pour le travail dans les laboratoires. En ce sens à travers les multiples séminaires et formations qui ont été organisés, on peut dire qu'ils sont vecteurs de bonnes pratiques et de diffusion du savoir dans la gestion des données de la recherche.
 
 Eu égard au travail de soutien important dans la gestion des données, le groupe « Atelier Données » créé via la MITI a estimé intéressant et nécessaire de rendre compte des compétences et expertises présentes dans nos réseaux, sous la forme d'un guide de bonnes pratiques inhérentes aux données de la recherche, 
 
@@ -34,6 +31,7 @@ Et enfin, _last but not least_ : nous espérons à travers ce guide apporter not
 
 
 >CH - Alternative un peu modifiée partant de la proposition de Joanna  avec en + les compléments de Maurice et certaines remarques de MC - Peut-être faudrait il ajouter encore des idées complémentaires ?*
+
 >STP c'est sur de lire 2 version alternatives, je te propose d'agreger les 2 et mettre dans la version du dessus ce qui te semble >manquer ou différent dans la version du dessous...j'ai relu et j'y retrouve quasiment les memes idées. voies si il manque une idée >forte interessante a mettre 
 
 Motivé par les évolutions voire des accélérations récentes autour des problématiques liées à la gestion des données de la recherche le groupe de travail inter-réseaux « Atelier Données » a réalisé ce guide afin de regrouper, mettre en commun, partager la réflexion transversale des membres des réseaux de la MITI (*et des Instituts CNRS ?*) et apporter un témoignage de l’implication des différents métiers dans le travail autour de la donnée.
