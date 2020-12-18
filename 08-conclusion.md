@@ -12,11 +12,7 @@ Du fait des différentes approches, outils, concepts et vocabulaires entre nos d
 
 L'originalité de ce document est qu'il rassemble la majeure partie de la production des réseaux métiers de ces dernières années, dans le cadre de la gestion des données de la recherche.
 
->Les références indiquées dans ce guide ont été sélectionnées du fait de leur caractère synthétique et toujours actuel, mais aussi >lorsque ce sont des retours d'expérience du terrain qui illustrent un processus de gestion des données.
-
 Ce document est donc un condensé des actions menées autour de la gestion des données de la recherche. Il est le fruit d’un travail collaboratif qui a consisté à collecter, sélectionner et mettre à disposition des ressources vers les actions phares des réseaux métiers, enrichis d’informations et de conseils. 
-
->À l'issue de la lecture de ce guide, des termes comme "DMP", "plans de gestion de donnes", "identifiants pérennes", "DOI", >"métadonnées", "vocabulaires contrôlés", "thesaurus", "entrepôts", "interopérabilité", "standards", "normes", "qualité", ... devraient >prendre tout le sens et la place qu'ils doivent occuper de nos jours dans la gestion des données.
 
 Ce guide n'a pas la prétention d'être exhaustif, mais il illustre les thèmes de fort intérêt de ces dernières années menés par les réseaux métiers qui s'inscrivent dans la politique nationale liée à la science ouverte. Il sera complété au fil du temps par d'autres thèmes et actions d'intérêt organisés par les réseaux.
 
