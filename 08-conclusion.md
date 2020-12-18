@@ -10,7 +10,7 @@ Dans ce guide, les septs étapes décrites que nous avons décrites ne sont pas 
 
 Du fait des différentes approches, outils, concepts et vocabulaires entre nos différents métiers, nous avons retenu la solution fédératrice de relier nos actions aux étapes communément admises du "cycle de vie des données". Outre des différences méthodologiques liées aux disciplines qu'on retrouvera dans les étapes 3 (collecter), 4 (traiter), 5 (analyser), les réseaux se retrouvent sur des concepts communs dès lorsqu'il faut préparer un projet (étapes 1,2), préserver les données (étape 6) ou publier et diffuser les données (étape 7).
 
-L'originalité de ce document est qu'il rassemble une grande partie des activités et de la production des réseaux métiers de ces dernières années, dans le cadre de la gestion des données de la recherche et du soutien à la science.
+L'originalité de ce document est qu'il rassemble la majeure partie de la production des réseaux métiers de ces dernières années, dans le cadre de la gestion des données de la recherche.
 
 Les références indiquées dans ce guide ont été sélectionnées du fait de leur caractère synthétique et toujours actuel, mais aussi lorsque ce sont des retours d'expérience du terrain qui illustrent un processus de gestion des données.
 
