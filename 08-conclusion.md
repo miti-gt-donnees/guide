@@ -4,14 +4,11 @@ La rédaction de ce guide a été motivée par d'une part, par les évolutions r
 
 Les réseaux métiers sont en effet particulièrement actifs et investis dans la veille technologique et la diffusion de savoirs nécessaires pour une bonne gestion FAIR des données. Grâce à leurs actions ils constituent le relais nécessaire pour diffuser les bonnes pratiques utiles pour le travail dans les laboratoires. En ce sens à travers les multiples séminaires et formations et ANF qui ont été organisés, on peut dire qu'ils sont vecteurs de bonnes pratiques et de diffusion du savoir dans la gestion des données de la recherche.
 
+Eu égard au travail de soutien important dans la gestion des données, le groupe « Atelier Données » créé via la MITI a estimé intéressant et nécessaire de rendre compte des compétences et expertises présentes dans nos réseaux, sous la forme d'un guide de bonnes pratiques inhérentes aux données de la recherche.
 
 Dans ce guide, les septs étapes décrites que nous avons décrites ne sont pas forcément originales, ce qui l'est par contre c'est qu'elles soient présentées comme un cycle. La vie des données ne s'arrête pas avec le projet. Elle doit se prolonger et s'inscrire dans une durée sans limite, qui part de la constitution à la réutilisation des données, selon un cycle de vie qui doit assurer aux données les meilleures conditions à leur bonne utilisation et à leur archivage pérenne ainsi qu'à leur réutilisation pour d'autres besoins et d'autres projets que ceux pour lesquels elles ont été initialement constituées" 
 
-
-
-Eu égard au travail de soutien important dans la gestion des données, le groupe « Atelier Données » créé via la MITI a estimé intéressant et nécessaire de rendre compte des compétences et expertises présentes dans nos réseaux, sous la forme d'un guide de bonnes pratiques inhérentes aux données de la recherche, 
-
-La difficulté de la rédaction d'un ouvrage commun, transversal aux différents métier résidait dans les différentes approches, méthodes, outils, concepts et vocabulaires inter métiers. Aussi nous avons retenu la solution fédératrice de relier nos actions aux étapes communément admises du "cycle de vie des données". Outre des différences méthodologiques liées aux disciplines qu'on retrouvera dans les étapes 3 (collecter), 4 (traiter), 5 (analyser), les réseaux se retrouvent sur des concepts communs dès lorsqu'il faut préparer un projet (étapes 1,2), préserver les données (étape 6) ou publier et diffuser les données (étape 7).
+Du fait des différentes approches, outils, concepts et vocabulaires entre nos différents métiers, nous avons retenu la solution fédératrice de relier nos actions aux étapes communément admises du "cycle de vie des données". Outre des différences méthodologiques liées aux disciplines qu'on retrouvera dans les étapes 3 (collecter), 4 (traiter), 5 (analyser), les réseaux se retrouvent sur des concepts communs dès lorsqu'il faut préparer un projet (étapes 1,2), préserver les données (étape 6) ou publier et diffuser les données (étape 7).
 
 L'originalité de ce document est qu'il rassemble une grande partie des activités et de la production des réseaux métiers de ces dernières années, dans le cadre de la gestion des données de la recherche et du soutien à la science.
 
