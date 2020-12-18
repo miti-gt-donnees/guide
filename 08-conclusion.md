@@ -12,9 +12,11 @@ Du fait des différentes approches, outils, concepts et vocabulaires entre nos d
 
 L'originalité de ce document est qu'il rassemble la majeure partie de la production des réseaux métiers de ces dernières années, dans le cadre de la gestion des données de la recherche.
 
-Les références indiquées dans ce guide ont été sélectionnées du fait de leur caractère synthétique et toujours actuel, mais aussi lorsque ce sont des retours d'expérience du terrain qui illustrent un processus de gestion des données.
+>Les références indiquées dans ce guide ont été sélectionnées du fait de leur caractère synthétique et toujours actuel, mais aussi >lorsque ce sont des retours d'expérience du terrain qui illustrent un processus de gestion des données.
 
-À l'issue de la lecture de ce guide, des termes comme "DMP", "plans de gestion de donnes", "identifiants pérennes", "DOI", "métadonnées", "vocabulaires contrôlés", "thesaurus", "entrepôts", "interopérabilité", "standards", "normes", "qualité", ... devraient prendre tout le sens et la place qu'ils doivent occuper de nos jours dans la gestion des données.
+Ce document est donc un condensé des actions menées autour de la gestion des données de la recherche. Il est le fruit d’un travail collaboratif qui a consisté à collecter, sélectionner et mettre à disposition des ressources vers les actions phares des réseaux métiers, enrichis d’informations et de conseils. 
+
+>À l'issue de la lecture de ce guide, des termes comme "DMP", "plans de gestion de donnes", "identifiants pérennes", "DOI", >"métadonnées", "vocabulaires contrôlés", "thesaurus", "entrepôts", "interopérabilité", "standards", "normes", "qualité", ... devraient >prendre tout le sens et la place qu'ils doivent occuper de nos jours dans la gestion des données.
 
 Ce guide n'a pas la prétention d'être exhaustif, mais il illustre les thèmes de fort intérêt de ces dernières années menés par les réseaux métiers qui s'inscrivent dans la politique nationale liée à la science ouverte. Il sera complété au fil du temps par d'autres thèmes et actions d'intérêt organisés par les réseaux.
 
@@ -24,9 +26,9 @@ Il est clair désormais qu'il faut considérer la gestion de données comme une 
 
 Le lecteur aura désormais connaissance des infrastructures existantes, pourra se positionner sur les pratiques utilisées en fonction de sa discipline, et enfin faire appel et se rapprocher des réseaux métiers pour l'aider à une bonne gestion des données.
 
-Et enfin, _last but not least_ : nous espérons à travers ce guide apporter notre pierre à l’édifice pour une meilleure prise en compte du travail, parfois fastidieux, consacré aux données de la recherche, pour qu’elles puissent être accessibles, bien documentées, réutilisables et donc réutilisées dans le cadre d'une science ouverte et transparente.
+Et enfin, nous espérons à travers ce guide apporter notre pierre à l’édifice pour une meilleure prise en compte du travail, consacré aux données de la recherche, pour qu’elles puissent être accessibles, bien documentées, réutilisables et donc réutilisées dans le cadre d'une science ouverte et transparente.
 
-
+========
 >CH - Alternative un peu modifiée partant de la proposition de Joanna  avec en + les compléments de Maurice et certaines remarques de MC - Peut-être faudrait il ajouter encore des idées complémentaires ?*
 
 >STP c'est sur de lire 2 version alternatives, je te propose d'agreger les 2 et mettre dans la version du dessus ce qui te semble >manquer ou différent dans la version du dessous...j'ai relu et j'y retrouve quasiment les memes idées. voies si il manque une idée >forte interessante a mettre 
@@ -39,7 +41,7 @@ Ce document est donc un condensé des actions menées autour de la gestion des d
 
 À l'issue de la lecture de ce guide des termes comme DMP, plan de gestion de données, identifiant pérenne DOI, métadonnées, vocabulaire contrôlé, thesaurus, plateforme de traitement, interopérablité, standards, normes, traçabilité, ... devraient prendre tout leur sens et la place qu'ils doivent occuper de nos jours dans la gestion des données.
 
-Les références indiquées dans ce guide ont été sélectionnées du fait de leur caractère synthétique et toujours actuel, mais aussi lorsque ce sont des retours d'expérience du terrain qui illustrent un processus de gestion des données.
+Les références indiquées dans ce guide ont été sélectionnées du fait de leur pertinence et toujours actuel, ou aussi parceque ce sont des retours d'expérience du terrain qui illustrent un processus de gestion des données.
 
 Ce guide n’est assurément pas exhaustif ; il illustre les thèmes de fort intérêt pour les différentes communautés et les réseaux qui œuvrent pour la gestion, la préservation, la valorisation et l’ouverture des données de la recherche. 
 Les pratiques et conseils cités ne se substituent pas aux recommandations présentées par les agences de financement, les établissements ou les instituts mais sont là pour éclairer, accompagner au mieux les personnels de soutien à la recherche en charge de la gestion des données.
