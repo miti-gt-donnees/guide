@@ -205,8 +205,6 @@ Enfin, notons la création du logiciel open source [opentheso](https://www.mom.f
 
 Afin d'être cités et réutilisés, les données et documents numériques se doivent de disposer d'un identifiant pérenne pour qu'ils puissent être référencés, visibles et accessibles de manière univoque.
 
-### Le cas des documents
-
 Il existe différents types d'identifiants pérennes pour toutes sortes d'objets y compris les humains. Cet article de J-L Archimbaud fait le point sur les identifiants des documents numériques et leurs usages :
 
 ```{admonition} [Identifiants des documents numériques : ISBN, ISSN, URL, Handle, DOI, OpenURL, OAI, ARK](http://rbdd.cnrs.fr/IMG/pdf/2015.10.ident-num.jla.v3.1.pdf?141/a989c95a6a9294128c99df8e2cfe4932718d2416)
