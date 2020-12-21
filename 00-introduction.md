@@ -8,12 +8,12 @@ Améliorer les pratiques de gestion des données de la science devient nécessai
 
 Gérer les données de la recherche est un processus complexe qui suppose un travail long et coûteux, des moyens techniques et humains parfois importants et qui comprend plusieurs étapes avant d’aboutir à la publication et l’archivage de données fiables, de qualité, respectueuses du droit des personnes et de la législation en vigueur.
 
-```{sidebar} <span style="font-weight: normal; font-size: 14px;">Cycle de vie des données de la recherche établi par l'Atelier Données</span>
-<font size=2>Etapes pour une gestion FAIR des données d'un projet de recherche.</font>
-```
-
-```{image} images/donnees.png
-:width: 350px
+```{figure} images/donnees.png
+---
+width: 250px
+name: marguerite
+---
+Cartographie des actions des réseaux métiers autour de la gestion des données
 ```
 
 Pour formaliser les différentes étapes de gestion des données, nous nous sommes servis du cyle de vie des données que nous avons élaboré au sein de l'Atelier Données. Il s'agit d'un cercle verteux qu'on peut faire correspondre aux différentes phases d'un projet scientifique.
