@@ -186,7 +186,7 @@ le partage et l’intéropérabilité des données de la recherche. Et pour fini
 LODEX ou VISA TM pour créer et gérer la terminologie scientifique et permettre le recueil des données sur les publications et la production d’indicateurs 
 bibliométriques
 
-```{admonition} [Positionnement et offre globale de l’INIST dans le contexte IST en évolution](https://fredoc2018.sciencesconf.org/data/pages/INIST_C_Francois.pd)   
+```{admonition} [Positionnement et offre globale de l’INIST dans le contexte IST en évolution](https://fredoc2018.sciencesconf.org/data/pages/INIST_C_Francois.pdf)   
 :class: seealso
 Claire François  
 FREDOC 2018
