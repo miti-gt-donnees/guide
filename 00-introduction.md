@@ -13,7 +13,7 @@ Gérer les données de la recherche est un processus complexe qui suppose un tra
 width: 250px
 name: marguerite
 ---
-Cartographie des actions des réseaux métiers autour de la gestion des données
+Cartographie des actions des réseaux métiers autour de la gestion des données.
 ```
 
 Pour formaliser les différentes étapes de gestion des données, nous nous sommes servis du cyle de vie des données que nous avons élaboré au sein de l'Atelier Données. Il s'agit d'un cercle verteux qu'on peut faire correspondre aux différentes phases d'un projet scientifique.
