@@ -256,7 +256,7 @@ Comment concevoir une base de données en archéométrie, 2014.
 
 Cette autre présentation de Marie-Claude Quidoz s'intéresse à la problématique de la traçabilité des données appliquée cette fois aux bases de données. Elle recommande en particulier, dès que l'on traite des données de noter toutes les opérations faites  (insertion / suppression / modification). Pour cela un mécanisme d'historisation doit être mis en place au moment de la création de la structure de la base de données. Cette historisation repose sur un mécanisme de déclencheur qui s'active sur les actions cités précédemment.  Dans le cadre de PostgreSQL, le logiciel de SGBD recommandé dans la [circulaire Ayrault](https://www.legifrance.gouv.fr/circulaire/id/35837), cette historisation peut être automatisée grâce à l'extension E-Maj. La mise en place de ce mécanisme permet aussi d'envisager de pouvoir rejouer une requête et de reproduire le résultat tel qu'il était quand par exemple un DOI a été défini.
 
-```{admonition} [Présentation générale sur la problématique de la traçabilité des données appliquée aux bases de données](http://rbdd.cnrs.fr/IMG/pdf/atelier\_tracabilite.pdf?523/29abaadfb5e2e0fff8aed53afd88d7aad1ded34f)  
+```{admonition} [Présentation générale sur la problématique de la traçabilité des données appliquée aux bases de données](http://rbdd.cnrs.fr/IMG/pdf/atelier\_tracabilite.pdf)  
 :class: seealso
 Marie-Claude Quidoz, CEFE     
 Atelier Traçabilité, 2018 
