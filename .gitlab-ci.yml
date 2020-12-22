@@ -1,9 +1,9 @@
-test:
-  stage: test
-  script:
-    - ./check-urls.sh
-  tags:
-    - pandoc
+# test:
+#   stage: test
+#   script:
+#     - ./check-urls.sh
+#   tags:
+#     - pandoc
 
 pages:
   stage: deploy
