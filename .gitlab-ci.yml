@@ -1,10 +1,14 @@
 image: pnavaro/pandoc
 
+test:
+  stage: test
+  script:
+    - ./check-urls.sh
+
 pages:
   stage: deploy
   script:
     - make
-
   tags:
     - pandoc
   artifacts:
