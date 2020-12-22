@@ -1,7 +1,7 @@
 test:
   stage: test
   script:
-    - check-urls.sh
+    - ./check-urls.sh
   tags:
     - pandoc
 
