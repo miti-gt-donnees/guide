@@ -157,9 +157,9 @@ Soumaya Lahbib
 
 ## Utilisation de thesaurus 
 
-Un vocabulaire contrôlé est une liste de termes (mots et expressions) soigneusement choisis pour désigner les concepts d'un domaine (un seul terme préférentiel et éventuellement plusieurs entrées non préférentielles). Il réduit l'ambiguïté inhérente au langage humain naturel, où différents noms peuvent être attribués à un même concept. Un thésaurus permet d'organiser et de structurer un vocabulaire contrôlé à partir de relations sémantiques entre concepts (de types hiérarchiques ou associatifs) et d'équivalence entre termes.
+Un vocabulaire contrôlé est une liste de termes (mots et expressions) soigneusement choisis pour désigner les concepts d'un domaine (un seul terme préférentiel et éventuellement plusieurs entrées non préférentielles). Ces vocabulaires sont regroupés dans des "thésaurus" qui sont des listes organisées de termes, contrôlés et normalisés, (descripteurs et non-descripteurs) représentant les concepts d'un domaine de la connaissance. 
 
-Pour être interopérables sémantiquement, les catalogues de métadonnées se doivent d'utiliser des vocabulaires contrôlés relevant de la discipline scientifique concernée. Ces vocabulaires sont regroupés dans des thésaurus qui sont des listes organisées de termes contrôlés et normalisés (descripteurs et non-descripteurs) représentant les concepts d'un domaine de la connaissance. Un thésaurus permet d'organiser et de structurer un vocabulaire contrôlé.
+Un thésaurus permet donc d'organiser et de structurer un vocabulaire d'un domaine de connaissances à partir de relations sémantiques entre concepts (de types hiérarchiques ou associatifs) et d'équivalence entre termes. Il réduit donc l'ambiguïté inhérente au langage humain naturel dans lequel différents noms peuvent être attribués à un même concept. 
 
 De nombreux thesaurus existent comme celui de 
 - "[Inspire](https://www.eionet.europa.eu/gemet/en/inspire-themes/)" ou 
