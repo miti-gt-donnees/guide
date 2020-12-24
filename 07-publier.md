@@ -36,9 +36,10 @@ Le logiciel GeoNetwork utilise, en outre, le protocole [WMS (Web Map Service) de
 
 L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation ANF du [réseau SIST](https://sist.cnrs.fr/) pour laquelle on trouvera les informations sur le site [https://sist.cnrs.fr/les-formations/anf-2017-1](https://sist.cnrs.fr/les-formations/anf-2017-1)  :
 
-```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)
-J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer
-ANF SIST 2017 Fréjus
+```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)    
+:class: seealso   
+J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer    
+ANF SIST 2017 Fréjus    
 ```
 
 Le recueil des métadonnées ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d'automatiser la constitution des catalogues. Plusieurs développements se sont intéressés à l'utilisation de l'interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage "R". 
