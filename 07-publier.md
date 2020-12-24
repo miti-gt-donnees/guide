@@ -161,12 +161,14 @@ Un vocabulaire contrôlé est une liste de termes (mots et expressions) soigneus
 
 Un thésaurus permet donc d'organiser et de structurer un vocabulaire d'un domaine de connaissances à partir de relations sémantiques entre concepts (de types hiérarchiques ou associatifs) et d'équivalence entre termes. Il réduit donc l'ambiguïté inhérente au langage humain naturel dans lequel différents noms peuvent être attribués à un même concept. 
 
-De nombreux thesaurus existent comme celui de 
+De nombreux thesaurus existent dans divers domaines scientifiques. Dans le domaine environnemental, on utilise fréquemment les thesaurus :
 - "[Inspire](https://www.eionet.europa.eu/gemet/en/inspire-themes/)" ou 
 - "[GEMET](https://www.eionet.europa.eu/gemet/en/themes/)". Ce dernier est un thésaurus documentaire multilingue développé et publié par l'Agence européenne pour l'environnement. 
 
-Cependant, selon le domaine scientifique, certains thesaurus doivent être créés ou nécessitent de multiples évolutions et mises à jour.
-Lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.loterre.fr/skosmos/BLH/fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
+
+Cependant selon le domaine scientifique et dans certaines disciplines, les standards et vocabulaires contrôlés n'existent pas et les thesaurus doivent etre créés. Les communautés scientifiques peuvent alors se saisir d'outils tels qu'opentheso et thésauform pour répondre aux besoins de normalisation.
+
+Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.loterre.fr/skosmos/BLH/fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
 
 ```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv.pdf)
 :class: seealso
