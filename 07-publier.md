@@ -221,7 +221,9 @@ Il faut aussi noter que dans le domaine de la bio-informatique, des identifiants
 
 Dans le domaine des données, les D.O.I (Digital Object Identification) permettent de citer un jeu de données homogène de manière univoque afin de les citer et de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
 
-L'obtention de D.O.I se fait auprès de [l'organisme international "Datacite"](https://doi.datacite.org/) ou bien tout partenaire contractualisé avec Datacite comme [l'INIST du CNRS](https://opidor.fr/identifier/). Il implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "landing page") qui permet de fournir les métadonnées principales pour décrire les données et d'y accéder.
+[l'INIST du CNRS](https://opidor.fr/identifier/) est l'agence d’attribution de l’identifiant DOI en France pour l'Enseignement Supérieur et Recherche (ESR). Les D.O.I sont obtenus auprès de [l'organisme international "Datacite"](https://doi.datacite.org/). 
+
+L'allocation de D.O.I sur des données implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "_landing page_") qui permet de fournir les métadonnées principales pour décrire les données et y accéder.
 
 Pour créer une "landing page", page d'accueil pour décrire un jeu de données, il faut s'assurer que certaines métadonnées obligatoires sont bien mentionnées et renseignées pour permettre une recherche. Le site Datacite rappelle quelles sont les métadonnées obligatoires : <https://support.datacite.org/docs/schema-mandatory-properties-v43>. Pour en savoir plus sur les identifiants pérennes, on peut consulter la page de Doranum <https://doranum.fr/identifiants-perennes-pid/>
 
