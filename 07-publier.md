@@ -217,9 +217,11 @@ Journées « Conduire et construire un plan de gestion des données : de la base
 
 Il faut aussi noter que dans le domaine de la bio-informatique, des identifiants uniques sont attribués aux enregistrements de séquences DNA ou de protéines. Ils sont nommés [accession number](https://en.wikipedia.org/wiki/Accession_number_(bioinformatics)).
 
+
+
 ### Les DOI : "Digital Object Identification"
 
-Dans le domaine des données, les D.O.I (Digital Object Identification) permettent de citer un jeu de données homogène de manière univoque afin de les citer et de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
+Dans le domaine des données, les D.O.I (Digital Object Identification) DOI est un identifiant pérenne favorisant le référencement et la citation des jeux de données. Ils permettent de citer un jeu de données homogène de manière univoque et de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
 
 [l'INIST du CNRS](https://opidor.fr/identifier/) est l'agence d’attribution de l’identifiant DOI en France pour l'Enseignement Supérieur et Recherche (ESR). Les D.O.I sont obtenus auprès de [l'organisme international "Datacite"](https://doi.datacite.org/). 
 
