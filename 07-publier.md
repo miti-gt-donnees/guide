@@ -36,7 +36,7 @@ Le logiciel GeoNetwork utilise, en outre, le protocole [WMS (Web Map Service) de
 
 L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation ANF du [réseau SIST](https://sist.cnrs.fr/) pour laquelle on trouvera les informations sur le site [https://sist.cnrs.fr/les-formations/anf-2017-1](https://sist.cnrs.fr/les-formations/anf-2017-1)  :
 
-```{admonition} Documentations sur les logiciels étudiés GeoNetwork et GeoServer ](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)
+```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)
 J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer
 ANF SIST 2017 Fréjus
 ```
