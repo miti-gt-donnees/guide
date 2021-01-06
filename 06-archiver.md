@@ -17,7 +17,7 @@ Sauvegarder
   La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde bit à bit (la recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte).
 ```
 
-Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité, et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux.
+Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité, et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la collecte des données (cf. 3.3. Environnements de stockage - Sauvegarder les données)
 
 Laurent Pelletier, lors de l'ANF PostgreSQL Administration, a présenté les questions à se poser pour définir sa politique de sauvegarde autour des bases de données.
 
@@ -59,6 +59,17 @@ Dans l'article "[l'archivage des données de la recherche à l'Inra. Eléments d
 
 Dans la suite de ce chapître, nous utiliserons le terme "préservation" qui est le terme le plus utilisé actuellement.
 
+### Préserver la masse de données scientifiques
+
+Cette présentation est une bonne entrée en la matière : Cristinel Diaconu introduit sa présentation en illustrant le « Data Big Bang » et en questionnant le destin des *big scientific data* sur le long terme. Il explique la fragilité des données numériques et la limite dépassée des capacités de stockage des données. Pourtant les données scientifiques sont riches en information, car structurées selon un plan de recherche et une démarche scientifique, elles sont de plus en plus massives et diverses, produites avec des efforts humains et financiers significatifs, elles englobent des connaissances uniques qu’il faut absolument préserver. Partant d’exemples issus de la physique des hautes énergies produits par des instruments gigantesques pour des collaborations internationales, il démontre l’importance de se préoccuper du sort de ces données et de planifier leur préservation. Il aborde la question du risque associé à la réutilisation, de l’organisation sur le long terme, et des différents modèles de données et des niveaux de préservation.
+
+La dernière partie de sa présentation est consacrée au projet **PREDON** qui propose une approche nouvelle qui mélange les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.
+
+```{admonition} [La préservation des données scientifiques](http://renatis.cnrs.fr/IMG/pdf/DIACONU_DPHEP_PREDON_FREDOCS.pdf)   
+:class: seealso   
+Cristinel Diaconu, CPPM   
+FRéDoc « Gestion et valorisation des données de la recherche », réseau Renatis, Aussois, 2013   
+```
 ### Protéger et sécuriser le patrimoine scientifique
 
 L'analyse de risque suit un processus normé (ISO 2700x) comme nous le montre Alain Rivet. Cette présentation inclut une étude de cas sur l'utilisation d’un portable par un chercheur qui illustre le passage de la théorie à la pratique.
@@ -108,18 +119,6 @@ Sans prise de conscience de tous sur la nécessité de préserver le patrimoine 
 [video](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
 Marion MASSOL, CINES   
 Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
-```
-
-### Préserver la masse de données scientifiques
-
-Cette présentation est une bonne entrée en la matière : Cristinel Diaconu introduit sa présentation en illustrant le « Data Big Bang » et en questionnant le destin des *big scientific data* sur le long terme. Il explique la fragilité des données numériques et la limite dépassée des capacités de stockage des données. Pourtant les données scientifiques sont riches en information, car structurées selon un plan de recherche et une démarche scientifique, elles sont de plus en plus massives et diverses, produites avec des efforts humains et financiers significatifs, elles englobent des connaissances uniques qu’il faut absolument préserver. Partant d’exemples issus de la physique des hautes énergies produits par des instruments gigantesques pour des collaborations internationales, il démontre l’importance de se préoccuper du sort de ces données et de planifier leur préservation. Il aborde la question du risque associé à la réutilisation, de l’organisation sur le long terme, et des différents modèles de données et des niveaux de préservation.
-
-La dernière partie de sa présentation est consacrée au projet **PREDON** qui propose une approche nouvelle qui mélange les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.
-
-```{admonition} [La préservation des données scientifiques](http://renatis.cnrs.fr/IMG/pdf/DIACONU_DPHEP_PREDON_FREDOCS.pdf)   
-:class: seealso   
-Cristinel Diaconu, CPPM   
-FRéDoc « Gestion et valorisation des données de la recherche », réseau Renatis, Aussois, 2013   
 ```
 
 ## Sélectionner les données pertinentes à préserver
@@ -216,11 +215,9 @@ Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, G
 
 Les informations concernant les logiciels et les codes sources sont détaillées dans la partie {ref}`infrastructures`.
 
-## Pérenniser les objets numériques
+## Archiver les objets numériques
 
-[MCQ - debut] je propose d'appeler ce paragraphe "archiver les objets numériques" et changer le mot "pérénnisation" par "archivage" dans l'introduction [MCQ - fin]
-
-La pérennisation des objets numériques s'appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d'archivage homologué aux fonctionnalités d'interrogation moindre.
+L'archivage des objets numériques s'appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d'archivage homologué aux fonctionnalités d'interrogation moindre.
 
 
 ### Archivage à long terme et politiques de préservation
