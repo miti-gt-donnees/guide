@@ -120,6 +120,7 @@ Sans prise de conscience de tous sur la nécessité de préserver le patrimoine 
 Marion MASSOL, CINES   
 Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
 ```
+
 ## Préserver les objets numériques
 
 Tous les objets numériques ne nécessitent pas les mêmes opérations pour être préservés. Leur préservation dépend parfois de leur nature (données textuelles, données numériques, données audiovisuelles, modèles et codes informatiques ..), du niveau de leur protection (chiffrés, pas chiffrés) de leur façon d'être collectés (observateur, capteur, modèle ...) ou de leur stabilité dans le temps (stable, croissante, révisable). 
@@ -223,12 +224,11 @@ Françoise Genova,observatoire astronomique de Strasbourg, Gilles Duvert, IPAG, 
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
 
-
 ### Les plateformes d'archivage des données
 
-Les plateformes d'archivage sont décrites dans la partie Infrastructures [mettre le lien]
+Les plateformes d'archivage sont décrites dans la partie Infrastructures {ref}`infrastructures`.
 
-## Sélectionner les données pertinentes à préserver
+## Sélectionner les données pertinentes
 
 Cette étape nécessite une phase de sélection des informations pertinentes (validées, utiles…) pour son activité tout en se préoccupant de leur exploitation future à travers les problématiques de durée de vie, de confidentialité et de sécurité des données.
 
