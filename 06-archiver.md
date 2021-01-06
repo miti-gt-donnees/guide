@@ -5,7 +5,7 @@ Préserver, sécuriser l'information et sauvegarder, voire archiver les données
 
 ## Comprendre et différentier les différents concepts
 
-Les notions de stockage, de sauvegarde et d'archivage ainsi que les actions de préservation et de pérennisation ne sont pas toujours définies dans les mêmes termes. Afin de faciliter la lecture de ce chapitre et aider à distinguer les différences entre les termes utilisés nous vous proposons les définitions suivantes.
+Les notions de stockage, de sauvegarde et d'archivage ainsi que les actions de préservation et de pérennisation ne sont pas toujours définies dans les mêmes termes. Afin de faciliter la lecture de ce chapitre et aider à distinguer les différences entre les termes utilisés, nous vous proposons les définitions suivantes.
 
 ### Définitions générales
 
@@ -17,7 +17,7 @@ Sauvegarder
   La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde bit à bit (la recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte).
 ```
 
-Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité, et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la collecte des données (cf. 3.3. Environnements de stockage - Sauvegarder les données)
+Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité, et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la partie {ref}`collecter`
 
 Laurent Pelletier, lors de l'ANF PostgreSQL Administration, a présenté les questions à se poser pour définir sa politique de sauvegarde autour des bases de données.
 
@@ -61,7 +61,7 @@ Dans la suite de ce chapître, nous utiliserons le terme "préservation" qui est
 
 ### Préserver la masse de données scientifiques
 
-Cette présentation est une bonne entrée en la matière : Cristinel Diaconu introduit sa présentation en illustrant le « Data Big Bang » et en questionnant le destin des *big scientific data* sur le long terme. Il explique la fragilité des données numériques et la limite dépassée des capacités de stockage des données. Pourtant les données scientifiques sont riches en information, car structurées selon un plan de recherche et une démarche scientifique, elles sont de plus en plus massives et diverses, produites avec des efforts humains et financiers significatifs, elles englobent des connaissances uniques qu’il faut absolument préserver. Partant d’exemples issus de la physique des hautes énergies produits par des instruments gigantesques pour des collaborations internationales, il démontre l’importance de se préoccuper du sort de ces données et de planifier leur préservation. Il aborde la question du risque associé à la réutilisation, de l’organisation sur le long terme, et des différents modèles de données et des niveaux de préservation.
+Cette présentation est une bonne entrée en la matière. Cristinel Diaconu introduit sa présentation en illustrant le « Data Big Bang » et en questionnant le destin des *big scientific data* sur le long terme. Il explique la fragilité des données numériques et la limite dépassée des capacités de stockage des données. Pourtant les données scientifiques sont riches en information, car structurées selon un plan de recherche et une démarche scientifique, elles sont de plus en plus massives et diverses, produites avec des efforts humains et financiers significatifs, elles englobent des connaissances uniques qu’il faut absolument préserver. Partant d’exemples issus de la physique des hautes énergies produits par des instruments gigantesques pour des collaborations internationales, il démontre l’importance de se préoccuper du sort de ces données et de planifier leur préservation. Il aborde la question du risque associé à la réutilisation, de l’organisation sur le long terme, et des différents modèles de données et des niveaux de préservation.
 
 La dernière partie de sa présentation est consacrée au projet **PREDON** qui propose une approche nouvelle qui mélange les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.
 
@@ -120,44 +120,6 @@ Sans prise de conscience de tous sur la nécessité de préserver le patrimoine 
 Marion MASSOL, CINES   
 Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
 ```
-
-## Sélectionner les données pertinentes à préserver
-
-Cette étape nécessite une phase de sélection des informations pertinentes (validées, utiles…) pour son activité tout en se préoccupant de leur exploitation future à travers les problématiques de durée de vie, de confidentialité et de sécurité des données.
-
-Plusieurs critères sont à prendre en considération :
-
--	la date et la fréquence à laquelle faire cette sélection : fin de thèse, de projet ou de contrat / avant de quitter son emploi / à date régulière / etc ;
--	la durée de conservation : durée officielle pour les documents administratifs, à définir en fonction des besoins pour les données scientifiques ;  
--   l'obligation administrative de destruction éventuelle ;
--   la nécessité d'anonymisation éventuelle ;
--	le format, la nature des données qui définiront leur lisibilité dans le temps ;  
--	les supports d’enregistrement, d’utilisation et de stockage des données ;  
--	la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;  
--	le coût de ces supports ou encore des modifications de format de fichiers, ou bien de l’espace de stockage nécessaires à la conservation des données.  
-
-Ses critères ont été établis dans le cadre de l'archivage pérenne, mais ils s'appliquent tout à fait à l'archivage (rappel : la différence entre archive pérenne et archive réside sur la durée de conservation).
-
-Dans la présentation référencée, Lorène Béchard et Marion Massol présentent le CINES, ses missions et l'infrastructure d'archivage au CINES. Elles abordent les différents formats, le cas particulier de l'archivage des bases de données et les questions à se poser avant d'archiver. Elles précisent que l’archivage pérenne des documents électroniques consiste à conserver le document et l’information qu’il contient :
-- Dans son aspect physique comme dans son aspect intellectuel,
-- Sur le très long terme …et au-delà,
-- De manière à ce qu’il soit en permanence accessible et compréhensible.
-
-```{admonition} [Les critères à prendre en compte pour la conservation des données](http://rbdd.cnrs.fr/IMG/pdf/2014-11-06_rbdd_ae_cines_bdd.pdf?180/f1eef63ef0e72ac628e9435afadcf0c0fc82abfb)  
-:class: seealso
-[video](http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines)   
-Lorène Béchard, CINES & Marion Massol, CINES   
-Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014    
-```
-
-Dans cette présentation, après avoir évoqué le contexte réglementaire en matière de gestion d'**archives publiques**, Magalie Moysan, coordinatrice du pôle Sécurisation des données et documents et responsable du département archives à l'Université de Paris, aborde les enjeux de leur préservation ainsi que les outils et méthodes disponibles pour procéder à leur sélection. Elle insiste sur le statut « d'archives publiques » souvent méconnu dans nos établissements et sur les obligations légales et réglementaires qui y sont associées notamment l'obligation de bien gérer, conserver et archiver ses documents ou l'interdiction de les détruire sans visa préalable des autorités compétentes. Elle explique ensuite l'intérêt de concevoir l'archivage comme un moyen de « conserver les preuves », de garantir une antériorité, d'assurer le suivi d'une activité, de fiabiliser les résultats et de constituer un patrimoine scientifique. La sélection des données en vue de leur conservation suppose très en amont de pouvoir anticiper cette tâche en procédant à une description rigoureuse des données et de leur contexte de production (contenu, date, modalité d'entrée, conditions d'accès etc.). Le processus de sélection s'organise autour de quelques grands principes (intérêt scientifique, juridique, historique de la donnée, intelligibilité de la donnée) et se détermine souvent dans le cadre d'un échange entre scientifique et archiviste. Les référentiels de conservation sont des outils d'aide intéressants pour accompagner le processus de sélection.
-
-```{admonition} [Sélectionner les données pour la préservation : enjeux et méthodes](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Moysan.pdf)    
-:class: seealso   
-Magalie Moysan, Université de Paris    
-Atelier Dialogu’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
-```
-
 ## Préserver les objets numériques
 
 Tous les objets numériques ne nécessitent pas les mêmes opérations pour être préservés. Leur préservation dépend parfois de leur nature (données textuelles, données numériques, données audiovisuelles, modèles et codes informatiques ..), du niveau de leur protection (chiffrés, pas chiffrés) de leur façon d'être collectés (observateur, capteur, modèle ...) ou de leur stabilité dans le temps (stable, croissante, révisable). 
@@ -213,7 +175,8 @@ Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, G
 
 ### Les logiciels / les codes sources 
 
-Les informations concernant les logiciels et les codes sources sont détaillées dans la partie {ref}`infrastructures`.
+La préservation des logiciels et des codes sources est indispensable pour assurer la reproductibilité de la science. Dans le cadre des logiciels libres, une infrastructure a vu le jour, il s'agit de Software Heritage. Pour en savoir plus sur cette plateforme, consultez la partie
+{ref}`infrastructures`.
 
 ## Archiver les objets numériques
 
@@ -264,6 +227,43 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 ### Les plateformes d'archivage des données
 
 Les plateformes d'archivage sont décrites dans la partie Infrastructures [mettre le lien]
+
+## Sélectionner les données pertinentes à préserver
+
+Cette étape nécessite une phase de sélection des informations pertinentes (validées, utiles…) pour son activité tout en se préoccupant de leur exploitation future à travers les problématiques de durée de vie, de confidentialité et de sécurité des données.
+
+Plusieurs critères sont à prendre en considération :
+
+-	la date et la fréquence à laquelle faire cette sélection : fin de thèse, de projet ou de contrat / avant de quitter son emploi / à date régulière / etc ;
+-	la durée de conservation : durée officielle pour les documents administratifs, à définir en fonction des besoins pour les données scientifiques ;  
+-   l'obligation administrative de destruction éventuelle ;
+-   la nécessité d'anonymisation éventuelle ;
+-	le format, la nature des données qui définiront leur lisibilité dans le temps ;  
+-	les supports d’enregistrement, d’utilisation et de stockage des données ;  
+-	la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;  
+-	le coût de ces supports ou encore des modifications de format de fichiers, ou bien de l’espace de stockage nécessaires à la conservation des données.  
+
+Ses critères ont été établis dans le cadre de l'archivage pérenne, mais ils s'appliquent tout à fait à l'archivage (rappel : la différence entre archive pérenne et archive réside sur la durée de conservation).
+
+Dans la présentation référencée, Lorène Béchard et Marion Massol présentent le CINES, ses missions et l'infrastructure d'archivage au CINES. Elles abordent les différents formats, le cas particulier de l'archivage des bases de données et les questions à se poser avant d'archiver. Elles précisent que l’archivage pérenne des documents électroniques consiste à conserver le document et l’information qu’il contient :
+- Dans son aspect physique comme dans son aspect intellectuel,
+- Sur le très long terme …et au-delà,
+- De manière à ce qu’il soit en permanence accessible et compréhensible.
+
+```{admonition} [Les critères à prendre en compte pour la conservation des données](http://rbdd.cnrs.fr/IMG/pdf/2014-11-06_rbdd_ae_cines_bdd.pdf?180/f1eef63ef0e72ac628e9435afadcf0c0fc82abfb)  
+:class: seealso
+[video](http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines)   
+Lorène Béchard, CINES & Marion Massol, CINES   
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014    
+```
+
+Dans cette présentation, après avoir évoqué le contexte réglementaire en matière de gestion d'**archives publiques**, Magalie Moysan, coordinatrice du pôle Sécurisation des données et documents et responsable du département archives à l'Université de Paris, aborde les enjeux de leur préservation ainsi que les outils et méthodes disponibles pour procéder à leur sélection. Elle insiste sur le statut « d'archives publiques » souvent méconnu dans nos établissements et sur les obligations légales et réglementaires qui y sont associées notamment l'obligation de bien gérer, conserver et archiver ses documents ou l'interdiction de les détruire sans visa préalable des autorités compétentes. Elle explique ensuite l'intérêt de concevoir l'archivage comme un moyen de « conserver les preuves », de garantir une antériorité, d'assurer le suivi d'une activité, de fiabiliser les résultats et de constituer un patrimoine scientifique. La sélection des données en vue de leur conservation suppose très en amont de pouvoir anticiper cette tâche en procédant à une description rigoureuse des données et de leur contexte de production (contenu, date, modalité d'entrée, conditions d'accès etc.). Le processus de sélection s'organise autour de quelques grands principes (intérêt scientifique, juridique, historique de la donnée, intelligibilité de la donnée) et se détermine souvent dans le cadre d'un échange entre scientifique et archiviste. Les référentiels de conservation sont des outils d'aide intéressants pour accompagner le processus de sélection.
+
+```{admonition} [Sélectionner les données pour la préservation : enjeux et méthodes](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Moysan.pdf)    
+:class: seealso   
+Magalie Moysan, Université de Paris    
+Atelier Dialogu’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
+```
 
 ## S'appuyer sur les enseignements des retours d'expérience 
 
