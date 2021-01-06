@@ -15,6 +15,7 @@
   numbered: false
   chapters:
     - file: 08-conclusion.md
+    - file: 09-glossaire.md
     - file: 10-infrastructures.md
     - file: 11-reproductibilite.md
     - file: 12-ressources.md

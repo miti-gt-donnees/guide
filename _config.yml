@@ -3,7 +3,7 @@ title: ""
 author: Groupe de travail "Atelier Données"
 logo: images/logo.png
 
-exclude_patterns: [README.md,LICENSE.md,09-glossaire.md]
+exclude_patterns: [README.md,LICENSE.md]
 
 repository:
     url: https://gitlab.math.unistra.fr/mi-gt-donnees/synthese
