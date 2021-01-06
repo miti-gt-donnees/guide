@@ -1,20 +1,20 @@
 (archiver)=
 # Préserver et archiver
 
-Préserver, sécuriser l'information et sauvegarder, voire archiver les données sont des phases essentielles de la gestion rigoureuse des données, mais il n'est pas toujours aisé de faire la différence dans ses notions et d'utiliser le bon terme. De plus, préserver pour un usage futur dont on ignore le plus souvent les caractéristiques est compliqué. C'est pourquoi des retours d'expériences avec leurs succès et leurs échecs sont intéressants à faire connaître. Ces retours d'expérience sont complétés par des conseils donnés pour sélectionner les données à préserver et pour mener à bien la préservation d'objets numériques.
+Préserver, sécuriser l'information et sauvegarder, voire archiver les données sont des phases essentielles de la gestion rigoureuse des données, mais il n'est pas toujours aisé de faire la différence dans ses notions et d'utiliser le bon terme et la procédure associée. De plus, préserver pour un usage futur dont on ignore le plus souvent les caractéristiques est compliqué. C'est pourquoi des retours d'expériences avec leurs succès et leurs échecs sont intéressants à faire connaître. Ces retours d'expérience sont complétés par des conseils donnés pour sélectionner les données à préserver et pour mener à bien la préservation d'objets numériques.
 
 ## Comprendre et différentier les différents concepts
 
-Les notions de stockage, de sauvegarde et d'archivage ainsi que les actions de préservation et de pérennisation ne sont pas toujours définies dans les mêmes termes. Afin de faciliter la lecture de ce chapitre et pour éviter toute ambiguïté, nous allons donner nos définitions.
+Les notions de stockage, de sauvegarde et d'archivage ainsi que les actions de préservation et de pérennisation ne sont pas toujours définies dans les mêmes termes. Afin de faciliter la lecture de ce chapitre et aider à distinguer les différences entre les termes utilisés nous vous proposons les définitions suivantes.
 
 ### Définitions générales
 
 ```{glossary}
 Stocker
-  C'est l'étape première qui consiste à déposer les données sur un support numérique. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme.
+  C'est l'étape première qui consiste à déposer les données sur un support numérique. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n'est ni sauvegardée et ni sécurisée.
 
 Sauvegarder
-  La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde bit à bit (la recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte - vision à court terme -).
+  La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde bit à bit (la recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte).
 ```
 
 Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité, et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux.
@@ -29,7 +29,7 @@ ANF « PostgreSQL Administration », réseau rBDD, Sète, 2017
 
 ```{glossary}
 Archiver
-   L'archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d'y associer les moyens pour réexploiter les données : la réexploitation se faisant en ajoutant de l'intelligence à la sauvegarde. Le contenu des documents archivés n'est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l'obsolescence logicielle).
+   L'archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d'y associer les moyens pour réutiliser les données : la réutilisation se faisant en ajoutant de l'intelligence à la sauvegarde. Le contenu des documents archivés n'est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l'obsolescence logicielle).
 ```
 
 Le terme archive est défini par le législateur : *les archives sont l'ensemble des documents, y compris les données, quels que soient leur date, leur lieu de conservation, leur forme et leur support produits ou reçus par toute personne physique ou morale, et par tout service ou organisme public ou privé dans l'exercice de leur activité* (art. L. 211-1 du code du patrimoine). Les données de la recherche entrent pleinement dans le périmètre des archives. 
@@ -55,7 +55,7 @@ Pérenniser
    Ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L'archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).
 ```
 
-Dans son article "[l'archivage des données de la recherche à l'Inra. Eléments de réflexion, démarche et perspectives](https://hal.inrae.fr/hal-02861909)", les auteurs indiquent que pour eux, la pérennisation et la préservation sont le même concept :  *La pérennisation (ou préservation) permet de faire face à la perte d'informations d'identification ainsi qu'à l'obsolescence des supports et des logiciels. Elle consiste en effet à identifier et à conserver des documents et des données pour les rendre accessibles sur le moyen (10 ans et plus) et le long terme (50 ans et plus)*
+Dans l'article "[l'archivage des données de la recherche à l'Inra. Eléments de réflexion, démarche et perspectives](https://hal.inrae.fr/hal-02861909)", les auteurs indiquent que pour eux, la pérennisation et la préservation sont le même concept :  *La pérennisation (ou préservation) permet de faire face à la perte d'informations d'identification ainsi qu'à l'obsolescence des supports et des logiciels. Elle consiste en effet à identifier et à conserver des documents et des données pour les rendre accessibles sur le moyen (10 ans et plus) et le long terme (50 ans et plus)*
 
 Dans la suite de ce chapître, nous utiliserons le terme "préservation" qui est le terme le plus utilisé actuellement.
 
