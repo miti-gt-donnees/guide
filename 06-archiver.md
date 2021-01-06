@@ -11,13 +11,13 @@ Les notions de stockage, de sauvegarde et d'archivage ainsi que les actions de p
 
 ```{glossary}
 Stocker
-  C'est l'étape première qui consiste à déposer les données sur un support numérique. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n'est ni sauvegardée et ni sécurisée.
+  C'est l'étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n'est ni sauvegardée et ni sécurisée.
 
 Sauvegarder
-  La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde bit à bit (la recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte).
+  La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde bit à bit. La recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte.
 ```
 
-Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité, et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la partie {ref}`collecter`
+Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la partie {ref}`collecter`
 
 Laurent Pelletier, lors de l'ANF PostgreSQL Administration, a présenté les questions à se poser pour définir sa politique de sauvegarde autour des bases de données.
 
@@ -70,6 +70,7 @@ La dernière partie de sa présentation est consacrée au projet **PREDON** qui 
 Cristinel Diaconu, CPPM   
 FRéDoc « Gestion et valorisation des données de la recherche », réseau Renatis, Aussois, 2013   
 ```
+
 ### Protéger et sécuriser le patrimoine scientifique
 
 L'analyse de risque suit un processus normé (ISO 2700x) comme nous le montre Alain Rivet. Cette présentation inclut une étude de cas sur l'utilisation d’un portable par un chercheur qui illustre le passage de la théorie à la pratique.
@@ -129,7 +130,7 @@ Voici quelques exemples de préservation d'objets numériques qui ont fait l'obj
 
 ### Les données d'un tableur
 
- Marie-Claude Quidoz revient sur les 4 risques menaçant inéluctablement un fichier sur une longue période et elle donne des pistes d'améliorations possibles. Elle fait trois recommandations importantes :
+Marie-Claude Quidoz revient sur les 4 risques menaçant inéluctablement un fichier sur une longue période et elle donne des pistes d'améliorations possibles. Elle fait trois recommandations importantes :
 - ne pas penser uniquement format ouvert, mais penser aussi format durable pour une sauvegarde à long terme
 - dans le monde des tableurs, où à ce jour les seuls formats durables sont CSV / TXT, ne pas oublier de prendre en compte, lors de la création des fichiers, la perte de fonctionnalités de ce format par rapport aux formats natifs
 - avoir le réflexe de valider son fichier avec l'outil [FACILE](https://facile.cines.fr/) du CINES
@@ -183,7 +184,6 @@ La préservation des logiciels et des codes sources est indispensable pour assur
 
 L'archivage des objets numériques s'appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d'archivage homologué aux fonctionnalités d'interrogation moindre.
 
-
 ### Archivage à long terme et politiques de préservation
 
 Ces retours d'expériences recueillis lors du séminaire "[Archivage Numérique des Données de Recherche](https://dataarchivage.sciencesconf.org/)", Grenoble, 20 novembre 2019 illustrent les démarches en cours dans certains instituts et certaines infrastructures pour mettre en oeuvres des politiques d'archivage et de préservation des données.
@@ -196,7 +196,6 @@ Ce service co-construit en partenariat avec le CINES consiste en un accompagneme
 Les présentations de Yonny Cardenas et de Jean-François Perrin présentent les politiques de gestion, partage et diffusion des données au centre Paul Langevin et au centre de calcul de l’IN2P3. Yonny Cardenas insiste en particulier sur les qualités et faiblesses de la politique de gestion mise en place, il présente un cas d’utilisation qui mobilise des compétences multidisciplinaires de chercheurs, informaticiens et documentalistes et révèle un besoin crucial d’archivage à long terme.
 
 Gilles Duvert témoigne quant à lui de la préservation des données en Astronomie, discipline dans laquelle les données et l’interopérabilité sont au cœurs de la démarche scientifique depuis 40 ans. Il signale entre autres la pratique qui consiste à archiver et documenter les données à l’aide de standards partagés au niveau international.]
-
 
 ```{admonition} [Archivage des données à Huma-NUM](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf)
 :class: seealso
@@ -211,11 +210,11 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 Yonny Cardenas, CC-IN2P3    
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
+
 ```{admonition} [Gestion des données scientifiques à l'Institut Laue Langevin](https://dataarchivage.sciencesconf.org/data/pages/2019_11_19_IMAG_Journee_archivage.pdf)   
 :class: seealso
 Jean-Francois Perrin, ILL   
 Archivage Numérique des Données de Recherche, 2019, Grenoble   
-
 
 ```{admonition} [L'archivage des données en astronomie](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)   
 :class: seealso 
@@ -226,7 +225,7 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 
 ### Les plateformes d'archivage des données
 
-Les plateformes d'archivage sont décrites dans la partie Infrastructures {ref}`infrastructures`.
+Les plateformes d'archivage sont décrites dans la partie {ref}`infrastructures`.
 
 ## Sélectionner les données pertinentes
 
@@ -236,8 +235,8 @@ Plusieurs critères sont à prendre en considération :
 
 -	la date et la fréquence à laquelle faire cette sélection : fin de thèse, de projet ou de contrat / avant de quitter son emploi / à date régulière / etc ;
 -	la durée de conservation : durée officielle pour les documents administratifs, à définir en fonction des besoins pour les données scientifiques ;  
--   l'obligation administrative de destruction éventuelle ;
--   la nécessité d'anonymisation éventuelle ;
+-  l'obligation administrative de destruction éventuelle ;
+-  la nécessité d'anonymisation éventuelle ;
 -	le format, la nature des données qui définiront leur lisibilité dans le temps ;  
 -	les supports d’enregistrement, d’utilisation et de stockage des données ;  
 -	la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;  
