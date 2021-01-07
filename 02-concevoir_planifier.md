@@ -72,7 +72,6 @@ Le réseau Qualité en Recherche a élaboré une [guide assurance produit](http:
 
 ### Analyser les risques
 
-
 La sécurité de l’information est définie comme la « protection de la confidentialité, de l’intégrité et de la disponibilité de l’information ». Elle devient aujourd’hui une des problématiques majeures de nos unités.
 
 Forts de ce constat, nous devons envisager la finalité de « protection du patrimoine scientifique » à travers des enjeux principaux :
@@ -221,6 +220,8 @@ Afin de conclure ce tour d'horizon des plans de gestion de données, ce retour d
 HEINTZ, Wilfried, INRAe Dynafor   
 SIST 2018 
 ```
+
+A des fins pédagogiques, Le CEFE a  rédigé un PGD sur un projet fictif de "Suivi de population de poissons dans le lac du Bourget". Il correspond à la version qui devra être transmise dans les 6 mois qui suivent le démarrage scientifique du projet financé par l'ANR. Il est disponible sur le site de DMP opidor (https://dmp.opidor.fr/plans/5848/export.pdf).
 
 ## Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services
 
