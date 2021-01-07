@@ -221,7 +221,7 @@ HEINTZ, Wilfried, INRAe Dynafor
 SIST 2018 
 ```
 
-A des fins pédagogiques, le [CEFE](https://www.cefe.cnrs.fr/fr/) a  rédigé un [plan de gestion de données](https://dmp.opidor.fr/plans/5848/export.pdf) sur un projet fictif de "Suivi de population de poissons dans le lac du Bourget". Il correspond à la version qui devra être transmise dans les 6 mois qui suivent le démarrage scientifique du projet financé par l'ANR. Il est disponible dans la rubrique [DMPs publics](https://dmp.opidor.fr/public_plans)de l'outil DMP Opidor.
+A des fins pédagogiques, le [CEFE](https://www.cefe.cnrs.fr/fr/) a  rédigé un [plan de gestion de données](https://dmp.opidor.fr/plans/5848/export.pdf) sur un projet fictif de "Suivi de population de poissons dans le lac du Bourget". Il correspond à la version qui devra être transmise dans les 6 mois qui suivent le démarrage scientifique du projet financé par l'ANR. Il est disponible dans la rubrique [DMPs publics](https://dmp.opidor.fr/public_plans) de l'outil DMP Opidor.
 
 ## Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services
 
