@@ -182,7 +182,7 @@ La préservation des logiciels et des codes sources est indispensable pour assur
 
 ## Archiver les objets numériques
 
-L'archivage des objets numériques s'appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d'archivage homologué aux fonctionnalités d'interrogation moindre.
+L'archivage des objets numériques s'appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d'archivage homologué aux fonctionnalités d'interrogation moindres.
 
 ### Archivage à long terme et politiques de préservation
 
