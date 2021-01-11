@@ -146,6 +146,14 @@ SILECS, Super Infrastructure for Large-scale Experimental Computer Science est u
 Frédéric Desprez, Christian Perez, Inria  
 JCAD 2019
 ```
+Dans la présentation "Slices, towards a Scientific Large-Scale Infrastructure for Computing - Communication Experimental Studies", aux JCAD 2020, est détaillée la proposition d'infrastructure européenne Slices, Super Infrastructure for Large-Scale Experimental Computer Science, dont l'objectif est de construire sur 15 pays une infrastructure dont SILECS est la partie française.
+
+```{admonition} [Slices, towards a Scientific Large-Scale Infrastructure for Computing - Communication Experimental Studies.](https://jcad2020.sciencesconf.org/data/silecs_slices_JCAD_2020.pdf)   
+:class: seealso
+[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f769cca6cwq3z7qg/iframe/)   
+Christian Perez, Inria  
+JCAD 2020
+```
 
 **Les "datalakes"**
 
