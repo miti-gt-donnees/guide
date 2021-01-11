@@ -13,10 +13,11 @@ Le cloud européen EOSC a été abordé par Volker Beckman, chargé de mission C
 Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui offre aux chercheurs des services, l'accès à des données et à d'autres ressources fournies par des infrastructures de recherche publiques nationales, régionales et institutionnelles en Europe. Partant des nombreux appels à projets qui ont été lancés pour construire ce cloud (EOSCpilot, EOSC-hub, EOSC-Pillar, etc.), il expose les possibilités de collaboration. Depuis 2019, une structuration se met en place : une gouvernance temporaire et une implication forte des ministères nationaux comme têtes de file des communautés scientifiques impliquées. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement dans le Horizon Europe Work Programme.
 Le lien avec l'infrastructure nationale France Grilles est également décrit.
 
-EOSC a fait l'objet d'une [ journée spéciale au CNRS en janvier 2020](https://indico.in2p3.fr/event/20051/). Cette journée a en particulier permis de faire le point sur l'implication française dans le projet à travers plusieurs exemples.
+EOSC a fait l'objet d'une [ journée spéciale au CNRS en janvier 2020](https://indico.in2p3.fr/event/20051/). Cette journée a en particulier permis de faire le point sur l'implication française dans le projet à travers plusieurs exemples. Une journée nationale [EOSC-France](https://eoscfrance.sciencesconf.org/) aura lieu en février 2021.
 
-Plus récemment dans le cadre de l'atelier Dialogu’IST, Réseau Renatis, le 9 juillet 2020, une autre présentation de Volker Beckman a fait le point sur l'[European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf)
+Plus récemment dans le cadre de l'atelier Dialogu’IST, Réseau Renatis, le 9 juillet 2020, une autre présentation de Volker Beckman a fait le point sur l'[European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf). 
 
+Enfin, lors des JCAD 2020, Volker Beckmann a présenté dans "[EOSC en France: défis et opportunités.](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)" ([vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)) les prochaines étapes prévues.
 
 ### Infrastructure Européenne EGI (différents services basés sur des infrastructures grille et cloud), egi.eu
 
