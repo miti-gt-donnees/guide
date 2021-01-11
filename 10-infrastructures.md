@@ -96,7 +96,8 @@ JCAD 2019
 Les plateformes de calcul intensif nationales, ainsi que leurs évolutions, sont régulièrement présentées par l'opérateur GENCI (Grand Equipement National pour le Calcul Intensif). GENCI et ses trois centres nationaux fournissent des moyens de calcul de niveau Tier 1 pour les utilisateurs nationaux :
 
 - Ainsi lors des [JCAD 2019](https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf) a été abordé le supercalculateur Jean Zay dont une partie est dédiée à l'Intelligence Articficielle (IA)
-- La [présentation de GENCI au JCAD 2018](https://jcad2018.sciencesconf.org/data/presentation_genci_24_10_2018.pdf) propose une approche plus générale et introduit également l'écosystème national des mésocentres, et les projets européens liés au calcul intensif. 
+- La [présentation de GENCI aux JCAD 2018](https://jcad2018.sciencesconf.org/data/presentation_genci_24_10_2018.pdf) propose une approche plus générale et introduit également l'écosystème national des mésocentres, et les projets européens liés au calcul intensif. 
+- Une [présentation plus récente de GENCI](https://jcad2020.sciencesconf.org/data/Presentation_GENCI_JCAD2020.pdf) aux JCAD 2020 présente aussi des résultats obtenus sur le supercalculateur Jean Zay.
 
 ```{admonition} [Actualité GENCI](https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf)   
 :class: seealso
@@ -104,6 +105,15 @@ Les plateformes de calcul intensif nationales, ainsi que leurs évolutions, sont
 Philippe Lavocat représenté par Elise Quentel et Jean-Philippe Proux, GENCI  
 JCAD 2019
 ```
+
+```{admonition} [GENCI, une TGIR active au niveau régional, national et européen. ](https://jcad2020.sciencesconf.org/data/Presentation_GENCI_JCAD2020.pdf)   
+:class: seealso
+[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1bc18i5neyu/iframe/)   
+Stéphane Requena, Directeur innovation et technologie, GENCI.  
+JCAD 2020
+```
+
+
 
 **Infrastructures des mésocentres et centres régionaux, quelques exemples**
  
