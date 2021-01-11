@@ -438,6 +438,8 @@ Le data paper est un article scientifique sur les données : il permet de décri
 - l’originalité et la portée de ce jeu de données, ainsi que leur potentiel pour des utilisations futures (arguments décisifs pour l'acceptation de la publication),
 - l'accès au jeu de données, dans un fichier attaché ou par un lien pérenne (URL, DOI) vers un entrepôt où le jeu est déposé et accessible.
 
+On ne confondra pas les informations fournies par un data paper, avec celles qu'on l'on donne lorsqu'on rédige un Plan de Gestion de données. Ce sont des informations différentes [nous en parlons dans une FAQ](https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html#PGD)
+
 Publier un data paper permet de :
 
 - valoriser les données, 
