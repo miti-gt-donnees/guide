@@ -291,3 +291,10 @@ Dans le domaine de la biodiversité, le Pôle national de données de Biodiversi
 Yvan Le Bras – Laboratoire Patrinate du Museum national d’Histoire Naturelle, Paris.  
 JCAD 2020 
 ```
+
+### Infrastructures régionales de gestion de données
+
+Des initiatives régionales proposent des infrastructures de gestion et valorisation des données pour la recherche. 
+
+A Toulouse, le mésocentre CALMIP construit CALLISTO
+
