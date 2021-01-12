@@ -122,7 +122,7 @@ JCAD 2019
 
 ```{admonition} [GENCI, une TGIR active au niveau régional, national et européen. ](https://jcad2020.sciencesconf.org/data/Presentation_GENCI_JCAD2020.pdf)   
 :class: seealso
-[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1bc18i5neyu/iframe/)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1bc18i5neyu/iframe/)   
 Stéphane Requena, Directeur innovation et technologie, GENCI.  
 JCAD 2020
 ```
@@ -177,11 +177,13 @@ Une présentation du projet a été réalisée lors des JCAD 2019, puis une dém
 
 ```{admonition} [CALLISTO : Une interface pour le partage et l'analyse semi-automatique de données.](https://jcad2019.sciencesconf.org/data/callisto_jcad.pdf)  
 :class: seealso
+[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=8r669jA6&width=100%&height=100%) 
 Thierry Louge - du mésocentre CALMIP, Toulouse.  
 JCAD 2019 
 ```
 ```{admonition} [Partage et analyse semi-automatique de données pour un mésocentre de calcul : fonctionnalités et avancement de CALLISTO pour CALMIP. Suivi de la démonstration de CALLISTO à CALMIP. ](https://jcad2020.sciencesconf.org/data/CALLISTO_JCAD2020.pdf)  
 :class: seealso
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd6249ivj3c4/iframe/) 
 Thierry Louge - du mésocentre CALMIP, Toulouse. 
 JCAD 2020 
 ```
@@ -189,6 +191,7 @@ En Bourgogne Franche-Comté, le projet dat@UBFC a pour objectif la création d'u
 
 ```{admonition} [Projet dat@UBFC : création d'un service de gestion des données de la recherche pour l'Université de Bourgogne Franche-Comté.](https://jcad2020.sciencesconf.org/data/Presentation_longue_Orateur_Damy_Sylvie_dataubfc.pdf)  
 :class: seealso
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd30btbr8ybe/iframe/) 
 Sylvie Damy, laboratoire Chrono-Environnement, Besançon.
 JCAD 2020 
 ```
@@ -201,7 +204,7 @@ Jean-Pierre Gleyze présente le contexte du CNES, quelques applications et leur 
 
 ```{admonition} [Keynote : Infrastructures de traitement de données : vers un datalake CNES](https://jcad2019.sciencesconf.org/data/JACD_2019_datalake_CNES.pdf)   
 :class: seealso
-[vidéo](https://prismes.univ-toulouse.fr/player.php?code=x9b2k0Gd&width=100%&height=100%)   
+[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=x9b2k0Gd&width=100%&height=100%)   
 Jean-Pierre Gleyze, CNES   
 JCAD 2019
 ```
@@ -210,7 +213,7 @@ CEBA, a pour ambition la création d’un « grand » observatoire de l’enviro
 
 ```{admonition} [CEBA, un data lake dédié à l'observation des écosystèmes environnementaux](https://jcad2019.sciencesconf.org/data/20191002_JCAD_CEBA.pdf)   
 :class: seealso
-[vidéo](https://prismes.univ-toulouse.fr/player.php?code=gS95Z11G&width=100%&height=100%)   
+[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=gS95Z11G&width=100%&height=100%)   
 Francis Ogereau, Vincent Breton, Alexandre Claude, David Grimbichler, Antoine Mahul, Gilles Mailhot, Jérémy Mezhoud, Christine Plumejeaud, Laurent Royer,  Estelle Théveniaud, Richard Vandaele, David Sarramia  
 JCAD 2019
 ```
@@ -220,14 +223,14 @@ suivre les avancées et les développements, être un forum de partage d’infor
 
 ```{admonition} [Projet DOMA : Réflexions et axes de recherche pour les services de stockage de données scientifiques à l'horizon 2025.](https://jcad2018.sciencesconf.org/data/DOMA_JCAD_v2.pdf)   
 :class: seealso
-[vidéo](https://webcast.in2p3.fr/video/projet-doma-reflexions-et-axes-de-recherche-pour-les-services-de-stockage-de-donnees-scientifiques-a-lhorizon-2025)   
+[Vidéo](https://webcast.in2p3.fr/video/projet-doma-reflexions-et-axes-de-recherche-pour-les-services-de-stockage-de-donnees-scientifiques-a-lhorizon-2025)   
 Eric Fede, Centre de Calcul de l'IN2P3, CNRS  
 JCAD 2018
 ```
 
 ```{admonition} [Projet DOMA : Retour sur la première année des études faites autour des futurs services de stockage de données scientifiques.](https://jcad2019.sciencesconf.org/data/DOMA_JCAD_2019_v2.pdf)   
 :class: seealso
-[video](https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&width=100%&height=100%)   
+[Video](https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&width=100%&height=100%)   
 Eric Fede, CC-IN2P3, CNRS  
 JCAD 2019
 ```
@@ -264,18 +267,18 @@ JCAD 2019
 
 Des portails nationaux et européens organisés autour d'une thématique scientifique existent par ailleurs. Ils donnent accès à des pôles de données qui fédèrent dans différentes disciplines, des activités de gestion et valorisation des données. 
 
-Au sein de l’infrastructure de recherche Data Terra on trouve par exemple [Odatis](https://www.odatis-ocean.fr/) qui est un pôle de données et de services pour l’océan, [Theia](https://www.theia-land.fr/), une infrastructure de données et services dédiée aux données spatiales d’observation de la terre, [Aeris](https://www.aeris-data.fr/)  qui s’intéresse aux données et services pour l’atmosphère mais aussi [Form@ter](https://www.poleterresolide.fr/) ou  [PNDB](http://www.patrinat.fr/fr/pole-national-de-donnees-de-biodiversite-pndb-6256) (Pôle National de Données de Biodiversité).
+Au sein de l’infrastructure de recherche "Data Terra" on trouve par exemple [Odatis](https://www.odatis-ocean.fr/) qui est un pôle de données et de services pour l’océan, [Theia](https://www.theia-land.fr/), une infrastructure de données et de services dédiée aux données spatiales d’observation de la terre, [Aeris](https://www.aeris-data.fr/)  qui s’intéresse aux données et services pour l’atmosphère mais aussi [Form@ter](https://www.poleterresolide.fr/) ou  [PNDB](http://www.patrinat.fr/fr/pole-national-de-donnees-de-biodiversite-pndb-6256) (Pôle National de Données de Biodiversité).
 
 Les projets de recherche au sein de ces infrastructures ont donné lieu à des retours d’expériences qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche. 
 
 **Sismologie et géodésie**
 
-Dans le domaine de la sismologie et de la géodésie, Résif (Réseau sismologique et géodésique français), une infrastructure de recherche pour l’observation des déformations de la terre a été mise en place. Catherine Pequegnat lors de son intervention aux Frédocs 2013, présente la spécificité des données de sismologie, les réseaux de capteurs associés à ces données et pointe les manques et les avancées en termes de description, de norme, formats pour la transcription et l’échange des données. Elle aborde aussi la question des possibilités d’accès aux données. Elle présente ensuite la TGIR Résif, son projet, son centre de données national (possibilités d’hébergement et de stockage) et sa contribution au projet européen EPOS
+Dans le domaine de la sismologie et de la géodésie, Résif (Réseau sismologique et géodésique français), une infrastructure de recherche pour l’observation des déformations de la terre a été mise en place. Catherine Pequegnat lors de son intervention aux Fredocs 2013, présente la spécificité des données de sismologie, les réseaux de capteurs associés à ces données et pointe les manques et les avancées en termes de description, de norme et de formats pour la transcription et l’échange des données. Elle aborde aussi la question des possibilités d’accès aux données. Elle présente ensuite la TGIR Résif, son projet, son centre de données national (possibilités d’hébergement et de stockage) et sa contribution au projet européen EPOS
 
 ```{admonition} [« RESIF (données sismologiques et géodésiques) »](http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf)  
 :class: seealso
 Catherine Pequenat, Institut des Sciences de la Terre, Observatoire des Sciences de l’Univers de Grenoble  
-Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois 
+Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois 
 ```
 
 **Astronomie**
@@ -285,7 +288,7 @@ Soizick Lesteven, retrace ensuite les missions du centre astronomique de Strasbo
 ```{admonition} [La gestion des données astronomiques à l’Observatoire Astronomique de Strasbourg](http://renatis.cnrs.fr/IMG/pdf/LESTEVEN.pdf)  
 :class: seealso
 Soizick Lesteven, Observatoire Astronomique de Strasbourg  
-Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois  
+Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois  
 ```
 
 **Sciences Sociales**
