@@ -189,7 +189,7 @@ Thierry Louge - du mésocentre CALMIP, Toulouse.
 JCAD 2020 
 ```
 
-**Les "datalakes"**
+### Les "datalakes" ou "lacs de données"
 
 De nouvelles infrastructures de stockage de grandes quantités de données apparaissent dans le paysage. Plusieurs présentations vous permettront de vous faire une idée sur ce qu'est un Data Lake même si le concept n'est pas encore complétement défini et figé.
 
@@ -256,23 +256,6 @@ Stefano Zacchiroli, Inria
 JCAD 2019
 ```
 
-### Plateformes d'archivage des données
-
-Agrée par le Service Interministériel des Archives de France, le [CINES](https://www.cines.fr/) (Centre Informatique National de l’Enseignement Supérieur) est le centre officiel d’archivage d’une partie de la production scientifique de nos établissements.   
-Il offre une solution pour la conservation à long terme du patrimoine numérique (données scientifiques : issues d’observations ou de calculs, données patrimoniales, données administratives) et est impliqué le projet européen [EUDAT](https://www.eudat.eu/) visant à mettre en place une infrastructure européenne d’échange et de conservation de données.
-
-A l’occasion d’une intervention au Gricad à Grenoble, Olivier Rouchon, détaille largement l’offre de service du CINES et témoigne de la variété des données archivées. Il retrace également le processus d’archivage et rend compte des défis et problématiques qu’il pose.  
-
-```{admonition} [L’offre de service archivage du CINES ](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf)    
-:class: seealso
-Oliver Rouchon, CINES   
-Archivage numérique des données de la recherche, 2019, Grenoble   
-[vidéo](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4)  
-```
-  
-A noter :  
-La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de données tout au long du processus d’archivage à long terme vers un dépôt au CINES. (Voir la présentation de Michel Jacobson « [Archivage des données à Huma-Num](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf) » présentée dans la section Préserver et archiver )
-
 ### Infrastructures thématiques
 
 Des portails nationaux et européens organisés autour d'une thématique scientifique existent par ailleurs. Ils donnent accès à des pôles de données qui fédèrent dans différentes disciplines, des activités de gestion et valorisation des données. 
@@ -325,3 +308,20 @@ Dans le domaine de la biodiversité, le Pôle national de données de Biodiversi
 Yvan Le Bras – Laboratoire Patrinate du Museum national d’Histoire Naturelle, Paris.  
 JCAD 2020 
 ```
+
+### Plateformes d'archivage des données
+
+Agrée par le Service Interministériel des Archives de France, le [CINES](https://www.cines.fr/) (Centre Informatique National de l’Enseignement Supérieur) est le centre officiel d’archivage d’une partie de la production scientifique de nos établissements.   
+Il offre une solution pour la conservation à long terme du patrimoine numérique (données scientifiques : issues d’observations ou de calculs, données patrimoniales, données administratives) et est impliqué le projet européen [EUDAT](https://www.eudat.eu/) visant à mettre en place une infrastructure européenne d’échange et de conservation de données.
+
+A l’occasion d’une intervention au Gricad à Grenoble, Olivier Rouchon, détaille largement l’offre de service du CINES et témoigne de la variété des données archivées. Il retrace également le processus d’archivage et rend compte des défis et problématiques qu’il pose.  
+
+```{admonition} [L’offre de service archivage du CINES ](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf)    
+:class: seealso
+Oliver Rouchon, CINES   
+Archivage numérique des données de la recherche, 2019, Grenoble   
+[vidéo](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4)  
+```
+  
+A noter :  
+La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de données tout au long du processus d’archivage à long terme vers un dépôt au CINES. (Voir la présentation de Michel Jacobson « [Archivage des données à Huma-Num](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf) » présentée dans la section Préserver et archiver )
