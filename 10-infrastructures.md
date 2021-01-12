@@ -188,8 +188,7 @@ JCAD 2019
 Thierry Louge - du mésocentre CALMIP, Toulouse. 
 JCAD 2020 
 ```
-En Bourgogne Franche-Comté, le projet dat@UBFC a pour objectif la création d'un service de gestion des données de la recherche pour la communauté scientifique de l'Université de Bourgogne Franche-Comté. Ce projet fait le lien entre dat@OSU () et le datacenter régional UBFC
-En Bourgogne Franche-Comté, le projet dat@UBFC a pour objectif la création d'un service de gestion des données de la recherche pour la communauté scientifique de l'Université de Bourgogne Franche-Comté. Ce projet fait le lien entre dat@OSU (Description et référencement des données de recherche de l’OSU THETA) et le datacenter régional UBFC. Ce projet a fait l'objet d'une présentation détaillée aux JCAD 2020.
+En Bourgogne Franche-Comté, le projet dat@UBFC a pour objectif la création d'un service de gestion des données de la recherche pour la communauté scientifique de l'Université de Bourgogne Franche-Comté. Ce projet fait le lien entre dat@OSU (Description et référencement des données de recherche de l’OSU THETA) et le datacenter régional UBFC. Il a fait l'objet d'une présentation détaillée aux JCAD 2020.
 
 ```{admonition} [Projet dat@UBFC : création d'un service de gestion des données de la recherche pour l'Université de Bourgogne Franche-Comté.](https://jcad2020.sciencesconf.org/data/Presentation_longue_Orateur_Damy_Sylvie_dataubfc.pdf)  
 :class: seealso
