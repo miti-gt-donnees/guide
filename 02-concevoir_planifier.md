@@ -16,15 +16,15 @@ Lors du montage du projet ou au plus tard en début de projet, il est nécessair
 
 ### Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)
   
-Il convient de prendre en compte les besoins des utilisateurs du projet, quelquefois appelés "use cases", et les besoins entre les différents systèmes qui seront sollicités qu'ils existent déjà ou qu'ils soient élaborés pour le projet.
+Il convient de prendre en compte les besoins des utilisateurs du projet, quelquefois appelés "use cases", et les besoins entre les différents systèmes qui seront sollicités, qu'ils existent déjà ou qu'ils soient élaborés pour le projet.
 
 À l'occasion de l'ANF "Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ?"
-organisée en mai 2016, Nadine Mandran, du laboratoire LIG, explique comme intégrer l'utilisateur au sein d'un projet. 
+organisée en mai 2016, Nadine Mandran, du laboratoire LIG, explique comment intégrer l'utilisateur au sein d'un projet. 
 Elle présente en parallèle, la méthode Agile et la Démarche centrée utilisateur. Le contenu de cette présentation est très concret et illustré par des exemples.
 
 ```{admonition} [Méthodes pour intégrer l’utilisateur dans la construction des applications](http://rbdd.cnrs.fr/IMG/pdf/utilisateurs_anfrbdd.pdf)  
 :class: seealso
-[vidéo](https://webcast.in2p3.fr/video/methodes_pour_integrer_l_utilisateur_dans_la_construction_des_applications)  
+[Vidéo](https://webcast.in2p3.fr/video/methodes_pour_integrer_l_utilisateur_dans_la_construction_des_applications)  
 Nadine MANDRAN, LIG   
 Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? », 2016, rBDD
 ```
@@ -116,8 +116,8 @@ Sabine GOULIN, Université de Lorraine
 #### Définir le risque associé à un jeu de données 
 
 Eric Quinton aborde la question de la protection des données dans un contexte de menaces informatiques. Que représente la donnée ?  Il précise qu’une donnée n’a pas de valeur intrinsèque, c’est la représentation d’une réalité, elle dépend de son contexte d’acquisition, de son traitement. Lorsque l’on travaille sur les données, on travaille toujours sur un processus d’acquisition dans le cadre d’un référentiel.
-Certaines données doivent être protégées, car elles comportent un risque si elles venaient à être diffusées et réutilisées. Face aux menaces informatiques qui n’ont jamais été aussi nombreuses (piratages, attaques, arnaques), il importe de définir le risque et de comprendre comment l’intégrer à la gestion des données. Il existe plusieurs définitions, mais l’on s’accorde pour dire que c’est la conjonction entre une cible, un impact, une cause et une probabilité. Une fois la cible définie (un jeu de donnée) il convient de définir l’impact ou la gravité. Celui-ci s’évalue selon 3 critères (confidentialité de l’information, intégrité des données et disponibilité du système) classés chez IRSTEA selon un schéma détaillé correspondant à une échelle de 1 à 4. Il est important aussi de calculer l’impact en cas de défaillance – pour chaque critère, on note 4 niveaux d’impact  estimés selon 4 thématiques. L’étude débouche sur un tableau récapitulatif qui est reporté dans le plan de gestion de données. Ce tableau permet de définir l’impact maximal et la sensibilité du système.
-On ne peut connaitre toutes les menaces et les causes à prendre en compte. L’usage est de consulter les recueils de bonnes pratiques et de se référer aux listes et référentiels existants. La probabilité d’occurrence d’une menace est à évaluer en fonction du risque associé – on note 3 niveaux de risque : opportuniste, ciblé attaque concertée. 
+Certaines données doivent être protégées, car elles comportent un risque si elles venaient à être diffusées et réutilisées. Face aux menaces informatiques qui n’ont jamais été aussi nombreuses (piratages, attaques, arnaques), il importe de définir le risque et de comprendre comment l’intégrer à la gestion des données. Il existe plusieurs définitions, mais l’on s’accorde pour dire que c’est la conjonction entre une cible, un impact, une cause et une probabilité. Une fois la cible définie (un jeu de donnée) il convient de définir l’impact ou la gravité. Celui-ci s’évalue selon trois critères (confidentialité de l’information, intégrité des données et disponibilité du système) classés chez IRSTEA selon un schéma détaillé correspondant à une échelle de 1 à 4. Il est important aussi de calculer l’impact en cas de défaillance – pour chaque critère, on note 4 niveaux d’impact  estimés selon 4 thématiques. L’étude débouche sur un tableau récapitulatif qui est reporté dans le plan de gestion de données. Ce tableau permet de définir l’impact maximal et la sensibilité du système.
+On ne peut connaitre toutes les menaces et les causes à prendre en compte. L’usage est de consulter les recueils de bonnes pratiques et de se référer aux listes et référentiels existants. La probabilité d’occurrence d’une menace est à évaluer en fonction du risque associé – on note trois niveaux de risque : opportuniste, ciblé attaque concertée. 
 En conclusion, Eric Quinton explique comment intégrer concrètement le risque dans le plan de gestion des données en présentant des exercices pratiques.
 
 
@@ -157,9 +157,9 @@ P. Clastre, URFM, INRA PACA
 Montpellier Science Ouverte : Plan de Gestion de Données, 2019
 ```
 
-L'initialisation du PGD dans cette phase est un préalable à sa mise à jour nécessaire dans les étapes suivantes. Le PGD doit suivre les évolutions du projet.
+L'initialisation du plan de gestion de données dans cette phase est un préalable à sa mise à jour nécessaire dans les étapes suivantes. Le PGD doit suivre les évolutions du projet.
 
-### Comment créer un plan de gestion des données (PGD) ? 
+### Comment créer un plan de gestion des données ? 
 
 Cette présentation de Marie-Claude Quidoz présente dans une première partie le plan de gestion de données en perspective du cycle de vie des données et détaille les principes FAIR. Une seconde partie présente différents modèles de plans issus de plusieurs origines (INRAe, appels à projets). C'est une excellente entrée en matière pour comprendre rapidement ce qu'est concrètement un plan de gestion de données.
 
@@ -173,8 +173,8 @@ Cette présentation de Marie Puren a été conçue pour animer un atelier de for
 éléments clés qui le constituent et le créer. Cette présentation contient tout d’abord des éléments propres à définir les données de la recherche, le modèle 
 d’ouverture dans lequel elles s’inscrivent, les initiatives européennes et nationales qui les soutiennent. Elle focalise ensuite sur la pratique de la gestion 
 à proprement dite des données et ses implications (gérer, stocker, déposer), mais surtout définit, décrit le contenu formel du Plan de Gestion de données et 
-les différentes étapes de gestion.  Elle présente concrètement la structuration du DMP (description des données, standards et métadonnées, partage et archivage 
-des données), elle aborde les questions juridiques et  les bonnes pratiques de gestion notamment le FAIR DATA.
+les différentes étapes de gestion.  Elle présente concrètement sa structuration (description des données, standards et métadonnées, partage et archivage 
+des données), elle aborde les questions juridiques et les bonnes pratiques de gestion notamment le FAIR DATA.
 
 ```{admonition} [Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données](https://anfdonnees2017.sciencesconf.org/data/pages/20170706_dmp_puren.pdf)   
 :class: seealso
@@ -190,7 +190,6 @@ Il s'agit donc de rédiger collaborativement le PGD. La plateforme "DMP OPIDoR" 
 Laurent RASSINOUX, Marie-Christine JACQUEMOT-PERBAL, INIST,   
 SIST 2018 : Séries Interopérables et Systèmes de Traitement, Guyancourt, 2018   
 ```
-
 Des discussions, lors des Journées Calcul et Données 2019 (JCAD 2019), autour d'une Table ronde intitulée "Les Plans de Gestion des Données des projets Scientifiques, quels impacts pour les centres de Calcul et de Données ?" 
 vous permettront aussi d'en voir les implications pour les centres de  calcul et de données.
 
@@ -203,7 +202,7 @@ JCAD 2019
 ### Créer un plan de gestion de logiciel
 
 Les logiciels sont aussi des données, un peu particulières et qui méritent donc un modèle approprié de plan de gestion : le plan de gestion de logiciel. 
-Le projet PRESOFT propose un modèle adapté à la fois au logiciel et au contexte de la recherche en France. Après une présentation de ce contexte, du modèle et de la procédure associée, les apports de PRESOFT sont détaillés. À noter que le modèle proposé par PRESOFT s’étend sur l'ensemble de la "vie" du logiciel depuis l'idée avec les documents préparatoires jusqu'à la préservation (sous toutes ses formes) et qu'il prend en compte toutes les formes de financement (projets, stages...). Le modèle est disponible sur DMP OPIdOR.
+Le projet PRESOFT propose un modèle adapté à la fois au logiciel et au contexte de la recherche en France. Après une présentation de ce contexte, du modèle et de la procédure associée, les apports de PRESOFT sont détaillés. À noter que le modèle proposé par PRESOFT s’étend sur l'ensemble de la "vie" du logiciel depuis l'idée, avec les documents préparatoires, jusqu'à la préservation (sous toutes ses formes) et qu'il prend en compte toutes les formes de financement (projets, stages...). Le modèle est disponible sur DMP OPIdOR.
 
 ```{admonition} [Plans de gestion de logiciels](https://jcad2019.sciencesconf.org/data/PRESOFT\_JCAD2019.pdf)   
 :class: seealso
@@ -217,18 +216,18 @@ Afin de conclure ce tour d'horizon des plans de gestion de données, ce retour d
 
 ```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie.](https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf)   
 :class: seealso
-HEINTZ, Wilfried, INRAe Dynafor   
+HEINTZ, Wilfried, INRA Dynafor   
 SIST 2018 
 ```
 
-A des fins pédagogiques, le [CEFE](https://www.cefe.cnrs.fr/fr/) a  rédigé un [plan de gestion de données](https://dmp.opidor.fr/plans/5848/export.pdf) sur un projet fictif de "Suivi de population de poissons dans le lac du Bourget". Il correspond à la version qui devra être transmise dans les 6 mois qui suivent le démarrage scientifique du projet financé par l'ANR. Il est disponible dans la rubrique [DMPs publics](https://dmp.opidor.fr/public_plans) de l'outil DMP Opidor.
+Enfin, à des fins pédagogiques, le [CEFE](https://www.cefe.cnrs.fr/fr/) a  rédigé un [plan de gestion de données](https://dmp.opidor.fr/plans/5848/export.pdf) sur un projet fictif de "Suivi de population de poissons dans le lac du Bourget". Il correspond à la version qui devra être transmise dans les 6 mois qui suivent le démarrage scientifique du projet financé par l'ANR. Il est disponible dans la rubrique [DMPs publics](https://dmp.opidor.fr/public_plans) de l'outil DMP Opidor.
 
 ## Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services
 
 Une fois les besoins exprimés, il faut identifier les infrastructures nécessaires à la réalisation du projet. On apportera également un soin particulier aux différents 
 critères de choix de ces infrastructures.
 
-La section {ref}`infrastructures` de ce guide présente différents types d'infrastructures destinées à la recherche que ce soit au niveau européen, national ou par thématique scientifique.
+La section {ref}`infrastructures` de ce guide présente différents types d'infrastructures destinées à la recherche que ce soit au niveau européen, national, régional ou par thématique scientifique.
 
 Les modes de collecte et de stockage sont détaillés dans la section collecter de même que l'utilisation d'un cahier de laboratoire.
 
@@ -236,7 +235,7 @@ Les modes de collecte et de stockage sont détaillés dans la section collecter 
 
 Les bases de données font partie des différents types de services pouvant être utilisés dans le cadre d'un projet et qui sont proposés par les infrastructures ou disponibles au sein des laboratoires. Plusieurs types de bases de données sont disponibles (SQL, noSQL, ...).
 
-La gestion des données dans des bases de données relationnelles est un gage de structuration cohérente, et permet une interrogation des données par des opérateurs du langage SQL (system query language)
+La gestion des données dans des bases de données relationnelles est un gage de structuration cohérente, et permet une interrogation des données par des opérateurs du langage SQL (System Query Language)
 
 Plusieurs Systèmes de Gestion de Bases de Données (SGBD) existent dans le monde du logiciel libre, cependant, PostgreSQL est le SGBD conseillé par la [circulaire Ayrault](http://rbdd.cnrs.fr/IMG/pdf/mcq_jrbdd2017.pdf?381/0207fc9b42426c781066e710f0702bdbe8c90096) que Marie-Claude Quidoz a présentée en 2017.  
 
@@ -254,8 +253,7 @@ Isabelle BALY et Philippe GRISON,
 Comment concevoir une base de données en archéométrie, 2014. 
 ```
 
-
-Cette autre présentation de Marie-Claude Quidoz s'intéresse à la problématique de la traçabilité des données appliquée cette fois aux bases de données. Elle recommande en particulier, dès que l'on traite des données de noter toutes les opérations faites  (insertion / suppression / modification). Pour cela un mécanisme d'historisation doit être mis en place au moment de la création de la structure de la base de données. Cette historisation repose sur un mécanisme de déclencheur qui s'active sur les actions cités précédemment.  Dans le cadre de PostgreSQL, le logiciel de SGBD recommandé dans la [circulaire Ayrault](https://www.legifrance.gouv.fr/circulaire/id/35837), cette historisation peut être automatisée grâce à l'extension E-Maj. La mise en place de ce mécanisme permet aussi d'envisager de pouvoir rejouer une requête et de reproduire le résultat tel qu'il était quand par exemple un DOI a été défini.
+Cette autre présentation de Marie-Claude Quidoz s'intéresse à la problématique de la traçabilité des données appliquée cette fois aux bases de données. Elle recommande en particulier, dès que l'on traite des données de noter toutes les opérations faites (insertion / suppression / modification). Pour cela un mécanisme d'historisation doit être mis en place au moment de la création de la structure de la base de données. Cette historisation repose sur un mécanisme de déclencheur qui s'active sur les actions cités précédemment.  Dans le cadre de PostgreSQL, le logiciel de SGBD recommandé dans la [circulaire Ayrault](https://www.legifrance.gouv.fr/circulaire/id/35837), cette historisation peut être automatisée grâce à l'extension E-Maj. La mise en place de ce mécanisme permet aussi d'envisager de pouvoir rejouer une requête et de reproduire le résultat tel qu'il était quand, par exemple, un identifiant (un DOI ou autre identifiant) a été défini.
 
 ```{admonition} [Présentation générale sur la problématique de la traçabilité des données appliquée aux bases de données](http://rbdd.cnrs.fr/IMG/pdf/atelier\_tracabilite.pdf)  
 :class: seealso
@@ -263,7 +261,7 @@ Marie-Claude Quidoz, CEFE
 Atelier Traçabilité, 2018 
 ```
 
-Cette dernière présentation synthétique présente les différentes facettes de la traçabilité d'un jeu de données, elle permet de découvrir l'extension E-Maj citée au paragraphe précédent. Cet outil, utilisable avec PostgreSQL, sous licence GPL, composée d'un client web et de l'extension PostgreSQL permet de déplacer des contenus de données dans le temps avec une granularité de niveau de table. E-Maj permet également de dénombrer, consulter, annuler et rejouer des ensembles de tables applicatives en enregistrant les mises à jour.
+Cette dernière présentation synthétique décrit les différentes facettes de la traçabilité d'un jeu de données, elle permet de découvrir l'extension E-Maj citée au paragraphe précédent. Cet outil, utilisable avec PostgreSQL, sous licence GPL, composé d'un client web et de l'extension PostgreSQL, permet de déplacer des contenus de données dans le temps avec une granularité de niveau de table. E-Maj permet également de dénombrer, consulter, annuler et rejouer des ensembles de tables applicatives en enregistrant les mises à jour.
 
 ```{admonition} [E-Maj comme "Enregistrement des Mises A Jour" : Et vos données PostgreSQL voyagent dans le temps ! Un cas d’utilisation pour tracer les données PostgreSQL](http://rbdd.cnrs.fr/IMG/pdf/emaj.2.3.1_overview_fr.pdf?521/c82f6d6408a4f4848d9792a0ab3715a09b5eea5f) et [E-Maj par la pratique](http://rbdd.cnrs.fr/IMG/pdf/tp_e-maj.pdf?522/cbfcf7b13ae9a4d8d20ec495c1ef5ea1d09e0a3f)
 :class: seealso
@@ -271,7 +269,7 @@ Marie-Claude QUIDOZ, Philippe BEAUDOIN, 2018
 ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données » , 2018, Sète
 ```
 
-Enfin, il peut être souhaitable de créer un Identifiant Universel Unique (UUID) avec PostgreSQL. Nicolas Raidelet explique comment faire dans cette présentation.
+Enfin, il peut être souhaitable de créer un Identifiant Universel Unique (Universally unique identifier - UUID) avec PostgreSQL. Nicolas Raidelet explique comment faire dans cette présentation.
 
 ```{admonition} [UUID avec PostgreSQL : Pourquoi ? Comment ?](http://rbdd.cnrs.fr/IMG/pdf/uuid_postgres.pdf?405/e6315023727441ee71c5d63415dd28285bc24952)  
 :class: seealso
@@ -282,12 +280,12 @@ Webcast RDBB, 2017
 ### La gestion des collections 
 
 [Collec-Science](https://www.collec-science.org) est un logiciel web qui a été créé pour suivre les échantillons collectés lors des campagnes d’acquisition, et permet de répondre, entre autres, à ces questions :
--  où est stocké l’échantillon ?
--  d’où vient-il, quelle est sa généalogie (protocole de collecte, métadonnées associées à l’échantillon et ceux de ces ancêtres) ?
--  quelles transformations ou opérations a-t-il subies ?
--  sous quelle forme est-il conservé, existe-t-il un risque à le manipuler ?
+-  Où est stocké l’échantillon ?
+-  D’où vient-il, quelle est sa généalogie (protocole de collecte, métadonnées associées à l’échantillon et ceux de ces ancêtres) ?
+-  Quelles transformations ou opérations a-t-il subies ?
+-  Sous quelle forme est-il conservé, existe-t-il un risque à le manipuler ?
 
-Fruit d’une collaboration initiale entre Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENSs à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.
+Fruit d’une collaboration initiale entre Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENS à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.
 
 ```{admonition} [Stockez et retrouvez vos échantillons avec Collec-Science](http://rbdd.cnrs.fr/spip.php?article304)   
 :class: seealso
