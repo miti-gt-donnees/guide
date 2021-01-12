@@ -7,10 +7,10 @@ Le paysage des infrastructures destinées à la recherche scientifique est vaste
 
 Ces infrastructures font régulièrement l'objet de présentations qui permettent de comprendre leur organisation, leur mode de fonctionnement, et de suivre leurs évolutions.
 
-### European Open Science Cloud (EOSC), Infrastructure Européenne pour l'open science (en cours de montage)
+### European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)
 
 Le cloud européen EOSC a été abordé par Volker Beckman, chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS, lors des [JCAD 2019](https://jcad2019.sciencesconf.org/data/EOSC_FranceGrilles_Beckmann_20191011.pdf). Il explique comment concrètement les chercheurs peuvent utiliser EOSC, et fait le point sur les principales questions que vous vous posez peut-être sur EOSC : Qu'est ce que EOSC ?	Où en est-on et quelles sont les prochaines étapes ? Comment puis-je contribuer et/ou bénéficier ? EOSC en France.
-Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui offre aux chercheurs des services, l'accès à des données et à d'autres ressources fournies par des infrastructures de recherche publiques nationales, régionales et institutionnelles en Europe. Partant des nombreux appels à projets qui ont été lancés pour construire ce cloud (EOSCpilot, EOSC-hub, EOSC-Pillar, etc.), il expose les possibilités de collaboration. Depuis 2019, une structuration se met en place : une gouvernance temporaire et une implication forte des ministères nationaux comme têtes de file des communautés scientifiques impliquées. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement dans le Horizon Europe Work Programme.
+Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui offre aux chercheurs des services, l'accès à des données et à d'autres ressources fournies par des infrastructures de recherche publiques nationales, régionales et institutionnelles en Europe. Partant des nombreux appels à projets qui ont été lancés pour construire ce cloud (EOSCpilot, EOSC-hub, EOSC-Pillar, etc.), il expose les possibilités de collaboration. Depuis 2019, une structuration se met en place : une gouvernance temporaire et une implication forte des ministères nationaux comme têtes de file des communautés scientifiques impliquées. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement dans le "Horizon Europe Work Programme".
 Le lien avec l'infrastructure nationale France Grilles est également décrit.
 
 EOSC a fait l'objet d'une [ journée spéciale au CNRS en janvier 2020](https://indico.in2p3.fr/event/20051/). Cette journée a en particulier permis de faire le point sur l'implication française dans le projet à travers plusieurs exemples. Une journée nationale [EOSC-France](https://eoscfrance.sciencesconf.org/) aura lieu en février 2021.
@@ -21,26 +21,26 @@ Enfin, lors des JCAD 2020, Volker Beckmann a présenté dans "[EOSC en France: d
 
 ```{admonition} [EOSC en France: défis et opportunités. ](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)  
 :class: seealso
-[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)   
 Volker Beckmann, Chargé de mission EOSC France pour le ministère.  
 JCAD 2020
 ```
 
-EOSC est ouvert à la participation de fournisseurs de services, que ce soit des services de stockage ou de traitement de données ou encore des services de publication. Différents projets européens successifs ont pour objectif de préparer EOSC. Dans le cadre du projet [EOSC-Pillar](https://www.eosc-pillar.eu/), une enquête internationale a été menées dans cinq pays (Allemagne, Autriche, Belgique, France et Italie) pour connaître l'état des infrastructures de recherche, e-infrastructures, universités et organismes financeurs par rapport à une évnetuelle participation à EOSC. Un aperçu des [résultats de cette enquête](https://doi.org/10.5281/zenodo.3937318) a été présenté lors des JCAD 2020.
+EOSC est ouvert à la participation de fournisseurs de services, que ce soit des services de stockage ou de traitement de données ou encore des services de publication. Différents projets européens successifs ont pour objectif de préparer EOSC. Dans le cadre du projet [EOSC-Pillar](https://www.eosc-pillar.eu/), une enquête internationale a été menées dans cinq pays (Allemagne, Autriche, Belgique, France et Italie) pour connaître l'état des Infrastructures de Recherche, e-infrastructures, universités et organismes financeurs par rapport à une évnetuelle participation à EOSC. Un aperçu des [résultats de cette enquête](https://doi.org/10.5281/zenodo.3937318) a été présenté lors des JCAD 2020.
 
 ```{admonition} [Que nous apprend l'enquête du projet européen EOSC-Pillar ?](https://jcad2020.sciencesconf.org/data/Presentation_courte_Romier_Genevieve_V1.1Que_nous_apprend.pdf)  
 :class: seealso
-[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd6eer582fku/iframe/)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd6eer582fku/iframe/)   
 Geneviève Romier, Centre de Calcul de l’IN2P3, CNRS  
 JCAD 2020
 ```
-### Infrastructure Européenne EGI (différents services basés sur des infrastructures grille et cloud), egi.eu
+### Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), egi.eu
 
 L'infrastructure EGI a été présentée de façon complète en 2018 lors des JCAD, Journées Calcul et Données : la fédération, les participants, le catalogue de services, les utilisateurs, le positionnement dans EOSC. Le projet EOSC-Hub qui participe à la construction d'EOSC est également détaillé. C'est la présentation à consulter si vous souhaitez savoir ce qu'est EGI.
 
 ```{admonition} [EGI, the EOSC and the Hub](https://jcad2018.sciencesconf.org/data/20181024_JCAD_EGI_v1.1.pdf)  
 :class: seealso
-[vidéo EGI, the EOSC and the Hub](https://webcast.in2p3.fr/video/egi)   
+[Vidéo EGI, the EOSC and the Hub](https://webcast.in2p3.fr/video/egi)   
 Yannick Legré, directeur de la fondation EGI  
 JCAD 2018
 ```
@@ -50,7 +50,7 @@ Une présentation des évolutions a eu lieu en 2019 avec un focus sur quelques s
 
 ```{admonition} [Update about EGI and services to support user communities and Federation's participants](https://jcad2019.sciencesconf.org/data/EGI_update_about_services_2019_10_10_JCAD_v3_vf.pdf)      
 :class: seealso
-[vidéo](https://prismes.univ-toulouse.fr/player.php?code=4Q88P63z&width=100%&height=100%)   
+[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=4Q88P63z&width=100%&height=100%)   
 Baptiste Grenier, fondation EGI  
 JCAD 2019
 ```
@@ -69,13 +69,12 @@ Dans la phase de montage de projet, il convient de choisir et de mettre en place
 - des outils de partage de documents et de données dans des dossiers partagés en réseau ou de type "service de cloud",
 - une plate-forme de gestion de projet de type "redmine" ou autre.
 
-Pour cela il est utile de connaître les possibilités et ressources internes à l'unité et celles fournies par l'institution ou des partenaires extérieurs : Université, CNRS, Renater, etc...
+Pour cela il est utile de connaître les possibilités et ressources internes à l'unité et celles fournies par l'institution ou des partenaires extérieurs : université, CNRS, Renater, etc...
 
 
 ### Infrastructures de traitement de données, calcul, stockage
 
 De nombreuses infrastructures offrent des services à la communauté scientifique. Il convient de choisir celles qui conviennent le mieux pour chaque projet.
-
 
 **Infrastructure France Grilles, www.france-grilles.fr**
 
@@ -97,20 +96,20 @@ JCAD 2018
 
 Il est aussi important de se faire une idée à travers des retours d'expérience réalisés par des collègues. En voici quelques exemples récents :
 
-Le projet Phénome, Infrastructure nationale de phénomique végétale, regroupe sur 9 sites des plateformes expérimentales de phénotypage haut-débit(champ, serre, omique). Un système complet a été mis en place pour ce projet, système qui s'appuie sur les services FG-iRODS et FG-Cloud.
+Le projet Phénome, Infrastructure nationale de phénomique végétale, regroupe sur neuf sites des plateformes expérimentales de phénotypage haut-débit(champ, serre, omique). Un système complet a été mis en place pour ce projet, système qui s'appuie sur les services FG-iRODS et FG-Cloud.
 
 ```{admonition} [Déploiement de la plateforme de traitement des données phénotypage haut débit 4P sur l'infrastructure France Grilles](https://jcad2019.sciencesconf.org/data/4P.pdf)   
 :class: seealso
-[vidéo](https://prismes.univ-toulouse.fr/player.php?code=P0420GlL&width=100%&height=100%)   
+[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=P0420GlL&width=100%&height=100%)   
 Vincent Negre, Eric David, Philippe Burger, Romain Chapuis, Boris Adam,  Anne Tireau, Patrick Moreau, Antony Tong, Samuel Thomas, Gallian Colombeau, Pascal Neveu, Jérôme Pansanel, Frédéric Baret, Marie Weiss  
 JCAD 2019
 ```
 
 **Centres de calcul de GENCI**
 
-Les plateformes de calcul intensif nationales, ainsi que leurs évolutions, sont régulièrement présentées par l'opérateur GENCI (Grand Equipement National pour le Calcul Intensif). GENCI et ses trois centres nationaux fournissent des moyens de calcul de niveau Tier 1 pour les utilisateurs nationaux :
+Les plateformes de calcul intensif nationales, ainsi que leurs évolutions, sont régulièrement présentées par l'opérateur GENCI (Grand Equipement National pour le Calcul Intensif). GENCI et ses trois centres nationaux fournissent des moyens de calcul de niveau "Tier 1" pour les utilisateurs nationaux :
 
-- Ainsi lors des [JCAD 2019](https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf) a été abordé le supercalculateur Jean Zay dont une partie est dédiée à l'Intelligence Articficielle (IA)
+- Ainsi, lors des [JCAD 2019](https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf) a été abordé le supercalculateur Jean Zay dont une partie est dédiée à l'Intelligence Articficielle (IA).
 - La [présentation de GENCI aux JCAD 2018](https://jcad2018.sciencesconf.org/data/presentation_genci_24_10_2018.pdf) propose une approche plus générale et introduit également l'écosystème national des mésocentres, et les projets européens liés au calcul intensif. 
 - Une [présentation plus récente de GENCI](https://jcad2020.sciencesconf.org/data/Presentation_GENCI_JCAD2020.pdf) aux JCAD 2020 présente aussi des résultats obtenus sur le supercalculateur Jean Zay.
 
@@ -128,13 +127,11 @@ Stéphane Requena, Directeur innovation et technologie, GENCI.
 JCAD 2020
 ```
 
-
-
 **Infrastructures des mésocentres et centres régionaux, quelques exemples**
  
 Au niveau régional et local, les mésocentres de calcul fournissent des ressources et un accompagnement de proximité plus souple et en général plus facile d'accès que les ressources nationales.
  
-Une [présentation réalisée en 2017](https://calcul.math.cnrs.fr/attachments/spip/IMG/pdf/aventuremeso_v1.1.pdf) fait un retour sur les mésocentres au cours des 10 dernières années. 
+Une [présentation réalisée en 2017](https://calcul.math.cnrs.fr/attachments/spip/IMG/pdf/aventuremeso_v1.1.pdf) fait un retour sur les mésocentres au cours des dix dernières années. 
  
 Les mésocentres ont fait l'objet de présentations régulières, à la fois techniques et organisationnelles, lors des journées mésocentres organisées jusqu'en 2017 par le réseau Calcul :
  - [Journée mésocentres 2016](https://calcul.math.cnrs.fr/2016-10-journees-mesocentres.html)
@@ -146,26 +143,26 @@ Il est aussi possible d'utiliser des ressources fournies par plusieurs mésocent
 
 ```{admonition} [Calculs de chimie quantique distribués entre méso-centres avec Quantum Package](https://jcad2019.sciencesconf.org/data/JCAD2019AScemama.pdf)
 :class: seealso
-[vidéo](https://prismes.univ-toulouse.fr/player.php?code=6E3Cefg2&width=100%&height=100%)   
+[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=6E3Cefg2&width=100%&height=100%)   
 Anthony Scemama, Patrick BOUSQUET-MELOU, Marie-Sophie Cabot, Nicolas Renon  
 JCAD 2019
 ```
 
 **Infrastructure pour les expériences à grande échelle en informatique**
 
-SILECS, Super Infrastructure for Large-scale Experimental Computer Science est une infrastructure dédiée aux expériences à grande échelle en informatique basée sur les infrastructures FIT et GRID'5000. Cette infrastructure, tout en conservant les objectifs de FIT et GRID'5000, vise de nouveaux challenges : IoT et Clouds, nouvelles générations de plateformes Cloud et de piles logicielles (Edge, FOG), applications de Data streaming, gestion de volumes de données importants, mobilité...
+SILECS, "Super Infrastructure for Large-scale Experimental Computer Science", est dédiée aux expériences à grande échelle en informatique basée sur les infrastructures FIT et GRID'5000. Cette infrastructure, tout en conservant les objectifs de FIT et GRID'5000, vise de nouveaux challenges : Internet des objets - Internet of Things (IoT) et Clouds, nouvelles générations de plateformes Cloud et de piles logicielles (Edge, FOG), applications de Data streaming, gestion de volumes de données importants, mobilité...
 
 ```{admonition} [SILECS, une infrastructure pour les expériences à grande échelle en informatique](https://jcad2019.sciencesconf.org/data/silecs_jcad2019.pdf)   
 :class: seealso
-[vidéo](https://prismes.univ-toulouse.fr/player.php?code=4HxTGQp2&width=100%&height=100%)   
+[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=4HxTGQp2&width=100%&height=100%)   
 Frédéric Desprez, Christian Perez, Inria  
 JCAD 2019
 ```
-Dans la présentation "Slices, towards a Scientific Large-Scale Infrastructure for Computing - Communication Experimental Studies", aux JCAD 2020, est détaillée la proposition d'infrastructure européenne Slices, Super Infrastructure for Large-Scale Experimental Computer Science, dont l'objectif est de construire sur 15 pays une infrastructure dont SILECS est la partie française.
+Dans la présentation "Slices, towards a Scientific Large-Scale Infrastructure for Computing - Communication Experimental Studies", aux JCAD 2020, est détaillée la proposition d'infrastructure européenne Slices, "Super Infrastructure for Large-Scale Experimental Computer Science", dont l'objectif est de construire sur 15 pays une infrastructure dont SILECS est la partie française.
 
 ```{admonition} [Slices, towards a Scientific Large-Scale Infrastructure for Computing - Communication Experimental Studies.](https://jcad2020.sciencesconf.org/data/silecs_slices_JCAD_2020.pdf)   
 :class: seealso
-[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f769cca6cwq3z7qg/iframe/)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f769cca6cwq3z7qg/iframe/)   
 Christian Perez, Inria  
 JCAD 2020
 ```
