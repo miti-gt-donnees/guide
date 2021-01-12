@@ -170,6 +170,25 @@ Christian Perez, Inria
 JCAD 2020
 ```
 
+### Infrastructures régionales de gestion de données
+
+Des initiatives régionales proposent des infrastructures de gestion et valorisation des données pour la recherche. 
+
+A Toulouse, le mésocentre CALMIP étoffe son offre de services et construit CALLISTO, une interface pour le partage et l'analyse semi-automatique de données. CALLISTO propose ainsi une aide à la rédaction de Plans de Gestion de Données sur les aspects techniques, une plateforme de partage de données proche des utilisateurs et en lien avec les ressources du supercalculateur pour permettre la réutilisation des données hébergées.
+
+Une présentation du projet a été réalisée lors des JCAD 2019, puis une démonstration a eu lieu lors des JCAD 2020 qui permettent de voir les évolutions.
+
+```{admonition} [CALLISTO : Une interface pour le partage et l'analyse semi-automatique de données.](https://jcad2019.sciencesconf.org/data/callisto_jcad.pdf)  
+:class: seealso
+Thierry Louge - du mésocentre CALMIP, Toulouse.  
+JCAD 2019 
+```
+```{admonition} [Partage et analyse semi-automatique de données pour un mésocentre de calcul : fonctionnalités et avancement de CALLISTO pour CALMIP. Suivi de la démonstration de CALLISTO à CALMIP. ](https://jcad2020.sciencesconf.org/data/CALLISTO_JCAD2020.pdf)  
+:class: seealso
+Thierry Louge - du mésocentre CALMIP, Toulouse. 
+JCAD 2020 
+```
+
 **Les "datalakes"**
 
 De nouvelles infrastructures de stockage de grandes quantités de données apparaissent dans le paysage. Plusieurs présentations vous permettront de vous faire une idée sur ce qu'est un Data Lake même si le concept n'est pas encore complétement défini et figé.
@@ -304,24 +323,5 @@ Dans le domaine de la biodiversité, le Pôle national de données de Biodiversi
 ```{admonition} [Infrastructure PNDB, de la donnée de biodiversité au calcul scientifique via la métadonnée.](http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf)  
 :class: seealso
 Yvan Le Bras – Laboratoire Patrinate du Museum national d’Histoire Naturelle, Paris.  
-JCAD 2020 
-```
-
-### Infrastructures régionales de gestion de données
-
-Des initiatives régionales proposent des infrastructures de gestion et valorisation des données pour la recherche. 
-
-A Toulouse, le mésocentre CALMIP étoffe son offre de services et construit CALLISTO, une interface pour le partage et l'analyse semi-automatique de données. CALLISTO propose ainsi une aide à la rédaction de Plans de Gestion de Données sur les aspects techniques, une plateforme de partage de données proche des utilisateurs et en lien avec les ressources du supercalculateur pour permettre la réutilisation des données hébergées.
-
-Une présentation du projet a été réalisée lors des JCAD 2019, puis une démonstration a eu lieu lors des JCAD 2020 qui permettent de voir les évolutions.
-
-```{admonition} [CALLISTO : Une interface pour le partage et l'analyse semi-automatique de données.](https://jcad2019.sciencesconf.org/data/callisto_jcad.pdf)  
-:class: seealso
-Thierry Louge - du mésocentre CALMIP, Toulouse.  
-JCAD 2019 
-```
-```{admonition} [Partage et analyse semi-automatique de données pour un mésocentre de calcul : fonctionnalités et avancement de CALLISTO pour CALMIP. Suivi de la démonstration de CALLISTO à CALMIP. ](https://jcad2020.sciencesconf.org/data/CALLISTO_JCAD2020.pdf)  
-:class: seealso
-Thierry Louge - du mésocentre CALMIP, Toulouse. 
 JCAD 2020 
 ```
