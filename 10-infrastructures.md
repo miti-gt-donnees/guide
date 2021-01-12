@@ -19,7 +19,14 @@ Plus récemment dans le cadre de l'atelier Dialogu’IST, Réseau Renatis, le 9 
 
 Enfin, lors des JCAD 2020, Volker Beckmann a présenté dans "[EOSC en France: défis et opportunités.](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)" ([vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)) les prochaines étapes prévues.
 
-EOSC est ouvert à la participation de fournisseurs de services, que ce soit des services de stockage ou de traitement de données ou encore des services de publication. Différents projets européens successifs ont pour objectif de préparer EOSC. Dans le cadre du projet [EOSC-Pillar](https://www.eosc-pillar.eu/), une enquête internationale a été menées dans cinq pays (Allemagne, Autriche, Belgique, France et Italie) pour connaître l'état des infrastructures de recherche, e-infrastructures, universités et organismes financeurs par rapport à une évnetuelle participation à EOSC. Un aperçu des résultats de cette enquête a été présenté lors des JCAD 2020.
+```{admonition} [EOSC en France: défis et opportunités. ](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)  
+:class: seealso
+[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)   
+Volker Beckmann, Chargé de mission EOSC France pour le ministère.  
+JCAD 2020
+```
+
+EOSC est ouvert à la participation de fournisseurs de services, que ce soit des services de stockage ou de traitement de données ou encore des services de publication. Différents projets européens successifs ont pour objectif de préparer EOSC. Dans le cadre du projet [EOSC-Pillar](https://www.eosc-pillar.eu/), une enquête internationale a été menées dans cinq pays (Allemagne, Autriche, Belgique, France et Italie) pour connaître l'état des infrastructures de recherche, e-infrastructures, universités et organismes financeurs par rapport à une évnetuelle participation à EOSC. Un aperçu des [résultats de cette enquête](https://doi.org/10.5281/zenodo.3937318) a été présenté lors des JCAD 2020.
 
 ```{admonition} [Que nous apprend l'enquête du projet européen EOSC-Pillar ?](https://jcad2020.sciencesconf.org/data/Presentation_courte_Romier_Genevieve_V1.1Que_nous_apprend.pdf)  
 :class: seealso
