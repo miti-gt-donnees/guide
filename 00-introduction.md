@@ -65,7 +65,5 @@ Les phases suivantes apportent des éléments plus spécifiques au lecteur pour 
 
 - la phase 7 "{ref}`publier`" est la phase finale permettant de diffuser les données correctement à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapapers.
 
->À l'issue de la lecture de ce guide, des termes comme "DMP", "plans de gestion de donnes", "identifiants pérennes", "DOI", >"métadonnées", "vocabulaires contrôlés", "thesaurus", "entrepôts", "interopérabilité", "standards", "normes", "qualité", ... devraient >prendre tout le sens et la place qu'ils doivent occuper de nos jours dans la gestion des données.
-
 Ce guide a été rédigé par quelques réseaux métiers et de ce fait n'a pas la prétention d'être exhaustif. Nous invitons donc d'autres réseaux à nous faire remonter leurs pratiques métiers dans le cadre de la gestion des données pour alimenter ce guide.    
 Le lecteur est également invité à contribuer en apportant toutes modifications ou références manquantes dans les sections "commentaires" prévues à cet effet dans chaque chapitre.
