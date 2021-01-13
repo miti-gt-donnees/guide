@@ -83,7 +83,7 @@ Journées Campagnes de calcul reproductibles, 2018
 
 ## Développement open source et reproductibilité
 
-Ces dernières années, les journées, ateliers traitant de la reproductibilité et du développement logiciel ont été nombreuses. Il est difficile d'isoler quelques présentations de ces ensembles pensés pour traiter d'une thématique d'ensemble. Aussi, dans cette section, plusieurs événements sont présentés globalement.
+Ces dernières années, les journées, ateliers traitant de la reproductibilité et du développement logiciel ont été nombreuses. Il est difficile d'isoler quelques présentations de ces ensembles pensés pour traiter d'une thématique d'ensemble. Aussi, dans cette section, plusieurs événements organisés par différents réseaux sont présentés globalement.
 
 Lorsqu'on développe un code de calcul, seul ou à plusieurs, il est primordial de vérifier que chaque modification ne produit pas de régression dans l'ensemble de l'application. Il est donc nécessaire d'employer des tests unitaires, des tests d'intégration ou des tests du système complet. Ces tests s'intègrent dans un système de gestion de versions pour sauvegarder les modifications.
 
@@ -91,7 +91,7 @@ L’intégration continue fournit des outils permettant de valider l’intégrit
 
 En 2017, le réseau "calcul" a organisé un "[Atelier intégration continue](https://calcul.math.cnrs.fr/2017-05-atelier-integration-continue.html)" visant à se familiariser à trois outils d’intégration continue : _Jenkins, Travis CI et Gitlab CI_, en commençant par une introduction à deux outils couramment utilisés dans une chaîne d'intégration continue : "Git" pour gérer les versions et les publier vers un dépôt distant, puis "Docker" pour exécuter les tâches de compilation et de tests.
 
-Les utilisateurs de "Julia" sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l'atelier "JuliaNantes", les réponses aux questions qu'ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.
+Les utilisateurs du langage de programmation "[Julia](https://julialang.org/)" sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l'atelier "JuliaNantes", les réponses aux questions qu'ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.
 
 ```{admonition} [Getting started with Julia tools for reproducible science](http://matbesancon.github.io/slides/JuliaNantes/JuliaTools#/10)    
 :class: seealso
