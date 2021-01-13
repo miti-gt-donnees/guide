@@ -87,15 +87,15 @@ Séminaire SIST15 - OSU Pytheas Marseille 2015
 ```
 
 Parmi les standards de l'OGC les plus utilisés dans nos réseaux métiers chez les gestionnaires de données environnementales, on peut citer :
--    [CS-W](https://www.ogc.org/standards/cat) - Catalog Service for the Web : ce protocole est destiné à diffuser des métadonnées ISO 19139 et permettre l'interrogation de catalogues de métadonnées. Une très bonne implémentation de ce protocole est réalisée dans le logiciel ["Geonetwork"](<https://geonetwork-opensource.org/>) utilisé pour constituer des catalogues et des inventaires de jeux de données et les présenter sur le Web de manière interopérable. Ce logiciel sera détaillé dans le chapitre 7 "Publier" du  présent guide, dédié à la publication des jeux de données. 
+-    [CS-W](https://www.ogc.org/standards/cat) - Catalog Service for the Web : ce protocole est destiné à diffuser des métadonnées ISO 19139 et permettre l'interrogation de catalogues de métadonnées. Une très bonne implémentation de ce protocole est réalisée dans le logiciel ["Geonetwork"](<https://geonetwork-opensource.org/>) utilisé pour constituer des catalogues et des inventaires de jeux de données et les présenter sur le Web de manière interopérable. Ce logiciel est détaillé dans le chapitre 7 "Publier" du  présent guide, dédié à la publication des jeux de données. 
 Grâce à ce protocole, on peut constituer des réseaux de catalogues tels que demandés par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
 -  [WMS](https://www.ogc.org/standards/wms) - [Web Map Service](https://fr.wikipedia.org/wiki/Web_Map_Service) est un protocole de communication standard qui permet de constituer des cartes de données géoréférencées à partir de différents serveurs de données cartographiques. . 
    
-Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d'interopérabilité WMS, CSW, SOS et qui permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d'observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.
+Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d'interopérabilité WMS, CSW et SOS qui permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d'observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.
 
 ```{admonition} ["Gestion des données d'observation : les outils informatiques pour la valorisation" ](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)   
 :class: seealso
-ANF SIST17 Fréjus - ANF SIST18 Autrans   
+ANF SIST17, Fréjus - ANF SIST18, Autrans   
 ```
 
 De nombreux instituts et auteurs, gestionnaires de données suivent  ces standards OGC : 
@@ -122,7 +122,7 @@ Il est important que le processus de collecte des données soit clairement défi
 ### La métrologie des équipements
 
 Par nature, la recherche n’est pas un processus répétitif, elle est pleine d'aléas et d'incertitudes contrairement à un processus industriel. 
-La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par des chercheurs différents à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées, cela est le cas de toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse) et que la traçabilité des activités de recherche soit ainsi assurée. 
+La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par différents chercheurs à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées, cela est une nécessité pour toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse). 
 
 ```{admonition} [Confirmation métrologique des équipements](<https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf>)    
 :class: seealso
@@ -131,7 +131,7 @@ ANF Outils qualité, réseau QeR, 2019
 ```
 
 De nombreux laboratoires et plateformes de tests du CNRS sont équipés de salles propres, dans des domaines variés tels que la micro et nanotechnologie, la géochimie, l’optique, la médecine, le spatial…
-En débutant par un point sur l’état de l’art (définition, réglementation, documentation…) de ces 2 aspects, l'objectif principal de la journée thématique est de faire bénéficier de retours d’expériences sur les bonnes pratiques déjà éprouvées et sur les écueils à éviter afin de répondre, entre autres, aux questions suivantes : 
+En débutant par un point sur l’état de l’art (définition, réglementation, documentation…) de ces deux aspects, l'objectif principal de la journée thématique est de faire bénéficier de retours d’expériences sur les bonnes pratiques déjà éprouvées et sur les écueils à éviter afin de répondre, entre autres, aux questions suivantes : 
 - Quand a-t-on besoin de travailler en salles propres ? 
 - Quelles règlementations régissent l'installation, la maintenance et le contrôle des salles propres ? 
 - Comment préparer l'installation dans nos locaux ? A quoi doit-on penser ? 
@@ -147,9 +147,9 @@ Journée thématique, réseau QeR, 2017
 
 ### Les capteurs
 
-Diverses communautés scientifiques sont intéressées par les problématiques inhérentes aux systèmes d'acquisitions et aux instruments associés. Différents aspects de collecte de données existent, qu'ils proviennent d'un équipement, d'un capteur automatisé, d'un modèle numérique ou qu'ils soient obtenus par un personnel de terrain, par une enquête, au moyen d'interfaces... Dès lors, il convient d'élaborer des méthodologies de collecte, de se documenter sur les choix des référentiels de métadonnées et des thésaurus de vocabulaire, mais également de développer les procédures d'intégration des données dans les bases.
+Diverses communautés scientifiques sont intéressées par les problématiques inhérentes aux systèmes d'acquisitions et aux instruments associés. Différents aspects de collecte de données existent, qu'ils proviennent d'un équipement, d'un capteur automatisé, d'un modèle numérique ou qu'ils soient obtenus par un personnel de terrain, par une enquête, au moyen d'interfaces. Dès lors, il convient d'élaborer des méthodologies de collecte, de se documenter sur les choix des référentiels de métadonnées et des thésaurus de vocabulaire, mais également de développer les procédures d'intégration des données dans les bases.
 
-Dans le milieu "Ocean-Atmosphere" cette problématique occupe une place importante, à tel point que, depuis plusieurs décennies, METEO-FRANCE et l'INSU depuis 1966, l'IFREMER depuis 2002, l'IRD et le CNES depuis 2004, le SHOM depuis 2005, organisent un atelier dédié aux rencontres portant sur l'expériementation et l'instrumentation. Cet [Atelier Expérimentation et Instrumentation (AEI)](http://www.aei-ocean-atmosphere.org/) permet de réunir la communauté scientifique spécialisée dans la recherche instrumentale et de traiter divers thèmes d'actualité lors de ses [différentes éditions](http://www.aei-ocean-atmosphere.org/Editions-Precedentes).
+Pour la thématique "Ocean-Atmosphere" cette problématique occupe une place importante, à tel point que, depuis plusieurs décennies, METEO-FRANCE et l'INSU depuis 1966, l'IFREMER depuis 2002, l'IRD et le CNES depuis 2004, le Service hydrographique et océanographique de la Marine (SHOM) depuis 2005, organisent un atelier dédié aux rencontres portant sur l'expériementation et l'instrumentation. Cet [Atelier Expérimentation et Instrumentation (AEI)](http://www.aei-ocean-atmosphere.org/) permet de réunir la communauté scientifique spécialisée dans la recherche instrumentale et de traiter divers thèmes d'actualité lors de ses [différentes éditions](http://www.aei-ocean-atmosphere.org/Editions-Precedentes).
 L'AEI traite de manière privilégiée les aspects de mesure et de méthodologie, sans exclure pour autant l'exploitation scientifique des résultats. Il a lieu alternativement à Paris, Toulon, Lille et Brest, généralement en début d'année. L'AEI permet aux équipes de recherche d'exposer leurs résultats dans un colloque francophone. C'est un lieu de rencontre pour les participants, issus des différents organismes et groupes industriels, afin de favoriser les synergies et coopérations. 
 
 Pour la gestion des capteurs, l'[OGC (Open Geospatial Consortium)](https://www.ogc.org/standards) cité précédemment, publie un standard d’interopérabilité, [Sensor Web Enablement (SWE)](http://docs.opengeospatial.org/wp/07-165r1/), qui permet de présenter des données de capteurs de manière standardisée et interopérable. Ce protocole et les logiciels qui les implémentent sont bien adaptés à la description des capteurs et à la gestion des séries temporelles.
@@ -158,15 +158,15 @@ Le protocole "[SOS" (Sensor observation service) de l'OGC](https://www.ogc.org/s
 
 ```{admonition} [Sensor Web Enablement Standards & Technology](<https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk>)   
 :class: seealso
-Christoph Stasch, Simon Jirka,52North   
+Christoph Stasch, Simon Jirka, 52North   
 [Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)
 ```
 
-Actuellement on trouve deux implémentations intéressantes du protocole SOS dans la gestion des données de capteurs environnementaux. Il s'agit de 
+Actuellement on trouve deux implémentations intéressantes du protocole SOS dans la gestion des données de capteurs environnementaux. Il s'agit de :
 - [52North](https://52north.org/software/software-projects/sos/), logiciel de la société éponyme, est une application qui fournit une interface web interopérable pour l'insertion et l'interrogation des données et des descriptions des capteurs. Il regroupe les observations provenant de capteurs in-situ en direct ainsi que des ensembles de données historiques (données de séries chronologiques).
 - [istSOS](http://www.istsos.org/) est une implémentation de serveur OGC SOS écrite en Python. istSOS permet de gérer et d'envoyer des observations provenant de capteurs de surveillance selon la norme Sensor Observation Service. Le projet fournit également une interface utilisateur graphique qui permet de faciliter les opérations quotidiennes et une api RESTFull Web pour automatiser les procédures d'administration. 
 
-istSOS est un logiciel libre et fonctionne sur toutes les principales plates-formes (Windows, Linux, Mac OS X), même s'il n'a été utilisé en production que dans l'environnement Linux.
+istSOS est un logiciel libre qui fonctionne sur toutes les principales plates-formes (Windows, Linux, Mac OS X), même s'il n'a été utilisé en production que dans l'environnement Linux.
 
 ```{admonition} [Présentation du logiciel istSOS](https://nuage.osupytheas.fr/s/eK7y9w6ewfL36Kk)
 :class: seealso
@@ -199,7 +199,7 @@ Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement
 ```{admonition} [Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf>)   
 :class: seealso
 Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de Recherche pour le Développement    
-[Séminaire SIST16,  OSU OREME Montpellier ](http://sist16.sciencesconf.org) 
+[Séminaire SIST16,  OSU OREME, Montpellier ](http://sist16.sciencesconf.org) 
 ```
 
 Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d'un réseau de stations météorologiques de la région rennaise.
@@ -210,17 +210,17 @@ Alban Thomas - Hervé Quénol UMR LETG Rennes
 [Séminaire SIST15, OSU Pytheas Marseille](http://sist15.sciencesconf.org)   
 ```
 
-### Web scraping, collecte automatique et analyse de données 
+### Web scraping ou grattage Web : collecte automatique et analyse de données 
 
 "Le Web scraping est une technique permettant de convertir des données présentes dans un format non structuré (balises HTML) sur le Web en un format structuré facilement utilisable. Les exemples peuvent aller du texte sur Wikipedia, à des images sur Flickr en passant par les commentaires sur TripAdvisor, les articles d’actualité ou de chercheurs ou n’importe quelle page web présente sur Internet" [Introduction au Webscraping](https://stateofther.github.io/finistR2018/atelier1_webscraping_intro.html).
 
-Depuis l’explosion quantitative des données numériques, il est devenu extrêmement intéressant d’apprendre à recueillir, comprendre et exploiter les informations issues du web. On constate ces dernières années, dans le domaine des sciences sociales, l'intérêt croissant des chercheurs ou ingénieurs pour l'utilisation de nouvelles techniques de collecte et de traitement automatisé des données et en particulier des big data. Chaque utilisateur en fonction de son profil et de ses compétences peut choisir une technologie partant de simples outils comme les aspirateurs de site qui permettent de réaliser des opérations basiques de scraping jusqu’à l’utilisation de langages plus performants comme R ou Python pour des utilisateurs plus avancés.
+Depuis l’explosion quantitative des données numériques, il est devenu extrêmement intéressant d’apprendre à recueillir, comprendre et exploiter les informations issues du web. On constate ces dernières années, dans le domaine des sciences sociales, l'intérêt croissant des chercheurs ou ingénieurs pour l'utilisation de nouvelles techniques de collecte et de traitement automatisé des données et en particulier des données massives. Chaque utilisateur en fonction de son profil et de ses compétences peut choisir une technologie partant de simples outils comme les aspirateurs de site qui permettent de réaliser des opérations basiques de grattage (scraping) jusqu’à l’utilisation de langages plus performants comme R ou Python pour des utilisateurs plus avancés.
 
-Au-delà des fonctionnalités de web scraping, la présentation « [Analyse de données avec R](https://hpecout.gitpages.huma-num.fr/R_presentation_FR/#/) » proposée par Hugues Pécout (CNRS) donne un exemple de l’analyse de donnée avec le logiciel R. En plus d’une présentation du logiciel R et de RStudio, elle contextualise R dans le paysage de l’analyse de données en le comparant à des logiciels propriétaires existants sur le marché ainsi qu’au langage python. En python, il faut utiliser le package BeautifulSoup, qui est très populaire [Webscraping avec Python](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/TD2A_Eco_Web_Scraping.html).
+Au-delà des fonctionnalités de grattage web, la présentation « [Analyse de données avec R](https://hpecout.gitpages.huma-num.fr/R_presentation_FR/#/) » proposée par Hugues Pécout (CNRS) donne un exemple de l’analyse de donnée avec le logiciel R. En plus d’une présentation du logiciel R et de RStudio, elle contextualise R dans le paysage de l’analyse de données en le comparant à des logiciels propriétaires existants sur le marché ainsi qu’au langage Python. En Python, il faut utiliser le package BeautifulSoup, qui est très populaire [Webscraping avec Python](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/TD2A_Eco_Web_Scraping.html).
 
-Ces outils sont depuis quelques années en plein essor car ils permettent d’automatiser la constitution des bases de données, de collecter des sommes de données importantes, inaccessibles il y a de cela quelques années comme les données de réseaux sociaux, de compiler des données pour créer ses propres indicateurs (impossible avec des techniques de collecte classiques) ou encore de nettoyer, structurer des données déjà existantes… Ces modes de collecte automatisés renvoient aussi aux notions de Crawling, Scrapping, data harvesting …. 
+Ces outils sont depuis quelques années en plein essor car ils permettent d’automatiser la constitution des bases de données, de collecter des sommes de données importantes, inaccessibles il y a de cela quelques années comme les données de réseaux sociaux, de compiler des données pour créer ses propres indicateurs (impossible avec des techniques de collecte classiques) ou encore de nettoyer, structurer des données déjà existantes… Ces modes de collecte automatisés renvoient aussi aux notions d'exploration de données (Data Crawling) et de récolte de données (Data Harvesting). 
 
-Dans la pratique, des questions juridiques peuvent se poser au regard de l’exploitation des données récoltées en masses par ces moyens qui sont susceptibles d’être des données personnelles ou protégées par la propriété intellectuelle.
+Dans la pratique, des questions juridiques peuvent se poser au regard de l’exploitation des données récoltées en masse par ces moyens car ces données sont susceptibles d’être des données personnelles ou protégées par la propriété intellectuelle.
 
 
 ### Les cahiers de laboratoire
@@ -281,9 +281,9 @@ Les données et documents produits directement sur le terrain témoignent de l�
 
 L’utilisation de carnets de terrain électroniques que sont les tablettes permet de profiter des avantages d'appareils nomades pour faciliter la saisie des observations que l’on fait sur le terrain, en milieu naturel. L'utilisation de cet outil "nomade" va permettre :
 
-- d'améliorer la qualité des données collectées
-- de pouvoir utiliser les données plus rapidement
-- de réduire le coût (temps de ressaisie)
+- d'améliorer la qualité des données collectées ;
+- de pouvoir utiliser les données plus rapidement ;
+- de réduire le coût (temps de ressaisie).
 
 Cependant, ces nouvelles technologies très « ludiques » et « faciles » d’utilisation, nécessitent une réflexion importante pour définir de façon précise son besoin afin de ne pas être pénalisé sur le terrain. Elles nécessitent aussi une adaptation technologique pour permettre un stockage efficient et pérenne en bases de données.
 
