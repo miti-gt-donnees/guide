@@ -1,3 +1,4 @@
+(reproductibilité)=
 # Reproductibilité
 
 La confiance dans les résultats de la recherche repose, entre autres, sur le fait que les expériences ou les calculs soient reproductibles. 
