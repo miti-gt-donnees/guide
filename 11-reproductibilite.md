@@ -4,9 +4,7 @@ La confiance dans les résultats de la recherche repose, entre autres, sur le fa
 
 Au niveau technique, par exemple, la reproductibilité d'une mesure avec un même instrument, une méthode identique et dans un contexte donné, est essentielle pour valider les résultats d'une expérience ou d'un calcul. Au niveau scientifique, la répétabilité permet la validation des résultats obtenus. Il s'agit alors, par un autre moyen, d'arriver à des résultats équivalents.
 
-Cependant, en fonction des disciplines, il peut être très compliqué de reproduire ou répliquer des résultats.
-
-La section suivante 
+Cependant, en fonction des disciplines, il peut être très compliqué de reproduire ou répliquer des résultats. La section suivante est destinée à permettre de mieux appréhender les enjeux, les défis et aussi les différentes facettes de la reproductibilité et de la répétabilité en fonction des disciplines et des méthodes mises en oeuvre.
 
 ## Comprendre les enjeux et défis
 
@@ -49,7 +47,9 @@ Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019
 
 ## Utiliser des environnements et des outils qui favorisent la reproductibilité
 
-VIP, the Virtual Imaging Platform, est un portail qui permet à ses utilisateurs d'accéder simplement à leurs données, de les traiter facilement avec des logiciels pré-installés sur la plateforme. Traitements et données sont distribués sur l'infrastructure EGI. 
+Parvenir à la reproductibilité peut être facilité par l'utilisation d'environnements et d'outils conçus ou adaptés dans cet objectif. De nombreuses équipes travaillent en ce sens depuis plusieurs années et plusieurs exemples sont présentés ici.
+
+VIP, the "Virtual Imaging Platform", est un portail qui permet à ses utilisateurs d'accéder simplement à leurs données, de les traiter facilement avec des logiciels pré-installés sur la plateforme. Traitements et données sont distribués sur l'infrastructure EGI. 
 
 ```{admonition} [Virtual Imaging Platform : pour une science ouverte et reproductible](https://indico.mathrice.fr/event/165/contribution/8/material/slides/0.pdf)  
 :class: seealso
