@@ -115,17 +115,4 @@ Arnaud Legrand, Inria
 JDEV 2020
 ```
 
----
-
-Restent :
-
-jdev2017
-<http://devlog.cnrs.fr/jdev2017/t4>
-[GR je ne vois pas bien le lien direct des présentations avec la reproductibilité]
-
-https://calcul.math.cnrs.fr/2015-06-atelier-git-gitlab.html
-[GR : pas trouvé les présentationsdonc je propose d'enlever le lien]
-
-Cahiers d'expérience numérique [GR : pas de transparents ni vidéo, donc je propose de supprimer la référence]
-<https://calcul.math.cnrs.fr/2018-06-anf-cahiers-experience.html>
 
