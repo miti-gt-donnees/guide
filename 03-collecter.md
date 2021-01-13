@@ -122,7 +122,7 @@ Il est important que le processus de collecte des données soit clairement défi
 ### La métrologie des équipements
 
 Par nature, la recherche n’est pas un processus répétitif, elle est pleine d'aléas et d'incertitudes contrairement à un processus industriel. 
-La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par différents chercheurs à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées, cela est une nécessité pour toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse). 
+La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par différents chercheurs à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées; cela est une nécessité pour toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse). 
 
 ```{admonition} [Confirmation métrologique des équipements](<https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf>)    
 :class: seealso
@@ -364,18 +364,18 @@ Marie-Claude Quidoz
 
 ## Environnements de stockage - Sauvegarder les données
 
-Dès la phase de collecte, il convient de se préoccuper des aspects de stockage et de sauvegarde qui seront plus largement abordés dans la phase 6 du cycle de vie des données. En effet, dès le début d'un projet, il est nécessaire, d'une part, d'estimer le stockage nécessaire à la collecte de données et d'autre part, de mettre en place les moyens de sauvegarde des données récoltées. La duplication des données par stockage redondant sur des supports différents de ceux de l'équipement utilisé (poste de travail fixe, mobile, serveur, ...) est un des principes de base d’une bonne conservation. Il convient de préférez un archivage centralisé conformément à la règle du 3-2-1 généralement recommandée (3 copies sur 2 supports différents dont 1 sur un lieu déporté). À cet effet, il conviendra de travailler en amont avec une équipe informatique afin que les dispositifs de stockage soient disponibles.
+Dès la phase de collecte, il convient de se préoccuper des aspects de stockage et de sauvegarde qui seront plus largement abordés dans la phase 6 du cycle de vie des données. En effet, dès le début d'un projet, il est nécessaire, d'une part, d'estimer le stockage nécessaire à la collecte de données et d'autre part, de mettre en place les moyens de sauvegarde des données récoltées. La duplication des données par stockage redondant sur des supports différents de ceux de l'équipement utilisé (poste de travail fixe, mobile, serveur, ...) est un des principes de base d’une bonne conservation. Il convient de préférer un archivage centralisé conformément à la règle du 3-2-1 généralement recommandée (3 copies sur 2 supports différents dont 1 sur un lieu déporté). À cet effet, il conviendra de travailler en amont avec une équipe informatique afin que les dispositifs de stockage soient disponibles.
 
 ```{admonition} [Rappels théoriques concernant les architectures de stockage traditionnel](https://indico.mathrice.fr/event/5/contribution/2/material/slides/0.pdf)  
 :class: seealso
 Sylvain Maurin  
-ANF  2016 : Stockage Distribué   
+ANF "Stockage Distribué", 2016   
 ```
 
 ```{admonition} [Outils algorithmiques et logiciels pour le stockage distribué](https://indico.mathrice.fr/event/5/contribution/3/material/slides/0.pdf)  
 :class: seealso
 Benoit Parrein  
-ANF Des données au BigData : exploitez le stockage distribué ! Savoir anticiper les nouveaux outils, les technologies émergentes en matière (ANF 2016)   
+ANF "Des données au BigData : exploitez le stockage distribué !", 2016   
 ```
 
 Divers outils de sauvegarde des données sont fréquemment utilisés dans les milieux informatiques comme [backuppc](https://backuppc.github.io/backuppc/), [bacula](https://bacula.org/), [rdiff-backup](https://rdiff-backup.net/)
@@ -386,11 +386,11 @@ Un retour d'expérience sur le [logiciel borgbackup](https://borgbackup.readthed
 
 ```{admonition} [Sauvegardes dédupliquées avec BorgBackup : retour d'expérience](https://2017.jres.org/fr/presentation?id=35)  
 :class: seealso
-Maurice Libes - Didier Mallarino OSU Pytheas   
-JRES 2017 Nantes   
+Maurice Libes - Didier Mallarino, OSU Pytheas   
+JRES 2017, Nantes   
 ```
 
 ```{admonition} Respecter le RGPD !
 :class: warning
-Enfin n'oublions pas que, dès lors que l’on va collecter des données personnelles (données permettant l’identification directe ou indirecte d’une personne), il sera important de respecter des principes essentiels sur la durée de conservation des données, le droit à l’information et l’obligation de sécuriser les données. Il ne faut pas hésiter à se rapprocher du correspondant du Délégué à la protection des données (DPD) de votre délégation (pour le CNRS) ou du Délégué à la protection des données de votre établissement.
+Enfin n'oublions pas que, dès lors que l’on collecte des données personnelles (données permettant l’identification directe ou indirecte d’une personne), il est important de respecter des principes essentiels sur la durée de conservation des données, le droit à l’information et l’obligation de sécuriser les données. Il ne faut pas hésiter à se rapprocher du correspondant du Délégué à la protection des données (DPD) de votre délégation (pour le CNRS) ou du Délégué à la protection des données de votre établissement.
 ```
