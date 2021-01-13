@@ -1,19 +1,12 @@
-
 # Reproductibilité
 
-> ML: en intro on ne dit rien de quelle reproductibilité cela concerne... des mesures? des traitements? de l'acces aux données... quelques phrases de plus pour situer le contexte de la reproductibiltié seraient bienvenues]
-> GR : je préférais raisonner par l'absurde en disant que sans reproductibilité, la confiance est impossible et la science ne progresse donc que difficilement]
+La confiance dans les résultats de la recherche repose, entre autres, sur le fait que les expériences ou les calculs soient reproductibles. 
 
-La reproductibilité d'une mesure est essentielle pour valider scientifiquement une expérience. En effet, une mesure scientifique convenable doit rester la même lorsque l'expérience est menée par d'autres scientifiques, dans les mêmes conditions. Une expérience répétée qui ne donne pas les mêmes résultats sera considéré n'ayant aucune valeur scientifique. in [Wikipedia](https://fr.wikipedia.org/wiki/Reproductibilit%C3%A9) 
+Au niveau technique, par exemple, la reproductibilité d'une mesure avec un même instrument, une méthode identique et dans un contexte donné, est essentielle pour valider les résultats d'une expérience ou d'un calcul. Au niveau scientifique, la répétabilité permet la validation des résultats obtenus. Il s'agit alors, par un autre moyen, d'arriver à des résultats équivalents.
 
->GR : l'article wikipedia me semble imparfait (ébauche) et trop général (il parle de l'industrie).]
+Cependant, en fonction des disciplines, il peut être très compliqué de reproduire ou répliquer des résultats.
 
-> ML: est ce qu'on ne définirait  pas les termes reproductibilité répétabilité , tel qu'on l'a fait sur la sauvegarde, archivage
-ce sont des termes définis par les normes iso]
-
-Capacité d'une instrumentation, d’une méthode, utilisée par plusieurs opérateurs, à reproduire de façon cohérente la même mesure de la même pièce, dans les mêmes conditions. La reproductibilité au même titre que la répétabilité sont deux composantes de précision dans un système de mesure.
-
->GR : oui mais ce qui est traité dans les articles est plus large, j'ai peur qu'on donnant une définition trop stricte, les lecteurs soit ne regardent pas la suite, soit se disent oh la la, ce n'est pas pour moi]
+La section suivante 
 
 ## Comprendre les enjeux et défis
 
