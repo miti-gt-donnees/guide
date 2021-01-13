@@ -67,7 +67,7 @@ Ludovic Courtès, Inria
 JCAD 2019
 ```
 
-Etre capable de reproduire des campagnes de calcul nécessite de connaître et savoir utiliser des outils adéquats. Execo et OpenMole sont deux exemples permettant de réaliser des campagnes de calcul reproductibles pour des applications de modélisation, simulations paramétriques, benchmarking, analyses de données numériques ou expérimentales.
+Etre capable de reproduire des campagnes de calcul nécessite de connaître et savoir utiliser des outils adéquats. La [bibliothèque Python Execo](http://execo.gforge.inria.fr/doc/latest-stable/) et le [logiciel OpenMole](https://openmole.org/) sont deux exemples permettant de réaliser des campagnes de calcul reproductibles pour des applications de modélisation, simulations paramétriques, benchmarking, analyses de données numériques ou expérimentales.
 
 ```{admonition} [Execo](https://calcul.math.cnrs.fr/attachments/spip/IMG/pdf/2018-ExecoExpeNum.pdf)  
 :class: seealso
