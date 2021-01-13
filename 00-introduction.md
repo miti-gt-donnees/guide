@@ -67,5 +67,11 @@ Les phases suivantes apportent des éléments plus spécifiques au lecteur pour 
 
 - la phase 7 "{ref}`publier`" est la phase finale permettant de diffuser les données correctement à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapapers.
 
+Deux annexes reprennent des thèmes transverses à ces phases successives :
+
+- l'annexe "{ref}`infrastructures`" décrit le paysage des infrastructures destinées à la recherche scientifique et accessibles à la communauté scientifique qui travaille en France. Le recensement est loin d'être exhaustif mais a pour objectif de fournir un aperçu des différents types d'infrastructures et d'en présenter certaines plus en détail au travers des exposés réalisés lors d'événements organisés par les réseaux.
+
+- l'annexe "{ref}`reproductibilite`" rassemble des exposés concernant la reproductibilité et la répétabilité, sujets transverses à plusieurs phases. Comme dans l'ensemble de ce guide, les présentations référencées ont été réalisées dans le cadre de journées ou ateliers organisés par les réseaux. 
+
 Ce guide a été rédigé par quelques réseaux métiers et de ce fait n'a pas la prétention d'être exhaustif. Nous invitons donc d'autres réseaux à nous faire remonter leurs pratiques métiers dans le cadre de la gestion des données pour alimenter ce guide.    
 Le lecteur est également invité à contribuer en apportant toutes modifications ou références manquantes dans les sections "commentaires" prévues à cet effet dans chaque chapitre.

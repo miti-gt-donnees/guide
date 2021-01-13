@@ -8,7 +8,7 @@ Cela recouvre de nombreux types de techniques (calcul intensif, traitement stati
 Cette étape du cycle de vie de nombreuses données impose que ces données soient exploitables, c'est-à-dire bien organisées, dans des formats adaptés à l'analyse envisagée, de façon à pouvoir leur appliquer des traitements automatisés.
 
 Plusieurs évènements récurrents, annuels ou bisannuels, auxquels participent activement les réseaux métiers, comme les 
-[JCAD (Journées Calcul et Données)](http://www.france-grilles.fr/category/journees-jcad/), les [JDEV (Journées du DEVeloppement logiciel)](http://devlog.cnrs.fr/manifestations/start) par exemple, intègrent de nombreuses interventions sur ces différentes thématiques, allant de la description des plateformes aux outils disponibles, en passant par l'organisation des développements et la reproductibilité. Ils incluent aussi très souvent des retours d'expérience particulièrement riches.
+[JCAD (Journées Calcul et Données)](http://www.france-grilles.fr/category/journees-jcad/), les [JDEV (Journées du DEVeloppement logiciel)](http://devlog.cnrs.fr/manifestations/start) par exemple, intègrent de nombreuses interventions sur ces différentes thématiques, allant de la description des plateformes aux outils disponibles, en passant par l'organisation des développements et la reproductibilité (détaillée dans une [page spécifique](11-reproductibilite.md).). Ils incluent aussi très souvent des retours d'expérience particulièrement riches.
 
 
 

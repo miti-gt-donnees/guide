@@ -3,11 +3,9 @@
 
 La confiance dans les résultats de la recherche repose, entre autres, sur le fait que les expériences ou les calculs soient reproductibles. 
 
-Au niveau technique, par exemple, la reproductibilité d'une mesure avec un même instrument, une méthode identique et dans un contexte donné, est essentielle pour valider les résultats d'une expérience ou d'un calcul. Au niveau scientifique, la répétabilité permet la validation des résultats obtenus. Il s'agit alors, par un autre moyen, d'arriver à des résultats équivalents.
+Au niveau technique, par exemple, la reproductibilité d'une mesure avec un même instrument, une méthode identique et dans un contexte donné, est essentielle pour valider les résultats d'une expérience. Au niveau scientifique, la répétabilité permet la validation des résultats obtenus. Il s'agit alors, par un autre moyen, d'arriver à des résultats équivalents.
 
-Cependant, en fonction des disciplines, il peut être très compliqué de reproduire ou répliquer des résultats.
-
-La section suivante 
+Cependant, en fonction des disciplines, il peut être très compliqué de reproduire ou répliquer des résultats. La section suivante est destinée à permettre de mieux appréhender les enjeux, les défis et aussi les différentes facettes de la reproductibilité et de la répétabilité en fonction des disciplines et des méthodes mises en oeuvre.
 
 ## Comprendre les enjeux et défis
 
@@ -50,7 +48,9 @@ Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019
 
 ## Utiliser des environnements et des outils qui favorisent la reproductibilité
 
-VIP, the Virtual Imaging Platform, est un portail qui permet à ses utilisateurs d'accéder simplement à leurs données, de les traiter facilement avec des logiciels pré-installés sur la plateforme. Traitements et données sont distribués sur l'infrastructure EGI. 
+Parvenir à la reproductibilité peut être facilité par l'utilisation d'environnements et d'outils conçus ou adaptés dans cet objectif. De nombreuses équipes travaillent en ce sens depuis plusieurs années et plusieurs exemples sont présentés ici.
+
+VIP, the "Virtual Imaging Platform", est un portail qui permet à ses utilisateurs d'accéder simplement à leurs données, de les traiter facilement avec des logiciels pré-installés sur la plateforme. Traitements et données sont distribués sur l'infrastructure EGI. 
 
 ```{admonition} [Virtual Imaging Platform : pour une science ouverte et reproductible](https://indico.mathrice.fr/event/165/contribution/8/material/slides/0.pdf)  
 :class: seealso
@@ -68,7 +68,7 @@ Ludovic Courtès, Inria
 JCAD 2019
 ```
 
-Etre capable de reproduire des campagnes de calcul nécessite de connaître et savoir utiliser des outils adéquats. Execo et OpenMole sont deux exemples permettant de réaliser des campagnes de calcul reproductibles pour des applications de modélisation, simulations paramétriques, benchmarking, analyses de données numériques ou expérimentales.
+Etre capable de reproduire des campagnes de calcul nécessite de connaître et savoir utiliser des outils adéquats. La [bibliothèque Python Execo](http://execo.gforge.inria.fr/doc/latest-stable/) et le [logiciel OpenMole](https://openmole.org/) sont deux exemples permettant de réaliser des campagnes de calcul reproductibles pour des applications de modélisation, simulations paramétriques, benchmarking, analyses de données numériques ou expérimentales.
 
 ```{admonition} [Execo](https://calcul.math.cnrs.fr/attachments/spip/IMG/pdf/2018-ExecoExpeNum.pdf)  
 :class: seealso
@@ -84,7 +84,7 @@ Journées Campagnes de calcul reproductibles, 2018
 
 ## Développement open source et reproductibilité
 
-Ces dernières années, les journées, ateliers traitant de la reproductibilité et du développement logiciel ont été nombreuses. Il est difficile d'isoler quelques présentations de ces ensembles pensés pour traiter d'une thématique d'ensemble. Aussi, dans cette section, plusieurs événements sont présentés globalement.
+Ces dernières années, les journées, ateliers traitant de la reproductibilité et du développement logiciel ont été nombreuses. Il est difficile d'isoler quelques présentations de ces ensembles pensés pour traiter d'une thématique d'ensemble. Aussi, dans cette section, plusieurs événements organisés par différents réseaux sont présentés globalement.
 
 Lorsqu'on développe un code de calcul, seul ou à plusieurs, il est primordial de vérifier que chaque modification ne produit pas de régression dans l'ensemble de l'application. Il est donc nécessaire d'employer des tests unitaires, des tests d'intégration ou des tests du système complet. Ces tests s'intègrent dans un système de gestion de versions pour sauvegarder les modifications.
 
@@ -92,7 +92,7 @@ L’intégration continue fournit des outils permettant de valider l’intégrit
 
 En 2017, le réseau "calcul" a organisé un "[Atelier intégration continue](https://calcul.math.cnrs.fr/2017-05-atelier-integration-continue.html)" visant à se familiariser à trois outils d’intégration continue : _Jenkins, Travis CI et Gitlab CI_, en commençant par une introduction à deux outils couramment utilisés dans une chaîne d'intégration continue : "Git" pour gérer les versions et les publier vers un dépôt distant, puis "Docker" pour exécuter les tâches de compilation et de tests.
 
-Les utilisateurs de "Julia" sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l'atelier "JuliaNantes", les réponses aux questions qu'ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.
+Les utilisateurs du langage de programmation "[Julia](https://julialang.org/)" sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l'atelier "JuliaNantes", les réponses aux questions qu'ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.
 
 ```{admonition} [Getting started with Julia tools for reproducible science](http://matbesancon.github.io/slides/JuliaNantes/JuliaTools#/10)    
 :class: seealso
@@ -116,17 +116,4 @@ Arnaud Legrand, Inria
 JDEV 2020
 ```
 
----
-
-Restent :
-
-jdev2017
-<http://devlog.cnrs.fr/jdev2017/t4>
-[GR je ne vois pas bien le lien direct des présentations avec la reproductibilité]
-
-https://calcul.math.cnrs.fr/2015-06-atelier-git-gitlab.html
-[GR : pas trouvé les présentationsdonc je propose d'enlever le lien]
-
-Cahiers d'expérience numérique [GR : pas de transparents ni vidéo, donc je propose de supprimer la référence]
-<https://calcul.math.cnrs.fr/2018-06-anf-cahiers-experience.html>
 
