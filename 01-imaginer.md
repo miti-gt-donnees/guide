@@ -233,7 +233,7 @@ Les données sont des archives publiques dès lors qu’elles sont créées au s
 
 Des outils existent pour aider à la sélection des données notamment le [référentiel de gestion des archives de la recherche](https://www.archivistes.org/Referentiel-de-gestion-des-archives-de-la-recherche). Ce référentiel est organisé par thématiques et indique pour chaque type de document sa durée de conservation, son sort final (tri, conservation, destruction) et les aspects légaux à connaître.
 
-Pour plus de détail, on se reportera à la section {ref}`archiver`.
+Pour plus de détails, on se reportera à la section {ref}`archiver`.
 
 ## Identifier les compétences et expertises pour la gestion des données de la recherche  
 
