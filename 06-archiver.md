@@ -177,8 +177,7 @@ Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, G
 
 ### Les logiciels / les codes sources 
 
-La préservation des logiciels et des codes sources est indispensable pour assurer la reproductibilité de la science. Dans le cadre des logiciels libres, une infrastructure a vu le jour, il s'agit de Software Heritage. Pour en savoir plus sur cette plateforme, consultez la partie
-{ref}`infrastructures`.
+La préservation des logiciels et des codes sources est indispensable pour assurer la reproductibilité de la science. Le projet Software Heritage a pour objectif de collecter, préserver et rendre disponible le code source (et son historique) de tous les logiciels publiquement disponibles. Une présentation du projet est disponible dans la section {ref}`infrastructures` de ce guide.
 
 ## Archiver les objets numériques
 
