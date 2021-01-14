@@ -21,7 +21,7 @@ De façon générale, on distingue :
 - Les ressources de type cloud (par exemple le cloud distribué de France Grille France Cloud). Ces ressources souples répondent aux besoins de calcul à la demande ou lorsque la maîtrise de l'ensemble du système est nécessaire.
 - les ressources de type grille de calcul ou HTC (High Throughput Computing), par exemple l'infrastructure France Grille ou le Centre de Calcul de l'IN2P3. Ces ressources sont utilisées pour faire du traitement massif de données.
 
-Elles sont décrites dans une [page spécifique](10-infrastructures.md). Le choix du type d'infrastructures adapté au besoin n'est pas forcément trivial. Il est souvent plus pertinent de s'adresser à des spécialistes qui sauront vous orienter. En général, les mésocentres de calcul, grâce à leur proximité et à leur connaissance du domaine, sont de bons conseils. Une liste est disponible sur le [site du réseau Calcul](https://calcul.math.cnrs.fr/pages/mesocentres_en_france.html).
+Elles sont décrites dans la section [Infrastructures](10-infrastructures.md) de ce guide. Le choix du type d'infrastructures adapté au besoin n'est pas forcément trivial. Il est souvent plus pertinent de s'adresser à des spécialistes qui sauront vous orienter. En général, les mésocentres de calcul, grâce à leur proximité et à leur connaissance du domaine, sont de bons conseils. Une liste est disponible sur le [site du réseau Calcul](https://calcul.math.cnrs.fr/pages/mesocentres_en_france.html).
 
 ## Outils pour l'analyse des données
 
