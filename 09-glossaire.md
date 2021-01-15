@@ -1,12 +1,5 @@
 # Glossaire
 
-- {term}`Stocker`
-- {term}`Archiver`
-- {term}`Sauvegarder`
-- {term}`Préserver`
-- {term}`Pérenniser`
-
-
 **Archiver** : l’archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d’y associer les moyens pour réutiliser les données : la réutilisation se faisant en ajoutant de l’intelligence à la sauvegarde. Le contenu des documents archivés n’est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l’obsolescence logicielle).
 ---
 **Pérenniser** : ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L’archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).
@@ -17,3 +10,24 @@
 ---
 **Stocker** : c’est l’étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d’assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n’est ni sauvegardée et ni sécurisée.
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- {term}`Stocker`
+- {term}`Archiver`
+- {term}`Sauvegarder`
+- {term}`Préserver`
+- {term}`Pérenniser`
