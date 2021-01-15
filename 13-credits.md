@@ -15,7 +15,7 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 * Jean-Michel Parret : [INIST](https://www.inist.fr/).
 * Caroline Martin :
 
-- **version 1.0 Jnavier 2021**
+- **version 1.0 Janvier 2021**
 
 ## Licence 
 
