@@ -8,7 +8,7 @@
 
 
 **Archiver** : l’archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d’y associer les moyens pour réutiliser les données : la réutilisation se faisant en ajoutant de l’intelligence à la sauvegarde. Le contenu des documents archivés n’est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l’obsolescence logicielle).
-
+---
 **Pérenniser** : ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L’archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).
 ---
 **Préserver** : cette action fait référence au fait de garantir, protéger, mettre à l’abri, sauver d’un dommage ou d’une destruction (cf. notion de sauvegarde) et au fait de tenir dans le même état, en bon état (intelligible). Elle fait aussi référence à la notion de permanence dans le temps (cf. notion d’archivage). Le synonyme « conserver » est utilisé quand il est fait référence à une politique.
