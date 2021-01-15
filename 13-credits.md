@@ -14,7 +14,7 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 * Pierre Brochard : [réseau DevLog](http://devlog.cnrs.fr/)
 * Dominique Desbois : [réseau DevLog](http://devlog.cnrs.fr/)
 * Emilie Lerigoleur : [réseau SIST](http://sist.cnrs.fr)
-* Caroline Martin :
+* Caroline Martin
 * Pierre Navaro : [réseau Calcul](https://calcul.math.cnrs.fr/)
 * Jean-Michel Parret : [INIST](https://www.inist.fr/)
 
