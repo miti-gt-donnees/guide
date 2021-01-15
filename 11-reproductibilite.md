@@ -115,5 +115,6 @@ Au cours de son exposé,  Arnaud Legrand présente les différents enjeux, les s
 Arnaud Legrand, Inria  
 JDEV 2020
 ```
+Pour aller plus loin il peut être utile de consulter l'ouvrage collectif "[Vers une recherche reproductible :  Faire évoluer ses pratiques](https://hal.archives-ouvertes.fr/hal-02144142v1/document)".
 
 
