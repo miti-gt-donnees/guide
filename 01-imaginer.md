@@ -1,5 +1,5 @@
 (imaginer)=
-# Imaginer et Préparer
+# Imaginer et préparer
 
 Imaginer est la première étape de notre cycle de vie. C'est une phase préparatoire qui correspond à la connaissance et à l’identification des problématiques générales, techniques et juridiques associées à la gestion des données dans un projet de recherche ou dans la pratique quotidienne de nos métiers.
 Etape où l’on doit se projeter, s’informer, comprendre pour anticiper et envisager sereinement le déroulement d'un projet.
