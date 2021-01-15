@@ -1,7 +1,7 @@
 (archiver)=
 # Préserver et archiver
 
-Préserver, sécuriser l'information et sauvegarder, voire archiver les données sont des phases essentielles de la gestion rigoureuse des données, mais il n'est pas toujours aisé de faire la différence dans ses notions et d'utiliser le bon terme et la procédure associée. De plus, préserver pour un usage futur dont on ignore le plus souvent les caractéristiques est compliqué. C'est pourquoi des retours d'expériences avec leurs succès et leurs échecs sont intéressants à faire connaître. Ces retours d'expérience sont complétés par des conseils donnés pour sélectionner les données à préserver et pour mener à bien la préservation d'objets numériques.
+Préserver, sécuriser l'information et sauvegarder, voire archiver les données sont des phases essentielles de la gestion rigoureuse des données, mais il n'est pas toujours aisé de faire la distinction entre ces notions et d'utiliser le bon terme et la procédure associée. De plus, préserver pour un usage futur dont on ignore le plus souvent les caractéristiques est compliqué. C'est pourquoi des retours d'expériences avec leurs succès et leurs échecs sont intéressants à faire connaître. Ces retours d'expérience sont complétés par des conseils appropriés pour sélectionner les données à préserver et pour mener à bien la préservation d'objets numériques.
 
 ## Comprendre et différentier les différents concepts
 
@@ -14,10 +14,10 @@ Stocker
   C'est l'étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n'est ni sauvegardée et ni sécurisée.
 
 Sauvegarder
-  La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde bit à bit. La recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte.
+  La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde octet par octet dans une perspective de court ou de moyen terme. La recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte.
 ```
 
-Cette étape de sauvegarde s'accompagne d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la partie {ref}`collecter`
+Cette étape de sauvegarde doit s'accompagner d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la partie {ref}`collecter`
 
 Laurent Pelletier, lors de l'ANF PostgreSQL Administration, a présenté les questions à se poser pour définir sa politique de sauvegarde autour des bases de données.
 
@@ -34,7 +34,7 @@ Archiver
 
 Le terme archive est défini par le législateur : *les archives sont l'ensemble des documents, y compris les données, quels que soient leur date, leur lieu de conservation, leur forme et leur support produits ou reçus par toute personne physique ou morale, et par tout service ou organisme public ou privé dans l'exercice de leur activité* (art. L. 211-1 du code du patrimoine). Les données de la recherche entrent pleinement dans le périmètre des archives. 
 
-Pour en savoir plus sur le statut des archives scientifiques du CNRS et sur le délai de conservation, nous vous conseillons ces deux documents :
+Pour en savoir plus sur le statut des archives scientifiques du CNRS et sur leur délai de conservation, nous vous conseillons ces deux documents :
 ```{admonition} [Textes réglementaires et durée de conservation](https://dataarchivage.sciencesconf.org/data/pages/20191120_archives_scientifiquesGRICAD.pdf)    
 :class: seealso   
 Marie-Laure Bachèlerie, DAJ-CNRS    
@@ -49,7 +49,7 @@ MITI-CNRS, 2018
 
 ```{glossary}
 Préserver
-   Cette action fait référence au fait de garantir, protéger, mettre à l'abri, sauver d'un mal (cf. notion de sauvegarde) et au fait de tenir dans le même état, en bon état (intelligible). Elle fait aussi référence à la notion de durer dans le temps (cf. notion d'archivage). Le synonyme "conserver" est utilisé quand il est fait référence à une politique.
+   Cette action fait référence au fait de garantir, protéger, mettre à l'abri, sauver d'un dommage ou d'une destruction (cf. notion de sauvegarde) et au fait de tenir dans le même état, en bon état (intelligible). Elle fait aussi référence à la notion de permanence dans le temps (cf. notion d'archivage). Le synonyme "conserver" est utilisé quand il est fait référence à une politique.
 
 Pérenniser
    Ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L'archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).
@@ -61,9 +61,9 @@ Dans la suite de ce chapître, nous utiliserons les termes "préserver / préser
 
 ### Préserver la masse de données scientifiques
 
-Cette présentation est une bonne entrée en la matière. Cristinel Diaconu introduit sa présentation en illustrant le « Data Big Bang » et en questionnant le destin des *big scientific data* sur le long terme. Il explique la fragilité des données numériques et la limite dépassée des capacités de stockage des données. Pourtant les données scientifiques sont riches en information, car structurées selon un plan de recherche et une démarche scientifique, elles sont de plus en plus massives et diverses, produites avec des efforts humains et financiers significatifs, elles englobent des connaissances uniques qu’il faut absolument préserver. Partant d’exemples issus de la physique des hautes énergies produits par des instruments gigantesques pour des collaborations internationales, il démontre l’importance de se préoccuper du sort de ces données et de planifier leur préservation. Il aborde la question du risque associé à la réutilisation, de l’organisation sur le long terme, et des différents modèles de données et des niveaux de préservation.
+Cette présentation est une bonne entrée en la matière. Cristinel Diaconu introduit sa présentation en illustrant le « Big Bang » des données et en questionnant le destin des masses de données scientifiques (*big scientific data*) sur le long terme. Il explique la fragilité des données numériques et la limite dépassée des capacités de stockage des données. Pourtant les données scientifiques sont riches en information, car structurées selon un plan de recherche et une démarche scientifique, elles sont de plus en plus massives et diverses, produites avec des efforts humains et financiers significatifs, elles englobent des connaissances uniques qu’il faut absolument préserver. Partant d’exemples issus de la physique des hautes énergies produits par des instruments gigantesques pour des collaborations internationales, il démontre l’importance de se préoccuper du sort de ces données et de planifier leur préservation. Il aborde la question du risque associé à la réutilisation, de l’organisation sur le long terme, et des différents modèles de données et niveaux de préservation.
 
-La dernière partie de sa présentation est consacrée au projet **PREDON** qui propose une approche nouvelle qui mélange les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.
+La dernière partie de sa présentation est consacrée au projet **PREDON** qui propose une approche nouvelle mélangeant les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.
 
 ```{admonition} [La préservation des données scientifiques](http://renatis.cnrs.fr/IMG/pdf/DIACONU_DPHEP_PREDON_FREDOCS.pdf)   
 :class: seealso   
@@ -83,7 +83,7 @@ Nous pouvons résumer la finalité de la « protection du patrimoine scientifiqu
 - garantir (si besoin) la confidentialité des informations ;
 - garantir l’intégrité des informations et des personnes ;
 - assurer la protection des données sensibles de la structure (données scientifiques et techniques ; données de gestion administrative, données individuelles) ;
-- assurer la protection juridique (risques administratifs, risques pénaux, perte d’image de marque).
+- assurer la protection juridique (risques administratifs, risques pénaux, atteinte à la réputztion scientifique ou à l'image institutionnelle).
 
 ```{admonition} [L'analyse de risques dans le cadre du système d'information](http://qualite-en-recherche.cnrs.fr/IMG/pdf/gestion_risques_ssi_rivet_2015.pdf)   
 :class: seealso   
@@ -91,7 +91,7 @@ Alain Rivet, CERMAV
 6ème rencontres du Réseau Qualité en Recherche, réseau QeR, Biarritz, 2015   
 ```
 
-Cyril Bras ajoute un quatrième critère pour définir le niveau de sécurité d’un bien du système d'information : la **preuve** qu'il définit comme la propriété d'un bien permettant de retrouver, avec une confiance suffisante, les circonstances dans lesquelles ce bien évolue. Cette propriété englobe notamment :
+Cyril Bras ajoute un quatrième critère pour définir le niveau de sécurité d’un élément du système d'information : la **preuve** qu'il définit comme la propriété d'un bien permettant de retrouver, avec une confiance suffisante, les circonstances dans lesquelles ce bien évolue. Cette propriété englobe notamment :
 
 - la traçabilité des actions menées ;
 - l’authentification des utilisateurs ;
@@ -113,7 +113,7 @@ Cyril Bras, CERMAV
 
 La protection du patrimoine scientifique et technique est l’affaire de tous, mais elle ne se limite pas à des mesures techniques.
  
-Sans prise de conscience de tous sur la nécessité de préserver le patrimoine scientifique, une disparition (généralisée) de nos données est plus que probable. Marion Massol lors de sa présentation au séminaire SIST en 2016 nous rappelle cependant que des solutions d'avenir existent déjà (au CINES). 
+Sans prise de conscience de tous sur la nécessité de préserver le patrimoine scientifique, une disparition (partielle sinon généralisée) de nos données est plus que probable. Marion Massol lors de sa présentation au séminaire SIST en 2016 nous rappelle cependant que des solutions d'avenir existent déjà (au CINES). 
 
 ```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist16.sciencesconf.org/data/pages/18_M_Massol.pdf)   
 :class: seealso    
@@ -124,16 +124,16 @@ Séminaire SIST 2016 : réseau SIST, Montpellier, 2016
 
 ## Préserver les objets numériques
 
-Tous les objets numériques ne nécessitent pas les mêmes opérations pour être préservés. Leur préservation dépend parfois de leur nature (données textuelles, données numériques, données audiovisuelles, modèles et codes informatiques ..), du niveau de leur protection (chiffrés, pas chiffrés) de leur façon d'être collectés (observateur, capteur, modèle ...) ou de leur stabilité dans le temps (stable, croissante, révisable). 
+Tous les objets numériques ne nécessitent pas les mêmes opérations pour être préservés. Leur préservation dépend parfois de leur nature (données textuelles, données numériques, données audiovisuelles, modèles et codes informatiques ..), du niveau de leur protection (chiffrés, non chiffrés) de leur façon d'être collectés (observateur, capteur, modèle, etc) ou de leur évolution dans le temps (stable, croissante, révisable). 
 
 Voici quelques exemples de préservation d'objets numériques qui ont fait l'objet de présentation.
 
 ### Les données d'un tableur
 
-Marie-Claude Quidoz revient sur les 4 risques menaçant inéluctablement un fichier sur une longue période et elle donne des pistes d'améliorations possibles. Elle fait trois recommandations importantes :
-- ne pas penser uniquement format ouvert, mais penser aussi format durable pour une sauvegarde à long terme
-- dans le monde des tableurs, où à ce jour les seuls formats durables sont CSV / TXT, ne pas oublier de prendre en compte, lors de la création des fichiers, la perte de fonctionnalités de ce format par rapport aux formats natifs
-- avoir le réflexe de valider son fichier avec l'outil [FACILE](https://facile.cines.fr/) du CINES
+Marie-Claude Quidoz revient sur les quatre risques menaçant inéluctablement un fichier sur une longue période et donne des pistes d'améliorations possibles. Elle fait trois recommandations importantes :
+- ne pas penser uniquement format ouvert, mais penser aussi format durable pour une sauvegarde à long terme,
+- dans le monde des tableurs, où à ce jour les seuls formats durables sont CSV / TXT, ne pas oublier de prendre en compte, lors de la création des fichiers, la perte de fonctionnalités de ce format par rapport aux formats natifs,
+- avoir le réflexe de valider son fichier avec l'outil [FACILE](https://facile.cines.fr/) du CINES.
 
 ```{admonition} [Sécuriser les données produites par les carnets de terrain électroniques](http://rbdd.cnrs.fr/IMG/pdf/quidoz_atelier2018.pdf?480/cd645e6864223eaae2a37ea4d2b45077f07b61d1)    
 :class: seealso    
@@ -145,7 +145,7 @@ Atelier « Carnets de terrain électroniques », Montpellier, 2018
 
 En Avril 2004, le CINES a publié un  « [Guide Méthodologique pour l’archivage des bases de données](https://cultura.gencat.cat/web/.content/dgpc/arxius_i_gestio_documental/14_Gestio_documental/06_GD_Estandaritzacio/preservacio_publicacions/GM_archivage_BDD.pdf) » que nous recommandons fortement, même s'il est un peu ancien (la famille NoSQL est absente). Il contient les bonnes questions à se poser (est-ce une base de données vivante / consultée / cumulative ?), est-ce une base de données pilotée par une interface ? etc). Il présente les différents modes de sauvegarde possibles d'une base de données avec pour chacun leurs avantages et leurs inconvénients. Il liste les différentes documentations à joindre. Et surtout il sensibilise l'utilisateur sur la problématique de l'interface qui du point de vue préservation est un problème à prendre en compte en tant que tel (maillon faible).
 
-En novembre 2014, le réseau rBDD a consacré une journée à cette thématique « [Journée de sensibilisation à la sécurisation et à la pérennisation des données](http://webcast.in2p3.fr/events-rbdd2014) ». À cette occasion, Michel Jacobson a fait une présentation dans laquelle il présente le contexte de la pérennisation des bases de données, le  format SIARD et un retour d'expérience de l'utilisation de ce format pour la matrice cadastrale numérique.  
+En novembre 2014, le réseau rBDD a consacré une journée à cette thématique « [Journée de sensibilisation à la sécurisation et à la pérennisation des données](http://webcast.in2p3.fr/events-rbdd2014) ». À cette occasion, Michel Jacobson a fait une présentation dans laquelle il présente le contexte de la pérennisation des bases de données, le  format *Software Independent Archiving of Relational Databases* (SIARD) et un retour d'expérience de l'utilisation de ce format pour la matrice cadastrale numérique.  
 
 ```{admonition} [Retour d’expérience sur l’utilisation du format SIARD pour l’archivage des bases de données relationnelles](http://rbdd.cnrs.fr/IMG/pdf/rbdd_siard.pdf?181/12408bc1172027762f2ac776ed4842de13c19474)   
 :class: seealso
@@ -156,7 +156,7 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
 
 ### Les données chiffrées
 
-Dans cette présentation, François Morris aborde le cas des données protégées par un chiffrement. Après un rappel de ce qu'est le chiffrement, il présente le chiffrement dans la durée : archivage des données chiffrées et utilisation de ces données, donc comment déchiffrer ces données archivées dans le futur.
+Dans cette présentation, François Morris aborde le cas des données protégées par un chiffrement. Après un rappel de ce qu'est le chiffrement, il présente le chiffrement dans la durée : archivage des données chiffrées et utilisation de ces données, donc comment déchiffrer dans le futur ces données archivées.
 
 ```{admonition} [La pérennisation des données chiffrées ? Quel est l’impact du chiffrement sur le long terme ?](http://rbdd.cnrs.fr/IMG/pdf/chiffrement-perennisation.pdf?185/c4475004eab7dcd07a72e8230a8d74d493dc2495)   
 :class: seealso   
@@ -185,14 +185,14 @@ L'archivage des objets numériques s'appuie sur les mêmes concepts que la prés
 
 ### Archivage à long terme et politiques de préservation
 
-Ces retours d'expériences recueillis lors du séminaire "[Archivage Numérique des Données de Recherche](https://dataarchivage.sciencesconf.org/)", Grenoble, 20 novembre 2019 illustrent les démarches en cours dans certains instituts et certaines infrastructures pour mettre en oeuvres des politiques d'archivage et de préservation des données.
+Ces retours d'expériences recueillis lors du séminaire "[Archivage Numérique des Données de Recherche](https://dataarchivage.sciencesconf.org/)" (Grenoble, novembre 2019) illustrent les démarches en cours dans certains instituts et sur certaines infrastructures pour mettre en oeuvres des politiques d'archivage et de préservation des données.
 
 Ces présentations offrent un panorama des différents processus ou démarches d’archivage à long terme mis en place dans diverses disciplines scientifiques. On y découvre les politiques de gestion ou de partage des données et les démarches spécifiques à chaque structure pour mettre en place ou organiser un système d’archivage et de préservation des données sur le long terme. 
 
-Pour commencer, Michel Jacobson présente l’offre de service de la TGIR Huma-Num pour l’archivage à long terme.
-Ce service co-construit en partenariat avec le CINES consiste en un accompagnement méthodologique et parfois techniques pour l’archivage au sein même du CINES. Il prend la forme aussi de recommandations, d’un dialogue, d’une médiation entre les producteurs de données et le CINES et la prise en charge des coûts d’archivage pour l’utilisateur. Il illustre sa présentation par différents exemples d’archivage en SHS.
+Pour commencer, Michel Jacobson présente l’offre de service de la Très Grande Infrastructure de Recherche (TGIR) Huma-Num pour l’archivage à long terme.
+Ce service co-construit en partenariat avec le CINES consiste en un accompagnement méthodologique et parfois technique pour l’archivage au sein même du CINES. Il prend la forme aussi de recommandations, d’un dialogue, d’une médiation entre les producteurs de données et le CINES et assure la prise en charge des coûts d’archivage pour l’utilisateur. Il illustre sa présentation par différents exemples d’archivage en SHS.
 
-Les présentations de Yonny Cardenas et de Jean-François Perrin présentent les politiques de gestion, partage et diffusion des données au centre Paul Langevin et au centre de calcul de l’IN2P3. Yonny Cardenas insiste en particulier sur les qualités et faiblesses de la politique de gestion mise en place, il présente un cas d’utilisation qui mobilise des compétences multidisciplinaires de chercheurs, informaticiens et documentalistes et révèle un besoin crucial d’archivage à long terme.
+Les présentations de Yonny Cardenas et de Jean-François Perrin présentent les politiques de gestion, partage et diffusion des données au centre Paul Langevin et au centre de calcul de l’IN2P3. Yonny Cardenas insiste en particulier sur les qualités et faiblesses de la politique de gestion mise en place. Il présente un cas d’utilisation qui mobilise des compétences multidisciplinaires de chercheurs, informaticiens et documentalistes et révèle un besoin crucial d’archivage à long terme.
 
 Gilles Duvert témoigne quant à lui de la préservation des données en Astronomie, discipline dans laquelle les données et l’interopérabilité sont au cœurs de la démarche scientifique depuis 40 ans. Il signale entre autres la pratique qui consiste à archiver et documenter les données à l’aide de standards partagés au niveau international.]
 
@@ -241,12 +241,12 @@ Plusieurs critères sont à prendre en considération :
 -	la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;  
 -	le coût de ces supports ou encore des modifications de format de fichiers, ou bien de l’espace de stockage nécessaires à la conservation des données.  
 
-Ses critères ont été établis dans le cadre de l'archivage pérenne, mais ils s'appliquent tout à fait à l'archivage (rappel : la différence entre archive pérenne et archive réside sur la durée de conservation).
+Ses critères ont été établis dans le cadre de l'archivage pérenne, mais ils s'appliquent tout à fait à l'archivage (nota bene : la différence entre archive pérenne et archive porte sur la durée de conservation).
 
-Dans la présentation référencée, Lorène Béchard et Marion Massol présentent le CINES, ses missions et l'infrastructure d'archivage au CINES. Elles abordent les différents formats, le cas particulier de l'archivage des bases de données et les questions à se poser avant d'archiver. Elles précisent que l’archivage pérenne des documents électroniques consiste à conserver le document et l’information qu’il contient :
-- Dans son aspect physique comme dans son aspect intellectuel,
-- Sur le très long terme …et au-delà,
-- De manière à ce qu’il soit en permanence accessible et compréhensible.
+Dans la présentation référencée, Lorène Béchard et Marion Massol présentent le Centre Informatique National de l'Enseignement Supérieur (CINES), ses missions et l'infrastructure d'archivage du CINES. Elles abordent les différents formats, le cas particulier de l'archivage des bases de données et les questions à se poser avant d'archiver. Elles précisent que l’archivage pérenne des documents électroniques consiste à conserver le document et l’information qu’il contient :
+- dans son aspect physique comme dans son aspect intellectuel, 
+- sur le très long terme et au-delà,
+- de manière à ce qu’il soit en permanence accessible et compréhensible.
 
 ```{admonition} [Les critères à prendre en compte pour la conservation des données](http://rbdd.cnrs.fr/IMG/pdf/2014-11-06_rbdd_ae_cines_bdd.pdf?180/f1eef63ef0e72ac628e9435afadcf0c0fc82abfb)  
 :class: seealso
@@ -255,7 +255,7 @@ Lorène Béchard, CINES & Marion Massol, CINES
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014    
 ```
 
-Dans cette présentation, après avoir évoqué le contexte réglementaire en matière de gestion d'**archives publiques**, Magalie Moysan, coordinatrice du pôle Sécurisation des données et documents et responsable du département archives à l'Université de Paris, aborde les enjeux de leur préservation ainsi que les outils et méthodes disponibles pour procéder à leur sélection. Elle insiste sur le statut « d'archives publiques » souvent méconnu dans nos établissements et sur les obligations légales et réglementaires qui y sont associées notamment l'obligation de bien gérer, conserver et archiver ses documents ou l'interdiction de les détruire sans visa préalable des autorités compétentes. Elle explique ensuite l'intérêt de concevoir l'archivage comme un moyen de « conserver les preuves », de garantir une antériorité, d'assurer le suivi d'une activité, de fiabiliser les résultats et de constituer un patrimoine scientifique. La sélection des données en vue de leur conservation suppose très en amont de pouvoir anticiper cette tâche en procédant à une description rigoureuse des données et de leur contexte de production (contenu, date, modalité d'entrée, conditions d'accès etc.). Le processus de sélection s'organise autour de quelques grands principes (intérêt scientifique, juridique, historique de la donnée, intelligibilité de la donnée) et se détermine souvent dans le cadre d'un échange entre scientifique et archiviste. Les référentiels de conservation sont des outils d'aide intéressants pour accompagner le processus de sélection.
+Dans cette présentation, après avoir évoqué le contexte réglementaire en matière de gestion d'**archives publiques**, Magalie Moysan, coordinatrice du pôle Sécurisation des données et documents et responsable du département archives à l'Université de Paris, aborde les enjeux de leur préservation ainsi que les outils et méthodes disponibles pour procéder à leur sélection. Elle insiste sur le statut « d'archives publiques » souvent méconnu dans nos établissements et sur les obligations légales et réglementaires qui y sont associées notamment l'obligation de bien gérer, conserver et archiver ses documents ou l'interdiction de les détruire sans visa préalable des autorités compétentes. Elle explique ensuite l'intérêt de concevoir l'archivage comme un moyen de « conserver les preuves », de garantir une antériorité, d'assurer le suivi d'une activité, de fiabiliser les résultats et de constituer un patrimoine scientifique. La sélection des données en vue de leur conservation suppose très en amont de pouvoir anticiper cette tâche en procédant à une description rigoureuse des données et de leur contexte de production (contenu, date, modalité d'entrée, conditions d'accès etc.). Le processus de sélection s'organise autour de quelques grands principes (intérêt scientifique, juridique, historique de la donnée, intelligibilité de la donnée) et se détermine souvent dans le cadre d'un échange entre scientifiques et archivistes. Les référentiels de conservation sont des outils d'aide intéressants pour accompagner le processus de sélection.
 
 ```{admonition} [Sélectionner les données pour la préservation : enjeux et méthodes](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Moysan.pdf)    
 :class: seealso   
