@@ -8,7 +8,7 @@ Cela recouvre de nombreux types de techniques (calcul intensif, traitement stati
 Cette étape du cycle de vie de nombreuses données impose que ces données soient exploitables, c'est-à-dire bien organisées, dans des formats adaptés à l'analyse envisagée, de façon à pouvoir leur appliquer des traitements automatisés.
 
 Plusieurs évènements récurrents, annuels ou bisannuels, auxquels participent activement les réseaux métiers, comme les 
-[JCAD (Journées Calcul et Données)](http://www.france-grilles.fr/category/journees-jcad/), les [JDEV (Journées du DEVeloppement logiciel)](http://devlog.cnrs.fr/manifestations/start) par exemple, intègrent de nombreuses interventions sur ces différentes thématiques, allant de la description des plateformes aux outils disponibles, en passant par l'organisation des développements et la reproductibilité (détaillée dans une [page spécifique](11-reproductibilite.md).). Ils incluent aussi très souvent des retours d'expérience particulièrement riches.
+[JCAD (Journées Calcul et Données)](http://www.france-grilles.fr/category/journees-jcad/), les [JDEV (Journées du DEVeloppement logiciel)](http://devlog.cnrs.fr/manifestations/start) par exemple, intègrent de nombreuses interventions sur ces différentes thématiques, allant de la description des plateformes aux outils disponibles, en passant par l'organisation des développements et la reproductibilité, détaillée dans la section [Reproductibilité](11-reproductibilite.md) de ce guide. Ils incluent aussi très souvent des retours d'expérience particulièrement riches.
 
 
 
@@ -21,7 +21,7 @@ De façon générale, on distingue :
 - Les ressources de type cloud (par exemple le cloud distribué de France Grille France Cloud). Ces ressources souples répondent aux besoins de calcul à la demande ou lorsque la maîtrise de l'ensemble du système est nécessaire.
 - les ressources de type grille de calcul ou HTC (High Throughput Computing), par exemple l'infrastructure France Grille ou le Centre de Calcul de l'IN2P3. Ces ressources sont utilisées pour faire du traitement massif de données.
 
-Elles sont décrites dans une [page spécifique](10-infrastructures.md). Le choix du type d'infrastructures adapté au besoin n'est pas forcément trivial. Il est souvent plus pertinent de s'adresser à des spécialistes qui sauront vous orienter. En général, les mésocentres de calcul, grâce à leur proximité et à leur connaissance du domaine, sont de bons conseils. Une liste est disponible sur le [site du réseau Calcul](https://calcul.math.cnrs.fr/pages/mesocentres_en_france.html).
+Elles sont décrites dans la section [Infrastructures](10-infrastructures.md) de ce guide. Le choix du type d'infrastructures adapté au besoin n'est pas forcément trivial. Il est souvent plus pertinent de s'adresser à des spécialistes qui sauront vous orienter. En général, les mésocentres de calcul, grâce à leur proximité et à leur connaissance du domaine, sont de bons conseils. Une liste est disponible sur le [site du réseau Calcul](https://calcul.math.cnrs.fr/pages/mesocentres_en_france.html).
 
 ## Outils pour l'analyse des données
 

@@ -139,6 +139,15 @@ Les mésocentres ont fait l'objet de présentations régulières, à la fois tec
  
 De nombreux mésocentres ont participé à l'equipex Equip@Meso coordonné par GENCI et qui a fait l'objet par exemple, lors des JCAD 2018, d'[un poster](https://jcad2018.sciencesconf.org/data/JCAD2018PosterEquipameso.pdf) d'Elise Quentel de GENCI, qui synthétise les informations
  
+Lors des JCAD 2019, Cyrille Toulet a présenté l'intégration du cloud OpenStack du mésocentre de Lille dans plusieurs fédérations de cloud nationales et internationale. Il explique l'intérêt de ces intégrations et les aspects techniques et donne des cas d'utilisation dans différentes disciplines.
+
+```{admonition} [Intégration d'un cloud OpenStack à plusieurs fédérations de cloud](https://jcad2019.sciencesconf.org/data/Inte_gration_d_un_cloud_OpenStack_a_plusieurs_fe_de_rations_de_cloud_11_octobre_2019_.pdf)
+:class: seealso
+[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=21F552ao&width=100%&height=100%)   
+Cyrille TOULET, Mésocentre de Lille, Université de Lille 
+JCAD 2019
+```
+
 Il est aussi possible d'utiliser des ressources fournies par plusieurs mésocentres dans le cadre d'un même projet. Ce retour d'expérience dans le domaine de la chimie en est un témoignage.
 
 ```{admonition} [Calculs de chimie quantique distribués entre méso-centres avec Quantum Package](https://jcad2019.sciencesconf.org/data/JCAD2019AScemama.pdf)
