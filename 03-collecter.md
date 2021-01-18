@@ -232,7 +232,7 @@ Alain Rivet positionne le cahier de laboratoire comme un outil de gestion des do
 ```{admonition} [Cahier de laboratoire et gestion des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Rivet.pdf)
 :class: seealso
 Alain Rivet, CERMAV  
-Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserver ? »,réeau Renatis, 2020   
+Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
 ```
 
 Les apports du numérique sont multiples en améliorant la traçabilité des recherches, la lutte contre la fraude et la gestion des données. Les cahiers de laboratoire électroniques présentent plusieurs ainsi avantages par rapport à leur version papier : 
