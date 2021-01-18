@@ -147,6 +147,18 @@ Lors des JCAD 2019, Cyrille Toulet a présenté l'intégration du cloud OpenStac
 Cyrille TOULET, Mésocentre de Lille, Université de Lille 
 JCAD 2019
 ```
+
+Lors des JCAD 2018, Jérôme Pansanel a présenté la plate-forme SCIGNE de l'Institut Pluridisciplinaire Hubert Curien de Strasbourg. Cette plate-forme est accessible aux utilisateurs
+régionaux, nationaux et européens.
+
+```{admonition} [La plateforme SCIGNE : présentation et utilisation du service de Cloud Computing](https://jcad2018.sciencesconf.org/data/plateforme_scigne_jcad_2018.pdf)
+:class: seealso
+[Vidéo](https://webcast.in2p3.fr/video/la-plateforme-scigne-presentation-et-utilisation-du-service-de-cloud-computing)   
+Jérôme Pansanel, Institut Pluridisciplinaire Hubert Curien, CNRS
+JCAD 2018
+```
+
+
 La présentation d'autres centres est disponible sous forme de poster, comme par exemple le
 [Pôle Scientifique de Modélisation Nunmérique (PSMN) de l'ENS de Lyon](https://jcad2018.sciencesconf.org/data/poster_A0_jacad2018v4.pdf), le [Centre Blaise Pascal](http://www.cbp.ens-lyon.fr/emmanuel.quemener/documents/CBP_CentreDEssais.pdf) de l'ENS de Lyon et le [mésocentre CALMIP](https://jcad2018.sciencesconf.org/data/poster_calmip.pdf) à Toulouse.
 
