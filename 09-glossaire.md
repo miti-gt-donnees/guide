@@ -25,4 +25,4 @@
 - {term}`Sauvegarder`
 - {term}`Préserver`
 - {term}`Pérenniser`
-- {term}`DMP`
+
