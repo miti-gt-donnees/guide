@@ -13,10 +13,7 @@ html:
     baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese"
     use_repository_button: true
     use_edit_page_button: false
-    extra_footer: |
-    <p>
-    Copyright 2021
-    </p>
+    extra_footer: "Copyright 2021"
 
 parse:
   myst_extended_syntax: true
