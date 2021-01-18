@@ -16,7 +16,6 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 * Emilie Lerigoleur : [réseau SIST](http://sist.cnrs.fr)
 * Caroline Martin
 * Pierre Navaro : [réseau Calcul](https://calcul.math.cnrs.fr/)
-* Jean-Michel Parret : [INIST](https://www.inist.fr/)
 
 - **version 1.0 Janvier 2021**
 
