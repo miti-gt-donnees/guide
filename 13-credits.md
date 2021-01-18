@@ -1,4 +1,4 @@
-# Les auteurs
+# Crédits
 
 Ce guide de bonnes pratiques sur la gestion des données dans les réseaux métiers, a été réalisé par  :
 
