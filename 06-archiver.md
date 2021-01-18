@@ -111,7 +111,7 @@ Sans prise de conscience de tous sur la nécessité de préserver le patrimoine 
 
 ```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist16.sciencesconf.org/data/pages/18_M_Massol.pdf)   
 :class: seealso    
-[video](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
+[video : ](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
 Marion MASSOL, CINES   
 Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
 ```
@@ -143,7 +143,7 @@ En novembre 2014, le réseau rBDD a consacré une journée à cette thématique 
 
 ```{admonition} [Retour d’expérience sur l’utilisation du format SIARD pour l’archivage des bases de données relationnelles](http://rbdd.cnrs.fr/IMG/pdf/rbdd_siard.pdf?181/12408bc1172027762f2ac776ed4842de13c19474)   
 :class: seealso
-[video](http://webcast.in2p3.fr/videos-utilisation_du_format_siard_pour_l_archivage_des_bases_de_donnees_relationnelles)   
+[video : ](http://webcast.in2p3.fr/videos-utilisation_du_format_siard_pour_l_archivage_des_bases_de_donnees_relationnelles)   
 Michel Jacobson, LLL   
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014   
 ```
@@ -154,7 +154,7 @@ Dans cette présentation, François Morris aborde le cas des données protégée
 
 ```{admonition} [La pérennisation des données chiffrées ? Quel est l’impact du chiffrement sur le long terme ?](http://rbdd.cnrs.fr/IMG/pdf/chiffrement-perennisation.pdf?185/c4475004eab7dcd07a72e8230a8d74d493dc2495)   
 :class: seealso   
-[video](http://webcast.in2p3.fr/videos-la_perennisation_des_donnees_chiffrees_quel_est_l_impact_du_chiffrement_sur_le_long_terme)   
+[video : ](http://webcast.in2p3.fr/videos-la_perennisation_des_donnees_chiffrees_quel_est_l_impact_du_chiffrement_sur_le_long_terme)   
 François Moris, CNRS    
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014     
 ```
@@ -192,14 +192,14 @@ Gilles Duvert témoigne quant à lui de la préservation des données en Astrono
 
 ```{admonition} [Archivage des données à Huma-NUM](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf)
 :class: seealso
-[video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)  
+[video : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)  
 Michel Jacobson, Huma-Num   
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```  
 
 ```{admonition} [Archivage des données à l'In2p3](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)   
 :class: seealso
-[video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
+[video : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
 Yonny Cardenas, CC-IN2P3    
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
@@ -211,7 +211,7 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 
 ```{admonition} [L'archivage des données en astronomie](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)   
 :class: seealso 
-[video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4)   
+[video : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4)   
 Françoise Genova,observatoire astronomique de Strasbourg, Gilles Duvert, IPAG, OSUG et JMMC   
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
@@ -244,7 +244,7 @@ Dans la présentation référencée, Lorène Béchard et Marion Massol présente
 
 ```{admonition} [Les critères à prendre en compte pour la conservation des données](http://rbdd.cnrs.fr/IMG/pdf/2014-11-06_rbdd_ae_cines_bdd.pdf?180/f1eef63ef0e72ac628e9435afadcf0c0fc82abfb)  
 :class: seealso
-[video](http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines)   
+[video : ](http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines)   
 Lorène Béchard, CINES & Marion Massol, CINES   
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014    
 ```
@@ -271,7 +271,7 @@ Le premier retour d'expérience du siècle dernier est un échec tandis que le d
 
 ```{admonition} [Retour d’expérience - Les données de l’Écothèque Méditerranéenne](http://rbdd.cnrs.fr/IMG/pdf/retour_experience_ecotheque-4.pdf?184/0378d1933926fb7f47381934f4f5e92b8022c929)   
 :class: seealso
-[vidéo](https://webcast.in2p3.fr/video/retour_d_experience_les_donnees_de_l_ecotheque_mediterraneenne_cefe)    
+[video : ](https://webcast.in2p3.fr/video/retour_d_experience_les_donnees_de_l_ecotheque_mediterraneenne_cefe)    
 Marie-Claude Quidoz, CEFE   
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014       
 ```
