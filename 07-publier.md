@@ -164,12 +164,12 @@ Un vocabulaire contrôlé est une liste de termes (mots et expressions) soigneus
 
 Un thésaurus permet donc d'organiser et de structurer un vocabulaire d'un domaine de connaissances à partir de relations sémantiques entre concepts (de types hiérarchiques ou associatifs) et d'équivalence entre termes. Il réduit donc l'ambiguïté inhérente au langage humain naturel dans lequel différents noms peuvent être attribués à un même concept. 
 
-De nombreux thesaurus existent dans divers domaines scientifiques. Dans le domaine environnemental, on utilise fréquemment les thesaurus :
+De nombreux thesaurus existent dans divers domaines scientifiques. Par exemple, dans le domaine environnemental, on utilise fréquemment les thesaurus :
 - "[Inspire](https://www.eionet.europa.eu/gemet/en/inspire-themes/)" ou 
 - "[GEMET](https://www.eionet.europa.eu/gemet/en/themes/)". Ce dernier est un thésaurus documentaire multilingue développé et publié par l'Agence européenne pour l'environnement. 
 
 
-Cependant selon le domaine scientifique et dans certaines disciplines, les standards et vocabulaires contrôlés n'existent pas et les thesaurus doivent etre créés. Les communautés scientifiques peuvent alors se saisir d'outils tels qu'opentheso et thésauform pour répondre aux besoins de normalisation.
+Cependant selon le domaine scientifique et dans certaines disciplines, lorsque les standards, thesaurus et vocabulaires contrôlés n'existent pas, ils doivent alors etre créés. Les communautés scientifiques peuvent alors se saisir d'outils tels qu'[_opentheso_](https://opentheso.hypotheses.org/) et thésauform pour répondre aux besoins de normalisation.
 
 Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.loterre.fr/skosmos/BLH/fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
 
@@ -179,6 +179,7 @@ Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyan
 Dominique Vachez, Institut de l’information scientifique et technique   
 [Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
 ```
+
 
 La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont une élaboration collaborative des termes et une procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
 
