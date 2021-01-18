@@ -34,7 +34,7 @@ Grace a l'utilisation de protocoles d'échanges normalisés, ce logiciel permet 
 
 Le logiciel GeoNetwork utilise, en outre, le protocole [WMS (Web Map Service) de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/), ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.
 
-L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation ANF du [réseau SIST](https://sist.cnrs.fr/) pour laquelle on trouvera les informations sur le site [https://sist.cnrs.fr/les-formations/anf-2017-1](https://sist.cnrs.fr/les-formations/anf-2017-1)  :
+L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation ANF du [réseau SIST](https://sist.cnrs.fr/) pour laquelle on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/anf-2017-1)  
 
 ```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)    
 :class: seealso   
