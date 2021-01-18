@@ -1,5 +1,5 @@
 (traiter)=
-# Traiter les données
+# Traiter 
 
 Cette phase du cycle de vie des données correspond au prétraitement des données brutes issues des acquisitions et des collectes.
 Il s'agit souvent de regrouper, choisir, qualifier les données pertinentes parmi celles qui ont été collectées, puis les reformater dans des formats standards interopérables, et les préparer en vue de leur analyse ultérieure.
