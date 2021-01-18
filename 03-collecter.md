@@ -37,7 +37,7 @@ Catherine Morel-Pair , INIST, CNRS
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données" -2016 Paris   
 ```
 
-**Les métadonnées dans un DMP**
+**Les métadonnées dans un Plan de Gestion de données **
 
 Cette présentation de Marie Puren a été conçue pour animer un atelier de formation qui avait pour objectif de définir et comprendre l’importance des métadonnées dans le cadre de la rédaction d’un DMP. Elle définit, en donnant des exemples, ce qu’est une métadonnée, à quoi elle sert, quelle information elle donne. Elle distingue et détaille la spécificité des métadonnées de description, des métadonnées de gestion et des métadonnées de préservation. Elle aborde ensuite le chapitre du cycle de vie des métadonnées (créer, entretenir, mettre à jour, stocker, gérer la suppression des données, publier). Elle spécifie les métadonnées à faire figurer dans un DMP, explique comment les collecter et propose quelques outils d’extraction automatique de métadonnées. Autour de la notion de métadonnée, elle précise l’importance de définir des responsabilités en s’appuyant sur les chercheurs, documentalistes, bibliothécaires et informaticiens. Elle complète sa présentation avec une description des principaux standards interdisciplinaires et disciplinaires de métadonnées. Elle explique où et comment choisir ces standards. Elle explique également l’intérêt d’associer des ontologies ou vocabulaires contrôlés. Les dernières recommandations de sa présentation portent sur la gestion des métadonnées à long terme, l’importance d’évaluer leur qualité et revient sur la notion d’ouverture des métadonnées et la nécessité de choisir des licences pour nos métadonnées.
 
