@@ -15,8 +15,8 @@
 - _Sauvegarder_
 : la sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L’objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l’organe de stockage. Il s’agit d’une sauvegarde octet par octet dans une perspective de court ou de moyen terme. La recherche de la préservation de l’intelligibilité des données n’est pas un élément pris en compte.
 
-Stocker 
-: c’est l’étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d’assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n’est ni sauvegardée et ni sécurisée.
+- _Stocker_
+: c’est l'étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d’assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n’est ni sauvegardée et ni sécurisée.
 
 - {term}`Stocker`
 - {term}`Archiver`
