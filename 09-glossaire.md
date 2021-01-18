@@ -5,7 +5,7 @@ Archiver
 : l’archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d’y associer les moyens pour réutiliser les données : la réutilisation se faisant en ajoutant de l’intelligence à la sauvegarde. Le contenu des documents archivés n’est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l’obsolescence logicielle).
 
 
-DMP, PGD 
+DMP (PGD) 
 : un "DMP" est un "Data Management Plan" traduction anglaise de "PGD" pour "Plan de gestion de données". Un Plan de Gestion de données est un document formel, établi en début de projet qui formalise la manière dont seront gérées les données à différents points de vue : stockage, permissions d'accès, sécurité etc.
 
 
@@ -23,13 +23,4 @@ Sauvegarder
 
 Stocker
 : c’est l'étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d’assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n’est ni sauvegardée et ni sécurisée.
-
-
----
-
-- {term}`Stocker`
-- {term}`Archiver`
-- {term}`Sauvegarder`
-- {term}`Préserver`
-- {term}`Pérenniser`
 
