@@ -382,7 +382,7 @@ Divers outils de sauvegarde des données sont fréquemment utilisés dans les mi
 
 Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des fonctionnalités de _déduplication_. Cette technologie consistant à réduire les volumes sauvegardés et les durées de sauvegarde en découpant les gros fichiers en fragments (blocs) et en ne sauvegardant qu'une seule fois les fragments identiques.
 
-Un retour d'expérience sur le [logiciel borgbackup](https://borgbackup.readthedocs.io/en/stable/) donne des résultats intéressants et prend tout son sens quand on a beaucoup de gros fichiers peu différents.
+Un retour d'expérience sur le [logiciel borgbackup](https://borgbackup.readthedocs.io/en/stable/) donne des résultats intéressants et prend tout son sens quand on a beaucoup de fichiers volumineux peu différents.
 
 ```{admonition} [Sauvegardes dédupliquées avec BorgBackup : retour d'expérience](https://2017.jres.org/fr/presentation?id=35)  
 :class: seealso
