@@ -295,7 +295,7 @@ ANF "Interfacer les outils mobiles avec son système d’information", réseau R
 Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/) permettent de qualifier les données et d'attribuer un code qualité a des données après analyse par un expert du domaine.
 ODV est un format de fichiers, et un logiciel utilisés par le projet européen [SeadataNet](https://www.seadatanet.org/Software/ODV). 
 
-Cependant peu de logiciels de traitement de données propose d'associer des codes qualités aux données, aussi on retrouve souvent de nombreuses méthodes et implémtenations personnelles pour essayer de qualifier les données, illustrées par les exposés suivants donnés lors des journées de séminaires SIST (Séries Interopérables et Systèmes de Traitement) :
+Cependant peu de logiciels de traitement de données propose d'associer des codes qualités aux données, aussi on retrouve souvent de nombreuses méthodes et implémentations personnelles pour essayer de qualifier les données, illustrées par les exposés suivants donnés lors des journées de séminaires SIST (Séries Interopérables et Systèmes de Traitement) :
 
 P. Téchiné présente les méthodes de suivi de la qualité de diverses mesures comme le niveau de la mer ou la salinité de surface (SSS: Sea Surface Salinity ) dans différents projets. On peut constater la diversité des solutions mises en place.
 
@@ -305,7 +305,7 @@ Philippe Téchiné, B. Buisson, L. Testut, T. Delcroix, G. Alory, Laboratoire d'
 [Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)   
 ```
 
-- Dans cette présentation Lynn Hazan décrit son processus d'atribution de code qualité.
+- Dans cette présentation Lynn Hazan décrit son processus d'attribution de code qualité.
 Comme nous l'avons indiqué précédemment dans la phase de traitement, Les données sont obtenues en temps quasi-réel et sont transformées en données consolidées par un traitement qui permet d’en augmenter la précision et la confiance.
 Les étapes de consolidation incluent une expertise humaine avec une inspection visuelle afin de détecter des problèmes
 potentiels difficilement détectables automatiquement.
