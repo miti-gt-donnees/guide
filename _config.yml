@@ -15,7 +15,7 @@ html:
     use_edit_page_button: false
     extra_footer: |
     <p>
-    &copy; Copyright 2021
+    Copyright 2021
     </p>
 
 parse:
