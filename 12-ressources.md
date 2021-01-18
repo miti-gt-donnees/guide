@@ -23,3 +23,11 @@
 
 *Nicolas Becard, Céline Castets-Renard, Gauthier, Martin  Dantant,  Laurence Freyt-Caffin  Nathalie Gandon, Caroline Martin, Andrea Martelletti, Alexandra Mendoza-Caminade, Nathalie Morcrette, Claire Neirac*.
 [Ouverture des données de recherche, Guide d’analyse du cadre juridique en France](https://www.ouvrirlascience.fr/wp-content/uploads/2018/11/Guide_Juridique_V2.pdf). décembre 2017
+
+
+---
+
+*Loïc Desquilbet, Sabrina Granger, Boris Hejblum,
+Arnaud Legrand, Pascal Pernot, Nicolas Rougier 
+Facilitatrice : Elisa de Castro Guerra*.
+[Vers une recherche reproductible :  Faire évoluer ses pratiques](https://hal.archives-ouvertes.fr/hal-02144142v1/document). 29 mai 2019
