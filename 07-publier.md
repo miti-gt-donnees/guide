@@ -11,7 +11,7 @@ Cette étape de publication et de diffusion est en outre accompagnée désormais
 
 ## Communiquer et documenter  
 
-### Finaliser le PGD 
+### Finaliser le Plan de Gestion de Données 
 
 Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
@@ -52,7 +52,7 @@ C. Bernard,   J. Fabre, et O. Lobry
 [Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)
 ```
 
-De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de librairies de programmation écrites en "R", destinées
+De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de bibliothèques de programmation écrites en "R", destinées
 à faciliter l'insertion de métadonnées dans les catalogues "GeoNetwork". Ces développements ont été présentés lors d'un atelier organisé par le réseau RBDD et SIST :
 * [Atelier "Métadonnées et R"](https://sist.cnrs.fr/les-formations/2018-atelier-metadonnees-et-r)   
   - Écrire et Lire des métadonnées avec la librairie R *geometa*  
