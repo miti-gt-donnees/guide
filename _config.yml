@@ -13,12 +13,17 @@ html:
     baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese"
     use_repository_button: true
     use_edit_page_button: false
+    extra_footer: |
+    <p>
+    copyright 2021
+    </p>
 
 parse:
   myst_extended_syntax: true
 
 sphinx:
   config:
+    html_show_copyright: false
     language: 'fr'
     latex_logo: 'images/logo_small.png'
     latex_toplevel_sectioning: 'chapter'
