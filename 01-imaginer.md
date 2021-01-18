@@ -51,7 +51,7 @@ L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'ac
 
 Ces dernières années, la réglementation en matière de science ouverte a largement modifié le paysage des données de la recherche et a permis de mieux cadrer les pratiques scientifiques sur le plan juridique.
 
-**Un contexte politique favorable à la problématique de la gestion des données**
+**Un contexte politique favorable à la gestion et au partage des données**
 
 En 2018, à la suite des objectifs fixés par l'Europe, la France s'est dotée d'un [plan national pour la science ouverte](https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf). Présenté le 4 juillet par Frédérique Vidal, la ministre de l’Enseignement et de la Recherche, ce plan prône la diffusion sans entraves des publications et des données de la recherche. Il comporte différentes mesures déclinées en trois axes stratégiques et pose les conditions du développement de la science ouverte dans nos établissements. Dans la continuité de ce plan, le CNRS, a rédigé une [feuille de route pour la science ouverte](https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf) s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d'une culture de la gestion et du partage des données, (iii) développement d'infrastructure pour la fouille et (iv) l'analyse des contenus et la transformation des modalités d'évaluation des chercheurs). 
 
