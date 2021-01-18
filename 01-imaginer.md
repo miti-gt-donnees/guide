@@ -249,7 +249,7 @@ Au CNRS, la formation continue est pilotée par le Service formation et Itinéra
 
 Dans ces dispositifs de formation institutionnels, _les réseaux métiers_ sont fréquemment au coeur des propositions de programme, du montage et de l'organisation des ANF. Chaque année de nombreuses formations sont en effet régulièrement organisées par les réseaux, et les supports de formations présentés sont habituellement capitalisés sous une forme ou une autre (résumé, pdf, vidéo) sur les sites des réseaux.
 
-Outre les ANF, les réseaux organisent également de manière autonome, sur budget propre attribués par la MITI ou les Instituts, des journées de séminaires qui regroupent les membres des réseaux comme par exemple les [journées thématiques organisées par le groupe de travail inter-réseaux « Atelier données »](https://mi-gt-donnees.pages.math.unistra.fr/site) ou les [séminaires annuels du réseau SIST](https://sist.cnrs.fr/les-seminaires).
+Outre les ANF, les réseaux organisent également de manière autonome, sur budget propre attribués par la [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) ou par les Instituts, des journées de séminaires qui regroupent les membres des réseaux comme par exemple les [journées thématiques organisées par le groupe de travail inter-réseaux « Atelier données »](https://mi-gt-donnees.pages.math.unistra.fr/site) ou les [séminaires annuels du réseau SIST](https://sist.cnrs.fr/les-seminaires).
 
 Ils constituent bien évidemment des vecteurs importants de l'état de l'art et des connaissances à acquérir dans une discipline et contribuent à développer la connaissance d’un domaine de compétence.
 
@@ -257,7 +257,7 @@ Initiés et portés par des membres d’un même métier ou travaillant avec les
 
 Les réseaux favorisent le maintien et le développement des compétences, l’échange des pratiques professionnelles, l’implication et la motivation. Ils développent une connaissance fine de l’évolution des métiers et/ou des technologies de demain en assurant ainsi une veille pour les établissements d'Enseignement Supérieur et de la Recherche.
 
-Les réseaux rattachés à la [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) du CNRS  sont transversaux à tous les Instituts du CNRS, et accessibles aux personnels de l’Enseignement supérieur et de la Recherche,
+Les réseaux rattachés à la MITI du CNRS  sont transversaux à tous les Instituts du CNRS, et accessibles aux personnels de l’Enseignement supérieur et de la Recherche,
 
 La MITI accueille et pilote actuellement [22 réseaux](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
 
