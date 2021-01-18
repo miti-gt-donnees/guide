@@ -70,7 +70,7 @@ Ce logiciel de catalogage est utilisé dans de nombreux portails de données com
 ```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
 :class: seealso
 Michael Treguer  
-[journées SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
+[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
 ```
 
 A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues "geonetwork" très utiles pour inventorier les jeux de données disponibles dans les unités de recherche :
