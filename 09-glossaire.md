@@ -6,7 +6,7 @@ Archiver
 
 
 DMP (PGD) 
-: un "DMP" est un "Data Management Plan" traduction anglaise de "PGD" pour "Plan de gestion de données". Un Plan de Gestion de données est un document formel, établi en début de projet qui formalise la manière dont seront gérées les données à différents points de vue : stockage, permissions d'accès, sécurité etc.
+: un "DMP" est un "Data Management Plan". Sa traduction française est "PGD" pour "Plan de gestion de données". Un Plan de Gestion de données est un document formel, établi en début de projet qui formalise la manière dont seront gérées les données à différents points de vue : stockage, permissions d'accès, sécurité etc.
 
 
 Pérenniser
