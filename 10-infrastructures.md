@@ -148,7 +148,7 @@ Cyrille TOULET, Mésocentre de Lille, Université de Lille
 JCAD 2019
 ```
 La présentation d'autres centres est disponible sous forme de poster, comme par exemple le
-[Pôle Scientifique de Modélisation Nunmérique (PSMN) de l'ENS de Lyon](https://jcad2018.sciencesconf.org/data/poster_A0_jacad2018v4.pdf), le [Centre Blaise Pascal](http://www.cbp.ens-lyon.fr/emmanuel.quemener/documents/CBP_CentreDEssais.pdf) de l'ENS de Lyon et le mésocentre CALMIP à Toulouse.
+[Pôle Scientifique de Modélisation Nunmérique (PSMN) de l'ENS de Lyon](https://jcad2018.sciencesconf.org/data/poster_A0_jacad2018v4.pdf), le [Centre Blaise Pascal](http://www.cbp.ens-lyon.fr/emmanuel.quemener/documents/CBP_CentreDEssais.pdf) de l'ENS de Lyon et le [mésocentre CALMIP](https://jcad2018.sciencesconf.org/data/poster_calmip.pdf) à Toulouse.
 
 
 ```{admonition} [Qu'est-ce que le PSMN de l'ENS de Lyon ?](https://jcad2018.sciencesconf.org/data/poster_A0_jacad2018v4.pdf)
@@ -161,6 +161,12 @@ JCAD 2018
 Emmanuel Quemener et Micaël Calvas, Centre Blaise Pascal, École Normale Supérieure de Lyon 
 JCAD 2018
 ```
+```{admonition} [Mésocentre CALMIP](https://jcad2018.sciencesconf.org/data/poster_calmip.pdf)
+:class: seealso
+Mickaël Duval, Nadine Marouzé, UMS 3667 CALMIP - Université de Toulouse, INPT, Université Paul Sabatier, INSAT, ISAE-SUPAERO et CNRS 
+JCAD 2018
+```
+
 Il est aussi possible d'utiliser des ressources fournies par plusieurs mésocentres dans le cadre d'un même projet. Ce retour d'expérience dans le domaine de la chimie en est un témoignage.
 
 ```{admonition} [Calculs de chimie quantique distribués entre méso-centres avec Quantum Package](https://jcad2019.sciencesconf.org/data/JCAD2019AScemama.pdf)
