@@ -18,8 +18,11 @@
 - _Stocker_
 : c’est l'étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d’assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n’est ni sauvegardée et ni sécurisée.
 
+<hr>
+
 - {term}`Stocker`
 - {term}`Archiver`
 - {term}`Sauvegarder`
 - {term}`Préserver`
 - {term}`Pérenniser`
+- {term}`DMP`
