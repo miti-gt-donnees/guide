@@ -15,7 +15,7 @@ Konrad Hinsen présente ici les enjeux et les défis de la recherche reproductib
 
 ```{admonition} [Enjeux et défis de la recherche reproductible](https://indico.mathrice.fr/event/165/contribution/1/material/slides/0.pdf)  
 :class: seealso
-[vidéo](https://webcast.in2p3.fr/video/les-enjeux-et-defis-de-la-recherche-reproductible)  
+[Vidéo : ](https://webcast.in2p3.fr/video/les-enjeux-et-defis-de-la-recherche-reproductible)  
 Konrad HINSEN, Centre de Biophysique Moléculaire Orléans et Synchrotron SOLEIL  
 Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019
 ```
@@ -41,7 +41,7 @@ L’exemple présenté par Thomas Denecker concerne la biologie computationnelle
 
 ```{admonition} [La reproductibilité au service de la Biologie Computationnelle](https://aramis.resinfo.org/wiki/lib/exe/fetch.php?media=pleniaires:aramis2019_denecker.pdf)  
 :class: seealso
-[vidéo](https://webcast.in2p3.fr/video/la-reproductibilite-au-service-de-la-biologie-computationnelle)  
+[Vidéo : ](https://webcast.in2p3.fr/video/la-reproductibilite-au-service-de-la-biologie-computationnelle)  
 Thomas Denecker  
 Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019
 ```
@@ -54,7 +54,7 @@ VIP, the "Virtual Imaging Platform", est un portail qui permet à ses utilisateu
 
 ```{admonition} [Virtual Imaging Platform : pour une science ouverte et reproductible](https://indico.mathrice.fr/event/165/contribution/8/material/slides/0.pdf)  
 :class: seealso
-[vidéo](https://webcast.in2p3.fr/video/la-plateforme-web-virtual-imaging-platform-pour-une-science-ouverte-et-reproductible)  
+[Vidéo : ](https://webcast.in2p3.fr/video/la-plateforme-web-virtual-imaging-platform-pour-une-science-ouverte-et-reproductible)  
 Sorina Camarasu-Pop, Frédéric Cervenansky, CREATIS  
 JoSy 2019
 ```
