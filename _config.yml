@@ -6,11 +6,11 @@ logo: images/logo.png
 exclude_patterns: [README.md,LICENSE.md]
 
 repository:
-    url: https://gitlab.math.unistra.fr/mi-gt-donnees/synthese
+    url: https://gitlab.math.unistra.fr/mi-gt-donnees/guide
     branch: master
 
 html:
-    baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese"
+    baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/guide"
     use_repository_button: true
     use_edit_page_button: false
     extra_footer: "&copy; Copyright 2021"
