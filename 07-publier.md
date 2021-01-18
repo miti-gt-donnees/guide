@@ -231,7 +231,7 @@ Dans le domaine des données, les D.O.I (Digital Object Identification) DOI est 
 
 L'allocation de D.O.I sur des données implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "_landing page_") qui permet de fournir les métadonnées principales pour décrire les données et y accéder.
 
-Pour créer une "landing page", page d'accueil pour décrire un jeu de données, il faut s'assurer que certaines métadonnées obligatoires sont bien mentionnées et renseignées pour permettre une recherche. Le site Datacite rappelle quelles sont les métadonnées obligatoires : <https://support.datacite.org/docs/schema-mandatory-properties-v43>. Pour en savoir plus sur les identifiants pérennes, on peut consulter la page de Doranum <https://doranum.fr/identifiants-perennes-pid/>
+Pour créer une "landing page", page d'accueil pour décrire un jeu de données, il faut s'assurer que certaines métadonnées obligatoires sont bien mentionnées et renseignées pour permettre une recherche. Le site Datacite rappelle quelles sont les métadonnées obligatoires : <https://support.datacite.org/docs/schema-mandatory-properties-v43>. Pour en savoir plus sur les identifiants pérennes, on peut consulter la [page de Doranum ](<https://doranum.fr/identifiants-perennes-pid/>)
 
 Attention la pérennité demandée est purement une question de service et n'est pas inhérente à un objet, ni conféré par une syntaxe de nommage particulier. Maintenir la pérennité du lien vers la localisation de la ressource est de la responsabilité du déposant ou du créateur de l'identifiant.
 
@@ -326,7 +326,7 @@ RBDD
 
 ## Les entrepôts de données
 
-Dans un contexte de science ouverte, les acteurs de la recherche s'accordent aujourd'hui pour considérer les données de la recherche comme des produits de la recherche et appellent à mieux les gérer et à les partager. En France, la loi CADA modifiée par la loi Valter le 28 décembre 2012, incite à mettre les données de la recherche à disposition sous format ouvert et librement réutilisable. Le partage des données et des connaissances, mais également le partage des logiciels, des méthodes et des processus n’ont de réel bénéfice que s'ils sont accompagnés en amont par une gestion rigoureuse et de qualité des données, basé sur des principes clairs et consensuels.
+Dans un contexte de science ouverte, les acteurs de la recherche s'accordent aujourd'hui pour considérer les données de la recherche comme des produits de la recherche et appellent à mieux les gérer et à les partager. Le partage des données et des connaissances, mais également le partage des logiciels, des méthodes et des processus n’ont de réel bénéfice que s'ils sont accompagnés en amont par une gestion rigoureuse et de qualité des données, basé sur des principes clairs et consensuels.
 
 Les enjeux liés à la gestion et au partage des données de la recherche nécessitent des outils appropriés communément appelés "Entrepôts de données". Mais qu'est-ce qu'un entrepôt de données et quelles en sont les principales caractéristiques ? Comment les entrepôts de données contribuent-ils à la gestion et au partage des données ? 
 
