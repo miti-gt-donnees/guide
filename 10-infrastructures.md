@@ -26,7 +26,7 @@ Volker Beckmann, Chargé de mission EOSC France pour le ministère.
 JCAD 2020
 ```
 
-EOSC est ouvert à la participation de fournisseurs de services, que ce soit des services de stockage ou de traitement de données ou encore des services de publication. Différents projets européens successifs ont pour objectif de préparer EOSC. Dans le cadre du projet [EOSC-Pillar](https://www.eosc-pillar.eu/), une enquête internationale a été menées dans cinq pays (Allemagne, Autriche, Belgique, France et Italie) pour connaître l'état des Infrastructures de Recherche, e-infrastructures, universités et organismes financeurs par rapport à une évnetuelle participation à EOSC. Un aperçu des [résultats de cette enquête](https://doi.org/10.5281/zenodo.3937318) a été présenté lors des JCAD 2020.
+EOSC est ouvert à la participation de fournisseurs de services, que ce soit des services de stockage ou de traitement de données ou encore des services de publication. Différents projets européens successifs ont pour objectif de préparer EOSC. Dans le cadre du projet [EOSC-Pillar](https://www.eosc-pillar.eu/), une enquête internationale a été menées dans cinq pays (Allemagne, Autriche, Belgique, France et Italie) pour connaître l'état des Infrastructures de Recherche, e-infrastructures, universités et organismes financeurs par rapport à une éventuelle participation à EOSC. Un aperçu des [résultats de cette enquête](https://doi.org/10.5281/zenodo.3937318) a été présenté lors des JCAD 2020.
 
 ```{admonition} [Que nous apprend l'enquête du projet européen EOSC-Pillar ?](https://jcad2020.sciencesconf.org/data/Presentation_courte_Romier_Genevieve_V1.1Que_nous_apprend.pdf)  
 :class: seealso
@@ -96,7 +96,7 @@ JCAD 2018
 
 Il est aussi important de se faire une idée à travers des retours d'expérience réalisés par des collègues. En voici quelques exemples récents :
 
-Le projet Phénome, Infrastructure nationale de phénomique végétale, regroupe sur neuf sites des plateformes expérimentales de phénotypage haut-débit(champ, serre, omique). Un système complet a été mis en place pour ce projet, système qui s'appuie sur les services FG-iRODS et FG-Cloud.
+Le projet Phénome, Infrastructure nationale de phénomique végétale, regroupe sur neuf sites des plateformes expérimentales de phénotypage haut-débit (champ, serre, omique). Un système complet a été mis en place pour ce projet, système qui s'appuie sur les services FG-iRODS et FG-Cloud.
 
 ```{admonition} [Déploiement de la plateforme de traitement des données phénotypage haut débit 4P sur l'infrastructure France Grilles](https://jcad2019.sciencesconf.org/data/4P.pdf)   
 :class: seealso
@@ -277,7 +277,7 @@ JCAD 2019
 
 ### Infrastructures pour l'information scientifique et technique
 
-L’Institut de l’Information Scientifique et Technique (INIST),unité de service du CNRS déploie ses activités vers un projet d’ingénierie des connaissances qui s’articule 
+L’Institut de l’Information Scientifique et Technique (INIST), unité de service du CNRS déploie ses activités vers un projet d’ingénierie des connaissances qui s’articule 
 autour de 3 axes principaux : **« Analyse et fouille de l’information », « Valorisation des données de la recherche », « Accès à l’information scientifique »**. Claire 
 François présente ici un **panorama des outils et services proposés aux chercheurs** : portail d’accès aux ressources électroniques (bibCNRS), plateforme d’accès aux 
 archives scientifiques (ISTEX), une suite logicielle de mesure des usages des ressources électroniques (EzPAARSE.EzMESURE) pour faciliter l’accès à l’information 
@@ -289,7 +289,7 @@ bibliométriques
 ```{admonition} [Positionnement et offre globale de l’INIST dans le contexte IST en évolution](https://fredoc2018.sciencesconf.org/data/pages/INIST_C_Francois.pdf)   
 :class: seealso
 Claire François  
-FREDOC 2018
+Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se) réinventer », 2018, Albi
 ```
 
 ### Infrastructures pour les logiciels / les codes sources
@@ -333,13 +333,9 @@ Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussoi
 
 **Sciences Sociales**
 
-Dans cette présentation très complète bien qu’ancienne, Roxane Silberman fait une **description du Réseau Quetelet**, composante de la TGIR Progedo qui est une 
-banque française de données pour les sciences sociales. Elle indique la spécificité des données collectées au sein de ce réseau qui peuvent être des **données 
-individuelles, qualitatives**, parfois de santé publique et les **enjeux de protection de la vie privée**  associés à ces données. Elle retrace l’historique des premières 
-banques de données pour lesquelles se posait déjà  la **question de l’accès et du partage des données à caractère individuel**. Ce réseau s’inscrit dans une 
-infrastructure européenne, le CESSDA (réseau européen des archives de données) et fournit des métadonnées accessibles à tous et en particulier aux chercheurs. 
-Après avoir expliqué les grandes fonctions de Quetelet (dépôt, archivage, documentation, diffusion des données), elle revient sur quelques **enjeux pour l’état, 
-les politiques publiques et autres  acteurs économiques**, le paysage qui se dessine autour de la donnée et qui bouscule les frontières dans le contexte de l’open data.  
+Dans cette présentation très complète bien qu’ancienne, Roxane Silberman fait une description du Réseau Quetelet, composante de la TGIR Progedo qui est une banque française de données pour les sciences sociales. Elle indique la spécificité des données collectées au sein de ce réseau qui peuvent être des données 
+individuelles, qualitatives, parfois de santé publique et les enjeux de protection de la vie privée  associés à ces données. Elle retrace l’historique des premières banques de données pour lesquelles se posait déjà  la question de l’accès et du partage des données à caractère individuel. Ce réseau s’inscrit dans une infrastructure européenne, le CESSDA (réseau européen des archives de données) et fournit des métadonnées accessibles à tous et en particulier aux chercheurs. 
+Après avoir expliqué les grandes fonctions de Quetelet (dépôt, archivage, documentation, diffusion des données), elle revient sur quelques enjeux pour l’état, les politiques publiques et autres  acteurs économiques, le paysage qui se dessine autour de la donnée et qui bouscule les frontières dans le contexte de l’open data.  
 
 ```{admonition} [Réseau Quetelet : Banques de données pour les sciences sociales](http://renatis.cnrs.fr/IMG/pdf/SILBERMAN_08102013.pdf)   
 :class: seealso
