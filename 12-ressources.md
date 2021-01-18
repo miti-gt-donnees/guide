@@ -28,6 +28,6 @@
 ---
 
 *Loïc Desquilbet, Sabrina Granger, Boris Hejblum,
-Arnaud Legrand, Pascal Pernot, Nicolas Rougier 
+Arnaud Legrand, Pascal Pernot, Nicolas Rougier, 
 Facilitatrice : Elisa de Castro Guerra*.
 [Vers une recherche reproductible :  Faire évoluer ses pratiques](https://hal.archives-ouvertes.fr/hal-02144142v1/document). 29 mai 2019
