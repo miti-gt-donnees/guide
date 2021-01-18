@@ -34,7 +34,7 @@ Grace a l'utilisation de protocoles d'échanges normalisés, ce logiciel permet 
 
 Le logiciel GeoNetwork utilise, en outre, le protocole [WMS (Web Map Service) de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/), ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.
 
-L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation ANF du [réseau SIST](https://sist.cnrs.fr/) pour laquelle on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/anf-2017-1)  
+L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation ANF du réseau SIST pour laquelle on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/anf-2017-1)  
 
 ```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)    
 :class: seealso   
@@ -73,10 +73,10 @@ Michael Treguer
 [journées SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
 ```
 
-A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues très utiles pour inventorier les jeux de données disponibles dans les unités de recherche :
- - <https://sig.oreme.org/geonetwork>
- - <http://portail.indigeo.fr/geonetwork>
- - <https://dataset.osupytheas.fr/geonetwork>
+A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues "geonetwork" très utiles pour inventorier les jeux de données disponibles dans les unités de recherche :
+ - [portail de données OSU Oreme](<https://sig.oreme.org/geonetwork>)
+ - [portail de données Indigeo](<http://portail.indigeo.fr/geonetwork>)
+ - [portail de données OSU Pytheas](<https://dataset.osupytheas.fr/geonetwork>)
 
 B. Debray nous présente le projet DataOSU à l'Observatoire de Besançon destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php). Il décrit toute l'organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à assurer l'interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF
 
@@ -124,16 +124,16 @@ Les informations proposées par les pôles de données sont aussi fondamentales 
 
 Les politiques opérationnelles de ces pôles sont suivies par le réseau SIST où elles ont été présentées :
 
-Données océanographiques  <https://www.odatis-ocean.fr/>  
+Données océanographiques : [Pôle Odatis](<https://www.odatis-ocean.fr/>) 
 :   <https://sist19.sciencesconf.org/data/pages/SIST19_Poles_ODATIS.pdf>
 
-Données atmosphériques : <https://www.aeris-data.fr/>   
+Données atmosphériques : [Pôle Aeris](<https://www.aeris-data.fr/>)   
 :   <https://sist19.sciencesconf.org/data/pages/SIST19_Poles_AERIS.pdf>
 
-Données terre solide:  <https://www.poleterresolide.fr/>   
+Données terre solide:  [Pôle Form@ter](<https://www.poleterresolide.fr/>)
 :   <https://sist19.sciencesconf.org/data/pages/SIST19_Poles_FORMATER.pdf>
 
-Données surfaces continentales : <https://www.theia-land.fr/>   
+Données surfaces continentales : [Pôle Theia](<https://www.theia-land.fr/>)   
 :   <https://sist19.sciencesconf.org/data/pages/SIST19_Poles_THEIA.pdf>
 
 
