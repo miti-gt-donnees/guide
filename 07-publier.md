@@ -325,7 +325,7 @@ Les enjeux liés à la gestion et au partage des données de la recherche néces
 
 Qu'est-ce qui différencie un entrepôt de données d'une base de données classique dans le contexte de l'ouverture des données ? Quels services peut-on attendre d'un entrepôt de données aux différentes étapes du cycle de vie de la donnée? Comment trouver et choisir un entrepôt de données ? Un certain nombre de ces questions relatives aux entrepôts ont été abordées lors d'une [journée de type Hackaton intitulée "entrepôts de données, comment améliorer le dépôt et le partage des données de la recherche ?"](https://gt-donnees2020.sciencesconf.org/). Cette journée consacrée aux entrepôts de données a permis de cerner les fonctionnalités que l'on se doit d'attendre d'un entrepôt de données FAIR et les conditions d’utilisation de ce type de service. 
 
-Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ?" ». Elle est enrichie régulièrement des discussions sur la liste “données”.
+Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.
 
 On y répond à des questions fréquentes concernant les entrepôts comme :
   - Qu'est-ce qu'un entrepôt de données ?
@@ -446,7 +446,9 @@ Un data paper est une publication scientifique. Comme un article scientifique, i
 - Il est centré sur un jeu de données  et il a pour finalité de le décrire. 
 - Il se distingue d’un article scientifique traditionnel par le fait qu’il ne comporte pas d’hypothèses, ni d’interprétation, ni de discussion de résultats, ni de conclusions  sur une question de recherche scientifiques 
 
-Selon les journaux et les communautés, la portée du "peer review" va varier. Certains vérifient uniquement la cohérence et la qualité  de la description du jeux de données, d’autres évaluent les données elles-mêmes. Il est donc important de prendre en compte les politiques des revues par rapport aux données (cf. [https://datascience.codata.org/articles/10.5334/dsj-2020-005/](https://datascience.codata.org/articles/10.5334/dsj-2020-005/)
+Selon les journaux et les communautés, la portée du "peer review" va varier. Certains vérifient uniquement la cohérence et la qualité  de la description du jeux de données, d’autres évaluent les données elles-mêmes. Il est donc important de prendre en compte les politiques des revues par rapport aux données[^codata]. 
+
+[^codata] : https://datascience.codata.org/articles/10.5334/dsj-2020-005/
 
 La différence est plus délicate lorsqu'il s'agit de comparer un data paper et un article contenant des « _supplementary data_ » qu’il décrit. Là en effet, les distinctions ne sont pas toujours claires, surtout du fait du manque de recul car ce sont des pratiques récentes et toujours émergentes. Certains data paper sont très très bref et ne vont pas beaucoup plus loin que ce qu’on trouve dans la fiche accompagnant le jeu de données dans l’entrepôt, d’autres sont beaucoup plus complexes et jouent plus profondément la carte de la réutilisation en tentant d’expliciter les implications des jeux de données et des traitements subis.
 
