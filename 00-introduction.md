@@ -70,7 +70,8 @@ Deux annexes reprennent des thèmes transverses à ces phases successives :
 - l'annexe "{ref}`reproductibilite`" rassemble des exposés concernant la reproductibilité et la répétabilité, sujets transverses à plusieurs phases. Comme dans l'ensemble de ce guide, les présentations référencées ont été réalisées dans le cadre de journées ou ateliers organisés par les réseaux. 
 
 Ce guide a été rédigé par quelques réseaux métiers et de ce fait n'a pas la prétention d'être exhaustif. Nous invitons donc d'autres réseaux à nous faire remonter leurs pratiques métiers dans le cadre de la gestion des données pour alimenter ce guide.    
-Le lecteur est également invité à contribuer en apportant toutes modifications ou références manquantes dans les sections "commentaires" prévues à cet effet dans chaque chapitre.
+Le lecteur est également invité à nous communiquer tous commentaires, remarques ou suggestions pour améliorer et compléter ce travail en envoyant un mail sur la liste de diffusion : contact-guide@services.cnrs.fr.
+
 
 [^dist]: Anciennement DIST.
 [^plateformes]: Il s’agit de plateformes développées en fonction des besoins par des unités ou établissements comme par exemple le data center du GRICAD qui propose  aux équipes de recherche un espace de stockage et un service d’accompagnement pour la gestion des données.
