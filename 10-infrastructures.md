@@ -21,7 +21,7 @@ Enfin, lors des JCAD 2020, Volker Beckmann a présenté dans "[EOSC en France: d
 
 ```{admonition} [EOSC en France: défis et opportunités. ](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)  
 :class: seealso
-[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)   
+[Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)   
 Volker Beckmann, Chargé de mission EOSC France pour le ministère.  
 JCAD 2020
 ```
@@ -30,7 +30,7 @@ EOSC est ouvert à la participation de fournisseurs de services, que ce soit des
 
 ```{admonition} [Que nous apprend l'enquête du projet européen EOSC-Pillar ?](https://jcad2020.sciencesconf.org/data/Presentation_courte_Romier_Genevieve_V1.1Que_nous_apprend.pdf)  
 :class: seealso
-[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd6eer582fku/iframe/)   
+[Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd6eer582fku/iframe/)   
 Geneviève Romier, Centre de Calcul de l’IN2P3, CNRS  
 JCAD 2020
 ```
@@ -40,7 +40,7 @@ L'infrastructure EGI a été présentée de façon complète en 2018 lors des JC
 
 ```{admonition} [EGI, the EOSC and the Hub](https://jcad2018.sciencesconf.org/data/20181024_JCAD_EGI_v1.1.pdf)  
 :class: seealso
-[Vidéo EGI, the EOSC and the Hub](https://webcast.in2p3.fr/video/egi)   
+[Vidéo EGI, the EOSC and the Hub](https://webcast.in2p3.fr/video/egi)
 Yannick Legré, directeur de la fondation EGI  
 JCAD 2018
 ```
@@ -50,7 +50,7 @@ Une présentation des évolutions a eu lieu en 2019 avec un focus sur quelques s
 
 ```{admonition} [Update about EGI and services to support user communities and Federation's participants](https://jcad2019.sciencesconf.org/data/EGI_update_about_services_2019_10_10_JCAD_v3_vf.pdf)      
 :class: seealso
-[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=4Q88P63z&width=100%&height=100%)   
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=4Q88P63z&width=100%&height=100%)   
 Baptiste Grenier, fondation EGI  
 JCAD 2019
 ```
@@ -100,7 +100,7 @@ Le projet Phénome, Infrastructure nationale de phénomique végétale, regroupe
 
 ```{admonition} [Déploiement de la plateforme de traitement des données phénotypage haut débit 4P sur l'infrastructure France Grilles](https://jcad2019.sciencesconf.org/data/4P.pdf)   
 :class: seealso
-[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=P0420GlL&width=100%&height=100%)   
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=P0420GlL&width=100%&height=100%)   
 Vincent Negre, Eric David, Philippe Burger, Romain Chapuis, Boris Adam,  Anne Tireau, Patrick Moreau, Antony Tong, Samuel Thomas, Gallian Colombeau, Pascal Neveu, Jérôme Pansanel, Frédéric Baret, Marie Weiss  
 JCAD 2019
 ```
@@ -122,7 +122,7 @@ JCAD 2019
 
 ```{admonition} [GENCI, une TGIR active au niveau régional, national et européen. ](https://jcad2020.sciencesconf.org/data/Presentation_GENCI_JCAD2020.pdf)   
 :class: seealso
-[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1bc18i5neyu/iframe/)   
+[Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1bc18i5neyu/iframe/)   
 Stéphane Requena, Directeur innovation et technologie, GENCI.  
 JCAD 2020
 ```
@@ -143,7 +143,7 @@ Lors des JCAD 2019, Cyrille Toulet a présenté l'intégration du cloud OpenStac
 
 ```{admonition} [Intégration d'un cloud OpenStack à plusieurs fédérations de cloud](https://jcad2019.sciencesconf.org/data/Inte_gration_d_un_cloud_OpenStack_a_plusieurs_fe_de_rations_de_cloud_11_octobre_2019_.pdf)
 :class: seealso
-[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=21F552ao&width=100%&height=100%)   
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=21F552ao&width=100%&height=100%)   
 Cyrille TOULET, Mésocentre de Lille, Université de Lille 
 JCAD 2019
 ```
@@ -183,7 +183,7 @@ Il est aussi possible d'utiliser des ressources fournies par plusieurs mésocent
 
 ```{admonition} [Calculs de chimie quantique distribués entre méso-centres avec Quantum Package](https://jcad2019.sciencesconf.org/data/JCAD2019AScemama.pdf)
 :class: seealso
-[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=6E3Cefg2&width=100%&height=100%)   
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=6E3Cefg2&width=100%&height=100%)   
 Anthony Scemama, Patrick BOUSQUET-MELOU, Marie-Sophie Cabot, Nicolas Renon  
 JCAD 2019
 ```
@@ -194,7 +194,7 @@ SILECS, "Super Infrastructure for Large-scale Experimental Computer Science", es
 
 ```{admonition} [SILECS, une infrastructure pour les expériences à grande échelle en informatique](https://jcad2019.sciencesconf.org/data/silecs_jcad2019.pdf)   
 :class: seealso
-[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=4HxTGQp2&width=100%&height=100%)   
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=4HxTGQp2&width=100%&height=100%)   
 Frédéric Desprez, Christian Perez, Inria  
 JCAD 2019
 ```
@@ -202,7 +202,7 @@ Dans la présentation "Slices, towards a Scientific Large-Scale Infrastructure f
 
 ```{admonition} [Slices, towards a Scientific Large-Scale Infrastructure for Computing - Communication Experimental Studies.](https://jcad2020.sciencesconf.org/data/silecs_slices_JCAD_2020.pdf)   
 :class: seealso
-[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f769cca6cwq3z7qg/iframe/)   
+[Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f769cca6cwq3z7qg/iframe/)   
 Christian Perez, Inria  
 JCAD 2020
 ```
@@ -217,13 +217,13 @@ Une présentation du projet a été réalisée lors des JCAD 2019, puis une dém
 
 ```{admonition} [CALLISTO : Une interface pour le partage et l'analyse semi-automatique de données.](https://jcad2019.sciencesconf.org/data/callisto_jcad.pdf)  
 :class: seealso
-[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=8r669jA6&width=100%&height=100%) 
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=8r669jA6&width=100%&height=100%) 
 Thierry Louge - du mésocentre CALMIP, Toulouse.  
 JCAD 2019 
 ```
 ```{admonition} [Partage et analyse semi-automatique de données pour un mésocentre de calcul : fonctionnalités et avancement de CALLISTO pour CALMIP. Suivi de la démonstration de CALLISTO à CALMIP. ](https://jcad2020.sciencesconf.org/data/CALLISTO_JCAD2020.pdf)  
 :class: seealso
-[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd6249ivj3c4/iframe/) 
+[Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd6249ivj3c4/iframe/) 
 Thierry Louge - du mésocentre CALMIP, Toulouse. 
 JCAD 2020 
 ```
@@ -231,7 +231,7 @@ En Bourgogne Franche-Comté, le projet dat@UBFC a pour objectif la création d'u
 
 ```{admonition} [Projet dat@UBFC : création d'un service de gestion des données de la recherche pour l'Université de Bourgogne Franche-Comté.](https://jcad2020.sciencesconf.org/data/Presentation_longue_Orateur_Damy_Sylvie_dataubfc.pdf)  
 :class: seealso
-[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd30btbr8ybe/iframe/) 
+[Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd30btbr8ybe/iframe/) 
 Sylvie Damy, laboratoire Chrono-Environnement, Besançon.
 JCAD 2020 
 ```
@@ -244,7 +244,7 @@ Jean-Pierre Gleyze présente le contexte du CNES, quelques applications et leur 
 
 ```{admonition} [Keynote : Infrastructures de traitement de données : vers un datalake CNES](https://jcad2019.sciencesconf.org/data/JACD_2019_datalake_CNES.pdf)   
 :class: seealso
-[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=x9b2k0Gd&width=100%&height=100%)   
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=x9b2k0Gd&width=100%&height=100%)   
 Jean-Pierre Gleyze, CNES   
 JCAD 2019
 ```
@@ -253,7 +253,7 @@ CEBA, a pour ambition la création d’un « grand » observatoire de l’enviro
 
 ```{admonition} [CEBA, un data lake dédié à l'observation des écosystèmes environnementaux](https://jcad2019.sciencesconf.org/data/20191002_JCAD_CEBA.pdf)   
 :class: seealso
-[Vidéo](https://prismes.univ-toulouse.fr/player.php?code=gS95Z11G&width=100%&height=100%)   
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=gS95Z11G&width=100%&height=100%)   
 Francis Ogereau, Vincent Breton, Alexandre Claude, David Grimbichler, Antoine Mahul, Gilles Mailhot, Jérémy Mezhoud, Christine Plumejeaud, Laurent Royer,  Estelle Théveniaud, Richard Vandaele, David Sarramia  
 JCAD 2019
 ```
