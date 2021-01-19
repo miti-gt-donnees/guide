@@ -9,13 +9,11 @@ Les notions de stockage, de sauvegarde et d'archivage ainsi que les actions de p
 
 ### Définitions générales
 
-```{glossary}
 Stocker
-  C'est l'étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n'est ni sauvegardée et ni sécurisée.
+:  C'est l'étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d'assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n'est ni sauvegardée et ni sécurisée.
 
 Sauvegarder
-  La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde octet par octet dans une perspective de court ou de moyen terme. La recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte.
-```
+:  La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L'objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l'organe de stockage. Il s'agit d'une sauvegarde octet par octet dans une perspective de court ou de moyen terme. La recherche de la préservation de l'intelligibilité des données n'est pas un élément pris en compte.
 
 Cette étape de sauvegarde doit s'accompagner d'une réelle politique de sauvegarde, qui détermine en fonction de la criticité et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu'on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c'est-à-dire de rétablir les données d'une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la partie {ref}`collecter`
 
@@ -27,10 +25,8 @@ Laurent Pelletier, INIST-CNRS
 ANF « PostgreSQL Administration », réseau rBDD, Sète, 2017    
 ```
 
-```{glossary}
 Archiver
-   L'archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d'y associer les moyens pour réutiliser les données : la réutilisation se faisant en ajoutant de l'intelligence à la sauvegarde. Le contenu des documents archivés n'est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l'obsolescence logicielle).
-```
+:   L'archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d'y associer les moyens pour réutiliser les données : la réutilisation se faisant en ajoutant de l'intelligence à la sauvegarde. Le contenu des documents archivés n'est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l'obsolescence logicielle).
 
 Le terme archive est défini par le législateur : *les archives sont l'ensemble des documents, y compris les données, quels que soient leur date, leur lieu de conservation, leur forme et leur support produits ou reçus par toute personne physique ou morale, et par tout service ou organisme public ou privé dans l'exercice de leur activité* (art. L. 211-1 du code du patrimoine). Les données de la recherche entrent pleinement dans le périmètre des archives. 
 
@@ -47,13 +43,11 @@ Alain Rivet, CERMAV & Marie-Laure Bachèlerie, DAJ-CNRS & Auriane Denis-Meyere, 
 MITI-CNRS, 2018   
 ```
 
-```{glossary}
 Préserver
-   Cette action fait référence au fait de garantir, protéger, mettre à l'abri, sauver d'un dommage ou d'une destruction (cf. notion de sauvegarde) et au fait de tenir dans le même état, en bon état (intelligible). Elle fait aussi référence à la notion de permanence dans le temps (cf. notion d'archivage). Le synonyme "conserver" est utilisé quand il est fait référence à une politique.
+:   Cette action fait référence au fait de garantir, protéger, mettre à l'abri, sauver d'un dommage ou d'une destruction (cf. notion de sauvegarde) et au fait de tenir dans le même état, en bon état (intelligible). Elle fait aussi référence à la notion de permanence dans le temps (cf. notion d'archivage). Le synonyme "conserver" est utilisé quand il est fait référence à une politique.
 
 Pérenniser
-   Ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L'archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).
-```
+:   Ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L'archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).
 
 Dans l'article "[l'archivage des données de la recherche à l'Inra. Eléments de réflexion, démarche et perspectives](https://hal.inrae.fr/hal-02861909)", les auteurs indiquent que pour eux, la pérennisation et la préservation sont le même concept :  *La pérennisation (ou préservation) permet de faire face à la perte d'informations d'identification ainsi qu'à l'obsolescence des supports et des logiciels. Elle consiste en effet à identifier et à conserver des documents et des données pour les rendre accessibles sur le moyen (10 ans et plus) et le long terme (50 ans et plus)*
 
@@ -117,7 +111,7 @@ Sans prise de conscience de tous sur la nécessité de préserver le patrimoine 
 
 ```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist16.sciencesconf.org/data/pages/18_M_Massol.pdf)   
 :class: seealso    
-[video](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
+[video : ](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
 Marion MASSOL, CINES   
 Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
 ```
@@ -149,7 +143,7 @@ En novembre 2014, le réseau rBDD a consacré une journée à cette thématique 
 
 ```{admonition} [Retour d’expérience sur l’utilisation du format SIARD pour l’archivage des bases de données relationnelles](http://rbdd.cnrs.fr/IMG/pdf/rbdd_siard.pdf?181/12408bc1172027762f2ac776ed4842de13c19474)   
 :class: seealso
-[video](http://webcast.in2p3.fr/videos-utilisation_du_format_siard_pour_l_archivage_des_bases_de_donnees_relationnelles)   
+[video : ](http://webcast.in2p3.fr/videos-utilisation_du_format_siard_pour_l_archivage_des_bases_de_donnees_relationnelles)   
 Michel Jacobson, LLL   
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014   
 ```
@@ -160,7 +154,7 @@ Dans cette présentation, François Morris aborde le cas des données protégée
 
 ```{admonition} [La pérennisation des données chiffrées ? Quel est l’impact du chiffrement sur le long terme ?](http://rbdd.cnrs.fr/IMG/pdf/chiffrement-perennisation.pdf?185/c4475004eab7dcd07a72e8230a8d74d493dc2495)   
 :class: seealso   
-[video](http://webcast.in2p3.fr/videos-la_perennisation_des_donnees_chiffrees_quel_est_l_impact_du_chiffrement_sur_le_long_terme)   
+[video : ](http://webcast.in2p3.fr/videos-la_perennisation_des_donnees_chiffrees_quel_est_l_impact_du_chiffrement_sur_le_long_terme)   
 François Moris, CNRS    
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014     
 ```
@@ -198,14 +192,14 @@ Gilles Duvert témoigne quant à lui de la préservation des données en Astrono
 
 ```{admonition} [Archivage des données à Huma-NUM](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf)
 :class: seealso
-[video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)  
+[video : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)  
 Michel Jacobson, Huma-Num   
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```  
 
 ```{admonition} [Archivage des données à l'In2p3](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)   
 :class: seealso
-[video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
+[video : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
 Yonny Cardenas, CC-IN2P3    
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
@@ -217,7 +211,7 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 
 ```{admonition} [L'archivage des données en astronomie](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)   
 :class: seealso 
-[video](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4)   
+[video : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4)   
 Françoise Genova,observatoire astronomique de Strasbourg, Gilles Duvert, IPAG, OSUG et JMMC   
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
@@ -250,7 +244,7 @@ Dans la présentation référencée, Lorène Béchard et Marion Massol présente
 
 ```{admonition} [Les critères à prendre en compte pour la conservation des données](http://rbdd.cnrs.fr/IMG/pdf/2014-11-06_rbdd_ae_cines_bdd.pdf?180/f1eef63ef0e72ac628e9435afadcf0c0fc82abfb)  
 :class: seealso
-[video](http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines)   
+[video : ](http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines)   
 Lorène Béchard, CINES & Marion Massol, CINES   
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014    
 ```
@@ -277,7 +271,7 @@ Le premier retour d'expérience du siècle dernier est un échec tandis que le d
 
 ```{admonition} [Retour d’expérience - Les données de l’Écothèque Méditerranéenne](http://rbdd.cnrs.fr/IMG/pdf/retour_experience_ecotheque-4.pdf?184/0378d1933926fb7f47381934f4f5e92b8022c929)   
 :class: seealso
-[vidéo](https://webcast.in2p3.fr/video/retour_d_experience_les_donnees_de_l_ecotheque_mediterraneenne_cefe)    
+[video : ](https://webcast.in2p3.fr/video/retour_d_experience_les_donnees_de_l_ecotheque_mediterraneenne_cefe)    
 Marie-Claude Quidoz, CEFE   
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014       
 ```

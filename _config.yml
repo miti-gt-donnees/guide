@@ -1,7 +1,8 @@
 # Book settings
 title: ""
-author: Groupe de travail "Atelier Données"
+author: "Atelier Données – groupe de travail inter réseaux de la MITI – CNRS"
 logo: images/logo.png
+copyright: "janvier 2021"
 
 exclude_patterns: [README.md,LICENSE.md]
 
@@ -13,15 +14,15 @@ html:
     baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/guide"
     use_repository_button: true
     use_edit_page_button: false
-    extra_footer: "&copy; Copyright 2021"
+    extra_navbar: <a href="mailto:guide-donnees@cnrs.fr">contact</a> 
 
 parse:
   myst_extended_syntax: true
 
 sphinx:
   config:
-    html_show_copyright: false
-    language: 'fr'
+    html_show_copyright: true
+    language: fr
     latex_logo: 'images/logo_small.png'
     latex_toplevel_sectioning: 'chapter'
 

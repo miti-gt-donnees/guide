@@ -153,7 +153,7 @@ régionaux, nationaux et européens.
 
 ```{admonition} [La plateforme SCIGNE : présentation et utilisation du service de Cloud Computing](https://jcad2018.sciencesconf.org/data/plateforme_scigne_jcad_2018.pdf)
 :class: seealso
-[Vidéo](https://webcast.in2p3.fr/video/la-plateforme-scigne-presentation-et-utilisation-du-service-de-cloud-computing)   
+[Vidéo : ](https://webcast.in2p3.fr/video/la-plateforme-scigne-presentation-et-utilisation-du-service-de-cloud-computing)   
 Jérôme Pansanel, Institut Pluridisciplinaire Hubert Curien, CNRS
 JCAD 2018
 ```
@@ -263,14 +263,14 @@ suivre les avancées et les développements, être un forum de partage d’infor
 
 ```{admonition} [Projet DOMA : Réflexions et axes de recherche pour les services de stockage de données scientifiques à l'horizon 2025.](https://jcad2018.sciencesconf.org/data/DOMA_JCAD_v2.pdf)   
 :class: seealso
-[Vidéo](https://webcast.in2p3.fr/video/projet-doma-reflexions-et-axes-de-recherche-pour-les-services-de-stockage-de-donnees-scientifiques-a-lhorizon-2025)   
+[Vidéo : ](https://webcast.in2p3.fr/video/projet-doma-reflexions-et-axes-de-recherche-pour-les-services-de-stockage-de-donnees-scientifiques-a-lhorizon-2025)   
 Eric Fede, Centre de Calcul de l'IN2P3, CNRS  
 JCAD 2018
 ```
 
 ```{admonition} [Projet DOMA : Retour sur la première année des études faites autour des futurs services de stockage de données scientifiques.](https://jcad2019.sciencesconf.org/data/DOMA_JCAD_2019_v2.pdf)   
 :class: seealso
-[Video](https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&width=100%&height=100%)   
+[Video : ](https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&width=100%&height=100%)   
 Eric Fede, CC-IN2P3, CNRS  
 JCAD 2019
 ```

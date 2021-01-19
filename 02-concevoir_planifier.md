@@ -24,7 +24,7 @@ Elle présente en parallèle, la méthode Agile et la Démarche centrée utilisa
 
 ```{admonition} [Méthodes pour intégrer l’utilisateur dans la construction des applications](http://rbdd.cnrs.fr/IMG/pdf/utilisateurs_anfrbdd.pdf)  
 :class: seealso
-[Vidéo](https://webcast.in2p3.fr/video/methodes_pour_integrer_l_utilisateur_dans_la_construction_des_applications)  
+[Vidéo :](https://webcast.in2p3.fr/video/methodes_pour_integrer_l_utilisateur_dans_la_construction_des_applications)  
 Nadine MANDRAN, LIG   
 Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? », 2016, rBDD
 ```
@@ -147,10 +147,7 @@ L'objet de cette phase préparatoire n'est pas de discuter le choix d'une techno
 
 ## Amorcer un plan de gestion de données 
 
-```{glossary}
-
 Un Plan de Gestion de Données (PGD), ou Data Management Plan (DMP) en anglais, est un document formalisé - un livrable du projet pour la plupart des appels à projets actuellement - explicitant la manière dont seront obtenues, documentées, analysées, disséminées et utilisées les données produites au cours et à l’issue d’un processus ou d’un projet de recherche.
-```
 
 À noter qu'il existe des modèles de [plans de gestion de données dits "de structure"](https://urfistinfo.hypotheses.org/3555) dont la période considérée s'étend au-delà de la durée d'un seul projet. Ce type de modèle s'applique par exemple aux plateformes et est donc sans doute de façon générale plus adapté aux besoins du personnel technique. 
 
