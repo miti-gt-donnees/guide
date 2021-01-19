@@ -11,13 +11,15 @@ Cette étape de publication et de diffusion est en outre accompagnée désormais
 
 ## Communiquer et documenter  
 
-Finaliser le Plan de Gestion de Données 
-: Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
+**Finaliser le Plan de Gestion de Données**
+
+Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
-Utilisation de catalogues de métadonnées
-: Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
+**Utilisation de catalogues de métadonnées**
+
+Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
 
 Pour être interopérables, ces catalogues s'appuient en général sur des normes pour représenter les métadonnées.
 Par exemple, dans les sciences de  l'environnement les normes ISO 19115 et ISO 19139 sont des références pour représenter  l'information géographique à l'aide de métadonnées dans les domaines où les données sont géospatialisées.
