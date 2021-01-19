@@ -1,6 +1,6 @@
 # Conclusion
 
-La rédaction de ce guide a été motivée par d'une part, par les
+La rédaction de ce guide a été motivée d'une part, par les
 évolutions récentes liées aux problématiques de gestion des données
 de la recherche dans le cadre d'une science ouverte, et d'autre
 part, par le regroupement et la réflexion interdisciplinaire des
