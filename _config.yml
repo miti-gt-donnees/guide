@@ -1,6 +1,6 @@
 # Book settings
 title: ""
-author: "Atelier Données – groupe de travail inter réseaux de la MITI – CNRS"
+author: "l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS"
 logo: images/logo.png
 copyright: "janvier 2021"
 
@@ -23,6 +23,7 @@ sphinx:
   config:
     language: "fr"
     html_show_copyright: true
+    html_last_updated_fmt: "%d %b %Y"
     latex_logo: 'images/logo_small.png'
     latex_toplevel_sectioning: 'chapter'
 
