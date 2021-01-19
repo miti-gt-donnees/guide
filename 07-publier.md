@@ -499,7 +499,7 @@ On trouvera sur cybergeo  un [exemple de recommandations aux auteurs pour un dat
 
 ```{admonition} [Évaluer un data paper : retour d'expérience de la revue Cybergeo](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf)    
 :class: seealso    
-[video : ](https://www.canal-u.tv/video/medici/evaluer_un_data_paper_retour_d_experience_de_la_revue_cybergeo.58277)    
+[Vidéo : ](https://www.canal-u.tv/video/medici/evaluer_un_data_paper_retour_d_experience_de_la_revue_cybergeo.58277)    
 Clémentine Cottineau, CNRS – Centre Maurice Halbwachs   
 Denise Pumain, Univ. Paris 1 – UMR Géographie-Cités    
 Christine Kosmopoulos, CNRS – UMR Géographie-Cités     
@@ -510,7 +510,7 @@ Il nous présente la production d'un data paper du point de vue d'un chercheur. 
 
 ```{admonition} R[etour d’expérience d’un producteur de data paper](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf)    
 :class: seealso    
-[video : ](https://www.canal-u.tv/video/medici/retour_d_experience_d_un_producteur_de_data_paper.58279)    
+[Vidéo : ](https://www.canal-u.tv/video/medici/retour_d_experience_d_un_producteur_de_data_paper.58279)    
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse     
 ```
 
@@ -520,7 +520,7 @@ Il revient ainsi sur l'intégration des data papers dans les pratiques des commu
 
 ```{admonition} [Synthèse du webinaire et échanges](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf)   
 :class: seealso   
-[video : ](https://www.canal-u.tv/video/medici/synthese_du_webinaire_et_echanges_a_partir_des_questions_du_tchat.58161)    
+[Vidéo : ](https://www.canal-u.tv/video/medici/synthese_du_webinaire_et_echanges_a_partir_des_questions_du_tchat.58161)    
 Joachim Schöpfel, Université Lille 3 – GERiiCO    
 ```
 
