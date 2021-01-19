@@ -11,15 +11,13 @@ Cette étape de publication et de diffusion est en outre accompagnée désormais
 
 ## Communiquer et documenter  
 
-### Finaliser le Plan de Gestion de Données 
-
-Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
+Finaliser le Plan de Gestion de Données 
+: Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
-- **Utilisation de catalogues de métadonnées**
-
-Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
+Utilisation de catalogues de métadonnées
+: Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
 
 Pour être interopérables, ces catalogues s'appuient en général sur des normes pour représenter les métadonnées.
 Par exemple, dans les sciences de  l'environnement les normes ISO 19115 et ISO 19139 sont des références pour représenter  l'information géographique à l'aide de métadonnées dans les domaines où les données sont géospatialisées.
@@ -231,7 +229,7 @@ Dans le domaine des données, les D.O.I (Digital Object Identification) DOI est 
 
 L'allocation de D.O.I sur des données implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "_landing page_") qui permet de fournir les métadonnées principales pour décrire les données et y accéder.
 
-Pour créer une "landing page", page d'accueil pour décrire un jeu de données, il faut s'assurer que certaines métadonnées obligatoires sont bien mentionnées et renseignées pour permettre une recherche. Le site Datacite rappelle quelles sont les métadonnées obligatoires : <https://support.datacite.org/docs/schema-mandatory-properties-v43>. Pour en savoir plus sur les identifiants pérennes, on peut consulter la [page de Doranum ](<https://doranum.fr/identifiants-perennes-pid/>)
+Pour créer une "landing page", page d'accueil pour décrire un jeu de données, il faut s'assurer que certaines métadonnées obligatoires sont bien mentionnées et renseignées pour permettre une recherche. Le site Datacite rappelle quelles sont [les métadonnées obligatoires](https://support.datacite.org/docs/schema-mandatory-properties-v43). Pour en savoir plus sur les identifiants pérennes, on peut consulter la [page de Doranum ](<https://doranum.fr/identifiants-perennes-pid/>)
 
 Attention la pérennité demandée est purement une question de service et n'est pas inhérente à un objet, ni conféré par une syntaxe de nommage particulier. Maintenir la pérennité du lien vers la localisation de la ressource est de la responsabilité du déposant ou du créateur de l'identifiant.
 
@@ -312,8 +310,8 @@ Dans l’atelier traçabilité organisé par RBDD en novembre 2018, MC Quidoz av
 
 ```{admonition} [identifiant pérenne sur une requête SQL vers une base de données](http://rbdd.cnrs.fr/IMG/pdf/atelier_tracabilite.pdf?523/29abaadfb5e2e0fff8aed53afd88d7aad1ded34f)
 :class: seealso
-MC Quidoz
-atelier traçabilité RBDD 2018](http://rbdd.cnrs.fr/spip.php?article288)
+MC Quidoz, 
+[atelier traçabilité RBDD 2018](http://rbdd.cnrs.fr/spip.php?article288)
 ```
 
 Sophie Pamerlon rappelle les définitions des identifiants uniques et persistants, puis présente le "Integrated Publishing Toolkit" (IPT) mis en place par le GBIF Global Biodiversity Information Facility) dans le domaine de la biodiversité et ses nouvelles fonctionnalités, en particulier l'attribution de DOI lors de la publication d'un jeu de données.
@@ -480,7 +478,7 @@ Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux 
 
 ```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf)    
 :class: seealso   
-[Vidéo :](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)     
+[Vidéo : ](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)     
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel  
 ```
 
@@ -490,7 +488,7 @@ Pour se faire une idée d'un exemple de datapaper, Annegret Nicolai nous présen
 
 ```{admonition} [BioBlitz 2017 à la Station Biologique de Paimpont – un data paper de science citoyenne](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)   
 :class: seealso    
-[Vidéo :](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)   
+[Vidéo : ](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)   
 Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont)   
 ```
 
@@ -508,7 +506,7 @@ Christine Kosmopoulos, CNRS – UMR Géographie-Cités
 Victor Gay nous présente un retour d'expérience de rédaction d'un [datapaper publié sur HAL](https://hal.archives-ouvertes.fr/hal-02951461) selon le modèle de la revue [Scientific Data](https://www.nature.com/sdata/).
 Il nous présente la production d'un data paper du point de vue d'un chercheur. Après avoir exposé sa recherche et les données produites, il explique pourquoi il a décidé de rédiger un data paper, la manière dont il s'y est pris pour le dépôt des données et la rédaction, avant de revenir sur les choix de dissémination et le rôle des métiers de l'accompagnement de la recherche dans l'ensemble du processus.
 
-```{admonition} R[etour d’expérience d’un producteur de data paper](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf)    
+```{admonition} [Retour d’expérience d’un producteur de data paper](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf)    
 :class: seealso    
 [Vidéo : ](https://www.canal-u.tv/video/medici/retour_d_experience_d_un_producteur_de_data_paper.58279)    
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse     
