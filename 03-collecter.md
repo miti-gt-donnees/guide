@@ -342,7 +342,7 @@ Il est à noter que la collecte sur le terrain nécessite de s'équiper d'un mat
 
 ```{admonition} [Carnet de terrain électronique](https://indico.mathrice.fr/event/27/contribution/11/material/slides/)   
 :class: seealso
-[Video :](https://indico.mathrice.fr/event/27/contribution/11/material/0/)   
+[Vidéo :](https://indico.mathrice.fr/event/27/contribution/11/material/0/)   
 Marie-Claude Quidoz, CEFE   
 Séminaire « les technologies mobiles : retours d'expériences et prospectives », Réseau ResInfo, Paris, 2016   
 ```

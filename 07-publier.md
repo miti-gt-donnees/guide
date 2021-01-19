@@ -480,7 +480,7 @@ Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux 
 
 ```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf)    
 :class: seealso   
-[Video :](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)     
+[Vidéo :](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)     
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel  
 ```
 

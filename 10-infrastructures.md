@@ -270,7 +270,7 @@ JCAD 2018
 
 ```{admonition} [Projet DOMA : Retour sur la première année des études faites autour des futurs services de stockage de données scientifiques.](https://jcad2019.sciencesconf.org/data/DOMA_JCAD_2019_v2.pdf)   
 :class: seealso
-[Video : ](https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&width=100%&height=100%)   
+[Vidéo : ](https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&width=100%&height=100%)   
 Eric Fede, CC-IN2P3, CNRS  
 JCAD 2019
 ```
