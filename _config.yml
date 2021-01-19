@@ -21,8 +21,8 @@ parse:
 
 sphinx:
   config:
+    language: "fr"
     html_show_copyright: true
-    language: fr
     latex_logo: 'images/logo_small.png'
     latex_toplevel_sectioning: 'chapter'
 
