@@ -126,7 +126,7 @@ Les politiques opérationnelles de ces pôles sont suivies par le réseau SIST o
 
 - Données océanographiques : [Pôle Odatis](https://www.odatis-ocean.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_ODATIS.pdf).
 - Données atmosphériques : [Pôle Aeris](https://www.aeris-data.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_AERIS.pdf).
-- Données terre solide: [Pôle Form@ter](https://www.poleterresolide.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_FORMATER.pdf)
+- Données terre solide: [Pôle Form@ter](https://www.poleterresolide.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_FORMATER.pdf).
 - Données surfaces continentales : [Pôle Theia](https://www.theia-land.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_THEIA.pdf).
 
 
@@ -301,7 +301,7 @@ Juliette Fabre, OSU OREME - Olivier Lobry, OSU OREME
 ```
 
 * Établissement de DOI sur des requêtes dynamiques sur des Bases de données
-Dans l’atelier traçabilité organisé par RBDD en novembre 2018, MC Quidoz avait traité la possibilité de mettre un identifiant pérenne sur une requête SQL vers une base de données, pour la rejouer. C’est d'ailleurs une des recommandations de RDA https://www.rd-alliance.org/system/files/RDA-DC-Recommendations_151020.pdf 
+Dans l’atelier traçabilité organisé par RBDD en novembre 2018, MC Quidoz avait traité la possibilité de mettre un identifiant pérenne sur une requête SQL vers une base de données, pour la rejouer. C’est d'ailleurs une des [recommandations de RDA](https://www.rd-alliance.org/system/files/RDA-DC-Recommendations_151020.pdf).
 
 ```{admonition} [identifiant pérenne sur une requête SQL vers une base de données](http://rbdd.cnrs.fr/IMG/pdf/atelier_tracabilite.pdf?523/29abaadfb5e2e0fff8aed53afd88d7aad1ded34f)
 :class: seealso
