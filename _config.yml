@@ -31,5 +31,7 @@ latex:
   latex_documents:
      targetname: guide_donnees.tex
      title: "Guide de bonnes pratiques"
-     author: "Atelier Données"
+     author: "l'Atelier Données de la MITI – CNRS"
      theme: "manual"
+     papersize: 'a4paper'
+     babel: '\\usepackage[francais]{babel}'
