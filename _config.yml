@@ -14,7 +14,7 @@ html:
     baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/guide"
     use_repository_button: true
     use_edit_page_button: false
-    extra_navbar: <a href="mailto:guide-donnees@cnrs.fr">contact</a> 
+    extra_navbar: <a href="mailto:contact-guide@services.cnrs.fr">contact</a> 
 
 parse:
   myst_extended_syntax: true
