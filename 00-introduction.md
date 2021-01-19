@@ -16,7 +16,7 @@ name: marguerite
 Cartographie des actions des réseaux métiers autour de la gestion des données.
 ```
 
-Pour formaliser les différentes étapes de gestion des données, nous nous sommes servis du cycle de vie des données élaboré au sein de l'Atelier Données. Il s'agit d'un cercle verteux qu'on peut faire correspondre aux différentes phases d'un projet scientifique.
+Pour formaliser les différentes étapes de gestion des données, nous nous sommes servis du "cycle de vie des données" élaboré au sein de l'Atelier Données. Il s'agit d'un cercle vertueux que l'on peut faire correspondre aux différentes phases d'un projet scientifique.
 
 
 
