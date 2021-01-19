@@ -20,12 +20,12 @@ parse:
   myst_extended_syntax: true
 
 sphinx:
-  config:
-    language: "fr"
-    html_show_copyright: true
-    html_last_updated_fmt: "%d %b %Y"
-    latex_logo: 'images/logo_small.png'
-    latex_toplevel_sectioning: 'chapter'
+    config:
+        language: "fr"
+        html_show_copyright: true
+        html_last_updated_fmt: "%d %b %Y"
+        latex_logo: 'images/logo_small.png'
+        latex_toplevel_sectioning: 'chapter'
 
 latex:
   latex_documents:
@@ -33,5 +33,5 @@ latex:
      title: "Guide de Bonnes Pratiques sur la gestion des données de la Recherche" 
      author: "l'Atelier Données de la MITI – CNRS"
      theme: "manual"
+     toctree_only: True
      papersize: 'a4paper'
-     babel: '\\usepackage[francais]{babel}'
