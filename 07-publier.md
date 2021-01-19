@@ -106,7 +106,7 @@ Frédocs2013 -7 au 10 octobre 2013, Aussois
 
 ### Les portails nationaux et européens
 
-#### Les pôles de données nationaux en environnement
+**Les pôles de données nationaux en environnement**
 
 Les catalogues et portails d'accès aux données se matérialisent également au niveau national où une infrastructure de recherche (IR) Data terra a été créée pour accéder aux données spatiales et in situ du système Terre.
 
@@ -124,20 +124,13 @@ Les informations proposées par les pôles de données sont aussi fondamentales 
 
 Les politiques opérationnelles de ces pôles sont suivies par le réseau SIST où elles ont été présentées :
 
-Données océanographiques : [Pôle Odatis](<https://www.odatis-ocean.fr/>) 
-:   <https://sist19.sciencesconf.org/data/pages/SIST19_Poles_ODATIS.pdf>
-
-Données atmosphériques : [Pôle Aeris](<https://www.aeris-data.fr/>)   
-:   <https://sist19.sciencesconf.org/data/pages/SIST19_Poles_AERIS.pdf>
-
-Données terre solide:  [Pôle Form@ter](<https://www.poleterresolide.fr/>)
-:   <https://sist19.sciencesconf.org/data/pages/SIST19_Poles_FORMATER.pdf>
-
-Données surfaces continentales : [Pôle Theia](<https://www.theia-land.fr/>)   
-:   <https://sist19.sciencesconf.org/data/pages/SIST19_Poles_THEIA.pdf>
+- Données océanographiques : [Pôle Odatis](https://www.odatis-ocean.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_ODATIS.pdf).
+- Données atmosphériques : [Pôle Aeris](https://www.aeris-data.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_AERIS.pdf).
+- Données terre solide: [Pôle Form@ter](https://www.poleterresolide.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_FORMATER.pdf)
+- Données surfaces continentales : [Pôle Theia](https://www.theia-land.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_THEIA.pdf).
 
 
-#### Les portails de données européens
+**Les portails de données européens**
 
 Par ailleurs, de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du [British Oceanographic Data Center : BODC](https://www.bodc.ac.uk/).
 Le projet européen Seadatanet vise à élaborer et mettre en place un portail européen d'accès aux données marines en se basant sur de nombreux standards rendant les données FAIR. 
