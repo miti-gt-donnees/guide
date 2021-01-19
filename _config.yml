@@ -30,7 +30,7 @@ sphinx:
 latex:
   latex_documents:
      targetname: guide_donnees.tex
-     title: "Guide de bonnes pratiques"
+     title: "Guide de Bonnes Pratiques sur la gestion des données de la Recherche" 
      author: "l'Atelier Données de la MITI – CNRS"
      theme: "manual"
      papersize: 'a4paper'
