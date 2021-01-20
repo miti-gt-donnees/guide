@@ -31,7 +31,7 @@ latex:
   latex_documents:
      targetname: guide_donnees.tex
      title: "Guide de Bonnes Pratiques sur la gestion des données de la Recherche" 
-     author: "l'Atelier Données de la MITI – CNRS"
+     author: 'Groupe de travail "Atelier Données" \\\\ Mission pour les Initiatives Transverses Interdisciplinaires '
      theme: "manual"
      toctree_only: True
      papersize: 'a4paper'
