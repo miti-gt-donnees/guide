@@ -2,7 +2,7 @@ md_files := $(sort $(wildcard *.*.md))
 
 default: $(md_files)
 	rm -rf public
-	rm -rf _build
+	jupyter-book clean . --all
 	jupyter-book build .
 	jupyter-book build . --builder pdflatex
 	mv _build/html public

@@ -1,6 +1,8 @@
 # Crédits
 
-Ce guide de bonnes pratiques sur la gestion des données dans les réseaux métiers, a été réalisé par  :
+## Auteurs
+
+Ce guide de bonnes pratiques sur la gestion des données dans les réseaux métiers, a été réalisé par:
 
 * Christine Hadrossek : [DDOR](https://www.cnrs.fr/fr/personne/direction-information-scientifique-et-technique), [réseau Renatis](http://renatis.cnrs.fr/)
 * Joanna Janik : [DDOR](https://www.cnrs.fr/fr/personne/direction-information-scientifique-et-technique), [réseau Renatis](http://renatis.cnrs.fr/)
@@ -11,6 +13,7 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 * Geneviève Romier : [réseau rBDD](http://rbdd.cnrs.fr/)
 
 ## Relecteurs
+
 * Pierre Brochard : [réseau DevLog](http://devlog.cnrs.fr/)
 * Dominique Desbois : [réseau DevLog](http://devlog.cnrs.fr/)
 * Emilie Lerigoleur : [réseau SIST](http://sist.cnrs.fr)

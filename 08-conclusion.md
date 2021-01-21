@@ -1,6 +1,6 @@
 # Conclusion
 
-La rédaction de ce guide a été motivée par d'une part, par les
+La rédaction de ce guide a été motivée d'une part, par les
 évolutions récentes liées aux problématiques de gestion des données
 de la recherche dans le cadre d'une science ouverte, et d'autre
 part, par le regroupement et la réflexion interdisciplinaire des
@@ -21,16 +21,16 @@ et nécessaire de rendre compte des compétences et expertises présentes
 dans nos réseaux, sous la forme d'un guide de bonnes pratiques
 inhérentes aux données de la recherche.
 
-Dans ce guide, les septs étapes décrites que nous avons décrites
+Dans ce guide, les septs étapes que nous avons décrites
 ne sont pas forcément originales, ce qui l'est par contre c'est
 qu'elles soient présentées comme un cycle. La vie des données ne
 s'arrête pas avec le projet. Elle doit se prolonger et s'inscrire
 dans une durée sans limite, qui part de la constitution à la
-réutilisation des données, selon un cycle de vie qui doit assurer
-aux données les meilleures conditions à leur bonne utilisation et
+réutilisation des données. Le cycle de vie doit assurer
+aux données les meilleures conditions à leur utilisation et
 à leur archivage pérenne ainsi qu'à leur réutilisation pour d'autres
 besoins et d'autres projets que ceux pour lesquels elles ont été
-initialement constituées"
+initialement constituées.
 
 Du fait des différentes approches, outils, concepts et vocabulaires
 entre nos différents métiers, nous avons retenu la solution fédératrice
@@ -64,18 +64,18 @@ accompagner les personnels de la recherche en charge de la gestion
 des données.
 
 Il est clair désormais qu'il faut considérer la gestion de données
-comme une tâche à part entière dans les projets de recherche, qu'on
-doit anticiper comment les données seront acquises/collectées,
+comme une tâche à part entière dans les projets de recherche. On
+doit désormais anticiper comment les données seront acquises/collectées,
 stockées, diffusées et bien entendu respecter les réglements de
 manière à "ouvrir les données autant que possible, les fermer autant
-que nécessaire"
+que nécessaire.
 
-Le lecteur aura désormais connaissance des infrastructures existantes,
+Le lecteur aura par ailleurs connaissance des infrastructures existantes. Il
 pourra se positionner sur les pratiques utilisées en fonction de
 sa discipline, et enfin faire appel et se rapprocher des réseaux
 métiers pour l'aider à une bonne gestion des données.
 
-Et enfin, nous espérons à travers ce guide apporter notre pierre à
+Nous espérons à travers ce guide apporter notre pierre à
 l’édifice pour une meilleure prise en compte du travail, consacré
 aux données de la recherche, pour qu’elles puissent être accessibles,
 bien documentées, réutilisables et donc réutilisées dans le cadre
