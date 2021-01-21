@@ -10,7 +10,9 @@ pages:
   script:
     - make
   tags:
-    - pandoc
+    - ubuntu
   artifacts:
     paths:
       - public
+  only:
+    - master
