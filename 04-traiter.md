@@ -340,7 +340,7 @@ Olivier Lobry, Juliette Fabre
 [Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/).    
 ```
 
-Dans son projet A. Campos utilise un ensemble de Script en python pour convertir les fichiers "xls" en fichier ascii, puis effectue un nettoyage avec la commande "awk" de Unix. Enfin des scripts en langage "R" permet de faire des moyennes glissantes, des graphes et des exports des fichiers au formt Netcdf
+Dans son projet A. Campos utilise un ensemble de scripts Python pour convertir les fichiers "xls" en fichier ascii, puis effectue un nettoyage avec la commande "awk" de Unix. Enfin des scripts en langage `R` permet de faire des moyennes glissantes, des graphes et des exports des fichiers au formt `NetCDF`.
 
 ```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
 :class: seealso
