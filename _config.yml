@@ -29,6 +29,8 @@ sphinx:
         latex_logo: 'images/logo_small.png'
         latex_toplevel_sectioning: 'chapter'
         latex_elements:
+            preamble: |
+                \usepackage{ccicons}
             maketitle: |
                 \newcommand\sphinxbackoftitlepage{\input{../../credits.tex}}\sphinxmaketitle
 
