@@ -27,13 +27,13 @@ git clone https://gitlab.math.unistra.fr/mi-gt-donnees/synthese
 Installez les paquets python
 ```
 cd synthese
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Compilez le document et visualiser le document
 ```
 make
 cd public
-python -m http.server
+python3 -m http.server
 ```
 Ouvrez votre navigateur à l'adresse <http://localhost:8000>
