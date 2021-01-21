@@ -175,7 +175,7 @@ Ce logiciel "Talend" a été également utilisé par Soumaya Lahbib
 pour traiter les fichiers de données issues des capteurs du [projet EMSO Ligure-ouest](https://www.osupytheas.fr/?Presentation-du-projet-EMSO)
 et les transformer en fichiers CSV utilisables facilement.
 
-```{admonition} [Gestion des données du projet EMSO avec Talend et Erddap](https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf)    
+```{admonition} [Gestion des données du projet EMSO avec Talend et ERDDAP](https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf)    
 :class: seealso
 Maurice Libes, Soumaya Lahbib   
 [Séminaire SIST18 OVSQ](https://sist18.sciencesconf.org), Guyancourt.   
@@ -197,7 +197,7 @@ leur analyse ultérieure.
 
 Des logiciels sont particulièrement adaptés dans la diffusion et l'affichage des données scientifiques d'observation par le fait qu'ils utilisent les standards interopérables de l'Open Geospatial Consortium (OGC), comme le [protocole DAP (Data Access Protocol) ](https://earthdata.nasa.gov/esdis/eso/standards-and-references/data-access-protocol-2)
 
-*  Les plateformes de dépôt et de diffusion de données comme [Thredds](https://www.unidata.ucar.edu/software/tds/) et [Erddap](https://coastwatch.pfeg.noaa.gov/erddap/index.html) sont intéressantes par le fait qu'elles mettent en oeuvre le protocole DAP,  et sont des solutions très bien  adaptées pour rendre les données `FAIR` et faciliter la diffusion des données.
+*  Les plateformes de dépôt et de diffusion de données comme [THREDDS](https://www.unidata.ucar.edu/software/tds/) et [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html) sont intéressantes par le fait qu'elles mettent en oeuvre le protocole DAP,  et sont des solutions très bien  adaptées pour rendre les données `FAIR` et faciliter la diffusion des données.
 
 La plateforme d'accès `ERDDAP` se présente comme étant un "accès facile aux données scientifiques" ("Easier access to scientific data") et fournit un ensemble complet de fonctionnalités pour la gestion des jeux de données. Il permet :
 * déposer des jeux de données dans différents formats interopérables
@@ -208,7 +208,7 @@ La plateforme d'accès `ERDDAP` se présente comme étant un "accès facile aux 
 * de créer des graphiques et des cartes simples pour visualiser le jeu de données analysé
 * de normaliser le format des unités de temps présentes dans les fichiers.
 
-Une des fonctionnalités intéressantes est qu'`Erddap` agrège
+Une des fonctionnalités intéressantes est qu'`ERDDAP` agrège
 automatiquement les données nouvelles répondant a un format donné,
 qui sont déposées dans un répertoire. Ainsi pour les séries temporelles
 cette fonctionnalité est intéressante puisqu'il suffit de déposer
@@ -216,11 +216,11 @@ des fichiers dans un répertoire pour que la série soit automatiquement
 enrichie et mise à jour.
 
 Dans le projet scientifique [EMSO](http://emso.eu/), le logiciel
-Erddap permet de constituer un [réseau de serveurs](http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000)
+ERDDAP permet de constituer un [réseau de serveurs](http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000)
 permettant de rassembler et  fournir toutes les données d'un même
 projet sur plusieurs sites .
 
-```{admonition} [Utilisation de Erddap - Installation, configuration et mise à disposition de jeux de données](http://erddap.osupytheas.fr/docerddap/index.html)   
+```{admonition} [Utilisation de ERDDAP - Installation, configuration et mise à disposition de jeux de données](http://erddap.osupytheas.fr/docerddap/index.html)   
 :class: seealso
 Maurice Libes, Didier Mallarino  
 ANF SIST 17 Fréjus  
@@ -248,11 +248,11 @@ ANF SIST 2018, Toulouse.
 
 #### Exemple de mise en oeuvre de plateformes de données
 
-Des exemples d'utilisation des plateformes logicielles Erddap et
-Thredds ont été présentés lors de différentes sessions des journées
+Des exemples d'utilisation des plateformes logicielles ERDDAP et
+THREDDS ont été présentés lors de différentes sessions des journées
 du réseau SIST :
 
-G. Brissebrat nous montre comment sont diffusées des données maillées `NetCDF` du SEDOO avec la plateforme logicielle Thredds. Les avantages évoqués sont nombreux :
+G. Brissebrat nous montre comment sont diffusées des données maillées `NetCDF` du SEDOO avec la plateforme logicielle THREDDS. Les avantages évoqués sont nombreux :
 - Consulter les métadonnées sans avoir à télécharger le jeu de données
 - Accéder uniquement à une partie d’un jeu de données
 - Télécharger un seul fichier même si les données originales sont réparties dans plusieurs fichiers
@@ -260,15 +260,15 @@ G. Brissebrat nous montre comment sont diffusées des données maillées `NetCDF
 - Accéder aux données dans des format compatibles avec les outils communs d’analyse ou de visualisation de données
 - Offrir plusieurs formats et protocoles d’accès aux données-
 - Fournir une prévisualisation des données
-- Pouvoir moissonner des données d’un autre serveur Thredds
+- Pouvoir moissonner des données d’un autre serveur THREDDS
 
-```{admonition} [Distribution et visualisation de données avec Thredds, exemples d'utilisation au SEDOO](https://nuage.osupytheas.fr/s/XsJSkXxCjkHwrfP)
+```{admonition} [Distribution et visualisation de données avec THREDDS, exemples d'utilisation au SEDOO](https://nuage.osupytheas.fr/s/XsJSkXxCjkHwrfP)
 :class: seealso
 Guillaume Brissebrat, Service de données de l'OMP   
 [Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/)    
 ```
 
-```{admonition} [Eccad, un exemple de mise en oeuvre de Thredds](https://sist19.sciencesconf.org/data/pages/SIST19_S_Darras.pdf)   
+```{admonition} [Eccad, un exemple de mise en oeuvre de THREDDS](https://sist19.sciencesconf.org/data/pages/SIST19_S_Darras.pdf)   
 :class: seealso
 Sabine Darras, Observatoire Midi-Pyrénées   
 [Séminaire SIST 2019 OMP Toulouse](https://sist19.sciencesconf.org/)   
@@ -277,20 +277,20 @@ Sabine Darras, Observatoire Midi-Pyrénées
 
 Dans cette présentation les auteurs montrent un workflow complexe
 depuis l'acquisition de données a 2500m de profondeur, jusqu'à
-l'affichage et la diffusion sur un serveur Erddap.  Les données de
+l'affichage et la diffusion sur un serveur ERDDAP.  Les données de
 capteurs sont traitées avec l'ETL Talend pour produire des fichiers
-CSV et `NetCDF` qui sont diffusées via la plateforme Erddap. Dans
+CSV et `NetCDF` qui sont diffusées via la plateforme ERDDAP. Dans
 le cas de séries temporelles qui s'enrichissent quotidiennement,
 erddap permet d'aggréger automatiquement les données journalières
 qui sont déposées par programme dans un répertoire, sans intervention
 humaine.
 
-```{admonition} [Gestion des données du projet EMSO avec Talend et Erddap](<https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf>)   
+```{admonition} [Gestion des données du projet EMSO avec Talend et ERDDAP](<https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf>)   
 :class: seealso
 Soumaya Lahbib, Maurice Libes, OSU Pytheas  
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.
 ```
-La plateforme de gestion de données Erddap est utilisée dans le
+La plateforme de gestion de données ERDDAP est utilisée dans le
 projet Européen EMSO et permet de constituer un réseau de serveurs
 qui  regroupe les données d'un même projet avec des données issues
 de sites différents [^erddap].
@@ -299,7 +299,7 @@ de sites différents [^erddap].
 
 Dans cette présentation, les auteurs avaient pour objectif de
 diffuser des données dans un environnement tropical et ont utilisé
-et comparés les platformes logicielles Thredds et Erddap
+et comparés les platformes logicielles THREDDS et ERDDAP
 
 ```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist16.sciencesconf.org/data/pages/11_T_Valero_F_Bongat.pdf)    
 :class: seealso
@@ -349,17 +349,6 @@ que l’ensemble des activités de recherche soit maîtrisé.
 Le contrôle sur les équipements est le premier pas vers la traçabilité
 des données comme l'illustre l'exposé suivant :
 
-*[MCQ - début ] j'aime bien ce passage page 6 qui explique pouquoi
-il faut faire de la qualité "Réaliser une mesure ne se limite pas
-à relever une valeur affichée par un appareil. Cette valeur peut
-être affectée par des erreurs de sources variées : Performances de
-l’équipement / Personnel/ Environnement / Consommables et réactifs
-/ Méthode/mode opératoire" L'auteur parle des équipements mais on
-pourrait totalement imaginé le même texte pour des collectes faites
-par des humains. je mettrai bien quelque chose comme cela en intro
-car pour moi la qualité des données, ce n'est pas seulement la
-répétivité que tu décris [MCQ - fin]*
-
 En sciences environnementales, la qualification des données est
 importante pour estimer et fournir un degré de qualité de la donnée.
 On utilise pour cela des codes qui renseignent sur la qualité de
@@ -377,18 +366,13 @@ Virginie JAN LOGASSI, Université de Lorraine
 [Rencontres du réseau Qualité en Recherche, 2019](https://qualsimp.sciencesconf.org/), Nancy.
 ```
 
-[MCQ - debut] 
 Le réseau rBDD a consacré un atelier à la qualité des données pour apporter des éclairages sur les questions suivantes :
 * Quelles sont les différentes notions de qualité des données ?
 * Comment contrôler la qualité des données dans la BDD : avant ou pendant l’insertion de données
 * Faut-il automatiser le contrôle de la qualité dans les bases de données ?
 * Quels sont les outils disponibles et comment les utiliser ?
 
-Le programme de l'atelier s'appuie sur les travaux de [Laure Berti
-Equille](http://pageperso.lif.univ-mrs.fr/~laure.berti/) qui «
-classe les travaux autour de la problématique de la qualité des
-données selon quatres grands types d'approches complémentaires :
-prévenir / diagnostiquer / corriger /  adapter ».
+Le programme de l'atelier s'appuie sur les travaux de [Laure Berti Equille](http://pageperso.lif.univ-mrs.fr/~laure.berti/) qui « classe les travaux autour de la problématique de la qualité des données selon quatres grands types d'approches complémentaires : prévenir / diagnostiquer / corriger /  adapter ».
 
 Dans la première partie de la présentation, après avoir explicité
 les notions autour de la qualité des données, Christine Plumejeaud
