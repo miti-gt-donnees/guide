@@ -392,10 +392,10 @@ pour éviter l'insertion en base de données de valeurs incohérentes
 ou impossibles. Ces contraintes sont la transcription des régles
 de gestion définies lors de la modélisation de la base de données.
 Une fois la structure de la base de données définie, il reste une
-étape, celle du nettoyage des données, a réalisé avant l'intégration
+étape, celle du nettoyage des données, a réaliser avant l'intégration
 des données en base. Le réseau rBDD conseille pour cela le logiciel
 [OpenRefine](https://openrefine.org/) très simple à prendre en main
-mais très puissant.
+et très puissant.
 
 ```{admonition} [Qualité des données](http://rbdd.cnrs.fr/IMG/pdf/qualite_des_donnees_plumejeaud_2018_04112018.pdf?517/365a13edab604bd0700b045bfac29a3607acb649)   
 :class: seealso
@@ -408,7 +408,14 @@ ANF « Sciences des données : un nouveau challenge pour les métiers liés aux 
 Mathieu SABY, BU Université de Nice Sophia-Antipolis  
 ```
 
-Dans cette intervention, Christine Plumejeaud se place dans le cadre de l'utilisation d'outils nomades qui envoient directement les données collectées sur tablette dans une base de données. La problèmatique est sensiblement différente. Partant du principe que sur le terrain, il est communément recommandé de laisser la saisie la plus libre possible pour permettre une prise en compte des aléas plus faciles, la détection des choses non conformes aux régles métier est à traiter a posteriori. 
+Dans cette intervention, Christine Plumejeaud se place dans le cadre
+de l'utilisation d'outils nomades qui envoient directement les
+données collectées sur tablette dans une base de données. La
+problèmatique est sensiblement différente. Partant du principe que
+sur le terrain, il est communément recommandé de laisser la saisie
+la plus libre possible pour permettre une prise en compte des aléas
+plus faciles, la détection des choses non conformes aux régles
+métier est à traiter a posteriori.
 
 ```{admonition} [Outils nomades : validation des données](http://rbdd.cnrs.fr/IMG/pdf/anf_rbbd_2019_outils_mobiles_tp_qualite.pdf?573/e1425561fd10c6bd1dd92fdee22871bc427f9873)   
 :class: seealso
@@ -442,7 +449,7 @@ Philippe Téchiné, B. Buisson, L. Testut, T. Delcroix, G. Alory, Laboratoire d'
 
 Dans cette présentation Lynn Hazan décrit son processus d'attribution
 de code qualité.  Comme nous l'avons indiqué précédemment dans la
-phase de traitement, Les données sont obtenues en temps quasi-réel
+phase de traitement, les données sont obtenues en temps quasi-réel
 et sont transformées en données consolidées par un traitement qui
 permet d’en augmenter la précision et la confiance.  Les étapes de
 consolidation incluent une expertise humaine avec une inspection
@@ -484,10 +491,10 @@ Olivier Lobry, Juliette Fabre
 ```
 
 Dans son projet A. Campos utilise un ensemble de scripts Python
-pour convertir les fichiers "xls" en fichier ascii, puis effectue
+pour convertir les fichiers "xls" en fichier "ascii", puis effectue
 un nettoyage avec la commande "awk" de Unix. Enfin des scripts en
 langage `R` permet de faire des moyennes glissantes, des graphes
-et des exports des fichiers au formt `NetCDF`.
+et des exports des fichiers au format `NetCDF`.
 
 ```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
 :class: seealso
