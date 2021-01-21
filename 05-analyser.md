@@ -138,7 +138,7 @@ Pierre Gançarski (Université de Strasbourg)
 ```
 
 De même, le réseau SARI grenoblois a organisé une journée sur le
-sujet, avec une [présentation de Jean-Luc Parouty particulièrement
+sujet, avec une présentation de Jean-Luc Parouty particulièrement
 didactique.
 
 ```{admonition} [AI Machine Learning & Deep Learning](https://sari.grenoble-inp.fr/lib/exe/fetch.php?media=theme:ia_deep_learning:ia_deep_learning:ia_machinelearning_pres20190606.pdf)   
