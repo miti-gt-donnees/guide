@@ -28,7 +28,7 @@ Cet ouvrage est mis à disposition selon les termes de la licence Creative Commo
 
 [![](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/deed.fr)
 
-Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyterbook](https://jupyterbook.org), logiciel libre diffusé sous licence [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
+Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyter Book](https://jupyterbook.org), logiciel libre diffusé sous licence [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
 
 ````{panels}
 [![Atelier Données](images/gt-donnees-logo.png)](https://mi-gt-donnees.pages.math.unistra.fr/site/)
