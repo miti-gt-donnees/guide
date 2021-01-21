@@ -49,17 +49,17 @@ Il s’adresse à toute personne désireuse de se former à la gestion des donn�
 
 Ce guide abordera l'ensemble des phases et actions nécessaires pour une gestion des données en accord avec les prérogatives de la science ouverte :
 
-- Les 2 premières phases « {ref}`imaginer` et {ref}`concevoir-planifier` », sont les étapes préparatoires d’un projet, où l’on se préoccupe d’avoir toutes les informations nécessaires à la bonne gestion des données et du projet. C’est l’étape où l’on réfléchit au  plan de gestion de données, où l’on prépare les espaces de stockage et où l’on met en place les outils de gestion de projet. Cette partie, très générique et a pour objectif de conduire le lecteur à s’interroger sur ses besoins, les moyens dont il dispose, à se poser les bonnes questions et à s’orienter pour trouver des solutions adaptées dans un environnement riche, en construction et à surveiller.
+- Les deux premières phases 1 "{ref}`imaginer`" et 2 "{ref}`concevoir-planifier`", sont les étapes préparatoires d’un projet, où l’on se préoccupe d’avoir toutes les informations nécessaires à la bonne gestion des données et du projet. C’est l’étape où l’on réfléchit au  plan de gestion de données, où l’on prépare les espaces de stockage et où l’on met en place les outils de gestion de projet. Cette partie, très générique et a pour objectif de conduire le lecteur à s’interroger sur ses besoins, les moyens dont il dispose, à se poser les bonnes questions et à s’orienter pour trouver des solutions adaptées dans un environnement riche, en construction et à surveiller.
 
 Les phases suivantes apportent des éléments plus spécifiques au lecteur pour répondre à des besoins plus techniques
 
 - L’étape 3 « {ref}`collecter` » rend compte de la pratique de collecte et du processus d’acquisition des données (équipements, capteurs …). Elle informe tout particulièrement sur l’usage des normes et standards d’interopérabilité nécessaires à la constitution des jeux de données pour les rendre Faciles à trouver, Accessibles, Interopérables, et Réutilisables (FAIR). Elle apporte aussi un éclairage sur les environnements de stockage des données existants et la nécessité de sauvegarder des données.
 
--	L’étape 4 « {ref}`traiter` » témoigne du prétraitement des données brutes acquises et collectées précédemment. Elle guide le lecteur sur la nécessaire préparation des fichiers de données pour les rendre ouverts et interopérables. La connaissance et la maîtrise des formats et standards est importante.  Cette étape est également celle de l’organisation des données qui implique dans certains cas de développer des procédures d’intégration des données dans les bases de données ou d’utiliser un cadre d’application d’agrégation de données. Il est important aussi à ce stade de se préoccuper du dépôt des données dans des plateformes de gestion locales [^plateformes] qui facilitent leur accès pour les scientifiques, et de mettre en place un contrôle qualité.
+- L’étape 4 « {ref}`traiter` » témoigne du prétraitement des données brutes acquises et collectées précédemment. Elle guide le lecteur sur la nécessaire préparation des fichiers de données pour les rendre ouverts et interopérables. La connaissance et la maîtrise des formats et standards est importante.  Cette étape est également celle de l’organisation des données qui implique dans certains cas de développer des procédures d’intégration des données dans les bases de données ou d’utiliser un cadre d’application d’agrégation de données. Il est important aussi à ce stade de se préoccuper du dépôt des données dans des plateformes de gestion locales [^plateformes] qui facilitent leur accès pour les scientifiques, et de mettre en place un contrôle qualité.
 
--	la phase 5 "{ref}`analyser`" est la phase d’analyse dans laquelle on s’occupe de définir et mettre en place des chaines logicielles avec des méthodes et des outils. Cette partie informe le lecteur sur les plateformes, outils et méthodes utilisés principalement dans la communauté du calcul pour analyser et visualiser les données.  Elle présente également quelques projet d’analyse sémantiques de données textuelles ainsi que des services Text and Data Mining.
+- la phase 5 "{ref}`analyser`" est la phase d’analyse dans laquelle on s’occupe de définir et mettre en place des chaines logicielles avec des méthodes et des outils. Cette partie informe le lecteur sur les plateformes, outils et méthodes utilisés principalement dans la communauté du calcul pour analyser et visualiser les données.  Elle présente également quelques projet d’analyse sémantiques de données textuelles ainsi que des services Text and Data Mining.
 
--	la phase 6 "{ref}`archiver`" rend compte de l’importance de préserver et archiver les données sur le long terme. On s’attache dans cette partie a bien définir et clarifier les termes, réfléchir aux données pertinentes à préserver et voir quelles solutions s’offrent à nous.
+- la phase 6 "{ref}`archiver`" rend compte de l’importance de préserver et archiver les données sur le long terme. On s’attache dans cette partie a bien définir et clarifier les termes, réfléchir aux données pertinentes à préserver et voir quelles solutions s’offrent à nous.
 
 - la phase 7 "{ref}`publier`" est la phase finale permettant de diffuser les données correctement à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapapers.
 
@@ -69,8 +69,14 @@ Deux annexes reprennent des thèmes transverses à ces phases successives :
 
 - l'annexe "{ref}`reproductibilite`" rassemble des exposés concernant la reproductibilité et la répétabilité, sujets transverses à plusieurs phases. Comme dans l'ensemble de ce guide, les présentations référencées ont été réalisées dans le cadre de journées ou ateliers organisés par les réseaux. 
 
-Ce guide a été rédigé par quelques réseaux métiers et de ce fait n'a pas la prétention d'être exhaustif. Nous invitons donc d'autres réseaux à nous faire remonter leurs pratiques métiers dans le cadre de la gestion des données pour alimenter ce guide.    
-Le lecteur est également invité à nous communiquer tous commentaires, remarques ou suggestions qui serait de nature à améliorer et compléter ce travail en envoyant un mail sur la liste de diffusion : contact-guide@services.cnrs.fr.
+Ce guide a été rédigé par quelques réseaux métiers et de ce fait
+n'a pas la prétention d'être exhaustif. Nous invitons donc d'autres
+réseaux à nous faire remonter leurs pratiques métiers dans le cadre
+de la gestion des données pour alimenter ce guide.  Le lecteur est
+également invité à nous communiquer tous commentaires, remarques
+ou suggestions qui serait de nature à améliorer et compléter ce
+travail en envoyant un mail sur la liste de diffusion :
+<contact-guide@services.cnrs.fr>.
 
 
 [^dist]: Anciennement DIST.
