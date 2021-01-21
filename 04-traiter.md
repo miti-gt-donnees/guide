@@ -10,10 +10,10 @@ analyse ultérieure.
 
 Cette partie est donc structurée en différentes sections décrivant cette préparation des données :
 
-- Préparer les fichiers de données, en vue de leur analyse, en utilisant des formats interopérables
-- Utiliser des infrastructures logicielles ("framework") d'intégration de données, lorsqu'elles sont hétérogènes
-- Mettre en place et utiliser des plateformes de gestion de données locales, en vue de leur analyse
-- Vérifier et s'assurer de la qualité des données
+- Préparer les fichiers de données, en vue de leur analyse, en utilisant des formats interopérables.
+- Utiliser des infrastructures logicielles "framework" d'intégration de données, lorsqu'elles sont hétérogènes.
+- Mettre en place et utiliser des plateformes de gestion de données locales, en vue de leur analyse.
+- Vérifier et s'assurer de la qualité des données.
 
 ## Préparer les fichiers de données en vue de leur analyse
 
@@ -22,7 +22,7 @@ instruments de collecte sur le terrain. Ils se présentent fréquemment
 sous la forme de fichiers dans des formats propriétaires, peu
 exploitables et peu interopérables directement tels quels.
 
-Dans une optique de gestion FAIR, il est donc important de se
+Dans une optique de gestion `FAIR`, il est donc important de se
 préoccuper du format des données afin de les rendre "ouverts" et
 interopérables. La notion de format "ouvert" est importante pour
 que les données puissent être partagées, interopéables et préservées
@@ -197,7 +197,7 @@ leur analyse ultérieure.
 
 Des logiciels sont particulièrement adaptés dans la diffusion et l'affichage des données scientifiques d'observation par le fait qu'ils utilisent les standards interopérables de l'Open Geospatial Consortium (OGC), comme le [protocole DAP (Data Access Protocol) ](https://earthdata.nasa.gov/esdis/eso/standards-and-references/data-access-protocol-2)
 
-*  Les plateformes de dépôt et de diffusion de données comme [Thredds](https://www.unidata.ucar.edu/software/tds/) et [Erddap](https://coastwatch.pfeg.noaa.gov/erddap/index.html) sont intéressantes par le fait qu'elles mettent en oeuvre le protocole DAP,  et sont des solutions très bien  adaptées pour rendre les données FAIR et faciliter la diffusion des données.
+*  Les plateformes de dépôt et de diffusion de données comme [Thredds](https://www.unidata.ucar.edu/software/tds/) et [Erddap](https://coastwatch.pfeg.noaa.gov/erddap/index.html) sont intéressantes par le fait qu'elles mettent en oeuvre le protocole DAP,  et sont des solutions très bien  adaptées pour rendre les données `FAIR` et faciliter la diffusion des données.
 
 La plateforme d'accès `ERDDAP` se présente comme étant un "accès facile aux données scientifiques" ("Easier access to scientific data") et fournit un ensemble complet de fonctionnalités pour la gestion des jeux de données. Il permet :
 * déposer des jeux de données dans différents formats interopérables
