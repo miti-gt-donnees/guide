@@ -55,7 +55,7 @@ utilisés pour l'analyse de données. En dehors du langage `R` spécifique
 aux statistiques et à la science des données, l'écosystème s'enrichit
 très rapidement :
 
-- `Python` devient de plus en plus utilisé en science des données. Une introduction sur le sujet a été réalisée en décembre 2017 par Francis Wolinski (Société Yotta Conseil) dans le cadre d'une journée organisée par le réseau Calcul.
+- Python devient de plus en plus utilisé en science des données. Une introduction sur le sujet a été réalisée en décembre 2017 par Francis Wolinski (Société Yotta Conseil) dans le cadre d'une journée organisée par le réseau Calcul.
 
 ```{admonition} [Présentation et illustration de l’écosystème Python pour la data science](https://github.com/fran6w/IRMAR/blob/master/IRMAR.pdf)
 :class: seealso
@@ -79,9 +79,9 @@ Benoît Fabrèges (Institut Camille Jordan, Lyon)
 
 Des retours d'expérience illustrent l'utilisation de ces outils.
 
-Concernant les outils `Python`, l'utilisation de `Dask` à la place de
+Concernant les outils Python, l'utilisation de Dask à la place de
 job array a été présentée lors des JCAD 2019 par Guillaume
-Eynard-Bontemps, CNES. `Dask` est une bibliothèque parallèle Python
+Eynard-Bontemps, CNES. Dask est une bibliothèque parallèle Python
 qui facilite l'exécution massive de calculs sur des données distribuées.
 
 ```{admonition} [Simulation paramétrique : Passez d'un job array à Dask](https://jcad2019.sciencesconf.org/data/20191009_JCAD2019TutoDaskJobArray.pdf)
@@ -234,7 +234,7 @@ Frederic Suter, Henri Casanova, Rafael Ferreira Da Silva, CC IN2P3
 enfin, les environnements de notebooks sont des outils de plus en
 plus utilisés dans le cadre de l'analyse de données. Les notebooks
 sont des programmes qui contiennent à la fois du texte et du code,
-dans différents langages (`Python`, `Julia`, `R`, `Scala` ...), 
+dans différents langages (Python, Julia, R, Scala ...), 
 exécutables via une interface web. Ces outils sont de plus en plus couramment
 utilisés en sciences des données. Jupyter est l'application de
 notebooks la plus utilisée actuellement.
