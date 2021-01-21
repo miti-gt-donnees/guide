@@ -183,7 +183,7 @@ de traitement utilisant des chaînes logicielles. Il existe des
 environnements virtuels de recherche (VRE Virtual Research Environment)
 qui facilitent la mise en place de ces méthodes d'analyse complexes.
 
-`VIP`, the Virtual Imaging Platform, est un portail qui permet à ses
+[VIP](https://www.creatis.insa-lyon.fr/vip/), the Virtual Imaging Platform, est un portail qui permet à ses
 utilisateurs d'accéder simplement à leurs données, de les traiter
 facilement avec des logiciels préinstallés sur la plateforme.
 Traitements et données sont distribués sur l'infrastructure EGI
