@@ -53,7 +53,7 @@ Maurice Libes, Didier Mallarino, Institut Phyteas
 
 
 
-- **Le format ODV** (ocean data view) [https://odv.awi.de/](https://odv.awi.de/)  est également un format standard ouvert intéressant. C'est un format de type "tableur", ensemble de lignes comportant un nombre fixe de colonnes qui se rapproche d'un format CSV, composé de colonnes de données séparées par des virgules (ou tout autre séparateur), à cette différence près que le format ODV permet l'insertion d'un entête assez riche permettant de placer des métadonnées en début de fichier.
+- **[Le format ODV](https://odv.awi.de/)** (ocean data view) est également un format standard ouvert intéressant. C'est un format de type "tableur", ensemble de lignes comportant un nombre fixe de colonnes qui se rapproche d'un format CSV, composé de colonnes de données séparées par des virgules (ou tout autre séparateur), à cette différence près que le format ODV permet l'insertion d'un entête assez riche permettant de placer des métadonnées en début de fichier.
 On trouvera un exemple https://data.ifremer.fr/Tout-savoir-sur-les-donnees/Gestion-des-donnees/Formats/ODV
 
 Le format de données ODV permet un stockage dense et un accès très rapide aux données. De grandes collections de données comprenant des millions de stations peuvent être facilement entretenues et explorées sur des ordinateurs de bureau. 
@@ -61,7 +61,7 @@ Le format de données ODV permet un stockage dense et un accès très rapide aux
 Un explorateur et extracteur de données webODV est disponible sur le portail[ EMODnet Chemistry.](https://emodnet-chemistry.webodv.awi.de/). L'outil webODV Data Explorer and Extractor, développé à l'Institut Alfred Wegener en Allemagne, permet aux utilisateurs d'explorer, de visualiser et d'extraire des sous-ensembles de données validées simplement en utilisant leur navigateur web.  
 
 
-Les formats NetCDF et ODV sont les formats recommandés et utilisés par le pôle de données Odatis  <https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions> et par le projet européen Seadatanet <https://www.seadatanet.org/>
+Les formats NetCDF et ODV sont les formats recommandés et utilisés par le [pôle de données Odatis](https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions) et par le projet européen [Seadatanet](https://www.seadatanet.org/).
 
 
 - **Le format HDF5**
@@ -83,7 +83,7 @@ Prace Advanced Training Centers, [Course: Parallel I/O and management of large s
 
 ### Développer les procédures d'intégration des données dans les bases de données                  
 
-Les nouveaux mécanismes de collecte de données ont souvent simplifiés la mise en base de données comme c'est le cas avec la boite à outils ODK (cf partie collecter) qui envoie directement les données collectées sur tablette dans un schéma d'une base de données PostgreSQL. Mais, pour sécuriser les données, elles doivent être ensuite transférées dans la base de données métier. Cette opération est souvent réaliséae à l'aide de déclencheur comme on levoit dans la présentation suivante  
+Les nouveaux mécanismes de collecte de données ont souvent simplifiés la mise en base de données comme c'est le cas avec la boite à outils ODK (cf partie {ref}`collecter`) qui envoie directement les données collectées sur tablette dans un schéma d'une base de données PostgreSQL. Mais, pour sécuriser les données, elles doivent être ensuite transférées dans la base de données métier. Cette opération est souvent réalisée à l'aide de déclencheur comme on levoit dans la présentation suivante  
 
 ```{admonition} [Intégrer les données dans sa base métier](http://rbdd.cnrs.fr/IMG/pdf/integrer_donnees.pdf?570/2006217c4509e4d59e6cbf44a291f997e7500153)   
 :class: seealso
@@ -201,7 +201,9 @@ Les données de capteurs sont traitées avec l'ETL Talend pour produire des fich
 Soumaya Lahbib, Maurice Libes, OSU Pytheas  
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.
 ```
-La plateforme de gestion de données Erddap est utilisée dans le projet Européen EMSO et permet de constituer un réseau de serveurs qui  regroupe les données d'un même projet avec des données issues de sites différents  http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000
+La plateforme de gestion de données Erddap est utilisée dans le projet Européen EMSO et permet de constituer un réseau de serveurs qui  regroupe les données d'un même projet avec des données issues de sites différents [^erddap].
+
+[^erddap]: <http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000>
 
 Dans cette présentation, les auteurs avaient pour objectif de diffuser des données dans un environnement tropical et ont utilisé et comparés les platformes logicielles Thredds et Erddap 
 ```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist16.sciencesconf.org/data/pages/11_T_Valero_F_Bongat.pdf)    
@@ -209,7 +211,6 @@ Dans cette présentation, les auteurs avaient pour objectif de diffuser des donn
 Thierry Valéro, Institut de Recherche pour le Développement, Laboratoire d'Océanographie et du Climat   
 [Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)    
 ```
-
 
 Les présentations suivantes fournissent  un certain nombre de connaissances sur l’utilisation d'infrastructure
 de données géographiques (IDS, IDG) et de différentes plateforme logicielle de gestion des données
@@ -242,16 +243,14 @@ Il est donc essentiel de s’assurer que l’ensemble des activités de recherch
 
 Le contrôle sur les équipements est le premier pas vers la traçabilité des données comme l'illustre l'exposé suivant :
 
-[MCQ - début ] j'aime bien ce passage page 6 qui explique pouquoi il faut faire de la qualité
+*[MCQ - début ] j'aime bien ce passage page 6 qui explique pouquoi il faut faire de la qualité
 "Réaliser une mesure ne se limite pas à relever une valeur affichée par un appareil. Cette valeur peut être affectée par des erreurs de sources variées : Performances de l’équipement / Personnel/ Environnement / Consommables et réactifs / Méthode/mode opératoire"
 L'auteur parle des équipements mais on pourrait totalement imaginé le même texte pour des collectes faites par des humains. je mettrai bien quelque chose comme cela en intro car pour moi la qualité des données, ce n'est pas seulement la répétivité que tu décris
-[MCQ - fin]
+[MCQ - fin]*
 
 En sciences environnementales, la qualification des données est importante pour estimer et fournir un degré de qualité de la donnée. On utilise pour cela des codes qui renseignent sur la qualité de la donnée : bonne, mauvaise, manquante, modifiée etc... Dans ce domaine bien souvent chacun utilise une codification personnelle, cependant une standardisation des codes qualité est bienvenue.
 
 L'infrastructure de données européenne Seadatanet utilise par exemple une [table "L20" standardisant les codes qualité](https://vocab.seadatanet.org/v_bodc_vocab_v2/browse.asp?order=conceptid&formname=search&screen=0&lib=l20&v0_0=&v1_0=conceptid%2Cpreflabel%2Caltlabel%2Cdefinition%2Cmodified&v2_0=0&v0_1=&v1_1=conceptid&v2_1=3&v0_2=&v1_2=preflabel&v2_2=3&v0_3=&v1_3=altlabel&v2_3=3&v0_4=&v1_4=modified&v2_4=9&v0_5=&v1_5=modified&v2_5=10&x=27&y=12&v1_6=&v2_6=&v1_7=&v2_7=) à placer sur les données 
-
-
 
 ```{admonition} [Traçabilité des données de la recherche. Confirmation métrologique des équipements](https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf)  
 :class: seealso
@@ -268,7 +267,9 @@ Le réseau rBDD a consacré un atelier à la qualité des données pour apporter
 
 Le programme de l'atelier s'appuie sur les travaux de [Laure Berti Equille](http://pageperso.lif.univ-mrs.fr/~laure.berti/) qui « classe les travaux autour de la problématique de la qualité des données selon quatres grands types d'approches complémentaires : prévenir / diagnostiquer / corriger /  adapter ». 
 
-Dans la première partie de la présentation, après avoir explicité les notions autour de la qualité des données, Christine Plumejeaud nous donne de bonnes pratiques comme celle d'attribuer un code standard (suivant une norme choisie et citée) décrivant l'état de la valeur. Elle cite comme exemple le standard [SDMX](https://sdmx.org/?page_id=3215), qui est une initiative internationale, utilisée entre autre par Eurostat et l'INSEE. Elle cite aussi les travaux faits par le Service d'Observation en Milieu Littoral [SOMLIT](https://www.somlit.fr/en/) qui a défini sa propre classification [https://www.somlit.fr/codes-qualite/](https://www.somlit.fr/codes-qualite/). 
+Dans la première partie de la présentation, après avoir explicité les notions autour de la qualité des données, Christine Plumejeaud nous donne de bonnes pratiques comme celle d'attribuer un code standard (suivant une norme choisie et citée) décrivant l'état de la valeur. Elle cite comme exemple le standard [SDMX](https://sdmx.org/?page_id=3215), qui est une initiative internationale, utilisée entre autre par Eurostat et l'INSEE. Elle cite aussi les travaux faits par le Service d'Observation en Milieu Littoral [SOMLIT](https://www.somlit.fr/en/) qui a défini sa propre classification [^somlit].
+
+[^somlit]: <https://www.somlit.fr/codes-qualite/](https://www.somlit.fr/codes-qualite/>
 
 Sa présentation se poursuit sur l'utilisation de contraintes SQL pour éviter l'insertion en base de données de valeurs incohérentes ou impossibles. Ces contraintes sont la transcription des régles de gestion définies lors de la modélisation de la base de données. Une fois la structure de la base de données définie, il reste une étape, celle du nettoyage des données, a réalisé avant l'intégration des données en base. Le réseau rBDD conseille pour cela le logiciel [OpenRefine](https://openrefine.org/) très simple à prendre en main mais très puissant.
 
@@ -290,7 +291,6 @@ Dans cette intervention, Christine Plumejeaud se place dans le cadre de l'utilis
 Christine Plumejeaud-Perreau, CNRS, U.M.R 7266 LIENSs, la Rochelle   
 ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019   
 ```
-
 
 Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/) permettent de qualifier les données et d'attribuer un code qualité a des données après analyse par un expert du domaine.
 ODV est un format de fichiers, et un logiciel utilisés par le projet européen [SeadataNet](https://www.seadatanet.org/Software/ODV). 
@@ -332,7 +332,7 @@ Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'En
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
 ```
 
-- Dans cette présentation, les auteurs proposent un développement graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour visualiser et valider des données de séries temporelles.
+Dans cette présentation, les auteurs proposent un développement graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour visualiser et valider des données de séries temporelles.
 
 ```{admonition} [Outil web interactif de visualisation et validation de séries temporelles](https://nuage.osupytheas.fr/s/qmJrrMLFHwN729G)
 :class: seealso
