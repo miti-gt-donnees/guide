@@ -21,7 +21,7 @@ et nécessaire de rendre compte des compétences et expertises présentes
 dans nos réseaux, sous la forme d'un guide de bonnes pratiques
 inhérentes aux données de la recherche.
 
-Dans ce guide, les sept étapes que nous avons décrites sont une représentation communément admise du cycle de vie des données, à laquelle nous avons également ajouter une étape "Imaginer et Préparer" et "concevoir planifier", en les distinguant bien,
+Dans ce guide, les sept étapes que nous avons décrites sont une représentation communément admise du cycle de vie des données, à laquelle nous avons également ajouté une étape "Imaginer et Préparer" et "concevoir planifier", en les distinguant bien,
  pour bien prendre en compte les phases préparatoires de planification d'un projet.
  
 L’intérêt de cette représentation est de bien montrer toutes les étapes à prendre en compte pour aboutir à une publication des données, et les rendre réutilisables. Ainsi les données de la recherche pourront être mises à profit dans d'autres projets.
