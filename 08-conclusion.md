@@ -22,14 +22,11 @@ dans nos réseaux, sous la forme d'un guide de bonnes pratiques
 inhérentes aux données de la recherche.
 
 Dans ce guide, les sept étapes que nous avons décrites sont une représentation communément admise du cycle de vie des données, à laquelle nous avons également ajouté une étape "Imaginer et Préparer" et "concevoir planifier", en les distinguant, 
-pour bien prendre en compte les phases préparatoires de planification d'un projet.
- 
+pour bien prendre en compte les phases préparatoires de planification d'un projet. 
 L’intérêt de cette représentation est de bien montrer toutes les étapes nécessaires pour aboutir à une publication des données, et les rendre réutilisables. Ainsi les données de la recherche pourront être mises à profit dans d'autres projets.
 
-
-Le cycle de vie doit assurer aux données les meilleures conditions à leur utilisation et
-à leur archivage pérenne ainsi qu'à leur réutilisation pour d'autres
-besoins et d'autres projets que ceux pour lesquels elles ont été
+Le cycle de vie doit assurer aux données les meilleures conditions pour leur utilisation, 
+leur archivage pérenne, et leur réutilisation pour d'autres besoins et d'autres projets que ceux pour lesquels elles ont été
 initialement constituées.
 
 Du fait des différentes approches, outils, concepts et vocabulaires
