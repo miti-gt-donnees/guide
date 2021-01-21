@@ -51,11 +51,11 @@ passant par les logiciels de visualisation.
 ### Langages de programmation
 
 Certains langages de programmation sont plus particulièrement
-utilisés pour l'analyse de données. En dehors du langage `R` spécifique
+utilisés pour l'analyse de données. En dehors du langage R spécifique
 aux statistiques et à la science des données, l'écosystème s'enrichit
 très rapidement :
 
-- Python devient de plus en plus utilisé en science des données. Une introduction sur le sujet a été réalisée en décembre 2017 par Francis Wolinski (Société Yotta Conseil) dans le cadre d'une journée organisée par le réseau Calcul.
+- [Python](https://pandas.pydata.org) devient de plus en plus utilisé en science des données. Une introduction sur le sujet a été réalisée en décembre 2017 par Francis Wolinski (Société Yotta Conseil) dans le cadre d'une journée organisée par le réseau Calcul.
 
 ```{admonition} [Présentation et illustration de l’écosystème Python pour la data science](https://github.com/fran6w/IRMAR/blob/master/IRMAR.pdf)
 :class: seealso
@@ -63,7 +63,7 @@ Francis Wolinski (Société Yotta Conseil)
 Journée Python et Data Science IRMAR Rennes - 2017
 ```
 
-- `Julia` est un des langages qui prend de l'importance sur ce sujet. Plusieurs présentations, lors d'une  [journée d'introduction au langage](https://calcul.math.cnrs.fr/2019-01-journee-julia.html) organisée par le réseau Calcul en janvier 2019, apportent un éclairage intéressant, en particulier le cadre des algorithmes Map/Reduce, ainsi que les performances du langage sous forme de benchmarks.
+- [Julia](https://julialang.org) est un des langages qui prend de l'importance sur ce sujet. Plusieurs présentations, lors d'une  [journée d'introduction au langage](https://calcul.math.cnrs.fr/2019-01-journee-julia.html) organisée par le réseau Calcul en janvier 2019, apportent un éclairage intéressant, en particulier le cadre des algorithmes Map/Reduce, ainsi que les performances du langage sous forme de benchmarks.
 
 ```{admonition} [Map/Reduce operations for scientific computing in Julia](https://calcul.math.cnrs.fr/attachments/spip/Documents/Journees/jan2019/julia_map_reduce.pdf)
 :class: seealso
