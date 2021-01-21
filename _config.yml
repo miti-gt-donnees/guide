@@ -9,11 +9,11 @@ description: "Guide de Bonnes Pratiques sur la gestion des données de la Recher
 exclude_patterns: [README.md,LICENSE.md]
 
 repository:
-    url: https://gitlab.math.unistra.fr/mi-gt-donnees/guide
+    url: https://gitlab.math.unistra.fr/mi-gt-donnees/synthese
     branch: master
 
 html:
-    baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/guide"
+    baseurl: "https://mi-gt-donnees.pages.math.unistra.fr/synthese"
     use_repository_button: true
     use_edit_page_button: false
     extra_navbar: <a href="mailto:contact-guide@services.cnrs.fr">contact</a> 
