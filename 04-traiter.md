@@ -22,7 +22,7 @@ instruments de collecte sur le terrain. Ils se présentent fréquemment
 sous la forme de fichiers dans des formats propriétaires, peu
 exploitables et peu interopérables directement tels quels.
 
-Dans une optique de gestion `FAIR`, il est donc important de se
+Dans une optique de gestion FAIR, il est donc important de se
 préoccuper du format des données afin de les rendre "ouverts" et
 interopérables. La notion de format "ouvert" est importante pour
 que les données puissent être partagées, interopéables et préservées
@@ -84,23 +84,23 @@ Maurice Libes, Didier Mallarino, Institut Phyteas
 de type "tableur", ensemble de lignes comportant un nombre fixe de
 colonnes qui se rapproche d'un format CSV, composé de colonnes de
 données séparées par des virgules (ou tout autre séparateur), à
-cette différence près que le format `ODV` permet l'insertion d'un
+cette différence près que le format ODV permet l'insertion d'un
 entête assez riche permettant de placer des métadonnées en début
 de fichier.  On trouvera un exemple sur le [Portail des données marines](https://data.ifremer.fr/Tout-savoir-sur-les-donnees/Gestion-des-donnees/Formats/ODV).
 
-Le format de données `ODV` permet un stockage dense et un accès
+Le format de données ODV permet un stockage dense et un accès
 très rapide aux données. De grandes collections de données comprenant
 des millions de stations peuvent être facilement entretenues et
 explorées sur des ordinateurs de bureau.
 
-Un explorateur et extracteur de données `webODV` est disponible sur
+Un explorateur et extracteur de données webODV est disponible sur
 le portail[ EMODnet Chemistry.](https://emodnet-chemistry.webodv.awi.de/).
-L'outil `webODV` Data Explorer and Extractor, développé à l'Institut
+L'outil webODV Data Explorer and Extractor, développé à l'Institut
 Alfred Wegener en Allemagne, permet aux utilisateurs d'explorer,
 de visualiser et d'extraire des sous-ensembles de données validées
 simplement en utilisant leur navigateur web.
 
-Les formats `NetCDF` et `ODV` sont les formats recommandés et utilisés par le [pôle de données Odatis](https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions) et par le projet européen [Seadatanet](https://www.seadatanet.org/).
+Les formats NetCDF et ODV sont les formats recommandés et utilisés par le [pôle de données Odatis](https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions) et par le projet européen [Seadatanet](https://www.seadatanet.org/).
 
 - **Le format HDF5**
 
@@ -197,9 +197,9 @@ leur analyse ultérieure.
 
 Des logiciels sont particulièrement adaptés dans la diffusion et l'affichage des données scientifiques d'observation par le fait qu'ils utilisent les standards interopérables de l'Open Geospatial Consortium (OGC), comme le [protocole DAP (Data Access Protocol) ](https://earthdata.nasa.gov/esdis/eso/standards-and-references/data-access-protocol-2)
 
-*  Les plateformes de dépôt et de diffusion de données comme [THREDDS](https://www.unidata.ucar.edu/software/tds/) et [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html) sont intéressantes par le fait qu'elles mettent en oeuvre le protocole DAP,  et sont des solutions très bien  adaptées pour rendre les données `FAIR` et faciliter la diffusion des données.
+*  Les plateformes de dépôt et de diffusion de données comme [THREDDS](https://www.unidata.ucar.edu/software/tds/) et [ERDDAP](https://coastwatch.pfeg.noaa.gov/erddap/index.html) sont intéressantes par le fait qu'elles mettent en oeuvre le protocole DAP,  et sont des solutions très bien  adaptées pour rendre les données FAIR et faciliter la diffusion des données.
 
-La plateforme d'accès `ERDDAP` se présente comme étant un "accès facile aux données scientifiques" ("Easier access to scientific data") et fournit un ensemble complet de fonctionnalités pour la gestion des jeux de données. Il permet :
+La plateforme d'accès ERDDAP se présente comme étant un "accès facile aux données scientifiques" ("Easier access to scientific data") et fournit un ensemble complet de fonctionnalités pour la gestion des jeux de données. Il permet :
 * déposer des jeux de données dans différents formats interopérables
 * de fournir un catalogue des jeux de données gérés par le serveur
 * d'afficher les métadonnées inscrites dans les fichiers
@@ -208,7 +208,7 @@ La plateforme d'accès `ERDDAP` se présente comme étant un "accès facile aux 
 * de créer des graphiques et des cartes simples pour visualiser le jeu de données analysé
 * de normaliser le format des unités de temps présentes dans les fichiers.
 
-Une des fonctionnalités intéressantes est qu'`ERDDAP` agrège
+Une des fonctionnalités intéressantes est qu'ERDDAP agrège
 automatiquement les données nouvelles répondant a un format donné,
 qui sont déposées dans un répertoire. Ainsi pour les séries temporelles
 cette fonctionnalité est intéressante puisqu'il suffit de déposer
@@ -425,7 +425,7 @@ ANF "Interfacer les outils mobiles avec son système d’information", réseau R
 
 Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/)
 permettent de qualifier les données et d'attribuer un code qualité
-a des données après analyse par un expert du domaine.  `ODV` est
+a des données après analyse par un expert du domaine.  ODV est
 un format de fichiers, et un logiciel utilisés par le projet européen
 [SeadataNet](https://www.seadatanet.org/Software/ODV).
 
@@ -454,7 +454,7 @@ et sont transformées en données consolidées par un traitement qui
 permet d’en augmenter la précision et la confiance.  Les étapes de
 consolidation incluent une expertise humaine avec une inspection
 visuelle afin de détecter des problèmes potentiels difficilement
-détectables automatiquement.  L’outil `ATCQc` a été développé afin
+détectables automatiquement.  L’outil ATCQc a été développé afin
 de permettre aux scientifiques de visualiser et qualifier rapidement
 leurs données issues des instruments de mesures du réseau.
 
@@ -493,7 +493,7 @@ Olivier Lobry, Juliette Fabre
 Dans son projet A. Campos utilise un ensemble de scripts Python
 pour convertir les fichiers "xls" en fichier "ascii", puis effectue
 un nettoyage avec la commande "awk" de Unix. Enfin des scripts en
-langage `R` permet de faire des moyennes glissantes, des graphes
+langage R permet de faire des moyennes glissantes, des graphes
 et des exports des fichiers au format `NetCDF`.
 
 ```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
