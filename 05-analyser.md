@@ -163,7 +163,7 @@ de s'appuyer sur des solutions techniques spécifiques.
 Dans le domaine des données numériques, plusieurs bibliothèques
 sont particulièrement adaptées aux données de grande taille, ainsi
 qu'à la visualisation in situ, c'est-à-dire en cours de calcul en
-ce qui concerne les données de simulation : `VisIt` et `ParaView`.
+ce qui concerne les données de simulation : [VisIt](https://wci.llnl.gov/simulation/computer-codes/visit) et [ParaView](https://www.paraview.org).
 Plusieurs interventions sur ce sujet ont été réalisées dans le cadre
 d'une [journée dédiée organisée en 2017 par le réseau Calcul](https://calcul.math.cnrs.fr/2017-12-atelier-visualisation.html) .
 
@@ -204,10 +204,11 @@ Sorina Camarasu-Pop, Axel Bonnet, Frédéric Cervenansky, CREATIS, Tristan Glata
 [JCAD 2018](https://jcad2018.sciencesconf.org)
 ```
 
-`Pangeo` est une communauté qui travaille au développement de logiciels
-et d'infrastructures pour faciliter la mise en œuvre des géosciences,
-dans le domaine du "Big Data". Cette communauté développe tout un
-écosystème d'outils open source pour les géosciences.
+[Pangeo](https://pangeo.io) est une communauté qui travaille au
+développement de logiciels et d'infrastructures pour faciliter la
+mise en œuvre des géosciences, dans le domaine du "Big Data". Cette
+communauté développe tout un écosystème d'outils open source pour
+les géosciences.
 
 Cet écosystème a été présenté lors des JCAD 2019 et 2018 :
 
