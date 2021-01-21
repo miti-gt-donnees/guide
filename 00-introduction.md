@@ -75,8 +75,7 @@ réseaux à nous faire remonter leurs pratiques métiers dans le cadre
 de la gestion des données pour alimenter ce guide.  Le lecteur est
 également invité à nous communiquer tous commentaires, remarques
 ou suggestions qui serait de nature à améliorer et compléter ce
-travail en envoyant un mail sur la liste de diffusion :
-<contact-guide@services.cnrs.fr>.
+travail en envoyant un mail sur [la liste de diffusion](mailto:contact-guide@services.cnrs.fr).
 
 
 [^dist]: Anciennement DIST.
