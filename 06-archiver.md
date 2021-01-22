@@ -197,7 +197,7 @@ Michel Jacobson, Huma-Num
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```  
 
-```{admonition} [Archivage des données à l'In2p3](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)   
+```{admonition} [Archivage des données à l'IN2P3](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)   
 :class: seealso
 [Vidéo : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
 Yonny Cardenas, CC-IN2P3    
