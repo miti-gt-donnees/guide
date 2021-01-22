@@ -31,7 +31,7 @@ sphinx:
 
 latex:
   latex_documents:
-     targetname: guide_donnees.tex
+     targetname: guide_bonnes_pratiques_gestion_donnees_recherche_v1.tex
      title: "Guide de Bonnes Pratiques sur la gestion des données de la Recherche" 
      author: 'Groupe de travail "Atelier Données" \\\\ Mission pour les Initiatives Transverses Interdisciplinaires '
      theme: "manual"
