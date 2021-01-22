@@ -295,7 +295,7 @@ Henri VALEINS, Journée thématique Assurance Qualité Logiciel 2019, Paris.
 
 ```{admonition} [Plans de Gestion de Logiciel et Assurance Qualité Logiciel, les apports de PRESOFT](https://jt-aql.sciencesconf.org/data/program/PRESOFT_qualite_en_recherche2019v1_GR.pdf) 
 :class: seealso
-Geneviève Romier, CC IN2P3, Journée thématique Assurance Qualité Logiciel 2019, Paris.
+Geneviève Romier, CC-IN2P3, Journée thématique Assurance Qualité Logiciel 2019, Paris.
 ```
 
 ```{admonition} [Référentiels et normes de codage](https://jt-aql.sciencesconf.org/data/program/ref_normes_codage_ZT.pdf) 
