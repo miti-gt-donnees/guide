@@ -31,8 +31,8 @@ De nombreuses ressources sont disponibles, à différentes échelles,
 pour analyser et traiter des données.  De façon générale, on distingue:
 
 - Les ressources de type calcul intensif ou HPC (High Performance Computing) organisée à l'échelle européenne (EuroHPC ou Tier 0), nationale (GENCI et les centres nationaux ou Tier 1) et régionale (mésocentres ou Tier 2). Ces ressources sont adaptées aux simulations massives.
-- Les ressources de type cloud (par exemple le cloud distribué de France Grille France Cloud). Ces ressources souples répondent aux besoins de calcul à la demande ou lorsque la maîtrise de l'ensemble du système est nécessaire.
-- les ressources de type grille de calcul ou HTC (High Throughput Computing), par exemple l'infrastructure France Grille ou le Centre de Calcul de l'IN2P3. Ces ressources sont utilisées pour faire du traitement massif de données.
+- Les ressources de type cloud (par exemple le cloud distribué de France Grilles : FG-Cloud). Ces ressources souples répondent aux besoins de calcul à la demande ou lorsque la maîtrise de l'ensemble du système est nécessaire.
+- les ressources de type grille de calcul ou HTC (High Throughput Computing), par exemple l'infrastructure France Grilles ou le Centre de Calcul de l'IN2P3. Ces ressources sont utilisées pour faire du traitement massif de données.
 
 Elles sont décrites dans la section
 [Infrastructures](10-infrastructures.md) de ce guide. Le choix du
