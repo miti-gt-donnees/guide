@@ -1,7 +1,7 @@
 <H2 align=center> Guide de bonnes pratiques sur la gestion des données de la recherche </H2>
 
 <br>
-Version 1.0 - Janvier 2021
+   version 1.0 - Janvier 2021
 <br>
 <br>
 <br>
