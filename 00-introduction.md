@@ -1,11 +1,11 @@
-# Guide de bonnes pratiques sur la gestion des données de la recherche
+<h1 align=center> Guide de bonnes pratiques sur la gestion des données de la recherche</H1>
 
 Version 1.0 - Janvier 2021
-
-
-
-
-
+   
+   
+   
+   
+    
 ---
 
 **De l'importance des données de la recherche**
