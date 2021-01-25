@@ -1,6 +1,10 @@
 # Guide de bonnes pratiques sur la gestion des données de la recherche
 
-Version 1 - Janvier 2021
+Version 1.0 - Janvier 2021
+
+
+
+
 
 ---
 
