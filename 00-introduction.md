@@ -1,12 +1,12 @@
 # Guide de bonnes pratiques sur la gestion des données de la recherche
 
-* Christine Hadrossek : [DDOR](https://www.science-ouverte.cnrs.fr/), [réseau Renatis](http://renatis.cnrs.fr/)
-* Joanna Janik : [DDOR](https://www.science-ouverte.cnrs.fr/), [réseau Renatis](http://renatis.cnrs.fr/)
-* Maurice Libes : [réseau SIST](http://sist.cnrs.fr)
-* Violaine Louvet : [réseau Calcul](https://calcul.math.cnrs.fr/)
-* Marie-Claude Quidoz : [réseau rBDD](http://rbdd.cnrs.fr/)
-* Alain Rivet : [réseau QeR](http://qualite-en-recherche.cnrs.fr/)
-* Geneviève Romier : [réseau rBDD](http://rbdd.cnrs.fr/)
+* *Christine Hadrossek* : [DDOR](https://www.science-ouverte.cnrs.fr/), [réseau Renatis](http://renatis.cnrs.fr/)
+* *Joanna Janik* : [DDOR](https://www.science-ouverte.cnrs.fr/), [réseau Renatis](http://renatis.cnrs.fr/)
+* *Maurice Libes* : [réseau SIST](http://sist.cnrs.fr)
+* *Violaine Louvet* : [réseau Calcul](https://calcul.math.cnrs.fr/)
+* *Marie-Claude Quidoz* : [réseau rBDD](http://rbdd.cnrs.fr/)
+* *Alain Rivet* : [réseau QeR](http://qualite-en-recherche.cnrs.fr/)
+* *Geneviève Romier* : [réseau rBDD](http://rbdd.cnrs.fr/)
 
 **De l'importance des données de la recherche**
 
