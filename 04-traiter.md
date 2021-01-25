@@ -50,16 +50,16 @@ On ne pourra pas tous les citer, mais à titre d'exemple dans les domaines Océa
 - **Le format [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)** est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l'environnement. Il est très bien adapté et utilisé, par exemple pour représenter et formater des données qui sont des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit "auto-descriptif" en ce sens qu'il permet de ne pas avoir besoin d'un fichier de description complémentaire. Les métadonnées sont en effet insérées dans l'entête du fichier, avec les données elles-mêmes.
 On peut ainsi décrire de manière assez précise les données du fichier, par exemple en insérant les unités de mesure des paramètres mesurés, la licence de diffusion, les propriétaires, etc., ainsi que l'organisation des données.
 
-Toutefois dans son format originel `NetCDF` n'a pas imposé de
+Toutefois dans son format originel NetCDF n'a pas imposé de
 directives particulieres pour inscrire les métadonnées dans l'entete
 du fichier. De ce fait, il était possible d'inscrire n'importe quel
 libellé de variables, unités, etc. Une standardisation a été
 nécessaire pour obtenir des fichiers compréhensibles et interopérables.
 C'est le but de la  [convention CF (climate
 forecast)](https://cfconventions.org/) qui fournit une [table de standardisation des variables et unités de mesures](https://cfconventions.org/Data/cf-standard-names/76/build/cf-standard-name-table.html)
-à inscrire dans l'entete d'un fichier `NetCDF`.
+à inscrire dans l'entete d'un fichier NetCDF.
 
-Ce format standard, la convention "CF", et l'interface de programmation (API) en Python pour créer des fichiers `NetCDF` par programme ont été présentés au [séminaire SIST19 à l'OMP](https://sist19.sciencesconf.org) de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :
+Ce format standard, la convention "CF", et l'interface de programmation (API) en Python pour créer des fichiers NetCDF par programme ont été présentés au [séminaire SIST19 à l'OMP](https://sist19.sciencesconf.org) de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :
 
 ```{admonition} [Présentation du format NetCDF](<https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_JS.pdf>)   
 :class: seealso
@@ -128,7 +128,7 @@ Prace Advanced Training Centers, [Course: Parallel I/O and management of large s
 ### Développer les procédures d'intégration des données dans les bases de données                  
 Les nouveaux mécanismes de collecte de données ont souvent simplifiés
 la mise en base de données comme c'est le cas avec la boite à outils
-`ODK` (cf partie {ref}`collecter`) qui envoie directement les données
+ODK (cf partie {ref}`collecter`) qui envoie directement les données
 collectées sur tablette dans un schéma d'une base de données
 PostgreSQL. Mais, pour sécuriser les données, elles doivent être
 ensuite transférées dans la base de données métier. Cette opération
@@ -252,7 +252,7 @@ Des exemples d'utilisation des plateformes logicielles ERDDAP et
 THREDDS ont été présentés lors de différentes sessions des journées
 du réseau SIST :
 
-G. Brissebrat nous montre comment sont diffusées des données maillées `NetCDF` du SEDOO avec la plateforme logicielle THREDDS. Les avantages évoqués sont nombreux :
+G. Brissebrat nous montre comment sont diffusées des données maillées NetCDF du SEDOO avec la plateforme logicielle THREDDS. Les avantages évoqués sont nombreux :
 - Consulter les métadonnées sans avoir à télécharger le jeu de données
 - Accéder uniquement à une partie d’un jeu de données
 - Télécharger un seul fichier même si les données originales sont réparties dans plusieurs fichiers
@@ -279,7 +279,7 @@ Dans cette présentation les auteurs montrent un workflow complexe
 depuis l'acquisition de données a 2500m de profondeur, jusqu'à
 l'affichage et la diffusion sur un serveur ERDDAP.  Les données de
 capteurs sont traitées avec l'ETL Talend pour produire des fichiers
-CSV et `NetCDF` qui sont diffusées via la plateforme ERDDAP. Dans
+CSV et NetCDF qui sont diffusées via la plateforme ERDDAP. Dans
 le cas de séries temporelles qui s'enrichissent quotidiennement,
 erddap permet d'aggréger automatiquement les données journalières
 qui sont déposées par programme dans un répertoire, sans intervention
@@ -494,7 +494,7 @@ Dans son projet A. Campos utilise un ensemble de scripts Python
 pour convertir les fichiers "xls" en fichier "ascii", puis effectue
 un nettoyage avec la commande "awk" de Unix. Enfin des scripts en
 langage R permet de faire des moyennes glissantes, des graphes
-et des exports des fichiers au format `NetCDF`.
+et des exports des fichiers au format NetCDF.
 
 ```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
 :class: seealso
