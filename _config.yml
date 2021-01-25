@@ -9,6 +9,7 @@ description: "Guide de Bonnes Pratiques sur la gestion des données de la Recher
 exclude_patterns: [README.md,LICENSE.md]
 
 html:
+    home_page_in_navbar: false
     use_repository_button: false
     use_edit_page_button: false
     extra_navbar: <a href="mailto:contact-guide@services.cnrs.fr">contact</a> 
