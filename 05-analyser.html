@@ -1,0 +1,783 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5. Analyser</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/translations.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="6. Préserver et archiver" href="06-archiver.html" />
+    <link rel="prev" title="4. Traiter" href="04-traiter.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="01-imaginer.html">
+   1. Imaginer et préparer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-concevoir_planifier.html">
+   2. Concevoir et planifier
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-collecter.html">
+   3. Collecter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-traiter.html">
+   4. Traiter
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   5. Analyser
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-archiver.html">
+   6. Préserver et archiver
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07-publier.html">
+   7. Publier et diffuser
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-glossaire.html">
+   Glossaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10-infrastructures.html">
+   Infrastructures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-reproductibilite.html">
+   Reproductibilité
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-ressources.html">
+   Autres guides de bonnes pratiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13-credits.html">
+   Crédits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf">
+   Document pdf
+   <i class="fas fa-external-link-alt">
+   </i>
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/05-analyser.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                title="Mode plein écran"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contenu
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plateformes-de-traitement-de-donnees">
+   5.1. Plateformes de traitement de données
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#outils-pour-l-analyse-des-donnees">
+   5.2. Outils pour l’analyse des données
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#langages-de-programmation">
+     5.2.1. Langages de programmation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#approches-methodologiques">
+     5.2.2. Approches méthodologiques
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visualisation-des-donnees-numeriques">
+     5.2.3. Visualisation des données numériques
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mettre-en-place-des-methodes-d-analyse-et-des-chaines-logicielles">
+   5.3. Mettre en place des méthodes d’analyse et des chaînes logicielles
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#qualite-logicielle">
+     5.3.1. Qualité logicielle
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#retours-d-experience">
+     5.3.2. Retours d’expérience
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#optimiser-l-utilisation-des-ressources">
+   5.4. Optimiser l’utilisation des ressources
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#traitements-semantiques-linguistiques">
+   5.5. Traitements sémantiques/ linguistiques
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="analyser">
+<span id="id1"></span><h1><span class="section-number">5. </span>Analyser<a class="headerlink" href="#analyser" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Derrière le terme « analyser » s’entend l’extraction de l’information
+des données le plus souvent par l’utilisation de puissance de calcul.
+Cela recouvre de nombreux types de techniques (calcul intensif,
+traitement statistique, machine learning, visualisation …), et
+nécessite également des plateformes adaptées.</p>
+<p>Cette étape du cycle de vie de nombreuses données impose que ces
+données soient exploitables, c’est-à-dire bien organisées, dans des
+formats adaptés à l’analyse envisagée, de façon à pouvoir leur
+appliquer des traitements automatisés.</p>
+<p>Plusieurs évènements récurrents, annuels ou bisannuels, auxquels
+participent activement les réseaux métiers, comme les <a class="reference external" href="http://www.france-grilles.fr/category/journees-jcad/">JCAD (Journées
+Calcul et Données)</a>,
+les <a class="reference external" href="http://devlog.cnrs.fr/manifestations/start">JDEV (Journées du DEVeloppement
+logiciel)</a> par exemple,
+intègrent de nombreuses interventions sur ces différentes thématiques,
+allant de la description des plateformes aux outils disponibles,
+en passant par l’organisation des développements et la reproductibilité,
+détaillée dans la section <a class="reference internal" href="11-reproductibilite.html"><span class="doc std std-doc">Reproductibilité</span></a>
+de ce guide. Ils incluent aussi très souvent des retours d’expérience
+particulièrement riches.</p>
+<div class="section" id="plateformes-de-traitement-de-donnees">
+<h2><span class="section-number">5.1. </span>Plateformes de traitement de données<a class="headerlink" href="#plateformes-de-traitement-de-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>De nombreuses ressources sont disponibles, à différentes échelles,
+pour analyser et traiter des données.  De façon générale, on distingue:</p>
+<ul class="simple">
+<li><p>Les ressources de type calcul intensif ou HPC (High Performance Computing) organisée à l’échelle européenne (EuroHPC ou Tier 0), nationale (GENCI et les centres nationaux ou Tier 1) et régionale (mésocentres ou Tier 2). Ces ressources sont adaptées aux simulations massives.</p></li>
+<li><p>Les ressources de type cloud (par exemple le cloud distribué de France Grilles : FG-Cloud). Ces ressources souples répondent aux besoins de calcul à la demande ou lorsque la maîtrise de l’ensemble du système est nécessaire.</p></li>
+<li><p>les ressources de type grille de calcul ou HTC (High Throughput Computing), par exemple l’infrastructure France Grilles ou le Centre de Calcul de l’IN2P3. Ces ressources sont utilisées pour faire du traitement massif de données.</p></li>
+</ul>
+<p>Elles sont décrites dans la section
+<a class="reference internal" href="10-infrastructures.html"><span class="doc std std-doc">Infrastructures</span></a> de ce guide. Le choix du
+type d’infrastructures adapté au besoin n’est pas forcément trivial.
+Il est souvent plus pertinent de s’adresser à des spécialistes qui
+sauront vous orienter. En général, les mésocentres de calcul, grâce
+à leur proximité et à leur connaissance du domaine, sont de bons
+conseils. Une liste est disponible sur le <a class="reference external" href="https://calcul.math.cnrs.fr/pages/mesocentres_en_france.html">site du réseau Calcul</a>.</p>
+</div>
+<div class="section" id="outils-pour-l-analyse-des-donnees">
+<h2><span class="section-number">5.2. </span>Outils pour l’analyse des données<a class="headerlink" href="#outils-pour-l-analyse-des-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il existe de très nombreux outils permettant d’analyser ses données,
+allant du langage de programmation au workflow de traitement en
+passant par les logiciels de visualisation.</p>
+<div class="section" id="langages-de-programmation">
+<h3><span class="section-number">5.2.1. </span>Langages de programmation<a class="headerlink" href="#langages-de-programmation" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Certains langages de programmation sont plus particulièrement
+utilisés pour l’analyse de données. En dehors du langage R spécifique
+aux statistiques et à la science des données, l’écosystème s’enrichit
+très rapidement :</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pandas.pydata.org">Python</a> devient de plus en plus utilisé en science des données. Une introduction sur le sujet a été réalisée en décembre 2017 par Francis Wolinski (Société Yotta Conseil) dans le cadre d’une journée organisée par le réseau Calcul.</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://github.com/fran6w/IRMAR/blob/master/IRMAR.pdf">Présentation et illustration de l’écosystème Python pour la data science</a></p>
+<p>Francis Wolinski (Société Yotta Conseil)
+Journée Python et Data Science IRMAR Rennes - 2017</p>
+</div>
+<ul class="simple">
+<li><p><a class="reference external" href="https://julialang.org">Julia</a> est un des langages qui prend de l’importance sur ce sujet. Plusieurs présentations, lors d’une  <a class="reference external" href="https://calcul.math.cnrs.fr/2019-01-journee-julia.html">journée d’introduction au langage</a> organisée par le réseau Calcul en janvier 2019, apportent un éclairage intéressant, en particulier le cadre des algorithmes Map/Reduce, ainsi que les performances du langage sous forme de benchmarks.</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://calcul.math.cnrs.fr/attachments/spip/Documents/Journees/jan2019/julia_map_reduce.pdf">Map/Reduce operations for scientific computing in Julia</a></p>
+<p>Xavier Vasseur (ISAE-SUPAERO)
+<a class="reference external" href="https://calcul.math.cnrs.fr/2019-01-journee-julia.html">Journée Julia - Lyon 2019</a></p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://plmlab.math.cnrs.fr/fabreges/julia-2019/-/blob/master/bench.pdf">Julia : benchmark et bonnes pratiques</a></p>
+<p>Benoît Fabrèges (Institut Camille Jordan, Lyon)
+<a class="reference external" href="https://calcul.math.cnrs.fr/2019-01-journee-julia.html">Journée Julia - Lyon 2019</a></p>
+</div>
+<p>Des retours d’expérience illustrent l’utilisation de ces outils.</p>
+<p>Concernant les outils Python, l’utilisation de Dask à la place de
+job array a été présentée lors des JCAD 2019 par Guillaume
+Eynard-Bontemps, CNES. Dask est une bibliothèque parallèle Python
+qui facilite l’exécution massive de calculs sur des données distribuées.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/20191009_JCAD2019TutoDaskJobArray.pdf">Simulation paramétrique : Passez d’un job array à Dask</a></p>
+<p>Guillaume Eynard-Bontemps (CNES), <a class="reference external" href="https://jcad2019.sciencesconf.org">JCAD 2019, Toulouse</a>.</p>
+</div>
+</div>
+<div class="section" id="approches-methodologiques">
+<h3><span class="section-number">5.2.2. </span>Approches méthodologiques<a class="headerlink" href="#approches-methodologiques" title="Lien permanent vers ce titre">¶</a></h3>
+<p>L’analyse des données ne concerne pas uniquement les modèles
+statistiques.  De nombreux domaines appliqués reposent sur l’analyse
+de données géométriques: médecine, neurosciences, sismique,
+météorologie, vision par ordinateur, apprentissage statistique.
+Cette variété d’applications se retrouve dans la forme, la qualité
+et la sémantique des données ainsi que dans la nature des problèmes
+mathématiques qu’elles posent.  Une <a class="reference external" href="https://geomdata.sciencesconf.org/">école thématique a été consacrée à ce sujet en 2018</a>, à destination
+des non spécialistes.  Elle l’a abordé sous plusieurs angles :</p>
+<ul class="simple">
+<li><p>Analyse topologique de données,</p></li>
+<li><p>Anatomie computationnelle,</p></li>
+<li><p>Méthode d’évolution de front et fast marching,</p></li>
+<li><p>Méthodes variationnelles pour l’imagerie</p></li>
+</ul>
+<p>Outre les présentations, de nombreux exercices encadrés ont été
+proposés avec la mise en œuvre pratique des algorithmes, dans le
+langage Python.</p>
+<p>Un des enjeux de l’analyse de volumes de données de grandes tailles,
+multidimensionnelles concerne les méthodes de réduction de la
+dimension (classiques comme ACP, AFC, MDS, …) ou issues du « machine
+learning » (kernel PCA, …).
+Cette approche a été abordée lors d’une <a class="reference external" href="https://calcul.math.cnrs.fr/2017-09-anf-reduction-dimension.html">école thématique qui a eu lieu en 2017</a>.
+Cette formation, nécessitant des connaissances de base en calcul
+matriciel, a permis d’approfondir certaines des techniques
+matricielles (recherche de valeurs propres, décomposition en valeurs
+singulières), sur le plan à la fois théorique et pratique.</p>
+<p>On peut trouver un exemple d’utilisation concrète de ce type de technique présenté lors des JCAD 2018 par Alain Franc, INRA, appliqué à la biologie.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/afranc_jcad_2018_vendredi.pdf">L’exploration de la diversité des protistes : l’apport du calcul intensif</a></p>
+<p>J.-M. Frigerio, P. Chaumeil, F. Rué, S. Thérond, V. Louvet, O.Coulaud &amp; A. Franc
+<a class="reference external" href="https://jcad2018.sciencesconf.org">JCAD 2018 - Lyon</a></p>
+</div>
+<p>De façon un peu générale, toutes ces approches conduisent ou sont la base de certains pans de l’Intelligence Artificielle. De plus en plus d’évènements sont consacrés à ces technologies.</p>
+<p>Une introduction sur cette thématique a été réalisée en 2018 dans le cadre des « Journées Système » du réseau ResInfo.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/130/contribution/3/material/slides/0.pdf">Intelligence artificielle: une longue histoire … et demain ?</a></p>
+<p>Pierre Gançarski (Université de Strasbourg)
+<a class="reference external" href="https://indico.mathrice.fr/event/130/">Josy Intelligence Artificielle - Strasbourg 2018</a></p>
+</div>
+<p>De même, le réseau SARI grenoblois a organisé une journée sur le
+sujet, avec une présentation de Jean-Luc Parouty particulièrement
+didactique.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sari.grenoble-inp.fr/lib/exe/fetch.php?media=theme:ia_deep_learning:ia_deep_learning:ia_machinelearning_pres20190606.pdf">AI Machine Learning &amp; Deep Learning</a></p>
+<p>Jean-Luc Parouty (SIMAP)
+<a class="reference external" href="https://sari.grenoble-inp.fr/doku.php?id=theme:ia_deep_learning:ia_deep_learning:ia">Séminaire SARI 2019</a></p>
+</div>
+<p>Compte tenu de l’engouement engendré autour de l’IA, de nombreuses
+journées et conférences sont organisées sur le sujet. En particulier,
+il fait l’objet de sessions spéciales lors des Journées Développement
+(Jdev) de <a class="reference external" href="http://devlog.cnrs.fr/jdev2020/t8">2020</a> et
+<a class="reference external" href="http://devlog.cnrs.fr/jdev2017/t7">2017</a>.</p>
+</div>
+<div class="section" id="visualisation-des-donnees-numeriques">
+<h3><span class="section-number">5.2.3. </span>Visualisation des données numériques<a class="headerlink" href="#visualisation-des-donnees-numeriques" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Un des outils d’analyse les plus utilisés est la visualisation des
+données. Cependant cette visualisation peut s’avérer particulièrement
+délicate dans le cadre de très gros volumes de données, et nécessite
+de s’appuyer sur des solutions techniques spécifiques.</p>
+<p>Dans le domaine des données numériques, plusieurs bibliothèques
+sont particulièrement adaptées aux données de grande taille, ainsi
+qu’à la visualisation in situ, c’est-à-dire en cours de calcul en
+ce qui concerne les données de simulation : <a class="reference external" href="https://wci.llnl.gov/simulation/computer-codes/visit">VisIt</a> et <a class="reference external" href="https://www.paraview.org">ParaView</a>.
+Plusieurs interventions sur ce sujet ont été réalisées dans le cadre
+d’une <a class="reference external" href="https://calcul.math.cnrs.fr/2017-12-atelier-visualisation.html">journée dédiée organisée en 2017 par le réseau Calcul</a> .</p>
+<p>De même, une <a class="reference external" href="https://calcul.math.cnrs.fr/2016-11-anf-visu-data.html">action de formation</a> a été
+complètement consacrée à ce sujet en 2016 par le réseau Calcul.
+Elle a en particulier abordé les bonnes pratiques concernant la
+production de données : formats d’archivage, technique d’analyse,
+cycle de vie ainsi que les outils de visualisation avancés
+(visualisation in situ, temps réel, web).</p>
+<p>La visualisation des données est également au coeur des problématiques des utilisateurs du calcul intensif. Le projet européen PRACE sur le calcul intensif propose des formations spécifiques, en particulier sur les outils de la <a class="reference external" href="https://materials.prace-ri.eu/view/divisions/visualisation.html">visualisation scientifique</a>.</p>
+</div>
+</div>
+<div class="section" id="mettre-en-place-des-methodes-d-analyse-et-des-chaines-logicielles">
+<h2><span class="section-number">5.3. </span>Mettre en place des méthodes d’analyse et des chaînes logicielles<a class="headerlink" href="#mettre-en-place-des-methodes-d-analyse-et-des-chaines-logicielles" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L’analyse des données peut nécessiter la mise en place d’un workflow
+de traitement utilisant des chaînes logicielles. Il existe des
+environnements virtuels de recherche (VRE Virtual Research Environment)
+qui facilitent la mise en place de ces méthodes d’analyse complexes.</p>
+<p><a class="reference external" href="https://www.creatis.insa-lyon.fr/vip/">VIP</a>, the Virtual Imaging Platform, est un portail qui permet à ses
+utilisateurs d’accéder simplement à leurs données, de les traiter
+facilement avec des logiciels préinstallés sur la plateforme.
+Traitements et données sont distribués sur l’infrastructure EGI
+(infrastructure de grille de calcul européenne). Pour répondre au
+besoin d’interopérabilité des données, l”<a class="reference external" href="https://github.com/CARMIN-org/CARMIN-API">API CARMIN</a> (API web) est
+maintenant utilisée par VIP. Cette présentation explique les
+différentes étapes du fonctionnement du système mis en place.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/VIP_Axel_Bonnet.pdf">VIP : towards data interoperability through CARMIN</a>, <a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=vC6b9705">vidéo</a></p>
+<p>Axel Bonnet, Pascal Wassong, Frederic Cervenansky, Camarasu-Pop Sorina, CREATIS et , Tristan Glatard, Concordia University
+<a class="reference external" href="https://jcad2019.sciencesconf.org">JCAD 2019</a>, Toulouse.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/VIP_poster.pdf">Virtual Imaging Platform</a></p>
+<p>Sorina Camarasu-Pop, Axel Bonnet, Frédéric Cervenansky, CREATIS, Tristan Glatard, Concordia University
+<a class="reference external" href="https://jcad2018.sciencesconf.org">JCAD 2018</a></p>
+</div>
+<p><a class="reference external" href="https://pangeo.io">Pangeo</a> est une communauté qui travaille au
+développement de logiciels et d’infrastructures pour faciliter la
+mise en œuvre des géosciences, dans le domaine du « Big Data ». Cette
+communauté développe tout un écosystème d’outils open source pour
+les géosciences.</p>
+<p>Cet écosystème a été présenté lors des JCAD 2019 et 2018 :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/Briol_pangeo_swot_jcad2019_2019_10_10.pdf">Analyse de simulations numériques de l’océan en préparation aux missions satellite : cas d’utilisation des outils PANGEO</a></p>
+<p>A. Albert, F. Briol, L. Brodeau, G. Dibarboure, G. Eynard-Bontemps, J. Le Sommer, A. Ponte
+<a class="reference external" href="https://jcad2019.sciencesconf.org">JCAD 2019</a>, Toulouse.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/20181026_JCAD2018_CNES_GuillaumeEynard.pdf">Jupyter, Dask : traitement distribué simple et interactif en Python sur HPC avec l’écosystème Pangeo</a></p>
+<p>Guillaume Eynard-Bontemps, Centre National d’Etudes Spatiales
+<a class="reference external" href="https://jcad2018.sciencesconf.org">JCAD 2018</a>, Lyon.</p>
+</div>
+<p>D’autres environnements de management de workflow existent :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/2018_010_23_JCAD_FSuter.pdf">WRENCH: Workflow Management System Simulation Workbench</a></p>
+<p>Frederic Suter, Henri Casanova, Rafael Ferreira Da Silva, CC IN2P3
+<a class="reference external" href="https://jcad2018.sciencesconf.org">JCAD 2018</a>, Lyon.</p>
+</div>
+<p>enfin, les environnements de notebooks sont des outils de plus en
+plus utilisés dans le cadre de l’analyse de données. Les notebooks
+sont des programmes qui contiennent à la fois du texte et du code,
+dans différents langages (Python, Julia, R, Scala …),
+exécutables via une interface web. Ces outils sont de plus en plus couramment
+utilisés en sciences des données. Jupyter est l’application de
+notebooks la plus utilisée actuellement.</p>
+<p>Plusieurs interventions ont eu lieu sur ce sujet. La première,
+exposée lors des JCAD 2019, met particulièrement en avant l’intérêt
+des notebooks pour la reproductibilité.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf">Towards reproducible Jupyternotebooks</a></p>
+<p>Ludovic Courtès, INRIA
+<a class="reference external" href="https://jcad2019.sciencesconf.org">JCAD 2019</a>, Toulouse.</p>
+</div>
+<p>La présentation suivante, qui a eu lieu lors des JCAD 2018, expose
+les services de notebooks proposés par l’infrastructure de grille
+européenne EGI.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/EGI_Notebooks_et_Check_in_AAI.pdf">EGI Notebooks : Jupyter as a Service and EGI Check-In AAI</a></p>
+<p>Baptiste Grenier, egi.eu
+<a class="reference external" href="https://jcad2018.sciencesconf.org">JCAD 2018</a>, Lyon.</p>
+</div>
+<p>Enfin, ce dernier exposé, des JCAD 2018, montre l’utilité des
+notebooks pour la pédagogie et la formation.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/20181024_JCAD_romeolab.pdf">RomeoLAB, le portail web HPC : cas d’utilisation pour la pédagogie et les logiciels à la demande</a></p>
+<p>Arnaud RENARD, Université de Reims Champagne-Ardenne
+<a class="reference external" href="https://jcad2018.sciencesconf.org">JCAD 2018</a>, Lyon.</p>
+</div>
+<div class="section" id="qualite-logicielle">
+<h3><span class="section-number">5.3.1. </span>Qualité logicielle<a class="headerlink" href="#qualite-logicielle" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Ces chaînes de traitement sont très souvent associées à des instruments
+complexes et nécessitent ainsi de s’interfacer parfaitement avec
+le reste de l’instrument.  Dans ce contexte, il convient d’assurer
+le suivi des exigences liées au logiciel, la gestion des interfaces
+avec le reste de l’instrument et l’activité Assurance Qualité
+Logiciel. Cette dernière permet notamment de répondre à des exigences
+applicables à un logiciel, du développement à la maintenance de
+celui-ci.  L’ensemble des activités, normes, contrôles et procédures
+mis en place doit couvrir la totalité de la durée de vie d’un
+logiciel. Il est par exemple important de vérifier et valider au
+travers de tests la bonne santé du code et de constamment veiller
+à la traçabilité qui lui est liée.</p>
+<p>Une <a class="reference external" href="https://jt-aql.sciencesconf.org/">journée du réseau Qualité en Recherche</a> a été entièrement
+consacrée à ce sujet en 2019. Plusieurs exposés ont permis d’illustrer
+les concepts associés à la qualité logicielle :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jt-aql.sciencesconf.org/data/program/jt_aql_Paris_2019_v5_HV.pdf">Qu’est-ce qu’un logiciel et qu’est-ce que la qualité ?</a></p>
+<p>Henri VALEINS, Journée thématique Assurance Qualité Logiciel 2019, Paris.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jt-aql.sciencesconf.org/data/program/PRESOFT_qualite_en_recherche2019v1_GR.pdf">Plans de Gestion de Logiciel et Assurance Qualité Logiciel, les apports de PRESOFT</a></p>
+<p>Geneviève Romier, CC-IN2P3, Journée thématique Assurance Qualité Logiciel 2019, Paris.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jt-aql.sciencesconf.org/data/program/ref_normes_codage_ZT.pdf">Référentiels et normes de codage</a></p>
+<p>Z.Tucsnak,  Journée thématique Assurance Qualité Logiciel 2019, Paris.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jt-aql.sciencesconf.org/data/program/qualite_nanosat_v2_CG.pdf">Qualité Logiciel dans un projet de Nanosatellite</a></p>
+<p>Colin Gonzalez, AstroParticules et Cosmologie,  Journée thématique Assurance Qualité Logiciel 2019, Paris.</p>
+</div>
+</div>
+<div class="section" id="retours-d-experience">
+<h3><span class="section-number">5.3.2. </span>Retours d’expérience<a class="headerlink" href="#retours-d-experience" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Dans le domaine environnemental, les chaines logicielles sont
+également mises en place pour automatiser et ecnhaine un certain
+nombr de traitements comme:</p>
+<ul class="simple">
+<li><p>le contrôle qualité basé sur des paramètres physiques de l’instrument</p></li>
+<li><p>le contrôle qualité spécifique à un type d’instrument</p></li>
+<li><p>les corrections</p></li>
+<li><p>le filtrage</p></li>
+<li><p>les aggrégations</p></li>
+<li><p>le stockage en base de données</p></li>
+</ul>
+<p>Plusieurs présentations issues des journées du réseau SIST illustrent
+des mises en oeuvre de chaîne logicielle d’analyse de données:</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf">Filtrage interactif de données multidimensionnelles</a></p>
+<p>Patrick Brockmann, Laboratoire des Sciences du Climat et de l’Environnement<br />
+<a class="reference external" href="https://sist16.sciencesconf.org/">SIST16 OSU OREME 2016, Montpellier</a>.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf">Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS</a></p>
+<p>Lynn Hazan, Laboratoire des Sciences du Climat et de l’Environnement<br />
+<a class="reference external" href="https://sist18.sciencesconf.org/">SIST18 2018, Observatoire Versailles</a>.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf">Vie d’une données sismologique de sa naissance sur le terrain jusqu’à sa distribution</a></p>
+<p>David Wolyniec, OSU Grenoble - Jonathan Schaeffer, OSU Grenoble<br />
+<a class="reference external" href="https://sist16.sciencesconf.org/">SIST16 OSU OREME 2016, Montpellier</a>.</p>
+</div>
+</div>
+</div>
+<div class="section" id="optimiser-l-utilisation-des-ressources">
+<h2><span class="section-number">5.4. </span>Optimiser l’utilisation des ressources<a class="headerlink" href="#optimiser-l-utilisation-des-ressources" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L’analyse des données peut nécessiter l’usage de ressources assez
+massives en termes de puissance et de nombre, d’autant plus que la
+volumétrie des données a tendance à augmenter fortement.</p>
+<p>Il est donc important de s’assurer d’optimiser l’utilisation de ces
+ressources.</p>
+<p>En particulier au niveau des codes de calcul, le réseau Calcul
+propose régulièrement des journées sur ces sujets :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://indico.obspm.fr/event/60/">Une journée d’introduction à l’évaluation des performances des codes de calcul</a></p>
+<p>2018, Observatoire de Paris.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://calcul.math.cnrs.fr/2019-09-anf-perf-eval-hpc.html">Une formation sur l’évaluation de la performance des codes</a>, en particulier à travers les outils Paraver et Scalasca.</p>
+<p>2019, Observatoire de Haute Provence.</p>
+</div>
+<p>Enfin, l’optimisation des ressources s’entend aussi au niveau environnemental, afin de réduire l’impact des analyses de données. Le <a class="reference external" href="https://ecoinfo.cnrs.fr/">GDS EcoInfo</a>  a organisé en 2017 une <a class="reference external" href="https://ecoinfo.cnrs.fr/2017/01/05/conf-ecoinfo-3-fevrier-2017-impact-des-logiciels-sur-lenvironnement-quid-de-leco-conception/">journée sur l’impact des logiciels sur l’environnement</a>, dont certains exposés peuvent directement concerner la problématique de l’analyse des données :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/greenspector.pdf">Écoconception logicielle, retours d’expérience sur la réduction de l’impact des logiciels</a></p>
+<p>Olivier Philippot, GreenSpector
+Conf EcoInfo 2017, Grenoble.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://gricad-media.univ-grenoble-alpes.fr/video/teec-logiciel-vert-et-durable">TEEC: Logiciel vert et durable</a></p>
+<p>Hayri ACAR, Université Lyon 1
+Conf EcoInfo 2017, Grenoble.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/ecoinfo-soft.pdf">Écoconception logicielle pour la gestion des datacentres de calcul</a></p>
+<p>Olivier Richard, LIG
+Conf EcoInfo 2017, Grenoble.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/20170203-Ecoconception.pdf">Calcul Intensif, Consommation et Changement Climatique</a></p>
+<p>Xavier Vigouroux
+Conf EcoInfo 2017, Grenoble.</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/Eco-Info-3fev-PDF.pdf">Eco-élasticité logicielle pour un Cloud frugal</a></p>
+<p>Thomas Ledoux, Ecole des Mines de Nantes
+Conf EcoInfo 2017, Grenoble.</p>
+</div>
+</div>
+<div class="section" id="traitements-semantiques-linguistiques">
+<h2><span class="section-number">5.5. </span>Traitements sémantiques/ linguistiques<a class="headerlink" href="#traitements-semantiques-linguistiques" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L’accroissement massif de la production scientifique (données et
+publications) et la multitude de canaux de diffusion existants
+appellent au cœur des activités de recherche, la mise en place de
+solutions informatiques permettant le repérage, l’extraction,
+l’exploration et l’analyse de corpus de données. Les méthodes et
+outils TDM (Text and Data Mining) apportent une aide importante
+pour explorer et analyser le sens des textes et en donner une
+représentation compréhensible par les humains et les machines.</p>
+<p>En 2013, déjà le réseau Renatis avait accueilli Claire Nedellec et
+Agnès Girad (INRA)  pour illustrer l’usage possible des technologies
+sémantiques pour la gestion de l’information scientifique et technique
+ainsi que Fabien Amarger (IRIT IRSTEA) pour témoigner de la
+construction d’une base de connaissance partant d’un cas d’usage :
+l’annotation des Bulletins de Santé du Végétal</p>
+<p>Dans leur présentation, Claire Nedellec et Agnès Girard expliquent
+les principes de l’analyse sémantique de texte à travers un exemple
+en recherche documentaire et présentent le projet TirPhase.  La
+notion d’indexation sémantique  à travers un exemple en physiologie
+animale est abordée en début de présentation sous les traits d’une
+carte d’identité thématique associée au document.  Les auteurs
+présentent également la notion de termino-ontologie et définissent
+l’ontologie comme « un graphe où les nœuds sont des concepts et les
+arcs des relations entre ces concepts ». Elles expliquent que
+l’analyse sémantique identifie les unités sémantiques du texte et
+les associe aux concepts de l’ontologie. Partant de là, elle présente
+le processus de conception de termino-ontologie à partir de corpus
+en deux étapes : extraction automatique de termes avec l’outil
+Syntex et structuration et modélisation avec l’outil Protégé. La
+deuxième partie de la présentation est consacrée à la présentation
+du projet TriPhase.  Ce projet a pour objectif d’analyser les
+publications d’un département de recherche à des fins stratégiques
+(analyse quantitative des termes au cours du temps) et disposer
+d’un moteur de recherche sémantique bibliographique spécialisé. Les
+auteurs expliquent les différentes phases de la construction de la
+termino-ontologie TriPhase et l’apport des documentalistes dans ce
+travail collaboratif.</p>
+<p>Fabien Amarger, présente quant à lui un projet qui consiste à
+construire une base de connaissance à partir de source et de données
+hétérogènes. Il explique ce qu’est une base de connaissance et
+comment l’interroger.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/Nedellec_Girard_Fredoc-v4.pdf">Des technologies sémantiques pour l’information scientifique et technique</a></p>
+<p>Claire Nedellec, Agnès Girard, INRA<br />
+Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/FreDoc_Irstea.pdf">Annotation des Bulletins de santé du végétal (BSV) et interrogation</a></p>
+<p>Fabien Amarger , IRIT-IRSTEA<br />
+Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois</p>
+</div>
+<p>Plus récemment, Laurence El Khoury (DIST-CNRS) et Stéphane Schneider
+(INIST – CNRS) à l’occasion des Frédocs2018 ont présenté les projets
+<a class="reference external" href="https://www.istex.fr/">ISTEX</a>,
+<a class="reference external" href="https://objectif-tdm.inist.fr/2018/11/29/le-projet-visa-tm/">VisaTM</a> et
+<a class="reference external" href="http://openminted.eu/">OpenMinteD</a> pour illustrer la mise à
+disposition d’une infrastructure de text-mining.  ISTEX est une
+base documentaire qui propose un accès à distance et de manière
+pérenne à un corpus multidisciplinaire (plus de 23 millions de
+documents) en texte intégral. Cette base propose également des
+services permettant la mise en place de traitements des données :
+extraction, fouille de textes, production de synthèses documentaires.
+La première partie de l’intervention présente les objectifs, les
+ressources et les possibilités offertes par la plateforme.  La
+seconde partie s’intéresse plus particulièrement à la fouille de
+texte et au projet VisaTM. Ce projet porté par l’INRA vise à étudier
+les conditions de production de services TDM à haute valeur ajoutée
+basés sur l’analyse sémantique à destination des chercheurs pour
+une généralisation des approches TDM dans les activités de recherche.
+Le Projet européen H2020 OpenMinteD présenté en 3e partie est une
+e-infrastructure encourageant et facilitant l’utilisation des
+technologies de fouille de textes. Sa connexion à ISTEX permet
+l’exploration de corpus. Plateforme open source, ouverte et pérenne
+elle offre aux chercheurs la possibilité de découvrir, créer,
+partager et réutiliser des logiciels, des documents et des ressources
+pour le text-mining, le TALN, l’Extraction d’Information en travaillant
+à partir de sources documentaires licitement utilisables tels
+qu’ISTEX, OPENAIRE et CORE.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://fredoc2018.sciencesconf.org/data/pages/Pres_istex_visa_omtd_ElKhouri_Schneider.pdf">Bases de ressources numériques et services aux chercheurs. Avec ISTEX et OpenMintedD, l’alliance pour une infrastructure de text-mining</a></p>
+<p>Laurence El Khoury (DIST-CNRS), Stéphane Schneider (INIST – CNRS)<br />
+Frédocs2018 - Démarches innovantes en IST : expérimenter, proposer (se) réinventer,  2018, Albi</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="04-traiter.html" title="previous page"><span class="section-number">4. </span>Traiter</a>
+    <a class='right-next' id="next-link" href="06-archiver.html" title="next page"><span class="section-number">6. </span>Préserver et archiver</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+        
+            &copy; Copyright 2021.<br/>
+          Mis à jour le 25 janv. 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

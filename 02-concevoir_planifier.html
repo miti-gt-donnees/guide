@@ -1,0 +1,622 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2. Concevoir et planifier</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/translations.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="3. Collecter" href="03-collecter.html" />
+    <link rel="prev" title="1. Imaginer et préparer" href="01-imaginer.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="01-imaginer.html">
+   1. Imaginer et préparer
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   2. Concevoir et planifier
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-collecter.html">
+   3. Collecter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-traiter.html">
+   4. Traiter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-analyser.html">
+   5. Analyser
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-archiver.html">
+   6. Préserver et archiver
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07-publier.html">
+   7. Publier et diffuser
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-glossaire.html">
+   Glossaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10-infrastructures.html">
+   Infrastructures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-reproductibilite.html">
+   Reproductibilité
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-ressources.html">
+   Autres guides de bonnes pratiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13-credits.html">
+   Crédits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf">
+   Document pdf
+   <i class="fas fa-external-link-alt">
+   </i>
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/02-concevoir_planifier.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                title="Mode plein écran"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contenu
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#evaluer-les-besoins-lies-au-projet">
+   2.1. Évaluer les besoins liés au projet
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees">
+     2.1.1. Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mettre-en-place-une-gestion-de-projet">
+   2.2. Mettre en place une gestion de projet
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#analyser-les-risques">
+     2.2.1. Analyser les risques
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#definir-le-risque-associe-a-un-jeu-de-donnees">
+       2.2.1.1. Définir le risque associé à un jeu de données
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#sauvegarder-les-donnees">
+     2.2.2. Sauvegarder les données
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#amorcer-un-plan-de-gestion-de-donnees">
+   2.3. Amorcer un plan de gestion de données
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comment-creer-un-plan-de-gestion-des-donnees">
+     2.3.1. Comment créer un plan de gestion des données ?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creer-un-plan-de-gestion-de-logiciel">
+     2.3.2. Créer un plan de gestion de logiciel
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#retour-d-experience">
+     2.3.3. Retour d’expérience
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services">
+   2.4. Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-bases-de-donnees">
+     2.4.1. Les bases de données
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#la-gestion-des-collections">
+     2.4.2. La gestion des collections
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="concevoir-et-planifier">
+<span id="concevoir-planifier"></span><h1><span class="section-number">2. </span>Concevoir et planifier<a class="headerlink" href="#concevoir-et-planifier" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Dans cette étape du cycle de vie de la donnée, il s’agit de définir les tâches à accomplir pour réaliser le projet de recherche, d’élaborer un planning, de rechercher d’éventuels partenaires et financements, d’élaborer les spécifications nécessaires (i.e. de définir précisément les éléments fonctionnels et techniques souhaités), de définir les données et les métadonnées qui seront utiles, de penser au futur plan de diffusion et bien d’autres actions de préparation et de planification.</p>
+<p>Pour ces travaux de conception et de planification, les réseaux apportent un appui sur la gestion de projet, les méthodologies de conduite de projet qui permettent par exemple la définition des indicateurs utiles au projet, les outils pour assurer l’interopérabilité des systèmes mis en oeuvre.</p>
+<p>Ils fournissent des  recommandations et des retours d’expérience pour la rédaction des plans de gestion de	données,	pour la définition du type	de données à collecter, l’identification de	nouveaux supports de publication…</p>
+<p>À ce stade, il est aussi nécessaire de	prévoir	le	mode de collecte et de stockage afin d’organiser	la traçabilité en	amont, traçabilité qui permettra de garantir la réutilisation des données.</p>
+<div class="section" id="evaluer-les-besoins-lies-au-projet">
+<h2><span class="section-number">2.1. </span>Évaluer les besoins liés au projet<a class="headerlink" href="#evaluer-les-besoins-lies-au-projet" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Lors du montage du projet ou au plus tard en début de projet, il est nécessaire d’évaluer les différents besoins, de mettre en place une organisation et les outils collaboratifs nécessaires à son bon déroulement. Les paragraphes suivants abordent différents points de vue complémentaires.</p>
+<div class="section" id="anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees">
+<h3><span class="section-number">2.1.1. </span>Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)<a class="headerlink" href="#anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Il convient de prendre en compte les besoins des utilisateurs du projet, quelquefois appelés « use cases », et les besoins entre les différents systèmes qui seront sollicités, qu’ils existent déjà ou qu’ils soient élaborés pour le projet.</p>
+<p>À l’occasion de l’ANF « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? »
+organisée en mai 2016, Nadine Mandran, du laboratoire LIG, explique comment intégrer l’utilisateur au sein d’un projet.
+Elle présente en parallèle, la méthode Agile et la Démarche centrée utilisateur. Le contenu de cette présentation est très concret et illustré par des exemples.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/utilisateurs_anfrbdd.pdf">Méthodes pour intégrer l’utilisateur dans la construction des applications</a></p>
+<p><a class="reference external" href="https://webcast.in2p3.fr/video/methodes_pour_integrer_l_utilisateur_dans_la_construction_des_applications">Vidéo :</a><br />
+Nadine MANDRAN, LIG<br />
+Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? », 2016, rBDD</p>
+</div>
+</div>
+</div>
+<div class="section" id="mettre-en-place-une-gestion-de-projet">
+<h2><span class="section-number">2.2. </span>Mettre en place une gestion de projet<a class="headerlink" href="#mettre-en-place-une-gestion-de-projet" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Les aspects de conception et de planification nécessitent de mettre en place une méthodologie de gestion de projet. En complément, une analyse des risques et une analyse SWOT (méthode permettant d’analyser les forces, les faiblesses, les opportunités et menaces liées à un projet) pourront également être menées.</p>
+<p>De façon à mieux comprendre l’amplitude de la gestion de projet et sa nécessaire adéquation avec la thématique scientifique du laboratoire et les contraintes qui lui sont afférentes, on pourra consulter la présentation de Myriam Ferro réalisée en 2017. Elle présente la démarche qualité mise en place au laboratoire « Étude de la dynamique des protéomes » ainsi que les outils déployés pour appuyer la démarche.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_ferro.pdf">Gestion de projet dans le domaine de la recherche en biologie avec la mise en place d’outils tels que la mise en place d’une procédure R&amp;D, de fiche projet, l’utilisation d’un LIMS et les gestions des anomalies</a></p>
+<p>Myriam Ferro, U1038 BGE CEA/Inserm UGA<br />
+Rencontres du Réseau Qualité en Recherche : Traçabilité des activités de recherche et gestion des connaissances, Grenoble, 2017</p>
+</div>
+<p>Dans d’autres domaines, on pourra s’inspirer de la « Méthode de conduite de la recherche en informatique centrée humain ». Il s’agit des domaines de la recherche en informatique qui intègrent des utilisateurs pour construire de la connaissance scientifique et des outils supports à cette recherche. À titre d’exemple, nous pouvons citer les domaines concernés comme le domaine des Systèmes d’Information (SI), de l’Ingénierie des Interfaces Homme-Machine (IIHM) ou celui des Environnements Informatiques pour l’Apprentissage Humain (EIAH). Dans ces travaux de recherche se pose le problème du processus de conduite de la recherche et de la traçabilité des résultats et de la qualité des données. Cette méthode offre des outils conceptuels et techniques pour garantir la traçabilité du processus de conduite de la recherche. Elle porte le nom de THEDRE pour « Traceable Human Experiment Design Research ».</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_mandran.pdf">THEDRE : Méthode de conduite de la recherche en informatique centrée humain</a></p>
+<p>Nadine Mandran, LIG<br />
+Rencontres du Réseau Qualité en Recherche : Traçabilité des activités de recherche et gestion des connaissances, Grenoble, 2017</p>
+</div>
+<p>À l’échelle d’un organisme, il est aussi possible de doter les équipes de méthodes et d’outils de gestion de la qualité. L’INRA a développé une nouvelle politique qualité et en appui à cette politique, un outil de diagnostic, EureQUA: une méthode pour manager tout type d’activité. Diane Briard, lors de l’ANF qualité 2019, présente cette politique et détaille le fonctionnement d’EureQUA.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qualsimp.sciencesconf.org/data/program/3_Outil_de_Diagnostic_Diane_BRIARD.pdf">Outil de Diagnostic EureQUA: une méthode simple d’aide à la décision en appui au pilotage des activités de recherche et d’expérimentation</a></p>
+<p>Diane Briard, INRA<br />
+ANF Qualité : Faire simple et utile (QUALSIMP), Nancy, 2019</p>
+</div>
+<p>La gestion d’un projet inclut aussi l’assurance produit.
+Il s’agit de l’ensemble des dispositions et activités définies et mises en place pour garantir que le produit atteigne les objectifs définis dans le cadre d’un projet ou d’une mission et qu’il soit sûr, fiable et disponible.
+C’est avant tout une question de bon sens et d’organisation interne. L’assurance produit s’applique à tout type de projet de manière transverse sur toutes les thématiques techniques et interagit avec tous les acteurs du projet.
+Ces activités couvrent :</p>
+<ul class="simple">
+<li><p>la maîtrise des risques et la sûreté de fonctionnement ;</p></li>
+<li><p>l’assurance qualité (en conception et fabrication, approvisionnement et gestion de la sous-traitance, gestion des équipements, traçabilité) ;</p></li>
+<li><p>la maîtrise de la qualification des matériaux, composants et procédés ;</p></li>
+<li><p>la maîtrise et le contrôle de la contamination particulaire, moléculaire… ;</p></li>
+<li><p>la gestion de la documentation et de la configuration ;</p></li>
+<li><p>l’assurance qualité Logiciel.</p></li>
+</ul>
+<p>Le réseau Qualité en Recherche a élaboré une <a class="reference external" href="http://qualite-en-recherche.cnrs.fr/IMG/pdf/Guide_Assurance_Produit-2019_05_24.pdf">guide assurance produit</a> qui détaille ces points.</p>
+<div class="section" id="analyser-les-risques">
+<h3><span class="section-number">2.2.1. </span>Analyser les risques<a class="headerlink" href="#analyser-les-risques" title="Lien permanent vers ce titre">¶</a></h3>
+<p>La sécurité de l’information est définie comme la « protection de la confidentialité, de l’intégrité et de la disponibilité de l’information ». Elle devient aujourd’hui une des problématiques majeures de nos unités.</p>
+<p>Forts de ce constat, nous devons envisager la finalité de « protection du patrimoine scientifique » à travers des enjeux principaux :</p>
+<ul class="simple">
+<li><p>garantir la disponibilité de l’outil de travail pour l’ensemble des personnels de la structure</p></li>
+<li><p>garantir la confidentialité des informations, qu’elles soient professionnelles ou personnelles ;</p></li>
+<li><p>garantir l’intégrité des informations et des personnes ;</p></li>
+<li><p>assurer la protection des données à caractère personnel et / ou sensibles collectées, produites ou gérées par la structure (données scientifiques et techniques, données de gestion administrative, données individuelles) ;</p></li>
+<li><p>assurer la protection juridique (risques administratifs, risques pénaux, perte d’image de marque).</p></li>
+</ul>
+<p>Une analyse de risque telle qu’évoquée dans le <a class="reference external" href="http://gbp.resinfo.org/">Guide des bonnes pratiques pour les Administrateurs Systèmes et Réseaux </a> apparaît comme une réponse aux besoins de protection des données de nos unités de recherche.</p>
+<p>L’analyse de risque permet alors d’identifier les objectifs de sécurité et les mesures à prendre adaptées aux besoins de protection de données de l’unité. Elle sert d’élément à l’élaboration de la politique de sécurité du Système d’Information (PSSI).</p>
+<p>L’analyse de risques et la gestion des risques sont des processus importants de la gestion de projet. Un ensemble de présentations réalisées en décembre 2015 en dresse un panorama.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://qualite-en-recherche.cnrs.fr/IMG/pdf/introduction_a_l_ecole_Risque.pdf">L’analyse des risques, leviers de différenciations des projets et d’amélioration de la qualité de la recherche</a></p>
+<p>Thierry Bontems, UMR Pacte, Professeur affilié à Grenoble École de Management<br />
+6e rencontre du réseau Qualité en Recherche, Biarritz, 2015</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://qualite-en-recherche.cnrs.fr/IMG/pdf/2015_12_03-ANF_QeR_Risques_projet_Lacombe-ppt.pdf">Le management des risques dans un projet</a></p>
+<p>Marielle LACOMBE, Observatoire Midi Pyrénées, Toulouse<br />
+6e rencontre du réseau Qualité en Recherche, Biarritz, 2015</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qualsimp.sciencesconf.org/data/program/17_La_cartographie_des_risques_pour_ame_liorer_les_services_relatifs_a_la_gestion_des_contrats_et_conventions_S._GOULIN_C._ROCH.pdf">La cartographie des risques pour améliorer les services relatifs à la gestion des contrats et conventions</a></p>
+<p>Catherine ROCH – Sabine GOULIN, Université de Lorraine<br />
+6e rencontre du réseau Qualité en Recherche, Biarritz, 2015</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qualsimp.sciencesconf.org/data/program/16_Outil_d_e_valuation_Analyse_SWOT_Sabine_GOULIN.pdf">Présentation de l’analyse SWOT : les usages et les conditions d’emploi de la méthode</a></p>
+<p>Sabine GOULIN, Université de Lorraine<br />
+6e rencontre du réseau Qualité en Recherche, Biarritz, 2015</p>
+</div>
+<div class="section" id="definir-le-risque-associe-a-un-jeu-de-donnees">
+<h4><span class="section-number">2.2.1.1. </span>Définir le risque associé à un jeu de données<a class="headerlink" href="#definir-le-risque-associe-a-un-jeu-de-donnees" title="Lien permanent vers ce titre">¶</a></h4>
+<p>Eric Quinton aborde la question de la protection des données dans un contexte de menaces informatiques. Que représente la donnée ?  Il précise qu’une donnée n’a pas de valeur intrinsèque, c’est la représentation d’une réalité, elle dépend de son contexte d’acquisition, de son traitement. Lorsque l’on travaille sur les données, on travaille toujours sur un processus d’acquisition dans le cadre d’un référentiel.
+Certaines données doivent être protégées, car elles comportent un risque si elles venaient à être diffusées et réutilisées. Face aux menaces informatiques qui n’ont jamais été aussi nombreuses (piratages, attaques, arnaques), il importe de définir le risque et de comprendre comment l’intégrer à la gestion des données. Il existe plusieurs définitions, mais l’on s’accorde pour dire que c’est la conjonction entre une cible, un impact, une cause et une probabilité. Une fois la cible définie (un jeu de donnée) il convient de définir l’impact ou la gravité. Celui-ci s’évalue selon trois critères (confidentialité de l’information, intégrité des données et disponibilité du système) classés chez IRSTEA selon un schéma détaillé correspondant à une échelle de 1 à 4. Il est important aussi de calculer l’impact en cas de défaillance – pour chaque critère, on note 4 niveaux d’impact  estimés selon 4 thématiques. L’étude débouche sur un tableau récapitulatif qui est reporté dans le plan de gestion de données. Ce tableau permet de définir l’impact maximal et la sensibilité du système.
+On ne peut connaitre toutes les menaces et les causes à prendre en compte. L’usage est de consulter les recueils de bonnes pratiques et de se référer aux listes et référentiels existants. La probabilité d’occurrence d’une menace est à évaluer en fonction du risque associé – on note trois niveaux de risque : opportuniste, ciblé attaque concertée.
+En conclusion, Eric Quinton explique comment intégrer concrètement le risque dans le plan de gestion des données en présentant des exercices pratiques.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2016.sciencesconf.org/conference/anfdonnees2016/pages/dmp_analyse_securite.pdf">Définir le risque associé à un jeu de données</a></p>
+<p>Eric Quinton, IRSTEA<br />
+Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données, 6-8 juillet 2016, Paris<br />
+Voir aussi les vidéos :
+<a class="reference external" href="https://youtu.be/vuUEv0MbYrM">La protection des données dans un contexte de menaces informatiques</a> (séquence 1)
+<a class="reference external" href="https://youtu.be/sHReS--G4Mg">Qu’est-ce que le risque et comment l’intégrer à la gestion des données</a> (séquence 2)
+<a class="reference external" href="https://youtu.be/u9P5ODxeLmE">Conclusion : Comment intégrer concrètement le risque dans un plan de gestion des données : exercices pratiques</a> (séquence 3)</p>
+</div>
+</div>
+</div>
+<div class="section" id="sauvegarder-les-donnees">
+<h3><span class="section-number">2.2.2. </span>Sauvegarder les données<a class="headerlink" href="#sauvegarder-les-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>À ce stade, il est important de prévoir une sauvegarde pour les données qui seront collectées, créées, construites dans le cadre du projet. La sauvegarde des données est un point important de la gestion du projet qui répond au risque de perte des données, c’est aussi un pint qui doit être traité dans le plan de gestion de données traité au paragraphe suivant. Etant donnée l’importance de la sauvegarde des données, nous préférons, au risque de redondance, mettre l’accent ici sur cette nécessité.<br />
+L’objet de cette phase préparatoire n’est pas de discuter le choix d’une technologie ou d’une stratégie, mais simplement de se préoccuper de prévoir la sauvegarde des données, et se poser les bonnes questions :</p>
+<ul class="simple">
+<li><p>Quel volume approximatif devrons-nous sauvegarder ?</p></li>
+<li><p>Selon quelle périodicité : quotidienne ? hebdomadaire ? mensuelle ?</p></li>
+<li><p>Les baies de stockages sont-elles disponibles?</p></li>
+<li><p>Sont-elles sous contrat de maintenance ? Y a-t-il besoin d’une externalisation ?</p></li>
+<li><p>Les données devront-elles être accédées fréquemment ? en temps réel ?</p></li>
+<li><p>Les infrastructures informatiques ont-elles suffisament d’espace de stockage disponible ?</p></li>
+<li><p>Etc…</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="amorcer-un-plan-de-gestion-de-donnees">
+<h2><span class="section-number">2.3. </span>Amorcer un plan de gestion de données<a class="headerlink" href="#amorcer-un-plan-de-gestion-de-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Un Plan de Gestion de Données (PGD), ou Data Management Plan (DMP) en anglais, est un document formalisé - un livrable du projet pour la plupart des appels à projets actuellement - explicitant la manière dont seront obtenues, documentées, analysées, disséminées et utilisées les données produites au cours et à l’issue d’un processus ou d’un projet de recherche.</p>
+<p>À noter qu’il existe des modèles de <a class="reference external" href="https://urfistinfo.hypotheses.org/3555">plans de gestion de données dits « de structure »</a> dont la période considérée s’étend au-delà de la durée d’un seul projet. Ce type de modèle s’applique par exemple aux plateformes et est donc sans doute de façon générale plus adapté aux besoins du personnel technique.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://pgd17juin2019.sciencesconf.org/data/pages/06_PGD_de_structure.pdf">PGD de structure contrainte ou opportunité ?</a></p>
+<p>P. Clastre, URFM, INRA PACA<br />
+Montpellier Science Ouverte : Plan de Gestion de Données, 2019</p>
+</div>
+<p>L’initialisation du plan de gestion de données dans cette phase est un préalable à sa mise à jour nécessaire dans les étapes suivantes. Le PGD doit suivre les évolutions du projet.</p>
+<div class="section" id="comment-creer-un-plan-de-gestion-des-donnees">
+<h3><span class="section-number">2.3.1. </span>Comment créer un plan de gestion des données ?<a class="headerlink" href="#comment-creer-un-plan-de-gestion-des-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Cette présentation de Marie-Claude Quidoz présente dans une première partie le plan de gestion de données en perspective du cycle de vie des données et détaille les principes FAIR. Une seconde partie présente différents modèles de plans issus de plusieurs origines (INRAe, appels à projets). C’est une excellente entrée en matière pour comprendre rapidement ce qu’est concrètement un plan de gestion de données.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/tempo-pgd.pdf?580/01010276848206d6f57d0d6c5d8d93a441f83668">Plan de gestion des données.</a></p>
+<p>Marie-Claude QUIDOZ, CEFE/CNRS<br />
+Semaine TEMPO, Sète, 2019</p>
+</div>
+<p>Cette présentation de Marie Puren a été conçue pour animer un atelier de formation qui avait pour objectif de définir un plan de gestion de données, identifier les
+éléments clés qui le constituent et le créer. Cette présentation contient tout d’abord des éléments propres à définir les données de la recherche, le modèle
+d’ouverture dans lequel elles s’inscrivent, les initiatives européennes et nationales qui les soutiennent. Elle focalise ensuite sur la pratique de la gestion
+à proprement dite des données et ses implications (gérer, stocker, déposer), mais surtout définit, décrit le contenu formel du Plan de Gestion de données et
+les différentes étapes de gestion.  Elle présente concrètement sa structuration (description des données, standards et métadonnées, partage et archivage
+des données), elle aborde les questions juridiques et les bonnes pratiques de gestion notamment le FAIR DATA.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2017.sciencesconf.org/data/pages/20170706_dmp_puren.pdf">Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données</a></p>
+<p>Marie Puren, INRIA<br />
+ANF Participer à l’organisation du management des données de la recherche, gestion de contenu et documentation des données, 2017, Vandoeuvre-lès-Nancy</p>
+</div>
+<p>Comme l’ont introduit les présentations précédentes, un plan de gestion de données ne se rédige pas seul, mais au contraire en associant les différents acteurs du projet.
+Il s’agit donc de rédiger collaborativement le PGD. La plateforme « DMP OPIDoR » de l’INIST fournit un service en réponse à ce besoin à l’ensemble de la communauté enseignement supérieur recherche en France pour rédiger de façon collaborative un PGD. Après un rappel du contexte autour de la gestion des données, cette présentation montre avec de nombreuses copies d’écran comment utiliser « DMP OPIDoR ». À ne pas manquer si vous souhaitez un panorama du contexte et si vous souhaitez savoir comment réaliser en pratique un plan de gestion de données en collaborant avec vos collègues.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/15_MC_Jacquemot_Perbal_L_Rassinoux_OPIDoR.pdf">Data management plan ? Plan de gestion de données ? DMP OPIDoR vous guide !</a></p>
+<p>Laurent RASSINOUX, Marie-Christine JACQUEMOT-PERBAL, INIST,<br />
+SIST 2018 : Séries Interopérables et Systèmes de Traitement, Guyancourt, 2018</p>
+</div>
+<p>Des discussions, lors des Journées Calcul et Données 2019 (JCAD 2019), autour d’une Table ronde intitulée « Les Plans de Gestion des Données des projets Scientifiques, quels impacts pour les centres de Calcul et de Données ? »
+vous permettront aussi d’en voir les implications pour les centres de  calcul et de données.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/TR_JCAD2019_V3.pdf">Vidéo de la table ronde</a></p>
+<p>Animation : Nicolas Renon, CALMIP et participants : Windpouire-Esther Dzale-Yeumo, Emmanuel Courcelle, Jean-Yves Nief, Jean-Philippe Proux, Geneviève Romier<br />
+JCAD 2019</p>
+</div>
+</div>
+<div class="section" id="creer-un-plan-de-gestion-de-logiciel">
+<h3><span class="section-number">2.3.2. </span>Créer un plan de gestion de logiciel<a class="headerlink" href="#creer-un-plan-de-gestion-de-logiciel" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Les logiciels sont aussi des données, un peu particulières et qui méritent donc un modèle approprié de plan de gestion : le plan de gestion de logiciel.
+Le projet PRESOFT propose un modèle adapté à la fois au logiciel et au contexte de la recherche en France. Après une présentation de ce contexte, du modèle et de la procédure associée, les apports de PRESOFT sont détaillés. À noter que le modèle proposé par PRESOFT s’étend sur l’ensemble de la « vie » du logiciel depuis l’idée, avec les documents préparatoires, jusqu’à la préservation (sous toutes ses formes) et qu’il prend en compte toutes les formes de financement (projets, stages…). Le modèle est disponible sur DMP OPIdOR.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/PRESOFT_JCAD2019.pdf">Plans de gestion de logiciels</a></p>
+<p>Geneviève Romier, Vincent Breton, CNRS-IN2P3<br />
+JCAD 2019</p>
+</div>
+</div>
+<div class="section" id="retour-d-experience">
+<h3><span class="section-number">2.3.3. </span>Retour d’expérience<a class="headerlink" href="#retour-d-experience" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Afin de conclure ce tour d’horizon des plans de gestion de données, ce retour d’expérience relatif au domaine de la biodiversité vous permettra de mieux comprendre comment utiliser les plans de gestion de données comme un véritable outil de gestion qui va bien au-delà du document administratif nécessaire à la validation du projet.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf">Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie.</a></p>
+<p>HEINTZ, Wilfried, INRA Dynafor<br />
+SIST 2018</p>
+</div>
+<p>Enfin, à des fins pédagogiques, le <a class="reference external" href="https://www.cefe.cnrs.fr/fr/">CEFE</a> a  rédigé un <a class="reference external" href="https://dmp.opidor.fr/plans/5848/export.pdf">plan de gestion de données</a> sur un projet fictif de « Suivi de population de poissons dans le lac du Bourget ». Il correspond à la version qui devra être transmise dans les 6 mois qui suivent le démarrage scientifique du projet financé par l’ANR. Il est disponible dans la rubrique <a class="reference external" href="https://dmp.opidor.fr/public_plans">DMPs publics</a> de l’outil DMP Opidor.</p>
+</div>
+</div>
+<div class="section" id="identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services">
+<h2><span class="section-number">2.4. </span>Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services<a class="headerlink" href="#identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Une fois les besoins exprimés, il faut identifier les infrastructures nécessaires à la réalisation du projet. On apportera également un soin particulier aux différents
+critères de choix de ces infrastructures.</p>
+<p>La section <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a> de ce guide présente différents types d’infrastructures destinées à la recherche que ce soit au niveau européen, national, régional ou par thématique scientifique.</p>
+<p>Les modes de collecte et de stockage sont détaillés dans la section collecter de même que l’utilisation d’un cahier de laboratoire.</p>
+<div class="section" id="les-bases-de-donnees">
+<h3><span class="section-number">2.4.1. </span>Les bases de données<a class="headerlink" href="#les-bases-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Les bases de données font partie des différents types de services pouvant être utilisés dans le cadre d’un projet et qui sont proposés par les infrastructures ou disponibles au sein des laboratoires. Plusieurs types de bases de données sont disponibles (SQL, noSQL, …).</p>
+<p>La gestion des données dans des bases de données relationnelles est un gage de structuration cohérente, et permet une interrogation des données par des opérateurs du langage SQL (System Query Language)</p>
+<p>Plusieurs Systèmes de Gestion de Bases de Données (SGBD) existent dans le monde du logiciel libre, cependant, PostgreSQL est le SGBD conseillé par la <a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/mcq_jrbdd2017.pdf?381/0207fc9b42426c781066e710f0702bdbe8c90096">circulaire Ayrault</a> que Marie-Claude Quidoz a présentée en 2017.</p>
+<p>La maîtrise de PostgreSQL est donc importante et plusieurs formations complètes ont été organisées à ce sujet :</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article330">ANF « PostgreSQL Administration, premier niveau »</a>, 2019</p></li>
+<li><p><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article321">ANF « PostgreSQL Performance »</a>, 2019</p></li>
+</ul>
+<p>Bien aborder la mise en place est l’objectif de la présentation « Comment concevoir une base de données en archéométrie ? », réalisée en juin 2014 par Isabelle BALY et Philippe GRISON. Ils présentent les différentes étapes nécessaires à la conception et à la réalisation d’une base de données en archéométrie. Ils en détaillent les différentes phases : analyse ou d’audit, modélisation &amp; développement de la base, migration des données et déploiement &amp; développement d’un SGBD.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/anfcairn-rbdd_5et6juin2014_peti.pdf?190/e455c772dd0f972d6b785fc9662cd8bfe8555d6d">Chaîne opératoire de réalisation d’une base de données.</a></p>
+<p>Isabelle BALY et Philippe GRISON,
+Comment concevoir une base de données en archéométrie, 2014.</p>
+</div>
+<p>Cette autre présentation de Marie-Claude Quidoz s’intéresse à la problématique de la traçabilité des données appliquée cette fois aux bases de données. Elle recommande en particulier, dès que l’on traite des données de noter toutes les opérations faites (insertion / suppression / modification). Pour cela un mécanisme d’historisation doit être mis en place au moment de la création de la structure de la base de données. Cette historisation repose sur un mécanisme de déclencheur qui s’active sur les actions cités précédemment.  Dans le cadre de PostgreSQL, le logiciel de SGBD recommandé dans la <a class="reference external" href="https://www.legifrance.gouv.fr/circulaire/id/35837">circulaire Ayrault</a>, cette historisation peut être automatisée grâce à l’extension E-Maj. La mise en place de ce mécanisme permet aussi d’envisager de pouvoir rejouer une requête et de reproduire le résultat tel qu’il était quand, par exemple, un identifiant (un DOI ou autre identifiant) a été défini.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/atelier_tracabilite.pdf">Présentation générale sur la problématique de la traçabilité des données appliquée aux bases de données</a></p>
+<p>Marie-Claude Quidoz, CEFE<br />
+Atelier Traçabilité, 2018</p>
+</div>
+<p>Cette dernière présentation synthétique décrit les différentes facettes de la traçabilité d’un jeu de données, elle permet de découvrir l’extension E-Maj citée au paragraphe précédent. Cet outil, utilisable avec PostgreSQL, sous licence GPL, composé d’un client web et de l’extension PostgreSQL, permet de déplacer des contenus de données dans le temps avec une granularité de niveau de table. E-Maj permet également de dénombrer, consulter, annuler et rejouer des ensembles de tables applicatives en enregistrant les mises à jour.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/emaj.2.3.1_overview_fr.pdf?521/c82f6d6408a4f4848d9792a0ab3715a09b5eea5f">E-Maj comme « Enregistrement des Mises A Jour » : Et vos données PostgreSQL voyagent dans le temps ! Un cas d’utilisation pour tracer les données PostgreSQL</a> et <a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/tp_e-maj.pdf?522/cbfcf7b13ae9a4d8d20ec495c1ef5ea1d09e0a3f">E-Maj par la pratique</a></p>
+<p>Marie-Claude QUIDOZ, Philippe BEAUDOIN, 2018<br />
+ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données » , 2018, Sète</p>
+</div>
+<p>Enfin, il peut être souhaitable de créer un Identifiant Universel Unique (Universally unique identifier - UUID) avec PostgreSQL. Nicolas Raidelet explique comment faire dans cette présentation.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/uuid_postgres.pdf?405/e6315023727441ee71c5d63415dd28285bc24952">UUID avec PostgreSQL : Pourquoi ? Comment ?</a></p>
+<p>Nicolas Raidelet, Irstea<br />
+Webcast RDBB, 2017</p>
+</div>
+</div>
+<div class="section" id="la-gestion-des-collections">
+<h3><span class="section-number">2.4.2. </span>La gestion des collections<a class="headerlink" href="#la-gestion-des-collections" title="Lien permanent vers ce titre">¶</a></h3>
+<p><a class="reference external" href="https://www.collec-science.org">Collec-Science</a> est un logiciel web qui a été créé pour suivre les échantillons collectés lors des campagnes d’acquisition, et permet de répondre, entre autres, à ces questions :</p>
+<ul class="simple">
+<li><p>Où est stocké l’échantillon ?</p></li>
+<li><p>D’où vient-il, quelle est sa généalogie (protocole de collecte, métadonnées associées à l’échantillon et ceux de ces ancêtres) ?</p></li>
+<li><p>Quelles transformations ou opérations a-t-il subies ?</p></li>
+<li><p>Sous quelle forme est-il conservé, existe-t-il un risque à le manipuler ?</p></li>
+</ul>
+<p>Fruit d’une collaboration initiale entre Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENS à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article304">Stockez et retrouvez vos échantillons avec Collec-Science</a></p>
+<p>Marie-Claude Quidoz
+site web RBDD, 2018</p>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="01-imaginer.html" title="previous page"><span class="section-number">1. </span>Imaginer et préparer</a>
+    <a class='right-next' id="next-link" href="03-collecter.html" title="next page"><span class="section-number">3. </span>Collecter</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+        
+            &copy; Copyright 2021.<br/>
+          Mis à jour le 25 janv. 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

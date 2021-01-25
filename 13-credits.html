@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guide de bonnes pratiques sur les données &#8212; Guide de bonnes pratiques sur les données</title>
+    <title>Crédits</title>
     
-  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
   <link rel="stylesheet"
@@ -31,53 +31,19 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
 
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script kind="utterances">
-
-    var commentsRunWhenDOMLoaded = cb => {
-    if (document.readyState != 'loading') {
-        cb()
-    } else if (document.addEventListener) {
-        document.addEventListener('DOMContentLoaded', cb)
-    } else {
-        document.attachEvent('onreadystatechange', function() {
-        if (document.readyState == 'complete') cb()
-        })
-    }
-}
-
-var addUtterances = () => {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "https://utteranc.es/client.js";
-    script.async = "async";
-
-    script.setAttribute("repo", "guide-donnees/guide-donnees.github.io");
-    script.setAttribute("issue-term", "pathname");
-    script.setAttribute("theme", "github-light");
-    script.setAttribute("label", "💬 comment");
-    script.setAttribute("crossorigin", "anonymous");
-
-    sections = document.querySelectorAll("div.section");
-    if (sections !== null) {
-        section = sections[sections.length-1];
-        section.appendChild(script);
-    }
-}
-commentsRunWhenDOMLoaded(addUtterances);
-</script>
     <script src="_static/translations.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
@@ -88,22 +54,13 @@ commentsRunWhenDOMLoaded(addUtterances);
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://guide-donnees.github.io/0-intro.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
+    <link rel="prev" title="Autres guides de bonnes pratiques" href="12-ressources.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
 
-
-<!-- Opengraph tags -->
-<meta property="og:url"         content="https://guide-donnees.github.io/0-intro.html" />
-<meta property="og:type"        content="article" />
-<meta property="og:title"       content="Guide de bonnes pratiques sur les données" />
-<meta property="og:description" content="Guide de bonnes pratiques sur les données  Site test pour recueillir des commentaires." />
-<meta property="og:image"       content="https://guide-donnees.github.io/_static/logo.png" />
-
-<meta name="twitter:card" content="summary" />
 
 
   </head>
@@ -121,8 +78,6 @@ commentsRunWhenDOMLoaded(addUtterances);
   <img src="_static/logo.png" class="logo" alt="logo">
   
   
-  <h1 class="site-logo" id="site-title">Guide de bonnes pratiques sur les données</h1>
-  
 </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
@@ -130,16 +85,86 @@ commentsRunWhenDOMLoaded(addUtterances);
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="nav sidenav_l1">
- <li class="toctree-l1 current active">
-  <a class="reference internal" href="#">
-   Guide de bonnes pratiques sur les données
+ <li class="toctree-l1">
+  <a class="reference internal" href="01-imaginer.html">
+   1. Imaginer et préparer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-concevoir_planifier.html">
+   2. Concevoir et planifier
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-collecter.html">
+   3. Collecter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-traiter.html">
+   4. Traiter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-analyser.html">
+   5. Analyser
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-archiver.html">
+   6. Préserver et archiver
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07-publier.html">
+   7. Publier et diffuser
   </a>
  </li>
 </ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-glossaire.html">
+   Glossaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10-infrastructures.html">
+   Infrastructures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-reproductibilite.html">
+   Reproductibilité
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-ressources.html">
+   Autres guides de bonnes pratiques
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Crédits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf">
+   Document pdf
+   <i class="fas fa-external-link-alt">
+   </i>
+  </a>
+ </li>
+</ul>
+
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
 </div>
 
 </div>
@@ -174,7 +199,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/0-intro.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/13-credits.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -184,21 +209,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 
         <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/guide-donnees/guide-donnees.github.io"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Dépôt source"><i
-                    class="fab fa-github"></i>dépôt</button></a>
-        
-        <a class="edit-button" href="https://github.com/guide-donnees/guide-donnees.github.io/edit/master/0-intro.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Modifier cette page"><i class="fas fa-pencil-alt"></i>problème ouvert</button></a>
-    </div>
-</div>
 
 
         <!-- Full screen (wrap in <a> to have style consistency -->
@@ -214,6 +224,30 @@ commentsRunWhenDOMLoaded(addUtterances);
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contenu
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#auteurs">
+   Auteurs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#relecteurs">
+   Relecteurs
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#licence">
+   Licence
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -221,9 +255,57 @@ commentsRunWhenDOMLoaded(addUtterances);
         
               <div>
                 
-  <div class="section" id="guide-de-bonnes-pratiques-sur-les-donnees">
-<h1>Guide de bonnes pratiques sur les données<a class="headerlink" href="#guide-de-bonnes-pratiques-sur-les-donnees" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Site test pour recueillir des commentaires.</p>
+  <div class="section" id="credits">
+<h1>Crédits<a class="headerlink" href="#credits" title="Lien permanent vers ce titre">¶</a></h1>
+<div class="section" id="auteurs">
+<h2>Auteurs<a class="headerlink" href="#auteurs" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Ce guide de bonnes pratiques sur la gestion des données dans les réseaux métiers, a été réalisé par:</p>
+<ul class="simple">
+<li><p>Christine Hadrossek : <a class="reference external" href="https://www.science-ouverte.cnrs.fr/">DDOR</a>, <a class="reference external" href="http://renatis.cnrs.fr/">réseau Renatis</a></p></li>
+<li><p>Joanna Janik : <a class="reference external" href="https://www.science-ouverte.cnrs.fr/">DDOR</a>, <a class="reference external" href="http://renatis.cnrs.fr/">réseau Renatis</a></p></li>
+<li><p>Maurice Libes : <a class="reference external" href="http://sist.cnrs.fr">réseau SIST</a></p></li>
+<li><p>Violaine Louvet : <a class="reference external" href="https://calcul.math.cnrs.fr/">réseau Calcul</a></p></li>
+<li><p>Marie-Claude Quidoz : <a class="reference external" href="http://rbdd.cnrs.fr/">réseau rBDD</a></p></li>
+<li><p>Alain Rivet : <a class="reference external" href="http://qualite-en-recherche.cnrs.fr/">réseau QeR</a></p></li>
+<li><p>Geneviève Romier : <a class="reference external" href="http://rbdd.cnrs.fr/">réseau rBDD</a></p></li>
+</ul>
+</div>
+<div class="section" id="relecteurs">
+<h2>Relecteurs<a class="headerlink" href="#relecteurs" title="Lien permanent vers ce titre">¶</a></h2>
+<ul class="simple">
+<li><p>Pierre Brochard : <a class="reference external" href="http://devlog.cnrs.fr/">réseau DevLog</a></p></li>
+<li><p>Dominique Desbois : <a class="reference external" href="http://devlog.cnrs.fr/">réseau DevLog</a></p></li>
+<li><p>Emilie Lerigoleur : <a class="reference external" href="http://sist.cnrs.fr">réseau SIST</a></p></li>
+<li><p>Caroline Martin</p></li>
+<li><p>Pierre Navaro : <a class="reference external" href="https://calcul.math.cnrs.fr/">réseau Calcul</a></p></li>
+</ul>
+<ul class="simple">
+<li><p><strong>version 1.0 Janvier 2021</strong></p></li>
+</ul>
+</div>
+<div class="section" id="licence">
+<h2>Licence<a class="headerlink" href="#licence" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Cet ouvrage est mis à disposition selon les termes de la <a class="reference external" href="http://creativecommons.org/licenses/by/4.0/deed.fr">Licence Creative Commons BY 4.0 <img alt="" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></a>.</p>
+<p>Ce site a été conçu et réalisé par Pierre Navaro avec <a class="reference external" href="https://jupyterbook.org">Jupyter Book</a>, logiciel libre diffusé sous licence <a class="reference external" href="https://opensource.org/licenses/BSD-3-Clause">BSD-3-Clause</a>.</p>
+<div class="sphinx-bs container pb-4 docutils">
+<div class="row docutils">
+<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2 docutils">
+<div class="card w-100 shadow docutils">
+<div class="card-body docutils">
+<p class="card-text"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/"><img alt="Atelier Données" src="_images/gt-donnees-logo.png" /></a></p>
+</div>
+</div>
+</div>
+<div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2 docutils">
+<div class="card w-100 shadow docutils">
+<div class="card-body docutils">
+<p class="card-text"><a class="reference external" href="http://www.cnrs.fr/mi/spip.php?article465"><img alt="CNRS" src="_images/logo_cnrs.png" /></a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 
     <script type="text/x-thebe-config">
@@ -254,15 +336,17 @@ commentsRunWhenDOMLoaded(addUtterances);
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="12-ressources.html" title="previous page">Autres guides de bonnes pratiques</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
         
-          By Atelier Données<br/>
+          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-            &copy; Copyright 2020.<br/>
+            &copy; Copyright 2021.<br/>
+          Mis à jour le 25 janv. 2021.<br/>
       </p>
     </div>
   </footer>
@@ -273,7 +357,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     </div>
 
     
-  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
     

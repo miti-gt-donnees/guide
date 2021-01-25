@@ -1,0 +1,25 @@
+p {
+    text-align: justify;
+}
+
+.admonition.seealso {
+  padding: 0 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  text-align: left !important;
+  font-style: italic !important;
+}
+
+.admonition-title a {
+	font-weight: normal !important;
+}
+
+.admonition-title {
+  font-style: normal !veryimportant;
+  font-weight: normal !veryimportant;
+  text-align: left;
+  background-color: #ffffff !important;
+}
+
+

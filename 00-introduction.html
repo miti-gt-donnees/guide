@@ -1,0 +1,357 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guide de bonnes pratiques sur la gestion des données de la recherche</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/translations.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="1. Imaginer et préparer" href="01-imaginer.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="01-imaginer.html">
+   1. Imaginer et préparer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-concevoir_planifier.html">
+   2. Concevoir et planifier
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-collecter.html">
+   3. Collecter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-traiter.html">
+   4. Traiter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-analyser.html">
+   5. Analyser
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-archiver.html">
+   6. Préserver et archiver
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07-publier.html">
+   7. Publier et diffuser
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-glossaire.html">
+   Glossaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10-infrastructures.html">
+   Infrastructures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-reproductibilite.html">
+   Reproductibilité
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-ressources.html">
+   Autres guides de bonnes pratiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13-credits.html">
+   Crédits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf">
+   Document pdf
+   <i class="fas fa-external-link-alt">
+   </i>
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/00-introduction.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                title="Mode plein écran"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="guide-de-bonnes-pratiques-sur-la-gestion-des-donnees-de-la-recherche">
+<h1>Guide de bonnes pratiques sur la gestion des données de la recherche<a class="headerlink" href="#guide-de-bonnes-pratiques-sur-la-gestion-des-donnees-de-la-recherche" title="Lien permanent vers ce titre">¶</a></h1>
+<p><em>version 1.0 - Janvier 2021</em></p>
+<hr class="docutils" />
+<p><strong>De l’importance des données de la recherche</strong></p>
+<p>La gestion rigoureuse et cohérente des données de la recherche constitue aujourd’hui un enjeu de taille pour la production de nouvelles connaissances scientifiques. Guidés par le « <a class="reference external" href="https://www.ouvrirlascience.fr/plan-national-pour-la-science-ouverte/">Plan National pour la Science Ouverte</a> », les différents organismes de recherche et les Instituts du CNRS s’emparent de ces questions primordiales pour participer à la réflexion et à la mise à dispositions des outils, méthodes et infrastructures répondant aux besoins des communautés scientifiques en matière de gestion et de partage des données scientifiques.</p>
+<p>Améliorer les pratiques de gestion des données de la science devient nécessaire pour garantir l’intégrité scientifique et la traçabilité de la recherche produite, mais aussi pour rendre accessible, partager, permettre la réutilisation ou la reproductibilité des données, qui on peut le rappeler sont financées à plus de 50% sur des fonds publics.</p>
+<p>Gérer les données de la recherche est un processus complexe qui suppose un travail long et coûteux, des moyens techniques et humains parfois importants et qui comprend plusieurs étapes avant d’aboutir à la publication et l’archivage de données fiables, de qualité, respectueuses du droit des personnes et de la législation en vigueur.</p>
+<div class="figure align-default" id="marguerite">
+<a class="reference internal image-reference" href="_images/donnees.png"><img alt="_images/donnees.png" src="_images/donnees.png" style="width: 250px;" /></a>
+<p class="caption"><span class="caption-number">Fig. 1 </span><span class="caption-text">Cartographie des actions des réseaux métiers autour de la gestion des données.</span><a class="headerlink" href="#marguerite" title="Lien permanent vers cette image">¶</a></p>
+</div>
+<p>Pour formaliser les différentes étapes de gestion des données, nous nous sommes servis du « cycle de vie des données » élaboré au sein de l’Atelier Données. Il s’agit d’un cercle vertueux que l’on peut faire correspondre aux différentes phases d’un projet scientifique.</p>
+<p><strong>L’apport des réseaux métiers du CNRS</strong></p>
+<p>Dans leurs différentes pratiques, les réseaux métiers du CNRS, regroupés au sein de la <a class="reference external" href="https://miti.cnrs.fr">Mission pour les Initiatives Transverses Interdisciplinaires</a> (MITI) ou soutenus par les Instituts sont en première ligne pour participer à ce mouvement d’ouverture et de partage des données. Les personnels des organismes de recherche qui les constituent, œuvrent pour mettre en place de bonnes pratiques de gestion et participent également au processus de production des données scientifiques aux côtés des équipes de recherche. C’est aussi dans ce cadre qu’ils interviennent en appui et soutien à la recherche scientifique.</p>
+<p>C’est précisément ce travail de soutien que nous nous proposons de rendre compte dans ce document qui, à travers de nombreux séminaires communications et formations, vise à fournir les meilleures pratiques du moment en matière de gestion des données, et peut ainsi s’apparenter à un « guide de bonnes pratiques ».</p>
+<p>Certes de nombreux guides existent déjà dans le domaine, mais l’originalité de ce document réside dans son application aux données de la recherche sous l’angle de différents métiers de la recherche. Il fournit donc un point de vue transversal intéressant et traduit les efforts et le soutien mis en place par les personnels d’appui à la recherche au sein des réseaux, dans la gestion et la valorisation des données scientifiques.</p>
+<p><strong>Objectifs du guide</strong></p>
+<p>Ce guide est la production du groupe de travail inter-réseaux « <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/index.html">Atelier Données</a> ». Il s’agit d’un groupe composé de plusieurs réseaux métiers de la MITI (<a class="reference external" href="https://calcul.math.cnrs.fr/">Calcul</a>, <a class="reference external" href="http://devlog.cnrs.fr/">Devlog</a>, <a class="reference external" href="http://qualite-en-recherche.cnrs.fr/">QeR</a>, <a class="reference external" href="http://rbdd.cnrs.fr/">rBDD</a>, <a class="reference external" href="http://renatis.cnrs.fr/">Renatis</a>, <a class="reference external" href="https://resinfo.org/">Resinfo</a>, <a class="reference external" href="http://medici.in2p3.fr/">Medici</a>), du <a class="reference external" href="http://sist.cnrs.fr">réseau SIST</a>, (labellisé par l’INSU et regroupant les gestionnaires de données environnementales), de l’INIST, et de la Direction des données ouvertes de la recherche (DDOR-CNRS <a class="footnote-reference brackets" href="#dist" id="id1">1</a>). <a class="reference external" href="https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf">Les activités de cet atelier</a> ont été présentées lors du séminaire SIST 2019.</p>
+<p>Ce guide fait suite à un premier travail très synthétique réalisé en 2017 qui visait à établir <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/download/GTInterreseaux-CartoSyntheseV6-optimise.pdf">une cartographie de l’action des réseaux en matière de gestion des données de la recherche</a>. Ce travail rendait compte dans ses grandes lignes, des usages et des questionnements des réseaux sur la gestion des données, tout en apportant une vision des métiers transversale sur le sujet et les problématiques attenantes.</p>
+<p>Il nous est apparu opportun d’aller plus loin et de détailler plus précisément les apports de nos réseaux métiers, compte tenu :</p>
+<ul class="simple">
+<li><p>des nombreuses actions de formation ou de sensibilisation mises en place,</p></li>
+<li><p>des compétences et expertises développées prenant appui sur des pratiques standardisées qui font leurs preuves sur le terrain,</p></li>
+<li><p>de la diffusion de recommandations et de solutions techniques et organisationnelles au sein des communautés grâce à la veille technologique et juridique réalisée très régulièrement.</p></li>
+</ul>
+<p>Dans ce document, nous avons donc voulu témoigner des travaux réalisés au sein de nos réseaux métiers qui rendent compte de la gestion des données de la recherche tout en guidant le lecteur vers des bonnes pratiques en l’invitant aussi à cliquer sur des liens qui constituent des ressources lui permettant d’approfondir le sujet.</p>
+<p>Ce guide est donc un document un peu hybride proche du vadémécum, composé d’un inventaire d’actions de formations (conférences, séminaires, présentations), d’un répertoire de liens, de recommandations professionnelles, complétées de définitions utiles, pour approfondir le sujet de la gestion des données dans les réseaux métiers.</p>
+<p>Il s’adresse à toute personne désireuse de se former à la gestion des données de la recherche, et son objectif et d’aider le lecteur à analyser son besoin et trouver des solutions parmi l’eventail des communications qui sont présentées. Il constitue aussi une invitation à se rapprocher des réseaux métiers.</p>
+<p><strong>Sommaire</strong></p>
+<p>Ce guide abordera l’ensemble des phases et actions nécessaires pour une gestion des données en accord avec les prérogatives de la science ouverte :</p>
+<ul class="simple">
+<li><p>Les deux premières phases 1 « <a class="reference internal" href="01-imaginer.html#imaginer"><span class="std std-ref">Imaginer et préparer</span></a> » et 2 « <a class="reference internal" href="02-concevoir_planifier.html#concevoir-planifier"><span class="std std-ref">Concevoir et planifier</span></a> », sont les étapes préparatoires d’un projet, où l’on se préoccupe d’avoir toutes les informations nécessaires à la bonne gestion des données et du projet. C’est l’étape où l’on réfléchit au  plan de gestion de données, où l’on prépare les espaces de stockage et où l’on met en place les outils de gestion de projet. Cette partie, très générique et a pour objectif de conduire le lecteur à s’interroger sur ses besoins, les moyens dont il dispose, à se poser les bonnes questions et à s’orienter pour trouver des solutions adaptées dans un environnement riche, en construction et à surveiller.</p></li>
+</ul>
+<p>Les phases suivantes apportent des éléments plus spécifiques au lecteur pour répondre à des besoins plus techniques</p>
+<ul class="simple">
+<li><p>L’étape 3 « <a class="reference internal" href="03-collecter.html#collecter"><span class="std std-ref">Collecter</span></a> » rend compte de la pratique de collecte et du processus d’acquisition des données (équipements, capteurs …). Elle informe tout particulièrement sur l’usage des normes et standards d’interopérabilité nécessaires à la constitution des jeux de données pour les rendre Faciles à trouver, Accessibles, Interopérables, et Réutilisables (FAIR). Elle apporte aussi un éclairage sur les environnements de stockage des données existants et la nécessité de sauvegarder des données.</p></li>
+<li><p>L’étape 4 « <a class="reference internal" href="04-traiter.html#traiter"><span class="std std-ref">Traiter</span></a> » témoigne du prétraitement des données brutes acquises et collectées précédemment. Elle guide le lecteur sur la nécessaire préparation des fichiers de données pour les rendre ouverts et interopérables. La connaissance et la maîtrise des formats et standards est importante.  Cette étape est également celle de l’organisation des données qui implique dans certains cas de développer des procédures d’intégration des données dans les bases de données ou d’utiliser un cadre d’application d’agrégation de données. Il est important aussi à ce stade de se préoccuper du dépôt des données dans des plateformes de gestion locales <a class="footnote-reference brackets" href="#plateformes" id="id2">2</a> qui facilitent leur accès pour les scientifiques, et de mettre en place un contrôle qualité.</p></li>
+<li><p>la phase 5 « <a class="reference internal" href="05-analyser.html#analyser"><span class="std std-ref">Analyser</span></a> » est la phase d’analyse dans laquelle on s’occupe de définir et mettre en place des chaines logicielles avec des méthodes et des outils. Cette partie informe le lecteur sur les plateformes, outils et méthodes utilisés principalement dans la communauté du calcul pour analyser et visualiser les données.  Elle présente également quelques projet d’analyse sémantiques de données textuelles ainsi que des services Text and Data Mining.</p></li>
+<li><p>la phase 6 « <a class="reference internal" href="06-archiver.html#archiver"><span class="std std-ref">Préserver et archiver</span></a> » rend compte de l’importance de préserver et archiver les données sur le long terme. On s’attache dans cette partie a bien définir et clarifier les termes, réfléchir aux données pertinentes à préserver et voir quelles solutions s’offrent à nous.</p></li>
+<li><p>la phase 7 « <a class="reference internal" href="07-publier.html#publier"><span class="std std-ref">Publier et diffuser</span></a> » est la phase finale permettant de diffuser les données correctement à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapapers.</p></li>
+</ul>
+<p>Deux annexes reprennent des thèmes transverses à ces phases successives :</p>
+<ul class="simple">
+<li><p>l’annexe « <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a> » décrit le paysage des infrastructures destinées à la recherche scientifique et accessibles à la communauté scientifique qui travaille en France. Le recensement est loin d’être exhaustif mais a pour objectif de fournir un aperçu des différents types d’infrastructures et d’en présenter certaines plus en détail au travers des exposés réalisés lors d’événements organisés par les réseaux.</p></li>
+<li><p>l’annexe « <a class="reference internal" href="11-reproductibilite.html#reproductibilite"><span class="std std-ref">Reproductibilité</span></a> » rassemble des exposés concernant la reproductibilité et la répétabilité, sujets transverses à plusieurs phases. Comme dans l’ensemble de ce guide, les présentations référencées ont été réalisées dans le cadre de journées ou ateliers organisés par les réseaux.</p></li>
+</ul>
+<p>Ce guide a été rédigé par quelques réseaux métiers et de ce fait
+n’a pas la prétention d’être exhaustif. Nous invitons donc d’autres
+réseaux à nous faire remonter leurs pratiques métiers dans le cadre
+de la gestion des données pour alimenter ce guide.  Le lecteur est
+également invité à nous communiquer tous commentaires, remarques
+ou suggestions qui serait de nature à améliorer et compléter ce
+travail en envoyant un mail sur <a class="reference external" href="mailto:contact-guide&#37;&#52;&#48;services&#46;cnrs&#46;fr">la liste de diffusion</a>.</p>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<hr class="docutils" />
+<dl class="footnote brackets">
+<dt class="label" id="dist"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Anciennement DIST.</p>
+</dd>
+<dt class="label" id="plateformes"><span class="brackets"><a class="fn-backref" href="#id2">2</a></span></dt>
+<dd><p>Il s’agit de plateformes développées en fonction des besoins par des unités ou établissements comme par exemple le data center du GRICAD qui propose  aux équipes de recherche un espace de stockage et un service d’accompagnement pour la gestion des données.</p>
+</dd>
+</dl>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='right-next' id="next-link" href="01-imaginer.html" title="next page"><span class="section-number">1. </span>Imaginer et préparer</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+        
+            &copy; Copyright 2021.<br/>
+          Mis à jour le 25 janv. 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

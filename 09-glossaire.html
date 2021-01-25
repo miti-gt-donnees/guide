@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Guide de bonnes pratiques sur les données &#8212; Guide de bonnes pratiques sur les données</title>
+    <title>Glossaire</title>
     
-  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
     
   <link rel="stylesheet"
@@ -31,53 +31,19 @@
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
 
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/language_data.js"></script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script kind="utterances">
-
-    var commentsRunWhenDOMLoaded = cb => {
-    if (document.readyState != 'loading') {
-        cb()
-    } else if (document.addEventListener) {
-        document.addEventListener('DOMContentLoaded', cb)
-    } else {
-        document.attachEvent('onreadystatechange', function() {
-        if (document.readyState == 'complete') cb()
-        })
-    }
-}
-
-var addUtterances = () => {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src = "https://utteranc.es/client.js";
-    script.async = "async";
-
-    script.setAttribute("repo", "guide-donnees/guide-donnees.github.io");
-    script.setAttribute("issue-term", "pathname");
-    script.setAttribute("theme", "github-light");
-    script.setAttribute("label", "💬 comment");
-    script.setAttribute("crossorigin", "anonymous");
-
-    sections = document.querySelectorAll("div.section");
-    if (sections !== null) {
-        section = sections[sections.length-1];
-        section.appendChild(script);
-    }
-}
-commentsRunWhenDOMLoaded(addUtterances);
-</script>
     <script src="_static/translations.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
@@ -88,22 +54,14 @@ commentsRunWhenDOMLoaded(addUtterances);
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <link rel="canonical" href="https://guide-donnees.github.io/README.html" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Infrastructures" href="10-infrastructures.html" />
+    <link rel="prev" title="Conclusion" href="08-conclusion.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
 
-
-<!-- Opengraph tags -->
-<meta property="og:url"         content="https://guide-donnees.github.io/README.html" />
-<meta property="og:type"        content="article" />
-<meta property="og:title"       content="Guide de bonnes pratiques sur les données" />
-<meta property="og:description" content="Guide de bonnes pratiques sur les données  De l’importance de la gestion des données de la recherche" />
-<meta property="og:image"       content="https://guide-donnees.github.io/_static/logo.png" />
-
-<meta name="twitter:card" content="summary" />
 
 
   </head>
@@ -121,8 +79,6 @@ commentsRunWhenDOMLoaded(addUtterances);
   <img src="_static/logo.png" class="logo" alt="logo">
   
   
-  <h1 class="site-logo" id="site-title">Guide de bonnes pratiques sur les données</h1>
-  
 </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
@@ -131,15 +87,85 @@ commentsRunWhenDOMLoaded(addUtterances);
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="nav sidenav_l1">
  <li class="toctree-l1">
-  <a class="reference internal" href="0-intro.html">
-   Guide de bonnes pratiques sur les données
+  <a class="reference internal" href="01-imaginer.html">
+   1. Imaginer et préparer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-concevoir_planifier.html">
+   2. Concevoir et planifier
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-collecter.html">
+   3. Collecter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-traiter.html">
+   4. Traiter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-analyser.html">
+   5. Analyser
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-archiver.html">
+   6. Préserver et archiver
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07-publier.html">
+   7. Publier et diffuser
   </a>
  </li>
 </ul>
+<ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Glossaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10-infrastructures.html">
+   Infrastructures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-reproductibilite.html">
+   Reproductibilité
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-ressources.html">
+   Autres guides de bonnes pratiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13-credits.html">
+   Crédits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf">
+   Document pdf
+   <i class="fas fa-external-link-alt">
+   </i>
+  </a>
+ </li>
+</ul>
+
 </nav> <!-- To handle the deprecated key -->
 
 <div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
 </div>
 
 </div>
@@ -174,7 +200,7 @@ commentsRunWhenDOMLoaded(addUtterances);
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/README.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/09-glossaire.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -184,21 +210,6 @@ commentsRunWhenDOMLoaded(addUtterances);
 </div>
 
         <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/guide-donnees/guide-donnees.github.io"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Dépôt source"><i
-                    class="fab fa-github"></i>dépôt</button></a>
-        
-        <a class="edit-button" href="https://github.com/guide-donnees/guide-donnees.github.io/edit/master/README.md"><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Modifier cette page"><i class="fas fa-pencil-alt"></i>problème ouvert</button></a>
-    </div>
-</div>
 
 
         <!-- Full screen (wrap in <a> to have style consistency -->
@@ -221,9 +232,22 @@ commentsRunWhenDOMLoaded(addUtterances);
         
               <div>
                 
-  <div class="section" id="guide-de-bonnes-pratiques-sur-les-donnees">
-<h1>Guide de bonnes pratiques sur les données<a class="headerlink" href="#guide-de-bonnes-pratiques-sur-les-donnees" title="Lien permanent vers ce titre">¶</a></h1>
-<p>De l’importance de la gestion des données de la recherche</p>
+  <div class="section" id="glossaire">
+<h1>Glossaire<a class="headerlink" href="#glossaire" title="Lien permanent vers ce titre">¶</a></h1>
+<dl class="simple myst">
+<dt>Archiver</dt><dd><p>l’archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d’y associer les moyens pour réutiliser les données : la réutilisation se faisant en ajoutant de l’intelligence à la sauvegarde. Le contenu des documents archivés n’est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l’obsolescence logicielle).</p>
+</dd>
+<dt>DMP (PGD)</dt><dd><p>un « DMP » est un « Data Management Plan ». Sa traduction française est « PGD » pour « Plan de gestion de données ». Un Plan de Gestion de données est un document formel, établi en début de projet qui formalise la manière dont seront gérées les données à différents points de vue : stockage, permissions d’accès, sécurité etc.</p>
+</dd>
+<dt>Pérenniser</dt><dd><p>ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L’archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).</p>
+</dd>
+<dt>Préserver</dt><dd><p>cette action fait référence au fait de garantir, protéger, mettre à l’abri, sauver d’un dommage ou d’une destruction (cf. notion de sauvegarde) et au fait de tenir dans le même état, en bon état (intelligible). Elle fait aussi référence à la notion de permanence dans le temps (cf. notion d’archivage). Le synonyme « conserver » est utilisé quand il est fait référence à une politique.</p>
+</dd>
+<dt>Sauvegarder</dt><dd><p>la sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L’objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l’organe de stockage. Il s’agit d’une sauvegarde octet par octet dans une perspective de court ou de moyen terme. La recherche de la préservation de l’intelligibilité des données n’est pas un élément pris en compte.</p>
+</dd>
+<dt>Stocker</dt><dd><p>c’est l’étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d’assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n’est ni sauvegardée et ni sécurisée.</p>
+</dd>
+</dl>
 </div>
 
     <script type="text/x-thebe-config">
@@ -254,15 +278,18 @@ commentsRunWhenDOMLoaded(addUtterances);
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="08-conclusion.html" title="previous page">Conclusion</a>
+    <a class='right-next' id="next-link" href="10-infrastructures.html" title="next page">Infrastructures</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
         
-          By Atelier Données<br/>
+          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-            &copy; Copyright 2020.<br/>
+            &copy; Copyright 2021.<br/>
+          Mis à jour le 25 janv. 2021.<br/>
       </p>
     </div>
   </footer>
@@ -273,7 +300,7 @@ commentsRunWhenDOMLoaded(addUtterances);
     </div>
 
     
-  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
 
 
     

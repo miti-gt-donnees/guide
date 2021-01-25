@@ -1,0 +1,572 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1. Imaginer et préparer</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/translations.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="2. Concevoir et planifier" href="02-concevoir_planifier.html" />
+    <link rel="prev" title="Guide de bonnes pratiques sur la gestion des données de la recherche" href="00-introduction.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   1. Imaginer et préparer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-concevoir_planifier.html">
+   2. Concevoir et planifier
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-collecter.html">
+   3. Collecter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-traiter.html">
+   4. Traiter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-analyser.html">
+   5. Analyser
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-archiver.html">
+   6. Préserver et archiver
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07-publier.html">
+   7. Publier et diffuser
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-glossaire.html">
+   Glossaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10-infrastructures.html">
+   Infrastructures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-reproductibilite.html">
+   Reproductibilité
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-ressources.html">
+   Autres guides de bonnes pratiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13-credits.html">
+   Crédits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf">
+   Document pdf
+   <i class="fas fa-external-link-alt">
+   </i>
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/01-imaginer.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                title="Mode plein écran"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contenu
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comprendre-le-paysage-de-la-gestion-des-donnees">
+   1.1. Comprendre le paysage de la gestion des données
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#connaitre-les-politiques-d-accompagnement-des-donnees-au-niveau-europeen-et-international">
+     1.1.1. Connaître les politiques d’accompagnement des données au niveau européen et international
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#comprendre-le-contexte">
+     1.1.2. Comprendre le contexte
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comprendre-et-respecter-la-legislation-en-vigueur">
+   1.2. Comprendre et respecter la législation en vigueur
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#connaitre-et-comprendre-les-principes-fair">
+   1.3. Connaitre et comprendre les principes FAIR
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees">
+     1.3.1. Définir les principes FAIR pour guider les stratégies de gestion des données
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#appliquer-les-principes-fair-retours-dexperiences">
+     1.3.2. Appliquer les principes FAIR -  Retours d’expériences
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prevoir-la-tracabilite-des-donnees">
+   1.4. Prévoir la traçabilité des données
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#envisager-la-curation-des-donnees">
+   1.5. Envisager la curation des données
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#prevoir-larchivage-des-donnees">
+   1.6. Prévoir l’archivage des données
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche">
+   1.7. Identifier les compétences et expertises pour la gestion des données de la recherche
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#s-informer-et-se-former">
+     1.7.1. S’informer et se former
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#suivre-les-travaux-du-college-competences-et-formation-du-coso">
+     1.7.2. Suivre les travaux du Collège « Compétences et formation du COSO »
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="imaginer-et-preparer">
+<span id="imaginer"></span><h1><span class="section-number">1. </span>Imaginer et préparer<a class="headerlink" href="#imaginer-et-preparer" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Imaginer est la première étape de notre cycle de vie. C’est une phase préparatoire qui correspond à la connaissance et à l’identification des problématiques générales, techniques et juridiques associées à la gestion des données dans un projet de recherche ou dans la pratique quotidienne de nos métiers.
+Etape où l’on doit se projeter, s’informer, comprendre pour anticiper et envisager sereinement le déroulement d’un projet.
+C’est une étape initiale importante pour appréhender globalement la gestion des données, l’écosystème dans lequel elle s’inscrit avec ses contraintes et opportunités, les outils et infrastructures disponibles ou nécessaires, les politiques d’accompagnement et la multiplicité des acteurs qui interagissent, les réglementations en vigueur ou encore les compétences et expertises à acquérir.</p>
+<p>L’apport des réseaux est ici important en termes de croisement des disciplines et des métiers pour apporter un éclairage global dans la nécessaire évolution des métiers et compétences et répondre au mieux aux besoins des communautés scientifiques.</p>
+<div class="section" id="comprendre-le-paysage-de-la-gestion-des-donnees">
+<h2><span class="section-number">1.1. </span>Comprendre le paysage de la gestion des données<a class="headerlink" href="#comprendre-le-paysage-de-la-gestion-des-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Avant d’aborder la gestion des données sous ses aspects techniques qui seront développés tout au long des étapes du cycle de vie de la donnée dans ce guide, nous souhaitons apporter une vision d’ensemble du paysage de la gestion des données.<br />
+Ce paysage s’appréhende dans le cadre du mouvement open science, de la politique d’open data en particulier et par la connaissance de l’ensemble du processus de recherche depuis la compréhension des possibilités de financement de la recherche (attendu des financeurs H2020, ERC, ANR …) jusqu’à la diffusion, la valorisation et l’évaluation des résultats.</p>
+<div class="section" id="connaitre-les-politiques-d-accompagnement-des-donnees-au-niveau-europeen-et-international">
+<h3><span class="section-number">1.1.1. </span>Connaître les politiques d’accompagnement des données au niveau européen et international<a class="headerlink" href="#connaitre-les-politiques-d-accompagnement-des-donnees-au-niveau-europeen-et-international" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Différentes initiatives institutionnelles sont développées au sein de nos établissements en France ou à l’étranger pour accompagner la politique des données de la recherche. Il est intéressant de se pencher sur ces travaux pour anticiper les besoins et prévoir les évolutions stratégiques possibles au sein de notre environnement.</p>
+<p>À l’occasion des « FréDoc 2013 », Simon Hodson (Directeur exécutif de CODATA) dresse un panorama très complet des différentes politiques institutionnelles, des tendances gouvernementales et internationales. Nous percevons très distinctement les défis et obstacles à lever pour la mise en place d’une gestion des données de la recherche. On comprend l’importance d’analyser le comportement des communautés de recherche pour parvenir à construire ensemble une politique autour des données et aussi l’intérêt d’une approche convergente « top down et bottom up » pour la mise en place d’actions de terrain qui rejoignent les actions de la gouvernance. Les nombreux défis à la mise en place d’une politique des données de la recherche sont bien présents à commencer par le fait d’instaurer au sein de nos communautés une culture du partage de la donnée et de mettre à disposition des chercheurs des infrastructures et des services de formation.<br />
+Simon Hodson souligne aussi le rôle essentiel des politiques et parties prenantes pour mettre en place des actions et des concertations.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf">Les politiques d’accompagnement des données : une comparaison internationale</a></p>
+<p>Simon Hodson, ISCU-CODATA<br />
+ANF « Frédocs2013 - Gestion et valorisation des données de la recherche », 2013, Aussois</p>
+</div>
+<p>En 2017 à l’occasion d’une ANF dédiée à l’organisation du management des données de la recherche et dans le contexte d’omniprésence du numérique et des défis sociétaux actuels, Francis André (Chargé des données de la recherche à la DIST du CNRS) présente l’évolution des pratiques scientifiques et le cadre stratégique offert par l’open science autour des données de la recherche.</p>
+<p>On découvre à travers son intervention les principes FAIR et l’importance de disposer de métadonnées de qualité. On comprend également la nécessité du partage pour faire évoluer les connaissances. Francis André distingue dans sa présentation différents types de données, d’infrastructures et de services à l’échelle européenne et internationale avec un focus sur le fonctionnement et les groupes de travail de la Research Data Alliance (RDA). Il revient sur les résultats d’une enquête réalisée auprès des directeurs d’unité pour aborder la question du point de vue du chercheur et insiste sur la nécessité de réinventer nos métiers et de s’approprier la gestion des données.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2017.sciencesconf.org/data/pages/ANF_RENATIS_FANDRE_20170703_final.pdf">Gestion des données de la recherche dans le contexte d’Open Science</a></p>
+<p>Francis André, DIST-CNRS<br />
+ANF « Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données », 2017, Paris</p>
+</div>
+<p>La gestion des données s’organise également au sein des structures d’accompagnement au niveau européen comme en témoigne Susan Reilly (Directeur exécutif de la Ligue Européenne des Bibliothèques de Recherche <a class="reference external" href="https://libereurope.eu/">LIBER</a>) qui pointe en particulier les besoins de réorganisation et d’adaptation des structures d’accompagnement de la recherche pour aider les chercheurs dans la gestion des données. Le rôle des bibliothèques est crucial dans ces actions et les opportunités à saisir pour évoluer dans ce sens sont nombreuses. Partant du constat que sans une infrastructure qui aide les chercheurs à gérer leurs données de façon adéquate et efficace, aucune culture du partage n’est possible. Elle expose dans le cadre de LIBER une démarche proactive au sein des bibliothèques de recherche en Europe et présente 10 recommandations à suivre pour répondre aux besoins des chercheurs en termes de services et de supports.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/ReillyFredoc.pdf">From data management policy to implementation : opportunities and challenges for libraries</a></p>
+<p>Susan Reilly, Liber<br />
+ANF « Frédocs2013 - Gestion et valorisation des données de la recherche », 2013, Aussois</p>
+</div>
+<p>On constate en effet aujourd’hui que les services communs de documentation, nouvellement investis de ces problématiques d’open acces et de gestion des données de la recherche ont entrepris une restructuration de fond au sein des Universités pour proposer des services d’accompagnement à destination des équipes de recherches <em>(Voir <a class="reference external" href="http://www.abes.fr/Publications-Evenements/Arabesques/Arabesques-n-95">Arabesque n°95</a>, ADBU, 2019)</em>. De nouveaux services d’appui à la recherche se constituent peu à peu et proposent un soutien pour la publication en libre accès ou la rédaction de plan de gestion de données.  <em>(voir <a class="reference external" href="https://openaccess.couperin.org/sos-pgd/">SOS-PGD</a>, répertoire des services opérationnels de soutien à la rédaction de plans de Gestion de données au sein des établissements de l’enseignement supérieur et de la recherche)</em></p>
+<p>L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d’accompagnement de la recherche à caractère national ou international qui bénéficie d’un processus de labellisation et qui a pour vocation d’apporter un service à la communauté scientifique. Il s’agit des  <a class="reference external" href="https://www.insu.cnrs.fr/fr/les-services-nationaux-dobservation">Services Nationaux d’Observation</a> (SNO) labellisés par la direction de l’INSU. Ces services ont été créés pour répondre au besoin de documenter sur le long terme la formation, l’évolution, la variabilité des systèmes astronomiques et des milieux terrestres, et de faire progresser les connaissances dans ces domaines.</p>
+</div>
+<div class="section" id="comprendre-le-contexte">
+<h3><span class="section-number">1.1.2. </span>Comprendre le contexte<a class="headerlink" href="#comprendre-le-contexte" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Ces dernières années, la réglementation en matière de science ouverte a largement modifié le paysage des données de la recherche et a permis de mieux cadrer les pratiques scientifiques sur le plan juridique.</p>
+<p><strong>Un contexte politique favorable à la gestion et au partage des données</strong></p>
+<p>En 2018, à la suite des objectifs fixés par l’Europe, la France s’est dotée d’un <a class="reference external" href="https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf">plan national pour la science ouverte</a>. Présenté le 4 juillet par Frédérique Vidal, la ministre de l’Enseignement et de la Recherche, ce plan prône la diffusion sans entraves des publications et des données de la recherche. Il comporte différentes mesures déclinées en trois axes stratégiques et pose les conditions du développement de la science ouverte dans nos établissements. Dans la continuité de ce plan, le CNRS, a rédigé une <a class="reference external" href="https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf">feuille de route pour la science ouverte</a> s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d’une culture de la gestion et du partage des données, (iii) développement d’infrastructure pour la fouille et (iv) l’analyse des contenus et la transformation des modalités d’évaluation des chercheurs).</p>
+<p>Enfin, le CNRS a publié en novembre 2020 un <a class="reference external" href="https://www.cnrs.fr/sites/default/files/pdf/Plaquette_PlanDDOR_Nov20.pdf">plan Données de la recherche</a> avec l’objectif d’accélérer le développment vers la sceince ouverte, et d’encourager les chercheurs à rendre leur données accessibles et réutilisables. A côté de la mise en place d’une politique des données en phase avec les besoins des communautés scientifiques, ce plan envisage un nouveau mode de gouvernance et un plan d’action pour les données de la recherche.</p>
+<p>Du côté des financeurs de la recherche, l’ANR dans son plan d’action 2020 réaffirme son engagement en faveur de la science ouverte. En lien avec le plan national pour la science ouverte, elle demande l’élaboration d’un Plan de Gestion des Données (PGD) pour les projets financés à partir de 2019. Partant des recommandations du <a class="reference external" href="https://www.ouvrirlascience.fr/">Comité pour la Science Ouverte</a> (CoSO), elle a adopté un <a class="reference external" href="https://anr.fr/fileadmin/documents/2019/ANR-modele-PGD.pdf">modèle de PGD</a> proposé par Science Europe qui vise à harmoniser la gestion des données au niveau international. Ce plan constitue désormais un livrable de tout projet financé par l’ANR.</p>
+<p>Le partage des données suppose également la mise en place d’un cadre juridique. La <a class="reference external" href="https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=07E750787BCCD444B7B3283884EB327C.tplgfr33s_3?cidTexte=JORFTEXT000033202746&amp;categorieLien=id">loi pour la république numérique</a>, dite loi Lemaire, a posé ce cadre en octobre 2016 afin de favoriser l’ouverture et la circulation des données, de garantir un environnement numérique ouvert et respectueux de la vie privée et faciliter l’accès et la réutilisation des données. Le <a class="reference external" href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679">Règlement général sur la protection des données</a> (RGPD) instaure quant à lui un nouveau cadre juridique pour la protection des données personnelles.</p>
+<p><strong>Un contexte technologique en constante évolution</strong></p>
+<p>Outre une attention particulière sur les besoins des communautés scientifiques, une veille technologique portant sur les services, outils, plateformes et infrastructures de stockage, de partage ou d’archivage des données de la recherche doit être assurée pour permettre d’adapter les moyens mis œuvre aux besoins exprimés.</p>
+<p>De nombreuses initiatives internationales et programmes européens ont été constitués pour travailler à l’ouverture progressive des données de la recherche, produire et harmoniser des outils et méthodologies. Nombre d’entre eux sont des espaces de travail et d’échange pour les ingénieurs et chercheurs, comme <a class="reference external" href="https://www.rd-alliance.org/">RDA</a> (Research Data Alliance) qui a pour motto « <em>Building the social and technical bridges to enable open sharing and re-use of data</em> » ou <a class="reference external" href="https://www.go-fair.org/">Go FAIR</a> dont l’objectif est de promouvoir les principes FAIR. Le <a class="reference external" href="https://www.eosc-portal.eu/">« European Open Science Cloud »</a> a été initié par la commission européenne. Il est défini comme « <em>The system resulting from the activities and initiatives promoted by the European Commission to support its policies on Open Science and Open Innovation 2.0</em> » (voir le <a class="reference external" href="https://www.eosc-portal.eu/glossary">Glossaire de l’EOSC</a>).</p>
+<p>Une présentation de Françoise Genova et de Francis André détaille le fonctionnement de la RDA, organisation internationale créée en mars 2013, pilotée par la communauté, qui vise à construire les ponts sociaux et techniques pour le meilleur partage des données. Les groupes d’intérêt et de travail y sont présentés par thématiques ainsi que les productions et recommandations issues de ces groupes. Un focus particulier est porté sur le nœud national RDA France, ses objectifs et ses activités.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/27_F_Andre_Research_Data_Alliance.pdf">Les activités de RDA : perspectives dans le cadre du noeud national français</a></p>
+<p>Francis André, DIST-CNRS &amp; Françoise Genova, Observatoire Astronomique de Strasbourg<br />
+SIST 2018 : Séries Interopérables et Systèmes de Traitement, 2016, Guyancourt</p>
+</div>
+<p>Dans cette autre présentation, Volker Beckman (chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS) explique comment concrètement les chercheurs pourront utiliser l’EOSC.
+Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2018, qui coordonne les initiatives et projets de construction de cet espace à destination de la recherche et des chercheurs. Partant des nombreux projets qui ont été financés pour élaborer ce cloud (<a class="reference external" href="https://eoscpilot.eu/">EOSCpilot</a>, <a class="reference external" href="https://www.eosc-pillar.eu/">EOSC-Pillar</a>, <a class="reference external" href="https://www.eosc-hub.eu/">EOSC-hub</a> etc.), il montre les possibilités de collaboration. Depuis 2019, une structuration est en cours avec la mise en place d’une gouvernance temporaire et une implication forte des ministères en charge de la recherche dans les différents pays européens. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement complémentaires dans le programme cadre « Horizon Europe ».</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf">European Open Science Cloud (EOSC), opportunités pour la recherche en France</a></p>
+<p>Volker Beckman,  CNRS/IN2P3<br />
+Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020</p>
+</div>
+<p>Pour accompagner les communautés de chercheurs, une <a class="reference external" href="https://www.enseignementsup-recherche.gouv.fr/cid70554/la-feuille-de-route-nationale-des-infrastructures-de-recherche.html">feuille de route nationale des infrastructures de recherche</a> est mise à disposition sur son site par le ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation. Elle recense aujourd’hui 99 infrastructures et est régulièrement remise à jour.</p>
+<p>Les projets de recherche au sein de ces infrastructures ont donné lieu à certains retours d’expériences qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche.  (Ils sont détaillés dans la partie dédiée aux <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a>)</p>
+<p>Il est important également de suivre attentivement l’évolution des espaces de partage des données de la recherche qui sont différents en fonction des communautés scientifiques. Les organismes de financement, les éditeurs ou les établissements de recherche ont pour coutume de recommander le dépôt des données dans des entrepôts, car ceux-ci permettent de conserver, rendre visible et accessible les données de recherche. Il en existe plusieurs catégories : entrepôts généralistes comme <a class="reference external" href="https://zenodo.org/">Zenodo</a> ou <a class="reference external" href="https://datadryad.org/stash">Dryad</a>, institutionnels comme <a class="reference external" href="https://dataverse.cirad.fr/">Dataverse Cirad</a>, <a class="reference external" href="https://data.inrae.fr/">Datapartage</a> à INRAE, <a class="reference external" href="https://dataverse.ird.fr/">dataSuds</a> à l’IRD ou thématiques comme <a class="reference external" href="https://www.gbif.org/">GBIF</a> pour les données de biodiversité, ou <a class="reference external" href="https://www.pangaea.de/">Pangaea</a> pour les données des géosciences.</p>
+<p>Des répertoires de données comme <a class="reference external" href="https://www.re3data.org/">Re3Data</a> (répertoire d’entrepôts créé par DataCite) ou <a class="reference external" href="https://cat.opidor.fr/index.php/Cat_OPIDoR,_wiki_des_services_d%C3%A9di%C3%A9s_aux_donn%C3%A9es_de_la_recherche">Cat OPIDoR</a> (catalogue de services dédié aux données de la recherche hébergé à l’INIST) sont accessibles pour guider les recherches.</p>
+<p>Pour plus de détails, on se reportera à la section <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a>.</p>
+</div>
+</div>
+<div class="section" id="comprendre-et-respecter-la-legislation-en-vigueur">
+<h2><span class="section-number">1.2. </span>Comprendre et respecter la législation en vigueur<a class="headerlink" href="#comprendre-et-respecter-la-legislation-en-vigueur" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Gérer les données de la recherche suppose de clarifier en amont les modalités de partage et de mise à disposition des données de la recherche et le cadre juridique applicable aux projets de recherche.</p>
+<p>Comme le précisent les interventions de Nathalie Gandon (Frédocs 2018) ou Nathalie Le Ba (ANF Sciences des données), il existe un certain nombre de principes fondamentaux associés à la notion d’open data et un certain nombre de textes législatifs en France et en Europe qui réglementent ou impactent la gestion des données de la recherche et la réutilisation des informations publiques. Parmi ces textes, figurent principalement la <a class="reference external" href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031701525/">loi Valter</a> (2015) et la    <a class="reference external" href="https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000031589829/">Loi pour la république numérique</a>] (2016) qui toutes deux élargissent le champ d’application de la <a class="reference external" href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000339241/2020-12-15/">Loi CADA</a> et ont pour objectif de favoriser la réutilisation de l’information publique. La loi Valter instaure le principe de gratuité dans la réutilisation des informations publiques tandis que la Loi pour la république numérique (Loi Lemaire) conduit à l’obligation de mise en ligne spontanée des documents administratifs librement réutilisables (y compris à des fins commerciales). Ces deux lois sont à l’origine du principe d’ouverture ou d’open data par défaut.
+Les notions de « document administratif », d’universalité et de gratuité des informations publiques sont ici des notions incontournables à saisir pour passer d’une logique de demande citoyenne à une logique de diffusion volontaire des informations du secteur public.</p>
+<p>Dans tous les cas, l’application des textes législatifs aux données de la recherche n’est pas toujours aisée. Nathalie Gandon, nous apporte des renseignements précieux à travers une check-list pour déterminer si les résultats de recherche sont ou ne sont pas des « documents administratifs » à diffuser. Il convient de s’interroger tout d’abord sur la nature et la forme du résultat concerné (le document doit être achevé), ensuite sur l’auteur du résultat (le document doit être produit dans le cadre d’une mission de service public) et enfin sur les conditions de production du résultat (collaboration publique ou privée). Il existe également de nombreuses exceptions prévues par la loi qui conduisent à une interdiction totale d’accès et de réutilisation (documents secret défense etc.). On trouvera sur ces supports le détail des exceptions liées aux données environnementales et personnelles.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://fredoc2018.sciencesconf.org/data/pages/Open_data_cadre_juridique_N_Gandon.pdf">Résultats de la recherche et open data : le cadre juridique</a></p>
+<p>Nathalie Gandon, INRA<br />
+ANF  « Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se) réinventer », 2018, Albi</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/20181107_questions_juridiques_autour_de_l_ouverture_des_donnees_rbdd.pdf?515/adba03a95aa28dd17a08e0c052414e099ad26347">Questions juridiques autour de l’ouverture des données</a></p>
+<p>Nathalie Le Ba (DAJ du CNRS)<br />
+ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données », 2018, Sète</p>
+</div>
+<p>En complément de ces présentations, il est important de retenir que le droit des producteurs de bases de données (droit sui generis) est désormais « neutralisé » par la Loi sur la république numérique. Comme toute administration, les universités et établissements de recherche ne peuvent opposer leur droit de producteur de bases de données à la libre réutilisation des informations qu’elles produisent. Le principe d’ouverture par défaut s’applique. Pour plus d’information sur ce point nous vous invitons à consulter l’article de Lionel Maurel : <a class="reference external" href="https://scinfolex.com/2016/11/01/les-universites-francaises-et-lopen-data-apres-la-loi-numerique/">les universités françaises et l’Open Data après la loi numérique</a>.</p>
+<p><strong>Les données à caractère personnel</strong></p>
+<p>La gestion des données implique également de porter un regard attentif à la législation sur les données à caractère personnel.</p>
+<p>Les données personnelles, régies en France par la loi informatique et liberté (loi de 1978, modifiée le 20 juin 2018 pour adaptation au RGPD) font l’objet d’un traitement particulier.
+Entré en vigueur le 25 mai 2018 dans toute l’Union européenne, le <a class="reference external" href="https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX%3A32016R0679">Règlement général sur la protection des données</a> (RGPD) instaure un nouveau cadre juridique pour la protection des données personnelles. Ce nouveau règlement renforce les droits des citoyens européens et responsabilise les organismes qui traitent les données pour garantir la protection des droits fondamentaux.<br />
+Les principes énoncés dans ce règlement doivent être connus et respectés, car ils s’appliquent aussi aux activités de recherche.  Le texte prévoit néanmoins un régime spécifique, dérogatoire offrant une large marge de manœuvre aux chercheurs pour l’utilisation des données personnelles dans le cadre d’un projet de recherche. (Voir l’article de Lionel Maurel : <a class="reference external" href="https://scinfolex.com/2018/07/18/donnees-personnelles-et-recherche-scientifique-quelle-articulation-dans-le-rgpd/">Données personnelles et recherche scientifique : quelle articulation dans le RGPD ?</a>)</p>
+<p>On trouvera dans l’intervention de Patrick Guillot (CIL des établissements universitaires de la ComUE Université Grenoble Alpes), une présentation riche et complète comprenant entre autres, un rappel des définitions et principes fondamentaux de la loi, une définition des « données à caractère personnel », un historique des principaux textes et un quiz de questions-réponses (vrai/faux) très utile pour comprendre l’évolution de la réglementation.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_guillot_1.pdf">Prise en compte des données personnelles - Évolution de la règlementation</a></p>
+<p>Patrick Guillot, Univ. Grenoble Alpes<br />
+ANF « Traçabilité des activités de recherche et gestion des connaissances », Réseau Qualité en Recherche, 2017, Grenoble</p>
+</div>
+<p>L’INSHS a par ailleurs produit un guide pour la recherche « <a class="reference external" href="https://www.inshs.cnrs.fr/sites/institut_inshs/files/pdf/guide-rgpd_2.pdf">Les sciences humaines et sociales et la protection des données à caractère personnel dans le contexte de la science ouverte</a>. Ce guide régulièrement mis à jour synthétise les règles applicables à chaque étape du cycle de vie des données et s’appuie sur des exemples concrets pour présenter des bonnes pratiques.</p>
+<p><strong>Les licences</strong></p>
+<p>Le choix des licences est également réglementé par la Loi pour une république numérique</p>
+<p>L’ouverture et le partage des données impliquent par ailleurs l’utilisation de licences (GNU, <a class="reference external" href="https://creativecommons.org/licenses/?lang=fr-FR">Creative Commons</a>, <a class="reference external" href="https://cecill.info/licences.fr.html">CeCILL</a>, et autres) qui fixent les conditions dans lesquelles les données peuvent être réutilisées. La Loi pour une république numérique impose l’utilisation de licences applicables aux « informations publiques » d’une part et aux codes sources et logiciels d’autre part. Les licences utilisables sont référencées sur <a class="reference external" href="https://www.data.gouv.fr/fr/licences">cette liste</a> fixée par décret et applicable par les administrations. Si toutefois, le consortium du projet dans lequel les données ont été créées impose un autre choix, il faut s’y conformer. La <a class="reference external" href="https://www.etalab.gouv.fr/licence-ouverte-open-licence">Licence ouverte / open licence</a> conçue par Etalab est considérée comme une licence de référence par le gouvernement pour la réutilisation et la publication de données publiques.</p>
+<p>Pour accompagner les équipes dans le traitement juridique des données, un collectif de juristes issus de l’enseignement supérieur et de la recherche a rédigé un guide de référence  <a class="reference external" href="https://www.ouvrirlascience.fr/wp-content/uploads/2018/11/Guide_Juridique_V2.pdf">“Ouverture des données de recherche. Guide d’analyse du cadre juridique en France”</a> qui explique les principes à respecter en matière de diffusion des données.</p>
+</div>
+<div class="section" id="connaitre-et-comprendre-les-principes-fair">
+<h2><span class="section-number">1.3. </span>Connaitre et comprendre les principes FAIR<a class="headerlink" href="#connaitre-et-comprendre-les-principes-fair" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Enoncés initialement par le groupe de travail FORCE 11, les principes FAIR « The FAIR Guiding Principles for scientific data management and stewardhip » ont été publiés en mars 2016 dans la revue Scientific Data. Elaborés par des représentants du monde universitaire, de l’édition, de l’industrie et des organismes de financement, ils répondent aux besoins urgents d’amélioration des infrastructures permettant la réutilisation des données scientifiques.</p>
+<div class="section" id="definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees">
+<h3><span class="section-number">1.3.1. </span>Définir les principes FAIR pour guider les stratégies de gestion des données<a class="headerlink" href="#definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Il s’agit d’un ensemble de <a class="reference external" href="https://www.ouvrirlascience.fr/fair-principles/">principes directeurs</a> visant à rendre les données de la recherche, Faciles à trouver, Accessibles, Interopérables et Réutilisables (FAIR) par les êtres humains et les machines.
+Ces principes permettent de guider les stratégies de gestion des données et d’aider tous les acteurs qui œuvrent à les produire, à en contrôler la qualité, à les traiter et les analyser, à assurer leur publication et leur dissémination, à les sélectionner et les préparer pour le dépôt dans des plateformes de partage ou d’archivage.<br />
+Il s’agit aussi en particulier de mettre l’accent sur le renforcement de la capacité des machines à rechercher et utiliser automatiquement les données afin de favoriser leur réutilisation par des particuliers.</p>
+<p>Les principes FAIR ont pour objectif de guider le partage et la publication des données. Toutefois, s’il y a une volonté forte en faveur du partage et de la réutilisation des données (les principes sont adoptés par de plus en plus d’organismes de financement de communautés scientifiques et sont également préconisés dans le plan national pour la science ouverte et dans la feuille de route du CNRS), il faut bien garder à l’esprit qu’appliquer les principes FAIR n’implique pas l’ouverture systématique des données.  Le principe de base « aussi ouvert que possible, aussi fermé que nécessaire » reste en vigueur y compris lorsque l’on applique les principes FAIR.</p>
+</div>
+<div class="section" id="appliquer-les-principes-fair-retours-dexperiences">
+<h3><span class="section-number">1.3.2. </span>Appliquer les principes FAIR -  Retours d’expériences<a class="headerlink" href="#appliquer-les-principes-fair-retours-dexperiences" title="Lien permanent vers ce titre">¶</a></h3>
+<p><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site">Le groupe de travail inter-réseaux « Atelier données »</a> s’est intéressé à l’application des principes FAIR. Une journée d’étude a été organisée en novembre 2018 avec l’objectif de présenter des retours d’expériences et des réflexions sur les pratiques de gestion des données de la recherche mises en œuvre par les réseaux métiers et les réseaux technologiques du CNRS. Elle a donné lieu à la production d’un <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/download/Livret_FAIR_2018.pdf">livret de synthèse</a>.</p>
+<p>Cette journée s’appuie plus spécifiquement sur les notions de pérennisation et d’interopérabilité des données dans les projets de recherche, et cherche à en comprendre les facteurs ressorts de réussite et les points sensibles à surveiller.<br />
+Elle a pour ambition d’analyser les complémentarités des expériences au travers des métiers représentés par les réseaux ; de formuler des points de convergence de bonnes pratiques et d’accroître les échanges entre les réseaux de la MI sur des questions à forts enjeux pour l’évolution de nos métiers.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://gt-donnees2018.sciencesconf.org/">Interopérabilité et pérennisation des données de la recherche : Comment FAIR en pratique ? Retour d’expérience</a></p>
+<p>Atelier Données Inter réseau, 2018, Paris</p>
+</div>
+</div>
+</div>
+<div class="section" id="prevoir-la-tracabilite-des-donnees">
+<h2><span class="section-number">1.4. </span>Prévoir la traçabilité des données<a class="headerlink" href="#prevoir-la-tracabilite-des-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Dans un environnement où l’information arrive en masse, pouvoir assurer la traçabilité des données est essentiel. Les données numériques représentent un enjeu majeur pour la recherche et il est important d’intégrer une démarche qualité au sein des structures de recherche pour disposer de données fiables et réutilisables.</p>
+<p>Le réseau Qualité en Recherche particulièrement investi sur ce sujet, a élaboré en 2018, un guide de référence : <a class="reference external" href="http://qualite-en-recherche.cnrs.fr/IMG/pdf/guide_tracabilite_activites_recherche_gestion_connaissances.pdf">Traçabilité des activités de recherche et gestion des connaissances</a>, à destination des agents des unités de recherche.
+Ce guide a pour objectif de fournir des recommandations et bonnes pratiques pouvant être appliquées dans tous les domaines d’activités, tant administratifs, techniques que scientifiques, afin d’assurer la traçabilité des activités de recherche et d’améliorer la gestion des données de la recherche.</p>
+<p>Alain Rivet, Responsable qualité et système d’information au CERMAV, illustre cette question à l’occasion de l’ANF Données 2016 en  présentant la problématique de la donnée dans la perspective de la traçabilité des activités de recherche. Il pose la question du défi organisationnel de la gestion des données dans les laboratoires et les établissements face aux contraintes de plus en plus fortes des autorités de tutelles. Il souligne ainsi le besoin d’optimiser le fonctionnement de nos laboratoires, la solution étant de s’appuyer sur des référentiels comme la norme ISO 9001. La nécessaire confiance en la qualité d’une recherche suppose une maitrise de l’ensemble des moyens d’acquisition, de traitement, de diffusion et de conservation des résultats.</p>
+<p>Nos tutelles, en réponse à cette problématique d’intégrité scientifique, ont mis en place une stratégie nationale avec la rédaction début 2016 d’une charte de déontologie des métiers de la recherche qui insiste sur l’importance de permettre la traçabilité des travaux expérimentaux et la conservation des données de la recherche. Une bonne gestion des données de la recherche apparait comme une réponse au problème soulevé.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2016.sciencesconf.org/data/pages/donnees_renatis_Al1_Rivet_2016.pdf">Activités de recherche et gestion des connaissances</a></p>
+<p>Alain Rivet, CNRS_CERMAV<br />
+ANF « Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données », 2016, Paris<br />
+Voir aussi les vidéos :
+<a class="reference external" href="https://youtu.be/UhBwjJDQcdg">La problématique de la donnée dans la perspective de la traçabilité des activités de recherche : contexte et enjeux</a> (séquence 1)
+<a class="reference external" href="https://youtu.be/6IaYJ_Rvm28">Le défi organisationnel de la gestion des données dans les laboratoires et les établissements</a> (séquence 2)
+<a class="reference external" href="https://youtu.be/7apGMS9gg5g">La qualité en recherche : contexte et définition</a> (séquence 3)
+<a class="reference external" href="https://youtu.be/Ld5vEByAMNA">La qualité au service de la gestion des données dans les laboratoires</a> (séquence 4)
+<a class="reference external" href="https://youtu.be/wVgQ_2fM10s">Conclusion : Développer les démarches « qualité » comme outil de gestion de données</a> (séquence 5)</p>
+</div>
+</div>
+<div class="section" id="envisager-la-curation-des-donnees">
+<h2><span class="section-number">1.5. </span>Envisager la curation des données<a class="headerlink" href="#envisager-la-curation-des-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>La curation des données est une activité essentielle dans la pratique de gestion des données, car elle assure la pérennité des données sur le long terme, leur qualité et leur réexploitation. Elle s’avère toutefois difficile à définir, car sa pratique se situe très souvent à la croisée de différentes disciplines.  Elle s’applique tout au long du cycle de vie de la donnée et intègre des tâches de nature parfois différentes comme la sélection, la vérification, la normalisation ou encore l’enrichissement nécessaires à la publication des données.</p>
+<p>« Les activités de curation de données permettent de faciliter la découverte et la récupération de données, de maintenir la qualité des données, de leur ajouter de la valeur et d’en fournir pour de futures réutilisations. Ce nouveau champ inclut la représentation, l’archivage, l’authentification, la gestion, la préservation, la récupération, et l’utilisation. »</p>
+<p><em>Digital Humanities Data Curation</em></p>
+<p>La définition ci-dessus semble de nature à mieux cadrer l’activité de curation pour la gestion des données de la recherche. Elle est proposée par le <a class="reference external" href="https://www.dcc.ac.uk/">Digital Curation Center</a> (DCC), une organisation britannique qui produit une expertise et fournit une aide pratique sur le stockage, la gestion, la protection et le partage des données de la recherche.</p>
+<p>Le DCC propose également un Briefing paper <a class="reference external" href="https://www.dcc.ac.uk/sites/default/files/documents/resource/briefing-papers/what-is-digital-curation.pdf">« What is Digital Curation »</a> qui explique les bénéfices d’une curation des données.</p>
+<p>Pour illustrer une pratique de curation des données en SHS, Emmanuelle Morlock, Ingénieure au Laboratoire HiSoMa a présenté un travail réalisé dans l’univers de l’édition critique des sources.</p>
+<p>Cette présentation s’organise en trois parties : les spécificités de la « data curation », les défis spécifiques aux SHS et les solutions proposées par l’encodage TEI (Text Encoding Initiative) de sources textuelle pour relever ces défis.
+Emmanuelle Morlock définit ici la notion de curation et les notions associées, les activités engendrées par cette activité et les défis qu’elles représentent pour les sciences humaines et sociales. Elle s’intéresse également aux types d’objets de la curation.
+Elle aborde ensuite le chapitre de l’édition savante qui l’amène à définir précisément ce qu’est l’édition numérique (un texte enrichi, exploitable par des machines) et à présenter, définir et expliquer le processus d’édition dans un format XML TEI.
+Elle explique aussi l’apport de la TEI dans la réponse aux défis posés par l’édition numérique (distinction de niveaux d’interprétation via le balisage, conservation et documentation des choix de manière formalisée) et termine sa présentation sur le rôle des « curateurs » pour repérer les manques dans un objectif de réutilisation à long terme ou pour aider les chercheurs à améliorer leurs pratiques de documentation de leurs données.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/emma-morlock-fredocs-2013.pdf">De quelques défis spécifiques de la curation numérique des données en SHS : petite incursion dans l’univers de l’édition critique de sources au format TEI</a></p>
+<p>Emmanuelle Morlock, HiSoMa)<br />
+Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois</p>
+</div>
+<p>Dans le domaine spécifique des humanités numériques, il existe un guide auquel se référer : le <a class="reference external" href="https://guide.dhcuration.org/about/">DH Curation Guide</a>. Il est composé d’un recueil d’articles fiables sur la curation des données, contextualisés par des rédacteurs experts et des membres de la communauté. Ce guide, réalisé suite à une analyse de besoins exprimés par des professionnels en Humanités numériques dans le cadre d’un projet de recherche (Data Curation Education Program for the Humanities (DCEP-H) a été conçu avec l’objectif d’aider à relever les défis posés par la curation des données.</p>
+</div>
+<div class="section" id="prevoir-larchivage-des-donnees">
+<h2><span class="section-number">1.6. </span>Prévoir l’archivage des données<a class="headerlink" href="#prevoir-larchivage-des-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>La gestion des archives d’un laboratoire de recherche est une pratique assez peu courante au sein de nos unités, mais tend à se développer avec l’explosion du volume des données produites ou générées par les communautés de chercheurs.</p>
+<p>Pour les archivistes de la section « Aurore » de l’association des archivistes français, « Les données de la recherche sont l’ensemble des informations et matériaux produits et reçus par des équipes de recherche et des chercheurs. Elles sont collectées et documentées à des fins de recherche scientifique. A ce titre, elles constituent une partie des archives de la recherche ».</p>
+<p>Se préoccuper de l’archivage des données fait partie intégrante d’une bonne gestion des données. Dans une logique de préservation, l’archivage se conçoit très en amont d’un projet, dès la création de la donnée. Son objectif est de décrire, documenter, contextualiser les données pour pouvoir ensuite assurer leur diffusion et leur préservation à long terme. Il concerne tout type de données (bases de données, questionnaire d’enquête, données brutes, photos, etc.). Au-delà du stockage, il s’agit là de faire en sorte qu’une donnée soit réexploitable (intègre, lisible, intelligible) dans 10, 20 ou 50 ans par une nouvelle communauté de chercheur.</p>
+<p>Les données sont des archives publiques dès lors qu’elles sont créées au sein d’un établissement public et l’archivage institutionnel est réglementé par la loi et notamment le <a class="reference external" href="https://www.codes-et-lois.fr/code-du-patrimoine/toc-partie-legislative-livre-ii-archives-texte-integral">code du patrimoine</a>. Les données doivent faire l’objet d’un tri, d’une sélection, idéalement à la suite d’un échange entre chercheur et archiviste en vue d’une conservation, si nécessaire, aux Archives nationales ou départementales.</p>
+<p>Des outils existent pour aider à la sélection des données notamment le <a class="reference external" href="https://www.archivistes.org/Referentiel-de-gestion-des-archives-de-la-recherche">référentiel de gestion des archives de la recherche</a>. Ce référentiel est organisé par thématiques et indique pour chaque type de document sa durée de conservation, son sort final (tri, conservation, destruction) et les aspects légaux à connaître.</p>
+<p>Pour plus de détails, on se reportera à la section <a class="reference internal" href="06-archiver.html#archiver"><span class="std std-ref">Préserver et archiver</span></a>.</p>
+</div>
+<div class="section" id="identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche">
+<h2><span class="section-number">1.7. </span>Identifier les compétences et expertises pour la gestion des données de la recherche<a class="headerlink" href="#identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Évoluer dans nos pratiques suppose de développer de nouvelles expertises et d’acquérir de nouvelles connaissances. Les réseaux professionnels, vecteurs de partage et d’échange sont particulièrement indiqués pour organiser et faciliter l’acquisition de nouvelles compétences.</p>
+<div class="section" id="s-informer-et-se-former">
+<h3><span class="section-number">1.7.1. </span>S’informer et se former<a class="headerlink" href="#s-informer-et-se-former" title="Lien permanent vers ce titre">¶</a></h3>
+<p>La formation continue des personnels est fondamentale pour suivre l’évolution des métiers et des technologies.</p>
+<p>Au CNRS, la formation continue est pilotée par le Service formation et Itinéraire Professionnel (<a class="reference external" href="https://www.dgdr.cnrs.fr/drh/mission/mission.htm#sfip">SFIP</a>). Celui-ci met en oeuvre des actions adaptées aux orientations et à la stratégie de l’établissement à travers deux dispositifs de formation principaux : les Actions Nationales de Formation (ANF) fortement orientée sur les technologies et ingénierie, et les « Écoles Thématiques »  d’un contenu davantage scientifique et plutôt en relation avec les chercheurs. Le SFIP soutient également des actions régionales de formation.</p>
+<p><strong>Les réseaux métiers et réseaux technologiques</strong></p>
+<p>Dans ces dispositifs de formation institutionnels, <em>les réseaux métiers</em> sont fréquemment au coeur des propositions de programme, du montage et de l’organisation des ANF. Chaque année de nombreuses formations sont en effet régulièrement organisées par les réseaux, et les supports de formations présentés sont habituellement capitalisés sous une forme ou une autre (résumé, pdf, vidéo) sur les sites des réseaux.</p>
+<p>Outre les ANF, les réseaux organisent également de manière autonome, sur budget propre attribués par la <a class="reference external" href="https://miti.cnrs.fr/">Mission pour les Initiatives transverses et l’Interdisciplinarité </a> (MITI) ou par les Instituts du CNRS, des journées de séminaires qui regroupent les membres des réseaux comme par exemple les <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site">journées thématiques organisées par le groupe de travail inter-réseaux « Atelier données »</a> ou les <a class="reference external" href="https://sist.cnrs.fr/les-seminaires">séminaires annuels du réseau SIST de l’INSU</a>.</p>
+<p>Ils constituent bien évidemment des vecteurs importants de l’état de l’art et des connaissances à acquérir dans une discipline et contribuent à développer la connaissance d’un domaine de compétence.</p>
+<p>Initiés et portés par des membres d’un même métier ou travaillant avec les mêmes technologies (outils, instruments, méthodes, etc.), les réseaux professionnels du CNRS ont vocation à faciliter les échanges d’informations et d’idées entre leurs membres.</p>
+<p>Les réseaux favorisent le maintien et le développement des compétences, l’échange des pratiques professionnelles, l’implication et la motivation. Ils développent une connaissance fine de l’évolution des métiers et/ou des technologies de demain en assurant ainsi une veille pour les établissements d’Enseignement Supérieur et de la Recherche.</p>
+<p>Les réseaux rattachés à la MITI du CNRS  sont transversaux à tous les Instituts du CNRS, et accessibles aux personnels de l’Enseignement supérieur et de la Recherche,</p>
+<p>La MITI accueille et pilote actuellement <a class="reference external" href="https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/">22 réseaux</a> labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.</p>
+<p>Les résaux labellisés par les instituts du CNRS viennent plus spécifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense uncertain nombre dans son billet « <a class="reference external" href="https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/">Evoluer, échanger, innover : les réseaux professionnels du CNRS</a> ».</p>
+<p>Un dispositif de formation à distance sur les données de la recherche est accessible sur le site <a class="reference external" href="https://doranum.fr/">DoRANum</a> (Données de la Recherche : Apprentissage NUMérique à la gestion et au partage). Cette plateforme met à disposition différentes ressources d’autoformation en libre accès sur la gestion et le partage des données de la recherche.</p>
+<p>Le réseau national des <a class="reference external" href="http://gis-reseau-urfist.fr/">URFIST</a> (Unité Régionale de Formation à l’Information Scientifique et Technique), créé en 1982 est un réseau inter-académique structuré depuis 2017 en Groupement d’Intérêt Scientifique (GIS) qui a pour objectif de développer l’usage de l’IST dans l’enseignement supérieur et de la recherche.</p>
+<p>Les sept unités régionales proposent chacunes des ressources, documents pédagogiques ainsi que des formations (y compris doctorales) et manifestations scientifiques et professionnelles à <a class="reference external" href="http://weburfist.univ-bordeaux.fr/">Bordeaux</a>, <a class="reference external" href="https://urfist.univ-lyon1.fr/">Lyon</a>, <a class="reference external" href="https://urfist.chartes.psl.eu/formations/stages/programme">Paris</a>, <a class="reference external" href="https://urfist.univ-cotedazur.fr/">Nice</a>, <a class="reference external" href="https://www.sites.univ-rennes2.fr/urfist/formations/stages/presentation-du-programme-en-cours">Renne</a>, <a class="reference external" href="http://urfist.unistra.fr/formations/">Strasbourg</a> et <a class="reference external" href="http://urfist.univ-toulouse.fr/formations/sessions-date">Toulouse</a>. Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information.</p>
+<p>Ses sept unités régionales proposent chacunes des ressources, documents pédagogiques ainsi que des formations (y compris doctorales) et manifestations scientifiques et professionnelles à <a class="reference external" href="http://weburfist.univ-bordeaux.fr/">Bordeaux</a>, <a class="reference external" href="https://urfist.univ-lyon1.fr/">Lyon</a>, <a class="reference external" href="https://urfist.chartes.psl.eu/formations/stages/programme">Paris</a>, <a class="reference external" href="https://urfist.univ-cotedazur.fr/">Nice</a>, <a class="reference external" href="https://www.sites.univ-rennes2.fr/urfist/formations/stages/presentation-du-programme-en-cours">Renne</a>, <a class="reference external" href="http://urfist.unistra.fr/formations/">Strasbourg</a> et <a class="reference external" href="http://urfist.univ-toulouse.fr/formations/sessions-date">Toulouse</a>. Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information.
+Nous en avons discuté avec Joanna et nous considérons que c’est une ressource vraiment intéressante et pas seulement pour les prof de l’information &gt;</p>
+<p>Outre les actions de formation, d’expérimentations et innovations pédagogiques initiées par les Urfist, le réseau met à disposition un blog « <a class="reference external" href="https://urfistinfo.hypotheses.org/">UrfistInfo</a> ».</p>
+</div>
+<div class="section" id="suivre-les-travaux-du-college-competences-et-formation-du-coso">
+<h3><span class="section-number">1.7.2. </span>Suivre les travaux du Collège « Compétences et formation du COSO »<a class="headerlink" href="#suivre-les-travaux-du-college-competences-et-formation-du-coso" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Le Plan national pour la science ouverte, s’appuyant sur trois axes, engage les opérateurs de la recherche à « <em>mettre en œuvre une politique de science ouverte et à structurer et ouvrir les données de la recherche »</em>. La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions de deux collèges du  <a class="reference external" href="https://www.ouvrirlascience.fr/presentation-du-comite/">Comité pour la science ouverte</a> (COSO) :  les collèges <a class="reference external" href="https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/">Données de la recherche</a> et <a class="reference external" href="https://www.ouvrirlascience.fr/college-competences-et-formation/">Compétences et formation</a>.</p>
+<p>Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mette en oeuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte.</p>
+<p>Parmi les réalisations récentes, on peut citer le guide « <a class="reference external" href="https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf">Pour une politique des données de la recherche : guide stratégique</a> » où le CoSO émet sept recommandations pour aider à la formalisation et à la mise en œuvre d’une politique des données de la recherche au sein des établissements de l’ESR, la réalisation du <a class="reference external" href="https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/">Passeport pour la science ouverte</a> destiné aux doctorants de toutes disciplines, le guide « <a class="reference external" href="https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/">Je publie, quels sont mes droits</a> » qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits et la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente ».</p>
+<p>.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="00-introduction.html" title="previous page">Guide de bonnes pratiques sur la gestion des données de la recherche</a>
+    <a class='right-next' id="next-link" href="02-concevoir_planifier.html" title="next page"><span class="section-number">2. </span>Concevoir et planifier</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+        
+            &copy; Copyright 2021.<br/>
+          Mis à jour le 25 janv. 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

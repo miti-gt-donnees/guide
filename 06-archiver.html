@@ -1,0 +1,653 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>6. Préserver et archiver</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/translations.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="7. Publier et diffuser" href="07-publier.html" />
+    <link rel="prev" title="5. Analyser" href="05-analyser.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="01-imaginer.html">
+   1. Imaginer et préparer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-concevoir_planifier.html">
+   2. Concevoir et planifier
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-collecter.html">
+   3. Collecter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-traiter.html">
+   4. Traiter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-analyser.html">
+   5. Analyser
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   6. Préserver et archiver
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07-publier.html">
+   7. Publier et diffuser
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-glossaire.html">
+   Glossaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10-infrastructures.html">
+   Infrastructures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-reproductibilite.html">
+   Reproductibilité
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-ressources.html">
+   Autres guides de bonnes pratiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13-credits.html">
+   Crédits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf">
+   Document pdf
+   <i class="fas fa-external-link-alt">
+   </i>
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/06-archiver.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                title="Mode plein écran"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contenu
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#comprendre-et-differentier-les-differents-concepts">
+   6.1. Comprendre et différentier les différents concepts
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#definitions-generales">
+     6.1.1. Définitions générales
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#preserver-la-masse-de-donnees-scientifiques">
+     6.1.2. Préserver la masse de données scientifiques
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#proteger-et-securiser-le-patrimoine-scientifique">
+     6.1.3. Protéger et sécuriser le patrimoine scientifique
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#preserver-les-objets-numeriques">
+   6.2. Préserver les objets numériques
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-donnees-d-un-tableur">
+     6.2.1. Les données d’un tableur
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-bases-de-donnees">
+     6.2.2. Les bases de données
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-donnees-chiffrees">
+     6.2.3. Les données chiffrées
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-donnees-a-caractere-personnel">
+     6.2.4. Les données à caractère personnel
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-logiciels-les-codes-sources">
+     6.2.5. Les logiciels / les codes sources
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#archiver-les-objets-numeriques">
+   6.3. Archiver les objets numériques
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#archivage-a-long-terme-et-politiques-de-preservation">
+     6.3.1. Archivage à long terme et politiques de préservation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-plateformes-d-archivage-des-donnees">
+     6.3.2. Les plateformes d’archivage des données
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#selectionner-les-donnees-pertinentes">
+   6.4. Sélectionner les données pertinentes
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#s-appuyer-sur-les-enseignements-des-retours-d-experience">
+   6.5. S’appuyer sur les enseignements des retours d’expérience
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-numeriques-en-ecologie">
+     6.5.1. Retour d’expérience sur des données numériques en Écologie
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#retour-d-experience-sur-des-donnees-orales-en-shs">
+     6.5.2. Retour d’expérience sur des données orales en SHS
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="preserver-et-archiver">
+<span id="archiver"></span><h1><span class="section-number">6. </span>Préserver et archiver<a class="headerlink" href="#preserver-et-archiver" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Préserver, sécuriser l’information et sauvegarder, voire archiver les données sont des phases essentielles de la gestion rigoureuse des données, mais il n’est pas toujours aisé de faire la distinction entre ces notions et d’utiliser le bon terme et la procédure associée. De plus, préserver pour un usage futur dont on ignore le plus souvent les caractéristiques est compliqué. C’est pourquoi des retours d’expériences avec leurs succès et leurs échecs sont intéressants à faire connaître. Ces retours d’expérience sont complétés par des conseils appropriés pour sélectionner les données à préserver et pour mener à bien la préservation d’objets numériques.</p>
+<div class="section" id="comprendre-et-differentier-les-differents-concepts">
+<h2><span class="section-number">6.1. </span>Comprendre et différentier les différents concepts<a class="headerlink" href="#comprendre-et-differentier-les-differents-concepts" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Les notions de stockage, de sauvegarde et d’archivage ainsi que les actions de préservation et de pérennisation ne sont pas toujours définies dans les mêmes termes. Afin de faciliter la lecture de ce chapitre et aider à distinguer les différences entre les termes utilisés, nous vous proposons les définitions suivantes.</p>
+<div class="section" id="definitions-generales">
+<h3><span class="section-number">6.1.1. </span>Définitions générales<a class="headerlink" href="#definitions-generales" title="Lien permanent vers ce titre">¶</a></h3>
+<dl class="simple myst">
+<dt>Stocker</dt><dd><p>C’est l’étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d’assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n’est ni sauvegardée et ni sécurisée.</p>
+</dd>
+<dt>Sauvegarder</dt><dd><p>La sauvegarde consiste à dupliquer les données sur un support numérique externe à celui où elles sont stockées. L’objectif est de pouvoir les retrouver en cas de perte ou de dégradation de l’organe de stockage. Il s’agit d’une sauvegarde octet par octet dans une perspective de court ou de moyen terme. La recherche de la préservation de l’intelligibilité des données n’est pas un élément pris en compte.</p>
+</dd>
+</dl>
+<p>Cette étape de sauvegarde doit s’accompagner d’une réelle politique de sauvegarde, qui détermine en fonction de la criticité et de la sensibilité des données combien de copies de sauvegarde on établit par jour, par semaine, par mois. Les sauvegardes se font le plus souvent avec des logiciels spécialisés qui permettent de définir ce qu’on sauvegarde et sa fréquence. Le logiciel permet également de restaurer, c’est-à-dire de rétablir les données d’une certaine sauvegarde choisie. La sauvegarde est mise en place par les administrateurs système et réseaux. Dans le cycle de vie de la donnée, les procédures de sauvegarde doivent être définies lors de la partie <a class="reference internal" href="03-collecter.html#collecter"><span class="std std-ref">Collecter</span></a></p>
+<p>Laurent Pelletier, lors de l’ANF PostgreSQL Administration, a présenté les questions à se poser pour définir sa politique de sauvegarde autour des bases de données.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/sauvegardes-01-intro-politiquedesauvegarde-texte-s-v3.pdf?349/f4115e73fa9d2d7789f635ea68300364244a28e3">Sauvegardes</a></p>
+<p>Laurent Pelletier, INIST-CNRS<br />
+ANF « PostgreSQL Administration », réseau rBDD, Sète, 2017</p>
+</div>
+<dl class="simple myst">
+<dt>Archiver</dt><dd><p>L’archivage consiste à ranger un document dans un lieu où il sera conservé pendant une période plus ou moins longue et d’y associer les moyens pour réutiliser les données : la réutilisation se faisant en ajoutant de l’intelligence à la sauvegarde. Le contenu des documents archivés n’est pas modifiable. Par contre le contenant (format) des documents archivés peut être modifié (pour éviter l’obsolescence logicielle).</p>
+</dd>
+</dl>
+<p>Le terme archive est défini par le législateur : <em>les archives sont l’ensemble des documents, y compris les données, quels que soient leur date, leur lieu de conservation, leur forme et leur support produits ou reçus par toute personne physique ou morale, et par tout service ou organisme public ou privé dans l’exercice de leur activité</em> (art. L. 211-1 du code du patrimoine). Les données de la recherche entrent pleinement dans le périmètre des archives.</p>
+<p>Pour en savoir plus sur le statut des archives scientifiques du CNRS et sur leur délai de conservation, nous vous conseillons ces deux documents :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/20191120_archives_scientifiquesGRICAD.pdf">Textes réglementaires et durée de conservation</a></p>
+<p>Marie-Laure Bachèlerie, DAJ-CNRS<br />
+Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://qualite-en-recherche.cnrs.fr/IMG/pdf/guide_tracabilite_activites_recherche_gestion_connaissances.pdf">Traçabilité des activités de recherche et gestion des connaissances - Guide pratique de mise en place</a></p>
+<p>Alain Rivet, CERMAV &amp; Marie-Laure Bachèlerie, DAJ-CNRS &amp; Auriane Denis-Meyere, IBS &amp; Delphine Tisserand, ISTerre<br />
+MITI-CNRS, 2018</p>
+</div>
+<dl class="simple myst">
+<dt>Préserver</dt><dd><p>Cette action fait référence au fait de garantir, protéger, mettre à l’abri, sauver d’un dommage ou d’une destruction (cf. notion de sauvegarde) et au fait de tenir dans le même état, en bon état (intelligible). Elle fait aussi référence à la notion de permanence dans le temps (cf. notion d’archivage). Le synonyme « conserver » est utilisé quand il est fait référence à une politique.</p>
+</dd>
+<dt>Pérenniser</dt><dd><p>Ce verbe est souvent utilisé à la place de préserver quand on pense archivage pérenne. L’archivage pérenne a pour fonction d’assurer la conservation à long terme des données, leur accessibilité tout en préservant leur intelligibilité, comme rendre accessible en lecture des données immuables (archives de documents administratifs, données de mesures expérimentales, résultats de simulations coûteuses à produire, etc.).</p>
+</dd>
+</dl>
+<p>Dans l’article « <a class="reference external" href="https://hal.inrae.fr/hal-02861909">l’archivage des données de la recherche à l’Inra. Eléments de réflexion, démarche et perspectives</a> », les auteurs indiquent que pour eux, la pérennisation et la préservation sont le même concept :  <em>La pérennisation (ou préservation) permet de faire face à la perte d’informations d’identification ainsi qu’à l’obsolescence des supports et des logiciels. Elle consiste en effet à identifier et à conserver des documents et des données pour les rendre accessibles sur le moyen (10 ans et plus) et le long terme (50 ans et plus)</em></p>
+<p>Dans la suite de ce chapître, nous utiliserons les termes « préserver / préservation » qui sont les termes le plus utilisés actuellement.</p>
+</div>
+<div class="section" id="preserver-la-masse-de-donnees-scientifiques">
+<h3><span class="section-number">6.1.2. </span>Préserver la masse de données scientifiques<a class="headerlink" href="#preserver-la-masse-de-donnees-scientifiques" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Cette présentation est une bonne entrée en la matière. Cristinel Diaconu introduit sa présentation en illustrant le « Big Bang » des données et en questionnant le destin des masses de données scientifiques (<em>big scientific data</em>) sur le long terme. Il explique la fragilité des données numériques et la limite dépassée des capacités de stockage des données. Pourtant les données scientifiques sont riches en information, car structurées selon un plan de recherche et une démarche scientifique, elles sont de plus en plus massives et diverses, produites avec des efforts humains et financiers significatifs, elles englobent des connaissances uniques qu’il faut absolument préserver. Partant d’exemples issus de la physique des hautes énergies produits par des instruments gigantesques pour des collaborations internationales, il démontre l’importance de se préoccuper du sort de ces données et de planifier leur préservation. Il aborde la question du risque associé à la réutilisation, de l’organisation sur le long terme, et des différents modèles de données et niveaux de préservation.</p>
+<p>La dernière partie de sa présentation est consacrée au projet <strong>PREDON</strong> qui propose une approche nouvelle mélangeant les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DIACONU_DPHEP_PREDON_FREDOCS.pdf">La préservation des données scientifiques</a></p>
+<p>Cristinel Diaconu, CPPM<br />
+FRéDoc « Gestion et valorisation des données de la recherche », réseau Renatis, Aussois, 2013</p>
+</div>
+</div>
+<div class="section" id="proteger-et-securiser-le-patrimoine-scientifique">
+<h3><span class="section-number">6.1.3. </span>Protéger et sécuriser le patrimoine scientifique<a class="headerlink" href="#proteger-et-securiser-le-patrimoine-scientifique" title="Lien permanent vers ce titre">¶</a></h3>
+<p>L’analyse de risque suit un processus normé (ISO 2700x) comme nous le montre Alain Rivet. Cette présentation inclut une étude de cas sur l’utilisation d’un portable par un chercheur qui illustre le passage de la théorie à la pratique.</p>
+<p>La sécurité de l’information est définie comme la « protection de la <strong>confidentialité</strong>, de l”<strong>intégrité</strong> et de la <strong>disponibilité</strong> de l’information ». Elle est aujourd’hui une des problématiques majeures de nos unités et s’appuie sur la mise en place des Politiques de Sécurité des Systèmes d’Informations (PSSI) par les services compétents au sein des structures de recherche.</p>
+<p>Nous pouvons résumer la finalité de la « protection du patrimoine scientifique » comme étant le fait de :</p>
+<ul class="simple">
+<li><p>garantir la disponibilité de l’outil de travail pour l’ensemble des personnels de la structure ;</p></li>
+<li><p>garantir (si besoin) la confidentialité des informations ;</p></li>
+<li><p>garantir l’intégrité des informations et des personnes ;</p></li>
+<li><p>assurer la protection des données sensibles de la structure (données scientifiques et techniques ; données de gestion administrative, données individuelles) ;</p></li>
+<li><p>assurer la protection juridique (risques administratifs, risques pénaux, atteinte à la réputztion scientifique ou à l’image institutionnelle).</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://qualite-en-recherche.cnrs.fr/IMG/pdf/gestion_risques_ssi_rivet_2015.pdf">L’analyse de risques dans le cadre du système d’information</a></p>
+<p>Alain Rivet, CERMAV<br />
+6ème rencontres du Réseau Qualité en Recherche, réseau QeR, Biarritz, 2015</p>
+</div>
+<p>Cyril Bras ajoute un quatrième critère pour définir le niveau de sécurité d’un élément du système d’information : la <strong>preuve</strong> qu’il définit comme la propriété d’un bien permettant de retrouver, avec une confiance suffisante, les circonstances dans lesquelles ce bien évolue. Cette propriété englobe notamment :</p>
+<ul class="simple">
+<li><p>la traçabilité des actions menées ;</p></li>
+<li><p>l’authentification des utilisateurs ;</p></li>
+<li><p>l’imputabilité du responsable de l’action effectuée.</p></li>
+</ul>
+<p>Les solutions peuvent être apportées à différents niveaux :</p>
+<ul class="simple">
+<li><p>la sauvegarde avec des outils comme Rsync et Bacula ;</p></li>
+<li><p>le chiffrement des données ;</p></li>
+<li><p>les droits d’accès ;</p></li>
+<li><p>la protection réseau ;</p></li>
+<li><p>l’éducation des utilisateurs.</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_bras.pdf">La sécurisation des données (accès, sauvegarde, archivage…)</a></p>
+<p>Cyril Bras, CERMAV<br />
+7ème rencontres du Réseau Qualité en Recherche, réseau QeR, Grenoble, 2017</p>
+</div>
+<p>La protection du patrimoine scientifique et technique est l’affaire de tous, mais elle ne se limite pas à des mesures techniques.</p>
+<p>Sans prise de conscience de tous sur la nécessité de préserver le patrimoine scientifique, une disparition (partielle sinon généralisée) de nos données est plus que probable. Marion Massol lors de sa présentation au séminaire SIST en 2016 nous rappelle cependant que des solutions d’avenir existent déjà (au CINES).</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/18_M_Massol.pdf">Patrimoine scientifique en danger : des solutions d’avenir existent déjà</a></p>
+<p><a class="reference external" href="https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&amp;files=19-archivage-Massol-cines-SIST2016.mp4&amp;downloadStartSecret=ggtwzdj99bb">Vidéo : </a><br />
+Marion MASSOL, CINES<br />
+Séminaire SIST 2016 : réseau SIST, Montpellier, 2016</p>
+</div>
+</div>
+</div>
+<div class="section" id="preserver-les-objets-numeriques">
+<h2><span class="section-number">6.2. </span>Préserver les objets numériques<a class="headerlink" href="#preserver-les-objets-numeriques" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Tous les objets numériques ne nécessitent pas les mêmes opérations pour être préservés. Leur préservation dépend parfois de leur nature (données textuelles, données numériques, données audiovisuelles, modèles et codes informatiques ..), du niveau de leur protection (chiffrés, non chiffrés) de leur façon d’être collectés (observateur, capteur, modèle, etc) ou de leur évolution dans le temps (stable, croissante, révisable).</p>
+<p>Voici quelques exemples de préservation d’objets numériques qui ont fait l’objet de présentation.</p>
+<div class="section" id="les-donnees-d-un-tableur">
+<h3><span class="section-number">6.2.1. </span>Les données d’un tableur<a class="headerlink" href="#les-donnees-d-un-tableur" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Marie-Claude Quidoz revient sur les quatre risques menaçant inéluctablement un fichier sur une longue période et donne des pistes d’améliorations possibles. Elle fait trois recommandations importantes :</p>
+<ul class="simple">
+<li><p>ne pas penser uniquement format ouvert, mais penser aussi format durable pour une sauvegarde à long terme,</p></li>
+<li><p>dans le monde des tableurs, où à ce jour les seuls formats durables sont CSV / TXT, ne pas oublier de prendre en compte, lors de la création des fichiers, la perte de fonctionnalités de ce format par rapport aux formats natifs,</p></li>
+<li><p>avoir le réflexe de valider son fichier avec l’outil <a class="reference external" href="https://facile.cines.fr/">FACILE</a> du CINES.</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/quidoz_atelier2018.pdf?480/cd645e6864223eaae2a37ea4d2b45077f07b61d1">Sécuriser les données produites par les carnets de terrain électroniques</a></p>
+<p>Marie-Claude Quidoz, CEFE<br />
+Atelier « Carnets de terrain électroniques », Montpellier, 2018</p>
+</div>
+</div>
+<div class="section" id="les-bases-de-donnees">
+<h3><span class="section-number">6.2.2. </span>Les bases de données<a class="headerlink" href="#les-bases-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>En Avril 2004, le CINES a publié un  « <a class="reference external" href="https://cultura.gencat.cat/web/.content/dgpc/arxius_i_gestio_documental/14_Gestio_documental/06_GD_Estandaritzacio/preservacio_publicacions/GM_archivage_BDD.pdf">Guide Méthodologique pour l’archivage des bases de données</a> » que nous recommandons fortement, même s’il est un peu ancien (la famille NoSQL est absente). Il contient les bonnes questions à se poser (est-ce une base de données vivante / consultée / cumulative ?), est-ce une base de données pilotée par une interface ? etc). Il présente les différents modes de sauvegarde possibles d’une base de données avec pour chacun leurs avantages et leurs inconvénients. Il liste les différentes documentations à joindre. Et surtout il sensibilise l’utilisateur sur la problématique de l’interface qui du point de vue préservation est un problème à prendre en compte en tant que tel (maillon faible).</p>
+<p>En novembre 2014, le réseau rBDD a consacré une journée à cette thématique « <a class="reference external" href="http://webcast.in2p3.fr/events-rbdd2014">Journée de sensibilisation à la sécurisation et à la pérennisation des données</a> ». À cette occasion, Michel Jacobson a fait une présentation dans laquelle il présente le contexte de la pérennisation des bases de données, le  format <em>Software Independent Archiving of Relational Databases</em> (SIARD) et un retour d’expérience de l’utilisation de ce format pour la matrice cadastrale numérique.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/rbdd_siard.pdf?181/12408bc1172027762f2ac776ed4842de13c19474">Retour d’expérience sur l’utilisation du format SIARD pour l’archivage des bases de données relationnelles</a></p>
+<p><a class="reference external" href="http://webcast.in2p3.fr/videos-utilisation_du_format_siard_pour_l_archivage_des_bases_de_donnees_relationnelles">Vidéo : </a><br />
+Michel Jacobson, LLL<br />
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014</p>
+</div>
+</div>
+<div class="section" id="les-donnees-chiffrees">
+<h3><span class="section-number">6.2.3. </span>Les données chiffrées<a class="headerlink" href="#les-donnees-chiffrees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Dans cette présentation, François Morris aborde le cas des données protégées par un chiffrement. Après un rappel de ce qu’est le chiffrement, il présente le chiffrement dans la durée : archivage des données chiffrées et utilisation de ces données, donc comment déchiffrer dans le futur ces données archivées.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/chiffrement-perennisation.pdf?185/c4475004eab7dcd07a72e8230a8d74d493dc2495">La pérennisation des données chiffrées ? Quel est l’impact du chiffrement sur le long terme ?</a></p>
+<p><a class="reference external" href="http://webcast.in2p3.fr/videos-la_perennisation_des_donnees_chiffrees_quel_est_l_impact_du_chiffrement_sur_le_long_terme">Vidéo : </a><br />
+François Moris, CNRS<br />
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014</p>
+</div>
+</div>
+<div class="section" id="les-donnees-a-caractere-personnel">
+<h3><span class="section-number">6.2.4. </span>Les données à caractère personnel<a class="headerlink" href="#les-donnees-a-caractere-personnel" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Dans cette présentation, Emilie Masson et Patrick Guillot proposent une carte mentale avec deux parties distinctes. À droite du terme « données personnelles et archivage » ils donnent une définition des données à caractère personnel et des traitements de données personnelles. À gauche du terme « données personnelles et archivage », ils rappellent les obligations de la RGPD en termes de conservation après l’exercice de la finalité et ils établissent des recommandations en fonction de trois types d’archives : archives courantes / archives intermédiaires et archives définitives.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/Donne_es_personnelles_et_archivage.pdf">Données personnelles et archivage</a></p>
+<p>Emilie Masson, SPD-CNRS &amp; Patrick Guillot, Université Grenoble Alpes<br />
+Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019</p>
+</div>
+</div>
+<div class="section" id="les-logiciels-les-codes-sources">
+<h3><span class="section-number">6.2.5. </span>Les logiciels / les codes sources<a class="headerlink" href="#les-logiciels-les-codes-sources" title="Lien permanent vers ce titre">¶</a></h3>
+<p>La préservation des logiciels et des codes sources est indispensable pour assurer la reproductibilité de la science. Le projet Software Heritage a pour objectif de collecter, préserver et rendre disponible le code source (et son historique) de tous les logiciels publiquement disponibles. Une présentation du projet est disponible dans la section <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a> de ce guide.</p>
+</div>
+</div>
+<div class="section" id="archiver-les-objets-numeriques">
+<h2><span class="section-number">6.3. </span>Archiver les objets numériques<a class="headerlink" href="#archiver-les-objets-numeriques" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L’archivage des objets numériques s’appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d’archivage homologué aux fonctionnalités d’interrogation moindres.</p>
+<div class="section" id="archivage-a-long-terme-et-politiques-de-preservation">
+<h3><span class="section-number">6.3.1. </span>Archivage à long terme et politiques de préservation<a class="headerlink" href="#archivage-a-long-terme-et-politiques-de-preservation" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Ces retours d’expériences recueillis lors du séminaire « <a class="reference external" href="https://dataarchivage.sciencesconf.org/">Archivage Numérique des Données de Recherche</a> » (Grenoble, novembre 2019) illustrent les démarches en cours dans certains instituts et sur certaines infrastructures pour mettre en oeuvres des politiques d’archivage et de préservation des données.</p>
+<p>Ces présentations offrent un panorama des différents processus ou démarches d’archivage à long terme mis en place dans diverses disciplines scientifiques. On y découvre les politiques de gestion ou de partage des données et les démarches spécifiques à chaque structure pour mettre en place ou organiser un système d’archivage et de préservation des données sur le long terme.</p>
+<p>Pour commencer, Michel Jacobson présente l’offre de service de la Très Grande Infrastructure de Recherche (TGIR) Huma-Num pour l’archivage à long terme.
+Ce service co-construit en partenariat avec le CINES consiste en un accompagnement méthodologique et parfois technique pour l’archivage au sein même du CINES. Il prend la forme aussi de recommandations, d’un dialogue, d’une médiation entre les producteurs de données et le CINES et assure la prise en charge des coûts d’archivage pour l’utilisateur. Il illustre sa présentation par différents exemples d’archivage en SHS.</p>
+<p>Les présentations de Yonny Cardenas et de Jean-François Perrin présentent les politiques de gestion, partage et diffusion des données au centre Paul Langevin et au centre de calcul de l’IN2P3. Yonny Cardenas insiste en particulier sur les qualités et faiblesses de la politique de gestion mise en place. Il présente un cas d’utilisation qui mobilise des compétences multidisciplinaires de chercheurs, informaticiens et documentalistes et révèle un besoin crucial d’archivage à long terme.</p>
+<p>Gilles Duvert témoigne quant à lui de la préservation des données en Astronomie, discipline dans laquelle les données et l’interopérabilité sont au cœurs de la démarche scientifique depuis 40 ans. Il signale entre autres la pratique qui consiste à archiver et documenter les données à l’aide de standards partagés au niveau international.]</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf">Archivage des données à Huma-NUM</a></p>
+<p><a class="reference external" href="http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4">Vidéo : </a><br />
+Michel Jacobson, Huma-Num<br />
+Archivage Numérique des Données de Recherche, 2019, Grenoble</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf">Archivage des données à l’IN2P3</a></p>
+<p><a class="reference external" href="http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4">Vidéo : </a><br />
+Yonny Cardenas, CC-IN2P3<br />
+Archivage Numérique des Données de Recherche, 2019, Grenoble</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/2019_11_19_IMAG_Journee_archivage.pdf">Gestion des données scientifiques à l’Institut Laue Langevin</a></p>
+<p>Jean-Francois Perrin, ILL<br />
+Archivage Numérique des Données de Recherche, 2019, Grenoble</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf">L’archivage des données en astronomie</a></p>
+<p><a class="reference external" href="http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4">Vidéo : </a><br />
+Françoise Genova,observatoire astronomique de Strasbourg, Gilles Duvert, IPAG, OSUG et JMMC<br />
+Archivage Numérique des Données de Recherche, 2019, Grenoble</p>
+</div>
+</div>
+</div>
+<div class="section" id="les-plateformes-d-archivage-des-donnees">
+<h3><span class="section-number">6.3.2. </span>Les plateformes d’archivage des données<a class="headerlink" href="#les-plateformes-d-archivage-des-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Les plateformes d’archivage sont décrites dans la partie <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a>.</p>
+</div>
+</div>
+<div class="section" id="selectionner-les-donnees-pertinentes">
+<h2><span class="section-number">6.4. </span>Sélectionner les données pertinentes<a class="headerlink" href="#selectionner-les-donnees-pertinentes" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Cette étape nécessite une phase de sélection des informations pertinentes (validées, utiles…) pour son activité tout en se préoccupant de leur exploitation future à travers les problématiques de durée de vie, de confidentialité et de sécurité des données.</p>
+<p>Plusieurs critères sont à prendre en considération :</p>
+<ul class="simple">
+<li><p>la date et la fréquence à laquelle faire cette sélection : fin de thèse, de projet ou de contrat / avant de quitter son emploi / à date régulière / etc ;</p></li>
+<li><p>la durée de conservation : durée officielle pour les documents administratifs, à définir en fonction des besoins pour les données scientifiques ;</p></li>
+<li><p>l’obligation administrative de destruction éventuelle ;</p></li>
+<li><p>la nécessité d’anonymisation éventuelle ;</p></li>
+<li><p>le format, la nature des données qui définiront leur lisibilité dans le temps ;</p></li>
+<li><p>les supports d’enregistrement, d’utilisation et de stockage des données ;</p></li>
+<li><p>la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;</p></li>
+<li><p>le coût de ces supports ou encore des modifications de format de fichiers, ou bien de l’espace de stockage nécessaires à la conservation des données.</p></li>
+</ul>
+<p>Ses critères ont été établis dans le cadre de l’archivage pérenne, mais ils s’appliquent tout à fait à l’archivage (nota bene : la différence entre archive pérenne et archive porte sur la durée de conservation).</p>
+<p>Dans la présentation référencée, Lorène Béchard et Marion Massol présentent le Centre Informatique National de l’Enseignement Supérieur (CINES), ses missions et l’infrastructure d’archivage du CINES. Elles abordent les différents formats, le cas particulier de l’archivage des bases de données et les questions à se poser avant d’archiver. Elles précisent que l’archivage pérenne des documents électroniques consiste à conserver le document et l’information qu’il contient :</p>
+<ul class="simple">
+<li><p>dans son aspect physique comme dans son aspect intellectuel,</p></li>
+<li><p>sur le très long terme et au-delà,</p></li>
+<li><p>de manière à ce qu’il soit en permanence accessible et compréhensible.</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/2014-11-06_rbdd_ae_cines_bdd.pdf?180/f1eef63ef0e72ac628e9435afadcf0c0fc82abfb">Les critères à prendre en compte pour la conservation des données</a></p>
+<p><a class="reference external" href="http://webcast.in2p3.fr/videos-quels_sont_les_criteres_a_prendre_en_compte_pour_la_conservation_des_donnees_cines">Vidéo : </a><br />
+Lorène Béchard, CINES &amp; Marion Massol, CINES<br />
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014</p>
+</div>
+<p>Dans cette présentation, après avoir évoqué le contexte réglementaire en matière de gestion d”<strong>archives publiques</strong>, Magalie Moysan, coordinatrice du pôle Sécurisation des données et documents et responsable du département archives à l’Université de Paris, aborde les enjeux de leur préservation ainsi que les outils et méthodes disponibles pour procéder à leur sélection. Elle insiste sur le statut « d’archives publiques » souvent méconnu dans nos établissements et sur les obligations légales et réglementaires qui y sont associées notamment l’obligation de bien gérer, conserver et archiver ses documents ou l’interdiction de les détruire sans visa préalable des autorités compétentes. Elle explique ensuite l’intérêt de concevoir l’archivage comme un moyen de « conserver les preuves », de garantir une antériorité, d’assurer le suivi d’une activité, de fiabiliser les résultats et de constituer un patrimoine scientifique. La sélection des données en vue de leur conservation suppose très en amont de pouvoir anticiper cette tâche en procédant à une description rigoureuse des données et de leur contexte de production (contenu, date, modalité d’entrée, conditions d’accès etc.). Le processus de sélection s’organise autour de quelques grands principes (intérêt scientifique, juridique, historique de la donnée, intelligibilité de la donnée) et se détermine souvent dans le cadre d’un échange entre scientifiques et archivistes. Les référentiels de conservation sont des outils d’aide intéressants pour accompagner le processus de sélection.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Moysan.pdf">Sélectionner les données pour la préservation : enjeux et méthodes</a></p>
+<p>Magalie Moysan, Université de Paris<br />
+Atelier Dialogu’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020</p>
+</div>
+</div>
+<div class="section" id="s-appuyer-sur-les-enseignements-des-retours-d-experience">
+<h2><span class="section-number">6.5. </span>S’appuyer sur les enseignements des retours d’expérience<a class="headerlink" href="#s-appuyer-sur-les-enseignements-des-retours-d-experience" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Le premier retour d’expérience du siècle dernier est un échec tandis que le deuxième datant du début du XXIe siècle est synonyme de succès.</p>
+<div class="section" id="retour-dexperience-sur-des-donnees-numeriques-en-ecologie">
+<h3><span class="section-number">6.5.1. </span>Retour d’expérience sur des données numériques en Écologie<a class="headerlink" href="#retour-dexperience-sur-des-donnees-numeriques-en-ecologie" title="Lien permanent vers ce titre">¶</a></h3>
+<p>À travers ce retour d’expérience, Marie-Claude Quidoz explique pourquoi, des données pourtant préservées avec attention au CEFE en 1984, ont été impossibles à réutiliser vingt-cinq ans plus tard. Cette expérience malheureuse est riche d’enseignements et permet très rapidement de comprendre sur un exemple concret les difficultés rencontrées qui sont de quatre ordres :</p>
+<ul class="simple">
+<li><p>l’obsolescence matérielle ;</p></li>
+<li><p>l’obsolescence logicielle ;</p></li>
+<li><p>l’obsolescence du format du fichier ;</p></li>
+<li><p>la perte de signification du contenu.</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/retour_experience_ecotheque-4.pdf?184/0378d1933926fb7f47381934f4f5e92b8022c929">Retour d’expérience - Les données de l’Écothèque Méditerranéenne</a></p>
+<p><a class="reference external" href="https://webcast.in2p3.fr/video/retour_d_experience_les_donnees_de_l_ecotheque_mediterraneenne_cefe">Vidéo : </a><br />
+Marie-Claude Quidoz, CEFE<br />
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014</p>
+</div>
+</div>
+<div class="section" id="retour-d-experience-sur-des-donnees-orales-en-shs">
+<h3><span class="section-number">6.5.2. </span>Retour d’expérience sur des données orales en SHS<a class="headerlink" href="#retour-d-experience-sur-des-donnees-orales-en-shs" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Michel Jacobson débute sa présentation par la présentation de la plateforme technique Cocoon pour « COllections de COrpus Oraux Numériques ». C’est une plateforme technique qui accompagne les producteurs de ressources orales, à créer, structurer et archiver leurs corpus ; un corpus pouvant se composer d’enregistrements (en général audio) accompagnés éventuellement d’annotations de ces enregistrements. Cette plateforme s’appuie sur les services d’Huma-Num. Ensuite, il détaille les différentes étapes suivies pour mener à bien l’archivage pérenne mis en place en collaboration avec le CINES.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/rbdd_cocoon.pdf?182/90fe1749f3bc65530849f4ed42f395c4078a1e55">Organisation du Centre de ressources numériques Cocoon comme service versant pour l’archivage de données orales en SHS</a></p>
+<p><a class="reference external" href="http://webcast.in2p3.fr/videos-organisation_du_centre_de_ressources_numeriques_cocoon">vidéo</a><br />
+Michel Jacobson,
+Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014</p>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="05-analyser.html" title="previous page"><span class="section-number">5. </span>Analyser</a>
+    <a class='right-next' id="next-link" href="07-publier.html" title="next page"><span class="section-number">7. </span>Publier et diffuser</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+        
+            &copy; Copyright 2021.<br/>
+          Mis à jour le 25 janv. 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>

@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Recherche</title>
+    <title>Autres guides de bonnes pratiques</title>
     
   <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
 
@@ -37,7 +37,6 @@
     
   <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
 
-    
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
@@ -55,16 +54,13 @@
         const thebe_selector_output = ".output"
     </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script src="_static/searchtools.js"></script>
-    <script src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
-    <link rel="search" title="Recherche" href="#" />
-  <script src="searchindex.js" defer></script>
-  
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="Crédits" href="13-credits.html" />
+    <link rel="prev" title="Reproductibilité" href="11-reproductibilite.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
-
 
 
 
@@ -84,7 +80,7 @@
   
   
 </a>
-</div><form class="bd-search d-flex align-items-center" action="#" method="get">
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
 </form>
@@ -126,7 +122,7 @@
   </a>
  </li>
 </ul>
-<ul class="nav sidenav_l1">
+<ul class="current nav sidenav_l1">
  <li class="toctree-l1">
   <a class="reference internal" href="08-conclusion.html">
    Conclusion
@@ -147,8 +143,8 @@
    Reproductibilité
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="12-ressources.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Autres guides de bonnes pratiques
   </a>
  </li>
@@ -196,6 +192,23 @@
         </button>
         
         
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/12-ressources.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
         <!-- Source interaction buttons -->
 
 
@@ -219,26 +232,47 @@
         
               <div>
                 
-  <h1 id="search-documentation">Recherche</h1>
-  <div id="fallback" class="admonition warning">
-  <script>$('#fallback').hide();</script>
-  <p>
-    Veuillez activer le JavaScript pour que la recherche fonctionne.
-  </p>
-  </div>
-  <p>
-    Searching for multiple words only shows matches that contain
-    all words.
-  </p>
-  <form action="" method="get">
-    <input type="text" name="q" aria-labelledby="search-documentation" value="" />
-    <input type="submit" value="rechercher" />
-    <span id="search-progress" style="padding-left: 10px"></span>
-  </form>
-  
-  <div id="search-results">
-  
-  </div>
+  <div class="section" id="autres-guides-de-bonnes-pratiques">
+<h1>Autres guides de bonnes pratiques<a class="headerlink" href="#autres-guides-de-bonnes-pratiques" title="Lien permanent vers ce titre">¶</a></h1>
+<hr class="docutils" />
+<p><em>Pierre-Yves Arnould et Marie-Christine Jacquemot</em>. <a class="reference external" href="https://hal.archives-ouvertes.fr/hal-01275841/document">Guide de bonnes pratiques Gestion et valorisation des données de la recherche</a>. [Rapport de recherche] OTELo; INIST-CNRS. 2016. hal-01275841</p>
+<hr class="docutils" />
+<p><em>Véronique Ginouvès et Isabelle Gras</em>. <a class="reference external" href="https://hal-amu.archives-ouvertes.fr/hal-01903040">La diffusion numérique des données en SHS - Guide des bonnes pratiques éthiques et juridiques</a>. Presses universitaires de Provence, 2018, Digitales, 9791032001790. hal-01903040</p>
+<hr class="docutils" />
+<p><em>Olivier Brand-Foissac, Laurette Chardon, Marie David, Maurice Libes, Gilles Requilé et Alain Rivet</em>.
+<a class="reference external" href="http://gbp.resinfo.org/">Guide de bonnes pratiques pour les Administrateurs Systèmes et Réseaux</a>.</p>
+<hr class="docutils" />
+<p><em>Isabelle André-Poyaud, Sandrine Astor, Olivier Baude, Fabrice Boudjaaba, Gaëlle Bujan, Béatrice Collignon, Frédéric Dubois, Emmanuel Kessous, Lionel Maurel, Muriel Roger</em>.
+<a class="reference external" href="https://www.inshs.cnrs.fr/sites/institut_inshs/files/pdf/guide-rgpd_2.pdf">InSHS - Les sciences humaines et sociales et la protection des données à caractère personnel dans le contexte de la science ouverte, Guide pour la recherche</a>. CNRS, juin 2019</p>
+<hr class="docutils" />
+<p><em>Nicolas Becard, Céline Castets-Renard, Gauthier, Martin  Dantant,  Laurence Freyt-Caffin  Nathalie Gandon, Caroline Martin, Andrea Martelletti, Alexandra Mendoza-Caminade, Nathalie Morcrette, Claire Neirac</em>.
+<a class="reference external" href="https://www.ouvrirlascience.fr/wp-content/uploads/2018/11/Guide_Juridique_V2.pdf">Ouverture des données de recherche, Guide d’analyse du cadre juridique en France</a>. décembre 2017</p>
+<hr class="docutils" />
+<p><em>Loïc Desquilbet, Sabrina Granger, Boris Hejblum,
+Arnaud Legrand, Pascal Pernot, Nicolas Rougier,
+Facilitatrice : Elisa de Castro Guerra</em>.
+<a class="reference external" href="https://hal.archives-ouvertes.fr/hal-02144142v1/document">Vers une recherche reproductible :  Faire évoluer ses pratiques</a>. 29 mai 2019. hal-02144142</p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
 
               </div>
               
@@ -248,6 +282,8 @@
     
     <div class='prev-next-bottom'>
         
+    <a class='left-prev' id="prev-link" href="11-reproductibilite.html" title="previous page">Reproductibilité</a>
+    <a class='right-next' id="next-link" href="13-credits.html" title="next page">Crédits</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

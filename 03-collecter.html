@@ -1,0 +1,697 @@
+
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3. Collecter</title>
+    
+  <link rel="stylesheet" href="_static/css/index.f658d18f9b420779cfdf24aa0a7e2d77.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.d3f166471bb80abb5163.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/translations.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Recherche" href="search.html" />
+    <link rel="next" title="4. Traiter" href="04-traiter.html" />
+    <link rel="prev" title="2. Concevoir et planifier" href="02-concevoir_planifier.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/logo.png" class="logo" alt="logo">
+  
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="01-imaginer.html">
+   1. Imaginer et préparer
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-concevoir_planifier.html">
+   2. Concevoir et planifier
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   3. Collecter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-traiter.html">
+   4. Traiter
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-analyser.html">
+   5. Analyser
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-archiver.html">
+   6. Préserver et archiver
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="07-publier.html">
+   7. Publier et diffuser
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-conclusion.html">
+   Conclusion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-glossaire.html">
+   Glossaire
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="10-infrastructures.html">
+   Infrastructures
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-reproductibilite.html">
+   Reproductibilité
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-ressources.html">
+   Autres guides de bonnes pratiques
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="13-credits.html">
+   Crédits
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf">
+   Document pdf
+   <i class="fas fa-external-link-alt">
+   </i>
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/03-collecter.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                title="Mode plein écran"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contenu
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#utiliser-des-normes-et-des-standards-d-interoperabilite">
+   3.1. Utiliser des normes et des standards d’interopérabilité
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-standards-de-metadonnees">
+     3.1.1. Les standards de métadonnées
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-referentiels-de-metadonnees">
+     3.1.2. Les référentiels de métadonnées
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-protocoles-standards-en-information-geographique">
+     3.1.3. Les protocoles standards en information Géographique
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#les-systemes-d-acquisition-maitriser-lacquisition-et-la-collecte-des-donnees">
+   3.2. Les systèmes d’acquisition : maîtriser l’acquisition et la collecte des données
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#la-metrologie-des-equipements">
+     3.2.1. La métrologie des équipements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-capteurs">
+     3.2.2. Les capteurs
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-chaines-de-collecte">
+     3.2.3. Les chaines de collecte
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#web-scraping-ou-grattage-web-collecte-automatique-et-analyse-de-donnees">
+     3.2.4. Web scraping ou grattage Web : collecte automatique et analyse de données
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-cahiers-de-laboratoire">
+     3.2.5. Les cahiers de laboratoire
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-tablettes-et-carnets-de-terrain">
+     3.2.6. Les tablettes et carnets de terrain
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#la-gestion-des-collections">
+     3.2.7. La gestion des collections
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#environnements-de-stockage-sauvegarder-les-donnees">
+   3.3. Environnements de stockage - Sauvegarder les données
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="collecter">
+<span id="id1"></span><h1><span class="section-number">3. </span>Collecter<a class="headerlink" href="#collecter" title="Lien permanent vers ce titre">¶</a></h1>
+<p>Cette phase du cycle de vie de la donnée concerne les aspects d’acquisition et de collecte des données ainsi que la constitution des jeux de données (« dataset » en anglais) avec leurs métadonnées descriptives. Il s’agit donc, dans cette phase, de travailler sur les processus d’acquisition des données qui peuvent être obtenues au moyen de divers médias selon le domaine étudié : capteurs environnementaux, instruments, sondages, modèles numériques… Une fois les données acquises, il est nécessaire et indispensable dans l’objectif de les rendre « FAIR », de les décrire avec leurs métadonnées associées.</p>
+<p>La description  de ces jeux de données nécessite d’utiliser, autant que faire se peut, des référentiels de vocabulaires contrôlés (thésaurus) si possible standardisés et les plus appropriés au domaine étudié. Il est conseillé de gérer les jeux de données dans un environnement technique qui permette d’assurer la sauvegarde, l’archivage, le « versionning »,  l’accessibilité et l’interopérabilité des données. Cette gestion se fait via des infrastructures techniques, des bases ou des supports qui doivent être fiables et bien documentés, et ce dans le respect des règles de traitement spécifiques des données personnelles.</p>
+<p>Cette phase « Collecter » va nécessiter :</p>
+<ul class="simple">
+<li><p>de disposer des données et de fournir les métadonnées nécessaires pour apporter toutes les informations utiles à la description des données brutes elles-mêmes (libellés des paramètres, unités de mesure, localisation, propriétaires etc.), ainsi que sur les dispositifs d’acquisition (capteurs de mesures, modèles numériques,…);</p></li>
+<li><p>de mettre en place des chaines de collecte : du capteur jusqu’aux espaces disques et aux applications sur des serveurs où les traitements pourront être réalisés, avec la documentation adaptée;</p></li>
+<li><p>d’utiliser des protocoles si possibles normalisés ou standardisés pour présenter les données brutes et les dispositifs d’acquisition (capteurs…) et les rendre interopérables;</p></li>
+<li><p>de mettre en place une gestion et conduite de projets pour faire travailler ensemble les différents acteurs intervenant dans la chaîne de collecte : électroniciens, informaticiens, chercheurs…;</p></li>
+<li><p>de disposer de cahier de laboratoire, tablettes de terrain ou supports divers pour consigner les relevés et métadonnées observées;</p></li>
+<li><p>de définir le stockage nécessaire à la collecte de données : travailler en amont avec une équipe informatique en mode projet (gestion de projet).</p></li>
+</ul>
+<div class="section" id="utiliser-des-normes-et-des-standards-d-interoperabilite">
+<h2><span class="section-number">3.1. </span>Utiliser des normes et des standards d’interopérabilité<a class="headerlink" href="#utiliser-des-normes-et-des-standards-d-interoperabilite" title="Lien permanent vers ce titre">¶</a></h2>
+<p>L’Association Francophone des Utilisateurs de Logiciels Libres (AFUL) donne une définition de <a class="reference external" href="https://aful.org/gdt/interop">l’interopérabilité</a> qui est « la capacité que possède un produit ou un système, dont les interfaces sont intégralement connues, à fonctionner avec d’autres produits ou systèmes existants ou futurs, et ce sans restriction d’accès ou de mise en œuvre ». Développer l’interopérabilité consiste donc à mettre en place et utiliser des normes et des standards qui fixent des règles permettant d’assurer le bon fonctionnement et les échanges entre deux systèmes informatiques.</p>
+<p>Appliquée aux données, l’interopérabilité permet de rendre les données accessibles et réutilisables. Pour parvenir à cela, il est nécessaire d’utiliser des protocoles d’accès et des formats des données « ouverts », normés ou standardisés, d’une part, au niveau des formats de fichiers et d’autre part, au sein des outils informatiques qui serviront à échanger, diffuser et lire les données.</p>
+<div class="section" id="les-standards-de-metadonnees">
+<h3><span class="section-number">3.1.1. </span>Les standards de métadonnées<a class="headerlink" href="#les-standards-de-metadonnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Dans l’optique d’une gestion « FAIR » des données, il est nécessaire, dans la mesure du possible, de suivre des normes et des standards pour la description des métadonnées, les formats de fichiers et les protocoles d’échange de données.</p>
+<p>Catherine Morel-Pair propose une présentation riche et complète sur les formats et métadonnées qu’elle détaille de manière très approfondie et restitue dans le cadre de leur utilisation pour la gestion de contenu et la documentation des données. Elle aborde en introduction les notions de données de la recherche, de données FAIR, d’interopérabilité et de Data Management Plan.</p>
+<ul class="simple">
+<li><p>la première partie de sa présentation porte sur les fichiers de données (organisation et nommage, format et critères d’interopérabilité-pérennité)</p></li>
+<li><p>la deuxième partie est dédiée aux métadonnées et à la documentation  (définitions, présentation des standards, des identifiants pérennes pour les données et syntaxes d’échange). Elle termine par un focus sur les sites de dépôt, de portails ou d’entrepôts de données et leur schéma de métadonnées associées.</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2016.sciencesconf.org/data/pages/2016_07_07_ANF_Renatis_Formats_Standards_et_Metadonnees_1.pdf">Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données</a></p>
+<p><a class="reference external" href="https://youtu.be/obGDFrXyBiU?t=3">Vidéo : </a><br />
+Catherine Morel-Pair , INIST, CNRS<br />
+ANF « Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données » - 2016 Paris</p>
+</div>
+<p><strong>Les métadonnées dans un Plan de Gestion de données</strong></p>
+<p>Cette présentation de Marie Puren a été conçue pour animer un atelier de formation qui avait pour objectif de définir et comprendre l’importance des métadonnées dans le cadre de la rédaction d’un DMP. Elle définit, en donnant des exemples, ce qu’est une métadonnée, à quoi elle sert, quelle information elle donne. Elle distingue et détaille la spécificité des métadonnées de description, des métadonnées de gestion et des métadonnées de préservation. Elle aborde ensuite le chapitre du cycle de vie des métadonnées (créer, entretenir, mettre à jour, stocker, gérer la suppression des données, publier). Elle spécifie les métadonnées à faire figurer dans un DMP, explique comment les collecter et propose quelques outils d’extraction automatique de métadonnées. Autour de la notion de métadonnée, elle précise l’importance de définir des responsabilités en s’appuyant sur les chercheurs, documentalistes, bibliothécaires et informaticiens. Elle complète sa présentation avec une description des principaux standards interdisciplinaires et disciplinaires de métadonnées. Elle explique où et comment choisir ces standards. Elle explique également l’intérêt d’associer des ontologies ou vocabulaires contrôlés. Les dernières recommandations de sa présentation portent sur la gestion des métadonnées à long terme, l’importance d’évaluer leur qualité et revient sur la notion d’ouverture des métadonnées et la nécessité de choisir des licences pour nos métadonnées.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2017.sciencesconf.org/data/pages/20170706_dmp_metadonnees_puren_1.pdf">Les métadonnées dans un DMP</a></p>
+<p>Marie Puren, INRIA<br />
+ANF « Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données », réseau Renatis, Paris, 2017</p>
+</div>
+</div>
+<div class="section" id="les-referentiels-de-metadonnees">
+<h3><span class="section-number">3.1.2. </span>Les référentiels de métadonnées<a class="headerlink" href="#les-referentiels-de-metadonnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Les référentiels de métadonnées peuvent être des standards ou des normes; ce sont des documents importants qui se chargent de définir les informations nécessaires pour décrire les données elles-mêmes. De ce fait, ils sont utilisés pour donner toutes les informations nécessaires à la compréhension et à l’utilisation des données et ainsi faciliter leur réutilisation. Il est donc fortement recommandé de décrire ses données avec des normes ou des standards reconnus dans les disciplines concernées. Le choix d’un standard de métadonnées va dépendre du type de ressource, du domaine d’application, mais également de la communauté à laquelle on s’adresse.</p>
+<p>À cet effet, le site du <a class="reference external" href="https://www.dcc.ac.uk/guidance/standards/metadata">Digital Curation Centre</a> recense les standards de métadonnées par grandes disciplines (biologie, physique, sciences sociales, sciences de la terre…). Des outils informatiques, permettant de passer d’un standard à un autre, sont également disponibles.</p>
+<p>On trouve plusieurs standards et normes qui permettent de définir un ensemble de métadonnées sur des jeux de données. Parmi les standards les plus connus ou utilisés, citons le Dublin Core qui est un standard généraliste issu d’un consensus international et multidisciplinaire. Il a pour objectif de fournir un socle commun d’éléments descriptifs suffisamment structuré pour permettre une interopérabilité minimale entre des systèmes conçus indépendamment les uns des autres. Le <a class="reference external" href="https://fr.wikipedia.org/wiki/Dublin_Core">Dublin Core</a> est un vocabulaire du web sémantique utilisé pour exprimer les données dans un modèle de type Resource Description Framework dans ses attributs (RDFa). Le Dublin Core définit un <a class="reference external" href="https://fr.wikipedia.org/wiki/Dublin_Core#Dublin_Core_element_set">ensemble d’items de métadonnées</a> obligatoires pour décrire les données :</p>
+<ol class="simple">
+<li><p>Titre (métadonnée) (Title) : Nom donné à la ressource</p></li>
+<li><p>Créateur (métadonnée) (Creator) : Nom de la personne, de l’organisation ou du service responsables de la création du contenu de la ressource</p></li>
+<li><p>Sujet (métadonnée) ou mots clés (Subject) : Thème du contenu de la ressource (mots clés, expressions, codes de classification)</p></li>
+<li><p>Description (métadonnée) (Description) : Présentation du contenu de la ressource (résumé, table des matières, représentation graphique du contenu, texte libre)</p></li>
+<li><p>Éditeur (Publisher) : Nom de la personne, de l’organisation ou du service responsables de la mise à disposition ou de la diffusion de la ressource</p></li>
+<li><p>Contributeur (Contributor) : Nom de la personne, de l’organisation ou du service responsables de contributions au contenu de la ressource</p></li>
+<li><p>Date (métadonnée) (Date) :	Date de création ou de mise à disposition de la ressource</p></li>
+<li><p>Type (Type) : Nature ou genre de la ressource (catégories, fonctions, genres généraux, niveaux d’agrégation du contenu)</p></li>
+<li><p>Format (Format) :	Manifestation physique ou numérique de la ressource</p></li>
+<li><p>Identifiant de la ressource (Identifier) : Référence univoque à la ressource dans un contexte donné (URI, ISBN)</p></li>
+<li><p>Source 	(Source) : Référence à une ressource dont la ressource décrite est dérivée (URI)</p></li>
+<li><p>Langue (métadonnée) (Language) : Langue du contenu intellectuel de la ressource</p></li>
+<li><p>Relation (métadonnée) 	(Relation) : Référence à une ressource apparentée</p></li>
+<li><p>Couverture (métadonnée) (Coverage) : Couverture spatio-temporelle de la ressource (domaine d’application)</p></li>
+<li><p>Gestion de droits (métadonnée) 	(Rights) : Informations sur les droits associés à la ressource (IPR, copyright, etc.)</p></li>
+</ol>
+<p>Pour la description des jeux de données géolocalisées, les <a class="reference external" href="https://pro.arcgis.com/fr/pro-app/help/metadata/create-iso-19115-and-iso-19139-metadata.htm">normes ISO 19115 et ISO 19139</a> sont des normes de référence dans le domaine des métadonnées pour l’information géographique. L’ISO 19115 fournit une structure permettant de décrire et de découvrir des données géospatiales, y compris le moment et l’endroit de leur localisation, une vue d’ensemble de leur contenu, de leurs propriétés, de leur qualité, de leur utilisation adéquate, du mécanisme de distribution, des points de contact pour les demandes d’informations, etc.
+La norme ISO 19139 est l’implémentation XML de la norme ISO 19115. Elle définit le codage XML des métadonnées géographiques, une implémentation de schéma XML dérivée de la norme ISO 19115. La norme ISO 19139 est le modèle principal utilisé pour décrire des données dans le logiciel GeoNetwork et constituer ainsi un catalogue de données géospatialisées que l’on abordera dans le chapitre 7 « Publier » du présent guide.</p>
+</div>
+<div class="section" id="les-protocoles-standards-en-information-geographique">
+<h3><span class="section-number">3.1.3. </span>Les protocoles standards en information Géographique<a class="headerlink" href="#les-protocoles-standards-en-information-geographique" title="Lien permanent vers ce titre">¶</a></h3>
+<p>L’échange de données d’une plateforme à l’autre se fait au travers de protocoles informatiques. De ce fait, si l’on veut que les systèmes soient interopérables entre eux, il est nécessaire d’utiliser des protocoles ouverts et standards pour permettre l’interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, <a class="reference external" href="https://www.ogc.org/standards/">l’Open Geospatial Consortium (OGC)</a>, est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l’interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l’information géographique.</p>
+<p>Les standards OGC sont importants à connaitre dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l’Institut National des Sciences de l’Univers (INSU). Pour ce dernier réseau, l’interopérabilité dans la gestion des données des Observatoires de l’INSU est un enjeu important.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist15.sciencesconf.org/data/program/ogc.pdf">Les Normes OGC (Open Geospatial Consortium)</a></p>
+<p>François André, Aeris<br />
+Séminaire SIST15 - OSU Pytheas Marseille 2015</p>
+</div>
+<p>Parmi les standards de l’OGC les plus utilisés dans nos réseaux métiers chez les gestionnaires de données environnementales, on peut citer :</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">CS-W</a> - Catalog Service for the Web : ce protocole est destiné à diffuser des métadonnées ISO 19139 et permettre l’interrogation de catalogues de métadonnées. Une très bonne implémentation de ce protocole est réalisée dans le logiciel <a class="reference external" href="https://geonetwork-opensource.org/">« Geonetwork »</a> utilisé pour constituer des catalogues et des inventaires de jeux de données et les présenter sur le Web de manière interopérable. Ce logiciel est détaillé dans le chapitre 7 « Publier » du  présent guide, dédié à la publication des jeux de données.
+Grâce à ce protocole, on peut constituer des réseaux de catalogues tels que demandés par la <a class="reference external" href="http://cnig.gouv.fr/?page_id=8991">Directive Européenne Inspire</a>.</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">WMS</a> - <a class="reference external" href="https://fr.wikipedia.org/wiki/Web_Map_Service">Web Map Service</a> est un protocole de communication standard qui permet de constituer des cartes de données géoréférencées à partir de différents serveurs de données cartographiques. .</p></li>
+</ul>
+<p>Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d’interopérabilité WMS, CSW et SOS qui permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d’observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation">« Gestion des données d’observation : les outils informatiques pour la valorisation » </a></p>
+<p>ANF SIST17, Fréjus - ANF SIST18, Autrans</p>
+</div>
+<p>De nombreux instituts et auteurs, gestionnaires de données suivent  ces standards OGC :</p>
+<p>Sylvain Grelet communique par exemple le retour d’expérience sur l’utilisation et le déploiement des standards d’interopérabilité au BRGM :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/aQogG6iPq6eGabf">De la définition au déploiement de standards d’interopérabilité :</a> retour d’expérience de la Direction des Systèmes d’Information (DSI) du BRGM</p>
+<p>Grellet Sylvain, Stéphane Loigerot, BRGM<br />
+<a class="reference external" href="http://sist15.sciencesconf.org">Séminaire SIST15, Marseille</a></p>
+</div>
+<p>Véronique Chaffard nous présente la mise en oeuvre des standards de l’OGC dans le projet AMMA-CATCH :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/Mrm2oRT8QFt9HS9">Portail Web d’accès aux données de l’observatoire AMMA-CATCH et mise en oeuvre des standards d’échange des données OGC </a></p>
+<p>Véronique Chaffard, IRD<br />
+<a class="reference external" href="http://sist15.sciencesconf.org">Séminaire SIST15, OSU Pytheas Marseille</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="les-systemes-d-acquisition-maitriser-lacquisition-et-la-collecte-des-donnees">
+<h2><span class="section-number">3.2. </span>Les systèmes d’acquisition : maîtriser l’acquisition et la collecte des données<a class="headerlink" href="#les-systemes-d-acquisition-maitriser-lacquisition-et-la-collecte-des-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Il est important que le processus de collecte des données soit clairement défini et validé. Par exemple, il conviendra de s’assurer que les systèmes d’acquisition sont bien étalonnés. Par ailleurs, l’ensemble des données produites doit être parfaitement répertorié et enregistré. Nous disposons pour ce faire d’un certain nombre de supports tels que les cahiers de laboratoires, les carnets de terrain…</p>
+<div class="section" id="la-metrologie-des-equipements">
+<h3><span class="section-number">3.2.1. </span>La métrologie des équipements<a class="headerlink" href="#la-metrologie-des-equipements" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Par nature, la recherche n’est pas un processus répétitif, elle est pleine d’aléas et d’incertitudes contrairement à un processus industriel.
+La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par différents chercheurs à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées; cela est une nécessité pour toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse).</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf">Confirmation métrologique des équipements</a></p>
+<p>Virginie JAN LOGASSI, DAPEQ LUE<br />
+ANF Outils qualité, réseau QeR, 2019</p>
+</div>
+<p>De nombreux laboratoires et plateformes de tests du CNRS sont équipés de salles propres, dans des domaines variés tels que la micro et nanotechnologie, la géochimie, l’optique, la médecine, le spatial…
+En débutant par un point sur l’état de l’art (définition, réglementation, documentation…) de ces deux aspects, l’objectif principal de la journée thématique est de faire bénéficier de retours d’expériences sur les bonnes pratiques déjà éprouvées et sur les écueils à éviter afin de répondre, entre autres, aux questions suivantes :</p>
+<ul class="simple">
+<li><p>Quand a-t-on besoin de travailler en salles propres ?</p></li>
+<li><p>Quelles règlementations régissent l’installation, la maintenance et le contrôle des salles propres ?</p></li>
+<li><p>Comment préparer l’installation dans nos locaux ? A quoi doit-on penser ?</p></li>
+<li><p>Quelles sont les solutions techniques les mieux adaptées à notre besoin ?</p></li>
+<li><p>Quels sont les critères de surveillance et systèmes de contrôle des installations ?</p></li>
+<li><p>Comment doit-on travailler en salles propres ? Quelles sont les bonnes pratiques de gestion d’une salle propre ?</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sallespropres17.sciencesconf.org/program">Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences</a></p>
+<p>Journée thématique, réseau QeR, 2017</p>
+</div>
+</div>
+<div class="section" id="les-capteurs">
+<h3><span class="section-number">3.2.2. </span>Les capteurs<a class="headerlink" href="#les-capteurs" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Diverses communautés scientifiques sont intéressées par les problématiques inhérentes aux systèmes d’acquisitions et aux instruments associés. Différents aspects de collecte de données existent, qu’ils proviennent d’un équipement, d’un capteur automatisé, d’un modèle numérique ou qu’ils soient obtenus par un personnel de terrain, par une enquête, au moyen d’interfaces. Dès lors, il convient d’élaborer des méthodologies de collecte, de se documenter sur les choix des référentiels de métadonnées et des thésaurus de vocabulaire, mais également de développer les procédures d’intégration des données dans les bases.</p>
+<p>Pour la thématique « Ocean-Atmosphere » cette problématique occupe une place importante, à tel point que, depuis plusieurs décennies, METEO-FRANCE et l’INSU depuis 1966, l’IFREMER depuis 2002, l’IRD et le CNES depuis 2004, le Service hydrographique et océanographique de la Marine (SHOM) depuis 2005, organisent un atelier dédié aux rencontres portant sur l’expériementation et l’instrumentation. Cet <a class="reference external" href="http://www.aei-ocean-atmosphere.org/">Atelier Expérimentation et Instrumentation (AEI)</a> permet de réunir la communauté scientifique spécialisée dans la recherche instrumentale et de traiter divers thèmes d’actualité lors de ses <a class="reference external" href="http://www.aei-ocean-atmosphere.org/Editions-Precedentes">différentes éditions</a>.
+L’AEI traite de manière privilégiée les aspects de mesure et de méthodologie, sans exclure pour autant l’exploitation scientifique des résultats. Il a lieu alternativement à Paris, Toulon, Lille et Brest, généralement en début d’année. L’AEI permet aux équipes de recherche d’exposer leurs résultats dans un colloque francophone. C’est un lieu de rencontre pour les participants, issus des différents organismes et groupes industriels, afin de favoriser les synergies et coopérations.</p>
+<p>Pour la gestion des capteurs, l”<a class="reference external" href="https://www.ogc.org/standards">OGC (Open Geospatial Consortium)</a> cité précédemment, publie un standard d’interopérabilité, <a class="reference external" href="http://docs.opengeospatial.org/wp/07-165r1/">Sensor Web Enablement (SWE)</a>, qui permet de présenter des données de capteurs de manière standardisée et interopérable. Ce protocole et les logiciels qui les implémentent sont bien adaptés à la description des capteurs et à la gestion des séries temporelles.</p>
+<p>Le protocole « <a class="reference external" href="https://www.ogc.org/standards/sos">SOS » (Sensor observation service) de l’OGC</a> permet de présenter de manière standardisée les données issues de capteurs de terrain de manière interopérable. Ce standard définit une interface de service Web qui permet d’interroger les observations, les métadonnées des capteurs, ainsi que les représentations des caractéristiques observées. En outre, cette norme définit les moyens d’enregistrer de nouveaux capteurs et de supprimer les capteurs existants. Elle définit également les opérations permettant d’insérer de nouvelles observations de capteurs.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk">Sensor Web Enablement Standards &amp; Technology</a></p>
+<p>Christoph Stasch, Simon Jirka, 52North<br />
+<a class="reference external" href="http://sist15.sciencesconf.org">Séminaire SIST15, Marseille</a></p>
+</div>
+<p>Actuellement on trouve deux implémentations intéressantes du protocole SOS dans la gestion des données de capteurs environnementaux. Il s’agit de :</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://52north.org/software/software-projects/sos/">52North</a>, logiciel de la société éponyme, est une application qui fournit une interface web interopérable pour l’insertion et l’interrogation des données et des descriptions des capteurs. Il regroupe les observations provenant de capteurs in-situ en direct ainsi que des ensembles de données historiques (données de séries chronologiques).</p></li>
+<li><p><a class="reference external" href="http://www.istsos.org/">istSOS</a> est une implémentation de serveur OGC SOS écrite en Python. istSOS permet de gérer et d’envoyer des observations provenant de capteurs de surveillance selon la norme Sensor Observation Service. Le projet fournit également une interface utilisateur graphique qui permet de faciliter les opérations quotidiennes et une api RESTFull Web pour automatiser les procédures d’administration.</p></li>
+</ul>
+<p>istSOS est un logiciel libre qui fonctionne sur toutes les principales plates-formes (Windows, Linux, Mac OS X), même s’il n’a été utilisé en production que dans l’environnement Linux.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/eK7y9w6ewfL36Kk">Présentation du logiciel istSOS</a></p>
+<p>Massimiliano Canata<br />
+<a class="reference external" href="http://sist15.sciencesconf.org">Séminaire SIST15, Marseille</a></p>
+</div>
+<p>Ces 2 logiciels ont été présentés par Christoph Stasch, et Massimiliano Canata lors du séminaire du réseau <a class="reference external" href="http://sist.cnrs.fr">SIST</a> en 2015 à l”<a class="reference external" href="https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz">OSU Pytheas Marseille</a>.</p>
+<p>Stephane Debard présente l’utilisation d’istSOS dans la gestion de mesures altimétriques radars :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_S_Debard.pdf">Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS </a></p>
+<p>Stéphane Debard IRD<br />
+<a class="reference external" href="http://sist19.sciencesconf.org">Séminaire SIST19 OMP Toulouse</a></p>
+</div>
+</div>
+<div class="section" id="les-chaines-de-collecte">
+<h3><span class="section-number">3.2.3. </span>Les chaines de collecte<a class="headerlink" href="#les-chaines-de-collecte" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Les gestionnaires de données environnementales mettent en place des chaînes de collecte de données provenant de capteurs de terrains ou de modèles numériques. Ils se préoccupent de l’utilisation de normes interopérables dans les protocoles d’échange et dans les formats de données.</p>
+<p>Regis Hocdé et ses collègues nous présentent un retour d’expérience sur le réseau de suivi de température des eaux côtières dans la région du Pacifique Sud et Sud-Ouest :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG">Retour d’expérience sur le système d’information dédié capteurs et reconstitution de séries temporelles de ReefTEMP</a></p>
+<p>Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement<br />
+<a class="reference external" href="http://sist15.sciencesconf.org">Séminaire SIST15, Marseille</a></p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf">Réseau d’observation du Pacifique Sud ‘ReefTEMPS” : évolutions fonctionnelles et optimisation d’un système d’information dédié capteurs et reconstitution de séries temporelles</a></p>
+<p>Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de Recherche pour le Développement<br />
+<a class="reference external" href="http://sist16.sciencesconf.org">Séminaire SIST16,  OSU OREME, Montpellier </a></p>
+</div>
+<p>Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d’un réseau de stations météorologiques de la région rennaise.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX">Collecte de mesures météorologiques à l’aide d’un système autonome</a> :  exemple de la métropole rennaise (Zone Atelier Armorique)</p>
+<p>Alban Thomas - Hervé Quénol UMR LETG Rennes<br />
+<a class="reference external" href="http://sist15.sciencesconf.org">Séminaire SIST15, OSU Pytheas Marseille</a></p>
+</div>
+</div>
+<div class="section" id="web-scraping-ou-grattage-web-collecte-automatique-et-analyse-de-donnees">
+<h3><span class="section-number">3.2.4. </span>Web scraping ou grattage Web : collecte automatique et analyse de données<a class="headerlink" href="#web-scraping-ou-grattage-web-collecte-automatique-et-analyse-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<p>« Le Web scraping est une technique permettant de convertir des données présentes dans un format non structuré (balises HTML) sur le Web en un format structuré facilement utilisable. Les exemples peuvent aller du texte sur Wikipedia, à des images sur Flickr en passant par les commentaires sur TripAdvisor, les articles d’actualité ou de chercheurs ou n’importe quelle page web présente sur Internet » <a class="reference external" href="https://stateofther.github.io/finistR2018/atelier1_webscraping_intro.html">Introduction au Webscraping</a>.</p>
+<p>Depuis l’explosion quantitative des données numériques, il est devenu extrêmement intéressant d’apprendre à recueillir, comprendre et exploiter les informations issues du web. On constate ces dernières années, dans le domaine des sciences sociales, l’intérêt croissant des chercheurs ou ingénieurs pour l’utilisation de nouvelles techniques de collecte et de traitement automatisé des données et en particulier des données massives. Chaque utilisateur en fonction de son profil et de ses compétences peut choisir une technologie partant de simples outils comme les aspirateurs de site qui permettent de réaliser des opérations basiques de grattage (scraping) jusqu’à l’utilisation de langages plus performants comme R ou Python pour des utilisateurs plus avancés.</p>
+<p>Au-delà des fonctionnalités de grattage web, la présentation « <a class="reference external" href="https://hpecout.gitpages.huma-num.fr/R_presentation_FR/#/">Analyse de données avec R</a> » proposée par Hugues Pécout (CNRS) donne un exemple de l’analyse de donnée avec le logiciel R. En plus d’une présentation du logiciel R et de RStudio, elle contextualise R dans le paysage de l’analyse de données en le comparant à des logiciels propriétaires existants sur le marché ainsi qu’au langage Python. En Python, il faut utiliser le package BeautifulSoup, qui est très populaire <a class="reference external" href="http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/TD2A_Eco_Web_Scraping.html">Webscraping avec Python</a>.</p>
+<p>Ces outils sont depuis quelques années en plein essor car ils permettent d’automatiser la constitution des bases de données, de collecter des sommes de données importantes, inaccessibles il y a de cela quelques années comme les données de réseaux sociaux, de compiler des données pour créer ses propres indicateurs (impossible avec des techniques de collecte classiques) ou encore de nettoyer, structurer des données déjà existantes… Ces modes de collecte automatisés renvoient aussi aux notions d’exploration de données (Data Crawling) et de récolte de données (Data Harvesting).</p>
+<p>Dans la pratique, des questions juridiques peuvent se poser au regard de l’exploitation des données récoltées en masse par ces moyens car ces données sont susceptibles d’être des données personnelles ou protégées par la propriété intellectuelle.</p>
+</div>
+<div class="section" id="les-cahiers-de-laboratoire">
+<h3><span class="section-number">3.2.5. </span>Les cahiers de laboratoire<a class="headerlink" href="#les-cahiers-de-laboratoire" title="Lien permanent vers ce titre">¶</a></h3>
+<p>L’ensemble des données produites par la recherche doit être répertorié et enregistré dans l’objectif d’une réutilisation potentielle. Nous disposons pour ce faire d’un certain nombre de supports comme les cahiers de laboratoire. Le cahier de laboratoire est un outil non obligatoire, mais fortement recommandé pour toute structure générant des données donnant lieu à des connaissances diffusables et valorisables. Il constitue un véritable outil scientifique et ce, dès le commencement d’un projet. Les cahiers de laboratoire répondent également aux obligations légales et contractuelles, en apportant la preuve de l’invention et de ses inventeurs. Les plaquettes du réseau CURIE <a class="reference external" href="https://www.curie.asso.fr/-Cahier-de-laboratoire-national-.html">« Le cahier de laboratoire national : Pourquoi l’utiliser ? » et « Le cahier de laboratoire national : Comment l’utiliser ? »</a> présentent des recommandations sur la bonne gestion de ce dernier.</p>
+<p>Alain Rivet positionne le cahier de laboratoire comme un outil de gestion des données de la recherche :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Rivet.pdf">Cahier de laboratoire et gestion des données de la recherche</a></p>
+<p>Alain Rivet, CERMAV<br />
+Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020</p>
+</div>
+<p>Les apports du numérique sont multiples en améliorant la traçabilité des recherches, la lutte contre la fraude et la gestion des données. Les cahiers de laboratoire électroniques présentent plusieurs ainsi avantages par rapport à leur version papier :</p>
+<ul class="simple">
+<li><p>le partage de l’information avec un rattachement des données brutes ;</p></li>
+<li><p>une recherche d’informations facilitée ;</p></li>
+<li><p>une datation assurée des expériences par l’horodatage.</p></li>
+</ul>
+<p>Le site <a class="reference external" href="https://www.datacc.org">datacc.org</a> consacre la mise en œuvre d’un service d’accompagnement sur la gestion des données en physique et en chimie, dans le cadre d’un projet CollEx-Persée. Le site fournit des contenus nourris sur les cahiers de laboratoire électroniques, issus d’une expérimentation menée avec des chimistes de Lyon 1 et de Grenoble, assortis de <a class="reference external" href="https://www.datacc.org/bonnes-pratiques/utiliser-un-cahier-de-laboratoire-numerique/">bonnes pratiques</a> sur leur utilisation.</p>
+<p>Diverses expérimentations au sein de structures de recherche ont été réalisées :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://eq2020.sciencesconf.org/data/pages/06_QuaRES_EQ2020_A1_Rivet_Valeins.pdf">Les cahiers de laboratoire électroniques : atelier elabFTW</a></p>
+<p>Alain Rivet, Henri Valeins, CNRS<br />
+Ecole QUARES, Montpellier, 2020</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_laguri.pdf">Utilisation du cahier de laboratoire électronique BIOVIA au sein de l’Institut de Biologie Structurale</a></p>
+<p>Cédric Laguri, IBS<br />
+ANF « Traçabilité des activités de recherche et gestion des connaissances », Réseau Qualité en Recherche, Grenoble, 16-18 octobre 2017</p>
+</div>
+<p>L’INSERM s’est fortement intéressé à la version numérique des cahiers de laboratoires, comme une réplique du cahier papier. L’INSERM pense que si la version électronique reste une solution d’enregistrement au quotidien des expériences scientifiques, c’est désormais devenu un outil différent, fortement axé sur la qualité, la gestion de la connaissance, la gestion de projets et le travail collaboratif. Paul-Guy Dupré et ses collaborateurs présentent les cahiers de laboratoires qui ont été mis en place à l’INSERM :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_dupre.pdf">Expérimentation du cahier de laboratoire électronique à l’Inserm</a></p>
+<p>Paul-Guy Dupré, INSERM<br />
+ANF « Traçabilité des activités de recherche et gestion des connaissances », Réseau QeR, Grenoble, 2017</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://conf-ng.jres.org/2017/document_revision_2866.html?download">Expérimentation du cahier de laboratoire électronique à l’Inserm : les apports de l’électronique au cahier de laboratoire</a></p>
+<p>Paul-Guy Dupré, Fanny Brizzi Inserm, DSI<br />
+<a class="reference external" href="https://2017.jres.org/fr/contenu-th%C3%A9matique">JRES2017  </a></p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://conf-ng.jres.org/2019/document_revision_5213.html?download">Déploiement du cahier de laboratoire  électronique à l’INSERM et nouvelles perspectives</a></p>
+<p>PaulGuy Dupré Inserm &amp; Claudia Gallina-Muller - Inserm DSI<br />
+<a class="reference external" href="https://www.jres.org/fr/programme/">JRES2019  </a></p>
+</div>
+</div>
+<div class="section" id="les-tablettes-et-carnets-de-terrain">
+<h3><span class="section-number">3.2.6. </span>Les tablettes et carnets de terrain<a class="headerlink" href="#les-tablettes-et-carnets-de-terrain" title="Lien permanent vers ce titre">¶</a></h3>
+<p>Les données et documents produits directement sur le terrain témoignent de l’activité de recherche dans diverses disciplines, notamment en sciences humaines et sociales, en sciences de la terre… Il s’agit aussi bien de carnets issus d’entretiens de sociologues, d’ethnologues, de carnets de prélèvements en géochimie, géologie que de carnets de fouilles en archéologie, de notes, de photographies prises sur le terrain, etc. De plus, certaines données peuvent se révéler d’une valeur inestimable, qu’il s’agisse de données fortement temporelles (images satellites de la banquise, données sur les glaciers alpins) ou de données provenant de sites aujourd’hui endommagés ou détruits (Notre Dame de Paris, cité antique de Palmyre, etc). Il est de ce fait essentiel que ces données soient répertoriées et archivées.</p>
+<p>L’utilisation de carnets de terrain électroniques que sont les tablettes permet de profiter des avantages d’appareils nomades pour faciliter la saisie des observations que l’on fait sur le terrain, en milieu naturel. L’utilisation de cet outil « nomade » va permettre :</p>
+<ul class="simple">
+<li><p>d’améliorer la qualité des données collectées ;</p></li>
+<li><p>de pouvoir utiliser les données plus rapidement ;</p></li>
+<li><p>de réduire le coût (temps de ressaisie).</p></li>
+</ul>
+<p>Cependant, ces nouvelles technologies très « ludiques » et « faciles » d’utilisation, nécessitent une réflexion importante pour définir de façon précise son besoin afin de ne pas être pénalisé sur le terrain. Elles nécessitent aussi une adaptation technologique pour permettre un stockage efficient et pérenne en bases de données.</p>
+<p>Au niveau logiciel, cinq stratégies sont possibles pour développer des carnets de terrain électroniques :</p>
+<ol class="simple">
+<li><p>utiliser une application nomade existante</p></li>
+<li><p>utiliser une application web existante</p></li>
+<li><p>développer une application nomade spécifique avec un langage de programmation</p></li>
+<li><p>développer une application nomade en utilisant une boite à outils de génération de carnets de terrain</p></li>
+<li><p>développer une application nomade en adaptant des logiciels existants (par exemple QGIS, Lizmap)</p></li>
+</ol>
+<p>Deux solutions ont été étudiées au Centre d’Ecologie Fonctionnelle et Evolutive (CEFE) : le développement d’une application nomade basée sur le système d’information géographique, libre, multiplate-forme, publié sous licence GPL <a class="reference external" href="https://www.qgis.org/fr/site/">QGIS</a> ainsi qu’une application nomade utilisant une boite à outils de génération de carnets de terrain électronique <a class="reference external" href="https://opendatakit.org/">Open Data Kit</a>.</p>
+<p>Dans la présentation détaillant la solution basée sur QGIS, l’auteur détaille l’étude et le développement de l’applicatif interopérable avec le système d’information du laboratoire CEFE et qui permet aux intervenants sur le terrain de collecter les données :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://video.rmll.info/videos/carnet-de-terrain-electronique/">Carnet de terrain électronique, Retour d’expérience sur la création d’une boite à outils</a></p>
+<p>Marie-Claude Quidoz, CEFE<br />
+15èmes Rencontres Mondiales du Logiciel Libre, Montpellier, 2014</p>
+</div>
+<p>La solution basée sur ODK a servi de fil rouge à l’ANF <a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article317">« Interfacer les outils mobiles avec son système d’information »</a> en 2019, car la solution ODK permet de couvrir les étapes allant de la création du formulaire à la sécurisation en bases de données.</p>
+<p>Des applicatifs « clef en main » ont été développés à partir du moteur ODK. Le plus connu est sans doute <a class="reference external" href="https://www.kobotoolbox.org/">KoboToolbox</a>, qui, aux fonctionnalités de base, a ajouté quelques fonctionnalités supplémentaires telles que le Formbuilder et la bibliothèque de questions.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://github.com/OSGeo-fr/FOSS4G-fr-2018/blob/master/ateliers/Atelier-kobo.pdf">Collecte de données terrain avec un smartphone : Prise en main de Kobotolbox et de Kobocollect</a></p>
+<p>Akaouette, Ata Franck<br />
+FOSS4G-fr, Marne-la-vallée, 2018</p>
+</div>
+<p>Pierre-Yves Arnould nous présente sa solution à base de ODK pour Faciliter la saisie, Rendre autonome les chercheurs dans leur saisie
+Uniformiser la structure des fichiers, Génération d’étiquettes pour les échantillons, et Sauvegarder automatiquement sur un micro-serveur
+sur le terrain puis sur le SI OTELo</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33">Retour terrain : la délicate question de l’intégration des données</a></p>
+<p>Pierre-Yves Arnould, OTELo<br />
+ANF « Interfacer les outils mobiles avec son système d’information », réseau RBDD, 2019, Sète.</p>
+</div>
+<p>De nombreuses autres solutions sont aussi envisageables, nous invitons le lecteur a consulté les ateliers et séminaires suivants pour en découvrir leurs avantages et inconvénients :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article270">Atelier « Carnets de terrain électroniques »</a></p>
+<p>Réseau Zones Ateliers, Montpellier, 2018</p>
+<p><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article206">Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? »</a><br />
+Réseau rBDD, Paris, 2016</p>
+</div>
+<p>Il est à noter que la collecte sur le terrain nécessite de s’équiper d’un matériel apte à être utilisé sur des terrains parfois hostiles. Le choix de l’équipement conditionne aussi le choix de la solution logicielle comme le montre Marie-Claude Quidoz lors de cette présentation :</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/27/contribution/11/material/slides/">Carnet de terrain électronique</a></p>
+<p><a class="reference external" href="https://indico.mathrice.fr/event/27/contribution/11/material/0/">Vidéo :</a><br />
+Marie-Claude Quidoz, CEFE<br />
+Séminaire « les technologies mobiles : retours d’expériences et prospectives », Réseau ResInfo, Paris, 2016</p>
+</div>
+</div>
+<div class="section" id="la-gestion-des-collections">
+<h3><span class="section-number">3.2.7. </span>La gestion des collections<a class="headerlink" href="#la-gestion-des-collections" title="Lien permanent vers ce titre">¶</a></h3>
+<p><a class="reference external" href="https://www.collec-science.org">Collec-Science</a> est un logiciel web qui a été créé pour suivre les échantillons collectés lors des campagnes d’acquisition, et permet de répondre, entre autres, à ces questions :</p>
+<ul class="simple">
+<li><p>où est stocké l’échantillon ?</p></li>
+<li><p>d’où vient-il, quelle est sa généalogie (protocole de collecte, métadonnées associées à l’échantillon et ceux de ces ancêtres) ?</p></li>
+<li><p>quelles transformations ou opérations a-t-il subies ?</p></li>
+<li><p>sous quelle forme est-il conservé, existe-t-il un risque à le manipuler ?</p></li>
+</ul>
+<p>Fruit d’une collaboration initiale entre l’Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENSs à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article304">Stockez et retrouvez vos échantillons avec Collec-Science</a></p>
+<p>Marie-Claude Quidoz</p>
+</div>
+</div>
+</div>
+<div class="section" id="environnements-de-stockage-sauvegarder-les-donnees">
+<h2><span class="section-number">3.3. </span>Environnements de stockage - Sauvegarder les données<a class="headerlink" href="#environnements-de-stockage-sauvegarder-les-donnees" title="Lien permanent vers ce titre">¶</a></h2>
+<p>Dès la phase de collecte, il convient de se préoccuper des aspects de stockage et de sauvegarde qui seront plus largement abordés dans la phase 6 du cycle de vie des données. En effet, dès le début d’un projet, il est nécessaire, d’une part, d’estimer le stockage nécessaire à la collecte de données et d’autre part, de mettre en place les moyens de sauvegarde des données récoltées. La duplication des données par stockage redondant sur des supports différents de ceux de l’équipement utilisé (poste de travail fixe, mobile, serveur, …) est un des principes de base d’une bonne conservation. Il convient de préférer un archivage centralisé conformément à la règle du 3-2-1 généralement recommandée (3 copies sur 2 supports différents dont 1 sur un lieu déporté). À cet effet, il conviendra de travailler en amont avec une équipe informatique afin que les dispositifs de stockage soient disponibles.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/5/contribution/2/material/slides/0.pdf">Rappels théoriques concernant les architectures de stockage traditionnel</a></p>
+<p>Sylvain Maurin<br />
+ANF « Stockage Distribué », 2016</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/5/contribution/3/material/slides/0.pdf">Outils algorithmiques et logiciels pour le stockage distribué</a></p>
+<p>Benoit Parrein<br />
+ANF « Des données au BigData : exploitez le stockage distribué ! », 2016</p>
+</div>
+<p>Divers outils de sauvegarde des données sont fréquemment utilisés dans les milieux informatiques comme <a class="reference external" href="https://backuppc.github.io/backuppc/">backuppc</a>, <a class="reference external" href="https://bacula.org/">bacula</a>, <a class="reference external" href="https://rdiff-backup.net/">rdiff-backup</a></p>
+<p>Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des fonctionnalités de <em>déduplication</em>. Cette technologie consistant à réduire les volumes sauvegardés et les durées de sauvegarde en découpant les gros fichiers en fragments (blocs) et en ne sauvegardant qu’une seule fois les fragments identiques.</p>
+<p>Un retour d’expérience sur le <a class="reference external" href="https://borgbackup.readthedocs.io/en/stable/">logiciel borgbackup</a> donne des résultats intéressants et prend tout son sens quand on a beaucoup de fichiers volumineux peu différents.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://2017.jres.org/fr/presentation?id=35">Sauvegardes dédupliquées avec BorgBackup : retour d’expérience</a></p>
+<p>Maurice Libes - Didier Mallarino, OSU Pytheas<br />
+JRES 2017, Nantes</p>
+</div>
+<div class="warning admonition">
+<p class="admonition-title">Respecter le RGPD !</p>
+<p>Enfin n’oublions pas que, dès lors que l’on collecte des données personnelles (données permettant l’identification directe ou indirecte d’une personne), il est important de respecter des principes essentiels sur la durée de conservation des données, le droit à l’information et l’obligation de sécuriser les données. Il ne faut pas hésiter à se rapprocher du correspondant du Délégué à la protection des données (DPD) de votre délégation (pour le CNRS) ou du Délégué à la protection des données de votre établissement.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="02-concevoir_planifier.html" title="previous page"><span class="section-number">2. </span>Concevoir et planifier</a>
+    <a class='right-next' id="next-link" href="04-traiter.html" title="next page"><span class="section-number">4. </span>Traiter</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+        
+            &copy; Copyright 2021.<br/>
+          Mis à jour le 25 janv. 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.d3f166471bb80abb5163.js"></script>
+
+
+    
+  </body>
+</html>
