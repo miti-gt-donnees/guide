@@ -1,6 +1,14 @@
 # Guide de bonnes pratiques sur la gestion des données de la recherche
 
-**Introduction**
+* Christine Hadrossek : [DDOR](https://www.science-ouverte.cnrs.fr/), [réseau Renatis](http://renatis.cnrs.fr/)
+* Joanna Janik : [DDOR](https://www.science-ouverte.cnrs.fr/), [réseau Renatis](http://renatis.cnrs.fr/)
+* Maurice Libes : [réseau SIST](http://sist.cnrs.fr)
+* Violaine Louvet : [réseau Calcul](https://calcul.math.cnrs.fr/)
+* Marie-Claude Quidoz : [réseau rBDD](http://rbdd.cnrs.fr/)
+* Alain Rivet : [réseau QeR](http://qualite-en-recherche.cnrs.fr/)
+* Geneviève Romier : [réseau rBDD](http://rbdd.cnrs.fr/)
+
+**De l'importance des données de la recherche**
 
 La gestion rigoureuse et cohérente des données de la recherche constitue aujourd’hui un enjeu de taille pour la production de nouvelles connaissances scientifiques. Guidés par le « [Plan National pour la Science Ouverte](https://www.ouvrirlascience.fr/plan-national-pour-la-science-ouverte/) », les différents organismes de recherche et les Instituts du CNRS s’emparent de ces questions primordiales pour participer à la réflexion et à la mise à dispositions des outils, méthodes et infrastructures répondant aux besoins des communautés scientifiques en matière de gestion et de partage des données scientifiques. 
 
