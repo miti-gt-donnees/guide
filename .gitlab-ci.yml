@@ -2,8 +2,8 @@ image: pnavaro/pandoc
 
 default:
   before_script:
-    - python3 -m venv .venv
-    - source .venv/bin/activate
+    - python3 -m venv ~/.venv
+    - source ~/.venv/bin/activate
     - export LC_ALL=C.UTF-8
     - export LANG=C.UTF-8
     - pip3 install jupyter-book
