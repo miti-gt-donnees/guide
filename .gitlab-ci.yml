@@ -1,14 +1,33 @@
-# test:
-#   stage: test
-#   script:
-#     - ./check-urls.sh
-#   tags:
-#     - pandoc
+clean:
+  stage: .pre
+  script: jupyter-book clean . --all                                                              
+  tags:
+     - ubuntu
+
+html:
+   stage: build
+   script: jupyter-book build .                                                                    
+   tags:
+     - ubuntu
+
+latex:
+   stage: build
+   script: jupyter-book build . --builder pdflatex                                                 
+   tags:
+     - ubuntu
+
+linkcheck:
+   stage: test
+   script: jupyter-book build . --builder linkcheck                                                 
+   allow_failure: true
+   tags:
+     - ubuntu
 
 pages:
   stage: deploy
   script:
-    - make
+    - mv _build/html public                                                                   
+    - mv _build/latex/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf public/
   tags:
     - ubuntu
   artifacts:
