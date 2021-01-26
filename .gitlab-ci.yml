@@ -1,14 +1,18 @@
 image: pnavaro/pandoc
 
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
 cache:
-  key: ${CI_COMMIT_REF_SLUG}
   paths:
-    - ~/.venv
+    - .cache/pip
+    - venv/
+
 
 default:
   before_script:
-    - python3 -m venv ~/.venv
-    - source ~/.venv/bin/activate
+    - python3 -m venv venv
+    - source venv/bin/activate
     - export LC_ALL=C.UTF-8
     - export LANG=C.UTF-8
     - pip3 install -U jupyter-book
@@ -21,7 +25,6 @@ html:
   artifacts:
     paths:
       - _build/html
-
 
 latex:
   stage: build

@@ -5,7 +5,7 @@ logo: images/logo.png
 copyright: "2021"
 email: contact-guide@services.cnrs.fr
 description: "Guide de Bonnes Pratiques sur la gestion des données de la Recherche"
-exclude_patterns: [README.md,LICENSE.md]
+exclude_patterns: [venv,README.md,LICENSE.md]
 
 html:
     home_page_in_navbar: false
