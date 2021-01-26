@@ -94,7 +94,7 @@ En 2017, le réseau "calcul" a organisé un "[Atelier intégration continue](htt
 
 Les utilisateurs du langage de programmation "[Julia](https://julialang.org/)" sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l'atelier "JuliaNantes", les réponses aux questions qu'ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.
 
-```{admonition} [Getting started with Julia tools for reproducible science](http://matbesancon.github.io/slides/JuliaNantes/JuliaTools#/10)    
+```{admonition} [Getting started with Julia tools for reproducible science](http://matbesancon.github.io/slides/JuliaNantes/JuliaTools)    
 :class: seealso
 Mathieu Besançon, Centrale Lille et Polytechnique Montréal  
 Atelier JuliaNantes, 2019
