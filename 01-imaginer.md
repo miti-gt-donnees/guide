@@ -243,7 +243,7 @@ Pour plus de détails, on se reportera à la section {ref}`archiver`.
 
 La formation continue des personnels est fondamentale pour suivre l'évolution des métiers et des technologies.
 
-Au CNRS, la formation continue est pilotée par le Service formation et Itinéraire Professionnel ([SFIP](https://www.dgdr.cnrs.fr/drh)). Celui-ci met en oeuvre des actions adaptées aux orientations et à la stratégie de l’établissement à travers deux dispositifs de formation principaux : les Actions Nationales de Formation (ANF) fortement orientée sur les technologies et ingénierie, et les "Écoles Thématiques"  d'un contenu davantage scientifique et plutôt en relation avec les chercheurs. Le SFIP soutient également des actions régionales de formation.
+Au CNRS, la formation continue est pilotée par le Service formation et Itinéraire Professionnel ([SFIP](http://www.dgdr.cnrs.fr/drh)). Celui-ci met en oeuvre des actions adaptées aux orientations et à la stratégie de l’établissement à travers deux dispositifs de formation principaux : les Actions Nationales de Formation (ANF) fortement orientée sur les technologies et ingénierie, et les "Écoles Thématiques"  d'un contenu davantage scientifique et plutôt en relation avec les chercheurs. Le SFIP soutient également des actions régionales de formation.
 
 **Les réseaux métiers et réseaux technologiques**
 
