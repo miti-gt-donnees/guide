@@ -8,14 +8,13 @@ cache:
     - .cache/pip
     - venv/
 
-
 default:
   before_script:
     - python3 -m venv venv
     - source venv/bin/activate
     - export LC_ALL=C.UTF-8
     - export LANG=C.UTF-8
-    - pip3 install -U jupyter-book
+    - pip install -U jupyter-book
 
 html:
   stage: build
@@ -34,7 +33,6 @@ latex:
   artifacts:
     paths:
       - _build/latex
-
 
 linkcheck:
   stage: test
