@@ -2,7 +2,6 @@ image: pnavaro/pandoc
 
 default:
   before_script:
-    - python3 -m pip install --user venv
     - python3 -m venv .venv
     - source .venv/bin/activate
     - pip3 install jupyter-book
