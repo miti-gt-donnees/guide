@@ -5,7 +5,6 @@ logo: images/logo.png
 copyright: "2021"
 email: contact-guide@services.cnrs.fr
 description: "Guide de Bonnes Pratiques sur la gestion des données de la Recherche"
-
 exclude_patterns: [README.md,LICENSE.md]
 
 html:
@@ -13,6 +12,10 @@ html:
     use_repository_button: false
     use_edit_page_button: false
     extra_navbar: <a href="mailto:contact-guide@services.cnrs.fr">contact</a> 
+    extra_footer: |
+        <p>
+        Ce guide est mis à disposition selon les termes de la Licence <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
+        </p>
 
 parse:
   myst_extended_syntax: true
@@ -20,7 +23,8 @@ parse:
 sphinx:
     config:
         language: "fr"
-        html_show_copyright: true
+        tls_verify: false
+        html_show_copyright: false
         html_last_updated_fmt: "%d %b %Y"
         latex_logo: 'images/logo_small.png'
         latex_toplevel_sectioning: 'chapter'
