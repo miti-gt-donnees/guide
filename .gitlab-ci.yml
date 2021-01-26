@@ -1,9 +1,3 @@
-clean:
-  stage: .pre
-  script: jupyter-book clean . --all                                                              
-  tags:
-     - ubuntu
-
 html:
    stage: build
    script: jupyter-book build .                                                                    
