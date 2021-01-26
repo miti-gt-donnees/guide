@@ -104,7 +104,7 @@ Sylvain Grelet communique par exemple le retour d'expérience sur l'utilisation 
 ```{admonition} [De la définition au déploiement de standards d'interopérabilité :](https://nuage.osupytheas.fr/s/aQogG6iPq6eGabf) retour d'expérience de la Direction des Systèmes d'Information (DSI) du BRGM   
 :class: seealso
 Grellet Sylvain, Stéphane Loigerot, BRGM   
-[Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)  
+[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)  
 ```
 
 Véronique Chaffard nous présente la mise en oeuvre des standards de l'OGC dans le projet AMMA-CATCH :
@@ -112,7 +112,7 @@ Véronique Chaffard nous présente la mise en oeuvre des standards de l'OGC dans
 ```{admonition} [Portail Web d'accès aux données de l'observatoire AMMA-CATCH et mise en oeuvre des standards d'échange des données OGC ](https://nuage.osupytheas.fr/s/Mrm2oRT8QFt9HS9)   
 :class: seealso
 Véronique Chaffard, IRD  
-[Séminaire SIST15, OSU Pytheas Marseille](http://sist15.sciencesconf.org)
+[Séminaire SIST15, OSU Pytheas Marseille](https://sist15.sciencesconf.org)
 ```
 
 ## Les systèmes d'acquisition : maîtriser l’acquisition et la collecte des données
@@ -159,7 +159,7 @@ Le protocole "[SOS" (Sensor observation service) de l'OGC](https://www.ogc.org/s
 ```{admonition} [Sensor Web Enablement Standards & Technology](<https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk>)   
 :class: seealso
 Christoph Stasch, Simon Jirka, 52North   
-[Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)
+[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)
 ```
 
 Actuellement on trouve deux implémentations intéressantes du protocole SOS dans la gestion des données de capteurs environnementaux. Il s'agit de :
@@ -171,17 +171,17 @@ istSOS est un logiciel libre qui fonctionne sur toutes les principales plates-fo
 ```{admonition} [Présentation du logiciel istSOS](https://nuage.osupytheas.fr/s/eK7y9w6ewfL36Kk)
 :class: seealso
 Massimiliano Canata   
-[Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)  
+[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)  
 ```
 
-Ces 2 logiciels ont été présentés par Christoph Stasch, et Massimiliano Canata lors du séminaire du réseau [SIST](http://sist.cnrs.fr) en 2015 à l'[OSU Pytheas Marseille](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz).
+Ces 2 logiciels ont été présentés par Christoph Stasch, et Massimiliano Canata lors du séminaire du réseau [SIST](https://sist.cnrs.fr) en 2015 à l'[OSU Pytheas Marseille](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz).
 
 Stephane Debard présente l'utilisation d'istSOS dans la gestion de mesures altimétriques radars : 
 
 ```{admonition} [Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS ](https://sist19.sciencesconf.org/data/pages/SIST19_S_Debard.pdf)   
 :class: seealso
 Stéphane Debard IRD   
-[Séminaire SIST19 OMP Toulouse](http://sist19.sciencesconf.org)   
+[Séminaire SIST19 OMP Toulouse](https://sist19.sciencesconf.org)   
 ```
 
 
@@ -194,12 +194,12 @@ Regis Hocdé et ses collègues nous présentent un retour d'expérience sur le r
 ```{admonition} [Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG)   
 :class: seealso
 Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement    
-[Séminaire SIST15, Marseille](http://sist15.sciencesconf.org)   
+[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)   
 ```
 ```{admonition} [Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf>)   
 :class: seealso
 Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de Recherche pour le Développement    
-[Séminaire SIST16,  OSU OREME, Montpellier ](http://sist16.sciencesconf.org) 
+[Séminaire SIST16,  OSU OREME, Montpellier ](https://sist16.sciencesconf.org) 
 ```
 
 Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d'un réseau de stations météorologiques de la région rennaise.
@@ -207,7 +207,7 @@ Alban Thomas nous présente la technologie utilisée à base de Raspberry et de 
 ```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome](https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX) :  exemple de la métropole rennaise (Zone Atelier Armorique)   
 :class: seealso
 Alban Thomas - Hervé Quénol UMR LETG Rennes    
-[Séminaire SIST15, OSU Pytheas Marseille](http://sist15.sciencesconf.org)   
+[Séminaire SIST15, OSU Pytheas Marseille](https://sist15.sciencesconf.org)   
 ```
 
 ### Web scraping ou grattage Web : collecte automatique et analyse de données 
@@ -378,7 +378,7 @@ Benoit Parrein
 ANF "Des données au BigData : exploitez le stockage distribué !", 2016   
 ```
 
-Divers outils de sauvegarde des données sont fréquemment utilisés dans les milieux informatiques comme [backuppc](https://backuppc.github.io/backuppc/), [bacula](https://bacula.org/), [rdiff-backup](https://rdiff-backup.net/)
+Divers outils de sauvegarde des données sont fréquemment utilisés dans les milieux informatiques comme [backuppc](https://backuppc.github.io/backuppc/), [bacula](https://www.bacula.org/), [rdiff-backup](https://rdiff-backup.net/)
 
 Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des fonctionnalités de _déduplication_. Cette technologie consistant à réduire les volumes sauvegardés et les durées de sauvegarde en découpant les gros fichiers en fragments (blocs) et en ne sauvegardant qu'une seule fois les fragments identiques.
 

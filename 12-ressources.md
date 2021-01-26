@@ -1,6 +1,5 @@
 # Autres guides de bonnes pratiques
 
----
 
 *Pierre-Yves Arnould et Marie-Christine Jacquemot*. [Guide de bonnes pratiques Gestion et valorisation des données de la recherche](https://hal.archives-ouvertes.fr/hal-01275841/document). [Rapport de recherche] OTELo; INIST-CNRS. 2016. hal-01275841
 
