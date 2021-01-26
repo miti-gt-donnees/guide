@@ -39,6 +39,9 @@ linkcheck:
   allow_failure: true
   tags:
     - docker
+  artifacts:
+    paths:
+      - _build
 
 pages:
   stage: deploy
