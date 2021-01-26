@@ -385,7 +385,7 @@ cite aussi les travaux faits par le Service d'Observation en Milieu
 Littoral [SOMLIT](https://www.somlit.fr/en/) qui a défini sa propre
 classification [^somlit].
 
-[^somlit]: <https://www.somlit.fr/codes-qualite/](https://www.somlit.fr/codes-qualite/>
+[^somlit]: [Codes qualité SOMLIT](https://www.somlit.fr/codes-qualite/)
 
 Sa présentation se poursuit sur l'utilisation de contraintes SQL
 pour éviter l'insertion en base de données de valeurs incohérentes
