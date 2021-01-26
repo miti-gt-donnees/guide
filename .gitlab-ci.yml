@@ -1,5 +1,9 @@
 image: pnavaro/pandoc
 
+cache: 
+  paths:
+    - ~/.venv
+
 default:
   before_script:
     - python3 -m venv ~/.venv
