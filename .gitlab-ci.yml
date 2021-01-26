@@ -1,21 +1,23 @@
+image: pnavaro/jupyter
+
 html:
    stage: build
    script: jupyter-book build .                                                                    
    tags:
-     - ubuntu
+     - docker
 
 latex:
    stage: build
    script: jupyter-book build . --builder pdflatex                                                 
    tags:
-     - ubuntu
+     - docker
 
 linkcheck:
    stage: test
    script: jupyter-book build . --builder linkcheck                                                 
    allow_failure: true
    tags:
-     - ubuntu
+     - docker
 
 pages:
   stage: deploy
@@ -23,7 +25,7 @@ pages:
     - mv _build/html public                                                                   
     - mv _build/latex/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf public/
   tags:
-    - ubuntu
+    - docker
   artifacts:
     paths:
       - public
