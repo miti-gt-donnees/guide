@@ -1,4 +1,4 @@
-image: pnavaro/jupyter
+image: pnavaro/pandoc
 
 html:
    stage: build
