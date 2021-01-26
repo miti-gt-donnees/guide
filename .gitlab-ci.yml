@@ -9,6 +9,8 @@ html:
    script: jupyter-book build .                                                                    
    tags:
      - ubuntu
+   only:
+     - devel
 
 latex:
    stage: build
