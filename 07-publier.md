@@ -556,7 +556,7 @@ Rendre les données interopérables sur le web est le sujet essentiel de cette p
 
 Il détaille le modèle RDF (Resource Description Framework) du W3C, puis, le langage de requêtes SPARQL. Il explique ensuite le standard SKOS (Simple Knowledge Organization System) utilisé pour représenter les vocabulaires contrôlés, les taxonomies et thesauri. Il termine en montrant comment publier des données ouvertes sur le web.
 
-```{admonition} Atelier ["Mise en place d’un SPARQL EndPoint. Servir du RDF via HTTP avec Jena et Fuseki"](http://wheintz.github.io/jRBDD1015.html#1)
+```{admonition} Atelier ["Mise en place d’un SPARQL EndPoint. Servir du RDF via HTTP avec Jena et Fuseki"](http://wheintz.github.io/jRBDD1015.html)
 :class: seealso
 Wilfried Heintz (Unité Mixte de Recherche "Dynamiques et écologie des paysages agriforestiers"), 2015
 ```
