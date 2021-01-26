@@ -11,7 +11,7 @@ default:
     - source ~/.venv/bin/activate
     - export LC_ALL=C.UTF-8
     - export LANG=C.UTF-8
-    - pip3 install jupyter-book
+    - pip3 install -U jupyter-book
 
 html:
   stage: build
