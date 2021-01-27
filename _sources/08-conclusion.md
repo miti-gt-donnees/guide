@@ -21,7 +21,9 @@ et nécessaire de rendre compte des compétences et expertises présentes
 dans nos réseaux, sous la forme d'un guide de bonnes pratiques
 inhérentes aux données de la recherche.
 
-Dans ce guide, les sept étapes que nous avons décrites sont une représentation communément admise du cycle de vie des données, à laquelle nous avons également ajouté une étape "Imaginer et Préparer" et "concevoir planifier", en les distinguant, 
+Du fait des différentes approches, outils, concepts et vocabulaires
+entre nos différents métiers, nous avons retenu la solution fédératrice
+de relier nos actions aux étapes communément admises du "cycle de vie des données" auquel nous avons également ajouté une étape "Imaginer et Préparer" et "concevoir planifier", en les distinguant, 
 pour bien prendre en compte les phases préparatoires de planification d'un projet. 
 L’intérêt de cette représentation est de bien montrer toutes les étapes nécessaires pour aboutir à une publication des données, et les rendre réutilisables. Ainsi les données de la recherche pourront être mises à profit dans d'autres projets.
 
@@ -29,11 +31,7 @@ Le cycle de vie doit assurer aux données les meilleures conditions pour leur ut
 leur archivage pérenne, et leur réutilisation pour d'autres besoins et d'autres projets que ceux pour lesquels elles ont été
 initialement constituées.
 
-Du fait des différentes approches, outils, concepts et vocabulaires
-entre nos différents métiers, nous avons retenu la solution fédératrice
-de relier nos actions aux étapes communément admises du "cycle de
-vie des données". Outre des différences méthodologiques liées aux
-disciplines qu'on retrouvera dans les étapes 3 (collecter), 4
+Outre des différences méthodologiques liées aux disciplines qu'on retrouvera dans les étapes 3 (collecter), 4
 (traiter), 5 (analyser), les réseaux se retrouvent sur des concepts
 communs dès lorsqu'il faut préparer un projet (étapes 1,2), préserver
 les données (étape 6) ou publier et diffuser les données (étape 7).

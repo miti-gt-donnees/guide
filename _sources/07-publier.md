@@ -115,7 +115,7 @@ La mission de [l’IR Data Terra](https://www.data-terra.org/) consiste à organ
 ```{admonition} [Présentation de l'IR Data terra](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_IRDataTerra.pdf)  
 :class: seealso
 Richard Moreno, directeur technique IR Data Terra  
-[Séminaire SIST 2019](http://sist19.sciencesconf.org), OMP Toulouse
+[Séminaire SIST 2019](https://sist19.sciencesconf.org), OMP Toulouse
 ```
 
 l’IR Data Terra est constitué de quatre pôles de données  (ODATIS, AERIS, ForM@Ter \& Theia dont la mission principale est de mettre à disposition des données, des produits, des logiciels, des outils et/ou des services destinés en premier lieu à la communauté scientifique française dans le cadre de ses recherches sur le système Terre. 
@@ -253,7 +253,7 @@ Nécessité de publier en identifiant les jeux de données par des  "DOI":
 [présentation ](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
 [vidéo sur les DOI de Datacite](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F\&files=16-DOI-Yahia-Inist-SIST2016.mp4)
 Mohamed Salah Yahia, Institut de l'information scientifique et technique du CNRS                     
-[Séminaire SIST16 OSU Oreme Montpellier ](http://sist16.sciencesconf.org)
+[Séminaire SIST16 OSU Oreme Montpellier ](https://sist16.sciencesconf.org)
 ```
 
 ### Comment obtenir des DOI ?
@@ -263,7 +263,7 @@ Une unité CNRS a la possibilité de souscrire un contrat avec l'INIST du CNRS p
 ```{admonition} [Workflow d’attribution de DOI par l’Inist-CNRS](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
 :class: seealso
 Mohamed Salah Yahia
-[Séminaire SIST16 OSU Oreme Montpellier](http://sist16.sciencesconf.org)
+[Séminaire SIST16 OSU Oreme Montpellier](https://sist16.sciencesconf.org)
 ```
 
 Cependant dans le paysage national actuel des données environnementales, certaines infrastructures de recherche comme Data Terra seront en charge de fournir des DOI selon les disciplines concernées. Dans le domaine marin le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit d'ores et déjà un service de fourniture de D.O.I via le site [Seanoe](https://www.seanoe.org/).
@@ -273,7 +273,7 @@ Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les m�
 ```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist19.sciencesconf.org/data/pages/SIST19\_A\_BATTAIS.pdf)  
 :class: seealso
 Annick Battais  
-[Séminaire SIST2019 Toulouse 2019](http://sist19.sciencesconf.org)   
+[Séminaire SIST2019 Toulouse 2019](https://sist19.sciencesconf.org)   
 ```
 
 ### Retour d'expériences d'utilisation de DOI
@@ -524,7 +524,7 @@ En guise d'exercice de conclusion, Wilfried Heintz nous fait part de sa concepti
 ```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie](https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf)
 :class: seealso
 Wilfried Heintz, UMR 1201 Dynafor   
-[Séminaire SIST18 Observatoire Versailles](http://sist18.sciencesconf.org)
+[Séminaire SIST18 Observatoire Versailles](https://sist18.sciencesconf.org)
 ```
 
 ```{admonition} [Gestion pérenne des données scientifiques : du plan de gestion de données au datapaper.](http://rbdd.cnrs.fr/IMG/pdf/sd2018_datamanagement_wheintz.pdf?435/8949f16992fdffdffe7b7ef53258e71f9500c685)
@@ -556,7 +556,7 @@ Rendre les données interopérables sur le web est le sujet essentiel de cette p
 
 Il détaille le modèle RDF (Resource Description Framework) du W3C, puis, le langage de requêtes SPARQL. Il explique ensuite le standard SKOS (Simple Knowledge Organization System) utilisé pour représenter les vocabulaires contrôlés, les taxonomies et thesauri. Il termine en montrant comment publier des données ouvertes sur le web.
 
-```{admonition} Atelier ["Mise en place d’un SPARQL EndPoint. Servir du RDF via HTTP avec Jena et Fuseki"](http://wheintz.github.io/jRBDD1015.html#1)
+```{admonition} Atelier ["Mise en place d’un SPARQL EndPoint. Servir du RDF via HTTP avec Jena et Fuseki"](http://wheintz.github.io/jRBDD1015.html)
 :class: seealso
 Wilfried Heintz (Unité Mixte de Recherche "Dynamiques et écologie des paysages agriforestiers"), 2015
 ```

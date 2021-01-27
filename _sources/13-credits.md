@@ -6,7 +6,7 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 
 * Christine Hadrossek : [DDOR](https://www.science-ouverte.cnrs.fr/), [réseau Renatis](http://renatis.cnrs.fr/)
 * Joanna Janik : [DDOR](https://www.science-ouverte.cnrs.fr/), [réseau Renatis](http://renatis.cnrs.fr/)
-* Maurice Libes : [réseau SIST](http://sist.cnrs.fr)
+* Maurice Libes : [réseau SIST](https://sist.cnrs.fr)
 * Violaine Louvet : [réseau Calcul](https://calcul.math.cnrs.fr/)
 * Marie-Claude Quidoz : [réseau rBDD](http://rbdd.cnrs.fr/)
 * Alain Rivet : [réseau QeR](http://qualite-en-recherche.cnrs.fr/)
@@ -16,7 +16,7 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 
 * Pierre Brochard : [réseau DevLog](http://devlog.cnrs.fr/)
 * Dominique Desbois : [réseau DevLog](http://devlog.cnrs.fr/)
-* Emilie Lerigoleur : [réseau SIST](http://sist.cnrs.fr)
+* Emilie Lerigoleur : [réseau SIST](https://sist.cnrs.fr)
 * Caroline Martin
 * Pierre Navaro : [réseau Calcul](https://calcul.math.cnrs.fr/)
 
@@ -24,7 +24,7 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 
 ## Licence 
 
-Cet ouvrage est mis à disposition selon les termes de la [Licence Creative Commons BY 4.0 ![](https://licensebuttons.net/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/deed.fr).
+Cet ouvrage est mis à disposition selon les termes de la [Licence Creative Commons BY 4.0 ![](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/deed.fr).
 
 Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyter Book](https://jupyterbook.org), logiciel libre diffusé sous licence [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
 

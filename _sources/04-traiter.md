@@ -238,7 +238,7 @@ Juliette Fabre, Olivier Lobry
 ANF SIST 2018, Toulouse.   
 ```
   
-*  l'application GeoCMS permettent la visualisation de données géospatiales sur le web et de mettre en place une Infrastructure de Données Géographique (IDG). on peut voir un exemple de l'interet de cette application sur un[ portail comme celui de  Indigeo ](https://portail.indigeo.fr/geocms/maps/new/false#project)
+*  l'application GeoCMS permettent la visualisation de données géospatiales sur le web et de mettre en place une Infrastructure de Données Géographique (IDG). on peut voir un exemple de l'interet de cette application sur un[ portail comme celui de  Indigeo ](https://portail.indigeo.fr/geocms/maps/new/false)
 
 ```{admonition} [TP GeoCMS - Installation, configuration, visualisation et interrogation de jeux de données géospatialisés](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/anfsist18-geocms.zip)   
 :class: seealso
@@ -385,7 +385,7 @@ cite aussi les travaux faits par le Service d'Observation en Milieu
 Littoral [SOMLIT](https://www.somlit.fr/en/) qui a défini sa propre
 classification [^somlit].
 
-[^somlit]: <https://www.somlit.fr/codes-qualite/](https://www.somlit.fr/codes-qualite/>
+[^somlit]: [Codes qualité SOMLIT](https://www.somlit.fr/codes-qualite/)
 
 Sa présentation se poursuit sur l'utilisation de contraintes SQL
 pour éviter l'insertion en base de données de valeurs incohérentes
