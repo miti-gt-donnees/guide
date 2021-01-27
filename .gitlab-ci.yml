@@ -14,6 +14,7 @@ default:
     - source venv/bin/activate
     - export LC_ALL=C.UTF-8
     - export LANG=C.UTF-8
+    - pip install wheel
     - pip install -U jupyter-book
 
 html:
