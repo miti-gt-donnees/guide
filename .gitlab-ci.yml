@@ -13,10 +13,8 @@ html_and_pdf:
   before_script:
     - python3 -m venv venv
     - source venv/bin/activate
-    - export LC_ALL=C.UTF-8
-    - export LANG=C.UTF-8
-    - pip install wheel
-    - pip install -U jupyter-book
+    - pip install -q wheel
+    - pip install -q -U jupyter-book
   script: 
     - jupyter-book build .
     - jupyter-book build . --builder pdflatex
