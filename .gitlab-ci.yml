@@ -19,7 +19,7 @@ default:
 html:
   stage: build
   script: 
-    - jupyter-book build .                                                                    
+    - jupyter-book build .
     - mv _build/html/* public/
   tags:
     - docker
@@ -30,7 +30,7 @@ html:
 latex:
   stage: build
   script: 
-    - jupyter-book build . --builder pdflatex                                                 
+    - jupyter-book build . --builder pdflatex
     - mv _build/latex/* public/
   tags:
     - docker
@@ -41,7 +41,7 @@ latex:
 linkcheck:
   stage: test
   script: 
-    - jupyter-book build . --builder linkcheck                                                 
+    - jupyter-book build . --builder linkcheck
     - mv _build/html/output.txt public/
   allow_failure: true
   tags:
