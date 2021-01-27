@@ -47,6 +47,8 @@ linkcheck:
 
 pages:
   stage: deploy
+  before_script:
+    - echo "No need to install python packages here"
   script:
     - mv _build/html public
     - mv _build/latex/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf public/
