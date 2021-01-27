@@ -50,6 +50,8 @@ pages:
   script:
     - mv _build/html public
     - mv _build/latex/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf public/
+  tags:
+    - docker
   artifacts:
     paths:
       - public
