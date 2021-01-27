@@ -8,7 +8,8 @@ cache:
     - .cache/pip
     - venv/
 
-default:
+html_and_pdf:
+  stage: build
   before_script:
     - python3 -m venv venv
     - source venv/bin/activate
@@ -16,19 +17,9 @@ default:
     - export LANG=C.UTF-8
     - pip install wheel
     - pip install -U jupyter-book
-
-html:
-  stage: build
-  script: jupyter-book build .
-  tags:
-    - docker
-  artifacts:
-    paths:
-      - _build
-
-latex:
-  stage: build
-  script: jupyter-book build . --builder pdflatex
+  script: 
+    - jupyter-book build .
+    - jupyter-book build . --builder pdflatex
   tags:
     - docker
   artifacts:
@@ -37,6 +28,8 @@ latex:
 
 linkcheck:
   stage: test
+  before_script:
+    - source venv/bin/activate
   script: jupyter-book build . --builder linkcheck
   allow_failure: true
   tags:
@@ -47,11 +40,9 @@ linkcheck:
 
 pages:
   stage: deploy
-  before_script:
-    - echo "No need to install python packages here"
   script:
     - mv _build/html public
-    - mv _build/latex/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf public/
+    - mv _build/latex/*.pdf public/
   tags:
     - docker
   artifacts:
