@@ -28,9 +28,7 @@ html:
 
 latex:
   stage: build
-  script: 
-    - jupyter-book build . --builder pdflatex
-    - mv _build/latex/* public/
+  script: jupyter-book build . --builder pdflatex
   tags:
     - docker
   artifacts:
@@ -39,8 +37,7 @@ latex:
 
 linkcheck:
   stage: test
-  script: 
-    - jupyter-book build . --builder linkcheck
+  script: jupyter-book build . --builder linkcheck
   allow_failure: true
   tags:
     - docker
