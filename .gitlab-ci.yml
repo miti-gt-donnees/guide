@@ -18,14 +18,12 @@ default:
 
 html:
   stage: build
-  script: 
-    - jupyter-book build .
-    - mv _build/html/* public/
+  script: jupyter-book build .
   tags:
     - docker
   artifacts:
     paths:
-      - public
+      - _build
 
 latex:
   stage: build
@@ -36,22 +34,24 @@ latex:
     - docker
   artifacts:
     paths:
-      - public
+      - _build
 
 linkcheck:
   stage: test
   script: 
     - jupyter-book build . --builder linkcheck
-    - mv _build/html/output.txt public/
   allow_failure: true
   tags:
     - docker
   artifacts:
     paths:
-      - public
+      - _build
 
 pages:
   stage: deploy
+  script:
+    - mv _build/html public
+    - mv _build/latex/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf public/
   artifacts:
     paths:
       - public
