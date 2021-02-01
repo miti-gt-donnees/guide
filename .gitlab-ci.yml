@@ -38,6 +38,8 @@ linkcheck:
 
 pages:
   stage: deploy
+  before_script:
+    - echo "no need of python here"
   script:
     - mv _build/html public
     - mv _build/latex/*.pdf public/
