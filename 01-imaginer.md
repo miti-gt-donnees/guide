@@ -21,7 +21,7 @@ Simon Hodson souligne aussi le rôle essentiel des politiques et parties prenant
 
 ```{admonition} [Les politiques d’accompagnement des données : une comparaison internationale](http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf)  
 :class: seealso
-Simon Hodson, ISCU-CODATA  
+Simon Hodson, ISCU-CODATA,  \
 ANF "Frédocs2013 - Gestion et valorisation des données de la recherche", 2013, Aussois
 ```
 
