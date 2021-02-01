@@ -3,6 +3,12 @@ image: pnavaro/pandoc
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
 
+before_script:
+  - python3 -m venv venv
+  - source venv/bin/activate
+  - pip install -q wheel
+  - pip install -q -U jupyter-book
+
 cache:
   paths:
     - .cache/pip
@@ -10,11 +16,6 @@ cache:
 
 html_and_pdf:
   stage: build
-  before_script:
-    - python3 -m venv venv
-    - source venv/bin/activate
-    - pip install -q wheel
-    - pip install -q -U jupyter-book
   script: 
     - jupyter-book build .
     - jupyter-book build . --builder pdflatex
