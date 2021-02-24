@@ -25,17 +25,17 @@ html_and_pdf:
     paths:
       - _build
 
-linkcheck:
-  stage: test
-  before_script:
-    - source venv/bin/activate
-  script: jupyter-book build . --builder linkcheck
-  allow_failure: true
-  tags:
-    - docker
-  artifacts:
-    paths:
-      - _build
+#linkcheck:
+#  stage: test
+#  before_script:
+#    - source venv/bin/activate
+#  script: jupyter-book build . --builder linkcheck
+#  allow_failure: true
+#  tags:
+#    - docker
+#  artifacts:
+#    paths:
+#      - _build
 
 pages:
   stage: deploy
