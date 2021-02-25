@@ -1,6 +1,7 @@
 # Guide de bonnes pratiques sur les données
 
 [![](https://img.shields.io/badge/jupyter-book-blue)](https://mi-gt-donnees.pages.math.unistra.fr/guide) [![](https://img.shields.io/badge/pdf-document-blue)](https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf) 
+[![DOI](https://zenodo.org/badge/309799008.svg)](https://zenodo.org/badge/latestdoi/309799008)
 
 Ce guide est une production du groupe de travail inter-réseaux « Atelier Données », qui est  composé de plusieurs réseaux de la MITI (Calcul, Devlog, QeR, rBDD, Renatis, Resinfo, Medici), du réseau SIST de l’INSU, de l’INIST, et de la Direction des données ouvertes de la recherche DDOR-CNRS
 
