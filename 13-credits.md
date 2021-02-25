@@ -22,11 +22,14 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 
 - **version 1.0 Janvier 2021**
 
+
 ## Licence 
 
 Cet ouvrage est mis à disposition selon les termes de la [Licence Creative Commons BY 4.0 ![](https://licensebuttons.net/l/by/4.0/80x15.png)](https://creativecommons.org/licenses/by/4.0/deed.fr).
 
 Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyter Book](https://jupyterbook.org), logiciel libre diffusé sous licence [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
+
+ [![DOI](images/309799008.png)](https://zenodo.org/badge/latestdoi/309799008)
 
 ````{panels}
 [![Atelier Données](images/gt-donnees-logo.png)](https://mi-gt-donnees.pages.math.unistra.fr/site/)
