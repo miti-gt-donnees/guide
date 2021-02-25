@@ -1,39 +1,17 @@
 # Guide de bonnes pratiques sur les données
 
-Groupe de travail "Atelier Données"
-
 [![](https://img.shields.io/badge/jupyter-book-blue)](https://mi-gt-donnees.pages.math.unistra.fr/guide) [![](https://img.shields.io/badge/pdf-document-blue)](https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v1.pdf) 
 
-0.	[Introduction](00-introduction.md) : Christine
-1.	[Imaginer](01-imaginer.md) : Christine
-2.	[Concevoir-Planifier](02-concevoir_planifier.md) : Geneviève 
-3.	[Collecter](03-collecter.md) : Alain
-4.	[Traiter](04-traiter.md) : Violaine
-5.	[Analyser](05-analyser.md) : Violaine 
-6.	[Archiver](06-archiver.md) : Marie-Claude 
-7.	[Publier](07-publier.md) : Maurice
-8.	[Conclusion](08-conclusion.md)
-9.	[Glossaire](09-glossaire.md)
-10.	[Infrastructure](10-infrastructures.md) : Geneviève
-11.	[Reproductibilite](11-reproductibilite.md)
+Ce guide est une production du groupe de travail inter-réseaux « Atelier Données », qui est  composé de plusieurs réseaux de la MITI (Calcul, Devlog, QeR, rBDD, Renatis, Resinfo, Medici), du réseau SIST de l’INSU, de l’INIST, et de la Direction des données ouvertes de la recherche DDOR-CNRS
 
-## Compilation locale
+Dans le contexte de la Science Ouverte et de la gestion FAIR des données, les réseaux métiers ont développé des compétences et expertises qui s’appuient  sur des pratiques standardisées et sur une veille technologique régulière. 
 
-Téléchargez le dépôt:
-```
-git clone https://gitlab.math.unistra.fr/mi-gt-donnees/synthese
-```
+L’originalité de ce document réside dans son application aux données de la recherche sous l’angle de différents métiers de la recherche. Il fournit un point de vue transversal nouveau et traduit les efforts et le soutien mis en place par les personnels d’appui à la recherche au sein des réseaux, dans la gestion et la valorisation des données scientifiques.
 
-Installez les paquets python
-```
-cd synthese
-pip3 install -r requirements.txt
-```
+Le guide se base sur les différentes étapes du « [cycle de vie des données](https://mi-gt-donnees.pages.math.unistra.fr/site/download/GTInterreseaux-CartoSyntheseV6-optimise.pdf) » défini par le groupe de travail  en 2017. Il rassemble un grand nombre de références de communications et de formations récentes sur la gestion des données faites par les réseaux.
 
-Compilez le document et visualiser le document
-```
-make
-cd public
-python3 -m http.server
-```
-Ouvrez votre navigateur à l'adresse <http://localhost:8000>
+L’ouvrage guide le lecteur vers des bonnes pratiques en fournissant des liens qui constituent des ressources lui permettant d’approfondir chaque sujet. 
+
+Il s’adresse à toute personne désireuse de se former à la gestion des données de la recherche. Son objectif est d’aider le lecteur à analyser son besoin et à trouver des solutions parmi l’éventail des communications qui sont présentées. Il constitue aussi une invitation à se rapprocher et à participer aux activités  des réseaux métiers.
+
+Le groupe de travail ["Atelier Données"](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html)
