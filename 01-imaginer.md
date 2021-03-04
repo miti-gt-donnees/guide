@@ -134,7 +134,7 @@ Patrick Guillot, Univ. Grenoble Alpes
 ANF "Traçabilité des activités de recherche et gestion des connaissances", Réseau Qualité en Recherche, 2017, Grenoble 
 ```
 
-L'INSHS a par ailleurs produit un guide pour la recherche "[Les sciences humaines et sociales et la protection des données à caractère personnel dans le contexte de la science ouverte](https://www.inshs.cnrs.fr/sites/institut_inshs/files/pdf/guide-rgpd_2.pdf). Ce guide régulièrement mis à jour synthétise les règles applicables à chaque étape du cycle de vie des données et s'appuie sur des exemples concrets pour présenter des bonnes pratiques.
+L'INSHS a par ailleurs produit un guide pour la recherche "[Les sciences humaines et sociales et la protection des données à caractère personnel dans le contexte de la science ouverte](https://www.ouvrirlascience.fr/wp-content/uploads/2021/02/Guide-rgpd-shs_2021.pdf). Ce guide régulièrement mis à jour synthétise les règles applicables à chaque étape du cycle de vie des données et s'appuie sur des exemples concrets pour présenter des bonnes pratiques.
 
 
 **Les licences**
