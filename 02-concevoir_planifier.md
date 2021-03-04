@@ -202,7 +202,7 @@ JCAD 2019
 ### Créer un plan de gestion de logiciel
 
 Les logiciels sont aussi des données, un peu particulières et qui méritent donc un modèle approprié de plan de gestion : le plan de gestion de logiciel. 
-Le projet PRESOFT propose un modèle adapté à la fois au logiciel et au contexte de la recherche en France. Après une présentation de ce contexte, du modèle et de la procédure associée, les apports de PRESOFT sont détaillés. À noter que le modèle proposé par PRESOFT s’étend sur l'ensemble de la "vie" du logiciel depuis l'idée, avec les documents préparatoires, jusqu'à la préservation (sous toutes ses formes) et qu'il prend en compte toutes les formes de financement (projets, stages...). Le modèle est disponible sur DMP OPIdOR.
+Le [projet PRESOFT](http://www.france-grilles.fr/presoft/) propose un modèle adapté à la fois au logiciel et au contexte de la recherche en France. Après une présentation de ce contexte, du modèle et de la procédure associée, les apports de PRESOFT sont détaillés. À noter que le modèle proposé par PRESOFT s’étend sur l'ensemble de la "vie" du logiciel depuis l'idée, avec les documents préparatoires, jusqu'à la préservation (sous toutes ses formes) et qu'il prend en compte toutes les formes de financement (projets, stages...). Le modèle est disponible sur [DMP OPIdOR](https://dmp.opidor.fr/) et [déposé sur HAL](https://hal.archives-ouvertes.fr/hal-01802565).
 
 ```{admonition} [Plans de gestion de logiciels](https://jcad2019.sciencesconf.org/data/PRESOFT\_JCAD2019.pdf)   
 :class: seealso
