@@ -1,6 +1,6 @@
 - file: 00-introduction
 
-- part:
+- part: " "
   numbered: true
   chapters:
     - file: 01-imaginer.md
@@ -11,7 +11,7 @@
     - file: 06-archiver.md
     - file: 07-publier.md
 
-- part: 
+- part: " "
   numbered: false
   chapters:
     - file: 08-conclusion.md
