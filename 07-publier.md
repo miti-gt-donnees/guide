@@ -325,12 +325,12 @@ Les enjeux liés à la gestion et au partage des données de la recherche néces
 
 Qu'est-ce qui différencie un entrepôt de données d'une base de données classique dans le contexte de l'ouverture des données ? Quels services peut-on attendre d'un entrepôt de données aux différentes étapes du cycle de vie de la donnée? Comment trouver et choisir un entrepôt de données ? Un certain nombre de ces questions relatives aux entrepôts ont été abordées lors d'une [journée de type Hackaton intitulée "entrepôts de données, comment améliorer le dépôt et le partage des données de la recherche ?"](https://gt-donnees2020.sciencesconf.org/). Cette journée consacrée aux entrepôts de données a permis de cerner les fonctionnalités que l'on se doit d'attendre d'un entrepôt de données FAIR et les conditions d’utilisation de ce type de service. 
 
-Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.
+Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.
 
 On y répond à des questions fréquentes concernant les entrepôts comme :
   - Qu'est-ce qu'un entrepôt de données ?
-  - [Comment choisir un entrepôt ?](https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html#choisir)
-  - [Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?](https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html#entrepot)
+  - [Comment choisir un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#choisir)
+  - [Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#entrepot)
   - etc.
 
 Laurent Pelletier de l'INIST, dans une présentation générale sur les entrepôts de données, revient sur les différentes définitions des données, les métadonnées et les principes FAIR. Il explique pourquoi et comment partager les données et comment les entrepôts de données sont impliqués dans ce partage. Il présente les différents types d'entrepôts, les différentes fonctionnalités et les critères de choix pour un entrepôt.
@@ -432,7 +432,7 @@ Le data paper est un article scientifique sur les données : il permet de décri
 - l’originalité et la portée de ce jeu de données, ainsi que leur potentiel pour des utilisations futures (arguments décisifs pour l'acceptation de la publication),
 - l'accès au jeu de données, dans un fichier attaché ou par un lien pérenne (URL, DOI) vers un entrepôt où le jeu est déposé et accessible.
 
-On ne confondra pas les informations fournies par un data paper, avec celles qu'on l'on donne lorsqu'on rédige un Plan de Gestion de données. Ce sont des informations différentes [nous en parlons dans une FAQ](https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html#PGD)
+On ne confondra pas les informations fournies par un data paper, avec celles qu'on l'on donne lorsqu'on rédige un Plan de Gestion de données. Ce sont des informations différentes [nous en parlons dans une FAQ](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#PGD)
 
 Publier un data paper permet de :
 
@@ -467,13 +467,13 @@ Après avoir expliqué pourquoi le GBIF et l’éditeur de revues PENSOFT ont pr
 Sophie Pamerlon :Système mondial d’information sur la biodiversité - GBIF Global Biodiversity Information Facility     
 ```
 
-On trouvera de nombreuses informations sur la création et l'évaluation de Data papers dans le Webinaire intitulé "DataPaper: une incitation à la qualification et à la réutilisation des jeux de données" organisé par  l'"[Atelier Données](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html)" du groupe de travail Données inter-réseaux de la MITI.
+On trouvera de nombreuses informations sur la création et l'évaluation de Data papers dans le Webinaire intitulé "DataPaper: une incitation à la qualification et à la réutilisation des jeux de données" organisé par  l'"[Atelier Données](https://gt-atelier-donnees.miti.cnrs.fr/index.html)" du groupe de travail Données inter-réseaux de la MITI.
 
 Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux outils de rédaction de datapaper :
 *  IPT (Integrated Publishing Toolkit) qui  facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper
 * ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.
 
-```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf)    
+```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf)    
 :class: seealso   
 [Vidéo : ](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)     
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel  
@@ -492,7 +492,7 @@ Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont
 Dans sa présentation, Clémentine Cottineau nous indique quels sont les principes et le processus d'évaluation d'un datapaper pour la revue Cybergeo: Retour d’expérience et difficultés rencontrées.
 On trouvera sur cybergeo  un [exemple de recommandations aux auteurs pour un datapaper](https://journals.openedition.org/cybergeo/23412#tocto1n7).
 
-```{admonition} [Évaluer un data paper : retour d'expérience de la revue Cybergeo](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf)    
+```{admonition} [Évaluer un data paper : retour d'expérience de la revue Cybergeo](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf)    
 :class: seealso    
 [Vidéo : ](https://www.canal-u.tv/video/medici/evaluer_un_data_paper_retour_d_experience_de_la_revue_cybergeo.58277)    
 Clémentine Cottineau, CNRS – Centre Maurice Halbwachs   
@@ -503,7 +503,7 @@ Christine Kosmopoulos, CNRS – UMR Géographie-Cités
 Victor Gay nous présente un retour d'expérience de rédaction d'un [datapaper publié sur HAL](https://hal.archives-ouvertes.fr/hal-02951461) selon le modèle de la revue [Scientific Data](https://www.nature.com/sdata/).
 Il nous présente la production d'un data paper du point de vue d'un chercheur. Après avoir exposé sa recherche et les données produites, il explique pourquoi il a décidé de rédiger un data paper, la manière dont il s'y est pris pour le dépôt des données et la rédaction, avant de revenir sur les choix de dissémination et le rôle des métiers de l'accompagnement de la recherche dans l'ensemble du processus.
 
-```{admonition} [Retour d’expérience d’un producteur de data paper](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf)    
+```{admonition} [Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf)    
 :class: seealso    
 [Vidéo : ](https://www.canal-u.tv/video/medici/retour_d_experience_d_un_producteur_de_data_paper.58279)    
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse     
@@ -513,7 +513,7 @@ Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse
 Joachim Schöpfel,  propose une synthèse des différentes communications du webinaire en indiquant qu'un data paper fournit l'information "on the _what, where, why, how and who of the data_".
 Il revient ainsi sur l'intégration des data papers dans les pratiques des communautés, leur diversité de forme, leurs objectifs, leur évaluation, leur impact, le rôle des différents métiers de la recherche dans leur production, pour finir sur les perspectives en la matière et ouvrir ainsi sur des échanges avec les participants.
 
-```{admonition} [Synthèse du webinaire et échanges](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf)   
+```{admonition} [Synthèse du webinaire et échanges](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf)   
 :class: seealso   
 [Vidéo : ](https://www.canal-u.tv/video/medici/synthese_du_webinaire_et_echanges_a_partir_des_questions_du_tchat.58161)    
 Joachim Schöpfel, Université Lille 3 – GERiiCO    
