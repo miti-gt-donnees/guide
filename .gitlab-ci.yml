@@ -28,7 +28,6 @@ html_and_pdf:
 linkcheck:
   stage: test
   script: 
-    - source venv/bin/activate
     - jupyter-book build . --builder linkcheck
   allow_failure: true
   tags:
