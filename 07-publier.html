@@ -26,7 +26,7 @@
 
     
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -46,7 +46,7 @@
     <script src="_static/copybutton.js"></script>
     <script src="_static/translations.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -177,21 +177,21 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
-            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+                title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
             class="fas fa-download"></i></button>
@@ -209,7 +209,7 @@
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -219,27 +219,28 @@
         <a class="issues-button"
             href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F07-publier.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Ouvrez un problème"><i class="fas fa-lightbulb"></i>problème ouvert</button></a>
+                title="Ouvrez un problème"><i class="fas fa-lightbulb"></i>signaler un problème</button></a>
         
     </div>
 </div>
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
-                title="Mode plein écran"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                    title="Mode plein écran"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contenu
+            <i class="fas fa-list"></i>
+            Contenu
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -333,6 +334,7 @@
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -593,12 +595,12 @@ RBDD</p>
 <p>Dans un contexte de science ouverte, les acteurs de la recherche s’accordent aujourd’hui pour considérer les données de la recherche comme des produits de la recherche et appellent à mieux les gérer et à les partager. Le partage des données et des connaissances, mais également le partage des logiciels, des méthodes et des processus n’ont de réel bénéfice que s’ils sont accompagnés en amont par une gestion rigoureuse et de qualité des données, basé sur des principes clairs et consensuels.</p>
 <p>Les enjeux liés à la gestion et au partage des données de la recherche nécessitent des outils appropriés communément appelés « Entrepôts de données ». Mais qu’est-ce qu’un entrepôt de données et quelles en sont les principales caractéristiques ? Comment les entrepôts de données contribuent-ils à la gestion et au partage des données ?</p>
 <p>Qu’est-ce qui différencie un entrepôt de données d’une base de données classique dans le contexte de l’ouverture des données ? Quels services peut-on attendre d’un entrepôt de données aux différentes étapes du cycle de vie de la donnée? Comment trouver et choisir un entrepôt de données ? Un certain nombre de ces questions relatives aux entrepôts ont été abordées lors d’une <a class="reference external" href="https://gt-donnees2020.sciencesconf.org/">journée de type Hackaton intitulée « entrepôts de données, comment améliorer le dépôt et le partage des données de la recherche ? »</a>. Cette journée consacrée aux entrepôts de données a permis de cerner les fonctionnalités que l’on se doit d’attendre d’un entrepôt de données FAIR et les conditions d’utilisation de ce type de service.</p>
-<p>Au terme de cette journée, un document « FAQ » a été rédigé répondant aux questions les plus fréquentes que l’on se pose sur le dépôt de données. Cette FAQ est la <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html">synthèse des échanges</a> qui se sont tenus lors de l’hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.</p>
+<p>Au terme de cette journée, un document « FAQ » a été rédigé répondant aux questions les plus fréquentes que l’on se pose sur le dépôt de données. Cette FAQ est la <a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html">synthèse des échanges</a> qui se sont tenus lors de l’hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.</p>
 <p>On y répond à des questions fréquentes concernant les entrepôts comme :</p>
 <ul class="simple">
 <li><p>Qu’est-ce qu’un entrepôt de données ?</p></li>
-<li><p><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html#choisir">Comment choisir un entrepôt ?</a></p></li>
-<li><p><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html#entrepot">Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?</a></p></li>
+<li><p><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#choisir">Comment choisir un entrepôt ?</a></p></li>
+<li><p><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#entrepot">Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?</a></p></li>
 <li><p>etc.</p></li>
 </ul>
 <p>Laurent Pelletier de l’INIST, dans une présentation générale sur les entrepôts de données, revient sur les différentes définitions des données, les métadonnées et les principes FAIR. Il explique pourquoi et comment partager les données et comment les entrepôts de données sont impliqués dans ce partage. Il présente les différents types d’entrepôts, les différentes fonctionnalités et les critères de choix pour un entrepôt.</p>
@@ -687,7 +689,7 @@ Aude Chambodut<br />
 <li><p>l’originalité et la portée de ce jeu de données, ainsi que leur potentiel pour des utilisations futures (arguments décisifs pour l’acceptation de la publication),</p></li>
 <li><p>l’accès au jeu de données, dans un fichier attaché ou par un lien pérenne (URL, DOI) vers un entrepôt où le jeu est déposé et accessible.</p></li>
 </ul>
-<p>On ne confondra pas les informations fournies par un data paper, avec celles qu’on l’on donne lorsqu’on rédige un Plan de Gestion de données. Ce sont des informations différentes <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/FAQ.html#PGD">nous en parlons dans une FAQ</a></p>
+<p>On ne confondra pas les informations fournies par un data paper, avec celles qu’on l’on donne lorsqu’on rédige un Plan de Gestion de données. Ce sont des informations différentes <a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#PGD">nous en parlons dans une FAQ</a></p>
 <p>Publier un data paper permet de :</p>
 <ul class="simple">
 <li><p>valoriser les données,</p></li>
@@ -715,14 +717,14 @@ Aude Chambodut<br />
 <p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/data-papers-rbdd.pdf?136/a3858796a8f136546895fd84a9fc34f24e62a842">Data papers : Une incitation à la publication de données sur la biodiversité,</a></p>
 <p>Sophie Pamerlon :Système mondial d’information sur la biodiversité - GBIF Global Biodiversity Information Facility</p>
 </div>
-<p>On trouvera de nombreuses informations sur la création et l’évaluation de Data papers dans le Webinaire intitulé « DataPaper: une incitation à la qualification et à la réutilisation des jeux de données » organisé par  l” »<a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/index.html">Atelier Données</a> » du groupe de travail Données inter-réseaux de la MITI.</p>
+<p>On trouvera de nombreuses informations sur la création et l’évaluation de Data papers dans le Webinaire intitulé « DataPaper: une incitation à la qualification et à la réutilisation des jeux de données » organisé par  l” »<a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/index.html">Atelier Données</a> » du groupe de travail Données inter-réseaux de la MITI.</p>
 <p>Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux outils de rédaction de datapaper :</p>
 <ul class="simple">
 <li><p>IPT (Integrated Publishing Toolkit) qui  facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper</p></li>
 <li><p>ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.</p></li>
 </ul>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf">Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf">Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper</a></p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275">Vidéo : </a><br />
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel</p>
 </div>
@@ -735,7 +737,7 @@ Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont
 <p>Dans sa présentation, Clémentine Cottineau nous indique quels sont les principes et le processus d’évaluation d’un datapaper pour la revue Cybergeo: Retour d’expérience et difficultés rencontrées.
 On trouvera sur cybergeo  un <a class="reference external" href="https://journals.openedition.org/cybergeo/23412#tocto1n7">exemple de recommandations aux auteurs pour un datapaper</a>.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf">Évaluer un data paper : retour d’expérience de la revue Cybergeo</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf">Évaluer un data paper : retour d’expérience de la revue Cybergeo</a></p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/evaluer_un_data_paper_retour_d_experience_de_la_revue_cybergeo.58277">Vidéo : </a><br />
 Clémentine Cottineau, CNRS – Centre Maurice Halbwachs<br />
 Denise Pumain, Univ. Paris 1 – UMR Géographie-Cités<br />
@@ -744,14 +746,14 @@ Christine Kosmopoulos, CNRS – UMR Géographie-Cités</p>
 <p>Victor Gay nous présente un retour d’expérience de rédaction d’un <a class="reference external" href="https://hal.archives-ouvertes.fr/hal-02951461">datapaper publié sur HAL</a> selon le modèle de la revue <a class="reference external" href="https://www.nature.com/sdata/">Scientific Data</a>.
 Il nous présente la production d’un data paper du point de vue d’un chercheur. Après avoir exposé sa recherche et les données produites, il explique pourquoi il a décidé de rédiger un data paper, la manière dont il s’y est pris pour le dépôt des données et la rédaction, avant de revenir sur les choix de dissémination et le rôle des métiers de l’accompagnement de la recherche dans l’ensemble du processus.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf">Retour d’expérience d’un producteur de data paper</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf">Retour d’expérience d’un producteur de data paper</a></p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/retour_d_experience_d_un_producteur_de_data_paper.58279">Vidéo : </a><br />
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse</p>
 </div>
 <p>Joachim Schöpfel,  propose une synthèse des différentes communications du webinaire en indiquant qu’un data paper fournit l’information « on the <em>what, where, why, how and who of the data</em> ».
 Il revient ainsi sur l’intégration des data papers dans les pratiques des communautés, leur diversité de forme, leurs objectifs, leur évaluation, leur impact, le rôle des différents métiers de la recherche dans leur production, pour finir sur les perspectives en la matière et ouvrir ainsi sur des échanges avec les participants.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf">Synthèse du webinaire et échanges</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf">Synthèse du webinaire et échanges</a></p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/synthese_du_webinaire_et_echanges_a_partir_des_questions_du_tchat.58161">Vidéo : </a><br />
 Joachim Schöpfel, Université Lille 3 – GERiiCO</p>
 </div>
@@ -830,23 +832,23 @@ Action nationale de formation RBDD 2015</p>
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="06-archiver.html" title="previous page"><span class="section-number">6. </span>Préserver et archiver</a>
     <a class='right-next' id="next-link" href="08-conclusion.html" title="next page">Conclusion</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
         
-          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+          Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-          Mis à jour le 26 févr. 2021.<br/>
+          Dernière mise à jour le 13 avr. 2021.<br/>
           <div class="extra_footer">
             <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.

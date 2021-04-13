@@ -26,7 +26,7 @@
 
     
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinx-book-theme.e7340bb3dbd8dde6db86f25597f54a1b.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -46,7 +46,7 @@
     <script src="_static/copybutton.js"></script>
     <script src="_static/translations.js"></script>
     <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script src="_static/sphinx-book-theme.7d483ff0a819d6edff12ce0b1ead3928.js"></script>
     <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
     <script >
         const thebe_selector = ".thebe"
@@ -176,21 +176,21 @@
           
 <main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
     
-    <div class="row topbar fixed-top container-xl">
-    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
-    </div>
-    <div class="col pl-2 topbar-main">
-        
-        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-            aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
-            title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
-            <i class="fas fa-bars"></i>
-            <i class="fas fa-arrow-left"></i>
-            <i class="fas fa-arrow-up"></i>
-        </button>
-        
-        
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
+                title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
             class="fas fa-download"></i></button>
@@ -208,7 +208,7 @@
     </div>
 </div>
 
-        <!-- Source interaction buttons -->
+            <!-- Source interaction buttons -->
 
 <div class="dropdown-buttons-trigger">
     <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
@@ -218,27 +218,28 @@
         <a class="issues-button"
             href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F13-credits.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Ouvrez un problème"><i class="fas fa-lightbulb"></i>problème ouvert</button></a>
+                title="Ouvrez un problème"><i class="fas fa-lightbulb"></i>signaler un problème</button></a>
         
     </div>
 </div>
 
 
-        <!-- Full screen (wrap in <a> to have style consistency -->
-        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
-                title="Mode plein écran"><i
-                    class="fas fa-expand"></i></button></a>
+            <!-- Full screen (wrap in <a> to have style consistency -->
+            <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                    data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
+                    title="Mode plein écran"><i
+                        class="fas fa-expand"></i></button></a>
 
-        <!-- Launch buttons -->
+            <!-- Launch buttons -->
 
-    </div>
+        </div>
 
-    <!-- Table of contents -->
-    <div class="d-none d-md-block col-md-2 bd-toc show">
-        
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
         <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contenu
+            <i class="fas fa-list"></i>
+            Contenu
         </div>
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
@@ -261,6 +262,7 @@
 
         </nav>
         
+        </div>
     </div>
 </div>
     <div id="main-content" class="row">
@@ -300,12 +302,13 @@
 <h2>Licence<a class="headerlink" href="#licence" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Cet ouvrage est mis à disposition selon les termes de la <a class="reference external" href="https://creativecommons.org/licenses/by/4.0/deed.fr">Licence Creative Commons BY 4.0 <img alt="" src="https://licensebuttons.net/l/by/4.0/80x15.png" /></a>.</p>
 <p>Ce site a été conçu et réalisé par Pierre Navaro avec <a class="reference external" href="https://jupyterbook.org">Jupyter Book</a>, logiciel libre diffusé sous licence <a class="reference external" href="https://opensource.org/licenses/BSD-3-Clause">BSD-3-Clause</a>.</p>
+<p><a class="reference external" href="https://zenodo.org/badge/latestdoi/309799008"><img alt="DOI" src="_images/309799008.png" /></a></p>
 <div class="sphinx-bs container pb-4 docutils">
 <div class="row docutils">
 <div class="d-flex col-lg-6 col-md-6 col-sm-6 col-xs-12 p-2 docutils">
 <div class="card w-100 shadow docutils">
 <div class="card-body docutils">
-<p class="card-text"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/"><img alt="Atelier Données" src="_images/gt-donnees-logo.png" /></a></p>
+<p class="card-text"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/"><img alt="Atelier Données" src="_images/gt-donnees-logo.png" /></a></p>
 </div>
 </div>
 </div>
@@ -343,22 +346,22 @@
 
               </div>
               
-        </div>
-    </div>
-    
-    
-    <div class='prev-next-bottom'>
         
+        <div class='prev-next-bottom'>
+            
     <a class='left-prev' id="prev-link" href="12-ressources.html" title="previous page">Autres guides de bonnes pratiques</a>
 
+        </div>
+        
+        </div>
     </div>
     <footer class="footer mt-5 mt-md-0">
     <div class="container">
       <p>
         
-          By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+          Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-          Mis à jour le 26 févr. 2021.<br/>
+          Dernière mise à jour le 13 avr. 2021.<br/>
           <div class="extra_footer">
             <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
