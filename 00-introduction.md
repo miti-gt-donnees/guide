@@ -1,6 +1,6 @@
 # Guide de bonnes pratiques sur la gestion des données de la recherche
 
-*version 1.0 - Janvier 2021*
+*version 1.0 - Janvier 2021* 
 
 ---
 
@@ -34,9 +34,9 @@ Certes de nombreux guides existent déjà dans le domaine, mais l'originalité d
 
 **Objectifs du guide**
 
-Ce guide est la production du groupe de travail inter-réseaux "[Atelier Données](https://mi-gt-donnees.pages.math.unistra.fr/site/index.html)". Il s’agit d'un groupe composé de plusieurs réseaux métiers de la MITI ([Calcul](https://calcul.math.cnrs.fr/), [Devlog](http://devlog.cnrs.fr/), [QeR](http://qualite-en-recherche.cnrs.fr/), [rBDD](http://rbdd.cnrs.fr/), [Renatis](http://renatis.cnrs.fr/), [Resinfo](https://resinfo.org/), [Medici](http://medici.in2p3.fr/)), du [réseau SIST](https://sist.cnrs.fr), (labellisé par l'INSU et regroupant les gestionnaires de données environnementales), de l'INIST, et de la Direction des données ouvertes de la recherche (DDOR-CNRS [^dist]). [Les activités de cet atelier](https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf) ont été présentées lors du séminaire SIST 2019.
+Ce guide est la production du groupe de travail inter-réseaux "[Atelier Données](https://gt-atelier-donnees.miti.cnrs.fr/index.html)". Il s’agit d'un groupe composé de plusieurs réseaux métiers de la MITI ([Calcul](https://calcul.math.cnrs.fr/), [Devlog](http://devlog.cnrs.fr/), [QeR](http://qualite-en-recherche.cnrs.fr/), [rBDD](http://rbdd.cnrs.fr/), [Renatis](http://renatis.cnrs.fr/), [Resinfo](https://resinfo.org/), [Medici](http://medici.in2p3.fr/)), du [réseau SIST](https://sist.cnrs.fr), (labellisé par l'INSU et regroupant les gestionnaires de données environnementales), de l'INIST, et de la Direction des données ouvertes de la recherche (DDOR-CNRS [^dist]). [Les activités de cet atelier](https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf) ont été présentées lors du séminaire SIST 2019.
 
-Ce guide fait suite à un premier travail très synthétique réalisé en 2017 qui visait à établir [une cartographie de l’action des réseaux en matière de gestion des données de la recherche](https://mi-gt-donnees.pages.math.unistra.fr/site/download/GTInterreseaux-CartoSyntheseV6-optimise.pdf). Ce travail rendait compte dans ses grandes lignes, des usages et des questionnements des réseaux sur la gestion des données, tout en apportant une vision des métiers transversale sur le sujet et les problématiques attenantes. 
+Ce guide fait suite à un premier travail très synthétique réalisé en 2017 qui visait à établir [une cartographie de l’action des réseaux en matière de gestion des données de la recherche](https://gt-atelier-donnees.miti.cnrs.fr/download/GTInterreseaux-CartoSyntheseV6-optimise.pdf). Ce travail rendait compte dans ses grandes lignes, des usages et des questionnements des réseaux sur la gestion des données, tout en apportant une vision des métiers transversale sur le sujet et les problématiques attenantes. 
 
 Il nous est apparu opportun d'aller plus loin et de détailler plus précisément les apports de nos réseaux métiers, compte tenu :      
   - des nombreuses actions de formation ou de sensibilisation mises en place,    
