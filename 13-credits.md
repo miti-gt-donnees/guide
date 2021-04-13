@@ -32,7 +32,7 @@ Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyter Book](https:
  [![DOI](images/309799008.png)](https://zenodo.org/badge/latestdoi/309799008)
 
 ````{panels}
-[![Atelier Données](images/gt-donnees-logo.png)](https://mi-gt-donnees.pages.math.unistra.fr/site/)
+[![Atelier Données](images/gt-donnees-logo.png)](https://gt-atelier-donnees.miti.cnrs.fr/)
 ---
 [![CNRS](images/logo_cnrs.png)](http://www.cnrs.fr/mi/spip.php?article465)
 ````
