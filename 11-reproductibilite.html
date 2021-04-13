@@ -278,7 +278,7 @@
 <p>Cependant, en fonction des disciplines, il peut être très compliqué de reproduire ou répliquer des résultats. La section suivante est destinée à permettre de mieux appréhender les enjeux, les défis et aussi les différentes facettes de la reproductibilité et de la répétabilité en fonction des disciplines et des méthodes mises en oeuvre.</p>
 <div class="section" id="comprendre-les-enjeux-et-defis">
 <h2>Comprendre les enjeux et défis<a class="headerlink" href="#comprendre-les-enjeux-et-defis" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Les présentations citées dans ce paragraphe concernent toutes divers aspects de la « reproductibilité » ou de la « répétabilité », qu’elles concernent les mesures, les accès aux données, les traitements, les calculs etc… . Chacune développe un point de vue particulier. Elles sont complémentaires.</p>
+<p>Les présentations citées dans ce paragraphe concernent toutes divers aspects de la “reproductibilité” ou de la “répétabilité”, qu’elles concernent les mesures, les accès aux données, les traitements, les calculs etc… . Chacune développe un point de vue particulier. Elles sont complémentaires.</p>
 <p>Konrad Hinsen présente ici les enjeux et les défis de la recherche reproductible appliqués au calcul scientifique. Il reprend les bases de ce qu’est un calcul et de l’environnement dans lequel on utilise les programmes pour bien détailler les différents points de difficulté.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/165/contribution/1/material/slides/0.pdf">Enjeux et défis de la recherche reproductible</a></p>
@@ -297,7 +297,7 @@ JCAD 2019</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://calcul.math.cnrs.fr/attachments/spip/IMG/html/pouzat_20160513.html">Une brève histoire de la recherche reproductible et de ses outils</a></p>
 <p>Christophe Pouzat, MAP5, Univ. Paris-Descartes et CNRS UMR 8145<br />
-CANUM 2016 : mini-symposium « Recherche reproductible », 2016</p>
+CANUM 2016 : mini-symposium “Recherche reproductible”, 2016</p>
 </div>
 <p>L’exemple présenté par Thomas Denecker concerne la biologie computationnelle. Il a pour but de sélectionner des gènes qui ne se comportent pas de la même façon entre deux conditions expérimentales. Les fonctionnalités présentées ne sont pas dépendantes de cet exemple. En effet, elles peuvent être appliquées à n’importe quelle autre question biologique. Brièvement, il s’agit de récupérer les données depuis des bases de données publiques, de réaliser une analyse reproductible avec un système de workflow dans un environnement virtuel dont l’ensemble du code, versionné, est disponible en open source. La visualisation des résultats est dynamique et un rapport en pdf ou html est disponible. Il regroupe les résultats de l’analyse et détaille l’ensemble des paramètres choisis par l’utilisateur.</p>
 <div class="seealso admonition">
@@ -310,7 +310,7 @@ Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019
 <div class="section" id="utiliser-des-environnements-et-des-outils-qui-favorisent-la-reproductibilite">
 <h2>Utiliser des environnements et des outils qui favorisent la reproductibilité<a class="headerlink" href="#utiliser-des-environnements-et-des-outils-qui-favorisent-la-reproductibilite" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Parvenir à la reproductibilité peut être facilité par l’utilisation d’environnements et d’outils conçus ou adaptés dans cet objectif. De nombreuses équipes travaillent en ce sens depuis plusieurs années et plusieurs exemples sont présentés ici.</p>
-<p>VIP, the « Virtual Imaging Platform », est un portail qui permet à ses utilisateurs d’accéder simplement à leurs données, de les traiter facilement avec des logiciels pré-installés sur la plateforme. Traitements et données sont distribués sur l’infrastructure EGI.</p>
+<p>VIP, the “Virtual Imaging Platform”, est un portail qui permet à ses utilisateurs d’accéder simplement à leurs données, de les traiter facilement avec des logiciels pré-installés sur la plateforme. Traitements et données sont distribués sur l’infrastructure EGI.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/165/contribution/8/material/slides/0.pdf">Virtual Imaging Platform : pour une science ouverte et reproductible</a></p>
 <p><a class="reference external" href="https://webcast.in2p3.fr/video/la-plateforme-web-virtual-imaging-platform-pour-une-science-ouverte-et-reproductible">Vidéo : </a><br />
@@ -341,8 +341,8 @@ Journées Campagnes de calcul reproductibles, 2018</p>
 <p>Ces dernières années, les journées, ateliers traitant de la reproductibilité et du développement logiciel ont été nombreuses. Il est difficile d’isoler quelques présentations de ces ensembles pensés pour traiter d’une thématique d’ensemble. Aussi, dans cette section, plusieurs événements organisés par différents réseaux sont présentés globalement.</p>
 <p>Lorsqu’on développe un code de calcul, seul ou à plusieurs, il est primordial de vérifier que chaque modification ne produit pas de régression dans l’ensemble de l’application. Il est donc nécessaire d’employer des tests unitaires, des tests d’intégration ou des tests du système complet. Ces tests s’intègrent dans un système de gestion de versions pour sauvegarder les modifications.</p>
 <p>L’intégration continue fournit des outils permettant de valider l’intégrité du code à chaque soumission de modifications via github, gitlab, etc. Si, auparavant, il était assez fastidieux de mettre en oeuvre et d’administrer une chaîne d’intégration continue, les outils actuels sont très faciles à déployer. Ils offrent de plus des fonctionnalités qui permettent d’aller bien plus loin que la simple exécution de tests : la couverture du code, la validation syntaxique, la construction d’images de conteneurs et leur déploiement sur un dépôt, etc.</p>
-<p>En 2017, le réseau « calcul » a organisé un « <a class="reference external" href="https://calcul.math.cnrs.fr/2017-05-atelier-integration-continue.html">Atelier intégration continue</a> » visant à se familiariser à trois outils d’intégration continue : <em>Jenkins, Travis CI et Gitlab CI</em>, en commençant par une introduction à deux outils couramment utilisés dans une chaîne d’intégration continue : « Git » pour gérer les versions et les publier vers un dépôt distant, puis « Docker » pour exécuter les tâches de compilation et de tests.</p>
-<p>Les utilisateurs du langage de programmation « <a class="reference external" href="https://julialang.org/">Julia</a> » sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l’atelier « JuliaNantes », les réponses aux questions qu’ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.</p>
+<p>En 2017, le réseau “calcul” a organisé un “<a class="reference external" href="https://calcul.math.cnrs.fr/2017-05-atelier-integration-continue.html">Atelier intégration continue</a>” visant à se familiariser à trois outils d’intégration continue : <em>Jenkins, Travis CI et Gitlab CI</em>, en commençant par une introduction à deux outils couramment utilisés dans une chaîne d’intégration continue : “Git” pour gérer les versions et les publier vers un dépôt distant, puis “Docker” pour exécuter les tâches de compilation et de tests.</p>
+<p>Les utilisateurs du langage de programmation “<a class="reference external" href="https://julialang.org/">Julia</a>” sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l’atelier “JuliaNantes”, les réponses aux questions qu’ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="http://matbesancon.github.io/slides/JuliaNantes/JuliaTools">Getting started with Julia tools for reproducible science</a></p>
 <p>Mathieu Besançon, Centrale Lille et Polytechnique Montréal<br />
@@ -363,7 +363,7 @@ Au cours de son exposé,  Arnaud Legrand présente les différents enjeux, les s
 <p>Arnaud Legrand, Inria<br />
 JDEV 2020</p>
 </div>
-<p>Pour aller plus loin il peut être utile de consulter l’ouvrage collectif « Vers une recherche reproductible :  Faire évoluer ses pratiques » cité dans la section <a class="reference internal" href="12-ressources.html"><span class="doc std std-doc">Autres guides de bonnes pratiques</span></a> de ce guide.</p>
+<p>Pour aller plus loin il peut être utile de consulter l’ouvrage collectif “Vers une recherche reproductible :  Faire évoluer ses pratiques” cité dans la section <a class="reference internal" href="12-ressources.html"><span class="doc std std-doc">Autres guides de bonnes pratiques</span></a> de ce guide.</p>
 </div>
 </div>
 

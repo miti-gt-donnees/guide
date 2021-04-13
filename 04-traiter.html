@@ -262,7 +262,7 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#developper-les-procedures-d-integration-des-donnees-dans-les-bases-de-donnees">
+    <a class="reference internal nav-link" href="#developper-les-procedures-dintegration-des-donnees-dans-les-bases-de-donnees">
      4.2.1. Développer les procédures d’intégration des données dans les bases de données
     </a>
    </li>
@@ -313,19 +313,19 @@ analyse ultérieure.</p>
 <p>Cette partie est donc structurée en différentes sections décrivant cette préparation des données :</p>
 <ul class="simple">
 <li><p>Préparer les fichiers de données, en vue de leur analyse, en utilisant des formats interopérables.</p></li>
-<li><p>Utiliser des infrastructures logicielles « framework » d’intégration de données, lorsqu’elles sont hétérogènes.</p></li>
+<li><p>Utiliser des infrastructures logicielles “framework” d’intégration de données, lorsqu’elles sont hétérogènes.</p></li>
 <li><p>Mettre en place et utiliser des plateformes de gestion de données locales, en vue de leur analyse.</p></li>
 <li><p>Vérifier et s’assurer de la qualité des données.</p></li>
 </ul>
 <div class="section" id="preparer-les-fichiers-de-donnees-en-vue-de-leur-analyse">
 <h2><span class="section-number">4.1. </span>Préparer les fichiers de données en vue de leur analyse<a class="headerlink" href="#preparer-les-fichiers-de-donnees-en-vue-de-leur-analyse" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Bien souvent, les données « brutes » sont issues de capteurs ou divers
+<p>Bien souvent, les données “brutes” sont issues de capteurs ou divers
 instruments de collecte sur le terrain. Ils se présentent fréquemment
 sous la forme de fichiers dans des formats propriétaires, peu
 exploitables et peu interopérables directement tels quels.</p>
 <p>Dans une optique de gestion FAIR, il est donc important de se
-préoccuper du format des données afin de les rendre « ouverts » et
-interopérables. La notion de format « ouvert » est importante pour
+préoccuper du format des données afin de les rendre “ouverts” et
+interopérables. La notion de format “ouvert” est importante pour
 que les données puissent être partagées, interopéables et préservées
 sur le long terme. A cet effet, le site Doranum propose une
 <a class="reference external" href="https://doranum.fr/stockage-archivage/quiz-format-ouvert-ou-ferme/">introduction à la définition de formats ouverts ou fermés</a>.</p>
@@ -345,7 +345,7 @@ d’utilisateurs.</p>
 standards, et il est bon de les connaitre et de s’y référer.</p>
 <p>On ne pourra pas tous les citer, mais à titre d’exemple dans les domaines Océan, Atmosphère par exemple,</p>
 <ul class="simple">
-<li><p><strong>Le format <a class="reference external" href="https://www.unidata.ucar.edu/software/netcdf/">NetCDF</a></strong> est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l’environnement. Il est très bien adapté et utilisé, par exemple pour représenter et formater des données qui sont des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit « auto-descriptif » en ce sens qu’il permet de ne pas avoir besoin d’un fichier de description complémentaire. Les métadonnées sont en effet insérées dans l’entête du fichier, avec les données elles-mêmes.
+<li><p><strong>Le format <a class="reference external" href="https://www.unidata.ucar.edu/software/netcdf/">NetCDF</a></strong> est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l’environnement. Il est très bien adapté et utilisé, par exemple pour représenter et formater des données qui sont des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit “auto-descriptif” en ce sens qu’il permet de ne pas avoir besoin d’un fichier de description complémentaire. Les métadonnées sont en effet insérées dans l’entête du fichier, avec les données elles-mêmes.
 On peut ainsi décrire de manière assez précise les données du fichier, par exemple en insérant les unités de mesure des paramètres mesurés, la licence de diffusion, les propriétaires, etc., ainsi que l’organisation des données.</p></li>
 </ul>
 <p>Toutefois dans son format originel NetCDF n’a pas imposé de
@@ -356,7 +356,7 @@ nécessaire pour obtenir des fichiers compréhensibles et interopérables.
 C’est le but de la  <a class="reference external" href="https://cfconventions.org/">convention CF (climate
 forecast)</a> qui fournit une <a class="reference external" href="https://cfconventions.org/Data/cf-standard-names/76/build/cf-standard-name-table.html">table de standardisation des variables et unités de mesures</a>
 à inscrire dans l’entete d’un fichier NetCDF.</p>
-<p>Ce format standard, la convention « CF », et l’interface de programmation (API) en Python pour créer des fichiers NetCDF par programme ont été présentés au <a class="reference external" href="https://sist19.sciencesconf.org">séminaire SIST19 à l’OMP</a> de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :</p>
+<p>Ce format standard, la convention “CF”, et l’interface de programmation (API) en Python pour créer des fichiers NetCDF par programme ont été présentés au <a class="reference external" href="https://sist19.sciencesconf.org">séminaire SIST19 à l’OMP</a> de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_JS.pdf">Présentation du format NetCDF</a></p>
 <p>Joël Sudre, LEGOS
@@ -375,7 +375,7 @@ forecast)</a> qui fournit une <a class="reference external" href="https://cfconv
 <ul class="simple">
 <li><p><strong><a class="reference external" href="https://odv.awi.de/">Le format ODV</a></strong> (ocean data view) est
 également un format standard ouvert intéressant. C’est un format
-de type « tableur », ensemble de lignes comportant un nombre fixe de
+de type “tableur”, ensemble de lignes comportant un nombre fixe de
 colonnes qui se rapproche d’un format CSV, composé de colonnes de
 données séparées par des virgules (ou tout autre séparateur), à
 cette différence près que le format ODV permet l’insertion d’un
@@ -414,8 +414,8 @@ via les infrastructures et réseaux en lien avec le calcul intensif:</p>
 </div>
 <div class="section" id="organiser-les-donnees">
 <h2><span class="section-number">4.2. </span>Organiser les données<a class="headerlink" href="#organiser-les-donnees" title="Lien permanent vers ce titre">¶</a></h2>
-<div class="section" id="developper-les-procedures-d-integration-des-donnees-dans-les-bases-de-donnees">
-<h3><span class="section-number">4.2.1. </span>Développer les procédures d’intégration des données dans les bases de données<a class="headerlink" href="#developper-les-procedures-d-integration-des-donnees-dans-les-bases-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+<div class="section" id="developper-les-procedures-dintegration-des-donnees-dans-les-bases-de-donnees">
+<h3><span class="section-number">4.2.1. </span>Développer les procédures d’intégration des données dans les bases de données<a class="headerlink" href="#developper-les-procedures-dintegration-des-donnees-dans-les-bases-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
 <p>Les nouveaux mécanismes de collecte de données ont souvent simplifiés
 la mise en base de données comme c’est le cas avec la boite à outils
 ODK (cf partie <a class="reference internal" href="03-collecter.html#collecter"><span class="std std-ref">Collecter</span></a>) qui envoie directement les données
@@ -434,11 +434,11 @@ ANF « Interfacer les outils mobiles avec son système d’information », Rése
 <h3><span class="section-number">4.2.2. </span>Utiliser un cadre d’applications d’agrégation de données<a class="headerlink" href="#utiliser-un-cadre-dapplications-dagregation-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
 <p>Lorsque les données à traiter sont hétérogènes et que les technologies
 qui permettent de les fournir sont également différentes, une
-solution est d’utiliser un « framework » d’agrégation de données. Un
-« framework » est un cadre d’applications d’agrégation de données,
+solution est d’utiliser un “framework” d’agrégation de données. Un
+“framework” est un cadre d’applications d’agrégation de données,
 autrement dit un outil qui va permettre de traiter des données de
 formats différents de façon transparente pour l’utilisateur final.</p>
-<p>Le <a class="reference external" href="http://software.in2p3.fr/lavoisier/">logiciel « Lavoisier »</a>
+<p>Le <a class="reference external" href="http://software.in2p3.fr/lavoisier/">logiciel “Lavoisier”</a>
 développé au Centre de Calcul de l’IN2P3 (CC-IN2P3), permet de
 récupérer, transformer,  fusionner, et requêter des données de
 sources différentes. Il est utilisé dans plusieurs contextes pour
@@ -449,13 +449,13 @@ sources hétérogènes</p>
 <p>Cyril L’Orphelin, Sylvain Reynaud, CC-IN2P3, CNRS<br />
 JCAD 2018, Lyon.</p>
 </div>
-<p>D’autres outils logiciels existent, permettant l’intégration de données. Dans la catégorie des logiciels « ETL » (Extract, Transform, Load, le logiciel « <a class="reference external" href="https://www.talend.com/fr/products/talend-open-studio/">Talend Open Studio</a> » par exemple, a été abordé lors d’une session de formation du réseau RBDD :</p>
+<p>D’autres outils logiciels existent, permettant l’intégration de données. Dans la catégorie des logiciels “ETL” (Extract, Transform, Load, le logiciel “<a class="reference external" href="https://www.talend.com/fr/products/talend-open-studio/">Talend Open Studio</a>” par exemple, a été abordé lors d’une session de formation du réseau RBDD :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article215">« Utilisation et maîtrise d’un ETL : intégrations de données avec Talend Open Studio »</a></p>
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article215">“Utilisation et maîtrise d’un ETL : intégrations de données avec Talend Open Studio”</a></p>
 <p>Eric Quinton<br />
 Réseau RBDD, 2017. Paris.</p>
 </div>
-<p>Ce logiciel « Talend » a été également utilisé par Soumaya Lahbib
+<p>Ce logiciel “Talend” a été également utilisé par Soumaya Lahbib
 pour traiter les fichiers de données issues des capteurs du <a class="reference external" href="https://www.osupytheas.fr/?Presentation-du-projet-EMSO">projet EMSO Ligure-ouest</a>
 et les transformer en fichiers CSV utilisables facilement.</p>
 <div class="seealso admonition">
@@ -480,7 +480,7 @@ leur analyse ultérieure.</p>
 <ul class="simple">
 <li><p>Les plateformes de dépôt et de diffusion de données comme <a class="reference external" href="https://www.unidata.ucar.edu/software/tds/">THREDDS</a> et <a class="reference external" href="https://coastwatch.pfeg.noaa.gov/erddap/index.html">ERDDAP</a> sont intéressantes par le fait qu’elles mettent en oeuvre le protocole DAP,  et sont des solutions très bien  adaptées pour rendre les données FAIR et faciliter la diffusion des données.</p></li>
 </ul>
-<p>La plateforme d’accès ERDDAP se présente comme étant un « accès facile aux données scientifiques » (« Easier access to scientific data ») et fournit un ensemble complet de fonctionnalités pour la gestion des jeux de données. Il permet :</p>
+<p>La plateforme d’accès ERDDAP se présente comme étant un “accès facile aux données scientifiques” (“Easier access to scientific data”) et fournit un ensemble complet de fonctionnalités pour la gestion des jeux de données. Il permet :</p>
 <ul class="simple">
 <li><p>déposer des jeux de données dans différents formats interopérables</p></li>
 <li><p>de fournir un catalogue des jeux de données gérés par le serveur</p></li>
@@ -621,7 +621,7 @@ la donnée : bonne, mauvaise, manquante, modifiée etc… Dans ce
 domaine bien souvent chacun utilise une codification personnelle,
 cependant une standardisation des codes qualité est bienvenue.</p>
 <p>L’infrastructure de données européenne Seadatanet utilise par exemple
-une <a class="reference external" href="https://vocab.seadatanet.org/v_bodc_vocab_v2/browse.asp?order=conceptid&amp;formname=search&amp;screen=0&amp;lib=l20&amp;v0_0=&amp;v1_0=conceptid%2Cpreflabel%2Caltlabel%2Cdefinition%2Cmodified&amp;v2_0=0&amp;v0_1=&amp;v1_1=conceptid&amp;v2_1=3&amp;v0_2=&amp;v1_2=preflabel&amp;v2_2=3&amp;v0_3=&amp;v1_3=altlabel&amp;v2_3=3&amp;v0_4=&amp;v1_4=modified&amp;v2_4=9&amp;v0_5=&amp;v1_5=modified&amp;v2_5=10&amp;x=27&amp;y=12&amp;v1_6=&amp;v2_6=&amp;v1_7=&amp;v2_7=">table « L20 » standardisant les codes qualité</a>
+une <a class="reference external" href="https://vocab.seadatanet.org/v_bodc_vocab_v2/browse.asp?order=conceptid&amp;formname=search&amp;screen=0&amp;lib=l20&amp;v0_0=&amp;v1_0=conceptid%2Cpreflabel%2Caltlabel%2Cdefinition%2Cmodified&amp;v2_0=0&amp;v0_1=&amp;v1_1=conceptid&amp;v2_1=3&amp;v0_2=&amp;v1_2=preflabel&amp;v2_2=3&amp;v0_3=&amp;v1_3=altlabel&amp;v2_3=3&amp;v0_4=&amp;v1_4=modified&amp;v2_4=9&amp;v0_5=&amp;v1_5=modified&amp;v2_5=10&amp;x=27&amp;y=12&amp;v1_6=&amp;v2_6=&amp;v1_7=&amp;v2_7=">table “L20” standardisant les codes qualité</a>
 à placer sur les données</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf">Traçabilité des données de la recherche. Confirmation métrologique des équipements</a></p>
@@ -675,7 +675,7 @@ métier est à traiter a posteriori.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/anf_rbbd_2019_outils_mobiles_tp_qualite.pdf?573/e1425561fd10c6bd1dd92fdee22871bc427f9873">Outils nomades : validation des données</a></p>
 <p>Christine Plumejeaud-Perreau, CNRS, U.M.R 7266 LIENSs, la Rochelle<br />
-ANF « Interfacer les outils mobiles avec son système d’information », réseau RBDD, 2019</p>
+ANF “Interfacer les outils mobiles avec son système d’information”, réseau RBDD, 2019</p>
 </div>
 <p>Certains logiciels comme <a class="reference external" href="https://odv.awi.de/en/">ODV (Ocean Data View) </a>
 permettent de qualifier les données et d’attribuer un code qualité
@@ -726,7 +726,7 @@ données et les rendre interopérables</p>
 <a class="reference external" href="https://sist18.sciencesconf.org/">Séminaire SIST 2018 OVSQ</a>, Guyancourt.</p>
 </div>
 <p>Dans cette présentation, les auteurs proposent un développement
-graphique avec la librairie « <a class="reference external" href="http://dygraphs.com">DyGraphs</a> » pour
+graphique avec la librairie “<a class="reference external" href="http://dygraphs.com">DyGraphs</a>” pour
 visualiser et valider des données de séries temporelles.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/qmJrrMLFHwN729G">Outil web interactif de visualisation et validation de séries temporelles</a></p>
@@ -734,12 +734,12 @@ visualiser et valider des données de séries temporelles.</p>
 <a class="reference external" href="https://sist15.sciencesconf.org/">Séminaire SIST 2015 OSU Pytheas Marseille</a>.</p>
 </div>
 <p>Dans son projet A. Campos utilise un ensemble de scripts Python
-pour convertir les fichiers « xls » en fichier « ascii », puis effectue
-un nettoyage avec la commande « awk » de Unix. Enfin des scripts en
+pour convertir les fichiers “xls” en fichier “ascii”, puis effectue
+un nettoyage avec la commande “awk” de Unix. Enfin des scripts en
 langage R permet de faire des moyennes glissantes, des graphes
 et des exports des fichiers au format NetCDF.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf">Site Web de diffusion des données « Sahelian Dust Transect »</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf">Site Web de diffusion des données “Sahelian Dust Transect”</a></p>
 <p>André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques<br />
 <a class="reference external" href="https://sist16.sciencesconf.org/">SIST 2016 OSU OREME Montpellier</a></p>
 </div>
