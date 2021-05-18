@@ -31,6 +31,8 @@ Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyter Book](https:
 
  [![DOI](images/309799008.png)](https://zenodo.org/badge/latestdoi/309799008)
 
+ [![HAL](images/HAL_Logo_RVB.png)](https://hal.archives-ouvertes.fr/hal-03152732)
+
 ````{panels}
 [![Atelier Données](images/gt-donnees-logo.png)](https://gt-atelier-donnees.miti.cnrs.fr/)
 ---
