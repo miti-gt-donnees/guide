@@ -21,7 +21,6 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 * Pierre Navaro : [réseau Calcul](https://calcul.math.cnrs.fr/)
 
 - **version 1.0 Janvier 2021**
-[le guide sur HAL : https://hal.archives-ouvertes.fr/hal-03152732](https://hal.archives-ouvertes.fr/hal-03152732)
 
 ## Licence 
 
@@ -30,6 +29,8 @@ Cet ouvrage est mis à disposition selon les termes de la [Licence Creative Comm
 Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyter Book](https://jupyterbook.org), logiciel libre diffusé sous licence [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
 
  [![DOI](images/309799008.png)](https://zenodo.org/badge/latestdoi/309799008)
+ 
+ [![HAL](images/HAL_Logo_RVB.png)](https://hal.archives-ouvertes.fr/hal-03152732)
 
 ````{panels}
 [![Atelier Données](images/gt-donnees-logo.png)](https://gt-atelier-donnees.miti.cnrs.fr/)
