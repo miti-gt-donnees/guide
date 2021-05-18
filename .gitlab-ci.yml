@@ -27,9 +27,8 @@ html_and_pdf:
 
 linkcheck:
   stage: test
-  before_script:
-    - source venv/bin/activate
-  script: jupyter-book build . --builder linkcheck
+  script: 
+    - jupyter-book build . --builder linkcheck
   allow_failure: true
   tags:
     - docker
