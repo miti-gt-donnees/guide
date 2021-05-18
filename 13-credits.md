@@ -21,7 +21,7 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 * Pierre Navaro : [réseau Calcul](https://calcul.math.cnrs.fr/)
 
 - **version 1.0 Janvier 2021**
-
+[le guide sur HAL : https://hal.archives-ouvertes.fr/hal-03152732](https://hal.archives-ouvertes.fr/hal-03152732)
 
 ## Licence 
 
