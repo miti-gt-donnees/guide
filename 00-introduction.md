@@ -1,6 +1,6 @@
 # Guide de bonnes pratiques sur la gestion des données de la recherche
 
-*version 1.0 - Janvier 2021*
+*version 1.0 - Janvier 2021* [![DOI](https://zenodo.org/badge/309799008.svg)](https://zenodo.org/badge/latestdoi/309799008)
 
 ---
 
