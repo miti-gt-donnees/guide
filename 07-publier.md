@@ -569,3 +569,6 @@ Cet atelier technique est organisé selon le plan suivant :
   - Exemples d'exploitation du Sparql Endpoint
 
 Tous les éléments exposés dans ce chapitre sont nécessaires et importants pour mettre en place une bonne publication et diffusion des données de la science.
+
+
+webinaire SIST Le 27 mai 2021 
