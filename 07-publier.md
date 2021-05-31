@@ -412,6 +412,23 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 * [Pour découvrir pas à pas l'interface de NAKALA ainsi que les modalités de l'authentification](https://www.huma-num.fr/ressources/videos )
 
 
+### Diffuser des données géolocalisées par le protocole WMS
+
+Outre les entrepots de données institutionnels , qui permettent de fournir des fichiers de données avec leur métafdonnées, on peut également diffuser des données géolocalisées par le protocole WMS de l'OGC
+Le logiciel GeoCMS est un système de gestion de contenu géospatial où les objets (utilisateurs, images, articles, blogs..) peuvent avoir une position en latitude et en longitude pour être affichés sur une carte interactive en ligne. En outre, les cartes en ligne renvoient à des pages d'information (essentiellement des pages wiki) sur les données représentées.
+
+Un GeoCMS peut avoir une carte des utilisateurs enregistrés permettant de construire des communautés géographiquement, en regardant l'emplacement des utilisateurs. L'utilisation de wikis pour décrire les couches géographiques constitue un moyen simple de résoudre le problème des métadonnées géographiques. 
+
+Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) : DataECLA ont utilisé cett technologie pour diffuser les données de leur plateforme DataECLA
+
+```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](lien a rajouter)
+Retour d'expérience sur la construction de la plateforme de données et de visualisation au pôle ECLA (ECosystèmes Lacustres). Les outils GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart ont été testés. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers nous avons rajouté à cette palette d'outils des dashboards python.
+:class: seealso 
+Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) - Webinaire SIST 2021
+```
+
+
+
 ### Déposer/Publier dans des entrepôts institutionnels
 
 **Déposer dans des Entrepôts.. lesquels? comment?**
