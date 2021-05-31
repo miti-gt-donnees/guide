@@ -422,11 +422,12 @@ Un GeoCMS peut avoir une carte des utilisateurs enregistrés permettant de const
 Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) : DataECLA ont utilisé cett technologie pour diffuser les données de leur plateforme DataECLA
 
 ```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](lien a rajouter)
+
 Retour d'expérience sur la construction de la plateforme de données et de visualisation au pôle ECLA (ECosystèmes Lacustres). Les outils GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart ont été testés. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers nous avons rajouté à cette palette d'outils des dashboards python.
 :class: seealso 
-Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) - Webinaire SIST 2021
+Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) 
+[Séminaire SIST 2021](https://sist20.sciencesconf.org/)  
 ```
-
 
 
 ### Déposer/Publier dans des entrepôts institutionnels
