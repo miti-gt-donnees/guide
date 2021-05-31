@@ -37,6 +37,7 @@ sphinx:
         linkcheck_anchors: false
         html_show_copyright: false
         html_last_updated_fmt: "%d %b %Y"
+        today: "janvier 2021"
         latex_logo: 'images/logo_small.png'
         latex_toplevel_sectioning: 'chapter'
         latex_elements:
