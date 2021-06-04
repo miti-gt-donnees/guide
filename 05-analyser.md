@@ -310,9 +310,7 @@ Colin Gonzalez, AstroParticules et Cosmologie,  Journée thématique Assurance Q
 
 ### Retours d'expérience
 
-Dans le domaine environnemental, les chaines logicielles sont
-également mises en place pour automatiser et ecnhaine un certain
-nombr de traitements comme:
+Dans le domaine environnemental, les chaines logicielles sont également mises en place pour automatiser et enchainer un certain nombre de traitements comme:
 
 - le contrôle qualité basé sur des paramètres physiques de l’instrument
 - le contrôle qualité spécifique à un type d’instrument
