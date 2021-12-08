@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>5. Analyser</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -32,9 +32,9 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
@@ -42,10 +42,10 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -56,7 +56,10 @@
     <link rel="next" title="6. Préserver et archiver" href="06-archiver.html" />
     <link rel="prev" title="4. Traiter" href="04-traiter.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="fr">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -73,6 +76,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
@@ -80,9 +87,9 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -123,7 +130,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -245,7 +252,7 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contenu
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#plateformes-de-traitement-de-donnees">
@@ -312,7 +319,7 @@
         
               <div>
                 
-  <div class="section" id="analyser">
+  <div class="tex2jax_ignore mathjax_ignore section" id="analyser">
 <span id="id1"></span><h1><span class="section-number">5. </span>Analyser<a class="headerlink" href="#analyser" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Derrière le terme “analyser” s’entend l’extraction de l’information
 des données le plus souvent par l’utilisation de puissance de calcul.
@@ -379,7 +386,7 @@ Journée Python et Data Science IRMAR Rennes - 2017</p>
 <a class="reference external" href="https://calcul.math.cnrs.fr/2019-01-journee-julia.html">Journée Julia - Lyon 2019</a></p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://plmlab.math.cnrs.fr/fabreges/julia-2019/-/blob/master/bench.pdf">Julia : benchmark et bonnes pratiques</a></p>
+<p class="admonition-title"><a class="reference external" href="https://plmlab.math.cnrs.fr/fabreges/julia-2019/-/blob/master/bench.pdf">Julia : benchmark et bonnes pratiques</a>   </p>
 <p>Benoît Fabrèges (Institut Camille Jordan, Lyon)
 <a class="reference external" href="https://calcul.math.cnrs.fr/2019-01-journee-julia.html">Journée Julia - Lyon 2019</a></p>
 </div>
@@ -423,14 +430,14 @@ matricielles (recherche de valeurs propres, décomposition en valeurs
 singulières), sur le plan à la fois théorique et pratique.</p>
 <p>On peut trouver un exemple d’utilisation concrète de ce type de technique présenté lors des JCAD 2018 par Alain Franc, INRA, appliqué à la biologie.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/afranc_jcad_2018_vendredi.pdf">L’exploration de la diversité des protistes : l’apport du calcul intensif</a></p>
+<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/afranc_jcad_2018_vendredi.pdf">L’exploration de la diversité des protistes : l’apport du calcul intensif</a>   </p>
 <p>J.-M. Frigerio, P. Chaumeil, F. Rué, S. Thérond, V. Louvet, O.Coulaud &amp; A. Franc
 <a class="reference external" href="https://jcad2018.sciencesconf.org">JCAD 2018 - Lyon</a></p>
 </div>
 <p>De façon un peu générale, toutes ces approches conduisent ou sont la base de certains pans de l’Intelligence Artificielle. De plus en plus d’évènements sont consacrés à ces technologies.</p>
 <p>Une introduction sur cette thématique a été réalisée en 2018 dans le cadre des “Journées Système” du réseau ResInfo.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/130/contribution/3/material/slides/0.pdf">Intelligence artificielle: une longue histoire … et demain ?</a></p>
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/130/contribution/3/material/slides/0.pdf">Intelligence artificielle: une longue histoire … et demain ?</a>   </p>
 <p>Pierre Gançarski (Université de Strasbourg)
 <a class="reference external" href="https://indico.mathrice.fr/event/130/">Josy Intelligence Artificielle - Strasbourg 2018</a></p>
 </div>
@@ -438,7 +445,7 @@ singulières), sur le plan à la fois théorique et pratique.</p>
 sujet, avec une présentation de Jean-Luc Parouty particulièrement
 didactique.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sari.grenoble-inp.fr/lib/exe/fetch.php?media=theme:ia_deep_learning:ia_deep_learning:ia_machinelearning_pres20190606.pdf">AI Machine Learning &amp; Deep Learning</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sari.grenoble-inp.fr/lib/exe/fetch.php?media=theme:ia_deep_learning:ia_deep_learning:ia_machinelearning_pres20190606.pdf">AI Machine Learning &amp; Deep Learning</a>   </p>
 <p>Jean-Luc Parouty (SIMAP)
 <a class="reference external" href="https://sari.grenoble-inp.fr/doku.php?id=theme:ia_deep_learning:ia_deep_learning:ia">Séminaire SARI 2019</a></p>
 </div>
@@ -484,7 +491,7 @@ besoin d’interopérabilité des données, l’<a class="reference external" hr
 maintenant utilisée par VIP. Cette présentation explique les
 différentes étapes du fonctionnement du système mis en place.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/VIP_Axel_Bonnet.pdf">VIP : towards data interoperability through CARMIN</a>, <a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=vC6b9705">vidéo</a></p>
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/VIP_Axel_Bonnet.pdf">VIP : towards data interoperability through CARMIN</a>, <a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=vC6b9705">vidéo</a> </p>
 <p>Axel Bonnet, Pascal Wassong, Frederic Cervenansky, Camarasu-Pop Sorina, CREATIS et , Tristan Glatard, Concordia University
 <a class="reference external" href="https://jcad2019.sciencesconf.org">JCAD 2019</a>, Toulouse.</p>
 </div>
@@ -505,7 +512,7 @@ les géosciences.</p>
 <a class="reference external" href="https://jcad2019.sciencesconf.org">JCAD 2019</a>, Toulouse.</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/20181026_JCAD2018_CNES_GuillaumeEynard.pdf">Jupyter, Dask : traitement distribué simple et interactif en Python sur HPC avec l’écosystème Pangeo</a></p>
+<p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/20181026_JCAD2018_CNES_GuillaumeEynard.pdf">Jupyter, Dask : traitement distribué simple et interactif en Python sur HPC avec l’écosystème Pangeo</a> </p>
 <p>Guillaume Eynard-Bontemps, Centre National d’Etudes Spatiales
 <a class="reference external" href="https://jcad2018.sciencesconf.org">JCAD 2018</a>, Lyon.</p>
 </div>
@@ -567,11 +574,11 @@ les concepts associés à la qualité logicielle :</p>
 <p>Henri VALEINS, Journée thématique Assurance Qualité Logiciel 2019, Paris.</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://jt-aql.sciencesconf.org/data/program/PRESOFT_qualite_en_recherche2019v1_GR.pdf">Plans de Gestion de Logiciel et Assurance Qualité Logiciel, les apports de PRESOFT</a></p>
+<p class="admonition-title"><a class="reference external" href="https://jt-aql.sciencesconf.org/data/program/PRESOFT_qualite_en_recherche2019v1_GR.pdf">Plans de Gestion de Logiciel et Assurance Qualité Logiciel, les apports de PRESOFT</a> </p>
 <p>Geneviève Romier, CC-IN2P3, Journée thématique Assurance Qualité Logiciel 2019, Paris.</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://jt-aql.sciencesconf.org/data/program/ref_normes_codage_ZT.pdf">Référentiels et normes de codage</a></p>
+<p class="admonition-title"><a class="reference external" href="https://jt-aql.sciencesconf.org/data/program/ref_normes_codage_ZT.pdf">Référentiels et normes de codage</a> </p>
 <p>Z.Tucsnak,  Journée thématique Assurance Qualité Logiciel 2019, Paris.</p>
 </div>
 <div class="seealso admonition">
@@ -593,17 +600,17 @@ les concepts associés à la qualité logicielle :</p>
 <p>Plusieurs présentations issues des journées du réseau SIST illustrent
 des mises en oeuvre de chaîne logicielle d’analyse de données:</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf">Filtrage interactif de données multidimensionnelles</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf">Filtrage interactif de données multidimensionnelles</a>  </p>
 <p>Patrick Brockmann, Laboratoire des Sciences du Climat et de l’Environnement<br />
 <a class="reference external" href="https://sist16.sciencesconf.org/">SIST16 OSU OREME 2016, Montpellier</a>.</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf">Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf">Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS</a>   </p>
 <p>Lynn Hazan, Laboratoire des Sciences du Climat et de l’Environnement<br />
 <a class="reference external" href="https://sist18.sciencesconf.org/">SIST18 2018, Observatoire Versailles</a>.</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf">Vie d’une données sismologique de sa naissance sur le terrain jusqu’à sa distribution</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf">Vie d’une données sismologique de sa naissance sur le terrain jusqu’à sa distribution</a>   </p>
 <p>David Wolyniec, OSU Grenoble - Jonathan Schaeffer, OSU Grenoble<br />
 <a class="reference external" href="https://sist16.sciencesconf.org/">SIST16 OSU OREME 2016, Montpellier</a>.</p>
 </div>
@@ -696,12 +703,12 @@ construire une base de connaissance à partir de source et de données
 hétérogènes. Il explique ce qu’est une base de connaissance et
 comment l’interroger.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/Nedellec_Girard_Fredoc-v4.pdf">Des technologies sémantiques pour l’information scientifique et technique</a></p>
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/Nedellec_Girard_Fredoc-v4.pdf">Des technologies sémantiques pour l’information scientifique et technique</a>  </p>
 <p>Claire Nedellec, Agnès Girard, INRA<br />
 Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/FreDoc_Irstea.pdf">Annotation des Bulletins de santé du végétal (BSV) et interrogation</a></p>
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/FreDoc_Irstea.pdf">Annotation des Bulletins de santé du végétal (BSV) et interrogation</a>  </p>
 <p>Fabien Amarger , IRIT-IRSTEA<br />
 Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois</p>
 </div>
@@ -733,7 +740,7 @@ pour le text-mining, le TALN, l’Extraction d’Information en travaillant
 à partir de sources documentaires licitement utilisables tels
 qu’ISTEX, OPENAIRE et CORE.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://fredoc2018.sciencesconf.org/data/pages/Pres_istex_visa_omtd_ElKhouri_Schneider.pdf">Bases de ressources numériques et services aux chercheurs. Avec ISTEX et OpenMintedD, l’alliance pour une infrastructure de text-mining</a></p>
+<p class="admonition-title"><a class="reference external" href="https://fredoc2018.sciencesconf.org/data/pages/Pres_istex_visa_omtd_ElKhouri_Schneider.pdf">Bases de ressources numériques et services aux chercheurs. Avec ISTEX et OpenMintedD, l’alliance pour une infrastructure de text-mining</a>  </p>
 <p>Laurence El Khoury (DIST-CNRS), Stéphane Schneider (INIST – CNRS)<br />
 Frédocs2018 - Démarches innovantes en IST : expérimenter, proposer (se) réinventer,  2018, Albi</p>
 </div>
@@ -763,22 +770,33 @@ Frédocs2018 - Démarches innovantes en IST : expérimenter, proposer (se) réin
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="04-traiter.html" title="previous page"><span class="section-number">4. </span>Traiter</a>
-    <a class='right-next' id="next-link" href="06-archiver.html" title="next page"><span class="section-number">6. </span>Préserver et archiver</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="04-traiter.html" title="précédent page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">précédent</p>
+            <p class="prev-next-title"><span class="section-number">4. </span>Traiter</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="06-archiver.html" title="suivant page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">suivant</p>
+        <p class="prev-next-title"><span class="section-number">6. </span>Préserver et archiver</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
           Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-          Dernière mise à jour le 06 juin 2021.<br/>
+          Dernière mise à jour le 08 déc. 2021.<br/>
           <div class="extra_footer">
             <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
@@ -794,8 +812,7 @@ Ce guide est mis à disposition selon les termes de la Licence <a href="https://
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>

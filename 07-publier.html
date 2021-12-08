@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>7. Publier et diffuser</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -32,9 +32,9 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
@@ -42,10 +42,10 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -56,7 +56,10 @@
     <link rel="next" title="Conclusion" href="08-conclusion.html" />
     <link rel="prev" title="6. Préserver et archiver" href="06-archiver.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="fr">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -73,6 +76,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
@@ -80,9 +87,9 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -123,7 +130,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -245,7 +252,7 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contenu
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#communiquer-et-documenter">
@@ -344,7 +351,7 @@
         
               <div>
                 
-  <div class="section" id="publier-et-diffuser">
+  <div class="tex2jax_ignore mathjax_ignore section" id="publier-et-diffuser">
 <span id="publier"></span><h1><span class="section-number">7. </span>Publier et diffuser<a class="headerlink" href="#publier-et-diffuser" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute une politique de gestion de données puisqu’elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu’elles soient bien accessibles et réutilisables selon des formats et des processus interopérables.</p>
 <p>L’accompagnement des  réseaux métiers s’exerce sur le processus de publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.</p>
@@ -370,14 +377,14 @@ Elle fournit des informations concernant l’identification, l’étendue, la qu
 <p>Le logiciel GeoNetwork utilise, en outre, le protocole <a class="reference external" href="https://geoservices.ign.fr/documentation/geoservices/wms.html">WMS (Web Map Service) de l’OGC</a>, pour pouvoir interagir avec des serveurs cartographiques comme <a class="reference external" href="http://geoserver.org/">GeoServer</a>, ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.</p>
 <p>L’utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation ANF du réseau SIST pour laquelle on trouvera les informations sur les <a class="reference external" href="https://sist.cnrs.fr/les-formations/anf-2017-1">pages formation du site SIST</a></p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation">Documentations sur les logiciels étudiés GeoNetwork et GeoServer</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation">Documentations sur les logiciels étudiés GeoNetwork et GeoServer</a>    </p>
 <p>J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer<br />
 ANF SIST 2017 Fréjus</p>
 </div>
 <p>Le recueil des métadonnées ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d’automatiser la constitution des catalogues. Plusieurs développements se sont intéressés à l’utilisation de l’interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage “R”.</p>
 <p>C. Bernard J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l’OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à l’unité.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf">Mise en place de catalogues INSPIRE et de leur alimentation automatique</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf">Mise en place de catalogues INSPIRE et de leur alimentation automatique</a>  </p>
 <p>C. Bernard,   J. Fabre, et O. Lobry<br />
 <a class="reference external" href="https://sist16.sciencesconf.org">Séminaire SIST16 Montpellier</a></p>
 </div>
@@ -393,13 +400,13 @@ ANF SIST 2017 Fréjus</p>
 </li>
 </ul>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_J_Barde.pdf">GeoFlow :  workflow R pour gérer les données spatiales</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_J_Barde.pdf">GeoFlow :  workflow R pour gérer les données spatiales</a>   </p>
 <p>Julien Barde,   Emmanuel Blondel et  Wilfried Heintz<br />
 <a class="reference external" href="https://sist19.sciencesconf.org/program">Séminaire SIST19 Toulouse</a></p>
 </div>
 <p>Ce logiciel de catalogage est utilisé dans de nombreux portails de données comme le catalogue Sextant d’Ifremer pour lequel M. Treguer nous indique les services de l’OGC utilisés.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf">Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf">Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC</a>  </p>
 <p>Michael Treguer<br />
 <a class="reference external" href="https://sist16.sciencesconf.org/resource/page/id/6">Séminaire SIST16 Montpellier</a></p>
 </div>
@@ -411,7 +418,7 @@ ANF SIST 2017 Fréjus</p>
 </ul>
 <p>B. Debray nous présente le projet DataOSU à l’Observatoire de Besançon destiné à élaborer un <a class="reference external" href="https://dataosu.obs-besancon.fr/index.php">portail de données original propre à l’OSU Theta</a>. Il décrit toute l’organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à assurer l’interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf">Le projet Dat&#64;OSU de gestion et valorisation des données de la recherche</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf">Le projet Dat&#64;OSU de gestion et valorisation des données de la recherche</a>   </p>
 <p>Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et environnement, Molécules<br />
 <a class="reference external" href="https://sist16.sciencesconf.org">Séminaire SIST16 Montpellier</a></p>
 </div>
@@ -420,7 +427,7 @@ ANF SIST 2017 Fréjus</p>
 <p>La directive <a class="reference external" href="https://www.ecologie.gouv.fr/directive-europeenne-inspire">INSPIRE</a>, élaborée par la Direction générale de l’environnement de la Commission européenne en 2007, vise à établir en Europe une infrastructure de données géographiques pour favoriser la protection de l’environnement, assurer l’interopérabilité entre bases de données et faciliter la diffusion, la disponibilité, l’utilisation et la réutilisation de l’information géographique en Europe. INSPIRE vise ainsi à mieux partager les données de la recherche.</p>
 <p>Marc Leobet, chargé de mission à la Mission information géographique du ministère en charge du développement durable pose, dans cette présentation réalisée en 2013, le cadre de la Directive Inspire. Il présente tout d’abord l’utilité de cette Directive (identification des données, gestion de la confidentialité, les problèmes de conventionnement et la qualité des données), son contexte, les obligations qu’elle induit, le contexte autour de la réutilisation des données du secteur public et l’application de la Directive inspire dans le domaine de la recherche.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf">La Directive INSPIRE pour les néophytes</a></p>
+<p class="admonition-title"><a class="reference external" href="http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf">La Directive INSPIRE pour les néophytes</a>  </p>
 <p>F. Merrien, M. Léobet, M. Francès   Mission de l’information géographique du ministère de l’Environnement</p>
 </div>
 <div class="seealso admonition">
@@ -435,7 +442,7 @@ Frédocs2013 -7 au 10 octobre 2013, Aussois</p>
 <p>Les catalogues et portails d’accès aux données se matérialisent également au niveau national où une infrastructure de recherche (IR) Data terra a été créée pour accéder aux données spatiales et in situ du système Terre.</p>
 <p>La mission de <a class="reference external" href="https://www.data-terra.org/">l’IR Data Terra</a> consiste à organiser de manière intégrée la diffusion et l’accès aux données, en mettant à disposition les données, les produits et des services relatifs à l’observation du système Terre, via les pôles de données et de services existants :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_Poles_IRDataTerra.pdf">Présentation de l’IR Data terra</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_Poles_IRDataTerra.pdf">Présentation de l’IR Data terra</a>  </p>
 <p>Richard Moreno, directeur technique IR Data Terra<br />
 <a class="reference external" href="https://sist19.sciencesconf.org">Séminaire SIST 2019</a>, OMP Toulouse</p>
 </div>
@@ -459,7 +466,7 @@ Le projet européen Seadatanet vise à élaborer et mettre en place un portail e
 </div>
 <p>Soumaya Lahbib au séminaire SIST18 à l’observatoire OVSQ de Versailles, présente un exemple de dépôt de données de cytométrie en flux dans le portail de données Seadatanet. Il est intéressant de prendre connaissance de la démarche et du workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un grand nombre de standards.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf">Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf">Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet</a>  </p>
 <p>Soumaya Lahbib<br />
 <a class="reference external" href="https://sist18.sciencesconf.org/">Séminaire SIST18 à l’Observatoire de Versailles, 2018</a></p>
 </div>
@@ -489,7 +496,7 @@ Dominique Vachez, Institut de l’information scientifique et technique<br />
 JrBDD 2015, Sète, mercredi 21/10/2015</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/12_MC_Quidoz_Thesauform.pdf">Thesauform un outil collaboratif pour faciliter la création de vocabulaire contrôlé par des experts de domaine</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/12_MC_Quidoz_Thesauform.pdf">Thesauform un outil collaboratif pour faciliter la création de vocabulaire contrôlé par des experts de domaine</a>  </p>
 <p>MC Quidoz<br />
 <a class="reference external" href="https://sist18.sciencesconf.org/">Séminaire SIST18 à l’OVSQ de Versailles</a></p>
 </div>
@@ -524,14 +531,14 @@ Journées « Conduire et construire un plan de gestion des données : de la base
 <p>Data Cite propose un certain nombre de services (création de différents formats de citation pour les DOI, exposition des métadonnées, schéma de métadonnées DataCite et un environnement de test) que l’auteur détaille. Il est question aussi de « Data Citation Index » et de métrique, de l’importance d’accéder à la découverte des données (principe de moissonnage des
 métadonnées DataCite), des partenariats avec ORCID, OPENAIR, CODATA, FORCE 11, RDA…</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DataCite_FreDoc.pdf">DataCite : identifiants pérennes pour le partage des données</a></p>
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DataCite_FreDoc.pdf">DataCite : identifiants pérennes pour le partage des données</a>  </p>
 <p>Herbert Gruttemeier, INIST/ CNRS<br />
 Frédocs2013 - Gestion et valorisation des données de la recherche -  7 au 10 octobre 2013, Aussois</p>
 </div>
 <p>Cette présentation est consacrée au service proposé par DataCite. Herbert Gruttemeier explique pour commencer ce qu’est un DOI, le principe de citation, pourquoi utiliser un DOI,  comment le DOI s’inscrit dans le système Handle. Il aborde la question de la qualité des DOI qui nécessite la mise en place d’une politique institutionnelle. La suite de son exposé est consacrée à la présentation de  DataCite, Consortium international porté par des institutions locales, créé officiellement à Londres en décembre 2009. Il présente les 26 membres, la structure, les différents rôles qui lui sont assignés (agence d’attribution de DOI et agence de donnée).</p>
 <p>Pour en savoir plus sur le DOI de DataCite :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://seminaire.inrae.fr/data/content/download/3449/36374/version/1/file/03+Yahia+doi+datacite.pdf">DOI de DataCite : Système d’identification pour valoriser les données de la recherche,</a></p>
+<p class="admonition-title"><a class="reference external" href="https://seminaire.inrae.fr/data/content/download/3449/36374/version/1/file/03+Yahia+doi+datacite.pdf">DOI de DataCite : Système d’identification pour valoriser les données de la recherche,</a>  </p>
 <p>Mohamed Salah Yahia INIST</p>
 <p>Nécessité de publier en identifiant les jeux de données par des  “DOI”:
 <a class="reference external" href="https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf">présentation </a><br />
@@ -544,14 +551,14 @@ Mohamed Salah Yahia, Institut de l’information scientifique et technique du CN
 <h3><span class="section-number">7.4.2. </span>Comment obtenir des DOI ?<a class="headerlink" href="#comment-obtenir-des-doi" title="Lien permanent vers ce titre">¶</a></h3>
 <p>Une unité CNRS a la possibilité de souscrire un contrat avec l’INIST du CNRS pour être détenteur d’un préfixe de DOI qui servira à construire et déposer un DOI.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf">Workflow d’attribution de DOI par l’Inist-CNRS</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf">Workflow d’attribution de DOI par l’Inist-CNRS</a>  </p>
 <p>Mohamed Salah Yahia
 <a class="reference external" href="https://sist16.sciencesconf.org">Séminaire SIST16 OSU Oreme Montpellier</a></p>
 </div>
 <p>Cependant dans le paysage national actuel des données environnementales, certaines infrastructures de recherche comme Data Terra seront en charge de fournir des DOI selon les disciplines concernées. Dans le domaine marin le <a class="reference external" href="https://www.odatis-ocean.fr/">pôle de données Odatis</a> fournit d’ores et déjà un service de fourniture de D.O.I via le site <a class="reference external" href="https://www.seanoe.org/">Seanoe</a>.</p>
 <p>Il est pratique d’avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C’est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_A_BATTAIS.pdf">Utilisation d’un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une “landing page” pour un D.O.I</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_A_BATTAIS.pdf">Utilisation d’un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une “landing page” pour un D.O.I</a>  </p>
 <p>Annick Battais<br />
 <a class="reference external" href="https://sist19.sciencesconf.org">Séminaire SIST2019 Toulouse 2019</a></p>
 </div>
@@ -560,18 +567,18 @@ Mohamed Salah Yahia, Institut de l’information scientifique et technique du CN
 <h3><span class="section-number">7.4.3. </span>Retour d’expériences d’utilisation de DOI<a class="headerlink" href="#retour-dexperiences-dutilisation-de-doi" title="Lien permanent vers ce titre">¶</a></h3>
 <p>Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l’INIST du CNRS qui, en tant que membre de DataCite, peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/16_P_Techine.pdf">Mise en place d’un DOI sur les données d’un réseau d’observations océanographiques </a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/16_P_Techine.pdf">Mise en place d’un DOI sur les données d’un réseau d’observations océanographiques </a>    </p>
 <p>Philippe Téchiné, Laboratoire d’études en Géophysique et océanographie spatiales<br />
 <a class="reference external" href="https://sist16.sciencesconf.org/">Journée SIST16 Montpellier</a></p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/14_P_Techine_DOI_sur_les_donnees_du_SNO_SSS.pdf">Création de DOI sur les données et produits grillés du Service National d’Observation SSS  </a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/14_P_Techine_DOI_sur_les_donnees_du_SNO_SSS.pdf">Création de DOI sur les données et produits grillés du Service National d’Observation SSS  </a>                                 </p>
 <p>Philippe Téchiné, Laboratoire d’études en Géophysique et océanographie spatiales
 <a class="reference external" href="https://sist18.sciencesconf.org/">Journée SIST18 OVSQ</a></p>
 </div>
 <p>Juliette Fabre et Olivier Lobry nous indiquent leur solution pour attribuer des DOI aux jeux de données du Service National d’Observation  “Karst”.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/17_O_Lobry.pdf">Retour d’expérience sur l’attribution de DOI à l’OSU OREME.</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/17_O_Lobry.pdf">Retour d’expérience sur l’attribution de DOI à l’OSU OREME.</a>  </p>
 <p>Juliette Fabre, OSU OREME - Olivier Lobry, OSU OREME
 <a class="reference external" href="https://sist16.sciencesconf.org/">Journée SIST16 Montpellier</a></p>
 </div>
@@ -586,7 +593,7 @@ Dans l’atelier traçabilité organisé par RBDD en novembre 2018, MC Quidoz av
 </div>
 <p>Sophie Pamerlon rappelle les définitions des identifiants uniques et persistants, puis présente le “Integrated Publishing Toolkit” (IPT) mis en place par le GBIF Global Biodiversity Information Facility) dans le domaine de la biodiversité et ses nouvelles fonctionnalités, en particulier l’attribution de DOI lors de la publication d’un jeu de données.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/ipt_doi_rbdd.pdf?137/a5e7031e901f58c648f3f12eff64396a7b34a169">Le GBIF et les identifiants persistants</a> : Application des DOI aux jeux de données</p>
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/ipt_doi_rbdd.pdf?137/a5e7031e901f58c648f3f12eff64396a7b34a169">Le GBIF et les identifiants persistants</a> : Application des DOI aux jeux de données  </p>
 <p>Sophie Pamerlon (Système mondial d’information sur la biodiversité - Global Biodiversity Information Facility), 2015<br />
 RBDD</p>
 </div>
@@ -613,12 +620,12 @@ ANF rBDD du 5 au 7 novembre 2018 à Sète</p>
 </div>
 <p>Dans cette présentation complète, Jean-Christophe Desconnets passe en revue les rôles, les fonctionnalités et les domaines d’utilisation des entrepôts de données :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist20.sciencesconf.org/data/pages/SIST20_entrepot_de_donnees_Desconnets.pdf">Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  </a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist20.sciencesconf.org/data/pages/SIST20_entrepot_de_donnees_Desconnets.pdf">Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  </a>      </p>
 <p>Jean-Christophe Desconnets<br />
 <a class="reference external" href="https://sist20.sciencesconf.org/">Séminaire SIST2020 OSU Lyon</a></p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://anfdonnees2016.sciencesconf.org/conference/anfdonnees2016/pages/Entrepots_ANFRenatis.pptx">Les entrepôts de données : pierre angulaire du partage des données de la recherche</a></p>
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2016.sciencesconf.org/conference/anfdonnees2016/pages/Entrepots_ANFRenatis.pptx">Les entrepôts de données : pierre angulaire du partage des données de la recherche</a>  </p>
 <p>Ester Dzale Yeumo (INRA)<br />
 <a class="reference external" href="https://anfdonnees2016.sciencesconf.org/resource/page/id/1">participer à l’organisation du management des données de la recherche</a> : gestion de contenu et documentation des données -  2016 Paris</p>
 </div>
@@ -640,7 +647,7 @@ Déposer des données dans des entrepôts nécessite un certain nombre de prére
 Pour être dignes de confiance, les entrepôts doivent également répondre à certains prérequis et spécifications qui, si besoin, peuvent amener à une certification.</p>
 <p>Dans le cadre du <a class="reference external" href="https://sist.cnrs.fr/les-seminaires">séminaire du réseau SIST20</a>, Aude Chambodut a présenté les fonctionnalités “TRUST”  qui permettent d’avoir confiance dans un entrepôt, et en quoi consiste l’intérêt d’une certification “Core Trust Seal” . Comme  <a class="reference external" href="https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/">Le Plan national pour la Science ouverte </a>, elle nous rappelle que : “rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté”.</p>
 <div class="seealso admonition">
-<p class="admonition-title">“<a class="reference external" href="https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf">Pourquoi et comment aller vers la certification Core Trust Seal ?</a>”</p>
+<p class="admonition-title">“<a class="reference external" href="https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf">Pourquoi et comment aller vers la certification Core Trust Seal ?</a>”    </p>
 <p><a class="reference external" href="https://sist20.sciencesconf.org/resource/page/id/5">vidéo :</a><br />
 Aude Chambodut<br />
 <a class="reference external" href="https://sist20.sciencesconf.org/">Séminaires SIST20</a></p>
@@ -716,7 +723,7 @@ Aude Chambodut<br />
 </ul>
 <p>Après avoir expliqué pourquoi le GBIF et l’éditeur de revues PENSOFT ont proposé le concept de data paper, Sophie Pamerlon en explique les avantages et comment les outils du GBIF facilitent la rédaction d’un datapaper en biodiversité à travers quelques exemples concrets.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/data-papers-rbdd.pdf?136/a3858796a8f136546895fd84a9fc34f24e62a842">Data papers : Une incitation à la publication de données sur la biodiversité,</a></p>
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/data-papers-rbdd.pdf?136/a3858796a8f136546895fd84a9fc34f24e62a842">Data papers : Une incitation à la publication de données sur la biodiversité,</a>     </p>
 <p>Sophie Pamerlon :Système mondial d’information sur la biodiversité - GBIF Global Biodiversity Information Facility</p>
 </div>
 <p>On trouvera de nombreuses informations sur la création et l’évaluation de Data papers dans le Webinaire intitulé “DataPaper: une incitation à la qualification et à la réutilisation des jeux de données” organisé par  l’“<a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/index.html">Atelier Données</a>” du groupe de travail Données inter-réseaux de la MITI.</p>
@@ -726,20 +733,20 @@ Aude Chambodut<br />
 <li><p>ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.</p></li>
 </ul>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf">Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf">Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper</a>    </p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275">Vidéo : </a><br />
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel</p>
 </div>
 <p>Pour se faire une idée d’un exemple de datapaper, Annegret Nicolai nous présente un <a class="reference external" href="https://bdj.pensoft.net/article/50451/">exemple de datapaper du projet bioBlitz</a> et les avantages et inconvénients qu’elle y trouve :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275">BioBlitz 2017 à la Station Biologique de Paimpont – un data paper de science citoyenne</a></p>
+<p class="admonition-title"><a class="reference external" href="https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275">BioBlitz 2017 à la Station Biologique de Paimpont – un data paper de science citoyenne</a>   </p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275">Vidéo : </a><br />
 Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont)</p>
 </div>
 <p>Dans sa présentation, Clémentine Cottineau nous indique quels sont les principes et le processus d’évaluation d’un datapaper pour la revue Cybergeo: Retour d’expérience et difficultés rencontrées.
 On trouvera sur cybergeo  un <a class="reference external" href="https://journals.openedition.org/cybergeo/23412#tocto1n7">exemple de recommandations aux auteurs pour un datapaper</a>.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf">Évaluer un data paper : retour d’expérience de la revue Cybergeo</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf">Évaluer un data paper : retour d’expérience de la revue Cybergeo</a>    </p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/evaluer_un_data_paper_retour_d_experience_de_la_revue_cybergeo.58277">Vidéo : </a><br />
 Clémentine Cottineau, CNRS – Centre Maurice Halbwachs<br />
 Denise Pumain, Univ. Paris 1 – UMR Géographie-Cités<br />
@@ -748,14 +755,14 @@ Christine Kosmopoulos, CNRS – UMR Géographie-Cités</p>
 <p>Victor Gay nous présente un retour d’expérience de rédaction d’un <a class="reference external" href="https://hal.archives-ouvertes.fr/hal-02951461">datapaper publié sur HAL</a> selon le modèle de la revue <a class="reference external" href="https://www.nature.com/sdata/">Scientific Data</a>.
 Il nous présente la production d’un data paper du point de vue d’un chercheur. Après avoir exposé sa recherche et les données produites, il explique pourquoi il a décidé de rédiger un data paper, la manière dont il s’y est pris pour le dépôt des données et la rédaction, avant de revenir sur les choix de dissémination et le rôle des métiers de l’accompagnement de la recherche dans l’ensemble du processus.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf">Retour d’expérience d’un producteur de data paper</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf">Retour d’expérience d’un producteur de data paper</a>    </p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/retour_d_experience_d_un_producteur_de_data_paper.58279">Vidéo : </a><br />
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse</p>
 </div>
 <p>Joachim Schöpfel,  propose une synthèse des différentes communications du webinaire en indiquant qu’un data paper fournit l’information “on the <em>what, where, why, how and who of the data</em>”.
 Il revient ainsi sur l’intégration des data papers dans les pratiques des communautés, leur diversité de forme, leurs objectifs, leur évaluation, leur impact, le rôle des différents métiers de la recherche dans leur production, pour finir sur les perspectives en la matière et ouvrir ainsi sur des échanges avec les participants.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf">Synthèse du webinaire et échanges</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf">Synthèse du webinaire et échanges</a>   </p>
 <p><a class="reference external" href="https://www.canal-u.tv/video/medici/synthese_du_webinaire_et_echanges_a_partir_des_questions_du_tchat.58161">Vidéo : </a><br />
 Joachim Schöpfel, Université Lille 3 – GERiiCO</p>
 </div>
@@ -777,7 +784,7 @@ Storage Day 2018, Paris.</p>
 <p>Selon Wikipedia, « le Web des données (linked data, en anglais) est une initiative du W3C (Consortium World Wide Web) visant à favoriser la publication de données structurées sur le Web, non pas sous la forme de silos de données isolés les uns des autres, mais en les reliant entre elles pour constituer un réseau global d’informations.»</p>
 <p>Tim Berners-Lee (inventeur du Web et directeur du W3C), qui supervise le développement des technologies communes du Web sémantique a défini le web sémantique comme « une toile de données, données qui peuvent être traitées directement et indirectement par des machines pour aider leurs utilisateurs à créer de nouvelles connaissances ».</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/rbdd15_-_rendre_nos_donnees_accessibles_et_interoperables_sur_le_web.pdf?122/a040d4391568c6a41ec2da15ce602e0ec0faa20c">Rendre nos Données accessibles et interopérables sur le Web,</a></p>
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/rbdd15_-_rendre_nos_donnees_accessibles_et_interoperables_sur_le_web.pdf?122/a040d4391568c6a41ec2da15ce602e0ec0faa20c">Rendre nos Données accessibles et interopérables sur le Web,</a>   </p>
 <p>Franck Michel (I3S - UMR 7271, CNRS - Univ. Nice Sophia), 2015<br />
 mots-clés : SPARQL, web sémantique, RDF, SKOS, OWL<br />
 Action nationale de formation RBDD 2015</p>
@@ -835,22 +842,33 @@ Action nationale de formation RBDD 2015</p>
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="06-archiver.html" title="previous page"><span class="section-number">6. </span>Préserver et archiver</a>
-    <a class='right-next' id="next-link" href="08-conclusion.html" title="next page">Conclusion</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="06-archiver.html" title="précédent page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">précédent</p>
+            <p class="prev-next-title"><span class="section-number">6. </span>Préserver et archiver</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="08-conclusion.html" title="suivant page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">suivant</p>
+        <p class="prev-next-title">Conclusion</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
           Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-          Dernière mise à jour le 06 juin 2021.<br/>
+          Dernière mise à jour le 08 déc. 2021.<br/>
           <div class="extra_footer">
             <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
@@ -866,8 +884,7 @@ Ce guide est mis à disposition selon les termes de la Licence <a href="https://
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>

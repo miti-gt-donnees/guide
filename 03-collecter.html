@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>3. Collecter</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -32,9 +32,9 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
@@ -42,10 +42,10 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -56,7 +56,10 @@
     <link rel="next" title="4. Traiter" href="04-traiter.html" />
     <link rel="prev" title="2. Concevoir et planifier" href="02-concevoir_planifier.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="fr">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -73,6 +76,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
@@ -80,9 +87,9 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -123,7 +130,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -245,7 +252,7 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contenu
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#utiliser-des-normes-et-des-standards-dinteroperabilite">
@@ -327,7 +334,7 @@
         
               <div>
                 
-  <div class="section" id="collecter">
+  <div class="tex2jax_ignore mathjax_ignore section" id="collecter">
 <span id="id1"></span><h1><span class="section-number">3. </span>Collecter<a class="headerlink" href="#collecter" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Cette phase du cycle de vie de la donnée concerne les aspects d’acquisition et de collecte des données ainsi que la constitution des jeux de données (“dataset” en anglais) avec leurs métadonnées descriptives. Il s’agit donc, dans cette phase, de travailler sur les processus d’acquisition des données qui peuvent être obtenues au moyen de divers médias selon le domaine étudié : capteurs environnementaux, instruments, sondages, modèles numériques… Une fois les données acquises, il est nécessaire et indispensable dans l’objectif de les rendre “FAIR”, de les décrire avec leurs métadonnées associées.</p>
 <p>La description  de ces jeux de données nécessite d’utiliser, autant que faire se peut, des référentiels de vocabulaires contrôlés (thésaurus) si possible standardisés et les plus appropriés au domaine étudié. Il est conseillé de gérer les jeux de données dans un environnement technique qui permette d’assurer la sauvegarde, l’archivage, le “versionning”,  l’accessibilité et l’interopérabilité des données. Cette gestion se fait via des infrastructures techniques, des bases ou des supports qui doivent être fiables et bien documentés, et ce dans le respect des règles de traitement spécifiques des données personnelles.</p>
@@ -361,7 +368,7 @@ ANF “Participer à l’organisation du management des données de la recherche
 <p><strong>Les métadonnées dans un Plan de Gestion de données</strong></p>
 <p>Cette présentation de Marie Puren a été conçue pour animer un atelier de formation qui avait pour objectif de définir et comprendre l’importance des métadonnées dans le cadre de la rédaction d’un DMP. Elle définit, en donnant des exemples, ce qu’est une métadonnée, à quoi elle sert, quelle information elle donne. Elle distingue et détaille la spécificité des métadonnées de description, des métadonnées de gestion et des métadonnées de préservation. Elle aborde ensuite le chapitre du cycle de vie des métadonnées (créer, entretenir, mettre à jour, stocker, gérer la suppression des données, publier). Elle spécifie les métadonnées à faire figurer dans un DMP, explique comment les collecter et propose quelques outils d’extraction automatique de métadonnées. Autour de la notion de métadonnée, elle précise l’importance de définir des responsabilités en s’appuyant sur les chercheurs, documentalistes, bibliothécaires et informaticiens. Elle complète sa présentation avec une description des principaux standards interdisciplinaires et disciplinaires de métadonnées. Elle explique où et comment choisir ces standards. Elle explique également l’intérêt d’associer des ontologies ou vocabulaires contrôlés. Les dernières recommandations de sa présentation portent sur la gestion des métadonnées à long terme, l’importance d’évaluer leur qualité et revient sur la notion d’ouverture des métadonnées et la nécessité de choisir des licences pour nos métadonnées.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://anfdonnees2017.sciencesconf.org/data/pages/20170706_dmp_metadonnees_puren_1.pdf">Les métadonnées dans un DMP</a></p>
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2017.sciencesconf.org/data/pages/20170706_dmp_metadonnees_puren_1.pdf">Les métadonnées dans un DMP</a>  </p>
 <p>Marie Puren, INRIA<br />
 ANF “Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données”, réseau Renatis, Paris, 2017</p>
 </div>
@@ -396,7 +403,7 @@ La norme ISO 19139 est l’implémentation XML de la norme ISO 19115. Elle défi
 <p>L’échange de données d’une plateforme à l’autre se fait au travers de protocoles informatiques. De ce fait, si l’on veut que les systèmes soient interopérables entre eux, il est nécessaire d’utiliser des protocoles ouverts et standards pour permettre l’interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, <a class="reference external" href="https://www.ogc.org/standards/">l’Open Geospatial Consortium (OGC)</a>, est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l’interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l’information géographique.</p>
 <p>Les standards OGC sont importants à connaitre dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l’Institut National des Sciences de l’Univers (INSU). Pour ce dernier réseau, l’interopérabilité dans la gestion des données des Observatoires de l’INSU est un enjeu important.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist15.sciencesconf.org/data/program/ogc.pdf">Les Normes OGC (Open Geospatial Consortium)</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist15.sciencesconf.org/data/program/ogc.pdf">Les Normes OGC (Open Geospatial Consortium)</a>   </p>
 <p>François André, Aeris<br />
 Séminaire SIST15 - OSU Pytheas Marseille 2015</p>
 </div>
@@ -408,19 +415,19 @@ Grâce à ce protocole, on peut constituer des réseaux de catalogues tels que d
 </ul>
 <p>Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d’interopérabilité WMS, CSW et SOS qui permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d’observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation">“Gestion des données d’observation : les outils informatiques pour la valorisation” </a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation">“Gestion des données d’observation : les outils informatiques pour la valorisation” </a>   </p>
 <p>ANF SIST17, Fréjus - ANF SIST18, Autrans</p>
 </div>
 <p>De nombreux instituts et auteurs, gestionnaires de données suivent  ces standards OGC :</p>
 <p>Sylvain Grelet communique par exemple le retour d’expérience sur l’utilisation et le déploiement des standards d’interopérabilité au BRGM :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/aQogG6iPq6eGabf">De la définition au déploiement de standards d’interopérabilité :</a> retour d’expérience de la Direction des Systèmes d’Information (DSI) du BRGM</p>
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/aQogG6iPq6eGabf">De la définition au déploiement de standards d’interopérabilité :</a> retour d’expérience de la Direction des Systèmes d’Information (DSI) du BRGM   </p>
 <p>Grellet Sylvain, Stéphane Loigerot, BRGM<br />
 <a class="reference external" href="https://sist15.sciencesconf.org">Séminaire SIST15, Marseille</a></p>
 </div>
 <p>Véronique Chaffard nous présente la mise en oeuvre des standards de l’OGC dans le projet AMMA-CATCH :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/Mrm2oRT8QFt9HS9">Portail Web d’accès aux données de l’observatoire AMMA-CATCH et mise en oeuvre des standards d’échange des données OGC </a></p>
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/Mrm2oRT8QFt9HS9">Portail Web d’accès aux données de l’observatoire AMMA-CATCH et mise en oeuvre des standards d’échange des données OGC </a>   </p>
 <p>Véronique Chaffard, IRD<br />
 <a class="reference external" href="https://sist15.sciencesconf.org">Séminaire SIST15, OSU Pytheas Marseille</a></p>
 </div>
@@ -434,7 +441,7 @@ Grâce à ce protocole, on peut constituer des réseaux de catalogues tels que d
 <p>Par nature, la recherche n’est pas un processus répétitif, elle est pleine d’aléas et d’incertitudes contrairement à un processus industriel.
 La confiance dans la qualité d’une recherche consiste à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en obtenant le même résultat par différents chercheurs à des moments différents. Il est donc essentiel de s’assurer que l’ensemble des activités soient tracées et maitrisées; cela est une nécessité pour toute la chaine fonctionnelle d’une analyse (des pipettes, balances jusqu’aux équipements d’analyse).</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf">Confirmation métrologique des équipements</a></p>
+<p class="admonition-title"><a class="reference external" href="https://qualsimp.sciencesconf.org/data/program/9_Trac_abilite_des_donne_es_de_la_recherche_Virginie_JAN_LOGASSI.pdf">Confirmation métrologique des équipements</a>    </p>
 <p>Virginie JAN LOGASSI, DAPEQ LUE<br />
 ANF Outils qualité, réseau QeR, 2019</p>
 </div>
@@ -449,7 +456,7 @@ En débutant par un point sur l’état de l’art (définition, réglementation
 <li><p>Comment doit-on travailler en salles propres ? Quelles sont les bonnes pratiques de gestion d’une salle propre ?</p></li>
 </ul>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sallespropres17.sciencesconf.org/program">Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sallespropres17.sciencesconf.org/program">Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences</a>   </p>
 <p>Journée thématique, réseau QeR, 2017</p>
 </div>
 </div>
@@ -461,7 +468,7 @@ L’AEI traite de manière privilégiée les aspects de mesure et de méthodolog
 <p>Pour la gestion des capteurs, l’<a class="reference external" href="https://www.ogc.org/standards">OGC (Open Geospatial Consortium)</a> cité précédemment, publie un standard d’interopérabilité, <a class="reference external" href="http://docs.opengeospatial.org/wp/07-165r1/">Sensor Web Enablement (SWE)</a>, qui permet de présenter des données de capteurs de manière standardisée et interopérable. Ce protocole et les logiciels qui les implémentent sont bien adaptés à la description des capteurs et à la gestion des séries temporelles.</p>
 <p>Le protocole « <a class="reference external" href="https://www.ogc.org/standards/sos">SOS » (Sensor observation service) de l’OGC</a> permet de présenter de manière standardisée les données issues de capteurs de terrain de manière interopérable. Ce standard définit une interface de service Web qui permet d’interroger les observations, les métadonnées des capteurs, ainsi que les représentations des caractéristiques observées. En outre, cette norme définit les moyens d’enregistrer de nouveaux capteurs et de supprimer les capteurs existants. Elle définit également les opérations permettant d’insérer de nouvelles observations de capteurs.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk">Sensor Web Enablement Standards &amp; Technology</a></p>
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk">Sensor Web Enablement Standards &amp; Technology</a>   </p>
 <p>Christoph Stasch, Simon Jirka, 52North<br />
 <a class="reference external" href="https://sist15.sciencesconf.org">Séminaire SIST15, Marseille</a></p>
 </div>
@@ -479,7 +486,7 @@ L’AEI traite de manière privilégiée les aspects de mesure et de méthodolog
 <p>Ces 2 logiciels ont été présentés par Christoph Stasch, et Massimiliano Canata lors du séminaire du réseau <a class="reference external" href="https://sist.cnrs.fr">SIST</a> en 2015 à l’<a class="reference external" href="https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz">OSU Pytheas Marseille</a>.</p>
 <p>Stephane Debard présente l’utilisation d’istSOS dans la gestion de mesures altimétriques radars :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_S_Debard.pdf">Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS </a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist19.sciencesconf.org/data/pages/SIST19_S_Debard.pdf">Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS </a>   </p>
 <p>Stéphane Debard IRD<br />
 <a class="reference external" href="https://sist19.sciencesconf.org">Séminaire SIST19 OMP Toulouse</a></p>
 </div>
@@ -489,18 +496,18 @@ L’AEI traite de manière privilégiée les aspects de mesure et de méthodolog
 <p>Les gestionnaires de données environnementales mettent en place des chaînes de collecte de données provenant de capteurs de terrains ou de modèles numériques. Ils se préoccupent de l’utilisation de normes interopérables dans les protocoles d’échange et dans les formats de données.</p>
 <p>Regis Hocdé et ses collègues nous présentent un retour d’expérience sur le réseau de suivi de température des eaux côtières dans la région du Pacifique Sud et Sud-Ouest :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG">Retour d’expérience sur le système d’information dédié capteurs et reconstitution de séries temporelles de ReefTEMP</a></p>
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG">Retour d’expérience sur le système d’information dédié capteurs et reconstitution de séries temporelles de ReefTEMP</a>   </p>
 <p>Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement<br />
 <a class="reference external" href="https://sist15.sciencesconf.org">Séminaire SIST15, Marseille</a></p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf">Réseau d’observation du Pacifique Sud ‘ReefTEMPS’ : évolutions fonctionnelles et optimisation d’un système d’information dédié capteurs et reconstitution de séries temporelles</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf">Réseau d’observation du Pacifique Sud ‘ReefTEMPS’ : évolutions fonctionnelles et optimisation d’un système d’information dédié capteurs et reconstitution de séries temporelles</a>   </p>
 <p>Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de Recherche pour le Développement<br />
 <a class="reference external" href="https://sist16.sciencesconf.org">Séminaire SIST16,  OSU OREME, Montpellier </a></p>
 </div>
 <p>Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d’un réseau de stations météorologiques de la région rennaise.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX">Collecte de mesures météorologiques à l’aide d’un système autonome</a> :  exemple de la métropole rennaise (Zone Atelier Armorique)</p>
+<p class="admonition-title"><a class="reference external" href="https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX">Collecte de mesures météorologiques à l’aide d’un système autonome</a> :  exemple de la métropole rennaise (Zone Atelier Armorique)   </p>
 <p>Alban Thomas - Hervé Quénol UMR LETG Rennes<br />
 <a class="reference external" href="https://sist15.sciencesconf.org">Séminaire SIST15, OSU Pytheas Marseille</a></p>
 </div>
@@ -531,28 +538,28 @@ Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserv
 <p>Le site <a class="reference external" href="https://www.datacc.org">datacc.org</a> consacre la mise en œuvre d’un service d’accompagnement sur la gestion des données en physique et en chimie, dans le cadre d’un projet CollEx-Persée. Le site fournit des contenus nourris sur les cahiers de laboratoire électroniques, issus d’une expérimentation menée avec des chimistes de Lyon 1 et de Grenoble, assortis de <a class="reference external" href="https://www.datacc.org/bonnes-pratiques/utiliser-un-cahier-de-laboratoire-numerique/">bonnes pratiques</a> sur leur utilisation.</p>
 <p>Diverses expérimentations au sein de structures de recherche ont été réalisées :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://eq2020.sciencesconf.org/data/pages/06_QuaRES_EQ2020_A1_Rivet_Valeins.pdf">Les cahiers de laboratoire électroniques : atelier elabFTW</a></p>
+<p class="admonition-title"><a class="reference external" href="https://eq2020.sciencesconf.org/data/pages/06_QuaRES_EQ2020_A1_Rivet_Valeins.pdf">Les cahiers de laboratoire électroniques : atelier elabFTW</a>  </p>
 <p>Alain Rivet, Henri Valeins, CNRS<br />
 Ecole QUARES, Montpellier, 2020</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_laguri.pdf">Utilisation du cahier de laboratoire électronique BIOVIA au sein de l’Institut de Biologie Structurale</a></p>
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_laguri.pdf">Utilisation du cahier de laboratoire électronique BIOVIA au sein de l’Institut de Biologie Structurale</a>   </p>
 <p>Cédric Laguri, IBS<br />
 ANF “Traçabilité des activités de recherche et gestion des connaissances”, Réseau Qualité en Recherche, Grenoble, 16-18 octobre 2017</p>
 </div>
 <p>L’INSERM s’est fortement intéressé à la version numérique des cahiers de laboratoires, comme une réplique du cahier papier. L’INSERM pense que si la version électronique reste une solution d’enregistrement au quotidien des expériences scientifiques, c’est désormais devenu un outil différent, fortement axé sur la qualité, la gestion de la connaissance, la gestion de projets et le travail collaboratif. Paul-Guy Dupré et ses collaborateurs présentent les cahiers de laboratoires qui ont été mis en place à l’INSERM :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_dupre.pdf">Expérimentation du cahier de laboratoire électronique à l’Inserm</a></p>
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_dupre.pdf">Expérimentation du cahier de laboratoire électronique à l’Inserm</a>  </p>
 <p>Paul-Guy Dupré, INSERM<br />
 ANF “Traçabilité des activités de recherche et gestion des connaissances”, Réseau QeR, Grenoble, 2017</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://conf-ng.jres.org/2017/document_revision_2866.html?download">Expérimentation du cahier de laboratoire électronique à l’Inserm : les apports de l’électronique au cahier de laboratoire</a></p>
+<p class="admonition-title"><a class="reference external" href="https://conf-ng.jres.org/2017/document_revision_2866.html?download">Expérimentation du cahier de laboratoire électronique à l’Inserm : les apports de l’électronique au cahier de laboratoire</a>   </p>
 <p>Paul-Guy Dupré, Fanny Brizzi Inserm, DSI<br />
 <a class="reference external" href="https://2017.jres.org/fr/contenu-th%C3%A9matique">JRES2017  </a></p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://conf-ng.jres.org/2019/document_revision_5213.html?download">Déploiement du cahier de laboratoire  électronique à l’INSERM et nouvelles perspectives</a></p>
+<p class="admonition-title"><a class="reference external" href="https://conf-ng.jres.org/2019/document_revision_5213.html?download">Déploiement du cahier de laboratoire  électronique à l’INSERM et nouvelles perspectives</a>   </p>
 <p>PaulGuy Dupré Inserm &amp; Claudia Gallina-Muller - Inserm DSI<br />
 <a class="reference external" href="https://www.jres.org/fr/programme/">JRES2019  </a></p>
 </div>
@@ -578,14 +585,14 @@ ANF “Traçabilité des activités de recherche et gestion des connaissances”
 <p>Deux solutions ont été étudiées au Centre d’Ecologie Fonctionnelle et Evolutive (CEFE) : le développement d’une application nomade basée sur le système d’information géographique, libre, multiplate-forme, publié sous licence GPL <a class="reference external" href="https://www.qgis.org/fr/site/">QGIS</a> ainsi qu’une application nomade utilisant une boite à outils de génération de carnets de terrain électronique <a class="reference external" href="https://opendatakit.org/">Open Data Kit</a>.</p>
 <p>Dans la présentation détaillant la solution basée sur QGIS, l’auteur détaille l’étude et le développement de l’applicatif interopérable avec le système d’information du laboratoire CEFE et qui permet aux intervenants sur le terrain de collecter les données :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://video.rmll.info/videos/carnet-de-terrain-electronique/">Carnet de terrain électronique, Retour d’expérience sur la création d’une boite à outils</a></p>
+<p class="admonition-title"><a class="reference external" href="http://video.rmll.info/videos/carnet-de-terrain-electronique/">Carnet de terrain électronique, Retour d’expérience sur la création d’une boite à outils</a>   </p>
 <p>Marie-Claude Quidoz, CEFE<br />
 15èmes Rencontres Mondiales du Logiciel Libre, Montpellier, 2014</p>
 </div>
 <p>La solution basée sur ODK a servi de fil rouge à l’ANF <a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article317">“Interfacer les outils mobiles avec son système d’information”</a> en 2019, car la solution ODK permet de couvrir les étapes allant de la création du formulaire à la sécurisation en bases de données.</p>
 <p>Des applicatifs « clef en main » ont été développés à partir du moteur ODK. Le plus connu est sans doute <a class="reference external" href="https://www.kobotoolbox.org/">KoboToolbox</a>, qui, aux fonctionnalités de base, a ajouté quelques fonctionnalités supplémentaires telles que le Formbuilder et la bibliothèque de questions.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://github.com/OSGeo-fr/FOSS4G-fr-2018/blob/master/ateliers/Atelier-kobo.pdf">Collecte de données terrain avec un smartphone : Prise en main de Kobotolbox et de Kobocollect</a></p>
+<p class="admonition-title"><a class="reference external" href="https://github.com/OSGeo-fr/FOSS4G-fr-2018/blob/master/ateliers/Atelier-kobo.pdf">Collecte de données terrain avec un smartphone : Prise en main de Kobotolbox et de Kobocollect</a>   </p>
 <p>Akaouette, Ata Franck<br />
 FOSS4G-fr, Marne-la-vallée, 2018</p>
 </div>
@@ -593,20 +600,20 @@ FOSS4G-fr, Marne-la-vallée, 2018</p>
 Uniformiser la structure des fichiers, Génération d’étiquettes pour les échantillons, et Sauvegarder automatiquement sur un micro-serveur
 sur le terrain puis sur le SI OTELo</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33">Retour terrain : la délicate question de l’intégration des données</a></p>
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33">Retour terrain : la délicate question de l’intégration des données</a>   </p>
 <p>Pierre-Yves Arnould, OTELo<br />
 ANF “Interfacer les outils mobiles avec son système d’information”, réseau RBDD, 2019, Sète.</p>
 </div>
 <p>De nombreuses autres solutions sont aussi envisageables, nous invitons le lecteur a consulté les ateliers et séminaires suivants pour en découvrir leurs avantages et inconvénients :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article270">Atelier « Carnets de terrain électroniques »</a></p>
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article270">Atelier « Carnets de terrain électroniques »</a>   </p>
 <p>Réseau Zones Ateliers, Montpellier, 2018</p>
 <p><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article206">Séminaire « Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ? »</a><br />
 Réseau rBDD, Paris, 2016</p>
 </div>
 <p>Il est à noter que la collecte sur le terrain nécessite de s’équiper d’un matériel apte à être utilisé sur des terrains parfois hostiles. Le choix de l’équipement conditionne aussi le choix de la solution logicielle comme le montre Marie-Claude Quidoz lors de cette présentation :</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/27/contribution/11/material/slides/">Carnet de terrain électronique</a></p>
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/27/contribution/11/material/slides/">Carnet de terrain électronique</a>   </p>
 <p><a class="reference external" href="https://indico.mathrice.fr/event/27/contribution/11/material/0/">Vidéo :</a><br />
 Marie-Claude Quidoz, CEFE<br />
 Séminaire « les technologies mobiles : retours d’expériences et prospectives », Réseau ResInfo, Paris, 2016</p>
@@ -623,7 +630,7 @@ Séminaire « les technologies mobiles : retours d’expériences et prospective
 </ul>
 <p>Fruit d’une collaboration initiale entre l’Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENSs à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article304">Stockez et retrouvez vos échantillons avec Collec-Science</a></p>
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/spip.php?article304">Stockez et retrouvez vos échantillons avec Collec-Science</a>   </p>
 <p>Marie-Claude Quidoz</p>
 </div>
 </div>
@@ -632,12 +639,12 @@ Séminaire « les technologies mobiles : retours d’expériences et prospective
 <h2><span class="section-number">3.3. </span>Environnements de stockage - Sauvegarder les données<a class="headerlink" href="#environnements-de-stockage-sauvegarder-les-donnees" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Dès la phase de collecte, il convient de se préoccuper des aspects de stockage et de sauvegarde qui seront plus largement abordés dans la phase 6 du cycle de vie des données. En effet, dès le début d’un projet, il est nécessaire, d’une part, d’estimer le stockage nécessaire à la collecte de données et d’autre part, de mettre en place les moyens de sauvegarde des données récoltées. La duplication des données par stockage redondant sur des supports différents de ceux de l’équipement utilisé (poste de travail fixe, mobile, serveur, …) est un des principes de base d’une bonne conservation. Il convient de préférer un archivage centralisé conformément à la règle du 3-2-1 généralement recommandée (3 copies sur 2 supports différents dont 1 sur un lieu déporté). À cet effet, il conviendra de travailler en amont avec une équipe informatique afin que les dispositifs de stockage soient disponibles.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/5/contribution/2/material/slides/0.pdf">Rappels théoriques concernant les architectures de stockage traditionnel</a></p>
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/5/contribution/2/material/slides/0.pdf">Rappels théoriques concernant les architectures de stockage traditionnel</a>  </p>
 <p>Sylvain Maurin<br />
 ANF “Stockage Distribué”, 2016</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/5/contribution/3/material/slides/0.pdf">Outils algorithmiques et logiciels pour le stockage distribué</a></p>
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/5/contribution/3/material/slides/0.pdf">Outils algorithmiques et logiciels pour le stockage distribué</a>  </p>
 <p>Benoit Parrein<br />
 ANF “Des données au BigData : exploitez le stockage distribué !”, 2016</p>
 </div>
@@ -645,7 +652,7 @@ ANF “Des données au BigData : exploitez le stockage distribué !”, 2016</p>
 <p>Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des fonctionnalités de <em>déduplication</em>. Cette technologie consistant à réduire les volumes sauvegardés et les durées de sauvegarde en découpant les gros fichiers en fragments (blocs) et en ne sauvegardant qu’une seule fois les fragments identiques.</p>
 <p>Un retour d’expérience sur le <a class="reference external" href="https://borgbackup.readthedocs.io/en/stable/">logiciel borgbackup</a> donne des résultats intéressants et prend tout son sens quand on a beaucoup de fichiers volumineux peu différents.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://2017.jres.org/fr/presentation?id=35">Sauvegardes dédupliquées avec BorgBackup : retour d’expérience</a></p>
+<p class="admonition-title"><a class="reference external" href="https://2017.jres.org/fr/presentation?id=35">Sauvegardes dédupliquées avec BorgBackup : retour d’expérience</a>  </p>
 <p>Maurice Libes - Didier Mallarino, OSU Pytheas<br />
 JRES 2017, Nantes</p>
 </div>
@@ -679,22 +686,33 @@ JRES 2017, Nantes</p>
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="02-concevoir_planifier.html" title="previous page"><span class="section-number">2. </span>Concevoir et planifier</a>
-    <a class='right-next' id="next-link" href="04-traiter.html" title="next page"><span class="section-number">4. </span>Traiter</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="02-concevoir_planifier.html" title="précédent page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">précédent</p>
+            <p class="prev-next-title"><span class="section-number">2. </span>Concevoir et planifier</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="04-traiter.html" title="suivant page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">suivant</p>
+        <p class="prev-next-title"><span class="section-number">4. </span>Traiter</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
           Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-          Dernière mise à jour le 06 juin 2021.<br/>
+          Dernière mise à jour le 08 déc. 2021.<br/>
           <div class="extra_footer">
             <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
@@ -710,8 +728,7 @@ Ce guide est mis à disposition selon les termes de la Licence <a href="https://
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>

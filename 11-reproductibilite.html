@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reproductibilité</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -32,9 +32,9 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
@@ -42,10 +42,10 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -56,7 +56,10 @@
     <link rel="next" title="Autres guides de bonnes pratiques" href="12-ressources.html" />
     <link rel="prev" title="Infrastructures" href="10-infrastructures.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="fr">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -73,6 +76,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
@@ -80,9 +87,9 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -123,7 +130,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -245,7 +252,7 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contenu
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#comprendre-les-enjeux-et-defis">
@@ -273,7 +280,7 @@
         
               <div>
                 
-  <div class="section" id="reproductibilite">
+  <div class="tex2jax_ignore mathjax_ignore section" id="reproductibilite">
 <span id="id1"></span><h1>Reproductibilité<a class="headerlink" href="#reproductibilite" title="Lien permanent vers ce titre">¶</a></h1>
 <p>La confiance dans les résultats de la recherche repose, entre autres, sur le fait que les expériences ou les calculs soient reproductibles.</p>
 <p>Au niveau technique, par exemple, la reproductibilité d’une mesure avec un même instrument, une méthode identique et dans un contexte donné, est essentielle pour valider les résultats d’une expérience. Au niveau scientifique, la répétabilité permet la validation des résultats obtenus. Il s’agit alors, par un autre moyen, d’arriver à des résultats équivalents.</p>
@@ -283,27 +290,27 @@
 <p>Les présentations citées dans ce paragraphe concernent toutes divers aspects de la “reproductibilité” ou de la “répétabilité”, qu’elles concernent les mesures, les accès aux données, les traitements, les calculs etc… . Chacune développe un point de vue particulier. Elles sont complémentaires.</p>
 <p>Konrad Hinsen présente ici les enjeux et les défis de la recherche reproductible appliqués au calcul scientifique. Il reprend les bases de ce qu’est un calcul et de l’environnement dans lequel on utilise les programmes pour bien détailler les différents points de difficulté.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/165/contribution/1/material/slides/0.pdf">Enjeux et défis de la recherche reproductible</a></p>
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/165/contribution/1/material/slides/0.pdf">Enjeux et défis de la recherche reproductible</a>  </p>
 <p><a class="reference external" href="https://webcast.in2p3.fr/video/les-enjeux-et-defis-de-la-recherche-reproductible">Vidéo : </a><br />
 Konrad HINSEN, Centre de Biophysique Moléculaire Orléans et Synchrotron SOLEIL<br />
 Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019</p>
 </div>
 <p>David Hill fait ici la distinction entre reproductibilité et répétabilité et développe les difficultées de la répétabilité dans le calcul haute performance et en donne des exemples concrets dans différents domaines. Il propose des méthodes et des outils adaptés à chacun des points identifiés.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/2019_JCAD_Repro_Hill_vf.pdf">Reproductibilité et répétabilité - peut-on les négliger en calcul à haute performance ?</a></p>
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/2019_JCAD_Repro_Hill_vf.pdf">Reproductibilité et répétabilité - peut-on les négliger en calcul à haute performance ?</a>    </p>
 <p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=4P8z7069&amp;width=100%&amp;height=100%">vidéo</a><br />
 David Hill, Université Clermont Auvergne<br />
 JCAD 2019</p>
 </div>
 <p>La présentation de Christophe Pouzat commence par un historique des raisons qui ont mené la communauté scientifique à prendre conscience, puis à prendre en compte le besoin de reproductibilité. La seconde partie de la présentation s’adresse plutôt aux développeurs qui produisent des codes.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://calcul.math.cnrs.fr/attachments/spip/IMG/html/pouzat_20160513.html">Une brève histoire de la recherche reproductible et de ses outils</a></p>
+<p class="admonition-title"><a class="reference external" href="https://calcul.math.cnrs.fr/attachments/spip/IMG/html/pouzat_20160513.html">Une brève histoire de la recherche reproductible et de ses outils</a>  </p>
 <p>Christophe Pouzat, MAP5, Univ. Paris-Descartes et CNRS UMR 8145<br />
 CANUM 2016 : mini-symposium “Recherche reproductible”, 2016</p>
 </div>
 <p>L’exemple présenté par Thomas Denecker concerne la biologie computationnelle. Il a pour but de sélectionner des gènes qui ne se comportent pas de la même façon entre deux conditions expérimentales. Les fonctionnalités présentées ne sont pas dépendantes de cet exemple. En effet, elles peuvent être appliquées à n’importe quelle autre question biologique. Brièvement, il s’agit de récupérer les données depuis des bases de données publiques, de réaliser une analyse reproductible avec un système de workflow dans un environnement virtuel dont l’ensemble du code, versionné, est disponible en open source. La visualisation des résultats est dynamique et un rapport en pdf ou html est disponible. Il regroupe les résultats de l’analyse et détaille l’ensemble des paramètres choisis par l’utilisateur.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://aramis.resinfo.org/wiki/lib/exe/fetch.php?media=pleniaires:aramis2019_denecker.pdf">La reproductibilité au service de la Biologie Computationnelle</a></p>
+<p class="admonition-title"><a class="reference external" href="https://aramis.resinfo.org/wiki/lib/exe/fetch.php?media=pleniaires:aramis2019_denecker.pdf">La reproductibilité au service de la Biologie Computationnelle</a>  </p>
 <p><a class="reference external" href="https://webcast.in2p3.fr/video/la-reproductibilite-au-service-de-la-biologie-computationnelle">Vidéo : </a><br />
 Thomas Denecker<br />
 Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019</p>
@@ -314,14 +321,14 @@ Assemblée Aramis : La reproductibilité en pratique : méthodes et outils, 2019
 <p>Parvenir à la reproductibilité peut être facilité par l’utilisation d’environnements et d’outils conçus ou adaptés dans cet objectif. De nombreuses équipes travaillent en ce sens depuis plusieurs années et plusieurs exemples sont présentés ici.</p>
 <p>VIP, the “Virtual Imaging Platform”, est un portail qui permet à ses utilisateurs d’accéder simplement à leurs données, de les traiter facilement avec des logiciels pré-installés sur la plateforme. Traitements et données sont distribués sur l’infrastructure EGI.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/165/contribution/8/material/slides/0.pdf">Virtual Imaging Platform : pour une science ouverte et reproductible</a></p>
+<p class="admonition-title"><a class="reference external" href="https://indico.mathrice.fr/event/165/contribution/8/material/slides/0.pdf">Virtual Imaging Platform : pour une science ouverte et reproductible</a>  </p>
 <p><a class="reference external" href="https://webcast.in2p3.fr/video/la-plateforme-web-virtual-imaging-platform-pour-une-science-ouverte-et-reproductible">Vidéo : </a><br />
 Sorina Camarasu-Pop, Frédéric Cervenansky, CREATIS<br />
 JoSy 2019</p>
 </div>
 <p>Ludovic Courtès explique comment utiliser Guix et Jupyter pour la science reproductible.  Guix est utilisé pour rendre l’environnement logiciel du notebook reproductible et déployé de façon automatique et reproductible. Nous vous conseillons de visionner la vidéo très didactique !</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf">Vers un environnement reproductible pour les blocs-notes Jupyter</a></p>
+<p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf">Vers un environnement reproductible pour les blocs-notes Jupyter</a>  </p>
 <p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=s5cfr0Ue&amp;width=100%&amp;height=100%">vidéo</a><br />
 Ludovic Courtès, Inria<br />
 JCAD 2019</p>
@@ -333,7 +340,7 @@ JCAD 2019</p>
 Journées Campagnes de calcul reproductibles, 2018</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://calcul.math.cnrs.fr/attachments/spip/IMG/tar/openmole.tar">Openmole</a> (format tar)</p>
+<p class="admonition-title"><a class="reference external" href="https://calcul.math.cnrs.fr/attachments/spip/IMG/tar/openmole.tar">Openmole</a> (format tar)  </p>
 <p>Romain Reuillon, Mathieu Leclaire<br />
 Journées Campagnes de calcul reproductibles, 2018</p>
 </div>
@@ -346,7 +353,7 @@ Journées Campagnes de calcul reproductibles, 2018</p>
 <p>En 2017, le réseau “calcul” a organisé un “<a class="reference external" href="https://calcul.math.cnrs.fr/2017-05-atelier-integration-continue.html">Atelier intégration continue</a>” visant à se familiariser à trois outils d’intégration continue : <em>Jenkins, Travis CI et Gitlab CI</em>, en commençant par une introduction à deux outils couramment utilisés dans une chaîne d’intégration continue : “Git” pour gérer les versions et les publier vers un dépôt distant, puis “Docker” pour exécuter les tâches de compilation et de tests.</p>
 <p>Les utilisateurs du langage de programmation “<a class="reference external" href="https://julialang.org/">Julia</a>” sont bien sûr également concernés par la reproductibilité. Ils trouveront dans la présentation de Mathieu Besançon à l’atelier “JuliaNantes”, les réponses aux questions qu’ils peuvent se poser sur les raisons de veiller à la reproductibilité de leurs travaux et comment utiliser les outils Julia pour la science reproductible.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://matbesancon.github.io/slides/JuliaNantes/JuliaTools">Getting started with Julia tools for reproducible science</a></p>
+<p class="admonition-title"><a class="reference external" href="http://matbesancon.github.io/slides/JuliaNantes/JuliaTools">Getting started with Julia tools for reproducible science</a>    </p>
 <p>Mathieu Besançon, Centrale Lille et Polytechnique Montréal<br />
 Atelier JuliaNantes, 2019</p>
 </div>
@@ -361,7 +368,7 @@ Pour chaque thème, des cours, présentations et TPs ont été organisés. Ces c
 <p>Les usines logicielles et les outils de production de code comme supports des bonnes pratiques de génie logiciel est une <a class="reference external" href="http://devlog.cnrs.fr/jdev2020/t4">thématique importante des JDEV 2020</a>.
 Au cours de son exposé,  Arnaud Legrand présente les différents enjeux, les solutions émergentes, les outils et standards, les plateformes qui permettent de tracer les codes, les simulations, les données…</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://devlog.cnrs.fr/_media/jdev2020/t4_pleniere_arnaud_legrand_20_07_10_jdev.pdf?id=jdev2020%3At4&amp;cache=cache">Software Factories for Reproductible Big Data/AI/…</a></p>
+<p class="admonition-title"><a class="reference external" href="http://devlog.cnrs.fr/_media/jdev2020/t4_pleniere_arnaud_legrand_20_07_10_jdev.pdf?id=jdev2020%3At4&amp;cache=cache">Software Factories for Reproductible Big Data/AI/…</a>  </p>
 <p>Arnaud Legrand, Inria<br />
 JDEV 2020</p>
 </div>
@@ -392,22 +399,33 @@ JDEV 2020</p>
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="10-infrastructures.html" title="previous page">Infrastructures</a>
-    <a class='right-next' id="next-link" href="12-ressources.html" title="next page">Autres guides de bonnes pratiques</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="10-infrastructures.html" title="précédent page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">précédent</p>
+            <p class="prev-next-title">Infrastructures</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="12-ressources.html" title="suivant page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">suivant</p>
+        <p class="prev-next-title">Autres guides de bonnes pratiques</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
           Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-          Dernière mise à jour le 06 juin 2021.<br/>
+          Dernière mise à jour le 08 déc. 2021.<br/>
           <div class="extra_footer">
             <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
@@ -423,8 +441,7 @@ Ce guide est mis à disposition selon les termes de la Licence <a href="https://
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>

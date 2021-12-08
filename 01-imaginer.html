@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1. Imaginer et préparer</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet" />
-  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="_static/css/theme.css" rel="stylesheet">
+  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -22,8 +22,8 @@
       
 
     
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
@@ -32,9 +32,9 @@
     <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
     <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
 
-    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
@@ -42,10 +42,10 @@
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
-    <script >
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
         const thebe_selector = ".thebe"
         const thebe_selector_input = "pre"
         const thebe_selector_output = ".output"
@@ -56,7 +56,10 @@
     <link rel="next" title="2. Concevoir et planifier" href="02-concevoir_planifier.html" />
     <link rel="prev" title="Guide de bonnes pratiques sur la gestion des données de la recherche" href="00-introduction.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="en" />
+    <meta name="docsearch:language" content="fr">
+    
+
+    <!-- Google Analytics -->
     
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
@@ -73,6 +76,10 @@
         <div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
       <img src="_static/logo.png" class="logo" alt="logo">
       
       
@@ -80,9 +87,9 @@
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
-        <p class="caption">
+        <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -123,7 +130,7 @@
   </a>
  </li>
 </ul>
-<p class="caption">
+<p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
  </span>
 </p>
@@ -245,7 +252,7 @@
             <div class="tocsection onthispage pt-5 pb-3">
                 <i class="fas fa-list"></i> Contenu
             </div>
-            <nav id="bd-toc-nav">
+            <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#comprendre-le-paysage-de-la-gestion-des-donnees">
@@ -329,7 +336,7 @@
         
               <div>
                 
-  <div class="section" id="imaginer-et-preparer">
+  <div class="tex2jax_ignore mathjax_ignore section" id="imaginer-et-preparer">
 <span id="imaginer"></span><h1><span class="section-number">1. </span>Imaginer et préparer<a class="headerlink" href="#imaginer-et-preparer" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Imaginer est la première étape de notre cycle de vie. C’est une phase préparatoire qui correspond à la connaissance et à l’identification des problématiques générales, techniques et juridiques associées à la gestion des données dans un projet de recherche ou dans la pratique quotidienne de nos métiers.
 Etape où l’on doit se projeter, s’informer, comprendre pour anticiper et envisager sereinement le déroulement d’un projet.
@@ -345,20 +352,20 @@ Ce paysage s’appréhende dans le cadre du mouvement open science, de la politi
 <p>À l’occasion des « FréDoc 2013 », Simon Hodson (Directeur exécutif de CODATA) dresse un panorama très complet des différentes politiques institutionnelles, des tendances gouvernementales et internationales. Nous percevons très distinctement les défis et obstacles à lever pour la mise en place d’une gestion des données de la recherche. On comprend l’importance d’analyser le comportement des communautés de recherche pour parvenir à construire ensemble une politique autour des données et aussi l’intérêt d’une approche convergente « top down et bottom up » pour la mise en place d’actions de terrain qui rejoignent les actions de la gouvernance. Les nombreux défis à la mise en place d’une politique des données de la recherche sont bien présents à commencer par le fait d’instaurer au sein de nos communautés une culture du partage de la donnée et de mettre à disposition des chercheurs des infrastructures et des services de formation.<br />
 Simon Hodson souligne aussi le rôle essentiel des politiques et parties prenantes pour mettre en place des actions et des concertations.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf">Les politiques d’accompagnement des données : une comparaison internationale</a></p>
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf">Les politiques d’accompagnement des données : une comparaison internationale</a>  </p>
 <p>Simon Hodson, ISCU-CODATA,  <br />
 ANF “Frédocs2013 - Gestion et valorisation des données de la recherche”, 2013, Aussois</p>
 </div>
 <p>En 2017 à l’occasion d’une ANF dédiée à l’organisation du management des données de la recherche et dans le contexte d’omniprésence du numérique et des défis sociétaux actuels, Francis André (Chargé des données de la recherche à la DIST du CNRS) présente l’évolution des pratiques scientifiques et le cadre stratégique offert par l’open science autour des données de la recherche.</p>
 <p>On découvre à travers son intervention les principes FAIR et l’importance de disposer de métadonnées de qualité. On comprend également la nécessité du partage pour faire évoluer les connaissances. Francis André distingue dans sa présentation différents types de données, d’infrastructures et de services à l’échelle européenne et internationale avec un focus sur le fonctionnement et les groupes de travail de la Research Data Alliance (RDA). Il revient sur les résultats d’une enquête réalisée auprès des directeurs d’unité pour aborder la question du point de vue du chercheur et insiste sur la nécessité de réinventer nos métiers et de s’approprier la gestion des données.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://anfdonnees2017.sciencesconf.org/data/pages/ANF_RENATIS_FANDRE_20170703_final.pdf">Gestion des données de la recherche dans le contexte d’Open Science</a></p>
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2017.sciencesconf.org/data/pages/ANF_RENATIS_FANDRE_20170703_final.pdf">Gestion des données de la recherche dans le contexte d’Open Science</a>  </p>
 <p>Francis André, DIST-CNRS<br />
 ANF “Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données”, 2017, Paris</p>
 </div>
 <p>La gestion des données s’organise également au sein des structures d’accompagnement au niveau européen comme en témoigne Susan Reilly (Directeur exécutif de la Ligue Européenne des Bibliothèques de Recherche <a class="reference external" href="https://libereurope.eu/">LIBER</a>) qui pointe en particulier les besoins de réorganisation et d’adaptation des structures d’accompagnement de la recherche pour aider les chercheurs dans la gestion des données. Le rôle des bibliothèques est crucial dans ces actions et les opportunités à saisir pour évoluer dans ce sens sont nombreuses. Partant du constat que sans une infrastructure qui aide les chercheurs à gérer leurs données de façon adéquate et efficace, aucune culture du partage n’est possible. Elle expose dans le cadre de LIBER une démarche proactive au sein des bibliothèques de recherche en Europe et présente 10 recommandations à suivre pour répondre aux besoins des chercheurs en termes de services et de supports.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/ReillyFredoc.pdf">From data management policy to implementation : opportunities and challenges for libraries</a></p>
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/ReillyFredoc.pdf">From data management policy to implementation : opportunities and challenges for libraries</a>  </p>
 <p>Susan Reilly, Liber<br />
 ANF “Frédocs2013 - Gestion et valorisation des données de la recherche”, 2013, Aussois</p>
 </div>
@@ -378,14 +385,14 @@ ANF “Frédocs2013 - Gestion et valorisation des données de la recherche”, 2
 <p>De nombreuses initiatives internationales et programmes européens ont été constitués pour travailler à l’ouverture progressive des données de la recherche, produire et harmoniser des outils et méthodologies. Nombre d’entre eux sont des espaces de travail et d’échange pour les ingénieurs et chercheurs, comme <a class="reference external" href="https://www.rd-alliance.org/">RDA</a> (Research Data Alliance) qui a pour motto “<em>Building the social and technical bridges to enable open sharing and re-use of data</em>” ou <a class="reference external" href="https://www.go-fair.org/">Go FAIR</a> dont l’objectif est de promouvoir les principes FAIR. Le <a class="reference external" href="https://www.eosc-portal.eu/">“European Open Science Cloud”</a> a été initié par la commission européenne. Il est défini comme “<em>The system resulting from the activities and initiatives promoted by the European Commission to support its policies on Open Science and Open Innovation 2.0</em>” (voir le <a class="reference external" href="https://www.eosc-portal.eu/glossary">Glossaire de l’EOSC</a>).</p>
 <p>Une présentation de Françoise Genova et de Francis André détaille le fonctionnement de la RDA, organisation internationale créée en mars 2013, pilotée par la communauté, qui vise à construire les ponts sociaux et techniques pour le meilleur partage des données. Les groupes d’intérêt et de travail y sont présentés par thématiques ainsi que les productions et recommandations issues de ces groupes. Un focus particulier est porté sur le nœud national RDA France, ses objectifs et ses activités.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/27_F_Andre_Research_Data_Alliance.pdf">Les activités de RDA : perspectives dans le cadre du noeud national français</a></p>
+<p class="admonition-title"><a class="reference external" href="https://sist18.sciencesconf.org/data/pages/27_F_Andre_Research_Data_Alliance.pdf">Les activités de RDA : perspectives dans le cadre du noeud national français</a>  </p>
 <p>Francis André, DIST-CNRS &amp; Françoise Genova, Observatoire Astronomique de Strasbourg<br />
 SIST 2018 : Séries Interopérables et Systèmes de Traitement, 2016, Guyancourt</p>
 </div>
 <p>Dans cette autre présentation, Volker Beckman (chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS) explique comment concrètement les chercheurs pourront utiliser l’EOSC.
 Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2018, qui coordonne les initiatives et projets de construction de cet espace à destination de la recherche et des chercheurs. Partant des nombreux projets qui ont été financés pour élaborer ce cloud (<a class="reference external" href="https://eoscpilot.eu/">EOSCpilot</a>, <a class="reference external" href="https://www.eosc-pillar.eu/">EOSC-Pillar</a>, <a class="reference external" href="https://www.eosc-hub.eu/">EOSC-hub</a> etc.), il montre les possibilités de collaboration. Depuis 2019, une structuration est en cours avec la mise en place d’une gouvernance temporaire et une implication forte des ministères en charge de la recherche dans les différents pays européens. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement complémentaires dans le programme cadre “Horizon Europe”.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf">European Open Science Cloud (EOSC), opportunités pour la recherche en France</a></p>
+<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf">European Open Science Cloud (EOSC), opportunités pour la recherche en France</a>  </p>
 <p>Volker Beckman,  CNRS/IN2P3<br />
 Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020</p>
 </div>
@@ -403,12 +410,12 @@ Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’I
 Les notions de « document administratif », d’universalité et de gratuité des informations publiques sont ici des notions incontournables à saisir pour passer d’une logique de demande citoyenne à une logique de diffusion volontaire des informations du secteur public.</p>
 <p>Dans tous les cas, l’application des textes législatifs aux données de la recherche n’est pas toujours aisée. Nathalie Gandon, nous apporte des renseignements précieux à travers une check-list pour déterminer si les résultats de recherche sont ou ne sont pas des « documents administratifs » à diffuser. Il convient de s’interroger tout d’abord sur la nature et la forme du résultat concerné (le document doit être achevé), ensuite sur l’auteur du résultat (le document doit être produit dans le cadre d’une mission de service public) et enfin sur les conditions de production du résultat (collaboration publique ou privée). Il existe également de nombreuses exceptions prévues par la loi qui conduisent à une interdiction totale d’accès et de réutilisation (documents secret défense etc.). On trouvera sur ces supports le détail des exceptions liées aux données environnementales et personnelles.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://fredoc2018.sciencesconf.org/data/pages/Open_data_cadre_juridique_N_Gandon.pdf">Résultats de la recherche et open data : le cadre juridique</a></p>
+<p class="admonition-title"><a class="reference external" href="https://fredoc2018.sciencesconf.org/data/pages/Open_data_cadre_juridique_N_Gandon.pdf">Résultats de la recherche et open data : le cadre juridique</a>  </p>
 <p>Nathalie Gandon, INRA<br />
 ANF  “Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se) réinventer”, 2018, Albi</p>
 </div>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/20181107_questions_juridiques_autour_de_l_ouverture_des_donnees_rbdd.pdf?515/adba03a95aa28dd17a08e0c052414e099ad26347">Questions juridiques autour de l’ouverture des données</a></p>
+<p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/20181107_questions_juridiques_autour_de_l_ouverture_des_donnees_rbdd.pdf?515/adba03a95aa28dd17a08e0c052414e099ad26347">Questions juridiques autour de l’ouverture des données</a>  </p>
 <p>Nathalie Le Ba (DAJ du CNRS)<br />
 ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données », 2018, Sète</p>
 </div>
@@ -420,7 +427,7 @@ Entré en vigueur le 25 mai 2018 dans toute l’Union européenne, le <a class="
 Les principes énoncés dans ce règlement doivent être connus et respectés, car ils s’appliquent aussi aux activités de recherche.  Le texte prévoit néanmoins un régime spécifique, dérogatoire offrant une large marge de manœuvre aux chercheurs pour l’utilisation des données personnelles dans le cadre d’un projet de recherche. (Voir l’article de Lionel Maurel : <a class="reference external" href="https://scinfolex.com/2018/07/18/donnees-personnelles-et-recherche-scientifique-quelle-articulation-dans-le-rgpd/">Données personnelles et recherche scientifique : quelle articulation dans le RGPD ?</a>)</p>
 <p>On trouvera dans l’intervention de Patrick Guillot (CIL des établissements universitaires de la ComUE Université Grenoble Alpes), une présentation riche et complète comprenant entre autres, un rappel des définitions et principes fondamentaux de la loi, une définition des “données à caractère personnel”, un historique des principaux textes et un quiz de questions-réponses (vrai/faux) très utile pour comprendre l’évolution de la réglementation.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_guillot_1.pdf">Prise en compte des données personnelles - Évolution de la règlementation</a></p>
+<p class="admonition-title"><a class="reference external" href="https://qer-2017.sciencesconf.org/data/program/2017_ANF_tracabilite_guillot_1.pdf">Prise en compte des données personnelles - Évolution de la règlementation</a>  </p>
 <p>Patrick Guillot, Univ. Grenoble Alpes<br />
 ANF “Traçabilité des activités de recherche et gestion des connaissances”, Réseau Qualité en Recherche, 2017, Grenoble</p>
 </div>
@@ -446,7 +453,7 @@ Il s’agit aussi en particulier de mettre l’accent sur le renforcement de la 
 <p>Cette journée s’appuie plus spécifiquement sur les notions de pérennisation et d’interopérabilité des données dans les projets de recherche, et cherche à en comprendre les facteurs ressorts de réussite et les points sensibles à surveiller.<br />
 Elle a pour ambition d’analyser les complémentarités des expériences au travers des métiers représentés par les réseaux ; de formuler des points de convergence de bonnes pratiques et d’accroître les échanges entre les réseaux de la MI sur des questions à forts enjeux pour l’évolution de nos métiers.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://gt-donnees2018.sciencesconf.org/">Interopérabilité et pérennisation des données de la recherche : Comment FAIR en pratique ? Retour d’expérience</a></p>
+<p class="admonition-title"><a class="reference external" href="https://gt-donnees2018.sciencesconf.org/">Interopérabilité et pérennisation des données de la recherche : Comment FAIR en pratique ? Retour d’expérience</a>  </p>
 <p>Atelier Données Inter réseau, 2018, Paris</p>
 </div>
 </div>
@@ -459,7 +466,7 @@ Ce guide a pour objectif de fournir des recommandations et bonnes pratiques pouv
 <p>Alain Rivet, Responsable qualité et système d’information au CERMAV, illustre cette question à l’occasion de l’ANF Données 2016 en  présentant la problématique de la donnée dans la perspective de la traçabilité des activités de recherche. Il pose la question du défi organisationnel de la gestion des données dans les laboratoires et les établissements face aux contraintes de plus en plus fortes des autorités de tutelles. Il souligne ainsi le besoin d’optimiser le fonctionnement de nos laboratoires, la solution étant de s’appuyer sur des référentiels comme la norme ISO 9001. La nécessaire confiance en la qualité d’une recherche suppose une maitrise de l’ensemble des moyens d’acquisition, de traitement, de diffusion et de conservation des résultats.</p>
 <p>Nos tutelles, en réponse à cette problématique d’intégrité scientifique, ont mis en place une stratégie nationale avec la rédaction début 2016 d’une charte de déontologie des métiers de la recherche qui insiste sur l’importance de permettre la traçabilité des travaux expérimentaux et la conservation des données de la recherche. Une bonne gestion des données de la recherche apparait comme une réponse au problème soulevé.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://anfdonnees2016.sciencesconf.org/data/pages/donnees_renatis_Al1_Rivet_2016.pdf">Activités de recherche et gestion des connaissances</a></p>
+<p class="admonition-title"><a class="reference external" href="https://anfdonnees2016.sciencesconf.org/data/pages/donnees_renatis_Al1_Rivet_2016.pdf">Activités de recherche et gestion des connaissances</a>  </p>
 <p>Alain Rivet, CNRS_CERMAV<br />
 ANF “Participer à l’organisation du management des données de la recherche : gestion de contenu et documentation des données”, 2016, Paris<br />
 Voir aussi les vidéos :
@@ -552,22 +559,33 @@ Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Ausso
               </div>
               
         
-        <div class='prev-next-bottom'>
-            
-    <a class='left-prev' id="prev-link" href="00-introduction.html" title="previous page">Guide de bonnes pratiques sur la gestion des données de la recherche</a>
-    <a class='right-next' id="next-link" href="02-concevoir_planifier.html" title="next page"><span class="section-number">2. </span>Concevoir et planifier</a>
-
+            <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="00-introduction.html" title="précédent page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">précédent</p>
+            <p class="prev-next-title">Guide de bonnes pratiques sur la gestion des données de la recherche</p>
         </div>
+    </a>
+    <a class='right-next' id="next-link" href="02-concevoir_planifier.html" title="suivant page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">suivant</p>
+        <p class="prev-next-title"><span class="section-number">2. </span>Concevoir et planifier</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
         
         </div>
     </div>
-    <footer class="footer mt-5 mt-md-0">
+    <footer class="footer">
     <div class="container">
       <p>
         
           Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
         
-          Dernière mise à jour le 06 juin 2021.<br/>
+          Dernière mise à jour le 08 déc. 2021.<br/>
           <div class="extra_footer">
             <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
@@ -583,8 +601,7 @@ Ce guide est mis à disposition selon les termes de la Licence <a href="https://
       </div>
     </div>
   
-  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
-  
   </body>
 </html>
