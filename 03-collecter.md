@@ -278,16 +278,14 @@ PaulGuy Dupré Inserm & Claudia Gallina-Muller - Inserm DSI
 La problématique des cahiers de laboratoire électroniques s'est intensifiée ces dernières années. Ainsi, le CNRS a lancé en 2020 une réflexion sur la mise en place de cahiers de laboratoires électroniques suite aux besoins remontés par les agents en laboratoire en alternative au cahier de laboratoire national (format papier). Cela s'est traduit par 
 le déploiement d'une enquête destinée à réaliser un état des lieux sur l'utilisation des cahiers de lboratoire dans les unités de rehcerhce et à définir les attentes et les craintes des personnels de la recherche sur ce sujet.
 
-```{admonition} [Analyse de l’enquête sur les cahiers de laboratoire 
-électroniques au CNRS](https://www.datacc.org/wp-content/uploads/2021/03/analyse_enquete_cle_2020-1.pdf)  
+```{admonition} [Analyse de l’enquête sur les cahiers de laboratoire électroniques au CNRS](https://www.datacc.org/wp-content/uploads/2021/03/analyse_enquete_cle_2020-1.pdf)  
 :class: seealso
 Nathalie Léon – Domenico Libri, CNRS    
  ```
 
 Les travaux se sont poursuivis courant 2021 avec le groupe de travail « Cahier de laboratoire électronique » (ELN) du comité pour la science ouverte (CoSO). Le rapport présente une vision partagée sur la définition, le cadrage, les usages et le périmètre fonctionnel de l’ELN, qui doit pouvoir s’intégrer dans les environnements informatiques et institutionnels existants. Il émet un ensemble de recommandations sur les critères de choix d’un outil et intègre une liste comparative d'outils existants.
 
-```{admonition} [Rapport du Groupe de Travail sur les Cahiers de
-Laboratoire électroniques](https://www.ouvrirlascience.fr/wp-content/uploads/2022/01/Rapport_GT_ELN_v3.2-2022-01-04FINAL.pdf)  
+```{admonition} [Rapport du Groupe de Travail sur les Cahiers de Laboratoire électroniques](https://www.ouvrirlascience.fr/wp-content/uploads/2022/01/Rapport_GT_ELN_v3.2-2022-01-04FINAL.pdf)  
 :class: seealso
 Membres du GT    
 "Ouvrir la science", MESRI, 2021
