@@ -24,7 +24,7 @@ Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et final
               
 ## Publier les métadonnées
 
-**Utilisation de catalogues de métadonnées**
+###Utilisation de catalogues de métadonnées
 
 Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
 
@@ -37,18 +37,6 @@ Elle fournit des informations concernant l'identification, l'étendue, la qualit
 
 En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est une des références importante pour décrire et représenter les jeux de données géolocalisés et constituer un catalogue qui inventorie les différents jeux de données d'un Institut.
 
-Grace a l'utilisation de protocoles d'échanges normalisés, ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres. Cette infrastructure réseau de catalogues de données est notamment demandée par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
-
-Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), [WMS (Web Map Service) pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/).
-L'utilisation de ce protocole WMS permet d'échanger les données de manière interopérable entre les logiciels, pour représenter les points de mesures sur une carte, et pouvoir ainsi accéder aux données brutes associées à un point de mesure géoréférencé.
-
-L'utilisation des logiciels GeoNetwork et GeoServer a fait l'objet de deux actions de formation nationales (ANF) du réseau SIST pour laquelle on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/)
-
-```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)    
-:class: seealso   
-J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer    
-ANF SIST 2017 Fréjus , ANF SIST 2018 Autrans   
-```
 
 Ce logiciel de catalogage GeoNetwork est par ailleurs utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC utilisés.
 
@@ -108,6 +96,52 @@ Julien Barde (IRD), Emmanuel Blondel (FAO) et Wilfried Heintz (INRAE) : geoflow
 
 [Séminaire SIST20 Lyon](https://sist20.sciencesconf.org/resource/page/id/5)
 ```
+
+
+## Diffuser les données avec des protocoles interopérables
+
+Outre les formats de fichiers qui doivent répondre à des standards ouverts pour être partagés et réutilisables, il est également nécessaire de se préoccuper de les diffuser par des protocoles d'échanges standards interopérables.
+Dans les sciences environnementales l'[OGC](https://www.ogc.org/standards) est en charge de déterminer un certains nombre de standards ouverts.
+
+
+### diffusion des métadonnées de catalogue avec CSW 
+
+Grace a l'utilisation de protocoles d'échanges normalisés, le logiciel GeoNetwork permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres. Cette infrastructure réseau de catalogues de données est notamment demandée par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
+
+
+### données géolocalisées par le protocole WMS
+
+
+Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), [WMS (Web Map Service) pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/).
+
+L'utilisation du protocole WMS permet d'échanger les données de manière interopérable entre les logiciels, pour représenter les points de mesures sur une carte, et pouvoir ainsi accéder aux données brutes associées à un point de mesure géoréférencé.
+
+L'utilisation des logiciels GeoNetwork et GeoServer fait partie des recommandations du réseau SIST en matiere de gestions des données, et a fait l'objet de deux actions de formation nationales (ANF) pour lesquelles on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/)
+
+```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)    
+:class: seealso   
+J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer    
+ANF SIST 2017 Fréjus , ANF SIST 2018 Autrans   
+```
+
+On peut ainsi diffuser des données géolocalisées par le protocole WMS de l'OGC avec des logiciels comme GeoServer ou GeoCMS.
+Le logiciel GeoCMS est un système de gestion de contenu géospatial où les objets (utilisateurs, images, articles, blogs..) peuvent avoir une position en latitude et en longitude pour être affichés sur une carte interactive en ligne. En outre, les cartes en ligne renvoient à des pages d'information sur les données représentées.
+
+Un GeoCMS peut avoir une carte des utilisateurs enregistrés permettant de construire des communautés géographiquement, en regardant l'emplacement des utilisateurs. L'utilisation de wikis pour décrire les couches géographiques constitue un moyen simple de résoudre le problème des métadonnées géographiques. 
+
+Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) nous indiquent comment ils ont utilisé diverses technologies interopérables pour diffuser les données de leur plateforme DataECLA
+
+```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](lien a rajouter)
+Retour d'expérience sur la construction de la plateforme de données et de visualisation au pôle ECLA (ECosystèmes Lacustres). Les outils GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart ont été testés. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers nous avons rajouté à cette palette d'outils des dashboards python.
+:class: seealso 
+Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) 
+[Séminaire SIST 2021](https://sist20.sciencesconf.org/)  
+```
+
+### données temporelles de capteurs par le protocole SOS
+
+istSOS
+52North
 
 
 
@@ -502,24 +536,6 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 * [Utilisation de nakala pour deposer et diffuser les donnees de la recherche](https://doranum.fr/2016/10/12/nakala-plate-forme-pour-deposer-documenter-et-diffuser-les-donnees-de-la-recherche/) 
 * [Pour découvrir pas à pas l'interface de NAKALA ainsi que les modalités de l'authentification](https://www.huma-num.fr/ressources/videos )
 
-
-### Diffuser des données géolocalisées par le protocole WMS
-
-Outre les entrepots de données institutionnels, qui permettent de fournir des fichiers de données avec leurs métadonnées, lorque les données sont gérées et mises à disposition par ds unités de recherche, il est également nécessaire de se préoccuper de les diffuserpar des protocoles standards interopérables.
-
-On peut ainsi également diffuser des données géolocalisées par le protocole WMS de l'OGC avec des logiciels comme GeoServer ou GeoCMS.
-Le logiciel GeoCMS est un système de gestion de contenu géospatial où les objets (utilisateurs, images, articles, blogs..) peuvent avoir une position en latitude et en longitude pour être affichés sur une carte interactive en ligne. En outre, les cartes en ligne renvoient à des pages d'information sur les données représentées.
-
-Un GeoCMS peut avoir une carte des utilisateurs enregistrés permettant de construire des communautés géographiquement, en regardant l'emplacement des utilisateurs. L'utilisation de wikis pour décrire les couches géographiques constitue un moyen simple de résoudre le problème des métadonnées géographiques. 
-
-Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) ont utilisé diverses technologies interopérables pour diffuser les données de leur plateforme DataECLA
-
-```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](lien a rajouter)
-Retour d'expérience sur la construction de la plateforme de données et de visualisation au pôle ECLA (ECosystèmes Lacustres). Les outils GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart ont été testés. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers nous avons rajouté à cette palette d'outils des dashboards python.
-:class: seealso 
-Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) 
-[Séminaire SIST 2021](https://sist20.sciencesconf.org/)  
-```
 
 
 ### Déposer/Publier dans des entrepôts institutionnels
