@@ -104,12 +104,16 @@ Outre les formats de fichiers qui doivent répondre à des standards ouverts pou
 Dans les sciences environnementales l'[OGC](https://www.ogc.org/standards) est en charge de déterminer un certains nombre de standards ouverts.
 
 
-### diffusion des métadonnées de catalogue avec CSW 
+### diffusion des métadonnées de catalogue par le protocole CSW 
 
-Grace a l'utilisation de protocoles d'échanges normalisés, le logiciel GeoNetwork permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres. Cette infrastructure réseau de catalogues de données est notamment demandée par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
+CSW "Catalogue service for the Web" est un exemple de protocole standardisé définit par l'OGC dont l'objectif est de pouvoir réaliser des catalogues interopérables de données. Ces catalogues permettent d'afficher, rechercher et découvrir des ressources disponibles sur différents  critères avancées le titre, le système de coordonnées, le type de données,…) recherche dans une zone (spatio-temporelle), suivant une thématique issue de thesaurus disciplinaires (météorologie, géologie, océanograpie, etc.) 
+
+Les champs du catalogue sont normalisés selon les normes ISO 19115/19139, et les données sont transmises sous forme de contenu XML.
+
+Grace a l'utilisation de ce protocole d'échange normalisé, le logiciel GeoNetwork permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web). Il permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres. Cette infrastructure réseau de catalogues de données est notamment demandée par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
 
 
-### données géolocalisées par le protocole WMS
+### diffusion de données géolocalisées par le protocole WMS
 
 
 Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), [WMS (Web Map Service) pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/).
