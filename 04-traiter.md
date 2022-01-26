@@ -338,16 +338,22 @@ La qualité des données est un thème transversal aux métiers de la recherche.
 - qu'est ce qu'une donnée de qualité ? 
 - quelle organisation faut-il mettre en place pour arriver à obtenir des données de qualité ?
 
-Le groupe de travail "Atelier données" de la MITI a consacré [une journée d'exposés sur la qualité des données ](https://gt-atelier-donnees.miti.cnrs.fr/index.html)
-
-
-Par nature, la recherche n’est pas répétitive, mais riche en incertitudes contrairement à un processus industriel.  La confiance
+Par ailleurs, la recherche n’est pas répétitive, mais riche en incertitudes contrairement à un processus industriel.  La confiance
 dans la qualité d’une recherche consiste donc à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en
 obtenant le même résultat par des chercheurs différents à des moments différents. Ainsi, une donnée est fiable si, dans des conditions
 données, aucune déviation n’est constatée en fonction du temps, durant un laps de temps donné.  Il est donc essentiel de s’assurer
 que l’ensemble des activités de recherche soit maîtrisé.
 
-Le contrôle sur les équipements est le premier pas vers la traçabilité des données comme l'illustre l'exposé suivant :
+Le groupe de travail "Atelier données" de la MITI a consacré [une journée d'exposés sur la qualité des données ](https://gt-atelier-donnees.miti.cnrs.fr/index.html).
+
+La synthèse de cette journée "Qualité" a été rédigée par C. Hadrossek
+  
+```{admonition} [ Synthèse du Webinaire (Christine Hadrossek) (pdf) ](https://mi-gt-donnees.pages.math.unistra.fr/site/download/Synth%C3%A8se_webinaire_qualite.pdf)   
+:class: seealso
+Christine Hadrossek
+[Webminaire Qualité 2021](https://gt-atelier-donnees.miti.cnrs.fr/index.html).   
+```
+
 
 ### la qualité des données en sciences environnementales 
 
