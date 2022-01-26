@@ -85,17 +85,30 @@ C. Bernard,   J. Fabre, et O. Lobry
 ```
 
 De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de bibliothèques de programmation écrites en "R", destinées
-à faciliter l'insertion de métadonnées dans les catalogues "GeoNetwork". Ces développements ont été présentés lors d'un atelier organisé par le réseau RBDD et SIST :
+à faciliter l'insertion de métadonnées dans les catalogues "GeoNetwork". 
+
+Ces développements ont été présentés lors d'un atelier organisé par le réseau RBDD et SIST :
 * [Atelier "Métadonnées et R"](https://sist.cnrs.fr/les-formations/2018-atelier-metadonnees-et-r)   
   - Écrire et Lire des métadonnées avec la librairie R *geometa*  
   - Gérer des données dans GeoServer avec la librairie R *geosapi*   
   - Gérer des métadonnées dans GeoNetwork avec la librairie R *geonapi*   
+
+Le développement toujours actif fait l'objet d'un  intérêt suivi :
 
 ```{admonition} [GeoFlow :  workflow R pour gérer les données spatiales](https://sist19.sciencesconf.org/data/pages/SIST19_J_Barde.pdf)   
 :class: seealso
 Julien Barde,   Emmanuel Blondel et  Wilfried Heintz  
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
+
+```{admonition} [Diffuser ses (méta)données spatiales avec R geoflow](https://sist20.sciencesconf.org/data/pages/FAIR_Geoflow_2021.pdf)
+:class: seealso
+Julien Barde (IRD), Emmanuel Blondel (FAO) et Wilfried Heintz (INRAE) : geoflow
+[vidéo GeoFlow](https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_julien_barde_emmanuel_blondel_et_wilfried_heintz_geoflow_un_workflow_pour_une_gestion_simple_fair_et_durable_des_donnees.60389)
+
+[Séminaire SIST20 Lyon](https://sist20.sciencesconf.org/resource/page/id/5)
+```
+
 
 
 ### La directive européenne "INSPIRE"
@@ -446,15 +459,16 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 
 ### Diffuser des données géolocalisées par le protocole WMS
 
-Outre les entrepots de données institutionnels , qui permettent de fournir des fichiers de données avec leurs métadonnées, on peut également diffuser des données géolocalisées par le protocole WMS de l'OGC
-Le logiciel GeoCMS est un système de gestion de contenu géospatial où les objets (utilisateurs, images, articles, blogs..) peuvent avoir une position en latitude et en longitude pour être affichés sur une carte interactive en ligne. En outre, les cartes en ligne renvoient à des pages d'information (essentiellement des pages wiki) sur les données représentées.
+Outre les entrepots de données institutionnels, qui permettent de fournir des fichiers de données avec leurs métadonnées, lorque les données sont gérées et mises à disposition par ds unités de recherche, il est également nécessaire de se préoccuper de les diffuserpar des protocoles standards interopérables.
+
+On peut ainsi également diffuser des données géolocalisées par le protocole WMS de l'OGC avec des logiciels comme GeoServer ou GeoCMS.
+Le logiciel GeoCMS est un système de gestion de contenu géospatial où les objets (utilisateurs, images, articles, blogs..) peuvent avoir une position en latitude et en longitude pour être affichés sur une carte interactive en ligne. En outre, les cartes en ligne renvoient à des pages d'information sur les données représentées.
 
 Un GeoCMS peut avoir une carte des utilisateurs enregistrés permettant de construire des communautés géographiquement, en regardant l'emplacement des utilisateurs. L'utilisation de wikis pour décrire les couches géographiques constitue un moyen simple de résoudre le problème des métadonnées géographiques. 
 
-Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) : DataECLA ont utilisé cett technologie pour diffuser les données de leur plateforme DataECLA
+Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) ont utilisé diverses technologies interopérables pour diffuser les données de leur plateforme DataECLA
 
 ```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](lien a rajouter)
-
 Retour d'expérience sur la construction de la plateforme de données et de visualisation au pôle ECLA (ECosystèmes Lacustres). Les outils GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart ont été testés. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers nous avons rajouté à cette palette d'outils des dashboards python.
 :class: seealso 
 Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) 
