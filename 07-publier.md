@@ -60,11 +60,11 @@ Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et e
 [Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)    
 ```
 
-**l'API de Geonetwork pour des échanges interopérables**
+- **l'API de Geonetwork pour des échanges interopérables**
 
-**Le recueil des métadonnées** ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d'automatiser la constitution des catalogues par programme. Plusieurs développements se sont intéressés à l'utilisation de l'interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage "R". 
+Le recueil des métadonnées, ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d'automatiser la constitution des catalogues par programme. Plusieurs développements se sont intéressés à l'utilisation de l'interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage "R". 
 
-C. Bernard, J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à l'unité.
+C. Bernard, J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à leur unité.
 
 ```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf)  
 :class: seealso
@@ -81,7 +81,6 @@ Ces développements ont été présentés lors d'un atelier organisé par le ré
   - Gérer des données dans GeoServer avec la librairie R *geosapi*   
   - Gérer des métadonnées dans GeoNetwork avec la librairie R *geonapi*   
 
-Le développement toujours actif fait l'objet d'un  intérêt suivi :
 
 ```{admonition} [GeoFlow :  workflow R pour gérer les données spatiales](https://sist19.sciencesconf.org/data/pages/SIST19_J_Barde.pdf)   
 :class: seealso
@@ -89,7 +88,9 @@ Julien Barde,   Emmanuel Blondel et  Wilfried Heintz
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
-```{admonition} [Diffuser ses (méta)données spatiales avec R geoflow](https://sist20.sciencesconf.org/data/pages/FAIR_Geoflow_2021.pdf)
+Le développement de GeoFlow, toujours actif fait l'objet d'un  intérêt suivi par le réseau SIST. Dans cette présentation les auteurs nous montrent Les concepts de geoflow et le schéma d’un workflow pour préparer et insérer des métadonnées.
+
+```{admonition} [Geoflow : un workflow pour une gestion simple, FAIR et durable des données](https://sist20.sciencesconf.org/data/pages/FAIR_Geoflow_2021.pdf)
 :class: seealso
 Julien Barde (IRD), Emmanuel Blondel (FAO) et Wilfried Heintz (INRAE) : geoflow
 [vidéo GeoFlow](https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_julien_barde_emmanuel_blondel_et_wilfried_heintz_geoflow_un_workflow_pour_une_gestion_simple_fair_et_durable_des_donnees.60389)
