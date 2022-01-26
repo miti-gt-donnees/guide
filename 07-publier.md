@@ -159,6 +159,17 @@ Les politiques opérationnelles de ces pôles sont suivies par le réseau SIST o
 Par ailleurs, de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du [British Oceanographic Data Center : BODC](https://www.bodc.ac.uk/).
 Le projet européen Seadatanet vise à élaborer et mettre en place un portail européen d'accès aux données marines en se basant sur de nombreux standards rendant les données FAIR. 
 
+<ajoutML>
+Le catalogage des données selon des domaines du système Terre, utilisant des thesaurus disciplinaires sont au coeur de la démarche des pôles de données . Il est en effet nécessaire de produire un vocabulaire commun pour permettre la découverte homogène des données à l'aide des variables observées.
+C'est la démarche que nous présentent Véronique Chaffard et Charly Coussot pour la diffusion des données in-situ des surfaces continentales das le cadre du système d'information Theia/OZCAR
+
+```{admonition} [mise en œuvre des principes FAIR pour la diffusion des données in-situ des surfaces continentales: le système d'information Theia/OZCAR](https://sist20.sciencesconf.org/data/pages/SIST2021_Coussot_Chaffard_Theia_Ozcar.pdf)
+:class: seealso
+Charly Coussot, Véronique Chaffard
+[Séminaire SIST20 OSU Lyon 2020](https://sist20.sciencesconf.org/)   
+```
+</ajout>
+
 Seadatanet est un exemple d'envergure européenne pour la mise en place de standards d'interopérabilité. Il repose sur de nombreux vocabulaires contrôlés fournis par le BODC. Une présentation du projet Seadatanet a été faite par Michele Fichaut et Florence Conquet  
 
 ```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://nuage.osupytheas.fr/s/9iKa6GLzHGJ95Zz)
