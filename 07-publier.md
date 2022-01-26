@@ -24,7 +24,7 @@ Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et final
               
 ## Publier les métadonnées
 
-###Utilisation de catalogues de métadonnées
+### des catalogues de métadonnées
 
 Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
 
@@ -60,7 +60,7 @@ Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et e
 [Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)    
 ```
 
-**- Une API pour des échanges interopérables **
+**l'API de Geonetwork pour des échanges interopérables**
 
 **Le recueil des métadonnées** ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d'automatiser la constitution des catalogues par programme. Plusieurs développements se sont intéressés à l'utilisation de l'interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage "R". 
 
@@ -98,7 +98,7 @@ Julien Barde (IRD), Emmanuel Blondel (FAO) et Wilfried Heintz (INRAE) : geoflow
 ```
 
 
-## Diffuser les données avec des protocoles interopérables
+## Diffuser avec des protocoles interopérables
 
 Outre les formats de fichiers qui doivent répondre à des standards ouverts pour être partagés et réutilisables, il est également nécessaire de se préoccuper de les diffuser par des protocoles d'échanges standards interopérables.
 Dans les sciences environnementales l'[OGC](https://www.ogc.org/standards) est en charge de déterminer un certains nombre de standards ouverts.
@@ -138,12 +138,37 @@ Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER)
 [Séminaire SIST 2021](https://sist20.sciencesconf.org/)  
 ```
 
-### données temporelles de capteurs par le protocole SOS
+[ajout ML]
 
-istSOS
-52North
+### diffusion de données de capteurs par le protocole SOS
+
+Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs
+
+Elles se présentent fréquemment sous la forme de  séries temporelles. C'est à dire des valeurs échelonnées dans le temps afin depouvoir suivre leur évolution dans le temps.
 
 
+De nombreux standards sont édictés par l'OGC pour la gestion des données de capteurs : SWE, [O&M](http://www.opengeospatial.org/standards/om), SOS 
+
+SWE est l'acronyme de "_Sensor Web Enablement_" et comprend des formats normalisés et des interfaces de services Web dans le domaine des données de capteurs. Depuis 2003, un des objectifs de l'OGC est de rendre les données hétérogènes des capteurs (données d'imagerie satellitaire ou aéroportée,  capteurs de surveillance in situ, etc.) disponibles pour la découverte, l'accès et l'utilisation via des formats et des services Web interopérables. 
+
+Grâce aux formats et services normalisés, l'hétérogénéité et la complexité des différents types de capteurs et des résultats de mesure est cachée aux utilisateurs finaux. 
+
+En particulier, la [norme Observation & Measurement (O&M)](http://www.opengeospatial.org/standards/om) définit comment modéliser les observations et la norme SensorML (Sensor Model Language) peut être utilisée pour représenter les métadonnées sur le capteur d'observation lui-même. 
+
+"Sensor Observation Service" (SOS) est quant à lui le service d'observation des capteurs. C'est le service Web le plus connu qui permet d'accéder aux données stockées des capteurs.  SOS permet aux utilisateurs de demander des observations et les métadonnées associées des capteurs. Dans le contexte du cadre SWE, le service SOS représente le service de base pour accéder aux données des capteurs d'une manière interopérable et normalisée : http://www.opengeospatial.org/standards/sos,
+
+SOS fournit un ensemble d'opérations obligatoires ou facultatives, pour obtenir des informations sur les données, les capteurs  (GetCapabilities, DescribeSensor ), ainsi que les données elles mêmes (GetObservation)
+
+on trouvera un [résumé de ces différents standards, SWE, O&M et SOS, sur le support de formation de l'ANF SOS/52North du réseau SIST en 2021](https://sist.pages.in2p3.fr/anf21-sos52north/05_web-services/#sensor-observation-service) 
+
+SOS fait partie des standards recommandés par le réseau SIST qui à ce titre a mis en place 2 formations sur les 2 technologies logicielles qui implémentent ce protocole
+
+- *le logiciel istSOS*
+
+- *le logiciel 52North*
+
+
+[/ajout ML]
 
 ### La directive européenne "INSPIRE"
 
