@@ -231,25 +231,6 @@ De nombreux thesaurus existent dans divers domaines scientifiques. Par exemple, 
 - "[Inspire](https://www.eionet.europa.eu/gemet/en/inspire-themes/)" ou 
 - "[GEMET](https://www.eionet.europa.eu/gemet/en/themes/)". Ce dernier est un thésaurus documentaire multilingue développé et publié par l'Agence européenne pour l'environnement. 
 
-<ajout ML>
-Les thesaurus sont au coeur du besoin d'intéropérabilité sémantique : le besoin est d'associer une signification aux données, et les positionner dans un domaine de connaissances. 
-Cela nécessite :
-- le développement de vocabulaires et de schémas pour décrire les données et les liens entre les données
-- décrire les données avec des métadonnées et 
-- les annoter avec des vocabulaires formalisés et partagés
-
-Ce questionnement "Quels schéma de métadonnées et quels vocabulaires utiliser ?" est au coeur de la démarche de l'IR "Data Terra" et de ses pôles de données, comme nous l'explique J-C Desconnet au séminaire SIST 2020 à Lyon, puisque l'objectif est de découvrir les
-données en naviguant dans les compartiments de la Terre, les capteurs et les propriétés observées.
-Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés dans diverses disciplines, et nous donnes les bonnes pratiques de création des terminologies
-
-```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist20.sciencesconf.org/data/pages/L_interope_rabilite_se_mantique_dans_les_po_les_de_donne_es.pdf)
-:class: seealso
-[vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
- J-C Desconnet , Institut de l’information scientifique et technique   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2018](https://sist20.sciencesconf.org/)  
-```
-
-</ajout>
 
 Cependant selon le domaine scientifique et dans certaines disciplines, lorsque les standards, thesaurus et vocabulaires contrôlés n'existent pas, ils doivent alors etre créés. Les communautés scientifiques peuvent alors se saisir d'outils tels qu'[_opentheso_](https://opentheso.hypotheses.org/) et thésauform pour répondre aux besoins de normalisation.
 
@@ -696,5 +677,27 @@ Cet atelier technique est organisé selon le plan suivant :
   - RDFizer les métadonnées ou les données
   - Installation de Fuseki
   - Exemples d'exploitation du Sparql Endpoint
+
+
+<ajout ML>
+L'intéropérabilité sémantique est au coeur de la démarche des pôles de données environnementaux :  le besoin est d'associer une signification aux données, et les positionner dans un domaine de connaissances. 
+
+Cela nécessite :
+- le développement de vocabulaires et de schémas pour décrire les données et les liens entre les données
+- décrire les données avec des métadonnées et 
+- les annoter avec des vocabulaires formalisés et partagés
+
+Ce questionnement "Quels schéma de métadonnées et quels vocabulaires utiliser ?" est au coeur de la démarche de l'IR "Data Terra" et de ses pôles de données, comme nous l'explique J-C Desconnet au séminaire SIST 2020 à Lyon, puisque l'objectif est de découvrir les
+données en naviguant dans les compartiments de la Terre, les capteurs et les propriétés observées.
+Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés dans diverses disciplines, et nous donnes les bonnes pratiques de création des terminologies
+
+```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist20.sciencesconf.org/data/pages/L_interope_rabilite_se_mantique_dans_les_po_les_de_donne_es.pdf)
+:class: seealso
+[vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
+ J-C Desconnet , Institut de l’information scientifique et technique   
+[Séminaire SIST20 webinaire à l'OSU de Lyon, 2018](https://sist20.sciencesconf.org/)  
+```
+
+</ajout>
 
 Tous les éléments exposés dans ce chapitre sont nécessaires et importants pour mettre en place une bonne publication et diffusion des données de la science.
