@@ -206,15 +206,45 @@ Cela nécessite :
 - décrire les données avec des métadonnées et 
 - les annoter avec des vocabulaires formalisés et partagés
 
-Ce questionnement Quels schéma de métadonnées et quels vocabulaires utiliser ? est au coeur de la démarche de l'IR "Data Terra" et de ses pôles de données, comme nous l'explique J-C Desconnet au séminaire SIST 2020 à Lyon.
+Ce questionnement "Quels schéma de métadonnées et quels vocabulaires utiliser ?" est au coeur de la démarche de l'IR "Data Terra" et de ses pôles de données, comme nous l'explique J-C Desconnet au séminaire SIST 2020 à Lyon, puisque l'objectif est de découvrir les
+données en naviguant dans les compartiments de la Terre, les capteurs et les propriétés observées.
+Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés dans diverses disciplines, et nous donnes les bonnes pratiques de création des terminologies
 
-```{admonition} [: L'interopérabilité sémantique dans les pôles de données](https://sist20.sciencesconf.org/data/pages/L_interope_rabilite_se_mantique_dans_les_po_les_de_donne_es.pdf)
+```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist20.sciencesconf.org/data/pages/L_interope_rabilite_se_mantique_dans_les_po_les_de_donne_es.pdf)
 :class: seealso
 [vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
  J-C Desconnet , Institut de l’information scientifique et technique   
 [Séminaire SIST20 webinaire à l'OSU de Lyon, 2018](https://sist20.sciencesconf.org/)  
 ```
 
+Dans la même problématique de la gestion des données environnementales au niveau national, R. Moreno et K. Ramage nous exposent le Projet "Gaia Data", qui est une Infrastructure distribuée de données et services pour l'observation et la modélisation du système Terre. Ce projet "Gaia Data" est porté par 3 Infrastructures de Recherche numériques du domaine « système Terre et Environnement »
+- Data Terra (données observations du système Terre),
+- CLIMERI (données simulations climatiques),
+- PNDB (données biodiversité)
+
+L'objectif est de mettre en œuvre une plateforme intégrée de données et de services distribués soutenue par les centres d’expertise scientifique du domaine
+- Développer des services accessibles via des portails permettant des recherches et traitements inter et transdisciplinaires à partir de données multi-source acquises par satellites, navires, avions, drones, submersibles, ballons, dispositifs in situ, inventaires, observatoires et expérimentation, ainsi que, sur des données issues de simulations de référence
+- Co-construire, organiser et adapter les services avec et pour les communautés scientifiques du domaine système Terre et environnement, les acteurs publics et socioéconomiques
+
+Les services prévus seront :
+- Un Service de Découverte, d'Accès et de Gestion des données
+  - Catalogue (métadonnées, vocabulaires, ontologies), systèmes d’accès et de recherche
+  - Archive long terme, entrepôts, DOI, Services avancés de visualisation
+  - Aide à la collecte des données des observatoires
+
+- Un Services d’analyse des données à la demande & Virtual Research environnement
+  - Grille de données, cloud, portail connaissances, SSO, Métriques, support utilisateurs & formation
+  - Interface interactive
+  - Exécution par les utilisateurs Services 
+  - VRE : définition et exécution de workflows de traitements spécifiques des domaines 
+  - Travail collaboratif, bac à sable, développement et exécution d’algorithmes
+
+```{admonition} [l'IR Data Terra et le projet Gaia-Data](https://sist20.sciencesconf.org/data/pages/Data_Terra_GAIA_Data.pdf)
+:class: seealso
+[vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
+ Richard Moreno et Karim Ramage (direction technique Data Terra)   
+[Séminaire SIST20 webinaire à l'OSU de Lyon, 2018](https://sist20.sciencesconf.org/)  
+```
 
 </ajout>
 
