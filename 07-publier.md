@@ -2,9 +2,13 @@
 # Publier et diffuser
 
 
-Cette dernière étape d’un projet de  recherche représente en quelque sorte la finalité de toute une politique de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient bien accessibles et réutilisables selon des formats et des processus interopérables.
+Cette dernière étape dans un projet de recherche représente en quelque sorte la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient correctement accessibles et réutilisables selon des formats et des processus interopérables.
 
-L’accompagnement des  réseaux métiers s’exerce sur le processus de publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que sur la documentation des données avec des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
+L’accompagnement des  réseaux métiers s’exerce  :
+- sur le processus de publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que 
+- sur la documentation des données avec des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
+
+Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
 
 Cette étape de publication et de diffusion est en outre accompagnée désormais d'une action nécessaire d'identification des données via des identifiants pérennes lors du dépôt dans des entrepôts de données.
 
@@ -13,7 +17,7 @@ Cette étape de publication et de diffusion est en outre accompagnée désormais
 
 **Finaliser le Plan de Gestion de Données**
 
-Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et finaliser la rédaction du plan de gestion de données. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
+Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et finaliser la rédaction du plan de gestion de données qui a été normalement initié en début de projet. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
@@ -22,7 +26,7 @@ Pour rappel, en fin de projet, il ne faut pas oublier de mettre à jour et final
 Les catalogues de métadonnées représentent un moyen cohérent et rigoureux pour décrire et publier des jeux de données. Ils permettent de faciliter la recherche et l'identification des données (F de FAIR).
 
 Pour être interopérables, ces catalogues s'appuient en général sur des normes pour représenter les métadonnées.
-Par exemple, dans les sciences de  l'environnement les normes ISO 19115 et ISO 19139 sont des références pour représenter  l'information géographique à l'aide de métadonnées dans les domaines où les données sont géospatialisées.
+Par exemple, dans les sciences de  l'environnement, les normes ISO 19115 et ISO 19139 sont des références pour représenter  l'information géographique à l'aide de métadonnées dans les domaines où les données sont géospatialisées.
 
 - L'ISO 19115-1 définit le schéma requis pour décrire des informations géographiques et des services au moyen de métadonnées. 
 Elle fournit des informations concernant l'identification, l'étendue, la qualité, les aspects spatiaux et temporels, le contenu, la référence spatiale, la représentation des données, la distribution et d'autres propriétés des données géographiques numériques et des services.
@@ -30,21 +34,46 @@ Elle fournit des informations concernant l'identification, l'étendue, la qualit
 
 En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est une des références importante pour décrire et représenter les jeux de données géolocalisés et constituer un catalogue qui inventorie les différents jeux de données d'un Institut.
 
-Grace a l'utilisation de protocoles d'échanges normalisés, ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres, réseau notamment demandé par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
+Grace a l'utilisation de protocoles d'échanges normalisés, ce logiciel permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web) et permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres. Cette infrastructure réseau de catalogues de données est notamment demandée par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
 
-Le logiciel GeoNetwork utilise, en outre, le protocole [WMS (Web Map Service) de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/), ce qui permet de représenter les points de mesures sur une carte et de pouvoir accéder aux données brutes associées à un point de mesure géoréférencé.
+Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), [WMS (Web Map Service) pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/).
+L'utilisation de ce protocole WMS permet d'échanger les données de manière interopérable entre les logiciels, pour représenter les points de mesures sur une carte, et pouvoir ainsi accéder aux données brutes associées à un point de mesure géoréférencé.
 
-L'utilisation des logiciels GeoNetwork et GeoServer a été traitée par une action de formation ANF du réseau SIST pour laquelle on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/anf-2017-1)  
+L'utilisation des logiciels GeoNetwork et GeoServer a fait l'objet de deux actions de formation nationales (ANF) du réseau SIST pour laquelle on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/)
 
 ```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)    
 :class: seealso   
 J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer    
-ANF SIST 2017 Fréjus    
+ANF SIST 2017 Fréjus , ANF SIST 2018 Autrans   
 ```
 
-Le recueil des métadonnées ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d'automatiser la constitution des catalogues. Plusieurs développements se sont intéressés à l'utilisation de l'interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage "R". 
+Ce logiciel de catalogage GeoNetwork est par ailleurs utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC utilisés.
 
-C. Bernard J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à l'unité.
+```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
+:class: seealso
+Michael Treguer  
+[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
+```
+A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues "geonetwork" très utiles pour inventorier les jeux de données disponibles dans les unités de recherche :
+ - [portail de données OSU Oreme](<https://sig.oreme.org/geonetwork>)
+ - [portail de données Indigeo](<http://portail.indigeo.fr/geonetwork>)
+ - [portail de données OSU Pytheas](<https://dataset.osupytheas.fr/geonetwork>)
+
+
+D'autres OSU se sont engagés dans un développement particulier d'un catalogue de données. B. Debray nous présente le projet "DataOSU" à l'Observatoire de Besançon destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php). Il décrit toute l'organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à assurer l'interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF
+
+
+```{admonition} [Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf)   
+:class: seealso
+Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et environnement, Molécules  
+[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)    
+```
+
+**- Une API pour des échanges interopérables **
+
+**Le recueil des métadonnées** ainsi que la rédaction et la mise à jour des métadonnées dans des fiches adaptées sont souvent ressentis comme contraignants. Cependant le logiciel GeoNetwork propose une interface de programmation (API) qui permet d'automatiser la constitution des catalogues par programme. Plusieurs développements se sont intéressés à l'utilisation de l'interface de programmation (API) de Geonetwork pour pouvoir insérer automatiquement des métadonnées dans les fiches avec des programmes écrits en langage "R". 
+
+C. Bernard, J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à l'unité.
 
 ```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf)  
 :class: seealso
@@ -65,27 +94,6 @@ Julien Barde,   Emmanuel Blondel et  Wilfried Heintz
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
-Ce logiciel de catalogage est utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC utilisés.
-
-```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
-:class: seealso
-Michael Treguer  
-[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
-```
-
-A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues "geonetwork" très utiles pour inventorier les jeux de données disponibles dans les unités de recherche :
- - [portail de données OSU Oreme](<https://sig.oreme.org/geonetwork>)
- - [portail de données Indigeo](<http://portail.indigeo.fr/geonetwork>)
- - [portail de données OSU Pytheas](<https://dataset.osupytheas.fr/geonetwork>)
-
-B. Debray nous présente le projet DataOSU à l'Observatoire de Besançon destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php). Il décrit toute l'organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à assurer l'interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF
-
-
-```{admonition} [Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf)   
-:class: seealso
-Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et environnement, Molécules  
-[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)    
-```
 
 ### La directive européenne "INSPIRE"
 
@@ -108,7 +116,7 @@ Frédocs2013 -7 au 10 octobre 2013, Aussois
 
 **Les pôles de données nationaux en environnement**
 
-Les catalogues et portails d'accès aux données se matérialisent également au niveau national où une infrastructure de recherche (IR) Data terra a été créée pour accéder aux données spatiales et in situ du système Terre.
+L'établissement de catalogues et de portails d'accès aux données se matérialisent également au niveau national où une infrastructure de recherche (IR) Data terra a été créée pour organiser et accéder aux données spatiales et in situ du système Terre.
 
 La mission de [l’IR Data Terra](https://www.data-terra.org/) consiste à organiser de manière intégrée la diffusion et l’accès aux données, en mettant à disposition les données, les produits et des services relatifs à l’observation du système Terre, via les pôles de données et de services existants :
 
@@ -172,7 +180,6 @@ Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyan
 Dominique Vachez, Institut de l’information scientifique et technique   
 [Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
 ```
-
 
 La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont une élaboration collaborative des termes et une procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
 
