@@ -336,25 +336,61 @@ Loïc Salaun, Observatoire des Sciences de l'Univers Nantes Atlantique
 
 ## Mettre en place un contrôle qualité des données
 
-Par nature, la recherche n’est pas répétitive, mais riche en
-incertitudes contrairement à un processus industriel.  La confiance
-dans la qualité d’une recherche consiste donc à établir et vérifier
-que les différentes étapes d’une étude peuvent être répétées en
-obtenant le même résultat par des chercheurs différents à des moments
-différents. Ainsi, une donnée est fiable si, dans des conditions
-données, aucune déviation n’est constatée en fonction du temps,
-durant un laps de temps donné.  Il est donc essentiel de s’assurer
+[ajout ML)]
+La qualité des données est un thème transversal aux métiers de la recherche. Cette notion se retrouve sur toutes les étapes du cycle de vie de la donnée mais elle recouvre des concepts différents (qualité des données, des métadonnées, du code, de la documentation, de l'archivage, ...) mais quelque soit l'étape, elle peut toujours être vue sous deux angles : 
+- qu'est ce qu'une donnée de qualité ? 
+- quelle organisation faut-il mettre en place pour arriver à obtenir des données de qualité ?
+
+Le groupe de travail "Atelier données" de la MITI a consacré [une journée d'exposés sur la qualité des données ](https://gt-atelier-donnees.miti.cnrs.fr/index.html)
+
+
+Par nature, la recherche n’est pas répétitive, mais riche en incertitudes contrairement à un processus industriel.  La confiance
+dans la qualité d’une recherche consiste donc à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en
+obtenant le même résultat par des chercheurs différents à des moments différents. Ainsi, une donnée est fiable si, dans des conditions
+données, aucune déviation n’est constatée en fonction du temps, durant un laps de temps donné.  Il est donc essentiel de s’assurer
 que l’ensemble des activités de recherche soit maîtrisé.
 
-Le contrôle sur les équipements est le premier pas vers la traçabilité
-des données comme l'illustre l'exposé suivant :
+Le contrôle sur les équipements est le premier pas vers la traçabilité des données comme l'illustre l'exposé suivant :
 
-En sciences environnementales, la qualification des données est
-importante pour estimer et fournir un degré de qualité de la donnée.
-On utilise pour cela des codes qui renseignent sur la qualité de
-la donnée : bonne, mauvaise, manquante, modifiée etc... Dans ce
-domaine bien souvent chacun utilise une codification personnelle,
-cependant une standardisation des codes qualité est bienvenue.
+### la qualité des données en sciences environnementales 
+
+Christine Coatanoan, ingénieure au SISMER nous expose clairement quels sont les Processus de contrôle et de qualification des données dans un système d’observation océanographique.
+
+L'interopérabilité est la clé du succès d'un système de gestion de données distribuées et elle est réalisée par exemple dans
+le projet SeaDataNet.
+1. par l'utilisation de vocabulaires communs,
+2. l'adoption de la norme de métadonnées ISO 19115 pour tous les répertoires de métadonnées,
+3. l'utilisation de formats de transport de données harmonisés pour la diffusion des jeux de données
+4. et l'utilisation de protocoles de contrôle de qualité et d'échelles de codes qualité communs
+
+La livraison des données aux utilisateurs nécessite des formats de transport de données communs, qui interagissent avec d'autres normes SeaDataNet (vocabulaires, codes de qualité) et avec les outils d'analyse et de présentation SeaDataNet (ODV, DIVA).
+
+Un  certain nombre de formats de transport de données ont été définis :
+• ODV4 ASCII pour les profils, les séries chronologiques et les trajectoires,
+• NetCDF avec conformité CF pour les profils, les séries chronologiques et les trajectoires,
+• MedAtlas comme format supplémentaire optionnel,
+• NetCDF avec conformité CF pour les données d'observation 3D telles que les ADCP
+
+Dans le contrôle qualité : Il faut pouvoir contrôler la qualité des données et des mesures, c’est-à-dire de distinguer une mesure aberrante (capteur) d'une mesure qui reflète un phénomène réel (passage dans un tourbillon, maximum de salinité de la
+Méditerranée en Atlantique,...).
+
+On le met en oeuvre Au moyen de programmes/outils pour vérifier et contrôler
+- par des tests automatiques
+- par un contrôle par des experts
+
+```{admonition} [Processus de contrôle et de qualification des données dans un système d’observation océanographique ](https://mi-gt-donnees.pages.math.unistra.fr/site/download/2021_07_05_webinaire_atelier_Coatanoan.pdf)   
+:class: seealso
+[vidéo qualification des données SISMER : ](https://www.canal-u.tv/video/atelier_donnees/processus_de_controle_et_qualification_des_donnees_dans_un_systeme_d_observation_oceanographique_christine_coatanoan_ingenieur_gestion_de_donnees_au_sismer_ifremer_brest.62617)
+Christine Coatanoan,  Ingénieure Gestion de données au Sismer, Ifremer Brest 
+[Webminaire Qualité 2021](https://gt-atelier-donnees.miti.cnrs.fr/index.html).   
+```
+En conclusion : 
+- Une mesure a besoin d’être standardisée et normalisée pour pouvoir facilement être interprétable, dans un format interopérable.
+- Une mesure a besoin d’être qualifiée pour être exploitée, selon des codes qualités normalisés.
+- Pour être qualifiée, une mesure doit être contrôlée au travers de tests automatiques mais également par un expert pour
+consolider sa qualité.
+
+Pour estimer et fournir un degré de qualité de la donnée, on utilise pour des codes qui renseignent sur la qualité de la donnée : bonne, mauvaise, manquante, modifiée etc... Dans ce domaine bien souvent chacun utilise une codification personnelle, cependant une standardisation des codes qualité est bienvenue.
 
 L'infrastructure de données européenne Seadatanet utilise par exemple
 une [table "L20" standardisant les codes qualité](https://vocab.seadatanet.org/v_bodc_vocab_v2/browse.asp?order=conceptid&formname=search&screen=0&lib=l20&v0_0=&v1_0=conceptid%2Cpreflabel%2Caltlabel%2Cdefinition%2Cmodified&v2_0=0&v0_1=&v1_1=conceptid&v2_1=3&v0_2=&v1_2=preflabel&v2_2=3&v0_3=&v1_3=altlabel&v2_3=3&v0_4=&v1_4=modified&v2_4=9&v0_5=&v1_5=modified&v2_5=10&x=27&y=12&v1_6=&v2_6=&v1_7=&v2_7=)
@@ -366,6 +402,7 @@ Virginie JAN LOGASSI, Université de Lorraine
 [Rencontres du réseau Qualité en Recherche, 2019](https://qualsimp.sciencesconf.org/), Nancy.
 ```
 
+
 Le réseau rBDD a consacré un atelier à la qualité des données pour apporter des éclairages sur les questions suivantes :
 * Quelles sont les différentes notions de qualité des données ?
 * Comment contrôler la qualité des données dans la BDD : avant ou pendant l’insertion de données
@@ -374,27 +411,18 @@ Le réseau rBDD a consacré un atelier à la qualité des données pour apporter
 
 Le programme de l'atelier s'appuie sur les travaux de [Laure Berti Equille](http://pageperso.lif.univ-mrs.fr/~laure.berti/) qui « classe les travaux autour de la problématique de la qualité des données selon quatres grands types d'approches complémentaires : prévenir / diagnostiquer / corriger /  adapter ».
 
-Dans la première partie de la présentation, après avoir explicité
-les notions autour de la qualité des données, Christine Plumejeaud
-nous donne de bonnes pratiques comme celle d'attribuer un code
-standard (suivant une norme choisie et citée) décrivant l'état de
-la valeur. Elle cite comme exemple le standard
-[SDMX](https://sdmx.org/?page_id=3215), qui est une initiative
-internationale, utilisée entre autre par Eurostat et l'INSEE. Elle
-cite aussi les travaux faits par le Service d'Observation en Milieu
-Littoral [SOMLIT](https://www.somlit.fr/en/) qui a défini sa propre
-classification [^somlit].
+Dans la première partie de la présentation, après avoir explicité les notions autour de la qualité des données, Christine Plumejeaud
+nous donne de bonnes pratiques comme celle d'attribuer un code standard (suivant une norme choisie et citée) décrivant l'état de
+la valeur. Elle cite comme exemple le standard [SDMX](https://sdmx.org/?page_id=3215), qui est une initiative
+internationale, utilisée entre autre par Eurostat et l'INSEE. Elle cite aussi les travaux faits par le Service d'Observation en Milieu
+Littoral [SOMLIT](https://www.somlit.fr/en/) qui a défini sa propre classification [^somlit].
 
 [^somlit]: [Codes qualité SOMLIT](https://www.somlit.fr/codes-qualite/)
 
-Sa présentation se poursuit sur l'utilisation de contraintes SQL
-pour éviter l'insertion en base de données de valeurs incohérentes
-ou impossibles. Ces contraintes sont la transcription des régles
-de gestion définies lors de la modélisation de la base de données.
-Une fois la structure de la base de données définie, il reste une
-étape, celle du nettoyage des données, a réaliser avant l'intégration
-des données en base. Le réseau rBDD conseille pour cela le logiciel
-[OpenRefine](https://openrefine.org/) très simple à prendre en main
+Sa présentation se poursuit sur l'utilisation de contraintes SQL pour éviter l'insertion en base de données de valeurs incohérentes
+ou impossibles. Ces contraintes sont la transcription des régles de gestion définies lors de la modélisation de la base de données.
+Une fois la structure de la base de données définie, il reste une étape, celle du nettoyage des données, a réaliser avant l'intégration
+des données en base. Le réseau rBDD conseille pour cela le logiciel [OpenRefine](https://openrefine.org/) très simple à prendre en main
 et très puissant.
 
 ```{admonition} [Qualité des données](http://rbdd.cnrs.fr/IMG/pdf/qualite_des_donnees_plumejeaud_2018_04112018.pdf?517/365a13edab604bd0700b045bfac29a3607acb649)   
@@ -408,14 +436,10 @@ ANF « Sciences des données : un nouveau challenge pour les métiers liés aux 
 Mathieu SABY, BU Université de Nice Sophia-Antipolis  
 ```
 
-Dans cette intervention, Christine Plumejeaud se place dans le cadre
-de l'utilisation d'outils nomades qui envoient directement les
-données collectées sur tablette dans une base de données. La
-problèmatique est sensiblement différente. Partant du principe que
-sur le terrain, il est communément recommandé de laisser la saisie
-la plus libre possible pour permettre une prise en compte des aléas
-plus faciles, la détection des choses non conformes aux régles
-métier est à traiter a posteriori.
+Dans cette intervention, Christine Plumejeaud se place dans le cadre de l'utilisation d'outils nomades qui envoient directement les
+données collectées sur tablette dans une base de données. La problèmatique est sensiblement différente. Partant du principe que
+sur le terrain, il est communément recommandé de laisser la saisie la plus libre possible pour permettre une prise en compte des aléas
+plus faciles, la détection des choses non conformes aux régles métier est à traiter a posteriori.
 
 ```{admonition} [Outils nomades : validation des données](http://rbdd.cnrs.fr/IMG/pdf/anf_rbbd_2019_outils_mobiles_tp_qualite.pdf?573/e1425561fd10c6bd1dd92fdee22871bc427f9873)   
 :class: seealso
