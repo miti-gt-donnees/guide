@@ -244,6 +244,33 @@ Mathias Rouan, Jonathan Schaeffer
 ANF SIST 2018, Toulouse.
 ```
 
+### la gestion des données géolocalisées
+
+Un grand nombre de données environnementales proviennent du terrain et sont donc géolocalisées. Les coordonnées géographiques (latitude, longitude) font partie des métadonnées capitales pour savoir d'où proviennent les données.
+
+A ce titre des bonnes notions en géomatique sont nécessaires pour savoir interpréter les métadonnées afférentes (système de coordonées par exemple), utiliser certains logiciels et savoir positionner des points de mesure sur une carte avec des outils de webmapping.
+
+Le réseau SIST a mis en place une formation nationale ANF en 2021 intitulée "_Gestion des données d'observation : Bases et outils de géomatique pour la gestion des données géoréférencées_" destiné à :
+
+- connaître les bases théoriques de la représentation de l’information spatiale (types de données, systèmes de référencement spatial, sémiologie...) ;
+- connaître les principaux formats de fichiers impliqués dans les données spatiales : Shapefiles, GeoPackages, GeoTIFF, netCDF, bases de données spatiales PostGIS, etc. ;
+- connaître les standards associés à la gestion de données géographiques et de leurs métadonnées ;    
+- connaître et savoir utiliser les outils logiciels associés : outils de Système d’Information Géographique QGIS, systèmes de gestion de base de données spatiales PostgreSQL/PostGIS, outils client/serveurs, etc.
+- Webmapping
+    Lizmap. Paramétrage et publication d'une carte depuis QGIS, édition de données en ligne
+    Intégration de carte interactive dans une page web avec l'API Leaflet
+    Premier contact avec Leaflet : Le plugin qgis2web de QGIS
+    Comparaison Leaflet / OpenLayers
+    Utilisation de données et fonds de carte dans Leaflet (geojson, WMS, leaflet providers)
+
+
+```{admonition} [Gestion des données d'observation : Bases et outils de géomatique pour la gestion des données géoréférencées](https://sist.pages.in2p3.fr/anf20-geomatique/index.html)
+:class: seealso
+Marie Silvestre, Laure Paradis, Emilie Lerigoleur et Cyril Bernard.  
+[ANF SIST 2021 Sète](https://sist.cnrs.fr/les-formations/anf-2020)    
+```
+
+
 #### Exemple de mise en oeuvre de plateformes de données
 
 Des exemples d'utilisation des plateformes logicielles ERDDAP et THREDDS ont été présentés lors de différentes sessions des journées
