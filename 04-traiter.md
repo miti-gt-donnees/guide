@@ -183,17 +183,12 @@ Maurice Libes, Soumaya Lahbib
 
 ### Déposer et structurer dans des plateformes de gestion de données locales
 
-Après la phase de collecte de données que nous avons vue dans l'étape
-précédente du cycle de vie des données, il est nécessaire de se
-préoccuper du dépôt, de la facilité d'accès et de la réutilisation
-des données localement dans une unité de recherche.
+Après la phase de collecte de données que nous avons vue dans l'étape précédente du cycle de vie des données, il est nécessaire de se
+préoccuper du dépôt, de la facilité d'accès et de la réutilisation des données localement dans une unité de recherche.
 
-Un certain nombre de logiciels font office de plateforme d'accès
-et de gestion des données. Ils permettent de présenter les données
-avec leurs métadonnées, de fournir des interfaces de recherche, de
-géolocaliser les données, et parfois de visualisation des données
-avec des graphes. Cette organisation des données facilite grandement
-leur analyse ultérieure.
+Un certain nombre de logiciels font office de plateforme d'accès et de gestion des données. Ils permettent de présenter les données
+avec leurs métadonnées, de fournir des interfaces de recherche, de géolocaliser les données, et parfois de visualisation des données
+avec des graphes. Cette organisation des données facilite grandement leur analyse ultérieure.
 
 Des logiciels sont particulièrement adaptés dans la diffusion et l'affichage des données scientifiques d'observation par le fait qu'ils utilisent les standards interopérables de l'Open Geospatial Consortium (OGC), comme le [protocole DAP (Data Access Protocol) ](https://earthdata.nasa.gov/esdis/eso/standards-and-references/data-access-protocol-2)
 
@@ -208,26 +203,29 @@ La plateforme d'accès ERDDAP se présente comme étant un "accès facile aux do
 * de créer des graphiques et des cartes simples pour visualiser le jeu de données analysé
 * de normaliser le format des unités de temps présentes dans les fichiers.
 
-Une des fonctionnalités intéressantes est qu'ERDDAP agrège
-automatiquement les données nouvelles répondant a un format donné,
-qui sont déposées dans un répertoire. Ainsi pour les séries temporelles
-cette fonctionnalité est intéressante puisqu'il suffit de déposer
-des fichiers dans un répertoire pour que la série soit automatiquement
-enrichie et mise à jour.
+Une des fonctionnalités intéressantes est qu'ERDDAP agrège  automatiquement les données nouvelles répondant a un format donné,
+qui sont déposées dans un répertoire. Ainsi pour les séries temporelles cette fonctionnalité est intéressante puisqu'il suffit de déposer des fichiers dans un répertoire pour que la série soit automatiquement enrichie et mise à jour.
 
-Dans le projet scientifique [EMSO](http://emso.eu/), le logiciel
-ERDDAP permet de constituer un [réseau de serveurs](http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000)
-permettant de rassembler et  fournir toutes les données d'un même
-projet sur plusieurs sites .
+Dans le projet scientifique [EMSO](http://emso.eu/), le logiciel ERDDAP permet de constituer un [réseau de serveurs](http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000)
+permettant de rassembler et  fournir toutes les données d'un même projet sur plusieurs sites .
 
-```{admonition} [Utilisation de ERDDAP - Installation, configuration et mise à disposition de jeux de données](http://erddap.osupytheas.fr/docerddap/index.html)   
+Cette fédération de serveur ERDDAP pour le projet EMSO a fait l'objet d'une présentation au [congrès IMDIS 2021](https://imdis.seadatanet.org/) :
+
+```{admonition} [EMSO ERIC Data Services: managing distributed data through an ERDDAP federation](https://imdis.seadatanet.org/files/IMDIS2021_135_abstract.pdf)   
 :class: seealso
-Maurice Libes, Didier Mallarino  
-ANF SIST 17 Fréjus  
+Antoine Queric, Rob Thomas, Maurice Libes, Enoc Martinez, Claudia Fratianni, Tania Morales, Helen Snaith, Maria Sotiropoulou, Sylvie Van Iseghem, Raluca Radulescu, Paulo José Relvas de Almeida, Raul Bardaji and Ivan Rodero
+IMDIS 2021 Marseille
 ```
 
-Lorsque les données sont géoréférencées, on peut aussi déposer et
-faire gérer des données de terrain via des serveurs cartographiques
+Par ailleurs les principales fonctionnalité de ERDDAP ont été exposées dans un tutoriel au congrès JRES 2022 à Marseille
+
+```{admonition} [ERDDAP, un outil pour la Science Ouverte pour des données Faciles  à trouver, Accessibles, Interopérables et Réutilisables](https://gitlab.in2p3.fr/maurice.libes/tuto-erddap-jres)   
+:class: seealso
+Maurice Libes, Didier Mallarino OSU Pytheas
+JRES 2022 Marseille
+```
+
+Lorsque les données sont géoréférencées, on peut aussi déposer et faire gérer des données de terrain via des serveurs cartographiques
 comme :
 
 *  le serveur cartographique [Geoserver](http://geoserver.org/) permet d'afficher et d'échanger des données géospatiales sur le web selon les standards (WMS, WFS, ...) de l'OGC ; 
@@ -248,8 +246,7 @@ ANF SIST 2018, Toulouse.
 
 #### Exemple de mise en oeuvre de plateformes de données
 
-Des exemples d'utilisation des plateformes logicielles ERDDAP et
-THREDDS ont été présentés lors de différentes sessions des journées
+Des exemples d'utilisation des plateformes logicielles ERDDAP et THREDDS ont été présentés lors de différentes sessions des journées
 du réseau SIST :
 
 G. Brissebrat nous montre comment sont diffusées des données maillées NetCDF du SEDOO avec la plateforme logicielle THREDDS. Les avantages évoqués sont nombreux :
