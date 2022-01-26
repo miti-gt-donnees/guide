@@ -142,12 +142,10 @@ Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER)
 
 ### diffusion de données de capteurs par le protocole SOS
 
-Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs
-
-Elles se présentent fréquemment sous la forme de  séries temporelles. C'est à dire des valeurs échelonnées dans le temps afin depouvoir suivre leur évolution dans le temps.
+Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs qui mesurent des phénomènes sur le terrain. Les données sont fréquemment acquises en cotninue pour suivre l'évolutin d'un phénomène physique ou biologique et sont donc représentées sous la forme de  séries temporelles. C'est à dire des valeurs échelonnées dans le temps afin depouvoir suivre leur évolution dans le temps.
 
 
-De nombreux standards sont édictés par l'OGC pour la gestion des données de capteurs : SWE, [O&M](http://www.opengeospatial.org/standards/om), SOS 
+De nombreux standards sont édictés par l'OGC pour la gestion des données de capteurs : SWE, [O&M](http://www.opengeospatial.org/standards/om), [SOS](https://www.ogc.org/standards/sos) 
 
 SWE est l'acronyme de "_Sensor Web Enablement_" et comprend des formats normalisés et des interfaces de services Web dans le domaine des données de capteurs. Depuis 2003, un des objectifs de l'OGC est de rendre les données hétérogènes des capteurs (données d'imagerie satellitaire ou aéroportée,  capteurs de surveillance in situ, etc.) disponibles pour la découverte, l'accès et l'utilisation via des formats et des services Web interopérables. 
 
@@ -161,11 +159,26 @@ SOS fournit un ensemble d'opérations obligatoires ou facultatives, pour obtenir
 
 on trouvera un [résumé de ces différents standards, SWE, O&M et SOS, sur le support de formation de l'ANF SOS/52North du réseau SIST en 2021](https://sist.pages.in2p3.fr/anf21-sos52north/05_web-services/#sensor-observation-service) 
 
-SOS fait partie des standards recommandés par le réseau SIST qui à ce titre a mis en place 2 formations sur les 2 technologies logicielles qui implémentent ce protocole
+SOS fait partie des standards recommandés par le réseau SIST qui à ce titre a mis en place des formations sur les 2 technologies logicielles qui implémentent ce protocole
 
-- *le logiciel istSOS*
+- *[le logiciel istSOS](http://istsos.org/)* réalisé par l'Institut des Sciences de la Terre" de l'université de Suisse, est un des 2 logiciels duffisamment matures pour implémenter la gestion de données de capteurs avec SOS
+istSOS permet de fournir les données et métadonnées de capteurs dans un format standardisé en utilisant des opérations normalisées. Ainsi, l'accès aux données de capteur via le web est rendu interopérable et simplifié pour l'utilisateur. 
+ 
+[La formation sur istSOS](https://sist.cnrs.fr/les-formations/formation-istsos-1) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
 
 - *le logiciel 52North*
+
+Le logiciel SOS 52°North est développé par la société éponyme https://52north.org/ qui travaille sur les technologies et infrastructures d’information spatialisées. C’est actuellement un des rares logiciels suffisamment matures pour mettre en œuvre le standard SOS, à l’instar du logiciel istSOS.
+
+La formation mise en place par le réseau SIST avec les concepteurs allemands de ce logiciel, permet de mieux appréhender le standard SOS et d’être en mesure de déployer (installer, configurer, alimenter, exploiter) un serveur SOS avec le logiciel 52°North, couplé avec les séries temporelles issues de capteurs, qu’elles soient sous forme de fichiers (CSV, NetCDF) ou sous forme de bases de données relationnelles. 
+
+- [Le support de cours de la  formation](https://sist.pages.in2p3.fr/anf21-sos52north/)  permet de savoir insérer des données dans le serveur SOS, de les visualiser et de comprendre comment fonctionne le protocole SOS. Ce standard et ce logiciel peuvent permettre de gérer correctement et de manière interopérable les nombreuses séries temporelles qui sont collectées dans nos unités.
+
+```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/les-formations/anf-2021-sos-52degnorth)
+:class: seealso
+Simon Jirka, Carsten Hollmann, Christian Autermann
+ANF SIST - Octobre 2021
+```
 
 
 [/ajout ML]
