@@ -161,6 +161,9 @@ Le projet européen Seadatanet vise à élaborer et mettre en place un portail e
 
 <ajoutML>
 Le catalogage des données selon des domaines du système Terre, utilisant des thesaurus disciplinaires sont au coeur de la démarche des pôles de données . Il est en effet nécessaire de produire un vocabulaire commun pour permettre la découverte homogène des données à l'aide des variables observées.
+
+L'objectif est de rendre visible l’ensemble des données in-situ des surfaces continentales sur un portail unique, en faciliter la découverte, l’accès et la réutilisabilité pour les besoins scientifiques. L'interopérabilité doit se faire conformément à des standards et thésaurus internationaux et interdisciplinaires.
+
 C'est la démarche que nous présentent Véronique Chaffard et Charly Coussot pour la diffusion des données in-situ des surfaces continentales das le cadre du système d'information Theia/OZCAR
 
 ```{admonition} [mise en œuvre des principes FAIR pour la diffusion des données in-situ des surfaces continentales: le système d'information Theia/OZCAR](https://sist20.sciencesconf.org/data/pages/SIST2021_Coussot_Chaffard_Theia_Ozcar.pdf)
