@@ -2,11 +2,14 @@
 # Publier et diffuser
 
 
-Cette dernière étape dans un projet de recherche représente en quelque sorte la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient correctement accessibles et réutilisables selon des formats et des processus interopérables.
+Cette dernière étape du cycle de vie des données, représente en quelque sorte la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et diffuser les données de manière à ce qu'elles soient correctement faciles à trouver, accessibles et réutilisables selon des formats et des processus interopérables.
 
-L’accompagnement des  réseaux métiers s’exerce  :
-- sur le processus de publication des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès, ainsi que 
+L’accompagnement des réseaux métiers s’exerce en diverses actions :
 - sur la documentation des données avec des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
+- sur l'établissement de catalogues de données nécessaires pour trouver et identifier les données
+- sur le processus de de dépôt des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès centralisé, 
+- sur l'utilisation d'outils logiciels et de protocoles interopérables permettant d'échanger ouvertement les données
+- sur la représentation des données sous forme de graphes
 
 Ainsi, les réseaux travaillent sur l’ensemble des informations (données, métadonnées, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation les plus pertinents en rapport avec l’objectif du projet initial.
 
@@ -172,7 +175,9 @@ De nombreux thesaurus existent dans divers domaines scientifiques. Par exemple, 
 
 Cependant selon le domaine scientifique et dans certaines disciplines, lorsque les standards, thesaurus et vocabulaires contrôlés n'existent pas, ils doivent alors etre créés. Les communautés scientifiques peuvent alors se saisir d'outils tels qu'[_opentheso_](https://opentheso.hypotheses.org/) et thésauform pour répondre aux besoins de normalisation.
 
-Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.loterre.fr/skosmos/BLH/fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
+Le logiciel open source [opentheso](https://www.mom.fr/ressources-numeriques/opentheso) permet l'élaboration collaborative d'un thésaurus tout comme ThesauForm, mais aussi la gestion de thésaurus multilingue supportant la polyhiérarchie, en conformité avec la norme ISO 25964.
+
+Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.semandiv.cnrs.fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
 
 ```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv.pdf)
 :class: seealso
@@ -195,7 +200,7 @@ MC Quidoz
 [Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
 ```
 
-En Archéologie, Blandine Nouvel nous présente l'intérêt du thésaurus PACTOLS pour l’archéologie sur le web des données de manière à ouvrir son utilisation au-delà des seules bibliothèques.
+En Archéologie, Blandine Nouvel nous présente l'intérêt du thésaurus PACTOLS pour l’archéologie sur le web des données de manière à en faire un référentiel national, et ouvrir son utilisation au-delà des seules bibliothèques.
 
 ```{admonition} [Évolution et nouvelles pratiques autour du thésaurus PACTOLS de Frantiq pour l’édition numérique en archéologie](https://fredoc2018.sciencesconf.org/data/pages/PACTOLS_B_Nouvel.pdf)
 :class: seealso
@@ -205,11 +210,11 @@ Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 ```
 
-Enfin, notons la création du logiciel open source [opentheso](https://www.mom.fr/ressources-numeriques/opentheso) qui permet l'élaboration collaborative d'un thésaurus tout comme ThesauForm, mais aussi la gestion de thésaurus multilingue supportant la polyhiérarchie, en conformité avec la norme ISO 25964.
+
  
 ## Utilisation d'identifiants pérennes
 
-Afin d'être cités et réutilisés, les données et documents numériques se doivent de disposer d'un identifiant pérenne pour qu'ils puissent être référencés, visibles et accessibles de manière univoque.
+Afin d'être cités et réutilisés de manière univoque, les données et documents numériques se doivent de disposer d'un identifiant pérenne et unique.
 
 Il existe différents types d'identifiants pérennes pour toutes sortes d'objets y compris les humains. Cet article de J-L Archimbaud fait le point sur les identifiants des documents numériques et leurs usages :
 
@@ -225,9 +230,9 @@ Il faut aussi noter que dans le domaine de la bio-informatique, des identifiants
 
 ### Les DOI : "Digital Object Identification"
 
-Dans le domaine des données, les D.O.I (Digital Object Identification) DOI est un identifiant pérenne favorisant le référencement et la citation des jeux de données. Ils permettent de citer un jeu de données homogène de manière univoque et de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
+Dans le domaine des données, les D.O.I (Digital Object Identification) sont des identifiants pérennes favorisant le référencement et la citation des jeux de données. Ils permettent de citer un jeu de données homogène de manière univoque et de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
 
-[l'INIST du CNRS](https://opidor.fr/identifier/) est l'agence d’attribution de l’identifiant DOI en France pour l'Enseignement Supérieur et Recherche (ESR). Les D.O.I sont obtenus auprès de [l'organisme international "Datacite"](https://doi.datacite.org/). 
+[l'INIST du CNRS](https://opidor.fr/identifier/) est l'agence d’attribution de l’identifiant DOI en France pour l'Enseignement Supérieur et Recherche (ESR). Les D.O.I sont obtenus auprès du [consortium international "DataCite"](https://doi.datacite.org/). 
 
 L'allocation de D.O.I sur des données implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "_landing page_") qui permet de fournir les métadonnées principales pour décrire les données et y accéder.
 
@@ -265,7 +270,7 @@ Mohamed Salah Yahia, Institut de l'information scientifique et technique du CNRS
 
 ### Comment obtenir des DOI ?
 
-Une unité CNRS a la possibilité de souscrire un contrat avec l'INIST du CNRS pour être détenteur d'un préfixe de DOI qui servira à construire et déposer un DOI. 
+Une unité CNRS a la possibilité de souscrire un contrat avec l'INIST du CNRS pour être détenteur d'un préfixe de DOI qui servira à construire et déposer un DOI, comme nous l'explique M. Yahia de l'INIST :  
 
 ```{admonition} [Workflow d’attribution de DOI par l’Inist-CNRS](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
 :class: seealso
@@ -275,7 +280,10 @@ Mohamed Salah Yahia
 
 Cependant dans le paysage national actuel des données environnementales, certaines infrastructures de recherche comme Data Terra seront en charge de fournir des DOI selon les disciplines concernées. Dans le domaine marin le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit d'ores et déjà un service de fourniture de D.O.I via le site [Seanoe](https://www.seanoe.org/).
 
-Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
+Pour obtenir un DOI chez Datacite, il faut a minima fournir un certain nombre de métadonnées basiques, qui permettent d'identifier les données : https://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf
+
+
+Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment demander et assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
 ```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist19.sciencesconf.org/data/pages/SIST19\_A\_BATTAIS.pdf)  
 :class: seealso
