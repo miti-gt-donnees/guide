@@ -211,7 +211,6 @@ Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 ```
 
 
- 
 ## Utilisation d'identifiants pérennes
 
 Afin d'être cités et réutilisés de manière univoque, les données et documents numériques se doivent de disposer d'un identifiant pérenne et unique.
@@ -227,12 +226,11 @@ Journées « Conduire et construire un plan de gestion des données : de la base
 Il faut aussi noter que dans le domaine de la bio-informatique, des identifiants uniques sont attribués aux enregistrements de séquences DNA ou de protéines. Ils sont nommés [accession number](https://en.wikipedia.org/wiki/Accession_number_(bioinformatics)).
 
 
-
 ### Les DOI : "Digital Object Identification"
 
-Dans le domaine des données, les D.O.I (Digital Object Identification) sont des identifiants pérennes favorisant le référencement et la citation des jeux de données. Ils permettent de citer un jeu de données homogène de manière univoque et de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
+Dans le domaine des données, les D.O.I (Digital Object Identification) sont des identifiants pérennes favorisant le référencement et la citation des jeux de données. Ils permettent de citer un jeu de données homogène de manière univoque et durable dans le temps,  et de les lier aux publications ou à tout autre produit de recherche. Ils concourent donc à l'identification, la traçabilité et à l'interopérabilité des données.  Ils garantissent un lien stable à la ressource en ligne et font correspondre en permanence l’identité de la ressource à sa localisation sur le web.
 
-[l'INIST du CNRS](https://opidor.fr/identifier/) est l'agence d’attribution de l’identifiant DOI en France pour l'Enseignement Supérieur et Recherche (ESR). Les D.O.I sont obtenus auprès du [consortium international "DataCite"](https://doi.datacite.org/). 
+Les D.O.I sont obtenus auprès du [consortium international "DataCite"](https://doi.datacite.org/). [l'INIST du CNRS](https://opidor.fr/identifier/) est membre fondateur de DataCite, et agence d’attribution des identifiants DOI en France pour l'Enseignement Supérieur et Recherche (ESR). 
 
 L'allocation de D.O.I sur des données implique des devoirs de la part du déposant, qui est de maintenir un lien permanent vers les données identifiées pendant une certaine durée, à travers une page de description (appelée aussi "_landing page_") qui permet de fournir les métadonnées principales pour décrire les données et y accéder.
 
@@ -282,6 +280,12 @@ Cependant dans le paysage national actuel des données environnementales, certai
 
 Pour obtenir un DOI chez Datacite, il faut a minima fournir un certain nombre de métadonnées basiques, qui permettent d'identifier les données : https://schema.datacite.org/meta/kernel-4.3/doc/DataCite-MetadataKernel_v4.3.pdf
 
+les métadonnées obligatoires sont :
+- Identifier : le DOI
+- Creator : les Auteur(s)
+- Title : le titre avec des mots clés
+- Publisher : l'organisme qui produit les données
+- PublicationYear : l'nnée de publication ou de mise à disposition des données
 
 Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment demander et assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
@@ -291,7 +295,7 @@ Annick Battais
 [Séminaire SIST2019 Toulouse 2019](https://sist19.sciencesconf.org)   
 ```
 
-### Retour d'expériences d'utilisation de DOI
+### Retours d'expériences d'utilisation de DOI
 
 Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l'INIST du CNRS qui, en tant que membre de DataCite, peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.
 
@@ -346,6 +350,17 @@ On y répond à des questions fréquentes concernant les entrepôts comme :
   - Qu'est-ce qu'un entrepôt de données ?
   - [Comment choisir un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#choisir)
   - [Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#entrepot)
+  - Quels sont les points de vigilance pour préparer le partage de données ?
+  - Quels sont les formats à privilégier pour le partage de données ?
+  - Quelle est la durée de vie d'un dépôt de jeux de données dans un entrepôt ?
+  - Pourquoi les données doivent-elles disposer d'un identifiant pérenne ?
+  - Comment citer mes données ?
+  - Est-ce qu'il y a des métadonnées indispensables pour déposer ?
+  - Est-ce que les métadonnées métiers sont indispensables pour déposer un jeu de données ?
+  - Ai-je vraiment besoin d'un vocabulaire contrôlé pour déposer les données ?
+  - Quelle licence choisir ?
+  - Est-ce que les données sont nécessairement ouvertes ?
+  - Est-il utile de déposer les données à plusieurs endroits ?
   - etc.
 
 Laurent Pelletier de l'INIST, dans une présentation générale sur les entrepôts de données, revient sur les différentes définitions des données, les métadonnées et les principes FAIR. Il explique pourquoi et comment partager les données et comment les entrepôts de données sont impliqués dans ce partage. Il présente les différents types d'entrepôts, les différentes fonctionnalités et les critères de choix pour un entrepôt.
@@ -378,14 +393,16 @@ Sylvie Cocaud (INRA)
 
 ### Vers des entrepôts de données de confiance ou certifiés
 
-Dans le but de pouvoir etre pérennisées et réutilisées, les données ont intérêt à être déposées dans des entrepôts. 
-Déposer des données dans des entrepôts nécessite un certain nombre de prérequis pour assurer la qualité des données déposées : 
+Dans le but de pouvoir etre pérennisées et réutilisées, on a vu que les données ont intérêt à être déposées dans des entrepôts. Mais ces entrepots nécessitent de répondre à des critères permettant d'assurer la qualité de la structure de dépôt au déposant.
+
+Déposer des données dans des entrepôts nécessite un certain nombre de prérequis pour assurer la qualité des données déposées :
 - favoriser le dépôt des données dans des formats ouverts interopérables,
 - avoir des données validées et présentant un code renseignant sur la qualité des données, 
 - avoir des métadonnées descriptives bien renseignées et faisant partie d'un thesaurus identifié.
 
 Il est également nécessaire de se préoccuper de la qualité des entrepôts que l'on va choisir pour y déposer les données.
-Pour être dignes de confiance, les entrepôts doivent également répondre à certains prérequis et spécifications qui, si besoin, peuvent amener à une certification.
+Pour être dignes de confiance, les entrepôts doivent également répondre à certains prérequis et spécifications.
+La science ouverte énonce un certain nombre de principes  : transparence (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology) qui permettent de fournir un cadre commun pour la mise en œuvre des meilleures pratiques en matière de préservation numérique. On parle d'entrepôt "TRUST"
 
 Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle nous rappelle que : "rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté".
 
@@ -397,7 +414,7 @@ Aude Chambodut
 [Séminaires SIST20](https://sist20.sciencesconf.org/)   
 ```
 
-CoreTrustSeal est un organisme communautaire sans but lucratif qui promeut le développement d'infrastructures de données durables et fiables et spécifie les critères de conformité qui permettent de certifier un entrepôt.
+CoreTrustSeal est un organisme communautaire sans but lucratif qui permet de promouvoir le développement d'infrastructures de données durables et fiables et spécifie les critères de conformité qui permettent de certifier un entrepôt.
 
 La [Research Data Alliance](https://www.rd-alliance.org/) recommande les [critères de conformité de Core trust Seal](https://www.rd-alliance.org/system/files/documents/CoretrustsealFR.pdf), qui spécifient un entrepôt de confiance.
 
@@ -429,7 +446,7 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 
 ### Diffuser des données géolocalisées par le protocole WMS
 
-Outre les entrepots de données institutionnels , qui permettent de fournir des fichiers de données avec leur métafdonnées, on peut également diffuser des données géolocalisées par le protocole WMS de l'OGC
+Outre les entrepots de données institutionnels , qui permettent de fournir des fichiers de données avec leurs métadonnées, on peut également diffuser des données géolocalisées par le protocole WMS de l'OGC
 Le logiciel GeoCMS est un système de gestion de contenu géospatial où les objets (utilisateurs, images, articles, blogs..) peuvent avoir une position en latitude et en longitude pour être affichés sur une carte interactive en ligne. En outre, les cartes en ligne renvoient à des pages d'information (essentiellement des pages wiki) sur les données représentées.
 
 Un GeoCMS peut avoir une carte des utilisateurs enregistrés permettant de construire des communautés géographiquement, en regardant l'emplacement des utilisateurs. L'utilisation de wikis pour décrire les couches géographiques constitue un moyen simple de résoudre le problème des métadonnées géographiques. 
