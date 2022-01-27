@@ -171,13 +171,11 @@ Le logiciel permet d'afficher la description et la localisation des capteurs sur
  
 [La formation sur istSOS](https://sist.cnrs.fr/les-formations/formation-istsos-1) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
 
-- *le logiciel 52North*
+- *[le logiciel 52North]( https://52north.org/)* est développé par la société éponyme https://52north.org/ qui travaille sur les technologies et infrastructures d’information spatialisées. C’est actuellement un des logiciels suffisamment matures pour mettre en œuvre le standard SOS, à l’instar du logiciel istSOS.
 
-Le logiciel SOS 52°North est développé par la société éponyme https://52north.org/ qui travaille sur les technologies et infrastructures d’information spatialisées. C’est actuellement un des rares logiciels suffisamment matures pour mettre en œuvre le standard SOS, à l’instar du logiciel istSOS.
+La formation mise en place par le réseau SIST en 2021 avec les concepteurs allemands de ce logiciel, permet de mieux appréhender le standard SOS et d’être en mesure de déployer (installer, configurer, alimenter, exploiter) un serveur SOS avec le logiciel 52°North, couplé avec les séries temporelles issues de capteurs, qu’elles soient sous forme de fichiers (CSV, NetCDF) ou sous forme de bases de données relationnelles. 
 
-La formation mise en place par le réseau SIST avec les concepteurs allemands de ce logiciel, permet de mieux appréhender le standard SOS et d’être en mesure de déployer (installer, configurer, alimenter, exploiter) un serveur SOS avec le logiciel 52°North, couplé avec les séries temporelles issues de capteurs, qu’elles soient sous forme de fichiers (CSV, NetCDF) ou sous forme de bases de données relationnelles. 
-
-- [Le support de cours de la  formation](https://sist.pages.in2p3.fr/anf21-sos52north/)  permet de savoir insérer des données dans le serveur SOS, de les visualiser et de comprendre comment fonctionne le protocole SOS. Ce standard et ce logiciel peuvent permettre de gérer correctement et de manière interopérable les nombreuses séries temporelles qui sont collectées dans nos unités.
+- [Le support de cours de la  formation](https://sist.pages.in2p3.fr/anf21-sos52north/)  permet de savoir insérer des capteurs et des données dans le serveur SOS, de les visualiser et de comprendre comment fonctionne le protocole SOS. Ce standard et ce logiciel peuvent permettre de gérer correctement et de manière interopérable les nombreuses séries temporelles qui sont collectées dans nos unités.
 
 
 ```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/les-formations/anf-2021-sos-52degnorth)
