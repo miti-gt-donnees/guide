@@ -91,6 +91,14 @@ De nombreuses infrastructures offrent des services à la communauté scientifiqu
 
 **Infrastructure France Grilles, www.france-grilles.fr**
 
+France Grilles a fait l'objet lors des JCAD 2021 d'une présentation rétrospective des dix dernières années d'activité. Dans cet exposé, Vincent Breton a expliqué les évolutions, l'implication dans l'infrastructure EGI et dans les projets récents ainsi que les différents services proposés.
+
+```{admonition} [France Grilles : 10 ans de services aux utilisateurs](https://jcad2021.sciencesconf.org/data/FRANCE_GRILLE_VINCENT_BRETON.pptx)   
+:class: seealso
+Vincent Breton, Laurent Caillat-Valet, Sorina Camarasu-Pop, Cyril L'orphelin, Gilles Mathieu, Jérôme Pansanel, Geneviève Romier  
+JCAD 2020
+```
+
 Le catalogue de services de France Grilles propose des services de traitement de données qui s'appuient sur une infrastructure de grille et une infrastructure cloud ainsi que des services de stockage de données. L'ensemble est interconnecté permettant aux données stockées d'être traitées grâce aux services grille et cloud.
 
 Un poster présente le service de stockage de France Grilles : 
