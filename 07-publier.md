@@ -134,10 +134,9 @@ Le logiciel GeoCMS est un système de gestion de contenu géospatial où les obj
 
 Un GeoCMS peut avoir une carte des utilisateurs enregistrés permettant de construire des communautés géographiquement, en regardant l'emplacement des utilisateurs. L'utilisation de wikis pour décrire les couches géographiques constitue un moyen simple de résoudre le problème des métadonnées géographiques. 
 
-Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) nous indiquent comment ils ont utilisé diverses technologies interopérables pour diffuser les données de leur plateforme DataECLA
+Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) nous indiquent comment ils ont utilisé diverses technologies interopérables pour diffuser les données de leur plateforme DataECLA. Les auteurs ont testé un certain nombre d'outils comme GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers ils ont rajouté à cette palette d'outils des dashboards python.
 
-```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](lien a rajouter)
-Retour d'expérience sur la construction de la plateforme de données et de visualisation au pôle ECLA (ECosystèmes Lacustres). Les outils GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart ont été testés. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers nous avons rajouté à cette palette d'outils des dashboards python.
+```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](https://sist20.sciencesconf.org/data/pages/SIST2021_Tormos_Reynaud_DataEcla_1.pdf)
 :class: seealso 
 Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) 
 [Séminaire SIST 2021](https://sist20.sciencesconf.org/)  
@@ -284,6 +283,7 @@ Les services prévus seront :
 ```
 
 [/ajout]
+
 Seadatanet est un exemple d'envergure européenne pour la mise en place de standards d'interopérabilité. Il repose sur de nombreux vocabulaires contrôlés fournis par le BODC. Une présentation du projet Seadatanet a été faite par Michele Fichaut et Florence Conquet  
 
 ```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://nuage.osupytheas.fr/s/9iKa6GLzHGJ95Zz)
