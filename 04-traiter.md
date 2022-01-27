@@ -387,19 +387,20 @@ Christine Hadrossek
 Christine Coatanoan, ingénieure au SISMER nous expose clairement quels sont les Processus de contrôle et de qualification des données dans un système d’observation océanographique.
 
 L'interopérabilité est la clé du succès d'un système de gestion de données distribuées et elle est réalisée par exemple dans
-le projet SeaDataNet.
-1. par l'utilisation de vocabulaires communs,
+le projet [Seadatanet](https://www.seadatanet.org/) par :
+
+1. l'utilisation de vocabulaires communs,
 2. l'adoption de la norme de métadonnées ISO 19115 pour tous les répertoires de métadonnées,
-3. l'utilisation de formats de transport de données harmonisés pour la diffusion des jeux de données
-4. et l'utilisation de protocoles de contrôle de qualité et d'échelles de codes qualité communs
+3. l'utilisation de formats de transport de données harmonisés pour la diffusion des jeux de données, et
+4. l'utilisation de protocoles de contrôle de qualité et d'échelles de codes qualité communs
 
 La livraison des données aux utilisateurs nécessite des formats de transport de données communs, qui interagissent avec d'autres normes SeaDataNet (vocabulaires, codes de qualité) et avec les outils d'analyse et de présentation SeaDataNet (ODV, DIVA).
 
 Un  certain nombre de formats de transport de données ont été définis :
-• ODV4 ASCII pour les profils, les séries chronologiques et les trajectoires,
-• NetCDF avec conformité CF pour les profils, les séries chronologiques et les trajectoires,
-• MedAtlas comme format supplémentaire optionnel,
-• NetCDF avec conformité CF pour les données d'observation 3D telles que les ADCP
+- [ODV4](https://odv.awi.de/fileadmin/user_upload/odv/misc/GettingStarted.pdf) ASCII pour les profils, les séries chronologiques et les trajectoires,
+- [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) avec conformité CF pour les profils, les séries chronologiques et les trajectoires,
+- MedAtlas comme format supplémentaire optionnel,
+- NetCDF avec[ conformité CF](https://cfconventions.org/) pour les données d'observation 3D telles que les ADCP
 
 Dans le contrôle qualité : Il faut pouvoir contrôler la qualité des données et des mesures, c’est-à-dire de distinguer une mesure aberrante (capteur) d'une mesure qui reflète un phénomène réel (passage dans un tourbillon, maximum de salinité de la
 Méditerranée en Atlantique,...).
@@ -431,7 +432,7 @@ une [table "L20" standardisant les codes qualité](https://vocab.seadatanet.org/
 Virginie JAN LOGASSI, Université de Lorraine  
 [Rencontres du réseau Qualité en Recherche, 2019](https://qualsimp.sciencesconf.org/), Nancy.
 ```
-
+[/ajoutML]
 
 Le réseau rBDD a consacré un atelier à la qualité des données pour apporter des éclairages sur les questions suivantes :
 * Quelles sont les différentes notions de qualité des données ?
