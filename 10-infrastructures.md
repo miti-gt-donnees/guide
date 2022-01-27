@@ -9,21 +9,34 @@ Ces infrastructures font régulièrement l'objet de présentations qui permetten
 
 ### European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)
 
-Le cloud européen EOSC a été abordé par Volker Beckman, chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS, lors des [JCAD 2019](https://jcad2019.sciencesconf.org/data/EOSC_FranceGrilles_Beckmann_20191011.pdf). Il explique comment concrètement les chercheurs peuvent utiliser EOSC, et fait le point sur les principales questions que vous vous posez peut-être sur EOSC : Qu'est ce que EOSC ?	Où en est-on et quelles sont les prochaines étapes ? Comment puis-je contribuer et/ou bénéficier ? EOSC en France.
-Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui offre aux chercheurs des services, l'accès à des données et à d'autres ressources fournies par des infrastructures de recherche publiques nationales, régionales et institutionnelles en Europe. Partant des nombreux appels à projets qui ont été lancés pour construire ce cloud (EOSCpilot, EOSC-hub, EOSC-Pillar, etc.), il expose les possibilités de collaboration. Depuis 2019, une structuration se met en place : une gouvernance temporaire et une implication forte des ministères nationaux comme têtes de file des communautés scientifiques impliquées. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement dans le "Horizon Europe Work Programme".
-Le lien avec l'infrastructure nationale France Grilles est également décrit.
+Le cloud européen EOSC a été abordé dès 2019 par Volker Beckman, alors chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS, et maintenant Chargé de Mission European Open Science Cloud (EOSC) au MESRI lors des [JCAD 2019](https://jcad2019.sciencesconf.org/data/EOSC_FranceGrilles_Beckmann_20191011.pdf). Il expliquait alors comment concrètement les chercheurs peuvent utiliser EOSC, et faisait le point sur les principales questions que l'on se pose sur EOSC : Qu'est ce que EOSC ?	Où en est-on et quelles sont les prochaines étapes ? Comment puis-je contribuer et/ou bénéficier ? EOSC en France.
+Il y présentait la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui offre aux chercheurs des services, l'accès à des données et à d'autres ressources fournies par des infrastructures de recherche publiques nationales, régionales et institutionnelles en Europe. 
 
-EOSC a fait l'objet d'une [ journée spéciale au CNRS en janvier 2020](https://indico.in2p3.fr/event/20051/). Cette journée a en particulier permis de faire le point sur l'implication française dans le projet à travers plusieurs exemples. Une journée nationale [EOSC-France](https://eoscfrance.sciencesconf.org/) aura lieu en février 2021.
+Depuis 2019, une structuration se met en place. Les évolutions font l'objet de présentations régulières dans le cadre de journées dédiées ou à l'occasion d'événements.
+
+EOSC a donc fait l'objet d'une [ journée spéciale au CNRS en janvier 2020](https://indico.in2p3.fr/event/20051/). Cette journée a en particulier permis de faire le point sur l'implication française dans le projet à travers plusieurs exemples. 
 
 Plus récemment dans le cadre de l'atelier Dialogu’IST, Réseau Renatis, le 9 juillet 2020, une autre présentation de Volker Beckman a fait le point sur l'[European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf). 
 
-Enfin, lors des JCAD 2020, Volker Beckmann a présenté dans "[EOSC en France: défis et opportunités.](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)" ([vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)) les prochaines étapes prévues.
+Puis, lors des JCAD 2020, Volker Beckmann a présenté dans "[EOSC en France: défis et opportunités.](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)" ([vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)) les prochaines étapes prévues.
 
-```{admonition} [EOSC en France: défis et opportunités. ](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)  
+Une nouvelle journée nationale [EOSC-France](https://eoscfrance.sciencesconf.org/) a eu lieu en février 2021 et a été l'occasion de présenter [la structuration en France](https://eoscfrance.sciencesconf.org/344323), Kostas Glinos de la commission européenne a présenté la politique Open SCience et EOSC dans son exposé intitulé [European Open Science policy and EOSC](https://eoscfrance.sciencesconf.org/342553) et l'[Association EOSC](https://eoscfrance.sciencesconf.org/344324) a fait l'objet de la présentation de Suzanne Dumouchel, Huma-Num, CNRS. La suite du programme concernait différents projets et EOSC en 2021 et au-delà. 
+
+Enfin, une nouvelle présentation intitulée [EUROPEAN OPEN SCIENCE CLOUD](https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateur_Beckmann_Volker_EOSC.pdf) a été donnée par Volker Beckmann lors des JCAD 2021.
+
+
+```{admonition} [EOSC en France: défis et opportunités.](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)  
 :class: seealso
 [Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)   
 Volker Beckmann, Chargé de mission EOSC France pour le ministère.  
 JCAD 2020
+```
+
+```{admonition} [EUROPEAN OPEN SCIENCE CLOUD](https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateur_Beckmann_Volker_EOSC.pdf)  
+:class: seealso
+[Vidéo à venir: ](à venir)   
+Volker Beckmann, Chargé de mission EOSC France pour le ministère.  
+JCAD 2021
 ```
 
 EOSC est ouvert à la participation de fournisseurs de services, que ce soit des services de stockage ou de traitement de données ou encore des services de publication. Différents projets européens successifs ont pour objectif de préparer EOSC. Dans le cadre du projet [EOSC-Pillar](https://www.eosc-pillar.eu/), une enquête internationale a été menées dans cinq pays (Allemagne, Autriche, Belgique, France et Italie) pour connaître l'état des Infrastructures de Recherche, e-infrastructures, universités et organismes financeurs par rapport à une éventuelle participation à EOSC. Un aperçu des [résultats de cette enquête](https://doi.org/10.5281/zenodo.3937318) a été présenté lors des JCAD 2020.
