@@ -47,6 +47,15 @@ EOSC est ouvert à la participation de fournisseurs de services, que ce soit des
 Geneviève Romier, Centre de Calcul de l’IN2P3, CNRS  
 JCAD 2020
 ```
+
+* Pour compléter, vous pouvez aussi consulter le poster concernant une utilisation concrète d'EOSC. Il s'agit de la présentation d'un cas d'usage en bioinformatique.
+
+```{admonition} [Une utilisation concrète d'EOSC : Cas d'usage en bioinformatique dans le cadre du projet EOSC-Pillar](https://jcad2021.sciencesconf.org/data/Poster_Cas_dusage_EOSC_Pillar_Yosra_SANAA.pdf)  
+:class: seealso 
+Gilles Mathieu, Yosra Sanaa 
+JCAD 2021
+```
+
 ### Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), egi.eu
 
 L'infrastructure EGI a été présentée de façon complète en 2018 lors des JCAD, Journées Calcul et Données : la fédération, les participants, le catalogue de services, les utilisateurs, le positionnement dans EOSC. Le projet EOSC-Hub qui participe à la construction d'EOSC est également détaillé. C'est la présentation à consulter si vous souhaitez savoir ce qu'est EGI.
