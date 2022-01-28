@@ -125,6 +125,16 @@ Le projet Phénome, Infrastructure nationale de phénomique végétale, regroupe
 Vincent Negre, Eric David, Philippe Burger, Romain Chapuis, Boris Adam,  Anne Tireau, Patrick Moreau, Antony Tong, Samuel Thomas, Gallian Colombeau, Pascal Neveu, Jérôme Pansanel, Frédéric Baret, Marie Weiss  
 JCAD 2019
 ```
+**Moyens de calcul de l'Inria**
+
+Inria transforme actuellement ses Moyens de Calcul vers une infrastructure nationale de moyens de calcul. Lucas Nussbaum a détaillé cette transformation dans un exposé lors des JCAD 2021. La cible visée à terme est de construire une offre nationale de moyens de calcul, opérée par Inria mais ouverte plus largement pour répondre aux besoins spécifiques de la recherche en sciences du numérique (flexibilité, reconfiguration, reproductibilité). Cette  infrastructure nationale sera construite sur la base de Grid’5000/SILECS.
+
+```{admonition} [Transformation des moyens de calcul de l'Inria](https://jcad2021.sciencesconf.org/data/Transformation_Calcul_Inria_NUSSBAUM_Lucas.pdf)   
+:class: seealso
+[Vidéo à venir : ](à venir)   
+Lucas Nussbaum  
+JCAD 2021
+```
 
 **Centres de calcul de GENCI**
 
