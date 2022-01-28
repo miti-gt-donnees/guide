@@ -136,6 +136,19 @@ Lucas Nussbaum
 JCAD 2021
 ```
 
+**Offre de service "informatique scientifique" à l'Inserm**
+
+L'INSERM travaille actuellement au projet SCaaS : Scientific Computing as a Service. A partir d'une étude de la situation à l'échelle de l'institut et des besoins remontés par les unités de recherche, le projet SCaaS est conçu pour répondre à la fois aux besoins des chercheurs et aux exigences de l'INSERM. Le projet et son état d'avancement a été présenté lors des JCAD 2021.
+
+
+```{admonition} [Vers une offre de service "informatique scientifique" à l'Inserm](https://jcad2021.sciencesconf.org/data/Courte_InformatiqueScientifiqueInserm_JCAD2021.pdf)   
+:class: seealso
+[Vidéo à venir : ](à venir)   
+Gilles Mathieu, Daniel Salas, Yosra Sanaa, Dominique Pigeon, Fanny Brizzi
+JCAD 2021
+```
+
+
 **Centres de calcul de GENCI**
 
 Les plateformes de calcul intensif nationales, ainsi que leurs évolutions, sont régulièrement présentées par l'opérateur GENCI (Grand Equipement National pour le Calcul Intensif). GENCI et ses trois centres nationaux fournissent des moyens de calcul de niveau "Tier 1" pour les utilisateurs nationaux :
