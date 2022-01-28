@@ -157,6 +157,16 @@ Gilles Mathieu, Daniel Salas, Yosra Sanaa, Dominique Pigeon, Fanny Brizzi
 JCAD 2021
 ```
 
+**Portail Calcul Stockage et Cloud**
+
+En 2018, Inrae a initié une démarche communautaire pour concevoir et mettre en place un "Portail Calcul Stockage et Cloud" (PCSC). L'objectif est de répondre à la question que se posent beacoup de scientifiques : Où puis-je VRAIMENT calculer et/ou stocker ?. La présentation réalisée aux JACD 2021 présente le projet, la communauté impliquée et l'avancement de la réalisation du portail.
+
+```{admonition} [PCSC : le Portail pour le Calcul, le Stockage et le Cloud](https://jcad2021.sciencesconf.org/data/PCSC_presentation_JCAD2021.pdf)   
+:class: seealso
+[Vidéo à venir : ](à venir)   
+Pierre Adenot, Estelle Ancelet, Sophie Aubin, David Benaben, Damien Berry, Emmanuel Braux, Éric Cahuzac, Patrick Chabrier, Alexandre Dehne-Garcia, Frédéric de Lamotte, Lise Frappier, Pierre Gay, Loïc Houde, Pierre-Emmanuel Guerin, Arnaud Jean-Charles, Cyril Jousse, Anne Laurent, Emilie Lerigoleur, Benjamin Marguin, Gilles Mathieu, Vincent Nègre, Nadia Ponts, Tovo Rabemanantsoa, Richard Randriatoamanana, Jean-François Rey, Fabrice Roy, Sandrine Sabatié, Daniel Salas, Martin Souchal,  Florian Trincal, Zenaida
+JCAD 2021
+```
 
 **Centres de calcul de GENCI**
 
