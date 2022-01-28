@@ -111,7 +111,7 @@ CSW "Catalogue service for the Web" est un exemple de protocole standardisé dé
 
 Les champs du catalogue sont normalisés selon les normes ISO 19115/19139, et les données sont transmises sous forme de contenu XML.
 
-Grace a l'utilisation de ce protocole d'échange normalisé, le logiciel GeoNetwork permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw) (Catalogue Services for the Web). Il permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres. Cette infrastructure réseau de catalogues de données est notamment demandée par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
+Grace a l'utilisation de ce protocole d'échange normalisé, le logiciel GeoNetwork permet d’interagir avec d'autres catalogues de ressources spatialisées via le [protocole CSW de l'OGC](https://georezo.net/wiki/main/standards/csw). Il permet ainsi de construire un réseau de catalogues interagissant les uns avec les autres. Cette infrastructure réseau de catalogues de données est notamment demandée par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
 
 
 ### diffusion de données géolocalisées par le protocole WMS
@@ -130,9 +130,9 @@ ANF SIST 2017 Fréjus , ANF SIST 2018 Autrans
 ```
 
 On peut ainsi diffuser des données géolocalisées par le protocole WMS de l'OGC avec des logiciels comme GeoServer ou GeoCMS.
-Le logiciel GeoCMS est un système de gestion de contenu géospatial où les objets (utilisateurs, images, articles, blogs..) peuvent avoir une position en latitude et en longitude pour être affichés sur une carte interactive en ligne. En outre, les cartes en ligne renvoient à des pages d'information sur les données représentées.
+Le logiciel GeoCMS est un système de gestion de contenu géospatial où les objets (utilisateurs, images, articles, blogs..) peuvent avoir une position géographique pour être affichés sur une carte interactive en ligne. En outre, les cartes en ligne renvoient à des pages d'information sur les données représentées.
 
-Un GeoCMS peut avoir une carte des utilisateurs enregistrés permettant de construire des communautés géographiquement, en regardant l'emplacement des utilisateurs. L'utilisation de wikis pour décrire les couches géographiques constitue un moyen simple de résoudre le problème des métadonnées géographiques. 
+GeoCMS permet de visualiser une carte des utilisateurs enregistrés afin de gérer et construire des communautés basées sur l'emplacement géographique des utilisateurs. L'utilisation de wikis pour décrire les couches géographiques constitue un moyen simple de résoudre le problème des métadonnées géographiques. 
 
 Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) nous indiquent comment ils ont utilisé diverses technologies interopérables pour diffuser les données de leur plateforme DataECLA. Les auteurs ont testé un certain nombre d'outils comme GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers ils ont rajouté à cette palette d'outils des dashboards python.
 
@@ -146,36 +146,36 @@ Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER)
 
 ### diffusion de données de capteurs par le protocole SOS
 
-Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs qui mesurent des phénomènes sur le terrain. Les données sont fréquemment acquises en cotninue pour suivre l'évolutin d'un phénomène physique ou biologique et sont donc représentées sous la forme de  séries temporelles. C'est à dire des valeurs échelonnées dans le temps afin depouvoir suivre leur évolution dans le temps.
+Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs géoréférencés qui mesurent des phénomènes sur le terrain. Les données sont fréquemment acquises en continue pour suivre l'évoluton d'un phénomène physique ou biologique et sont donc représentées sous la forme de séries temporelles, des valeurs échelonnées dans le temps afin de pouvoir suivre leur évolution temporelle.
 
 
 De nombreux standards sont édictés par l'OGC pour la gestion des données de capteurs : SWE, [O&M](http://www.opengeospatial.org/standards/om), [SOS](https://www.ogc.org/standards/sos) 
 
 SWE est l'acronyme de "_Sensor Web Enablement_" et comprend des formats normalisés et des interfaces de services Web dans le domaine des données de capteurs. Depuis 2003, un des objectifs de l'OGC est de rendre les données hétérogènes des capteurs (données d'imagerie satellitaire ou aéroportée,  capteurs de surveillance in situ, etc.) disponibles pour la découverte, l'accès et l'utilisation via des formats et des services Web interopérables. 
 
-Grâce aux formats et services normalisés, l'hétérogénéité et la complexité des différents types de capteurs et des résultats de mesure est cachée aux utilisateurs finaux. 
+Grâce aux formats et services normalisés, l'hétérogénéité et la complexité des différents types de capteurs et des résultats de mesures est cachée aux utilisateurs finaux. 
 
-En particulier, la [norme Observation & Measurement (O&M)](http://www.opengeospatial.org/standards/om) définit comment modéliser les observations et la norme SensorML (Sensor Model Language) peut être utilisée pour représenter les métadonnées sur le capteur d'observation lui-même. 
+En particulier, la [norme Observation & Measurement (O&M)](http://www.opengeospatial.org/standards/om) définit comment modéliser les observations (au sens de la gestion en base de données). En complément, le norme sémantique SensorML (Sensor Model Language) a pour objectif de fournir un moyen robuste et sémantiquement lié de définir les processus et les composants de traitement associés à la mesure et à la transformation post-mesure des observations. Elle peut être utilisée aussi pour représenter les métadonnées sur le capteur d'observation lui-même.
 
-"Sensor Observation Service" (SOS) est quant à lui le service d'observation des capteurs. C'est le service Web le plus connu qui permet d'accéder aux données stockées des capteurs.  SOS permet aux utilisateurs de demander des observations et les métadonnées associées des capteurs. Dans le contexte du cadre SWE, le service SOS représente le service de base pour accéder aux données des capteurs d'une manière interopérable et normalisée : http://www.opengeospatial.org/standards/sos,
+"Sensor Observation Service" (SOS) est quant à lui le service d'observation des capteurs. C'est le service Web normalisé le plus connu qui permet d'accéder aux données stockées des capteurs.  SOS permet aux utilisateurs de demander des observations et les métadonnées associées des capteurs. Dans le contexte du cadre SWE, le service SOS représente le service de base pour accéder aux données des capteurs d'une manière interopérable et normalisée : http://www.opengeospatial.org/standards/sos,
 
-SOS fournit un ensemble d'opérations obligatoires ou facultatives, pour obtenir des informations sur les données, les capteurs  (GetCapabilities, DescribeSensor ), ainsi que les données elles mêmes (GetObservation)
+SOS fournit un ensemble d'opérations obligatoires ou facultatives, pour obtenir des informations sur les données, les capteurs à partir d'une modélisation O&M  (GetCapabilities, DescribeSensor ), ainsi que les données elles mêmes (GetObservation, InsertObservation).
 
-on trouvera un [résumé de ces différents standards, SWE, O&M et SOS, sur le support de formation de l'ANF SOS/52North du réseau SIST en 2021](https://sist.pages.in2p3.fr/anf21-sos52north/05_web-services/#sensor-observation-service) 
+Le lecteur trouvera un [résumé de ces différents standards, SWE, O&M et SOS sur le support de formation de l'ANF SOS/52North du réseau SIST en 2021](https://sist.pages.in2p3.fr/anf21-sos52north/05_web-services/#sensor-observation-service) 
 
-SOS fait partie des standards recommandés par le réseau SIST qui à ce titre a mis en place des formations sur les 2 technologies logicielles qui implémentent ce protocole
+SOS fait partie des standards recommandés par le réseau SIST qui à ce titre a mis en place des formations sur les 2 technologies logicielles les plus matures qui implémentent ce protocole
 
-- *[le logiciel istSOS](http://istsos.org/)* réalisé par l'Institut des Sciences de la Terre" de l'université de Suisse, est un des 2 logiciels suffisamment matures pour implémenter la gestion de données de capteurs avec SOS
-istSOS permet de fournir les données et métadonnées de capteurs dans un format standardisé en utilisant des opérations normalisées. Ainsi, l'accès aux données de capteur via le web est rendu interopérable et simplifié pour l'utilisateur. 
-Le logiciel permet d'afficher la description et la localisation des capteurs sur une carte, et d'établir des graphes temporels.
+- *[le logiciel istSOS](http://istsos.org/)* développé par l'Institut des Sciences de la Terre" de l'université de Suisse permet de fournir les metadonnées et données de capteurs dans le modèle standardisé O&M en utilisant des opérations normalisées via SOS. Ainsi, l'accès aux données de capteurs est simplifié pour l'utilisateur et rendu interopérable pour de systèmes externes automatisées (machine to machine) ou non (client web). 
+
+Le logiciel permet de plusd'afficher la description et la localisation des capteurs sur une carte, et d'établir des graphes d'évolutions temporelles.
  
 [La formation sur istSOS](https://sist.cnrs.fr/les-formations/formation-istsos-1) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
 
 - *[le logiciel 52North]( https://52north.org/)* est développé par la société éponyme https://52north.org/ qui travaille sur les technologies et infrastructures d’information spatialisées. C’est actuellement un des logiciels suffisamment matures pour mettre en œuvre le standard SOS, à l’instar du logiciel istSOS.
 
-La formation mise en place par le réseau SIST en 2021 avec les concepteurs allemands de ce logiciel, permet de mieux appréhender le standard SOS et d’être en mesure de déployer (installer, configurer, alimenter, exploiter) un serveur SOS avec le logiciel 52°North, couplé avec les séries temporelles issues de capteurs, qu’elles soient sous forme de fichiers (CSV, NetCDF) ou sous forme de bases de données relationnelles. 
+La formation mise en place par le réseau SIST en 2021 avec les concepteurs de ce logiciel, permet de mieux appréhender le standard SOS et d’être en mesure de déployer (installer, configurer, alimenter, exploiter) un serveur SOS avec le logiciel 52°North, couplé avec les séries temporelles issues de capteurs, qu’elles soient sous forme de fichiers (CSV, NetCDF) ou sous forme de bases de données relationnelles. 
 
-- [Le support de cours de la  formation](https://sist.pages.in2p3.fr/anf21-sos52north/)  permet de savoir insérer des capteurs et des données dans le serveur SOS, de les visualiser et de comprendre comment fonctionne le protocole SOS. Ce standard et ce logiciel peuvent permettre de gérer correctement et de manière interopérable les nombreuses séries temporelles qui sont collectées dans nos unités.
+- [Le support de cours de la  formation](https://sist.pages.in2p3.fr/anf21-sos52north/) permet de savoir insérer des capteurs et des données dans le serveur SOS, de les visualiser et de comprendre comment fonctionne le protocole SOS. Ce standard et ce logiciel peuvent permettre de gérer correctement et de manière interopérable les nombreuses séries temporelles qui sont collectées dans nos unités.
 
 
 ```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/les-formations/anf-2021-sos-52degnorth)
@@ -234,7 +234,6 @@ Les politiques opérationnelles de ces pôles sont suivies par le réseau SIST o
 
 Par ailleurs, de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du [British Oceanographic Data Center : BODC](https://www.bodc.ac.uk/).
 Le projet européen Seadatanet vise à élaborer et mettre en place un portail européen d'accès aux données marines en se basant sur de nombreux standards rendant les données FAIR. 
-
 
 Seadatanet est un exemple d'envergure européenne pour la mise en place de standards d'interopérabilité. Il repose sur de nombreux vocabulaires contrôlés fournis par le BODC. Une présentation du projet Seadatanet a été faite par Michele Fichaut et Florence Conquet  
 
@@ -476,7 +475,7 @@ RBDD
 
 ## Les entrepôts de données
 
-Dans un contexte de science ouverte, les acteurs de la recherche s'accordent aujourd'hui pour considérer les données de la recherche comme des produits de la recherche et appellent à mieux les gérer et à les partager. Le partage des données et des connaissances, mais également le partage des logiciels, des méthodes et des processus n’ont de réel bénéfice que s'ils sont accompagnés en amont par une gestion rigoureuse et de qualité des données, basé sur des principes clairs et consensuels.
+Dans un contexte de science ouverte, les acteurs de la recherche s'accordent aujourd'hui pour considérer les données de la recherche comme des produits de la recherche et appellent à mieux les gérer et à les partager. Le partage des données et des connaissances, mais également le partage des logiciels, des méthodes et des processus n’ont de réel bénéfice que s'ils sont accompagnés en amont par une gestion rigoureuse et de qualité des données basée sur des principes clairs et consensuels.
 
 Les enjeux liés à la gestion et au partage des données de la recherche nécessitent des outils appropriés communément appelés "Entrepôts de données". Mais qu'est-ce qu'un entrepôt de données et quelles en sont les principales caractéristiques ? Comment les entrepôts de données contribuent-ils à la gestion et au partage des données ? 
 
@@ -569,7 +568,7 @@ Les principes TRUST donnent aux utilisateurs l’assurance qu’ils bénéficien
 
 ### Entrepôts en SHS 
 
-En sciences humaines et sociales, NAKALA est un service proposé par [l'infrastructure de Recherches "Huma-Num"](https://www.huma-num.fr/) pour déposer, documenter et diffuser les données de la recherche. Il permet de rendre les données interopérables et de diffuser très simplement, dans des publications électroniques, les données déposées dans NAKALA.
+En sciences humaines et sociales, NAKALA est un service proposé par [l'infrastructure de Recherches "Huma-Num"](https://www.huma-num.fr/) pour déposer, documenter et diffuser les données de la recherche. Il permet de rendre les données interopérables et de les diffuser très simplement, dans des publications électroniques.
 
 L'entrepôt de données de recherche NAKALA, est destiné à accueillir, conserver et rendre visibles et accessibles les données de recherche selon les principes FAIR. Il permet d’enregistrer des données numériques de tout type (fichiers texte, son, images, vidéo), de les décrire en vue de les exposer et les rendre réutilisables et citables. Ainsi le dépôt de données dans NAKALA va offrir des services sur plusieurs étapes du cycle de vie de vos données, sur la préservation, la publication et la réutilisation. Le service NAKALA offre deux niveaux de préservation :
 - Un niveau par défaut qui est mis en pratique dès lors qu’une donnée est enregistrée dans NAKALA. La donnée est décrite, contextualisée et stockée de manière sécurisée. Au titre de la préservation, déposer et décrire ses données dans NAKALA apporte la garantie d’une conservation des données dans un environnement sécurisé. Accompagnée d’une description, elle apporte aussi une conservation au niveau intellectuel garantissant sa compréhension à long terme.
@@ -621,11 +620,12 @@ Selon les journaux et les communautés, la portée du "peer review" va varier. C
 
 [^codata]: <https://datascience.codata.org/articles/10.5334/dsj-2020-005/>
 
-La différence est plus délicate lorsqu'il s'agit de comparer un data paper et un article contenant des « _supplementary data_ » qu’il décrit. Là en effet, les distinctions ne sont pas toujours claires, surtout du fait du manque de recul car ce sont des pratiques récentes et toujours émergentes. Certains data paper sont très très bref et ne vont pas beaucoup plus loin que ce qu’on trouve dans la fiche accompagnant le jeu de données dans l’entrepôt, d’autres sont beaucoup plus complexes et jouent plus profondément la carte de la réutilisation en tentant d’expliciter les implications des jeux de données et des traitements subis.
+La différence est plus délicate lorsqu'il s'agit de comparer un data paper et un article contenant des « _supplementary data_ » qu’il décrit. En effet, les distinctions ne sont pas toujours claires, surtout par manque de recul car ce sont des pratiques récentes et toujours émergentes. Certains data paper sont très brefs et ne vont pas beaucoup plus loin que ce qu’on trouve dans la fiche accompagnant le jeu de données dans l’entrepôt (landing page), d’autres sont beaucoup plus complexes et jouent plus profondément la carte de la réutilisation en tentant d’expliciter les implications des jeux de données et des traitements subis.
 
 Le data paper est publié, en libre accès, sous la forme d'un article examiné par les pairs dans une revue scientifique classique publiant différentes formes d’articles, dont des data papers, ou dans un data journal, c’est-à-dire une revue contenant exclusivement des data papers. 
 
 Il n’existe pas, à ce jour, de _catalogues ou de répertoires_ à proprement parlé, mais nous recommandons la consultation de ces listes de liens génériques : 
+- [CIRAD] (https://coop-ist.cirad.fr/gerer-des-donnees/publier-un-data-paper/1-qu-est-ce-qu-un-data-paper)
 - [CIRAD](https://coop-ist.cirad.fr/content/download/6265/45560/version/3/file/Coopist-Revues+publiant+des+datapapers-nov+2017.pdf), 
 - [Forschungsdaten](https://www.forschungsdaten.org/index.php/Data_Journals), 
 - [Datashare](https://www.wiki.ed.ac.uk/display/datashare/Sources+of+dataset+peer+review) et dans le domaine de la 
@@ -641,7 +641,7 @@ Sophie Pamerlon :Système mondial d’information sur la biodiversité - GBIF Gl
 On trouvera de nombreuses informations sur la création et l'évaluation de Data papers dans le Webinaire intitulé "DataPaper: une incitation à la qualification et à la réutilisation des jeux de données" organisé par  l'"[Atelier Données](https://gt-atelier-donnees.miti.cnrs.fr/index.html)" du groupe de travail Données inter-réseaux de la MITI.
 
 Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux outils de rédaction de datapaper :
-*  IPT (Integrated Publishing Toolkit) qui  facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper
+*  IPT (Integrated Publishing Toolkit) qui facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper
 * ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.
 
 ```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf)    
@@ -682,7 +682,7 @@ Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse
 
 
 Joachim Schöpfel,  propose une synthèse des différentes communications du webinaire en indiquant qu'un data paper fournit l'information "on the _what, where, why, how and who of the data_".
-Il revient ainsi sur l'intégration des data papers dans les pratiques des communautés, leur diversité de forme, leurs objectifs, leur évaluation, leur impact, le rôle des différents métiers de la recherche dans leur production, pour finir sur les perspectives en la matière et ouvrir ainsi sur des échanges avec les participants.
+Il revient ainsi sur l'intégration des data papers dans les pratiques des communautés, leurs diversités de forme, leurs objectifs, leur évaluation, leur impact, le rôle des différents métiers de la recherche dans leur production, pour finir sur les perspectives en la matière et ouvrir ainsi sur des échanges avec les participants.
 
 ```{admonition} [Synthèse du webinaire et échanges](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf)   
 :class: seealso   
@@ -761,4 +761,4 @@ Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés
 
 </ajout>
 
-Tous les éléments exposés dans ce chapitre sont nécessaires et importants pour mettre en place une bonne publication et diffusion des données de la science.
+Tous les éléments exposés dans ce chapitre sont nécessaires et importants pour mettre en place une bonne publication et diffusion des données de la science selon les principes FAIR.
