@@ -294,7 +294,7 @@ Les services prévus seront :
 :class: seealso
 [vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
  Richard Moreno et Karim Ramage (direction technique Data Terra)   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2018](https://sist20.sciencesconf.org/)  
+[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist20.sciencesconf.org/)  
 ```
 
 [/ajout]
@@ -756,7 +756,7 @@ Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés
 :class: seealso
 [vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
  J-C Desconnet , Institut de l’information scientifique et technique   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2018](https://sist20.sciencesconf.org/)  
+[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist20.sciencesconf.org/)  
 ```
 
 </ajout>
