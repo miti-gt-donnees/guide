@@ -324,9 +324,10 @@ Fort de l’intérêt suscité par le Passeport, deux autres guides thématiques
 
 <new: CH JJ>
 
-
+```{admonition} A noter !
 :class: warning
-A noter ! Le service Ingénierie terminologique de l’Inist-CNRS a créé un « [Thésaurus de la science ouverte](https://skosmos.loterre.fr/TSO/fr/) » trilingue (français, anglais et espagnol) actuellement riche de près de 400 concepts. 
-
+Le service Ingénierie terminologique de l’Inist-CNRS a créé un « [Thésaurus de la science ouverte](https://skosmos.loterre.fr/TSO/fr/) » trilingue (français, anglais et espagnol) actuellement riche de près de 400 concepts. 
+```
 
 </new CH JJ>
+
