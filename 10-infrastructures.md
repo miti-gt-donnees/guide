@@ -198,7 +198,9 @@ Philippe Lavocat, GENCI.
 JCAD 2021
 ```
 
-**Infrastructures des mésocentres et centres régionaux, présentations générales**
+### Infrastructures des mésocentres et centres régionaux, 
+
+**Présentations générales**
  
 Au niveau régional et local, les mésocentres de calcul fournissent des ressources et un accompagnement de proximité plus souple et en général plus facile d'accès que les ressources nationales.
  
@@ -228,7 +230,7 @@ JCAD 2021
 ```
 
 
-**Infrastructures des mésocentres et centres régionaux, quelques exemples**
+**Quelques exemples**
 
 Lors des JCAD 2019, Cyrille Toulet a présenté l'intégration du cloud OpenStack du mésocentre de Lille dans plusieurs fédérations de cloud nationales et internationale. Il explique l'intérêt de ces intégrations et les aspects techniques et donne des cas d'utilisation dans différentes disciplines.
 
@@ -259,11 +261,13 @@ La présentation d'autres centres est disponible sous forme de poster, comme par
 Coraline Petit, Cerasela Iliana Calugaru, Micaël Calvas et Loïs Taulelle, Pôle Scientifique de Modélisation Numérique, École Normale Supérieure de Lyon 
 JCAD 2018
 ```
+
 ```{admonition} [Le Centre Blaise Pascal : de l'hôtel à projets au centre d’essais.](http://www.cbp.ens-lyon.fr/emmanuel.quemener/documents/CBP_CentreDEssais.pdf)
 :class: seealso
 Emmanuel Quemener et Micaël Calvas, Centre Blaise Pascal, École Normale Supérieure de Lyon 
 JCAD 2018
 ```
+
 ```{admonition} [Mésocentre CALMIP](https://jcad2018.sciencesconf.org/data/poster_calmip.pdf)
 :class: seealso
 Mickaël Duval, Nadine Marouzé, UMS 3667 CALMIP - Université de Toulouse, INPT, Université Paul Sabatier, INSAT, ISAE-SUPAERO et CNRS 
@@ -279,7 +283,7 @@ Anthony Scemama, Patrick BOUSQUET-MELOU, Marie-Sophie Cabot, Nicolas Renon
 JCAD 2019
 ```
 
-**Infrastructure pour les expériences à grande échelle en informatique**
+## Infrastructure pour les expériences à grande échelle en informatique
 
 SILECS, "Super Infrastructure for Large-scale Experimental Computer Science", est dédiée aux expériences à grande échelle en informatique basée sur les infrastructures FIT et GRID'5000. Cette infrastructure, tout en conservant les objectifs de FIT et GRID'5000, vise de nouveaux challenges : Internet des objets - Internet of Things (IoT) et Clouds, nouvelles générations de plateformes Cloud et de piles logicielles (Edge, FOG), applications de Data streaming, gestion de volumes de données importants, mobilité...
 
@@ -296,6 +300,16 @@ Dans la présentation "Slices, towards a Scientific Large-Scale Infrastructure f
 [Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f769cca6cwq3z7qg/iframe/)   
 Christian Perez, Inria  
 JCAD 2020
+```
+## Plateforme nationale fédérée des données de la recherche
+
+Lors des JCAD 2021, Isabelle Blanc, Administratrice ministérielle des données, des algorithmes et des codes sources au MESRI a rappelé la place des données de recherche dans les politiques nationales et les ambitions du deuxième plan national pour la science ouverte. Dans son exposé "Recherche Data Gouv: une plateforme nationale fédérée des données de la recherche, dans le contexte du Plan national pour la science ouverte et de la politique des données , des algorithmes et des codes sources de l’ESR." elle a également présenté la plateforme nationale fédérée des données de la recherche et le calendrier d'ouverture des services associés.
+
+```{admonition} [Recherche Data Gouv: une plateforme nationale fédérée des données de la recherche, dans le contexte du Plan national pour la science ouverte et de la politique des données , des algorithmes et des codes sources de l’ESR.](https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateurs_Crouzet_et_Aulanier_Quelle_Place_Pour_Les_Mesocentres.pdf)   
+:class: seealso
+[Vidéo à venir: ](à venir)   
+Isabelle Blanc, MESRI  
+JCAD 2021
 ```
 
 ### Infrastructures régionales de gestion de données
