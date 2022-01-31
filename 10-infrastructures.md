@@ -208,8 +208,17 @@ Les mésocentres ont fait l'objet de présentations régulières, à la fois tec
  - [Journée mésocentres 2016](https://calcul.math.cnrs.fr/2016-10-journees-mesocentres.html)
  - [Journée mésocentres 2017](https://calcul.math.cnrs.fr/2017-09-journees-mesocentres.html)
  
-De nombreux mésocentres ont participé à l'equipex Equip@Meso coordonné par GENCI et qui a fait l'objet par exemple, lors des JCAD 2018, d'[un poster](https://jcad2018.sciencesconf.org/data/JCAD2018PosterEquipameso.pdf) d'Elise Quentel de GENCI, qui synthétise les informations
+De nombreux mésocentres ont participé à l'equipex Equip@Meso coordonné par GENCI et qui a fait l'objet par exemple, lors des JCAD 2018, d'[un poster](https://jcad2018.sciencesconf.org/data/JCAD2018PosterEquipameso.pdf) d'Elise Quentel de GENCI, qui synthétise les informations.
+
+Mesonet, projet PIA3 "Équipements structurants pour la recherche" a débuté en octobre 2021 pour 6 ans. Il regroupe 21 partenaires et est coordonné par GENCI. Ce projet a été présenté lors des JCAD 2021 par Jean-Philippe Proux, Arnaud Renard dans "MesoNET : le mésocentre national distribué".
  
+ ```{admonition} [MesoNET : le mésocentre national distribué](https://jcad2021.sciencesconf.org/data/JCAD_Mesonet.pdf)   
+:class: seealso
+[Vidéo à venir: ](à venir)   
+Jean-Philippe Proux, Arnaud Renard  
+JCAD 2021
+```
+
 Lors des JCAD 2019, Cyrille Toulet a présenté l'intégration du cloud OpenStack du mésocentre de Lille dans plusieurs fédérations de cloud nationales et internationale. Il explique l'intérêt de ces intégrations et les aspects techniques et donne des cas d'utilisation dans différentes disciplines.
 
 ```{admonition} [Intégration d'un cloud OpenStack à plusieurs fédérations de cloud](https://jcad2019.sciencesconf.org/data/Inte_gration_d_un_cloud_OpenStack_a_plusieurs_fe_de_rations_de_cloud_11_octobre_2019_.pdf)
