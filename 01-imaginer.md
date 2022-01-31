@@ -12,11 +12,14 @@ L’apport des réseaux est ici important en termes de croisement des discipline
 Avant d’aborder la gestion des données sous ses aspects techniques qui seront développés tout au long des étapes du cycle de vie de la donnée dans ce guide, nous souhaitons apporter une vision d’ensemble du paysage de la gestion des données.  
 Ce paysage s’appréhende dans le cadre du mouvement open science, de la politique d’open data en particulier et par la connaissance de l’ensemble du processus de recherche depuis la compréhension des possibilités de financement de la recherche (attendu des financeurs H2020, ERC, ANR …) jusqu’à la diffusion, la valorisation et l’évaluation des résultats.
 
-### Connaître les politiques d'accompagnement des données au niveau européen et international 
+### Connaître les politiques d'accompagnement des données au niveau <modif: CH JJ>
+   français,
+</modif: CH JJ>
+ européen et international 
 
 Différentes initiatives institutionnelles sont développées au sein de nos établissements en France ou à l’étranger pour accompagner la politique des données de la recherche. Il est intéressant de se pencher sur ces travaux pour anticiper les besoins et prévoir les évolutions stratégiques possibles au sein de notre environnement.
  
-À l’occasion des « FréDoc 2013 », Simon Hodson (Directeur exécutif de CODATA) dresse un panorama très complet des différentes politiques institutionnelles, des tendances gouvernementales et internationales. Nous percevons très distinctement les défis et obstacles à lever pour la mise en place d’une gestion des données de la recherche. On comprend l’importance d’analyser le comportement des communautés de recherche pour parvenir à construire ensemble une politique autour des données et aussi l’intérêt d’une approche convergente « top down et bottom up » pour la mise en place d’actions de terrain qui rejoignent les actions de la gouvernance. Les nombreux défis à la mise en place d’une politique des données de la recherche sont bien présents à commencer par le fait d’instaurer au sein de nos communautés une culture du partage de la donnée et de mettre à disposition des chercheurs des infrastructures et des services de formation.   
+À l’occasion des « FréDoc 2013 », Simon Hodson (Directeur exécutif de CODATA) dresse un panorama très complet des différentes politiques institutionnelles, des tendances gouvernementales et internationales. Nous percevons très distinctement les défis et obstacles à lever pour la mise en place d’une gestion des données de la recherche. On comprend l’importance d’analyser le comportement des communautés de recherche pour parvenir à construire ensemble une politique autour des données et aussi l’intérêt d’une approche convergente « top down et bottom up » pour la mise en place d’actions de terrain qui rejoignent les actions de la gouvernance. Les nombreux défis à la mise en place d’une politique des données de la recherche sont bien présents, à commencer par le fait d’instaurer au sein de nos communautés une culture du partage de la donnée et de mettre à disposition des chercheurs des infrastructures et des services de formation.   
 Simon Hodson souligne aussi le rôle essentiel des politiques et parties prenantes pour mettre en place des actions et des concertations.
 
 ```{admonition} [Les politiques d’accompagnement des données : une comparaison internationale](http://renatis.cnrs.fr/IMG/pdf/Hodson_FReDOC_Presentation_FR.pdf)  
@@ -47,15 +50,49 @@ On constate en effet aujourd’hui que les services communs de documentation, no
 
 L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'accompagnement de la recherche à caractère national ou international qui bénéficie d’un processus de labellisation et qui a pour vocation d’apporter un service à la communauté scientifique. Il s’agit des  [Services Nationaux d’Observation](https://www.insu.cnrs.fr/fr/les-services-nationaux-dobservation) (SNO) labellisés par la direction de l'INSU. Ces services ont été créés pour répondre au besoin de documenter sur le long terme la formation, l'évolution, la variabilité des systèmes astronomiques et des milieux terrestres, et de faire progresser les connaissances dans ces domaines. 
 
+<new: CH JJ>
+  ** Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
+
+Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur, de la recherche et de l’Innovation (MESRI) a  mis en route la création d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://www.ouvrirlascience.fr/recherche-data-gouv-plateforme-nationale-federee-des-donnees-de-la-recherche/). Il s’agit de mettre à disposition des chercheurs un entrepôt pluridisciplinaire pour le dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.  
+Outre le service de dépôt et de diffusion, cette plateforme propose aux chercheurs un catalogue des données de la recherche française et des services d’accompagnement de la donnée. Ces services se décomposent en trois catégories :  
+
+- Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes)
+- Centres de référence thématiques : en appui aux ateliers de la donnée, ils apportent une expertise disciplinaire
+- Centre de ressources rattachés à recherche data.gouv : ils apportent des services liés à l’entrepôt générique des données, au catalogue, aux e-formation etc.
+
+
+Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner un [webinaire](https://www.canal-u.tv/chaines/rda/rda-france-recherche-data-gouv-l-entrepot-national-federe-des-donnees-de-la-recherche) animé par  Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche et Pierre Yves Arnould, chargée de mission au MESRI ou à consulter le d[éroulé de leur présentation](https://rdafrance2021.sciencesconf.org/data/pages/2021.10.12_Recherche_Data_Gouv_RDA.pdf) réalisé le 12 octobre 2001 à l’occasion de la 4ème Réunion annuelle de RDA France.
+</new CH JJ>
+
+
+
+
 ### Comprendre le contexte
 
 Ces dernières années, la réglementation en matière de science ouverte a largement modifié le paysage des données de la recherche et a permis de mieux cadrer les pratiques scientifiques sur le plan juridique.
 
 **Un contexte politique favorable à la gestion et au partage des données**
 
-En 2018, à la suite des objectifs fixés par l'Europe, la France s'est dotée d'un [plan national pour la science ouverte](https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf). Présenté le 4 juillet par Frédérique Vidal, la ministre de l’Enseignement et de la Recherche, ce plan prône la diffusion sans entraves des publications et des données de la recherche. Il comporte différentes mesures déclinées en trois axes stratégiques et pose les conditions du développement de la science ouverte dans nos établissements. Dans la continuité de ce plan, le CNRS, a rédigé une [feuille de route pour la science ouverte](https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf) s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d'une culture de la gestion et du partage des données, (iii) développement d'infrastructure pour la fouille et (iv) l'analyse des contenus et la transformation des modalités d'évaluation des chercheurs). 
+En 2018, à la suite des objectifs fixés par l'Europe, la France s'est dotée d'un [plan national pour la science ouverte](https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf)
 
-Enfin, le CNRS a publié en novembre 2020 un [plan Données de la recherche](https://www.cnrs.fr/sites/default/files/pdf/Plaquette_PlanDDOR_Nov20.pdf) avec l'objectif d'accélérer le développment vers la science ouverte, et d'encourager les chercheurs à rendre leur données accessibles et réutilisables. A côté de la mise en place d'une politique des données en phase avec les besoins des communautés scientifiques, ce plan envisage un nouveau mode de gouvernance et un plan d'action pour les données de la recherche.
+<modif: CH JJ>
+qui prône la diffusion sans entraves des publications et des données de la recherche. Renouvelé en 2021 dans la continuité des [actions menées au cours des trois dernières années](https://www.ouvrirlascience.fr/wp-content/uploads/2021/07/Bilan-PNSO-2018-2021.pdf), et en résonance avec la [loi de programmation de la recherche de 2020](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042738033), ce [second plan](https://www.ouvrirlascience.fr/wp-content/uploads/2021/06/Deuxieme-Plan-National-Science-Ouverte_2021-2024.pdf) inscrit la science ouverte dans les missions des chercheurs et des enseignants-chercheurs, vise 100% des publications en accès ouvert en 2030 et s’enrichit d’un nouvel axe dédié aux codes sources et logiciels libre prenant appui sur la [politique nationale des données, des algorithmes et des codes sources](https://www.numerique.gouv.fr/uploads/feuillederoute_mesri.pdf) impulsée par le Premier ministre.
+
+Suivant le même cap à l’échelle internationale, l’UNESCO produit en novembre 2021, une [recommandation sur la science ouverte](https://www.ouvrirlascience.fr/recommandation-de-lunesco-sur-une-science-ouverte/) et propose des actions en convergence avec le deuxième Plan national pour la Science ouverte.
+
+</modif: CH JJ>
+
+
+<modif: CH JJ A SUPPRIMER>
+
+. Présenté le 4 juillet par Frédérique Vidal, la ministre de l’Enseignement et de la Recherche, ce plan prône la diffusion sans entraves des publications et des données de la recherche. Il comporte différentes mesures déclinées en trois axes stratégiques et pose les conditions du développement de la science ouverte dans nos établissements. Dans la continuité de ce plan, 
+
+</modif: CH JJ A SUPPRIMER>
+
+<modif: CH JJ> Le CNRS, a pour sa part <modif: CH JJ> rédigé une [feuille de route pour la science ouverte](https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf) s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d'une culture de la gestion et du partage des données, (iii) développement d'infrastructure pour la fouille et (iv) l'analyse des contenus et la transformation des modalités d'évaluation des chercheurs). 
+
+
+<modif: CH JJ>Il a également publié <modif: CH JJ>, <modif: CH JJ A SUPPRIMER>Enfin, le CNRS a publié <modif: CH JJ A SUPPRIMER> en novembre 2020 un [plan Données de la recherche](https://www.cnrs.fr/sites/default/files/pdf/Plaquette_PlanDDOR_Nov20.pdf) avec l'objectif d'accélérer le développment vers la science ouverte, et d'encourager les chercheurs à rendre leur données accessibles et réutilisables. A côté de la mise en place d'une politique des données en phase avec les besoins des communautés scientifiques, ce plan envisage un nouveau mode de gouvernance et un plan d'action pour les données de la recherche.
 
 Du côté des financeurs de la recherche, l’ANR dans son plan d’action 2020 réaffirme son engagement en faveur de la science ouverte. En lien avec le plan national pour la science ouverte, elle demande l’élaboration d’un Plan de Gestion des Données (PGD) pour les projets financés à partir de 2019. Partant des recommandations du [Comité pour la Science Ouverte](https://www.ouvrirlascience.fr/) (CoSO), elle a adopté un [modèle de PGD](https://anr.fr/fileadmin/documents/2019/ANR-modele-PGD.pdf) proposé par Science Europe qui vise à harmoniser la gestion des données au niveau international. Ce plan constitue désormais un livrable de tout projet financé par l'ANR.
 
@@ -208,7 +245,7 @@ Le DCC propose également un Briefing paper [« What is Digital Curation »](htt
 
 Pour illustrer une pratique de curation des données en SHS, Emmanuelle Morlock, Ingénieure au Laboratoire HiSoMa a présenté un travail réalisé dans l’univers de l’édition critique des sources.
 
-Cette présentation s’organise en trois parties : les spécificités de la « data curation », les défis spécifiques aux SHS et les solutions proposées par l’encodage TEI (Text Encoding Initiative) de sources textuelle pour relever ces défis.
+Cette présentation s’organise en trois parties : les spécificités de la « data curation », les défis spécifiques aux SHS et les solutions proposées par l’encodage TEI (Text Encoding Initiative) de sources textuelles pour relever ces défis.
 Emmanuelle Morlock définit ici la notion de curation et les notions associées, les activités engendrées par cette activité et les défis qu’elles représentent pour les sciences humaines et sociales. Elle s’intéresse également aux types d’objets de la curation. 
 Elle aborde ensuite le chapitre de l’édition savante qui l’amène à définir précisément ce qu’est l’édition numérique (un texte enrichi, exploitable par des machines) et à présenter, définir et expliquer le processus d’édition dans un format XML TEI. 
 Elle explique aussi l’apport de la TEI dans la réponse aux défis posés par l’édition numérique (distinction de niveaux d’interprétation via le balisage, conservation et documentation des choix de manière formalisée) et termine sa présentation sur le rôle des « curateurs » pour repérer les manques dans un objectif de réutilisation à long terme ou pour aider les chercheurs à améliorer leurs pratiques de documentation de leurs données.
@@ -227,7 +264,7 @@ La gestion des archives d’un laboratoire de recherche est une pratique assez p
 
 Pour les archivistes de la section « Aurore » de l’association des archivistes français, « Les données de la recherche sont l’ensemble des informations et matériaux produits et reçus par des équipes de recherche et des chercheurs. Elles sont collectées et documentées à des fins de recherche scientifique. A ce titre, elles constituent une partie des archives de la recherche ».
 
-Se préoccuper de l’archivage des données fait partie intégrante d’une bonne gestion des données. Dans une logique de préservation, l’archivage se conçoit très en amont d’un projet, dès la création de la donnée. Son objectif est de décrire, documenter, contextualiser les données pour pouvoir ensuite assurer leur diffusion et leur préservation à long terme. Il concerne tout type de données (bases de données, questionnaire d’enquête, données brutes, photos, etc.). Au-delà du stockage, il s’agit là de faire en sorte qu’une donnée soit réexploitable (intègre, lisible, intelligible) dans 10, 20 ou 50 ans par une nouvelle communauté de chercheur. 
+Se préoccuper de l’archivage des données fait partie intégrante d’une bonne gestion des données. Dans une logique de préservation, l’archivage se conçoit très en amont d’un projet, dès la création de la donnée. Son objectif est de décrire, documenter, contextualiser les données pour pouvoir ensuite assurer leur diffusion et leur préservation à long terme. Il concerne tout type de données (bases de données, questionnaire d’enquête, données brutes, photos, etc.). Au-delà du stockage, il s’agit là de faire en sorte qu’une donnée soit réexploitable (intègre, lisible, intelligible) dans 10, 20 ou 50 ans par une nouvelle communauté de chercheurs. 
 
 Les données sont des archives publiques dès lors qu’elles sont créées au sein d’un établissement public et l’archivage institutionnel est réglementé par la loi et notamment le [code du patrimoine](https://www.codes-et-lois.fr/code-du-patrimoine/toc-partie-legislative-livre-ii-archives-texte-integral). Les données doivent faire l’objet d’un tri, d’une sélection, idéalement à la suite d’un échange entre chercheur et archiviste en vue d’une conservation, si nécessaire, aux Archives nationales ou départementales. 
 
@@ -259,16 +296,16 @@ Les réseaux favorisent le maintien et le développement des compétences, l’�
 
 Les réseaux rattachés à la MITI du CNRS  sont transversaux à tous les Instituts du CNRS, et accessibles aux personnels de l’Enseignement supérieur et de la Recherche,
 
-La MITI accueille et pilote actuellement [22 réseaux](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
+La MITI accueille et pilote actuellement [20 réseaux](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
 
-Les résaux labellisés par les instituts du CNRS viennent plus spécifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense uncertain nombre dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
+Les réseaux labellisés par les instituts du CNRS viennent plus spécifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense uncertain nombre dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
 
 
 Un dispositif de formation à distance sur les données de la recherche est accessible sur le site [DoRANum](https://doranum.fr/) (Données de la Recherche : Apprentissage NUMérique à la gestion et au partage). Cette plateforme met à disposition différentes ressources d’autoformation en libre accès sur la gestion et le partage des données de la recherche.
 
 Le réseau national des [URFIST](http://gis-reseau-urfist.fr/) (Unité Régionale de Formation à l'Information Scientifique et Technique), créé en 1982 est un réseau inter-académique structuré depuis 2017 en Groupement d’Intérêt Scientifique (GIS) qui a pour objectif de développer l’usage de l’IST dans l’enseignement supérieur et de la recherche. 
 
-Les sept unités régionales proposent chacunes des ressources, documents pédagogiques ainsi que des formations (y compris doctorales) et manifestations scientifiques et professionnelles à [Bordeaux](http://weburfist.univ-bordeaux.fr/), [Lyon](https://urfist.univ-lyon1.fr/), [Paris](https://urfist.chartes.psl.eu/formations/stages/programme), [Nice](https://urfist.univ-cotedazur.fr/), [Rennes](https://www.sites.univ-rennes2.fr/urfist/formations/stages/presentation-du-programme-en-cours), [Strasbourg](http://urfist.unistra.fr/formations/) et [Toulouse](http://urfist.univ-toulouse.fr/formations/sessions-date). Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information. 
+Les sept unités régionales proposent chacune des ressources, documents pédagogiques ainsi que des formations (y compris doctorales) et manifestations scientifiques et professionnelles à [Bordeaux](http://weburfist.univ-bordeaux.fr/), [Lyon](https://urfist.univ-lyon1.fr/), [Paris](https://urfist.chartes.psl.eu/formations/stages/programme), [Nice](https://urfist.univ-cotedazur.fr/), [Rennes](https://www.sites.univ-rennes2.fr/urfist/formations/stages/presentation-du-programme-en-cours), [Strasbourg](http://urfist.unistra.fr/formations/) et [Toulouse](http://urfist.univ-toulouse.fr/formations/sessions-date). Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information. 
 
 Outre les actions de formation, d’expérimentations et innovations pédagogiques initiées par les Urfist, le réseau met à disposition un blog « [UrfistInfo](https://urfistinfo.hypotheses.org/) ».
 
@@ -277,9 +314,17 @@ Outre les actions de formation, d’expérimentations et innovations pédagogiqu
 
 Le Plan national pour la science ouverte, s’appuyant sur trois axes, engage les opérateurs de la recherche à "*mettre en œuvre une politique de science ouverte et à structurer et ouvrir les données de la recherche"*. La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions de deux collèges du  [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (COSO) :  les collèges [Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
 
-Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mette en oeuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte. 
+Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mettent en oeuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte. 
 
 Parmi les réalisations récentes, on peut citer le guide « [Pour une politique des données de la recherche : guide stratégique](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) » où le CoSO émet sept recommandations pour aider à la formalisation et à la mise en œuvre d'une politique des données de la recherche au sein des établissements de l’ESR, la réalisation du [Passeport pour la science ouverte](https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/) destiné aux doctorants de toutes disciplines, le guide « [Je publie, quels sont mes droits](https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/) » qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits et la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente ».
 
-.
+<new: CH JJ>
+Fort de l’intérêt suscité par le Passeport, deux autres guides thématiques: “Codes et logiciels” et “Idées reçues sur la science ouverte” sont en cours de rédaction. Un travail sur les capsules vidéos a également été entrepris. Tous ces livrables verront le jour à la rentrée 2022-2023. 
+</new CH JJ>
 
+<new: CH JJ>
+A NOTER 
+
+A noter ! Le service Ingénierie terminologique de l’Inist-CNRS a créé un « [Thésaurus de la science ouverte](https://skosmos.loterre.fr/TSO/fr/) » trilingue (français, anglais et espagnol) actuellement riche de près de 400 concepts. 
+
+</new CH JJ>
