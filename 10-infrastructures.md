@@ -301,6 +301,15 @@ Dans la présentation "Slices, towards a Scientific Large-Scale Infrastructure f
 Christian Perez, Inria  
 JCAD 2020
 ```
+Cette présentation aux JCAD 2021 fait le point sur l'avancement de SLICES qui est maintenant un projet ESFRI : Research infrastructure for experimental computer science and future services in Europe et SILECS. Les liens entre les deux infrastrutures sont explicités ainsi que les prochaines étapes pour Slices (H2020 Slices-PP) et Silecs (PEPR)
+
+```{admonition} [SILECS/SLICES](https://jcad2021.sciencesconf.org/data/silecs_slices_JCAD_2021.pdf)   
+:class: seealso
+[Vidéo à venir : ](à venir)   
+Christian Perez, Inria  
+JCAD 2021
+```
+
 ## Plateforme nationale fédérée des données de la recherche
 
 Lors des JCAD 2021, Isabelle Blanc, Administratrice ministérielle des données, des algorithmes et des codes sources au MESRI a rappelé la place des données de recherche dans les politiques nationales et les ambitions du deuxième plan national pour la science ouverte. Dans son exposé "Recherche Data Gouv: une plateforme nationale fédérée des données de la recherche, dans le contexte du Plan national pour la science ouverte et de la politique des données , des algorithmes et des codes sources de l’ESR." elle a également présenté la plateforme nationale fédérée des données de la recherche et le calendrier d'ouverture des services associés.
