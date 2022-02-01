@@ -53,7 +53,7 @@ L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'ac
 <new: CH JJ>
   ** Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
 
-Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur, de la recherche et de l’Innovation (MESRI) a  mis en route la création d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://www.ouvrirlascience.fr/recherche-data-gouv-plateforme-nationale-federee-des-donnees-de-la-recherche/). Il s’agit de mettre à disposition des chercheurs un entrepôt pluridisciplinaire pour le dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.  
+Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur, de la recherche et de l’Innovation (MESRI) a  mis en route la création d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Il s’agit de mettre à disposition des chercheurs un entrepôt pluridisciplinaire pour le dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.  
 Outre le service de dépôt et de diffusion, cette plateforme propose aux chercheurs un catalogue des données de la recherche française et des services d’accompagnement de la donnée. Ces services se décomposent en trois catégories :  
 
 - Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes)
