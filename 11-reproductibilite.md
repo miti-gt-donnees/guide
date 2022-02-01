@@ -99,6 +99,14 @@ Les utilisateurs du langage de programmation "[Julia](https://julialang.org/)" s
 Mathieu Besançon, Centrale Lille et Polytechnique Montréal  
 Atelier JuliaNantes, 2019
 ```
+Les questions de portabilité, performance et reproductibilité sont étudiées dans cette présentation qui donnera aux développeurs des éléments concrets pour choisir les bibliothèques qui répondent le mieux à ce dilemne.
+
+```{admonition} [Reproductibilité et portabilité des performances](https://jcad2021.sciencesconf.org/data/Reproductibilite_Performance_Ludovic_Courtes.pdf)    
+:class: seealso
+[vidéo à venir](à venir)  
+Ludovic Courtès, Inria
+JCAD 2021
+```
 
 Lorsque la reproductibilité n'est pas garantie, la validation, la vérification des logiciels, le processus de développement doivent être abordés différemment. On doit être en mesure d'estimer la précision des résultats numériques d'un logiciel et mettre en place des solutions pour contenir les sources d'imprécision. Lors de l'école [Précisions, Reproductibilité en Calcul et Informatique Scientifique](https://precis.sciencesconf.org/) quatre thèmes en lien avec ces problématiques ont été abordés :
 - Arithmétique flottante
