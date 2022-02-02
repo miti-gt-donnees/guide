@@ -169,6 +169,25 @@ Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019    
 ```
 
+<new: MCQ>
+
+Si vos données personnelles nécessitent une anonymisation, vous pouvez consuter ses présentations faites lors du webinaire [les contraintes réglementaires liées aux bases de données] (https://rbdd.cnrs.fr/spip.php?article36)
+
+```{admonition} [PostgreSQL Anonymizer](https://dalibo.gitlab.io/postgresql_anonymizer/how-to.slides.html)    
+:class: seealso   
+Damien Clochard, Dalibo   
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+
+```{admonition} [Retour d’expérience de PostgreSQL Anonymizer](https://rbdd.cnrs.fr/IMG/pdf/pg_anonymizer_dsi_cnrs.pdf?625/ad097df2d0d3b025bfc7ac05c094bdf72ed38803)    
+:class: seealso   
+Vincent Merilhou, CNRS,   
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+mettre PDF et visio
+
+</new MCQ>
+
 ### Les logiciels / les codes sources 
 
 La préservation des logiciels et des codes sources est indispensable pour assurer la reproductibilité de la science. Le projet Software Heritage a pour objectif de collecter, préserver et rendre disponible le code source (et son historique) de tous les logiciels publiquement disponibles. Une présentation du projet est disponible dans la section {ref}`infrastructures` de ce guide.
