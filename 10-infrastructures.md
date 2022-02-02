@@ -323,7 +323,7 @@ JCAD 2021
 
 ### Infrastructures régionales de gestion de données
 
-Des initiatives régionales proposent des infrastructures de gestion et valorisation des données pour la recherche. 
+Des initiatives régionales proposent des infrastructures de gestion et valorisation des données pour la recherche. Les infrastructures thématiques sont décrites dans la partie Publier de ce guide.
 
 A Toulouse, le mésocentre CALMIP étoffe son offre de services et construit CALLISTO, une interface pour le partage et l'analyse semi-automatique de données. CALLISTO propose ainsi une aide à la rédaction de Plans de Gestion de Données sur les aspects techniques, une plateforme de partage de données proche des utilisateurs et en lien avec les ressources du supercalculateur pour permettre la réutilisation des données hébergées.
 
