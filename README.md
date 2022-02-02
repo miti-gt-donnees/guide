@@ -11,7 +11,7 @@ Groupe de travail "Atelier Données"
 4.	[Traiter](04-traiter.md) : Violaine
 5.	[Analyser](05-analyser.md) : Violaine 
 6.	[Archiver](06-archiver.md) : Marie-Claude 
-7.	[Publier](07-publier.md) : Maurice
+7.	[Publier](07-publier.md) : Maurice et Julien
 8.	[Conclusion](08-conclusion.md)
 9.	[Glossaire](09-glossaire.md)
 10.	[Infrastructure](10-infrastructures.md) : Geneviève
