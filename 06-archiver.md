@@ -171,7 +171,23 @@ Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, G
 
 <new: MCQ>
 
-Si vos données personnelles nécessitent une anonymisation, vous pouvez consuter ses présentations faites lors du webinaire [les contraintes réglementaires liées aux bases de données] (https://rbdd.cnrs.fr/spip.php?article36)
+Mettre peut être à la place de la référence précedente la présentation faite lors de la Journée Gestion des données de recherche en SHS 2021 qui a été enregistrée
+Ces vidéos sont associées à la journée d'information et d'échanges sur la gestion des données de recherche organisée le 23 novembre 2021 par le laboratoire Pacte, en partenariat avec la Cellule Data Grenoble Alpes et la Plateforme Universitaire de Données Grenoble Alpes.
+Plus d'informations : https://gdr2021.sciencesconf.org/
+le porbleme ce n'est pas un réseau membre du GT
+
+ 
+```{admonition} [Tout est possible avec le RGPD](https://gdr2021.sciencesconf.org/data/pages/Session2_Tout_est_possible_avec_le_RGPD_me_me_dans_le_cas_de_projets_de_recherche_EmilieMasson.pdf)    
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/recherche/journee-gestion-des-donnees-de-recherche-en-shs-2021/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)     
+:class: seealso   
+Emilie Masson, SPD-CNRS  
+Séminaire « Journée Gestion des données de recherche en SHS 2021 », xxxx , Grenoble, 2021    
+```
+
+
+<new: MCQ>
+
+Si vos données personnelles nécessitent une anonymisation, vous pouvez consuter ses présentations faites lors du webinaire [les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article36)
 
 ```{admonition} [PostgreSQL Anonymizer](https://dalibo.gitlab.io/postgresql_anonymizer/how-to.slides.html)    
 :class: seealso   
@@ -180,7 +196,8 @@ Webinaire « les contraintes réglementaires liées aux bases de données », r�
 ```
 
 ```{admonition} [Retour d’expérience de PostgreSQL Anonymizer](https://rbdd.cnrs.fr/IMG/pdf/pg_anonymizer_dsi_cnrs.pdf?625/ad097df2d0d3b025bfc7ac05c094bdf72ed38803)    
-:class: seealso   
+:class: seealso 
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/retour-d-experience-de)     
 Vincent Merilhou, CNRS,   
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
