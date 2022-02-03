@@ -98,12 +98,39 @@ de longue durée complexes nécessitant plusieurs développeurs, il est nécessa
 
 L'INSU et l'IN2P3 du CNRS sont des instituts impliqués dans des gros projets de développements et ont investi dans l'apprenissage de bonnes pratiques pour assurer la qualité locigielle
 
-L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif
+L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif pour assurer 
 
-    https://indico.in2p3.fr/event/24503/
-    https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/
-    https://gitlab.in2p3.fr/cylo/anf-qualite_logicielle
+```{admonition} [ANF Qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/)
+:class: seealso   
+https://gitlab.in2p3.fr/cylo/anf-qualite_logicielle
+ Cyril l'Orphelin (IN2P3), [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
 
+La formation montre comment un flot de traitement bien organisé et maîtrisé participe de façon très importante à la démarche collective pour assurer la qualité logicielle.
+
+Clémence Agrapart explique quels sont les "Principes de bases de la qualité logicielle" : 
+ - définir des outils et des procédures qui permettent d’harmoniser les méthodes
+ - sensibiliser les agents pour une meilleure synergie et visibilité des pratiques
+ - transmettre et faciliter la communication (nouveaux entrants, turnover de personnel)
+
+Dans l'objectif d'améliorer les règles de fonctionnement :
+ - Renforcer la confiance entre les équipes et les partenaires impliqués
+ - Maîtriser les savoir-faire
+ - Optimiser le travail et gagner en efficacité
+ - Réduire les risques de dysfonctionnement
+
+Le développement logiciel se rapproche de l'Assurance Produit pour s’assurer que le produit est conforme aux exigences,
+que le logiciel réponde aux objectifs d’utilisation, de maintenance et de portage en respectant les délais et les budgets définis
+
+L’assurance qualité logiciel donc permet de garantir que :
+ - Les règles et normes de codage sont respectées
+ - La gestion de versions du code est gérée au fur et à mesure et à travers les outils adaptés
+
+
+```{admonition} [Principes de bases de la qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/bases_qualite_logicielle.pdf)
+:class: seealso   
+ Clémence Agtrapart, [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
 
 
 ### Approches méthodologiques
