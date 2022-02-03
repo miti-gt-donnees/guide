@@ -421,9 +421,16 @@ JCAD 2019
 
 Des portails nationaux et européens organisés autour d'une thématique scientifique existent par ailleurs. Ils donnent accès à des pôles de données qui fédèrent dans différentes disciplines, des activités de gestion et valorisation des données. 
 
-Au sein de l’[infrastructure de recherche "Data Terra"](https://www.data-terra.org/) on trouve par exemple le pôle [Odatis](https://www.odatis-ocean.fr/) qui est un pôle de données et de services pour l’océan, [Theia](https://www.theia-land.fr/), une infrastructure de données et de services dédiée aux données spatiales d’observation de la terre, [Aeris](https://www.aeris-data.fr/)  qui s’intéresse aux données et services pour l’atmosphère mais aussi [Form@ter](https://www.poleterresolide.fr/) ou  [PNDB](http://www.patrinat.fr/fr/pole-national-de-donnees-de-biodiversite-pndb-6256) (Pôle National de Données de Biodiversité).
+Au sein de l’[infrastructure de recherche "Data Terra"](https://www.data-terra.org/) on trouve par exemple le pôles de données :
+- [Odatis](https://www.odatis-ocean.fr/) qui est un pôle de données et de services pour l’océan, 
+- [Theia](https://www.theia-land.fr/), une infrastructure de données et de services dédiée aux données spatiales d’observation de la terre, 
+- [Aeris](https://www.aeris-data.fr/)  qui s’intéresse aux données et services pour l’atmosphère mais aussi 
+- [Form@ter](https://www.poleterresolide.fr/) ou 
+- le [PNDB](http://www.patrinat.fr/fr/pole-national-de-donnees-de-biodiversite-pndb-6256) (Pôle National de Données de Biodiversité).
 
 Les projets de recherche au sein de ces infrastructures ont donné lieu à diverses communications et  retours d’expériences cités dans ce guide, qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche. 
+
+Ces pôles proposent des Entrepots thématiques Institutionnels pour les données environnementales, tels  qu'ils sont nécessaires[ dans la phase de diffusion du cycle de vie des données ](https://mi-gt-donnees.pages.math.unistra.fr/synthese/07-publier.html#les-entrepots-de-donnees), pour un accès interopérable et ouvert aux données 
 
 **Sismologie et géodésie**
 
