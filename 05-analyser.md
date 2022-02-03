@@ -94,11 +94,11 @@ qui facilite l'exécution massive de calculs sur des données distribuées.
 [ajout : à rédiger : Maurice ANF INSU IN2P3]
 
 Programmer 10 lignes de code quand on est seul, c'est facile et ca n'engage que soit, mais dès lors qu'on a à faire avec des projets
-de longue durée complexes nécessitant plusieurs développeurs, il est nécessaire d'avoir des pratiques de codage collaboratives et indistrialisées qui doivent assurer la qualité du produit développé.
+complexes, de longue durée, nécessitant des équipes de développeurs, il est nécessaire d'avoir des pratiques de codage collaboratives et industrialisées qui doivent assurer la qualité du produit développé.
 
-L'INSU et l'IN2P3 du CNRS sont des instituts impliqués dans des gros projets de développements et ont investi dans l'apprenissage de bonnes pratiques pour assurer la qualité locigielle
+L'INSU et l'IN2P3 du CNRS sont des instituts impliqués dans des gros projets de développements et ont investi dans l'apprentissage de bonnes pratiques pour assurer la qualité locigielle
 
-L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif pour assurer 
+L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif 
 
 ```{admonition} [ANF Qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/)
 :class: seealso   
@@ -129,7 +129,7 @@ L’assurance qualité logiciel donc permet de garantir que :
 
 ```{admonition} [Principes de bases de la qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/bases_qualite_logicielle.pdf)
 :class: seealso   
- Clémence Agtrapart, [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+ Clémence Agrapart, [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
 ```
 
 
