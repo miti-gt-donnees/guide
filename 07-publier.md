@@ -51,6 +51,24 @@ A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mett
  - [portail de données OSU Pytheas](<https://dataset.osupytheas.fr/geonetwork>)
 
 
+Pour rappel GeoNetwork permet de créer un réseau de catalogue qui constituent une infrastructure de données géographiques pour favoriser la protection de l’environnement, assurer l’interopérabilité entre bases de données et faciliter la diffusion, la disponibilité, l’utilisation et la réutilisation de l’information géographique en Europe. Comme le demande la directive Européenne [INSPIRE](https://www.ecologie.gouv.fr/directive-europeenne-inspire),  pour mieux partager les données de la recherche.
+ 
+
+Marc Leobet, chargé de mission à la Mission information géographique du ministère en charge du développement durable pose, dans cette présentation réalisée en 2013, le cadre de la Directive Inspire. Il présente tout d’abord l’utilité de cette Directive (identification des données, gestion de la confidentialité, les problèmes de conventionnement et la qualité des données), son contexte, les obligations qu’elle induit, le contexte autour de la réutilisation des données du secteur public et l’application de la Directive inspire dans le domaine de la recherche. 
+
+```{admonition} [La Directive INSPIRE pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)  
+:class: seealso
+F. Merrien, M. Léobet, M. Francès   Mission de l'information géographique du ministère de l'Environnement  
+```
+
+```{admonition} [Gestion et valorisation des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/Leobet_INSPIRE_Fredoc2013.pdf)
+:class: seealso
+Marc Leobet, Chargé de mission et PCE INSPIRE     
+Frédocs2013 -7 au 10 octobre 2013, Aussois  
+```
+
+
+
 D'autres OSU se sont engagés dans un développement spécifique d'un catalogue de données. B. Debray nous présente le projet "DataOSU" destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php). Il décrit toute l'organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à assurer l'interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF
 
 
@@ -187,22 +205,6 @@ ANF SIST - Octobre 2021
 
 [/ajout ML]
 
-### La directive européenne "INSPIRE"
-
-La directive [INSPIRE](https://www.ecologie.gouv.fr/directive-europeenne-inspire), élaborée par la Direction générale de l’environnement de la Commission européenne en 2007, vise à établir en Europe une infrastructure de données géographiques pour favoriser la protection de l’environnement, assurer l’interopérabilité entre bases de données et faciliter la diffusion, la disponibilité, l’utilisation et la réutilisation de l’information géographique en Europe. INSPIRE vise ainsi à mieux partager les données de la recherche.
-
-Marc Leobet, chargé de mission à la Mission information géographique du ministère en charge du développement durable pose, dans cette présentation réalisée en 2013, le cadre de la Directive Inspire. Il présente tout d’abord l’utilité de cette Directive (identification des données, gestion de la confidentialité, les problèmes de conventionnement et la qualité des données), son contexte, les obligations qu’elle induit, le contexte autour de la réutilisation des données du secteur public et l’application de la Directive inspire dans le domaine de la recherche. 
-
-```{admonition} [La Directive INSPIRE pour les néophytes](http://formations-geomatiques.developpement-durable.gouv.fr/MIG/directive_inspire_neophytes/res/Directive_inspire_neophytes_papier.pdf)  
-:class: seealso
-F. Merrien, M. Léobet, M. Francès   Mission de l'information géographique du ministère de l'Environnement  
-```
-
-```{admonition} [Gestion et valorisation des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/Leobet_INSPIRE_Fredoc2013.pdf)
-:class: seealso
-Marc Leobet, Chargé de mission et PCE INSPIRE     
-Frédocs2013 -7 au 10 octobre 2013, Aussois  
-```
 
 ### Les portails nationaux et européens
 
@@ -586,7 +588,11 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 
 **Déposer dans des Entrepôts.. lesquels? comment?**
 
-Il existe beaucoup d'entrepôts de données, de nature et de qualité différentes. Certains sont des entrepôts Institutionnels (Portail Data INRAE, DataSuds, Didomena, … ), d'autres sont thématiques (PANGAEA pour les données environnementales, SEANOE spécifique aux données marines …) ou généralistes (Dryad, Zenodo, …). Pour aider à trouver et à choisir un entrepôt, des catalogues sont disponibles : <https://cat.opidor.fr/>, <https://www.re3data.org/> et <https://fairsharing.org/databases/>. Des entrepôts spécifiques peuvent être suggérés (ou imposés) par le journal dans lequel on dépose un article, mais aussi par le financeur, le consortium du projet ou l’institution dans laquelle on travaille. Il est conseillé de vérifier si l'établissement dans lequel on travaille a mis en place une politique de partage de données et de s'y référer pour éviter la dispersion des données tous azimuts.
+Il existe beaucoup d'entrepôts de données, de nature et de qualité différentes. Certains sont des entrepôts Institutionnels (Portail Data INRAE, DataSuds, Didomena, … ), d'autres sont thématiques (PANGAEA pour les données environnementales, SEANOE spécifique aux données marines …) ou généralistes. 
+
+Pour aider à trouver et à choisir un entrepôt, des catalogues sont disponibles : <https://cat.opidor.fr/>, <https://www.re3data.org/> et <https://fairsharing.org/databases/>. Des entrepôts spécifiques peuvent être suggérés (ou imposés) par le journal dans lequel on dépose un article, mais aussi par le financeur, le consortium du projet ou l’institution dans laquelle on travaille. Il est conseillé de vérifier si l'établissement dans lequel on travaille a mis en place une politique de partage de données et de s'y référer pour éviter la dispersion des données tous azimuts.
+
+L'annexe "Infrastructures" de ce Guide fournit un ensemble de références vers des [entrepôts thématiques institutionnels](https://mi-gt-donnees.pages.math.unistra.fr/synthese/10-infrastructures.html#infrastructures-thematiques-de-donnees)
 
 
 ### Les Infrastructures de Recherche nationales
