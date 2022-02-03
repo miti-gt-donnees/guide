@@ -89,6 +89,23 @@ qui facilite l'exécution massive de calculs sur des données distribuées.
  Guillaume Eynard-Bontemps (CNES), [JCAD 2019, Toulouse](https://jcad2019.sciencesconf.org).
 ```
 
+### La qualité logicielle
+
+[ajout : à rédiger : Maurice ANF INSU IN2P3]
+
+Programmer 10 lignes de code quand on est seul, c'est facile et ca n'engage que soit, mais dès lors qu'on a à faire avec des projets
+de longue durée complexes nécessitant plusieurs développeurs, il est nécessaire d'avoir des pratiques de codage collaboratives et indistrialisées qui doivent assurer la qualité du produit développé.
+
+L'INSU et l'IN2P3 du CNRS sont des instituts impliqués dans des gros projets de développements et ont investi dans l'apprenissage de bonnes pratiques pour assurer la qualité locigielle
+
+L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif
+
+    https://indico.in2p3.fr/event/24503/
+    https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/
+    https://gitlab.in2p3.fr/cylo/anf-qualite_logicielle
+
+
+
 ### Approches méthodologiques
 
 L'analyse des données ne concerne pas uniquement les modèles
