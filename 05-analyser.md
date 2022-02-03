@@ -96,6 +96,8 @@ qui facilite l'exécution massive de calculs sur des données distribuées.
 Programmer 10 lignes de code quand on est seul, c'est facile et ca n'engage que soit, mais dès lors qu'on a à faire avec des projets
 complexes, de longue durée, nécessitant des équipes de développeurs, il est nécessaire d'avoir des pratiques de codage collaboratives et industrialisées qui doivent assurer la qualité du produit développé.
 
+En effet la qualité d'un projet informatique ne se résume pas à la qualité du codage, mais dépend également de la qualité des interactions collectives au sein du projet et de leur mise en œuvre.
+
 L'INSU et l'IN2P3 du CNRS sont des instituts impliqués dans des gros projets de développements et ont investi dans l'apprentissage de bonnes pratiques pour assurer la qualité locigielle
 
 L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif 
@@ -132,6 +134,16 @@ L’assurance qualité logiciel donc permet de garantir que :
  Clémence Agrapart, [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
 ```
 
+Antoine Pérus insiste sur le fait que LE CODE est une UNE CONSTRUCTION COLLECTIVE et donne des règles de partage et d'échange pour le codage : 
+- utilisation de tickets :  espace privilégié pour échanger tant au sein du projet qu'entre les membres du groupe et le monde extérieur.
+- utilisation de labels, associées aux tickets, aux Merge/Pull Request (MR/PR) et qui permettent de catégoriser, et donc de structurer. Ils facilitent la lecture, le partage des tâches et donc la vie collective.
+- bonne utilisation des workflow de dépots de code
+- etc.
+
+```{admonition} [LE CODE est une UNE CONSTRUCTION COLLECTIVE](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/construction_collective.pdf)
+:class: seealso   
+ Antoine Pérus , [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
 
 ### Approches méthodologiques
 
