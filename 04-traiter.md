@@ -244,6 +244,7 @@ Mathias Rouan, Jonathan Schaeffer
 ANF SIST 2018, Toulouse.
 ```
 
+[ajout ML]
 ### la gestion des données géolocalisées
 
 Un grand nombre de données environnementales proviennent du terrain et sont donc géolocalisées. Les coordonnées géographiques (latitude, longitude) font partie des métadonnées capitales pour savoir d'où proviennent les données.
@@ -266,10 +267,10 @@ Le réseau SIST a mis en place une formation nationale ANF en 2021 intitulée "_
 
 ```{admonition} [Gestion des données d'observation : Bases et outils de géomatique pour la gestion des données géoréférencées](https://sist.pages.in2p3.fr/anf20-geomatique/index.html)
 :class: seealso
-Marie Silvestre, Laure Paradis, Emilie Lerigoleur et Cyril Bernard.  
+ Cyril Bernard, Emilie Lerigoleur, Laure Paradis, Marie Silvestre  
 [ANF SIST 2021 Sète](https://sist.cnrs.fr/les-formations/anf-2020)    
 ```
-
+[/ajout ML]
 
 #### Exemple de mise en oeuvre de plateformes de données
 
