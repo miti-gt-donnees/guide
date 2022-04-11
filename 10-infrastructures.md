@@ -34,7 +34,7 @@ JCAD 2020
 
 ```{admonition} [EUROPEAN OPEN SCIENCE CLOUD](https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateur_Beckmann_Volker_EOSC.pdf)  
 :class: seealso
-[Vidéo à venir: ](à venir)   
+[Vidéo à venir: ](https://mediaserveur.u-bourgogne.fr/permalink/v1263e979e19f72ra5qw/iframe/)   
 Volker Beckmann, Chargé de mission EOSC France pour le ministère.  
 JCAD 2021
 ```
@@ -104,8 +104,9 @@ France Grilles a fait l'objet lors des JCAD 2021 d'une présentation rétrospect
 
 ```{admonition} [France Grilles : 10 ans de services aux utilisateurs](https://jcad2021.sciencesconf.org/data/FRANCE_GRILLE_VINCENT_BRETON.pptx)   
 :class: seealso
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b35efa48ryxih/iframe/)
 Vincent Breton, Laurent Caillat-Valet, Sorina Camarasu-Pop, Cyril L'orphelin, Gilles Mathieu, Jérôme Pansanel, Geneviève Romier  
-JCAD 2020
+JCAD 2021
 ```
 
 Le catalogue de services de France Grilles propose des services de traitement de données qui s'appuient sur une infrastructure de grille et une infrastructure cloud ainsi que des services de stockage de données. L'ensemble est interconnecté permettant aux données stockées d'être traitées grâce aux services grille et cloud.
@@ -140,7 +141,7 @@ Inria transforme actuellement ses Moyens de Calcul vers une infrastructure natio
 
 ```{admonition} [Transformation des moyens de calcul de l'Inria](https://jcad2021.sciencesconf.org/data/Transformation_Calcul_Inria_NUSSBAUM_Lucas.pdf)   
 :class: seealso
-[Vidéo à venir : ](à venir)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e9797e17vd7dfes/iframe/)   
 Lucas Nussbaum  
 JCAD 2021
 ```
@@ -152,7 +153,7 @@ L'INSERM travaille actuellement au projet SCaaS : Scientific Computing as a Serv
 
 ```{admonition} [Vers une offre de service "informatique scientifique" à l'Inserm](https://jcad2021.sciencesconf.org/data/Courte_InformatiqueScientifiqueInserm_JCAD2021.pdf)   
 :class: seealso
-[Vidéo à venir : ](à venir)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e9797da6z42o12y/iframe/)   
 Gilles Mathieu, Daniel Salas, Yosra Sanaa, Dominique Pigeon, Fanny Brizzi
 JCAD 2021
 ```
@@ -163,7 +164,7 @@ En 2018, Inrae a initié une démarche communautaire pour concevoir et mettre en
 
 ```{admonition} [PCSC : le Portail pour le Calcul, le Stockage et le Cloud](https://jcad2021.sciencesconf.org/data/PCSC_presentation_JCAD2021.pdf)   
 :class: seealso
-[Vidéo à venir : ](à venir)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e9797ce98b646ye/iframe/)   
 Pierre Adenot, Estelle Ancelet, Sophie Aubin, David Benaben, Damien Berry, Emmanuel Braux, Éric Cahuzac, Patrick Chabrier, Alexandre Dehne-Garcia, Frédéric de Lamotte, Lise Frappier, Pierre Gay, Loïc Houde, Pierre-Emmanuel Guerin, Arnaud Jean-Charles, Cyril Jousse, Anne Laurent, Emilie Lerigoleur, Benjamin Marguin, Gilles Mathieu, Vincent Nègre, Nadia Ponts, Tovo Rabemanantsoa, Richard Randriatoamanana, Jean-François Rey, Fabrice Roy, Sandrine Sabatié, Daniel Salas, Martin Souchal,  Florian Trincal, Zenaida
 JCAD 2021
 ```
@@ -193,7 +194,7 @@ JCAD 2020
 
 ```{admonition} [Point d’actualité de GENCI dans l ’écosystème HPC/HPDA/IA/Q](https://jcad2021.sciencesconf.org/data/JCAD_GENCI_PL.pptx)   
 :class: seealso
-[Vidéo à venir: ](à venir)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b3b5b3gl5l6c3/iframe/)   
 Philippe Lavocat, GENCI.  
 JCAD 2021
 ```
@@ -216,7 +217,7 @@ Mesonet, projet PIA3 "Équipements structurants pour la recherche" a débuté en
  
  ```{admonition} [MesoNET : le mésocentre national distribué](https://jcad2021.sciencesconf.org/data/JCAD_Mesonet.pdf)   
 :class: seealso
-[Vidéo à venir: ](à venir)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b3ae33ngflyux/iframe/)   
 Jean-Philippe Proux, Arnaud Renard  
 JCAD 2021
 ```
@@ -224,7 +225,7 @@ Lors des JCAD 2021, Guillaume Aulanier et Laurent CROUZET du MESRI ont présent�
 
  ```{admonition} [Quelle place pour les mésocentres de calcul et de traitement de données au sein de la transformation numérique ?](https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateurs_Crouzet_et_Aulanier_Quelle_Place_Pour_Les_Mesocentres.pdf)   
 :class: seealso
-[Vidéo à venir: ](à venir)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e9797271hqrjuv6/iframe/)   
 Guillaume Aulanier et Laurent CROUZET, MESRI 
 JCAD 2021
 ```
@@ -305,7 +306,7 @@ Cette présentation aux JCAD 2021 fait le point sur l'avancement de SLICES qui e
 
 ```{admonition} [SILECS/SLICES](https://jcad2021.sciencesconf.org/data/silecs_slices_JCAD_2021.pdf)   
 :class: seealso
-[Vidéo à venir : ](à venir)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b386d4tdkvdue/iframe/)   
 Christian Perez, Inria  
 JCAD 2021
 ```
@@ -316,7 +317,7 @@ Lors des JCAD 2021, Isabelle Blanc, Administratrice ministérielle des données,
 
 ```{admonition} [Recherche Data Gouv: une plateforme nationale fédérée des données de la recherche, dans le contexte du Plan national pour la science ouverte et de la politique des données , des algorithmes et des codes sources de l’ESR.](https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateurs_Crouzet_et_Aulanier_Quelle_Place_Pour_Les_Mesocentres.pdf)   
 :class: seealso
-[Vidéo à venir: ](à venir)   
+[Vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e97971a6b6unqgr/iframe/)   
 Isabelle Blanc, MESRI  
 JCAD 2021
 ```
