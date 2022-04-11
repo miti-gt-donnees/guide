@@ -292,4 +292,4 @@ Fruit d’une collaboration initiale entre Irstea (centre de Bordeaux), le labor
 Marie-Claude Quidoz
 site web RBDD, 2018   
 ```
-Un [webinaire] (https://rbdd.cnrs.fr/spip.php?article360) a été consacré en mai 2021 à une présentation détaillée de Collec-Science : une introduction présentant ce qu'est et n'est pas Collec-Science, une démonstration, deux présentations expliquant comment il s'installe et se gère sur le plan technique, ainsi que son pilotage en phase de démarrage.
+Un [webinaire](https://rbdd.cnrs.fr/spip.php?article360) a été consacré en mai 2021 à une présentation détaillée de Collec-Science : une introduction présentant ce qu'est et n'est pas Collec-Science, une démonstration, deux présentations expliquant comment il s'installe et se gère sur le plan technique, ainsi que son pilotage en phase de démarrage.
