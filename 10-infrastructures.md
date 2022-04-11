@@ -328,7 +328,7 @@ Des initiatives régionales proposent des infrastructures de gestion et valorisa
 
 A Toulouse, le mésocentre CALMIP étoffe son offre de services et construit CALLISTO, une interface pour le partage et l'analyse semi-automatique de données. CALLISTO propose ainsi une aide à la rédaction de Plans de Gestion de Données sur les aspects techniques, une plateforme de partage de données proche des utilisateurs et en lien avec les ressources du supercalculateur pour permettre la réutilisation des données hébergées.
 
-Une présentation du projet a été réalisée lors des JCAD 2019, puis une démonstration a eu lieu lors des JCAD 2020 qui permettent de voir les évolutions.
+Une présentation du projet a été réalisée lors des JCAD 2019, puis une démonstration a eu lieu lors des JCAD 2020 qui permettent de voir les évolutions. Enfin, lors des JCAD 2021, le prototype de la plateforme Datanoos a fait l'objet d'une présentation détaillée.
 
 ```{admonition} [CALLISTO : Une interface pour le partage et l'analyse semi-automatique de données.](https://jcad2019.sciencesconf.org/data/callisto_jcad.pdf)  
 :class: seealso
@@ -342,6 +342,16 @@ JCAD 2019
 Thierry Louge - du mésocentre CALMIP, Toulouse. 
 JCAD 2020 
 ```
+```{admonition} [Prototype de plateforme contribuant à la Science Ouverte par la valorisation de données et pratiques interdisciplinaires.](https://jcad2021.sciencesconf.org/data/N_Aussenac_M_Sibilla_Datanoos2.pdf)  
+:class: seealso
+[Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b2f50crd7qudv/iframe/) 
+Pascal Dayre  1, Nathalie Aussenac 1, Michelle Sibilla  1, Ba-Huy Tran 1, Emilie Lerigoleur  2, Franck Ravat  1 , Amina Annane  1, Cassia Trojahn  1, Ghita Amal 1, Weihao Xu  1, Lise Kleiber  1, Alexandre Champagne  1, Louis Mendy  1 , Datacore Datanoos 3, Data Driihm Labex Driihm 4
+1 : IRIT, CNRS, Université Paul Sabatier
+2 : Géographie de l’Environnement, CNRS, Université Toulouse - Jean Jaurès
+3 : Université de Toulouse
+4 : CNRS INEE
+JCAD 2021 
+```
 En Bourgogne Franche-Comté, le projet dat@UBFC a pour objectif la création d'un service de gestion des données de la recherche pour la communauté scientifique de l'Université de Bourgogne Franche-Comté. Ce projet fait le lien entre dat@OSU (Description et référencement des données de recherche de l’OSU THETA) et le datacenter régional UBFC. Il a fait l'objet d'une présentation détaillée aux JCAD 2020.
 
 ```{admonition} [Projet dat@UBFC : création d'un service de gestion des données de la recherche pour l'Université de Bourgogne Franche-Comté.](https://jcad2020.sciencesconf.org/data/Presentation_longue_Orateur_Damy_Sylvie_dataubfc.pdf)  
@@ -349,6 +359,17 @@ En Bourgogne Franche-Comté, le projet dat@UBFC a pour objectif la création d'u
 [Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd30btbr8ybe/iframe/) 
 Sylvie Damy, laboratoire Chrono-Environnement, Besançon.
 JCAD 2020 
+```
+
+A Grenoble, le site Grenoble-Alpes a mis en place une cellule Data Grenoble Alpes - CDGA, adossée à GRICAD et regroupant des membres aux compétences multiples pour accompagner et conseiller les chercheurs sur tous leurs besoins liés aux données.
+
+```{admonition} [Cellule Data Grenoble Alpes : accompagnement sur les données de la recherche](https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateur_Louvet_Violaine_Cellule_Data_Grenoble_Alpes.pdf)  
+:class: seealso
+[Vidéo : ](https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b2f9b3lipxe9x/iframe/) 
+Violaine Louvet  1, Lucie Albaret  2, Arnaud Alexis  1
+1 : GRICAD, Université Grenoble Alpes, Institut polytechnique de Grenoble, Inria, CNRS
+2 : SICD Université Grenoble Alpes
+JCAD 2021 
 ```
 
 ### Les "datalakes" ou "lacs de données"
