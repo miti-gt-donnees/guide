@@ -103,7 +103,7 @@ Les questions de portabilité, performance et reproductibilité sont étudiées 
 
 ```{admonition} [Reproductibilité et portabilité des performances](https://jcad2021.sciencesconf.org/data/Reproductibilite_Performance_Ludovic_Courtes.pdf)    
 :class: seealso
-[vidéo à venir](à venir)  
+[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b385earkrprhq/iframe/)  
 Ludovic Courtès, Inria
 JCAD 2021
 ```
