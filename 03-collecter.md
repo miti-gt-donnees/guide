@@ -144,7 +144,7 @@ Avant de conclure sur la nécessaire mise en sécurité des données personnelle
 ```{admonition} [Tout est possible avec le RGPD)](https://videos.univ-grenoble-alpes.fr/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)   
 :class: seealso
 Emilie Masson, CNRS   
-Séminaire « Journée Gestion des données de recherche en SHS 2021 », xxxx , Grenoble, 2021
+Séminaire « Journée Gestion des données de recherche en SHS 2021 », https://gdr2021.sciencesconf.org/, Grenoble, 2021
 ```
 </ajout CH>
 
