@@ -119,7 +119,6 @@ Véronique Chaffard, IRD
 
 Il est important que le processus de collecte des données soit clairement défini et validé. Par exemple, il conviendra de s'assurer que les systèmes d'acquisition sont bien étalonnés. Par ailleurs, l'ensemble des données produites doit être parfaitement répertorié et enregistré. Nous disposons pour ce faire d’un certain nombre de supports tels que les cahiers de laboratoires, les carnets de terrain... 
 
-</ajout CH>
 ### La collecte de données à caractère personnel
 
 Si l’ouverture des données intervient dans un processus de recherche, généralement en fin de cycle, un certain nombre de mesures réglementaires doivent être prises en compte très en amont et notamment lorsqu’il s’agit de collecter des données personnelles.
@@ -145,9 +144,6 @@ Avant de conclure sur la nécessaire mise en sécurité des données personnelle
 :class: seealso
 Emilie Masson, CNRS   
 Séminaire « Journée Gestion des données de recherche en SHS 2021 », xxxx , Grenoble, 2021
-```
-</ajout CH>
-
 
 ### La métrologie des équipements
 
