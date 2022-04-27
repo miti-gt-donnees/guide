@@ -316,14 +316,19 @@ Membres du GT
 "Ouvrir la science", MESRI, 2021
 ```
 
-Dans le cadre des séminaires "Pour une Recherche Reproductible", Gricad, MaiMoSiNE et SARI ont mis en place un webinaire sur l'ouil elab FTW.
+Dans le cadre des séminaires [Pour une Recherche Reproductible](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/programme_050522.html#programme_050522), Gricad, MaiMoSiNE et SARI ont mis en place un webinaire sur l'ouil elab FTW .
 
 Dans ce cadre, NIcolas Carpi, auteur et développeur d’elabFTW, a présenté le logiciel. eLabFTW est un cahier de laboratoire numérique open source destiné aux laboratoires de recherche, quelle que soit leur discipline. Il est utilisé par de nombreuses institutions et labos à travers le monde. Cette session sera l’occasion de découvrir ce logiciel, ses fonctionnalités et son intérêt pour la recherche reproductible. 
 
+```{admonition} [Présentation du cahier de laboratoire électronique open source eLabFTW]()   
+:class: seealso
+NIcolas Carpi, Institut Curie 
+
 Jean-Luc Parouty ingénieur à SIMAP, a ensuite détaillé le service mutualisé de cahier de laboratoire elabFTW, intitulé CAOLILA, mis à disposition de la communauté ESR Grenobloise 
-
-
-
+```{admonition} [Mise en œuvre du cahier de laboratoire eLabFTW à l’UGA/GINP ]()   
+:class: seealso
+Jean-Luc Parouty, SIMAP
+ 
 
 ### Les tablettes et carnets de terrain
 
