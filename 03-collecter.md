@@ -123,16 +123,16 @@ Il est important que le processus de collecte des données soit clairement défi
 
 Si l’ouverture des données intervient dans un processus de recherche, généralement en fin de cycle, un certain nombre de mesures réglementaires doivent être prises en compte très en amont et notamment lorsqu’il s’agit de collecter des données personnelles.
 
-Le RGPD est perçu bien souvent comme un véritable obstacle à la collecte de données. Emilie Masson, dans une intervention à Grenoble en 2021 pour la journée « Gestion des données de recherche en SHS », tord le cou à cette idée dès le titre de sa présentation :  tout est possible avec le RGPD ! Elle indique clairement que si l’esprit de cette réglementation va dans le sens de la protection des données personnelles, il n’interdit pas pour autant le traitement scientifique de données personnelles ou sensibles.
+Le RGPD est perçu bien souvent comme un véritable obstacle à la collecte de données. Emilie Masson, dans une intervention à Grenoble en 2021 pour la journée « Gestion des données de recherche en SHS », réfute cette idée dès le titre de sa présentation :  tout est possible avec le RGPD ! Elle indique clairement que si l’esprit de cette réglementation va dans le sens de la protection des données personnelles, il n’interdit pas pour autant le traitement scientifique de données personnelles ou sensibles.
 
 Après une définition claire de ce que sont les données et le traitement de données à caractère personnel, on découvre les trois exceptions applicables aux domaine de la recherche permettant de collecter des données personnelles à savoir le consentement, la mission de service public et les intérêts légitimes. 
 
-Au sujet du consentement libre et éclairé, difficile, voire impossible dans certain cas à obtenir, on verra qu’il n’est pas forcément obligatoire et qu’en pratique le fondement de licéité (base légale d'un traitement e données personnelle) repose davantage (si ce n’est exclusivement) sur le principe de mission de service public (et non sur celui de consentement).
+Au sujet du consentement libre et éclairé, difficile, voire impossible à obtenir dans certain cas, on verra qu’il n’est pas forcément obligatoire et qu’en pratique le fondement de licéité (base légale d'un traitement de données personnelles) repose davantage (si ce n’est exclusivement) sur le principe de mission de service public (et non sur celui de consentement).
 
 Quant aux données sensibles, même si par principe leur collecte n’est pas autorisée, nous apprenons 
 •	qu’un consentement explicite pour une ou plusieurs finalités spécifiques peut lever cette interdiction, 
 •	qu’il est possible de collecter des données sensibles manifestement rendues publiques par la personne concernée, 
-•	ou de justifier la collecter du fait d’un nécessaire archivage dans l’intérêt public, selon certaines conditions (détaillées dans l’intervention).
+•	ou de justifier la collecte du fait d’un nécessaire archivage dans l’intérêt public, selon certaines conditions (détaillées dans l’intervention).
 
 Avant de conclure sur la nécessaire mise en sécurité des données personnelles, Emilie Masson indique la démarche à suivre pour être en conformité avec la loi : 
 -	Déterminer son objectif (finalité du projet de recherche) : cela est possible aussi en cas de recherche exploratoire !
@@ -143,7 +143,7 @@ Avant de conclure sur la nécessaire mise en sécurité des données personnelle
 ```{admonition} [Tout est possible avec le RGPD)](https://videos.univ-grenoble-alpes.fr/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)   
 :class: seealso
 Emilie Masson, CNRS   
-Séminaire « Journée Gestion des données de recherche en SHS 2021 », xxxx , Grenoble, 2021
+[Séminaire « Journée Gestion des données de recherche en SHS", Grenoble, 202](https://gdr2021.sciencesconf.org/)
 ```
 
 ### La métrologie des équipements
