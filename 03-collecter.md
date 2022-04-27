@@ -138,7 +138,7 @@ Avant de conclure sur la nécessaire mise en sécurité des données personnelle
 -	Ne collecter que les données nécessaires et en lien avec son objectif (en justifiant le besoin)
 -	Déterminer une durée de conservation
 
-```{admonition} [Tout est possible avec le RGPD)](https://videos.univ-grenoble-alpes.fr/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)   
+```{admonition} [Tout est possible avec le RGPD](https://videos.univ-grenoble-alpes.fr/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)   
 :class: seealso
 Emilie Masson, CNRS   
 [Séminaire « Journée Gestion des données de recherche en SHS », Grenoble, 2021](https://gdr2021.sciencesconf.org/) 
@@ -315,6 +315,15 @@ Les travaux se sont poursuivis courant 2021 avec le groupe de travail « Cahier 
 Membres du GT    
 "Ouvrir la science", MESRI, 2021
 ```
+
+Dans le cadre des séminaires "Pour une Recherche Reproductible", Gricad, MaiMoSiNE et SARI ont mis en place un webinaire sur l'ouil elab FTW.
+
+Dans ce cadre, NIcolas Carpi, auteur et développeur d’elabFTW, a présenté le logiciel. eLabFTW est un cahier de laboratoire numérique open source destiné aux laboratoires de recherche, quelle que soit leur discipline. Il est utilisé par de nombreuses institutions et labos à travers le monde. Cette session sera l’occasion de découvrir ce logiciel, ses fonctionnalités et son intérêt pour la recherche reproductible. 
+
+Jean-Luc Parouty ingénieur à SIMAP, a ensuite détaillé le service mutualisé de cahier de laboratoire elabFTW, intitulé CAOLILA, mis à disposition de la communauté ESR Grenobloise 
+
+
+
 
 ### Les tablettes et carnets de terrain
 
