@@ -323,12 +323,14 @@ Dans ce cadre, NIcolas Carpi, auteur et développeur d’elabFTW, a présenté l
 ```{admonition} [Présentation du cahier de laboratoire électronique open source eLabFTW]()   
 :class: seealso
 NIcolas Carpi, Institut Curie 
+```
 
 Jean-Luc Parouty ingénieur à SIMAP, a ensuite détaillé le service mutualisé de cahier de laboratoire elabFTW, intitulé CAOLILA, mis à disposition de la communauté ESR Grenobloise 
+
 ```{admonition} [Mise en œuvre du cahier de laboratoire eLabFTW à l’UGA/GINP ]()   
 :class: seealso
 Jean-Luc Parouty, SIMAP
- 
+```
 
 ### Les tablettes et carnets de terrain
 
