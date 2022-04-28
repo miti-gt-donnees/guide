@@ -209,6 +209,10 @@ il fait l'objet de sessions spéciales lors des Journées Développement
 (Jdev) de [2020](http://devlog.cnrs.fr/jdev2020/t8) et
 [2017](http://devlog.cnrs.fr/jdev2017/t7).
 
+Un cycle de formation a également été mis en place. Fidle (pour Formation d'Introduction au Deep Learning) est une formation ouverte à toutes et à tous et dont l'objectif est de proposer une large introduction au Deep Learning, allant des concepts fondamentaux aux architectures avancée, à destination d'un large public scientifique.
+
+Cette formation est organisée en distanciel sous forme de 15 séquences courtes, mêlant cours magistraux et travaux pratiques, totalisant une trentaine d'heures. L'accès à Fidle est totalement libre, aucune inscription n'est requise et l'ensemble des ressources pédagogiques (supports, vidéos, notebooks, etc.) est librement accessible (CC BY-NC-SA). Fidle est portée par l'institut 3IA MIAI, le CNRS, via la Mission pour les Initiative Transverses et Interdisciplinaires (MITI) et les réseaux DevLOG, Resinfo et SARI : https://fidle.cnrs.fr
+
 ### Visualisation des données numériques
 
 Un des outils d'analyse les plus utilisés est la visualisation des
