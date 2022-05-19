@@ -320,15 +320,17 @@ Dans le cadre des séminaires [Pour une Recherche Reproductible](https://reprodu
 
 Dans ce cadre, NIcolas Carpi, auteur et développeur d’elabFTW, a présenté son logiciel. eLabFTW est un cahier de laboratoire numérique open source destiné aux laboratoires de recherche, quelle que soit leur discipline. Il est utilisé par de nombreuses institutions et labos à travers le monde. Cette session est l’occasion de découvrir ce logiciel, ses fonctionnalités et son intérêt pour une recherche reproductible. 
 
-```{admonition} [Présentation du cahier de laboratoire électronique open source eLabFTW]()   
+```{admonition} [Présentation du cahier de laboratoire électronique open source eLabFTW](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2022-05-05-N-CARPI-elabftw-presentation.pdf)   
 :class: seealso
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/23424-un-outil-pour-la-recherche-reproductible-le-cahier-electronique-elabftw-partie-i/)
 NIcolas Carpi, Institut Curie 
 ```
 
 Jean-Luc Parouty ingénieur à SIMAP, a ensuite détaillé le service mutualisé de cahier de laboratoire elabFTW, intitulé CAOLILA, mis à disposition de la communauté ESR Grenobloise 
 
-```{admonition} [Mise en œuvre du cahier de laboratoire eLabFTW à l’UGA/GINP ]()   
+```{admonition} [Mise en œuvre du cahier de laboratoire eLabFTW à l’UGA/GINP ](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2022-05-05-JL-PAROUTY-CAOLILA.pdf)   
 :class: seealso
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/23426-un-outil-pour-la-recherche-reproductible-le-cahier-electronique-elabftw-et-son-implementation-sur-le-campus-de-grenoble-partie-ii/)
 Jean-Luc Parouty, SIMAP
 ```
 
