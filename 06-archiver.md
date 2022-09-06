@@ -169,7 +169,7 @@ Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019    
 ```
 
-<new: MCQ>
+[new: MCQ]
 
 Mettre peut être à la place de la référence précedente la présentation faite lors de la Journée Gestion des données de recherche en SHS 2021 qui a été enregistrée
 Ces vidéos sont associées à la journée d'information et d'échanges sur la gestion des données de recherche organisée le 23 novembre 2021 par le laboratoire Pacte, en partenariat avec la Cellule Data Grenoble Alpes et la Plateforme Universitaire de Données Grenoble Alpes.
@@ -183,9 +183,10 @@ le porbleme ce n'est pas un réseau membre du GT
 Emilie Masson, SPD-CNRS  
 Séminaire « Journée Gestion des données de recherche en SHS 2021 », xxxx , Grenoble, 2021    
 ```
+[/new: MCQ]
 
 
-<new: MCQ>
+[new: MCQ]
 
 Si vos données personnelles nécessitent une anonymisation, vous pouvez consuter ses présentations faites lors du webinaire [les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article36)
 
