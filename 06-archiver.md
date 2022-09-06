@@ -202,11 +202,10 @@ Webinaire « les contraintes réglementaires liées aux bases de données », r�
 Vincent Merilhou, CNRS,   
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-mettre PDF et visio
 
-</new MCQ>
+[/new MCQ]
 
-<new CH>
+[new CH]
 
 Rendre accessible les données de recherche ouvre de nombreuses questions juridiques mais aussi éthiques. Les trois interventions présentées lors du webinaire sur les contraintes réglementaires liées aux bases de données offrent un panorama des différentes actions menées dans le domaine des sciences humaines et sociale mais aussi de l’environnement pour concilier diffusion des données et de recherche, protection des personnes et sécurisation des données.
 
@@ -231,7 +230,7 @@ Webinaire « les contraintes réglementaires liées aux bases de données », r�
 Frédéric Vest
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-</new CH>
+[/new CH]
 
 
 ### Les logiciels / les codes sources 
