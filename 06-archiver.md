@@ -171,6 +171,8 @@ Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, G
 
 [new: MCQ]
 
+Pour plus de détails, on se reportera à la section {ref}`collecter`.
+
 Mettre peut être à la place de la référence précedente la présentation faite lors de la Journée Gestion des données de recherche en SHS 2021 qui a été enregistrée
 Ces vidéos sont associées à la journée d'information et d'échanges sur la gestion des données de recherche organisée le 23 novembre 2021 par le laboratoire Pacte, en partenariat avec la Cellule Data Grenoble Alpes et la Plateforme Universitaire de Données Grenoble Alpes.
 Plus d'informations : https://gdr2021.sciencesconf.org/
