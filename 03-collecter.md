@@ -246,7 +246,7 @@ L'élaboration de "dashboard" ou "tableau de controle" peut etre envisagé pour 
 
 Lors du séminaire SIST22 à Grenoble, une session a été consacrée à quelques outils de monitoring
 
-Emmanuel Delage utilise Grafana 
+Emmanuel Delage présente le logiciel Grafana permettant la visualisation de données temporelles à l'aide de graphiques organisés en tableaux de bord. Les données du site instrumenté COPDD de l'OPGC sont envoyés toutes les 5 minutes sur le serveur Web au moyen de services Web de l'observatoire virtuel. Ensuite ces données sont enregistrées dans une base de données PostgreSQL contenant l'ensemble des données des derniers sept jours. Cette base de données est définie en tant que source sur le serveur Grafana, permettant la visualisation sous forme de graphiques des données proche temps-réel, sur le serveur Web, selon différents paramètres d'affichage au design reponsive.
 
 ```{admonition} [Visualisation des quicklooks du site national instrumenté COPDD au moyen de Grafana](https://sist.cnrs.fr/wp-content/uploads/2022/06/01-SIST22-Visu-Quicklooks-COPDD-1.pdf)
 :class: seealso
@@ -254,6 +254,16 @@ Emmanuel Delage
 séminaire SIST22 à Grenoble, réseau SIST, Juin 2022  
 ```
 
+Christophe Ferrier  présente le [logiciel "ReDash"](https://redash.io/) qui permet de concevoir un dashboard facilement et rapidement sans programmation. L'objectif de ReDash est de se connecter à une source de données (donc préférablement avec un protocoel interopérable) d'établir des requetes pour filtrer les données, et le logiciel compose des graphes automatiquement.
+Cet type de DashBoard permet donc de surveiller ses donénes en les visualisant en temps réel
+
+Connect and query your data sources, build dashboards to visualize data and share them with your company.
+
+```{admonition} [Concevoir un dashboard sans programmation et en 3 clicks… Ou presque !!](hhttps://sist.cnrs.fr/sist22/#retours-dexperiences-et-presentations)
+:class: seealso
+Christophe Ferrier  
+séminaire SIST22 à Grenoble, réseau SIST, Juin 2022  
+```
 
 ### Web scraping ou grattage Web : collecte automatique et analyse de données 
 
