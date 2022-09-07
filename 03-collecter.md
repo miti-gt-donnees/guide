@@ -76,7 +76,7 @@ La norme ISO 19139 est l'implémentation XML de la norme ISO 19115. Elle défini
 
 ### Les protocoles standards en information Géographique 
 
-L'échange de données d'une plateforme à l'autre se fait au travers de protocoles informatiques. De ce fait, si l'on veut que les systèmes soient interopérables entre eux, il est nécessaire d'utiliser des protocoles ouverts et standards pour permettre l'interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, [l'Open Geospatial Consortium (OGC)](https://www.ogc.org/standards/), est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l'interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l'information géographique. 
+L'échange de données d'une plateforme à l'autre se fait au travers de protocoles informatiques. De ce fait, si l'on veut que les systèmes soient interopérables entre eux, il est nécessaire d'utiliser des protocoles ouverts et standards, voire normés, pour permettre l'interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, [l'Open Geospatial Consortium (OGC)](https://www.ogc.org/standards/), est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l'interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l'information géographique. 
 
 Les standards OGC sont importants à connaitre dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l'Institut National des Sciences de l'Univers (INSU). Pour ce dernier réseau, l'interopérabilité dans la gestion des données des Observatoires de l'INSU est un enjeu important.
 
@@ -234,6 +234,26 @@ Alban Thomas nous présente la technologie utilisée à base de Raspberry et de 
 Alban Thomas - Hervé Quénol UMR LETG Rennes    
 [Séminaire SIST15, OSU Pytheas Marseille](https://sist15.sciencesconf.org)   
 ```
+
+### Surveillance et monitoring des chaine de collecte
+
+Récupérer des données releve souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs déplacements
+voire plusieurs transformations de données
+
+Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systeme de controles, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port à l'endroit ou elles sont attendues.
+
+L'élaboration de "dashboard" ou "tableau de controle" peut etre envisagé pour ce type de surveillance.
+
+Lors du séminaire SIST22 à Grenoble, une session a été consacrée à quelques outils de monitoring
+
+Emmanuel Delage utilise Grafana 
+
+```{admonition} [Visualisation des quicklooks du site national instrumenté COPDD au moyen de Grafana](https://sist.cnrs.fr/wp-content/uploads/2022/06/01-SIST22-Visu-Quicklooks-COPDD-1.pdf)
+:class: seealso
+Emmanuel Delage  
+séminaire SIST22 à Grenoble, réseau SIST, Juin 2022  
+```
+
 
 ### Web scraping ou grattage Web : collecte automatique et analyse de données 
 
