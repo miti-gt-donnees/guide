@@ -574,7 +574,7 @@ En France l'Infrastructure de Recherche "Data Terra" et ses différents pôles d
 les données doivent pouvoir être réutilisées et mises en relation avec d’autres données au delà de sa propre base de données locale.
 “L’interopérabilité des données correspond à leur capacité à être intégrées avec d’autres  données et à être utilisées et interprétées par des applications et des processus d’analyse et ce de manière automatique”
 
-Face à ce probleme JC Desconnets a présenté la problématique de cette interopérabilité sémantique et les solutions actuelles qui s'offrent à nous avec un ensemble de thesaurus disciplinaires existants à ce jour.
+Face à ce probleme JC Desconnets a présenté la problématique de cette interopérabilité sémantique et les solutions actuelles qui s'offrent à nous avec un ensemble de thesaurus disciplinaires existants à ce jour recommandés par les pôles de données de l'IR Data Terra.
 
 Le but est d'assurer l’interopérabilité sémantique pour associer une signification aux données, les positionner dans un domaine de
 connaissance. Cela inclut le développement de vocabulaires et de schémas pour décrire les données et les liens entre les données
