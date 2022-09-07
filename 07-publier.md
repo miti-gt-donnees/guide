@@ -185,8 +185,17 @@ SOS fait partie des standards recommandés par le réseau SIST qui à ce titre a
 
 - *[le logiciel istSOS](http://istsos.org/)* développé par l'Institut des Sciences de la Terre" de l'université de Suisse permet de fournir les metadonnées et données de capteurs dans le modèle standardisé O&M en utilisant des opérations normalisées via SOS. Ainsi, l'accès aux données de capteurs est simplifié pour l'utilisateur et rendu interopérable pour de systèmes externes automatisées (machine to machine) ou non (client web). 
 
-Le logiciel permet de plusd'afficher la description et la localisation des capteurs sur une carte, et d'établir des graphes d'évolutions temporelles.
- 
+Le logiciel permet de plus d'afficher la description et la localisation des capteurs sur une carte, et d'établir des graphes d'évolutions temporelles.
+
+Maurice Libes fait un retour d'expérience sur l'utilisation du protocole SOS et du logiciel istSOS dans la gestion de données météorologiques à l'OSU Pytheas. Il donne les avantages et inconvénients, à ce jour, de l'utilisation de ce protocole et logiciel.
+
+```{admonition} [Utilisation de istSOS dans la gestion de données Météo ](http://sist.cnrs.fr/wp-content/uploads/2022/06/04-SIST22-istSOS.pdf)
+:class: seealso
+Maurice Libes
+Séminaire SIST22 - Grenoble Juin 2022
+```
+
+
 [La formation sur istSOS](https://sist.cnrs.fr/les-formations/formation-istsos-1) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
 
 - *[le logiciel 52North]( https://52north.org/)* est développé par la société éponyme https://52north.org/ qui travaille sur les technologies et infrastructures d’information spatialisées. C’est actuellement un des logiciels suffisamment matures pour mettre en œuvre le standard SOS, à l’instar du logiciel istSOS.
