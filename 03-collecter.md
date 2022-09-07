@@ -244,7 +244,7 @@ Dans ces cas où les chaines de collecte sont automatisées il devient utile d'a
 
 L'élaboration de "dashboard" ou "tableau de controle" peut etre envisagé pour ce type de surveillance.
 
-En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il etait ncessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaine au controle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes_
+En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il etait nécessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaines au contrôle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes_
 
 Franck Gabarrot préconise "Apache Airflow" qui est un outil open source d’orchestration de workflows programmables en
 Python. [workflow = pipeline = flux de travaux = enchaînement de tâches]
@@ -257,7 +257,7 @@ séminaire SIST19 à Toulouse, réseau SIST, Juin 2010
 ```
 
 
-Lors du séminaire SIST22 à Grenoble, une session a été consacrée à quelques outils de monitoring
+Lors du séminaire SIST22 à Grenoble, une session a été consacrée à quelques outils de monitoring pour surveiller les données
 
 Emmanuel Delage présente le logiciel Grafana permettant la visualisation de données temporelles à l'aide de graphiques organisés en tableaux de bord. Les données du site instrumenté COPDD de l'OPGC sont envoyés toutes les 5 minutes sur le serveur Web au moyen de services Web de l'observatoire virtuel. Ensuite ces données sont enregistrées dans une base de données PostgreSQL contenant l'ensemble des données des derniers sept jours. Cette base de données est définie en tant que source sur le serveur Grafana, permettant la visualisation sous forme de graphiques des données proche temps-réel, sur le serveur Web, selon différents paramètres d'affichage au design reponsive.
 
