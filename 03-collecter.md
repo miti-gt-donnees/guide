@@ -259,11 +259,23 @@ Cet type de DashBoard permet donc de surveiller ses donénes en les visualisant 
 
 Connect and query your data sources, build dashboards to visualize data and share them with your company.
 
-```{admonition} [Concevoir un dashboard sans programmation et en 3 clicks… Ou presque !!](hhttps://sist.cnrs.fr/sist22/#retours-dexperiences-et-presentations)
+```{admonition} [Concevoir un dashboard sans programmation et en 3 clicks… Ou presque !!](https://sist.cnrs.fr/sist22/#retours-dexperiences-et-presentations)
 :class: seealso
 Christophe Ferrier  
 séminaire SIST22 à Grenoble, réseau SIST, Juin 2022  
 ```
+
+Enfin W. Masson dans le même esprit de mise en place de "DashBoards" utilise le Framework "Dash" en Python 
+développé en 2017 par la société Plotly. Ce Framework Permet de développer des applications web de type tableau de bord pour la visualisation de  données et pour créer des interfaces utilisateurs interactives. Dash offre  unr couche d'abstraction qui permet de développer 100% en Python la visualisation et le monitoring de données.
+
+
+```{admonition} [Framework Dash – Dashboard web 100% Python ](https://sist.cnrs.fr/wp-content/uploads/2022/06/03-SIST22-dash.pdf)
+:class: seealso
+William Masson, Nathalie Reynaud, Arthur Coqué, Michel Candido & Thierry Tormos
+séminaire SIST22 à Grenoble, réseau SIST, Juin 2022  
+```
+
+
 
 ### Web scraping ou grattage Web : collecte automatique et analyse de données 
 
