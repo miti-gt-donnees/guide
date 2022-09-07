@@ -247,7 +247,7 @@ ANF SIST 2018, Toulouse.
 [ajout ML]
 ### la gestion des données géolocalisées
 
-Un grand nombre de données environnementales proviennent du terrain et sont donc géolocalisées. Les coordonnées géographiques (latitude, longitude) font partie des métadonnées capitales pour savoir d'où proviennent les données.
+Un grand nombre de données environnementales proviennent du terrain et sont donc géolocalisées. Les coordonnées géographiques (latitude, longitude) font partie des métadonnées fondamentales, ainsi que le système de projection, pour savoir d'où proviennent les données.
 
 A ce titre des bonnes notions en géomatique sont nécessaires pour savoir interpréter les métadonnées afférentes (système de coordonées par exemple), utiliser certains logiciels et savoir positionner des points de mesure sur une carte avec des outils de webmapping.
 
@@ -546,10 +546,8 @@ Olivier Lobry, Juliette Fabre
 [Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/).    
 ```
 
-Dans son projet A. Campos utilise un ensemble de scripts Python
-pour convertir les fichiers "xls" en fichier "ascii", puis effectue
-un nettoyage avec la commande "awk" de Unix. Enfin des scripts en
-langage R permet de faire des moyennes glissantes, des graphes
+Dans son projet A. Campos utilise un ensemble de scripts Python pour convertir les fichiers "xls" en fichier "ascii", puis effectue
+un nettoyage avec la commande "awk" de Unix. Enfin des scripts en langage R permet de faire des moyennes glissantes, des graphes
 et des exports des fichiers au format NetCDF.
 
 ```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
@@ -557,3 +555,36 @@ et des exports des fichiers au format NetCDF.
 André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques   
 [SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
 ```
+
+[ajout ML]
+### L’interopérabilité sémantique - Utilisation de vocabulaires contrôlés - Thesaurus disciplinaires
+
+Outre l'intéropérabilité technique entre différents systemes qui implique des protocoles et des formats d'échanges ouverts, et standards. Les données FAIR sont également sensibles à l'interopérabilité _sémantique_ ! Dans ce cas là il s'agit de se faire comprendre entre différents systemes ou individus. 
+
+L'interopérabilité sémantique c'est un ensemble de termes définis, utilisés dans des métadonnées pour associer un sens commun aux données. Par exemple comment nommer la mesure "Température" ou "Poids" et leurs unités de mesure, pour qu'elle soit comprise dans différents Instituts ou Pays? de quelle température, et de quel poids parle t-on?
+
+L'interopérabilité sémantique est la capacité des systèmes informatiques à échanger des données dont la signification n'est pas ambiguë. Il s'agit d'une exigence pour permettre aux données d'être partagées entre différents systèmes ou applications, et d'être comprises.
+
+_Elle assure que la signification exacte des informations échangées soit compréhensible par n’importe quelle autre application, même si celle-ci n’a pas été conçue initialement dans ce but précis. En effet, des conflits sémantiques surviennent lorsque les systèmes n’utilisent pas la même interprétation de l’information qui est définie différemment d’une organisation à l’autre. Pour réaliser l'interopérabilité sémantique, les deux côtés doivent se référer à un modèle de référence d'échange d'informations commun._ [in wikipedia](https://fr.wikipedia.org/wiki/Interop%C3%A9rabilit%C3%A9_en_informatique)
+
+Dans le cas de la gestion FAIR des données environnementales il est important d'utiliser des vocabulaires contrôlés issus de thesaurus disciplinaires qui auront la vertu de nommer les données de la même façon au sein d'une même discipline.
+Ainsi [la convention CF](https://cfconventions.org/), par exemple, utilise [une table de nommage standardisée](https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html) qui définit le nommage d'un grand nombre de variables. Ainci, par exemple, la température à la surface de l'ocean sera _"sea_surface_temperature"_ 
+
+En France l'Infrastructure de Recherche "Data Terra" et ses différents pôles de données sont soumis à la même problématique de nommage.
+les données doivent pouvoir être réutilisées et mises en relation avec d’autres données au delà de sa propre base de données locale.
+“L’interopérabilité des données correspond à leur capacité à être intégrées avec d’autres  données et à être utilisées et interprétées par des applications et des processus d’analyse et ce de manière automatique”
+
+Face à ce probleme JC Desconnets a présenté la problématique de cette interopérabilité sémantique et les solutions actuelles qui s'offrent à nous avec un ensemble de thesaurus disciplinaires existants à ce jour.
+
+Le but est d'assurer l’interopérabilité sémantique pour associer une signification aux données, les positionner dans un domaine de
+connaissance. Cela inclut le développement de vocabulaires et de schémas pour décrire les données et les liens entre les données
+décrire les données avec des métadonnées
+
+
+```{admonition} [Vocabulaires contrôlés et thésaurus disciplinaires"](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Enjeux-notions-et-etat-des-lieux.pdf)  
+:class: seealso
+Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
+[séminaire SIST2022 Grenoble](https://sist.cnrs.fr/sist22)      
+```
+
+[/ajout ML]
