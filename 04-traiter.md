@@ -557,6 +557,7 @@ André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques
 ```
 
 [ajout ML]
+
 ### L’interopérabilité sémantique - Utilisation de vocabulaires contrôlés - Thesaurus disciplinaires
 
 Outre l'intéropérabilité technique entre différents systemes qui implique des protocoles et des formats d'échanges ouverts, et standards. Les données FAIR sont également sensibles à l'interopérabilité _sémantique_ ! Dans ce cas là il s'agit de se faire comprendre entre différents systemes ou individus. 
@@ -582,6 +583,24 @@ décrire les données avec des métadonnées
 
 
 ```{admonition} [Vocabulaires contrôlés et thésaurus disciplinaires"](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Enjeux-notions-et-etat-des-lieux.pdf)  
+:class: seealso
+Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
+[séminaire SIST2022 Grenoble](https://sist.cnrs.fr/sist22)      
+```
+
+De la même manière qu'on procède à certains traitement pour rendre ses données, FAIR, il en est de même avec les métadonnées.
+Ei on veut rendre les métadonnées, "interopérables" et "réutilisables", il convient de se soucier d'utiliser des vocabulaires contrôlés provenant de thesaurus disciplinaires, mais en outre de relier les terminologies d'u nthesaurus avec celles d'un autre thesaurus
+
+Rendre ses métadonnées "FAIR", c'est Construire et partager les terminologies au delà de son domaine et de ses bases de données
+et fournir une représentation lisible et accessible pour les machines
+
+Imposer un vocabulaire standard existant est difficilement envisageable, et  Chaque discipline doit adapter son vocabulaire à ses besoins par le biais de relations
+
+C'est ce que nous expliquent Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
+dans leur communication sur les thesaurus au séminaire SIST22
+
+
+```{admonition} [Vocabulaires contrôlés et thésaurus disciplinaires"](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Fairiser-son-vocabulaire.pdf)  
 :class: seealso
 Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
 [séminaire SIST2022 Grenoble](https://sist.cnrs.fr/sist22)      
