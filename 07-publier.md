@@ -135,7 +135,7 @@ Grace a l'utilisation de ce protocole d'échange normalisé, le logiciel GeoNetw
 ### diffusion de données géolocalisées par le protocole WMS
 
 
-Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), [WMS (Web Map Service) pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/).
+Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC [WMS (Web Map Service](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir et récupérer des données provenant de serveurs cartographiques comme [GeoServer](http://geoserver.org/).
 
 L'utilisation du protocole WMS permet d'échanger les données de manière interopérable entre les logiciels, pour représenter les points de mesures sur une carte, et pouvoir ainsi accéder aux données brutes associées à un point de mesure géoréférencé.
 
