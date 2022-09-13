@@ -94,7 +94,8 @@ des millions de stations peuvent être facilement entretenues et
 explorées sur des ordinateurs de bureau.
 
 Un explorateur et extracteur de données webODV est disponible sur
-le portail[ EMODnet Chemistry.](https://emodnet-chemistry.webodv.awi.de/).
+le portail [EMODnet Chemistry](https://emodnet-chemistry.webodv.awi.de/).
+
 L'outil webODV Data Explorer and Extractor, développé à l'Institut
 Alfred Wegener en Allemagne, permet aux utilisateurs d'explorer,
 de visualiser et d'extraire des sous-ensembles de données validées
@@ -119,7 +120,6 @@ via les infrastructures et réseaux en lien avec le calcul intensif:
 ```{admonition} Formations PRACE
 :class: seealso
 HDF5 : theory & practice [1](https://materials.prace-ri.eu/386/6.haslightboxThumbnailVersion/hdf51.pdf) et [2](https://materials.prace-ri.eu/386/7.haslightboxThumbnailVersion/hdf52.pdf)   
-
 Prace Advanced Training Centers, [Course: Parallel I/O and management of large scientific data, 2014](https://materials.prace-ri.eu/386/)
 ```
 
@@ -520,8 +520,7 @@ Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement
 [Séminaire SIST 2018 OVSQ ](https://sist18.sciencesconf.org/), Guyancourt.   
 ```
 
-Dans cette présentation, les auteurs abordent la qualité des données
-sous l'angle utilisation de référentiels pour décrire finement les
+Dans cette présentation, les auteurs abordent la qualité des données sous l'angle utilisation de référentiels pour décrire finement les
 données et les rendre interopérables
 
 ```{admonition} [La qualité des données à l'OSU OREME](https://sist18.sciencesconf.org/data/pages/31_F_Fabre_O_Lobry_Qualite_des_donnees_de_l_OSU_OREME_.pdf)   
@@ -556,7 +555,7 @@ André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques
 [SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
 ```
 
-[ajout ML]
+*ajout ML
 
 ### L’interopérabilité sémantique - Utilisation de vocabulaires contrôlés - Thesaurus disciplinaires
 
@@ -615,4 +614,4 @@ Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
 [séminaire SIST2022 Grenoble](https://sist.cnrs.fr/sist22)      
 ```
 
-[/ajout ML]
+ajout ML
