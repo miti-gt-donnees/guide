@@ -589,12 +589,21 @@ Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
 ```
 
 De la même manière qu'on procède à certains traitement pour rendre ses données, FAIR, il en est de même avec les métadonnées.
-Ei on veut rendre les métadonnées, "interopérables" et "réutilisables", il convient de se soucier d'utiliser des vocabulaires contrôlés provenant de thesaurus disciplinaires, mais en outre de relier les terminologies d'u nthesaurus avec celles d'un autre thesaurus
+Ei on veut rendre les métadonnées, "interopérables" et "réutilisables", il convient de se soucier d'utiliser des vocabulaires contrôlés provenant de thesaurus disciplinaires, mais en outre de relier les terminologies d'un thesaurus avec celles d'un autre thesaurus
 
-Rendre ses métadonnées "FAIR", c'est Construire et partager les terminologies au delà de son domaine et de ses bases de données
+Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets ont réuni dans un document :
+
+- les différents formats de fichiers interopérables préconisés par les pôles de données de l'IR "Data Terra"
+-* https://docs.google.com/spreadsheets/d/10s_uTinEtlCxAI3s0Gf87xfhgeTs6ca594EUoCbd3z8/edit#gid=724670971
+
+- les divers thesaurus existants par discipline 
+-* https://docs.google.com/spreadsheets/d/10s_uTinEtlCxAI3s0Gf87xfhgeTs6ca594EUoCbd3z8/edit#gid=2072484964
+
+
+Rendre ses métadonnées "FAIR", c'est construire et partager les terminologies au delà de son domaine et de ses bases de données
 et fournir une représentation lisible et accessible pour les machines
 
-Imposer un vocabulaire standard existant est difficilement envisageable, et  Chaque discipline doit adapter son vocabulaire à ses besoins par le biais de relations
+Imposer un vocabulaire standard existant est difficilement envisageable, et chaque discipline doit adapter son vocabulaire à ses besoins par le biais de relations
 
 C'est ce que nous expliquent Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
 dans leur communication sur les thesaurus au séminaire SIST22
