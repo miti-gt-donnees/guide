@@ -5,6 +5,7 @@ variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
 
 before_script:
+  - sudo apt install -yq texlive-full
   - python3 -m venv venv
   - source venv/bin/activate
   - pip install -q -U wheel
