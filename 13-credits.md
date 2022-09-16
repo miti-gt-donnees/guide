@@ -33,9 +33,5 @@ Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyter Book](https:
 
  [![HAL](images/HAL_Logo_RVB.png)](https://hal.archives-ouvertes.fr/hal-03152732)
 
-````{panels}
 [![Atelier Données](images/gt-donnees-logo.png)](https://gt-atelier-donnees.miti.cnrs.fr/)
----
 [![CNRS](images/logo_cnrs.png)](http://www.cnrs.fr/mi/spip.php?article465)
-````
-
