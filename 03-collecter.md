@@ -210,7 +210,6 @@ Stéphane Debard IRD
 ```
 
 
-
 ### Les chaines de collecte
 Les gestionnaires de données environnementales mettent en place des chaînes de collecte de données provenant de capteurs de terrains ou de modèles numériques. Ils se préoccupent de l’utilisation de normes interopérables dans les protocoles d'échange et dans les formats de données.
 
