@@ -1,4 +1,5 @@
-image: pnavaro/pandoc
+image: python:3.9
+
 
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
@@ -6,6 +7,7 @@ variables:
 before_script:
   - python3 -m venv venv
   - source venv/bin/activate
+  - pip install -q -U wheel
   - pip install -q -U jupyter-book
 
 cache:
