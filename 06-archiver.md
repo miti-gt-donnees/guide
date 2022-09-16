@@ -200,7 +200,7 @@ La dernière présentation de Frédéric Vest pose le cadre des obligations lég
 Emilie Jouin, Justine Lascar  
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-```{admonition} [Collecter, archiver et diffuser des données avec le droit et l'éthique comme alliés](hhttps://rbdd.cnrs.fr/IMG/pdf/anonymat-2021-11_ginouves.pdf?628/9e92a166d217896185dddc42c62becfa9593c707)    
+```{admonition} [Collecter, archiver et diffuser des données avec le droit et l'éthique comme alliés](https://rbdd.cnrs.fr/IMG/pdf/anonymat-2021-11_ginouves.pdf?628/9e92a166d217896185dddc42c62becfa9593c707)    
 :class: seealso   
 Véronique Ginovès
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
