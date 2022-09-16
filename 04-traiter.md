@@ -570,7 +570,7 @@ _Elle assure que la signification exacte des informations échangées soit compr
 Dans le cas de la gestion FAIR des données environnementales il est important d'utiliser des vocabulaires contrôlés issus de thesaurus disciplinaires qui auront la vertu de nommer les données de la même façon au sein d'une même discipline.
 Ainsi [la convention CF](https://cfconventions.org/), par exemple, utilise [une table de nommage standardisée](https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html) qui définit le nommage d'un grand nombre de variables. Ainci, par exemple, la température à la surface de l'ocean sera _"sea_surface_temperature"_ 
 
-En France l'Infrastructure de Recherche "Data Terra" et ses différents pôles de données sont soumis à la même problématique de nommage.
+En France l'Infrastructure de Recherche "Data Terra" et ses différents pôles de données sont soumis à la même problématique de nommage des paramètres mesurés.
 les données doivent pouvoir être réutilisées et mises en relation avec d’autres données au delà de sa propre base de données locale.
 “L’interopérabilité des données correspond à leur capacité à être intégrées avec d’autres  données et à être utilisées et interprétées par des applications et des processus d’analyse et ce de manière automatique”
 
