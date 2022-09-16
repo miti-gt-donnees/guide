@@ -555,7 +555,7 @@ André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques
 [SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
 ```
 
-*ajout ML
+[ajout ML]
 
 ### L’interopérabilité sémantique - Utilisation de vocabulaires contrôlés - Thesaurus disciplinaires
 
