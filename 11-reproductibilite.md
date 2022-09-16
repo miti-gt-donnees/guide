@@ -59,15 +59,6 @@ Sorina Camarasu-Pop, Frédéric Cervenansky, CREATIS
 JoSy 2019
 ```
      
-Ludovic Courtès explique comment utiliser Guix et Jupyter pour la science reproductible.  Guix est utilisé pour rendre l'environnement logiciel du notebook reproductible et déployé de façon automatique et reproductible. Nous vous conseillons de visionner la vidéo très didactique !
-
-```{admonition} [Vers un environnement reproductible pour les blocs-notes Jupyter](https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf)  
-:class: seealso
-[vidéo](https://prismes.univ-toulouse.fr/player.php?code=s5cfr0Ue&width=100%&height=100%)  
-Ludovic Courtès, Inria  
-JCAD 2019
-```
-
 Etre capable de reproduire des campagnes de calcul nécessite de connaître et savoir utiliser des outils adéquats. La [bibliothèque Python Execo](http://execo.gforge.inria.fr/doc/latest-stable/) et le [logiciel OpenMole](https://openmole.org/) sont deux exemples permettant de réaliser des campagnes de calcul reproductibles pour des applications de modélisation, simulations paramétriques, benchmarking, analyses de données numériques ou expérimentales.
 
 ```{admonition} [Execo](https://calcul.math.cnrs.fr/attachments/spip/IMG/pdf/2018-ExecoExpeNum.pdf)  
@@ -81,6 +72,47 @@ Journées Campagnes de calcul reproductibles, 2018
 Romain Reuillon, Mathieu Leclaire  
 Journées Campagnes de calcul reproductibles, 2018
 ```
+
+### Outils de packaging
+
+Il existe des gestionnaires de paquets qui utilisent une approche
+fonctionnelle, en particulier Nix et GNU Guix. Cette approche permet
+de gérer des environnements logiciels reproductibles et composables.
+Un séminaire introductif a été organisé sur le sujet en 2021 par
+MaiMosine, GRICAD, SARI dans le cadre des "[Séminaire Recherche Reproductible](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/pages/seminaires.html#seminaires).
+
+```{admonition} [Reproductibilité: apport des gestionnaires de paquet fonctionnels](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2021-11-25-O-Richard-fm-repro.pdf)  
+:class: seealso
+[vidéo](https://videos.univ-grenoble-alpes.fr/video/21805-reproductibilite-apport-des-gestionnaires-de-paquet-fonctionnels/)
+Olivier Richard, LIG
+Séminaire Recherche Reproductible du 25 novembre 2021 (MaiMosine, GRICAD, SARI)
+```
+
+```{admonition} [La reproductibilité logicielle en pratique avec GUIX](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2021-11-25-PA-Bouttier_rech_repro.pdf)  
+:class: seealso
+[vidéo](https://videos.univ-grenoble-alpes.fr/video/21804-la-reproductibilite-logicielle-en-pratique-avec-guix/)
+Pierre-Antoine Bouttier, GRICAD
+Séminaire Recherche Reproductible du 25 novembre 2021 (MaiMosine, GRICAD, SARI)
+```
+
+```{admonition} [Le gestionnaire de paquets NIX](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2021-11-25-NIX-B.Bzeznik.pdf)  
+:class: seealso
+[vidéo](https://videos.univ-grenoble-alpes.fr/video/21803-le-gestionnaire-de-paquets-nix/)
+Bruno Bzeznik, GRICAD
+Séminaire Recherche Reproductible du 25 novembre 2021 (MaiMosine, GRICAD, SARI)
+```
+
+Ludovic Courtès explique comment utiliser Guix et Jupyter pour la science reproductible.  Guix est utilisé pour rendre l'environnement logiciel du notebook reproductible et déployé de façon automatique et reproductible. Nous vous conseillons de visionner la vidéo très didactique !
+
+```{admonition} [Vers un environnement reproductible pour les blocs-notes Jupyter](https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf)  
+:class: seealso
+[vidéo](https://prismes.univ-toulouse.fr/player.php?code=s5cfr0Ue&width=100%&height=100%)  
+Ludovic Courtès, Inria  
+JCAD 2019
+```
+
+Pour aller plus loin sur Guix sont organisés des "[cafés Guix](https://hpc.guix.info/events/2022/caf%C3%A9-guix/)" qui
+permettent d'aborder différents sujets.
 
 ## Développement open source et reproductibilité
 
