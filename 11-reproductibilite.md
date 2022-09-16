@@ -79,7 +79,7 @@ Il existe des gestionnaires de paquets qui utilisent une approche
 fonctionnelle, en particulier Nix et GNU Guix. Cette approche permet
 de gérer des environnements logiciels reproductibles et composables.
 Un séminaire introductif a été organisé sur le sujet en 2021 par
-MaiMosine, GRICAD, SARI dans le cadre des "[Séminaire Recherche Reproductible](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/pages/seminaires.html#seminaires).
+MaiMosine, GRICAD, SARI dans le cadre des "[Séminaire Recherche Reproductible](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/pages/seminaires.html#seminaires)".
 
 ```{admonition} [Reproductibilité: apport des gestionnaires de paquet fonctionnels](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2021-11-25-O-Richard-fm-repro.pdf)  
 :class: seealso
