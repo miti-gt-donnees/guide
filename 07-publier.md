@@ -263,7 +263,7 @@ Soumaya Lahbib
 ```
 
 
-<ajoutML>
+[ajoutML]
 Dans l'infras structure de recherches Data Terra, le catalogage des données selon des domaines du système Terre, utilisant des thesaurus disciplinaires est au coeur de la démarche des pôles de données . Il est en effet nécessaire de produire un vocabulaire commun pour permettre la découverte homogène des données à l'aide des variables observées.
 
 L'objectif est de rendre visible l’ensemble des données in-situ des surfaces continentales sur un portail unique, en faciliter la découverte, l’accès et la réutilisabilité pour les besoins scientifiques. L'interopérabilité doit se faire conformément à des standards et thésaurus internationaux et interdisciplinaires.
@@ -275,7 +275,7 @@ C'est la démarche que nous présentent Véronique Chaffard et Charly Coussot po
 Charly Coussot, Véronique Chaffard
 [Séminaire SIST20 OSU Lyon 2020](https://sist20.sciencesconf.org/)   
 ```
-</ajout>
+[/ajout]
 
 [ajout ML]
 
@@ -755,7 +755,7 @@ Cet atelier technique est organisé selon le plan suivant :
   - Exemples d'exploitation du Sparql Endpoint
 
 
-<ajout ML>
+[ajout ML]
 L'intéropérabilité sémantique est au coeur de la démarche des pôles de données environnementaux :  le besoin est d'associer une signification aux données, et les positionner dans un domaine de connaissances. 
 
 Cela nécessite :
@@ -774,6 +774,6 @@ Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés
 [Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist20.sciencesconf.org/)  
 ```
 
-</ajout>
+[/ajout]
 
 Tous les éléments exposés dans ce chapitre sont nécessaires et importants pour mettre en place une bonne publication et diffusion des données de la science selon les principes FAIR.
