@@ -219,7 +219,9 @@ IMDIS 2021 Marseille
 
 Par ailleurs les principales fonctionnalité de ERDDAP ont été exposées dans un tutoriel au congrès JRES 2022 à Marseille
 
-```{admonition} [ERDDAP, un outil pour la Science Ouverte pour des données Faciles  à trouver, Accessibles, Interopérables et Réutilisables](https://gitlab.in2p3.fr/maurice.libes/tuto-erddap-jres)   
+```{admonition} ERDDAP, un outil pour la Science Ouverte pour des données Faciles  à trouver, Accessibles, Interopérables et Réutilisables
+- [video](https://replay.jres.org/w/vepPKvw5q4N2NMT93Hzbqa)
+- [presentation](https://conf-ng.jres.org/2021/document_revision_2204.html?download)
 :class: seealso
 Maurice Libes, Didier Mallarino OSU Pytheas
 JRES 2022 Marseille
