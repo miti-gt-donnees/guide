@@ -187,14 +187,13 @@ SOS fait partie des standards recommandés par le réseau SIST qui à ce titre a
 
 Le logiciel permet de plus d'afficher la description et la localisation des capteurs sur une carte, et d'établir des graphes d'évolutions temporelles.
 
-Maurice Libes fait un retour d'expérience sur l'utilisation du protocole SOS et du logiciel istSOS dans la gestion de données météorologiques à l'OSU Pytheas. Il donne les avantages et inconvénients, à ce jour, de l'utilisation de ce protocole et logiciel.
+Maurice Libes fait un retour d'expérience sur l'utilisation du protocole SOS et du logiciel istSOS dans la gestion de données météorologiques à l'OSU Pytheas. Il donne quelques avantages et inconvénients, à ce jour, de l'utilisation de ce protocole et logiciel.
 
 ```{admonition} [Utilisation de istSOS dans la gestion de données Météo ](http://sist.cnrs.fr/wp-content/uploads/2022/06/04-SIST22-istSOS.pdf)
 :class: seealso
 Maurice Libes
 Séminaire SIST22 - Grenoble Juin 2022
 ```
-
 
 [La formation sur istSOS](https://sist.cnrs.fr/les-formations/formation-istsos-1) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
 
@@ -210,9 +209,6 @@ La formation mise en place par le réseau SIST en 2021 avec les concepteurs de c
 Simon Jirka, Carsten Hollmann, Christian Autermann
 ANF SIST - Octobre 2021
 ```
-
-
-[/ajout ML]
 
 
 ### Les portails nationaux et européens
@@ -264,7 +260,7 @@ Soumaya Lahbib
 
 
 [ajoutML]
-Dans l'infras structure de recherches Data Terra, le catalogage des données selon des domaines du système Terre, utilisant des thesaurus disciplinaires est au coeur de la démarche des pôles de données . Il est en effet nécessaire de produire un vocabulaire commun pour permettre la découverte homogène des données à l'aide des variables observées.
+Dans l'infrastructure de recherches Data Terra, le catalogage des données selon des domaines du système Terre, utilisant des thesaurus disciplinaires est au coeur de la démarche des pôles de données . Il est en effet nécessaire de produire un vocabulaire commun pour permettre la découverte homogène des données à l'aide des variables observées.
 
 L'objectif est de rendre visible l’ensemble des données in-situ des surfaces continentales sur un portail unique, en faciliter la découverte, l’accès et la réutilisabilité pour les besoins scientifiques. L'interopérabilité doit se faire conformément à des standards et thésaurus internationaux et interdisciplinaires.
 
@@ -275,9 +271,7 @@ C'est la démarche que nous présentent Véronique Chaffard et Charly Coussot po
 Charly Coussot, Véronique Chaffard
 [Séminaire SIST20 OSU Lyon 2020](https://sist20.sciencesconf.org/)   
 ```
-[/ajout]
 
-[ajout ML]
 
 Les pôles de données se doivent de gérer une problématique de la gestion des données environnementales au niveau national, R. Moreno et K. Ramage nous exposent le Projet "Gaia Data", qui est une Infrastructure distribuée de données et services pour l'observation et la modélisation du système Terre. Ce projet "Gaia Data" est porté par 3 Infrastructures de Recherche numériques du domaine « système Terre et Environnement »
 - Data Terra (données observations du système Terre),
@@ -308,7 +302,6 @@ Les services prévus seront :
 [Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist20.sciencesconf.org/)  
 ```
 
-[/ajout]
 
 ## Utilisation de thesaurus 
 
