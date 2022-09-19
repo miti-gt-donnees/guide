@@ -594,11 +594,9 @@ Ei on veut rendre les métadonnées, "interopérables" et "réutilisables", il c
 
 Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets ont réuni dans un document :
 
-- les différents formats de fichiers interopérables préconisés par les pôles de données de l'IR "Data Terra"
--* https://docs.google.com/spreadsheets/d/10s_uTinEtlCxAI3s0Gf87xfhgeTs6ca594EUoCbd3z8/edit#gid=724670971
+- [les différents formats de fichiers interopérables préconisés par les pôles de données de l'IR "Data Terra"](https://docs.google.com/spreadsheets/d/10s_uTinEtlCxAI3s0Gf87xfhgeTs6ca594EUoCbd3z8/edit#gid=724670971)
 
-- les divers thesaurus existants par discipline 
--* https://docs.google.com/spreadsheets/d/10s_uTinEtlCxAI3s0Gf87xfhgeTs6ca594EUoCbd3z8/edit#gid=2072484964
+- [les divers thesaurus existants par discipline](https://docs.google.com/spreadsheets/d/10s_uTinEtlCxAI3s0Gf87xfhgeTs6ca594EUoCbd3z8/edit#gid=2072484964)
 
 
 Rendre ses métadonnées "FAIR", c'est construire et partager les terminologies au delà de son domaine et de ses bases de données
