@@ -236,12 +236,11 @@ Alban Thomas - Hervé Quénol UMR LETG Rennes
 
 ### Surveillance et monitoring des chaine de collecte
 
-Récupérer des données releve souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs déplacements
-voire plusieurs transformations de données
+Récupérer des données releve souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs transferts de fichiers, voire plusieurs transformations de données.
 
-Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systeme de controles, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port à l'endroit ou elles sont attendues.
+Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systeme de contrôles, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port, au bon format, à l'endroit ou elles sont attendues.
 
-L'élaboration de "dashboard" ou "tableau de controle" peut etre envisagé pour ce type de surveillance.
+L'élaboration de "dashboard" ou "tableau de contrôle" peut etre envisagé pour ce type de surveillance.
 
 En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il etait nécessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaines au contrôle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes_
 
