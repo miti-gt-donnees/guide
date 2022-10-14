@@ -184,7 +184,7 @@ Ensuite, Damien Clochard présente l'extension « PostgreSQL Anonymiser » du SG
 
 ```{admonition} [PostgreSQL Anonymizer](https://dalibo.gitlab.io/postgresql_anonymizer/how-to.slides.html)    
 :class: seealso   
-[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/postgresql-anonymizer-damien-clochard-dalibo)
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/postgresql-anonymizer-damien-clochard-dalibo)     
 Damien Clochard, Dalibo   
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
