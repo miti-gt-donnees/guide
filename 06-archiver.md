@@ -139,6 +139,7 @@ Atelier « Carnets de terrain électroniques », Montpellier, 2018
 
 En Avril 2004, le CINES a publié un  « [Guide Méthodologique pour l’archivage des bases de données](https://cultura.gencat.cat/web/.content/dgpc/arxius_i_gestio_documental/14_Gestio_documental/06_GD_Estandaritzacio/preservacio_publicacions/GM_archivage_BDD.pdf) » que nous recommandons fortement, même s'il est un peu ancien (la famille NoSQL est absente). Il contient les bonnes questions à se poser (est-ce une base de données vivante / consultée / cumulative ?), est-ce une base de données pilotée par une interface ? etc). Il présente les différents modes de sauvegarde possibles d'une base de données avec pour chacun leurs avantages et leurs inconvénients. Il liste les différentes documentations à joindre. Et surtout il sensibilise l'utilisateur sur la problématique de l'interface qui du point de vue préservation est un problème à prendre en compte en tant que tel (maillon faible).
 
+[ajout MCQ]
 Parmi les documents à joindre, le CINES conseille de ne pas oublier les documents réalisés lors de la modélisation, c'est à dire le modèle conceptuel de données (MCD), le modèle logique des données (MLD) et le modèle physique des données (MPD) car chacun apporte un niveau de répresentation nécessaire à la compréhension des données conservées.
 
 Ce sujet est au coeur de l'action nationale de formation « UML appliqué à la conception et à la documentation des bases de données » dont un des objectifs est de sensibiliser les acteurs à l'importance de la modélisation pour la conservation des données.
@@ -148,6 +149,7 @@ Ce sujet est au coeur de l'action nationale de formation « UML appliqué à la 
 Laurent Perochon, VetAgro Sup & Christine Plumejeaud, CNRS & Marie-Claude Quidoz, CNRS
 ANF « UML appliqué à la conception et à la documentation des bases de données », réseau rBDD, Sète, 2022   
 ```
+[/ajout MCQ]
 
 En novembre 2014, le réseau rBDD a consacré une journée à cette thématique « [Journée de sensibilisation à la sécurisation et à la pérennisation des données](http://webcast.in2p3.fr/events-rbdd2014) ». À cette occasion, Michel Jacobson a fait une présentation dans laquelle il présente le contexte de la pérennisation des bases de données, le  format *Software Independent Archiving of Relational Databases* (SIARD) et un retour d'expérience de l'utilisation de ce format pour la matrice cadastrale numérique.  
 
@@ -157,8 +159,6 @@ En novembre 2014, le réseau rBDD a consacré une journée à cette thématique 
 Michel Jacobson, LLL   
 Journée « Sensibilisation à la sécurisation et à la pérennisation des données », réseau rBDD, Paris, 2014   
 ```
-
-
 
 ### Les données chiffrées
 
@@ -180,7 +180,7 @@ Dans cette présentation, Emilie Masson et Patrick Guillot proposent une carte m
 Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes    
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019    
 ```
-
+[Ajout CH et MCQ]
 [Les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article368) ont été abordées lors d'un webinaire en deux parties : la première partie a été consacrée à la présentation d'outils et la deuxième aux nombreuses questions juridiques mais aussi éthiques qui se posent pour rendre accessible les données de recherche. 
 
 En introduction de la première journée, Kim Montalibet introduit les notions de pseudoanomynisation et d'anonymisation et illustre avec des exemples la notion de données à caractère personnel et données sensibles.
@@ -234,6 +234,8 @@ La dernière présentation de Frédéric Vest pose le cadre des obligations lég
 Frédéric Vest, CNRS (à verifier)
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
+
+[/ Ajout CH et MCQ]
 
 ### Les logiciels / les codes sources 
 
