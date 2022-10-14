@@ -96,6 +96,7 @@ HDF5 : theory & practice [1](https://materials.prace-ri.eu/386/6.haslightboxThum
 Prace Advanced Training Centers, [Course: Parallel I/O and management of large scientific data, 2014](https://materials.prace-ri.eu/386/)
 ```
 
+[Ajout MCQ]
 Il est possible aussi de définir de nouveaux schémas de données pour normaliser le dépôt de données et ainsi faciliter leur réutilisation. De nombreuses initiatives existent comme schema.org ou schema.data.gouv.fr, qui référence des schémas de données publiques pour la France.
 
 ```{admonition} [Cycle de vie de la donnée ouverte de qualité](https://gt-atelier-donnees.miti.cnrs.fr/download/2021_07_05_webinaire_atelier_Aldebert.pdf)
@@ -104,6 +105,7 @@ Il est possible aussi de définir de nouveaux schémas de données pour normalis
 Geoffrey Aldebert, Etalab
 Webinaire « Qualité des données », GT Atelier Données, 2021
 ```
+[/Ajout MCQ]
 
 ## Organiser les données
 
@@ -513,14 +515,7 @@ Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'En
 [Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
 ```
 
-```{admonition} [La qualité des données à l'OSU OREME](https://sist18.sciencesconf.org/data/pages/31_F_Fabre_O_Lobry_Qualite_des_donnees_de_l_OSU_OREME_.pdf)   
-:class: seealso
-Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'Environnement    
-[Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
-```
-
-Dans cette présentation, les auteurs proposent un développement
-graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour
+Dans cette présentation, les auteurs proposent un développement graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour
 visualiser et valider des données de séries temporelles.
 
 ```{admonition} [Outil web interactif de visualisation et validation de séries temporelles](https://nuage.osupytheas.fr/s/qmJrrMLFHwN729G)
@@ -543,7 +538,7 @@ André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques
 
 ### L’interopérabilité sémantique - Utilisation de vocabulaires contrôlés - Thesaurus disciplinaires
 
-Outre l'intéropérabilité technique entre différents systemes qui implique des protocoles et des formats d'échanges ouverts, et standards. Les données FAIR sont également sensibles à l'interopérabilité _sémantique_ ! Dans ce cas là il s'agit de se faire comprendre entre différents systemes ou individus. 
+Outre l'intéropérabilité technique entre différents systèmes qui implique des protocoles et des formats d'échanges ouverts, et standards. Les données FAIR sont également sensibles à l'interopérabilité _sémantique_ ! Dans ce cas là il s'agit de se faire comprendre entre différents systemes ou individus. 
 
 L'interopérabilité sémantique c'est un ensemble de termes définis, utilisés dans des métadonnées pour associer un sens commun aux données. Par exemple comment nommer la mesure "Température" ou "Poids" et leurs unités de mesure, pour qu'elle soit comprise dans différents Instituts ou Pays? de quelle température, et de quel poids parle t-on?
 
@@ -554,16 +549,13 @@ _Elle assure que la signification exacte des informations échangées soit compr
 Dans le cas de la gestion FAIR des données environnementales il est important d'utiliser des vocabulaires contrôlés issus de thesaurus disciplinaires qui auront la vertu de nommer les données de la même façon au sein d'une même discipline.
 Ainsi [la convention CF](https://cfconventions.org/), par exemple, utilise [une table de nommage standardisée](https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html) qui définit le nommage d'un grand nombre de variables. Ainci, par exemple, la température à la surface de l'ocean sera _"sea_surface_temperature"_ 
 
-En France l'Infrastructure de Recherche "Data Terra" et ses différents pôles de données sont soumis à la même problématique de nommage des paramètres mesurés.
-les données doivent pouvoir être réutilisées et mises en relation avec d’autres données au delà de sa propre base de données locale.
-“L’interopérabilité des données correspond à leur capacité à être intégrées avec d’autres  données et à être utilisées et interprétées par des applications et des processus d’analyse et ce de manière automatique”
+En France l'Infrastructure de Recherche "Data Terra" et ses différents pôles de données sont soumis à la même problématique de nommage des paramètres mesurés. Les données doivent pouvoir être réutilisées et mises en relation avec d’autres données au delà de sa propre base de données locale. “L’interopérabilité des données correspond à leur capacité à être intégrées avec d’autres  données et à être utilisées et interprétées par des applications et des processus d’analyse et ce de manière automatique”
 
 Face à ce probleme JC Desconnets a présenté la problématique de cette interopérabilité sémantique et les solutions actuelles qui s'offrent à nous avec un ensemble de thesaurus disciplinaires existants à ce jour recommandés par les pôles de données de l'IR Data Terra.
 
 Le but est d'assurer l’interopérabilité sémantique pour associer une signification aux données, les positionner dans un domaine de
 connaissance. Cela inclut le développement de vocabulaires et de schémas pour décrire les données et les liens entre les données
 décrire les données avec des métadonnées
-
 
 ```{admonition} [Vocabulaires contrôlés et thésaurus disciplinaires"](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Enjeux-notions-et-etat-des-lieux.pdf)  
 :class: seealso
@@ -590,10 +582,22 @@ C'est ce que nous expliquent Viqui Agazzi, Véronique Chaffard, Charly Coussot e
 dans leur communication sur les thesaurus au séminaire SIST22
 
 
-```{admonition} [Vocabulaires contrôlés et thésaurus disciplinaires"](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Fairiser-son-vocabulaire.pdf)  
+```{admonition} [Vocabulaires contrôlés et thésaurus disciplinaires](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Fairiser-son-vocabulaire.pdf)  
 :class: seealso
 Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
 [séminaire SIST2022 Grenoble](https://sist.cnrs.fr/sist22)      
 ```
 
 ajout ML
+
+[ajout MCQ]
+La présentation d'Eric Garnier montre l'intérêt de l'utillisation de la sémantique en écologie végétale. Dans ce domaine, la majorité des jeux de données sont de petite taille et sémantiquement hétérogènes. Leur réutilisation pour des objectifs de synthèse demande par conséquent un important travail d’homogénéisation afin de pouvoir conduire des analyses pertinentes. Il retrace les étapes qui ont été nécessaires pour préparer les jeux de données qui ont conduit à l’identification de deux dimensions majeures du fonctionnement des plantes. 
+
+```{admonition} [Retour d’expérience en écologie végétale sur les étapes d’homogénéisation des données](https://gt-atelier-donnees.miti.cnrs.fr/download/2021_07_05_webinaire_atelier_Garnier.pdf)  
+:class: seealso
+[Vidéo :](https://www.canal-u.tv/chaines/ad/qualite-des-donnees/retour-d-experience-en-ecologie-vegetale-sur-les-etapes-d)
+Eric Garnir, CEFE
+Webinaire Qualité des données, GT Atelier Données, 2021
+```
+
+[/ajout MCQ]
