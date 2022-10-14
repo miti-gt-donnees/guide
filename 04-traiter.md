@@ -96,9 +96,9 @@ HDF5 : theory & practice [1](https://materials.prace-ri.eu/386/6.haslightboxThum
 Prace Advanced Training Centers, [Course: Parallel I/O and management of large scientific data, 2014](https://materials.prace-ri.eu/386/)
 ```
 
-- Il est possible aussi de définir de nouveaux schémas de données pour normaliser le dépôt de données et ainsi faciliter leur réutilisation. De nombreuses initiatives existent comme schema.org ou schema.data.gouv.fr, qui référence des schémas de données publiques pour la France.
+Il est possible aussi de définir de nouveaux schémas de données pour normaliser le dépôt de données et ainsi faciliter leur réutilisation. De nombreuses initiatives existent comme schema.org ou schema.data.gouv.fr, qui référence des schémas de données publiques pour la France.
 
-```{admonition} [Cycle de vie de la donnée ouverte de qualité](XXX)
+```{admonition} [Cycle de vie de la donnée ouverte de qualité](https://gt-atelier-donnees.miti.cnrs.fr/download/2021_07_05_webinaire_atelier_Aldebert.pdf)
 :class: seealso
 [Vidéo : ](https://www.canal-u.tv/chaines/ad/qualite-des-donnees/cycle-de-vie-de-la-donnee-ouverte-de-qualite-geoffrey-aldebert)
 Geoffrey Aldebert, Etalab
