@@ -173,7 +173,14 @@ Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, G
 
 En introduction de la première journée, Kim Montalibet introduit les notions de pseudoanomynisation et d'anonymisation et illustre avec des exemples la notion de données à caractère personnel et données sensibles.
 
-Dans la seconde partie de la matinée, Damien Clochard présente l'extension « PostgreSQL Anonymiser » du SGBD PostgreSQL et Vincent Merilhou, grâce à un retour d'expérience de son utilisation dans le cadre de son laboratoire nous permet de mieux en appréhender les contours.
+```{admonition} [Pseudonymiser des documents grâce à l’IA](https://rbdd.cnrs.fr/IMG/pdf/20211105_seminairerbdd_pseudonymisation.pdf?624/63ad6526b4f6b3fd9981265a780d7ac3d1e7b1cd)    
+:class: seealso 
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/pseudonymiser-des-documents)     
+Kim Montalibet, Etalab   
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+ 
+Ensuite, Damien Clochard présente l'extension « PostgreSQL Anonymiser » du SGBD PostgreSQL et Vincent Merilhou, grâce à un retour d'expérience de son utilisation dans le cadre de son laboratoire nous permet de mieux en appréhender les contours.
 
 ```{admonition} [PostgreSQL Anonymizer](https://dalibo.gitlab.io/postgresql_anonymizer/how-to.slides.html)    
 :class: seealso   
