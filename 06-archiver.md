@@ -169,7 +169,11 @@ Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019    
 ```
 
-Si vous souhaitez anonymiser les données personnelles gérées avec le SGBD PostGreSQL, vous pouvez utiliser l'extension " PostgreSQL Anonymiser" qui a été présentée lors du webinaire [les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article368)
+[Les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article368) ont été abordées lors d'un webinaire en deux parties : la première partie a été consacrée à la présentation d'outils et la deuxième aux nombreuses questions juridiques mais aussi éthiques qui se posent pour rendre accessible les données de recherche. 
+
+En introduction de la première journée, Kim Montalibet introduit les notions de pseudoanomynisation et d'anonymisation et illustre avec des exemples la notion de données à caractère personnel et données sensibles.
+
+Dans la seconde partie de la matinée, Damien Clochard présente l'extension « PostgreSQL Anonymiser » du SGBD PostgreSQL et Vincent Merilhou, grâce à un retour d'expérience de son utilisation dans le cadre de son laboratoire nous permet de mieux en appréhender les contours.
 
 ```{admonition} [PostgreSQL Anonymizer](https://dalibo.gitlab.io/postgresql_anonymizer/how-to.slides.html)    
 :class: seealso   
@@ -181,34 +185,36 @@ Webinaire « les contraintes réglementaires liées aux bases de données », r�
 ```{admonition} [Retour d’expérience de PostgreSQL Anonymizer](https://rbdd.cnrs.fr/IMG/pdf/pg_anonymizer_dsi_cnrs.pdf?625/ad097df2d0d3b025bfc7ac05c094bdf72ed38803)    
 :class: seealso 
 [Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/retour-d-experience-de)     
-Vincent Merilhou, CNRS,   
+Vincent Merilhou, CNRS   
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
 
-Rendre accessible les données de recherche ouvre de nombreuses questions juridiques mais aussi éthiques. Les trois interventions présentées lors du webinaire sur les contraintes réglementaires liées aux bases de données offrent un panorama des différentes actions menées dans le domaine des sciences humaines et sociale mais aussi de l’environnement pour concilier diffusion des données et de recherche, protection des personnes et sécurisation des données.
+Dans le cadre de la deuxième partie, trois interventions offrent un panorama des différentes actions menées dans le domaine des sciences humaines et sociale mais aussi de l’environnement pour concilier diffusion des données et de recherche, protection des personnes et sécurisation des données.
 
 La première présentation d’Emilie Jouin et Justine lascard témoigne d’une démarche de collecte et diffusion de données audiovisuelle en contexte médical et pointe à travers des exemples sur les principales questions juridiques et éthiques que posent le traitement de données à caractère personnel, voir sensible (voix, image, propos …). On voit que cette démarche passe par la constitution d’un dossier juridique et éthique qui permet une négociation sur le terrain et le recueil de consentements éclairés, que le partage des corpus pour l’analyse des données suppose également des actions de sécurisation des données et enfin que la valorisation des résultats implique d’imaginer des solutions techniques (pseudonymisation, floutage, traitements …) pour l’application des clauses de protection des personnes. Des exemples en image illustrent les techniques utilisées.
 
+```{admonition} [Collecte et diffusion de données audiovisuelles en contexte médical : enjeux juridiques, éthiques et techniques](https://rbdd.cnrs.fr/IMG/pdf/jouin_lascar_com_rbdd_nov2021.pdf?627/7f5383d11607eabdf50cca6e3191cd1a33cbb97b)    
+:class: seealso   
+Emilie Jouin, CNRS & Justine Lascar, CNRS
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+
 La présentation très complète de Véronique Ginouves traduit elle aussi une démarche d’archivage complexe de fonds sonores et audiovisuels considérés par les chercheurs comme des objets de recherche et des informations à partager. Elle pose la question de la propriété des archives de terrain (témoin, enquêté, interprète, ayant droits etc.?) de la pratique d’anonymisation, des règles juridiques et éthiques à appliquer et du nécessaire respect des droits patrimoniaux pour assurer notamment le rôle central du témoin comme source de savoir.
+
+```{admonition} [Collecter, archiver et diffuser des données avec le droit et l'éthique comme alliés](https://rbdd.cnrs.fr/IMG/pdf/anonymat-2021-11_ginouves.pdf?628/9e92a166d217896185dddc42c62becfa9593c707)    
+:class: seealso   
+Véronique Ginouvès, CNRS/AMU (a vérifier)
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
 
 La dernière présentation de Frédéric Vest pose le cadre des obligations légales de diffusion des données dans le domaine de l’environnement et la biodiversité (Directive Inspire, Loi biodiversité, Loi Lemaire, RGPD …) et précise les modalités de gestions fines et adaptées mises en application pour respecter les contraintes spécifiques et la législation en vigueur (notamment sur les données de rapportage qui nécessite une normalisation).
 
-```{admonition} [Collecte et diffusion de données audiovisuelles en contexte médical : enjeux juridiques, éthiques et techniques](https://rbdd.cnrs.fr/IMG/pdf/jouin_lascar_com_rbdd_nov2021.pdf?627/7f5383d11607eabdf50cca6e3191cd1a33cbb97b)    
-:class: seealso   
-Emilie Jouin, Justine Lascar  
-Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
-```
-```{admonition} [Collecter, archiver et diffuser des données avec le droit et l'éthique comme alliés](https://rbdd.cnrs.fr/IMG/pdf/anonymat-2021-11_ginouves.pdf?628/9e92a166d217896185dddc42c62becfa9593c707)    
-:class: seealso   
-Véronique Ginovès
-Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
-```
 ```{admonition} [Contraintes liées aux données environnementales et leurs mises en applications](https://rbdd.cnrs.fr/IMG/pdf/webinair_rbdd_nov2021_vest.pdf?626/cfe7ec27e8fc8dfbeabd3126236ff0a8269a8b37)    
-:class: seealso   
-Frédéric Vest
+:class: seealso  
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/webinaire-sur-les-contraintes)      
+Frédéric Vest, CNRS (à verifier)
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-
 
 ### Les logiciels / les codes sources 
 
