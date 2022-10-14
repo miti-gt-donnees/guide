@@ -35,29 +35,16 @@ important de choisir des formats capables de supporter des entrées
 
 ### Utiliser des formats standards 
 
-Parmi les premiers traitements opérés sur des données brutes provenant
-du terrain, les données issues de capteurs environnementaux sont
-souvent illisibles et peu exploitables par un être humain. Il
-convient alors de traiter les fichiers bruts de manière à en extraire
-les données utiles, et de les réécrire dans des formats standards
-utilisables par un grand nombre de logiciels, et une communauté
-d'utilisateurs.
+Parmi les premiers traitements opérés sur des données brutes provenant du terrain, les données issues de capteurs environnementaux sont souvent illisibles et peu exploitables par un être humain. Il convient alors de traiter les fichiers bruts de manière à en extraire les données utiles, et de les réécrire dans des formats standards utilisables par un grand nombre de logiciels, et une communauté d'utilisateurs.
 
-Chaque discipline utilise, voire définit un certain nombre de formats
-standards, et il est bon de les connaitre et de s'y référer.
+Chaque discipline utilise, voire définit un certain nombre de formats standards, et il est bon de les connaitre et de s'y référer. 
 
 On ne pourra pas tous les citer, mais à titre d'exemple dans les domaines Océan, Atmosphère par exemple, 
 - **Le format [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)** est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l'environnement. Il est très bien adapté et utilisé, par exemple pour représenter et formater des données qui sont des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit "auto-descriptif" en ce sens qu'il permet de ne pas avoir besoin d'un fichier de description complémentaire. Les métadonnées sont en effet insérées dans l'entête du fichier, avec les données elles-mêmes.
 On peut ainsi décrire de manière assez précise les données du fichier, par exemple en insérant les unités de mesure des paramètres mesurés, la licence de diffusion, les propriétaires, etc., ainsi que l'organisation des données.
 
-Toutefois dans son format originel NetCDF n'a pas imposé de
-directives particulieres pour inscrire les métadonnées dans l'entete
-du fichier. De ce fait, il était possible d'inscrire n'importe quel
-libellé de variables, unités, etc. Une standardisation a été
-nécessaire pour obtenir des fichiers compréhensibles et interopérables.
-C'est le but de la  [convention CF (climate
-forecast)](https://cfconventions.org/) qui fournit une [table de standardisation des variables et unités de mesures](https://cfconventions.org/Data/cf-standard-names/76/build/cf-standard-name-table.html)
-à inscrire dans l'entete d'un fichier NetCDF.
+Toutefois dans son format originel NetCDF n'a pas imposé de directives particulieres pour inscrire les métadonnées dans l'entete du fichier. De ce fait, il était possible d'inscrire n'importe quel libellé de variables, unités, etc. Une standardisation a été nécessaire pour obtenir des fichiers compréhensibles et interopérables. 
+C'est le but de la  [convention CF (climate forecast)](https://cfconventions.org/) qui fournit une [table de standardisation des variables et unités de mesures](https://cfconventions.org/Data/cf-standard-names/76/build/cf-standard-name-table.html) à inscrire dans l'entete d'un fichier NetCDF.
 
 Ce format standard, la convention "CF", et l'interface de programmation (API) en Python pour créer des fichiers NetCDF par programme ont été présentés au [séminaire SIST19 à l'OMP](https://sist19.sciencesconf.org) de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :
 
@@ -79,48 +66,43 @@ Maurice Libes, Didier Mallarino, Institut Phyteas
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
 ```
 
-- **[Le format ODV](https://odv.awi.de/)** (ocean data view) est
-également un format standard ouvert intéressant. C'est un format
-de type "tableur", ensemble de lignes comportant un nombre fixe de
-colonnes qui se rapproche d'un format CSV, composé de colonnes de
-données séparées par des virgules (ou tout autre séparateur), à
-cette différence près que le format ODV permet l'insertion d'un
-entête assez riche permettant de placer des métadonnées en début
-de fichier.  On trouvera un exemple sur le [Portail des données marines](https://data.ifremer.fr/Tout-savoir-sur-les-donnees/Gestion-des-donnees/Formats/ODV).
+- **[Le format ODV](https://odv.awi.de/)** (ocean data view) est également un format standard ouvert intéressant. C'est un format de type "tableur", ensemble de lignes comportant un nombre fixe de colonnes qui se rapproche d'un format CSV, composé de colonnes de
+données séparées par des virgules (ou tout autre séparateur), à cette différence près que le format ODV permet l'insertion d'un
+entête assez riche permettant de placer des métadonnées en début de fichier.  On trouvera un exemple sur le [Portail des données marines](https://data.ifremer.fr/Tout-savoir-sur-les-donnees/Gestion-des-donnees/Formats/ODV).
 
-Le format de données ODV permet un stockage dense et un accès
-très rapide aux données. De grandes collections de données comprenant
-des millions de stations peuvent être facilement entretenues et
-explorées sur des ordinateurs de bureau.
+Le format de données ODV permet un stockage dense et un accès très rapide aux données. De grandes collections de données comprenant
+des millions de stations peuvent être facilement entretenues et explorées sur des ordinateurs de bureau.
 
-Un explorateur et extracteur de données webODV est disponible sur
-le portail [EMODnet Chemistry](https://emodnet-chemistry.webodv.awi.de/).
+Un explorateur et extracteur de données webODV est disponible sur le portail [EMODnet Chemistry](https://emodnet-chemistry.webodv.awi.de/).
 
-L'outil webODV Data Explorer and Extractor, développé à l'Institut
-Alfred Wegener en Allemagne, permet aux utilisateurs d'explorer,
-de visualiser et d'extraire des sous-ensembles de données validées
-simplement en utilisant leur navigateur web.
+L'outil webODV Data Explorer and Extractor, développé à l'Institut Alfred Wegener en Allemagne, permet aux utilisateurs d'explorer,
+de visualiser et d'extraire des sous-ensembles de données validées simplement en utilisant leur navigateur web.
 
 Les formats NetCDF et ODV sont les formats recommandés et utilisés par le [pôle de données Odatis](https://www.odatis-ocean.fr/donnees-et-services/principes-de-gestion-des-donnees/formats-attributs-conventions) et par le projet européen [Seadatanet](https://www.seadatanet.org/).
 
 - **Le format HDF5**
 
-Le format [HDF5](https://www.hdfgroup.org/solutions/hdf5/) (Hierarchical
-Data Format, version 5) est un format de fichier de type conteneur,
-c'est-à-dire assimilable à une arborescence de dossiers / fichiers
-contenus dans un même fichier.
+Le format [HDF5](https://www.hdfgroup.org/solutions/hdf5/) (Hierarchical Data Format, version 5) est un format de fichier de type conteneur,
+c'est-à-dire assimilable à une arborescence de dossiers / fichiers contenus dans un même fichier.
 
-C'est un format très utilisé lorsqu'on veut traiter ou simuler des
-données grâce au calcul intensif, car il offre des possibilités de
+C'est un format très utilisé lorsqu'on veut traiter ou simuler des données grâce au calcul intensif, car il offre des possibilités de
 compression et d'écriture/lecture parallèles très efficaces.
 
-Des supports de formation sur ce format sont de ce fait disponibles
-via les infrastructures et réseaux en lien avec le calcul intensif:
+Des supports de formation sur ce format sont de ce fait disponibles via les infrastructures et réseaux en lien avec le calcul intensif:
 
 ```{admonition} Formations PRACE
 :class: seealso
 HDF5 : theory & practice [1](https://materials.prace-ri.eu/386/6.haslightboxThumbnailVersion/hdf51.pdf) et [2](https://materials.prace-ri.eu/386/7.haslightboxThumbnailVersion/hdf52.pdf)   
 Prace Advanced Training Centers, [Course: Parallel I/O and management of large scientific data, 2014](https://materials.prace-ri.eu/386/)
+```
+
+- Il est possible aussi de définir de nouveaux schémas de données pour normaliser le dépôt de données et ainsi faciliter leur réutilisation. De nombreuses initiatives existent comme schema.org ou schema.data.gouv.fr, qui référence des schémas de données publiques pour la France.
+
+```{admonition} [Cycle de vie de la donnée ouverte de qualité](XXX)
+:class: seealso
+[Vidéo : ](https://www.canal-u.tv/chaines/ad/qualite-des-donnees/cycle-de-vie-de-la-donnee-ouverte-de-qualite-geoffrey-aldebert)
+Geoffrey Aldebert, Etalab
+Webinaire « Qualité des données », GT Atelier Données, 2021
 ```
 
 ## Organiser les données
