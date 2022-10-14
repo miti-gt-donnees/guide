@@ -169,11 +169,11 @@ Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019    
 ```
 
-Le sujet des données personnelles a fait l'objet d
-Si vos données personnelles nécessitent une anonymisation, vous pouvez consuter ses présentations faites lors du webinaire [les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article36)
+Si vous souhaitez anonymiser les données personnelles gérées avec le SGBD PostGreSQL, vous pouvez utiliser l'extension " PostgreSQL Anonymiser" qui a été présentée lors du webinaire [les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article368)
 
 ```{admonition} [PostgreSQL Anonymizer](https://dalibo.gitlab.io/postgresql_anonymizer/how-to.slides.html)    
 :class: seealso   
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/postgresql-anonymizer-damien-clochard-dalibo)
 Damien Clochard, Dalibo   
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
@@ -184,8 +184,6 @@ Webinaire « les contraintes réglementaires liées aux bases de données », r�
 Vincent Merilhou, CNRS,   
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-
-[new CH]
 
 Rendre accessible les données de recherche ouvre de nombreuses questions juridiques mais aussi éthiques. Les trois interventions présentées lors du webinaire sur les contraintes réglementaires liées aux bases de données offrent un panorama des différentes actions menées dans le domaine des sciences humaines et sociale mais aussi de l’environnement pour concilier diffusion des données et de recherche, protection des personnes et sécurisation des données.
 
@@ -210,7 +208,6 @@ Webinaire « les contraintes réglementaires liées aux bases de données », r�
 Frédéric Vest
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-[/new CH]
 
 
 ### Les logiciels / les codes sources 
