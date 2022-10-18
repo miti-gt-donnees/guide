@@ -53,15 +53,15 @@ L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'ac
 <new: CH JJ>
   ** Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
 
-Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur, de la recherche et de l’Innovation (MESRI) a  mis en route la création d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Il s’agit de mettre à disposition des chercheurs un entrepôt pluridisciplinaire pour le dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.  
+Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur et de la recherche (MESR) a  mis en route la création d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Il s’agit de mettre à disposition des chercheurs un entrepôt pluridisciplinaire pour le dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.  
 Outre le service de dépôt et de diffusion, cette plateforme propose aux chercheurs un catalogue des données de la recherche française et des services d’accompagnement de la donnée. Ces services se décomposent en trois catégories :  
 
-- Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes)
+- Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes
 - Centres de référence thématiques : en appui aux ateliers de la donnée, ils apportent une expertise disciplinaire
 - Centre de ressources rattachés à recherche data.gouv : ils apportent des services liés à l’entrepôt générique des données, au catalogue, aux e-formation etc.
 
 
-Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner un [webinaire](https://www.canal-u.tv/chaines/rda/rda-france-recherche-data-gouv-l-entrepot-national-federe-des-donnees-de-la-recherche) animé par  Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche et Pierre Yves Arnould, chargée de mission au MESRI ou à consulter le d[éroulé de leur présentation](https://rdafrance2021.sciencesconf.org/data/pages/2021.10.12_Recherche_Data_Gouv_RDA.pdf) réalisé le 12 octobre 2001 à l’occasion de la 4ème Réunion annuelle de RDA France.
+Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner un [webinaire](https://www.canal-u.tv/chaines/rda/rda-france-recherche-data-gouv-l-entrepot-national-federe-des-donnees-de-la-recherche) animé par  Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche et Pierre Yves Arnould, chargée de mission au MESR ou à consulter le [déroulé de leur présentation](https://rdafrance2021.sciencesconf.org/data/pages/2021.10.12_Recherche_Data_Gouv_RDA.pdf) réalisé le 12 octobre 2021 à l’occasion de la 4ème réunion annuelle de RDA France.
 </new CH JJ>
 
 
@@ -122,7 +122,7 @@ Volker Beckman,  CNRS/IN2P3
 Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020
 ```
 
-Pour accompagner les communautés de chercheurs, une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/cid70554/la-feuille-de-route-nationale-des-infrastructures-de-recherche.html) est mise à disposition sur son site par le ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation. Elle recense aujourd’hui 99 infrastructures et est régulièrement remise à jour. 
+Pour accompagner les communautés de chercheurs,<modif: CH une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/fr/la-feuille-de-route-nationale-des-infrastructures-de-recherche-2021-84056) </modif: CH est mise à disposition sur son site par le ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation. Elle recense aujourd’hui <MODIF A SUPP supp 99 infrastructures </MODIF A SUPP <modif :ch 108 infrastructures de formes et contenus variés </modif CH et est régulièrement remise à jour. 
 
 Les projets de recherche au sein de ces infrastructures ont donné lieu à certains retours d’expériences qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche.  (Ils sont détaillés dans la partie dédiée aux {ref}`infrastructures`)
 
