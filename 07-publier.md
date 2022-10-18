@@ -773,6 +773,6 @@ L'Interopérabilité se décline au niveau "sémantique", car les (méta)donnée
 ```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Enjeux-notions-et-etat-des-lieux.pdf)
 :class: seealso
 Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV)  
-[Séminaire SIST22 webinaire à l'OSU de Grenoble, 2022](https://sist.cnrs.fr/sist2022/)  
+[Séminaire SIST22 webinaire à l'OSU de Grenoble, 2022](https://sist.cnrs.fr/sist22/)  
 ```
 
