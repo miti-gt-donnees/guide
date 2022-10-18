@@ -249,24 +249,22 @@ Michèle Fichaut, Systèmes d'Informations Scientifiques pour la Mer
 
 Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ de Versailles, présente un exemple de dépôt de données de cytométrie en flux dans le portail de données Seadatanet. Il est intéressant de prendre connaissance de la démarche et du workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un grand nombre de standards.
 
-```{admonition} [Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf)  
+```{admonition} [Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist.cnrs.fr/wp-content/uploads/2021/12/05-M-Libes-Getsion-des-donnees-EMSO.pdf)  
 :class: seealso
 Soumaya Lahbib  
-[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
+[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist.cnrs.fr/sist18/)  
 ```
 
-
-[ajoutML]
 Dans l'infrastructure de recherches Data Terra, le catalogage des données selon des domaines du système Terre, utilisant des thesaurus disciplinaires est au coeur de la démarche des pôles de données . Il est en effet nécessaire de produire un vocabulaire commun pour permettre la découverte homogène des données à l'aide des variables observées.
 
 L'objectif est de rendre visible l’ensemble des données in-situ des surfaces continentales sur un portail unique, en faciliter la découverte, l’accès et la réutilisabilité pour les besoins scientifiques. L'interopérabilité doit se faire conformément à des standards et thésaurus internationaux et interdisciplinaires.
 
 C'est la démarche que nous présentent Véronique Chaffard et Charly Coussot pour la diffusion des données in-situ des surfaces continentales das le cadre du système d'information Theia/OZCAR
 
-```{admonition} [mise en œuvre des principes FAIR pour la diffusion des données in-situ des surfaces continentales: le système d'information Theia/OZCAR](https://sist20.sciencesconf.org/data/pages/SIST2021_Coussot_Chaffard_Theia_Ozcar.pdf)
+```{admonition} [mise en œuvre des principes FAIR pour la diffusion des données in-situ des surfaces continentales: le système d'information Theia/OZCAR](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-08-C-Coussot-V-Chaffard-le-SI-Theia-Ozcar.pdf)
 :class: seealso
 Charly Coussot, Véronique Chaffard
-[Séminaire SIST20 OSU Lyon 2020](https://sist20.sciencesconf.org/)   
+[Séminaire SIST20 OSU Lyon 2020](https://sist.cnrs.fr/sist20-21/)   
 ```
 
 
@@ -292,11 +290,11 @@ Les services prévus seront :
   - VRE : définition et exécution de workflows de traitements spécifiques des domaines 
   - Travail collaboratif, bac à sable, développement et exécution d’algorithmes
 
-```{admonition} [l'IR Data Terra et le projet Gaia-Data](https://sist20.sciencesconf.org/data/pages/Data_Terra_GAIA_Data.pdf)
+```{admonition} [l'IR Data Terra et le projet Gaia-Data](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-03-R-Moreno-K-Ramage-LIR-Data-Terra-et-le-projet-Gaia-Data.pdf)
 :class: seealso
 [vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
  Richard Moreno et Karim Ramage (direction technique Data Terra)   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist20.sciencesconf.org/)  
+[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist.cnrs.fr/sist20-21/)  
 ```
 
 
@@ -317,11 +315,10 @@ Le logiciel open source [opentheso](https://www.mom.fr/ressources-numeriques/ope
 
 Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.semandiv.cnrs.fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
 
-```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv.pdf)
+```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist.cnrs.fr/wp-content/uploads/2021/12/30-D-Vachez-T-Semandiv.pdf)
 :class: seealso
-[Poster résumant le thesaurus T_Semandiv](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv_Poster.pdf)  
 Dominique Vachez, Institut de l’information scientifique et technique   
-[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
+[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist.cnrs.fr/sist18/)  
 ```
 
 La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont une élaboration collaborative des termes et une procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
@@ -332,10 +329,10 @@ Baptiste Laporte (Centre de synthèse et d’analyse sur la biodiversité)
 JrBDD 2015, Sète, mercredi 21/10/2015
 ```
 
-```{admonition} [Thesauform un outil collaboratif pour faciliter la création de vocabulaire contrôlé par des experts de domaine](https://sist18.sciencesconf.org/data/pages/12_MC_Quidoz_Thesauform.pdf)  
+```{admonition} [Thesauform un outil collaboratif pour faciliter la création de vocabulaire contrôlé par des experts de domaine](https://sist.cnrs.fr/wp-content/uploads/2021/12/12-MC-Quidoz-Thesauform.pdf)  
 :class: seealso
 MC Quidoz  
-[Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
+[Séminaire SIST18 à l'OVSQ de Versailles](https://sist.cnrs.fr/sist18/)  
 ```
 
 En Archéologie, Blandine Nouvel nous présente l'intérêt du thésaurus PACTOLS pour l’archéologie sur le web des données de manière à en faire un référentiel national, et ouvrir son utilisation au-delà des seules bibliothèques.
@@ -398,20 +395,20 @@ Pour en savoir plus sur le DOI de DataCite :
 Mohamed Salah Yahia INIST  
 
 Nécessité de publier en identifiant les jeux de données par des  "DOI": 
-[présentation ](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
+[présentation ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-15-M-Yahia-Les-DOI-de-Datacite.pdf)  
 [vidéo sur les DOI de Datacite](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F\&files=16-DOI-Yahia-Inist-SIST2016.mp4)
 Mohamed Salah Yahia, Institut de l'information scientifique et technique du CNRS                     
-[Séminaire SIST16 OSU Oreme Montpellier ](https://sist16.sciencesconf.org)
+[Séminaire SIST16 OSU Oreme Montpellier ](https://sist.cnrs.fr/sist16/)
 ```
 
 ### Comment obtenir des DOI ?
 
 Une unité CNRS a la possibilité de souscrire un contrat avec l'INIST du CNRS pour être détenteur d'un préfixe de DOI qui servira à construire et déposer un DOI, comme nous l'explique M. Yahia de l'INIST :  
 
-```{admonition} [Workflow d’attribution de DOI par l’Inist-CNRS](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
+```{admonition} [Workflow d’attribution de DOI par l’Inist-CNRS](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-15-M-Yahia-Les-DOI-de-Datacite.pdf)  
 :class: seealso
 Mohamed Salah Yahia
-[Séminaire SIST16 OSU Oreme Montpellier](https://sist16.sciencesconf.org)
+[Séminaire SIST16 OSU Oreme Montpellier](https://sist.cnrs.fr/sist16/)
 ```
 
 Cependant dans le paysage national actuel des données environnementales, certaines infrastructures de recherche comme Data Terra seront en charge de fournir des DOI selon les disciplines concernées. Dans le domaine marin le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit d'ores et déjà un service de fourniture de D.O.I via le site [Seanoe](https://www.seanoe.org/).
@@ -427,34 +424,34 @@ les métadonnées obligatoires sont :
 
 Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment demander et assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
-```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist19.sciencesconf.org/data/pages/SIST19\_A\_BATTAIS.pdf)  
+```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-14-A-Battais-GeoNetwork-et-DOI.pdf)  
 :class: seealso
 Annick Battais  
-[Séminaire SIST2019 Toulouse 2019](https://sist19.sciencesconf.org)   
+[Séminaire SIST2019 Toulouse 2019](https://sist.cnrs.fr/sist19/)   
 ```
 
 ### Retours d'expériences d'utilisation de DOI
 
 Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l'INIST du CNRS qui, en tant que membre de DataCite, peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.
 
-```{admonition} [Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](https://sist16.sciencesconf.org/data/pages/16_P_Techine.pdf)    
+```{admonition} [Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](hhttps://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-16-P-Techine-DOI-et-observations-oceanographiques.pdf)    
 :class: seealso
 Philippe Téchiné, Laboratoire d'études en Géophysique et océanographie spatiales    
-[Journée SIST16 Montpellier](https://sist16.sciencesconf.org/)
+[Journée SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
 ```
 
-```{admonition} [Création de DOI sur les données et produits grillés du Service National d'Observation SSS  ](https://sist18.sciencesconf.org/data/pages/14_P_Techine_DOI_sur_les_donnees_du_SNO_SSS.pdf)                                 
+```{admonition} [Création de DOI sur les données et produits grillés du Service National d'Observation SSS  ](https://sist.cnrs.fr/wp-content/uploads/2021/12/10-P-Techine-Qualification-de-mesures-du-SNO-SSS.pdf)                                 
 :class: seealso
 Philippe Téchiné, Laboratoire d'études en Géophysique et océanographie spatiales
-[Journée SIST18 OVSQ](https://sist18.sciencesconf.org/)
+[Journée SIST18 OVSQ](https://sist.cnrs.fr/sist18)
 ```
 
 Juliette Fabre et Olivier Lobry nous indiquent leur solution pour attribuer des DOI aux jeux de données du Service National d'Observation  "Karst".  
 
-```{admonition} [Retour d'expérience sur l'attribution de DOI à l'OSU OREME.](https://sist16.sciencesconf.org/data/pages/17_O_Lobry.pdf)  
+```{admonition} [Retour d'expérience sur l'attribution de DOI à l'OSU OREME.](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-17-O-Lobry-DOI-a-lOSU-OREME.pdf)  
 :class: seealso
 Juliette Fabre, OSU OREME - Olivier Lobry, OSU OREME
-[Journée SIST16 Montpellier](https://sist16.sciencesconf.org/)
+[Journée SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
 ```
 
 * Établissement de DOI sur des requêtes dynamiques sur des Bases de données
@@ -547,9 +544,9 @@ Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminai
 
 ```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"    
 :class: seealso    
-[vidéo :](https://sist20.sciencesconf.org/resource/page/id/5)    
+[vidéo :](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-01-A-Chambodut-La-Certification-CoreTrustSeal.pdf)    
 Aude Chambodut    
-[Séminaires SIST20](https://sist20.sciencesconf.org/)   
+[Séminaires SIST20](https://sist.cnrs.fr/sist20-21/)   
 ```
 
 CoreTrustSeal est un organisme communautaire sans but lucratif qui permet de promouvoir le développement d'infrastructures de données durables et fiables et spécifie les critères de conformité qui permettent de certifier un entrepôt.
