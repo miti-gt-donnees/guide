@@ -4,12 +4,14 @@
 
 Cette dernière étape du cycle de vie des données représente la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et à diffuser les données de manière à ce qu'elles soient correctement faciles à trouver, accessibles et réutilisables selon des formats ouverts et des processus interopérables.
 
-L’accompagnement des réseaux métiers s’exerce en diverses actions :
-- sur la documentation des données via des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
-- sur l'établissement de catalogues (idéalement moissonnables) de données nécessaires pour trouver et identifier les données
-- sur le processus de dépôt des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès centralisé, 
-- sur l'utilisation d'outils logiciels et de protocoles interopérables permettant d'échanger ouvertement les données
-- sur la représentation des données sous forme de graphes
+L’accompagnement des réseaux métiers s’exerce sur diverses actions comme par exemple:
+- la documentation des données via des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
+- l'établissement de catalogues de données (idéalement moissonnables) nécessaires pour trouver et identifier les données;
+- le processus de dépôt des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès centralisé; 
+- l'utilisation d'outils logiciels et de protocoles interopérables permettant d'échanger ouvertement les données;
+- la description et l'identification des données avec des "datapapers" et des identifiants pérennes (DOI);
+- la représentation des données sous forme de graphes;
+- etc.
 
 Ainsi, les réseaux travaillent sur l’ensemble des informations (métadonnées, données, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation pertinents en rapport avec l’objectif du projet initial.
 
@@ -20,7 +22,7 @@ Cette étape de publication et de diffusion est en outre accompagnée désormais
 
 **Finaliser le Plan de Gestion de Données**
 
-Pour rappel, le fin d'un projet est marqué par la finalisation de la rédaction du plan de gestion de données qui a été initié en début de projet. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et d'effectuer une mise à jour en ajoutant les dernières informations disponibles.
+Pour rappel, la fin d'un projet est marquée par la finalisation de la rédaction du plan de gestion de données qui a été initié en début de projet. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et d'effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
@@ -36,7 +38,6 @@ Elle fournit des informations concernant l'identification, l'étendue, la qualit
 - L'ISO 19139 définit le schéma d'implémentation et d'encodage XML pour représenter les métadonnées ISO 19115.
 
 En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est une des références importante pour décrire et représenter les jeux de données géolocalisées et constituer un catalogue qui inventorie les différents jeux de données d'un Institut.
-
 
 Ce logiciel de catalogage GeoNetwork est par ailleurs utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC utilisés.
 
@@ -66,8 +67,6 @@ F. Merrien, M. Léobet, M. Francès   Mission de l'information géographique du 
 Marc Leobet, Chargé de mission et PCE INSPIRE     
 Frédocs2013 -7 au 10 octobre 2013, Aussois  
 ```
-
-
 
 D'autres OSU se sont engagés dans un développement spécifique d'un catalogue de données. B. Debray nous présente le projet "DataOSU" destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php). Il décrit toute l'organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à assurer l'interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF
 
@@ -119,7 +118,7 @@ Julien Barde (IRD), Emmanuel Blondel (FAO) et Wilfried Heintz (INRAE) : geoflow
 
 ## Diffuser avec des protocoles interopérables
 
-Outre les formats de fichiers qui doivent répondre à des standards ouverts pour être partagés et réutilisables, il est également nécessaire de se préoccuper de les diffuser par des protocoles d'échanges standards interopérables.
+Outre les formats de fichiers qui doivent répondre à des standards ouverts pour être partagés et réutilisables, il est également nécessaire de se préoccuper de diffuser les données par des protocoles d'échanges standards interopérables.
 Dans les sciences environnementales l'[OGC](https://www.ogc.org/standards) est en charge de déterminer un certains nombre de standards ouverts particulièrement dans le cadre des données géo-spatialisées.
 
 
@@ -134,10 +133,10 @@ Grace a l'utilisation de ce protocole d'échange normalisé, le logiciel GeoNetw
 
 ### diffusion de données géolocalisées par le protocole WMS
 
+L'utilisation du protocole WMS permet d'échanger les données de manière interopérable entre les logiciels, pour représenter les points de mesures sur une carte, et pouvoir ainsi accéder aux données brutes associées à un point de mesure géoréférencé.
 
 Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC [WMS (Web Map Service](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir et récupérer des données provenant de serveurs cartographiques comme [GeoServer](http://geoserver.org/).
 
-L'utilisation du protocole WMS permet d'échanger les données de manière interopérable entre les logiciels, pour représenter les points de mesures sur une carte, et pouvoir ainsi accéder aux données brutes associées à un point de mesure géoréférencé.
 
 L'utilisation des logiciels GeoNetwork et GeoServer fait partie des recommandations du réseau SIST en matiere de gestions des données, et a fait l'objet de deux actions de formation nationales (ANF) pour lesquelles on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/)
 
