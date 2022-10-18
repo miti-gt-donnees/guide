@@ -41,10 +41,10 @@ En ce sens, dans le domaine environnemental où les données proviennent fréque
 
 Ce logiciel de catalogage GeoNetwork est par ailleurs utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC utilisés.
 
-```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
+```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-03-M-Treguer-Donnees-marines-et-littorales-avec-Sextant.pdf)  
 :class: seealso
 Michael Treguer  
-[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
+[Séminaire SIST16 Montpellier](https://sist.cnrs.fr/sist16/)  
 ```
 A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues "geonetwork" très utiles pour inventorier les jeux de données disponibles dans les unités de recherche :
  - [portail de données OSU Oreme](<https://sig.oreme.org/geonetwork>)
@@ -71,10 +71,10 @@ Frédocs2013 -7 au 10 octobre 2013, Aussois
 D'autres OSU se sont engagés dans un développement spécifique d'un catalogue de données. B. Debray nous présente le projet "DataOSU" destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php). Il décrit toute l'organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à assurer l'interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF
 
 
-```{admonition} [Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf)   
+```{admonition} [Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-13-B-Debray-S-Damy-dat@OSU.pdf)   
 :class: seealso
 Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et environnement, Molécules  
-[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)    
+[Séminaire SIST16 Montpellier](https://sist.cnrs.fr/sist16/)    
 ```
 
 - **l'API de Geonetwork pour des échanges interopérables**
