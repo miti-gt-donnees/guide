@@ -434,7 +434,7 @@ Annick Battais
 
 Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l'INIST du CNRS qui, en tant que membre de DataCite, peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.
 
-```{admonition} [Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](hhttps://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-16-P-Techine-DOI-et-observations-oceanographiques.pdf)    
+```{admonition} [Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-16-P-Techine-DOI-et-observations-oceanographiques.pdf)    
 :class: seealso
 Philippe Téchiné, Laboratoire d'études en Géophysique et océanographie spatiales    
 [Journée SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
@@ -479,12 +479,12 @@ Les enjeux liés à la gestion et au partage des données de la recherche néces
 
 Qu'est-ce qui différencie un entrepôt de données d'une base de données classique dans le contexte de l'ouverture des données ? Quels services peut-on attendre d'un entrepôt de données aux différentes étapes du cycle de vie de la donnée? Comment trouver et choisir un entrepôt de données ? Un certain nombre de ces questions relatives aux entrepôts ont été abordées lors d'une [journée de type Hackaton intitulée "entrepôts de données, comment améliorer le dépôt et le partage des données de la recherche ?"](https://gt-donnees2020.sciencesconf.org/). Cette journée consacrée aux entrepôts de données a permis de cerner les fonctionnalités que l'on se doit d'attendre d'un entrepôt de données FAIR et les conditions d’utilisation de ce type de service. 
 
-Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.
+Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://gt-atelier-donnees.miti.cnrs.fr/faq.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.
 
 On y répond à des questions fréquentes concernant les entrepôts comme :
   - Qu'est-ce qu'un entrepôt de données ?
-  - [Comment choisir un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#choisir)
-  - [Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#entrepot)
+  - [Comment choisir un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/faq.html#choisir)
+  - [Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/faq.html#entrepot)
   - Quels sont les points de vigilance pour préparer le partage de données ?
   - Quels sont les formats à privilégier pour le partage de données ?
   - Quelle est la durée de vie d'un dépôt de jeux de données dans un entrepôt ?
@@ -604,7 +604,7 @@ Le data paper est un article scientifique sur les données : il permet de décri
 - l’originalité et la portée de ce jeu de données, ainsi que leur potentiel pour des utilisations futures (arguments décisifs pour l'acceptation de la publication),
 - l'accès au jeu de données, dans un fichier attaché ou par un lien pérenne (URL, DOI) vers un entrepôt où le jeu est déposé et accessible.
 
-On ne confondra pas les informations fournies par un data paper, avec celles qu'on l'on donne lorsqu'on rédige un Plan de Gestion de données. Ce sont des informations différentes [nous en parlons dans une FAQ](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#PGD)
+On ne confondra pas les informations fournies par un data paper, avec celles qu'on l'on donne lorsqu'on rédige un Plan de Gestion de données. Ce sont des informations différentes [nous en parlons dans une FAQ](https://gt-atelier-donnees.miti.cnrs.fr/faq.html#PGD)
 
 Publier un data paper permet de :
 
