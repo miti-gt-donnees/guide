@@ -646,7 +646,7 @@ Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux 
 *  IPT (Integrated Publishing Toolkit) qui facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper
 * ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.
 
-```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf)    
+```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/GBIF_IPT_Sophie_Pamerlon.pdf)    
 :class: seealso   
 [Vidéo : ](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)     
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel  
@@ -665,7 +665,7 @@ Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont
 Dans sa présentation, Clémentine Cottineau nous indique quels sont les principes et le processus d'évaluation d'un datapaper pour la revue Cybergeo: Retour d’expérience et difficultés rencontrées.
 On trouvera sur cybergeo  un [exemple de recommandations aux auteurs pour un datapaper](https://journals.openedition.org/cybergeo/23412#tocto1n7).
 
-```{admonition} [Évaluer un data paper : retour d'expérience de la revue Cybergeo](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf)    
+```{admonition} [Évaluer un data paper : retour d'expérience de la revue Cybergeo](https://gt-atelier-donnees.miti.cnrs.fr/download/Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf)    
 :class: seealso    
 [Vidéo : ](https://www.canal-u.tv/video/medici/evaluer_un_data_paper_retour_d_experience_de_la_revue_cybergeo.58277)    
 Clémentine Cottineau, CNRS – Centre Maurice Halbwachs   
@@ -676,7 +676,7 @@ Christine Kosmopoulos, CNRS – UMR Géographie-Cités
 Victor Gay nous présente un retour d'expérience de rédaction d'un [datapaper publié sur HAL](https://hal.archives-ouvertes.fr/hal-02951461) selon le modèle de la revue [Scientific Data](https://www.nature.com/sdata/).
 Il nous présente la production d'un data paper du point de vue d'un chercheur. Après avoir exposé sa recherche et les données produites, il explique pourquoi il a décidé de rédiger un data paper, la manière dont il s'y est pris pour le dépôt des données et la rédaction, avant de revenir sur les choix de dissémination et le rôle des métiers de l'accompagnement de la recherche dans l'ensemble du processus.
 
-```{admonition} [Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf)    
+```{admonition} [Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/REX_TRFGIS_Victor_Gay.pdf)    
 :class: seealso    
 [Vidéo : ](https://www.canal-u.tv/video/medici/retour_d_experience_d_un_producteur_de_data_paper.58279)    
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse     
@@ -686,7 +686,7 @@ Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse
 Joachim Schöpfel,  propose une synthèse des différentes communications du webinaire en indiquant qu'un data paper fournit l'information "on the _what, where, why, how and who of the data_".
 Il revient ainsi sur l'intégration des data papers dans les pratiques des communautés, leurs diversités de forme, leurs objectifs, leur évaluation, leur impact, le rôle des différents métiers de la recherche dans leur production, pour finir sur les perspectives en la matière et ouvrir ainsi sur des échanges avec les participants.
 
-```{admonition} [Synthèse du webinaire et échanges](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf)   
+```{admonition} [Synthèse du webinaire et échanges](https://gt-atelier-donnees.miti.cnrs.fr/download/Synthese_Joachim_Schopfel.pdf)   
 :class: seealso   
 [Vidéo : ](https://www.canal-u.tv/video/medici/synthese_du_webinaire_et_echanges_a_partir_des_questions_du_tchat.58161)    
 Joachim Schöpfel, Université Lille 3 – GERiiCO    
