@@ -107,12 +107,12 @@ Julien Barde,   Emmanuel Blondel et  Wilfried Heintz
 
 Le développement de GeoFlow, toujours actif fait l'objet d'un  intérêt suivi par le réseau SIST. Dans cette présentation les auteurs nous montrent Les concepts de geoflow et le schéma d’un workflow pour préparer et insérer des métadonnées.
 
-```{admonition} [Geoflow : un workflow pour une gestion simple, FAIR et durable des données](https://sist20.sciencesconf.org/data/pages/FAIR_Geoflow_2021.pdf)
+```{admonition} [Geoflow : un workflow pour une gestion simple, FAIR et durable des données](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-05-J-Barde-E-Blondel-W-Heintz-Geoflow.pdf)
 :class: seealso
 Julien Barde (IRD), Emmanuel Blondel (FAO) et Wilfried Heintz (INRAE) : geoflow
 [vidéo GeoFlow](https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_julien_barde_emmanuel_blondel_et_wilfried_heintz_geoflow_un_workflow_pour_une_gestion_simple_fair_et_durable_des_donnees.60389)
 
-[Séminaire SIST20 Lyon](https://sist20.sciencesconf.org/resource/page/id/5)
+[Séminaire SIST20 Lyon](https://sist.cnrs.fr/sist20-21/)
 ```
 
 
@@ -155,16 +155,14 @@ Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) nous indiquent comment ils on
 
 ```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](https://sist20.sciencesconf.org/data/pages/SIST2021_Tormos_Reynaud_DataEcla_1.pdf)
 :class: seealso 
-Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) 
-[Séminaire SIST 2021](https://sist20.sciencesconf.org/)  
+https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_retours_d_experiences_en_gestion_de_donnees_d_observation_1.61601
+[video](Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) )
+[Séminaire SIST 2021](https://sist.cnrs.fr/sist20-21/)  
 ```
-
-[ajout ML]
 
 ### diffusion de données de capteurs par le protocole SOS
 
-Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs géoréférencés qui mesurent des phénomènes sur le terrain. Les données sont fréquemment acquises en continue pour suivre l'évoluton d'un phénomène physique ou biologique et sont donc représentées sous la forme de séries temporelles, des valeurs échelonnées dans le temps afin de pouvoir suivre leur évolution temporelle.
-
+Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs géoréférencés qui mesurent des phénomènes sur le terrain. Les données sont fréquemment acquises en continu pour suivre l'évoluton d'un phénomène physique ou biologique et sont donc représentées sous la forme de séries temporelles, des valeurs échelonnées dans le temps afin de pouvoir suivre leur évolution.
 
 De nombreux standards sont édictés par l'OGC pour la gestion des données de capteurs : SWE, [O&M](http://www.opengeospatial.org/standards/om), [SOS](https://www.ogc.org/standards/sos) 
 
@@ -191,7 +189,7 @@ Maurice Libes fait un retour d'expérience sur l'utilisation du protocole SOS et
 ```{admonition} [Utilisation de istSOS dans la gestion de données Météo ](http://sist.cnrs.fr/wp-content/uploads/2022/06/04-SIST22-istSOS.pdf)
 :class: seealso
 Maurice Libes
-Séminaire SIST22 - Grenoble Juin 2022
+Séminaire SIST22 - [Grenoble Juin 2022](https://sist.cnrs.fr/sist22/)
 ```
 
 [La formation sur istSOS](https://sist.cnrs.fr/les-formations/formation-istsos-1) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
@@ -218,10 +216,10 @@ L'établissement de catalogues et de portails d'accès aux données se matérial
 
 La mission de [l’IR Data Terra](https://www.data-terra.org/) consiste à organiser de manière intégrée la diffusion et l’accès aux données, en mettant à disposition les données, les produits et des services relatifs à l’observation du système Terre, via les pôles de données et de services existants :
 
-```{admonition} [Présentation de l'IR Data terra](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_IRDataTerra.pdf)  
+```{admonition} [Présentation de l'IR Data terra](https://sist.cnrs.fr/sist19/#session-poles-de-donnees-data-terra)  
 :class: seealso
 Richard Moreno, directeur technique IR Data Terra  
-[Séminaire SIST 2019](https://sist19.sciencesconf.org), OMP Toulouse
+[Séminaire SIST 2019](https://sist.cnrs.fr/sist19/), OMP Toulouse
 ```
 
 l’IR Data Terra est constitué de quatre pôles de données  (ODATIS, AERIS, ForM@Ter \& Theia dont la mission principale est de mettre à disposition des données, des produits, des logiciels, des outils et/ou des services destinés en premier lieu à la communauté scientifique française dans le cadre de ses recherches sur le système Terre. 
@@ -230,10 +228,10 @@ Les informations proposées par les pôles de données sont aussi fondamentales 
 
 Les politiques opérationnelles de ces pôles sont suivies par le réseau SIST où elles ont été présentées :
 
-- Données océanographiques : [Pôle Odatis](https://www.odatis-ocean.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_ODATIS.pdf).
-- Données atmosphériques : [Pôle Aeris](https://www.aeris-data.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_AERIS.pdf).
-- Données terre solide: [Pôle Form@ter](https://www.poleterresolide.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_FORMATER.pdf).
-- Données surfaces continentales : [Pôle Theia](https://www.theia-land.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_THEIA.pdf).
+- Données océanographiques : [Pôle Odatis](https://www.odatis-ocean.fr/), [supports de présentation](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-10-Pole-ODATIS.pdf).
+- Données atmosphériques : [Pôle Aeris](https://www.aeris-data.fr/), [supports de présentation](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-07-Pole-AERIS.pdf).
+- Données terre solide: [Pôle Form@ter](https://www.poleterresolide.fr/), [supports de présentation](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-09-Pole-FORMATER.pdf).
+- Données surfaces continentales : [Pôle Theia](https://www.theia-land.fr/), [supports de présentation](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-08-Pole-THEIA.pdf).
 
 
 **Les portails de données européens**
