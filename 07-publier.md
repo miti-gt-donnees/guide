@@ -584,7 +584,7 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 
 **Déposer dans des Entrepôts.. lesquels? comment?**
 
-Il existe beaucoup d'entrepôts de données, de nature et de qualité différentes. Certains sont des entrepôts Institutionnels (Portail Data INRAE, DataSuds, Didomena, … ), d'autres sont thématiques (PANGAEA pour les données environnementales, SEANOE spécifique aux données marines …) ou généralistes. 
+Il existe beaucoup d'entrepôts de données, de nature et de qualité différentes. Certains sont des entrepôts Institutionnels (Portail Data INRAE, DataSuds (IRD), Didomena, … ), d'autres sont thématiques (PANGAEA pour les données environnementales, SEANOE entrepot du pôle Odatis, spécifique aux données marines …) ou généralistes. 
 
 Pour aider à trouver et à choisir un entrepôt, des catalogues sont disponibles : <https://cat.opidor.fr/>, <https://www.re3data.org/> et <https://fairsharing.org/databases/>. Des entrepôts spécifiques peuvent être suggérés (ou imposés) par le journal dans lequel on dépose un article, mais aussi par le financeur, le consortium du projet ou l’institution dans laquelle on travaille. Il est conseillé de vérifier si l'établissement dans lequel on travaille a mis en place une politique de partage de données et de s'y référer pour éviter la dispersion des données tous azimuts.
 
@@ -694,10 +694,10 @@ Joachim Schöpfel, Université Lille 3 – GERiiCO
 
 En guise d'exercice de conclusion, Wilfried Heintz nous fait part de sa conception d'une gestion pérenne des données scientifiques, en reliant nos différentes actions depuis l'étape initiale de la rédaction d'un DMP (Plan de gestion des données) jusqu'à à la publication d'un DataPaper :
 
-```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie](https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf)
+```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie](https://sist.cnrs.fr/wp-content/uploads/2021/12/16-W-Heintz-Du-plan-de-gestion-des-donnees-au-data-paper.pdf)
 :class: seealso
 Wilfried Heintz, UMR 1201 Dynafor   
-[Séminaire SIST18 Observatoire Versailles](https://sist18.sciencesconf.org)
+[Séminaire SIST18 Observatoire Versailles](https://sist.cnrs.fr/sist18/)
 ```
 
 ```{admonition} [Gestion pérenne des données scientifiques : du plan de gestion de données au datapaper.](http://rbdd.cnrs.fr/IMG/pdf/sd2018_datamanagement_wheintz.pdf?435/8949f16992fdffdffe7b7ef53258e71f9500c685)
@@ -754,13 +754,25 @@ Ce questionnement "Quels schéma de métadonnées et quels vocabulaires utiliser
 données en naviguant dans les compartiments de la Terre, les capteurs et les propriétés observées.
 Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés dans diverses disciplines, et nous donnes les bonnes pratiques de création des terminologies
 
-```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist20.sciencesconf.org/data/pages/L_interope_rabilite_se_mantique_dans_les_po_les_de_donne_es.pdf)
+```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-04-J-Desconnets-Linterop%C3%A9rabilit%C3%A9-s%C3%A9mantique-dans-les-p%C3%B4les-de-donn%C3%A9es.pdf)
 :class: seealso
 [vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
  J-C Desconnet , Institut de l’information scientifique et technique   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist20.sciencesconf.org/)  
+[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist.cnrs.fr/sist20-21/)  
 ```
 
-[/ajout]
+Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV) indiquent en outre que les données doivent pouvoir être réutilisées et mises en relation avec
+d’autres données au delà de sa propre base de données
+
+Utiliser des vocabulaires contrôlés pour FAIRiser les données
 
 Tous les éléments exposés dans ce chapitre sont nécessaires et importants pour mettre en place une bonne publication et diffusion des données de la science selon les principes FAIR.
+
+L'Interopérabilité se décline au niveau "sémantique", car les (méta)données doivent utiliser des vocabulaires qui suivent les principes FAIR, et doivent inclure des références vers d’autres (méta)données
+
+```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Enjeux-notions-et-etat-des-lieux.pdf)
+:class: seealso
+Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV)  
+[Séminaire SIST22 webinaire à l'OSU de Grenoble, 2022](https://sist.cnrs.fr/sist2022/)  
+```
+
