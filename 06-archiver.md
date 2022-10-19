@@ -109,11 +109,11 @@ La protection du patrimoine scientifique et technique est l’affaire de tous, m
  
 Sans prise de conscience de tous sur la nécessité de préserver le patrimoine scientifique, une disparition (partielle sinon généralisée) de nos données est plus que probable. Marion Massol lors de sa présentation au séminaire SIST en 2016 nous rappelle cependant que des solutions d'avenir existent déjà (au CINES). 
 
-```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist16.sciencesconf.org/data/pages/18_M_Massol.pdf)   
+```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-18-M-Massol-CINES.pdf)   
 :class: seealso    
 [Vidéo : ](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
 Marion MASSOL, CINES   
-Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
+[Séminaire SIST 2016](https://sist.cnrs.fr/sist16/) : réseau SIST, Montpellier, 2016   
 ```
 
 ## Préserver les objets numériques
