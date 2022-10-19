@@ -6,7 +6,7 @@
 
 **De l'importance des données de la recherche**
 
-La gestion rigoureuse et cohérente des données de la recherche constitue aujourd’hui un enjeu de taille pour la production de nouvelles connaissances scientifiques. Guidés par le second « [Plan National pour la Science Ouverte](https://www.ouvrirlascience.fr/deuxieme-plan-national-pour-la-science-ouverte/) », les différents organismes de recherche et les Instituts du CNRS s’emparent de ces questions primordiales pour participer à la réflexion et à la mise à dispositions des outils, méthodes et infrastructures répondant aux besoins des communautés scientifiques en matière de gestion et de partage des données scientifiques. 
+La gestion rigoureuse et cohérente des données de la recherche constitue aujourd’hui un enjeu de taille pour la production de nouvelles connaissances scientifiques. Guidés par le « [Plan National pour la Science Ouverte](https://www.ouvrirlascience.fr/deuxieme-plan-national-pour-la-science-ouverte/) », les différents organismes de recherche et les Instituts du CNRS s’emparent de ces questions primordiales pour participer à la réflexion et à la mise à dispositions des outils, méthodes et infrastructures répondant aux besoins des communautés scientifiques en matière de gestion et de partage des données scientifiques. 
 
 Améliorer les pratiques de gestion des données de la science devient nécessaire pour garantir l’intégrité scientifique et la traçabilité de la recherche produite, mais aussi pour rendre accessible, partager, permettre la réutilisation ou la reproductibilité des données, qui on peut le rappeler sont financées à plus de 50% sur des fonds publics.
 
@@ -34,7 +34,7 @@ Certes de nombreux guides existent déjà dans le domaine, mais l'originalité d
 
 **Objectifs du guide**
 
-Ce guide est la production du groupe de travail inter-réseaux "[Atelier Données](https://gt-atelier-donnees.miti.cnrs.fr/index.html)". Il s’agit d'un groupe composé de plusieurs réseaux métiers de la MITI ([Calcul](https://calcul.math.cnrs.fr/), [Devlog](http://devlog.cnrs.fr/), [QeR](http://qualite-en-recherche.cnrs.fr/), [rBDD](http://rbdd.cnrs.fr/), [Renatis](http://renatis.cnrs.fr/), [Resinfo](https://resinfo.org/), [Medici](http://medici.in2p3.fr/)), du [réseau SIST](https://sist.cnrs.fr), (labellisé par l'INSU et regroupant les gestionnaires de données environnementales), de l'INIST, et de la Direction des données ouvertes de la recherche (DDOR-CNRS [^dist]). [Les activités de cet atelier](https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf) ont été présentées lors du séminaire SIST 2019.
+Ce guide est la production du groupe de travail inter-réseaux "[Atelier Données](https://gt-atelier-donnees.miti.cnrs.fr/index.html)". Il s’agit d'un groupe composé de plusieurs réseaux métiers de la MITI ([Calcul](https://calcul.math.cnrs.fr/), [Devlog](http://devlog.cnrs.fr/), [QeR](http://qualite-en-recherche.cnrs.fr/), [rBDD](http://rbdd.cnrs.fr/), [Renatis](http://renatis.cnrs.fr/), [Resinfo](https://resinfo.org/), [Medici](http://medici.in2p3.fr/)), du [réseau SIST](https://sist.cnrs.fr), (labellisé par l'INSU et regroupant les gestionnaires de données environnementales), de l'INIST, et de la Direction des données ouvertes de la recherche (DDOR-CNRS). ~~[Les activités de cet atelier](https://sist19.sciencesconf.org/data/pages/diapo_GT_donnees_sist19_v2.pdf) ont été présentées lors du séminaire SIST 2019.~~ <modif : CH [Les activités du groupe](https://gt-atelier-donnees.miti.cnrs.fr/download/Atelier_Donnees_20220420.pdf) ont été présentées lors d'une réunion de coordination des réseaux de la MITI en octobre 2022 </modif: CH>
 
 Ce guide fait suite à un premier travail très synthétique réalisé en 2017 qui visait à établir [une cartographie de l’action des réseaux en matière de gestion des données de la recherche](https://gt-atelier-donnees.miti.cnrs.fr/download/GTInterreseaux-CartoSyntheseV6-optimise.pdf). Ce travail rendait compte dans ses grandes lignes, des usages et des questionnements des réseaux sur la gestion des données, tout en apportant une vision des métiers transversale sur le sujet et les problématiques attenantes. 
 
@@ -61,11 +61,11 @@ Les phases suivantes apportent des éléments plus spécifiques au lecteur pour 
 
 - L’étape 4 « {ref}`traiter` » témoigne du prétraitement des données brutes acquises et collectées précédemment. Elle guide le lecteur sur la nécessaire préparation des fichiers de données pour les rendre ouverts et interopérables. La connaissance et la maîtrise des formats et standards est importante.  Cette étape est également celle de l’organisation des données qui implique dans certains cas de développer des procédures d’intégration des données dans les bases de données ou d’utiliser un cadre d’application d’agrégation de données. Il est important aussi à ce stade de se préoccuper du dépôt des données dans des plateformes de gestion locales [^plateformes] qui facilitent leur accès pour les scientifiques, et de mettre en place un contrôle qualité.
 
-- la phase 5 "{ref}`analyser`" est la phase d’analyse dans laquelle on s’occupe de définir et mettre en place des chaines logicielles avec des méthodes et des outils. Cette partie informe le lecteur sur les plateformes, outils et méthodes utilisés principalement dans la communauté du calcul pour analyser et visualiser les données.  Elle présente également quelques projets d’analyse sémantiques de données textuelles ainsi que des services Text and Data Mining.
+- la phase 5 <modif CH l'étape 5 </modif CH"{ref}`analyser`" est la phase d’analyse dans laquelle on s’occupe de définir et mettre en place des chaines logicielles avec des méthodes et des outils. Cette partie informe le lecteur sur les plateformes, outils et méthodes utilisés principalement dans la communauté du calcul pour analyser et visualiser les données.  Elle présente également quelques projets d’analyse sémantiques de données textuelles ainsi que des services Text and Data Mining.
 
-- la phase 6 "{ref}`archiver`" rend compte de l’importance de préserver et archiver les données sur le long terme. On s’attache dans cette partie a bien définir et clarifier les termes, réfléchir aux données pertinentes à préserver et voir quelles solutions s’offrent à nous.
+- la phase 6 <modif CH l'étape 6 </modif CH "{ref}`archiver`" rend compte de l’importance de préserver et archiver les données sur le long terme. On s’attache dans cette partie a bien définir et clarifier les termes, réfléchir aux données pertinentes à préserver et voir quelles solutions s’offrent à nous.
 
-- la phase 7 "{ref}`publier`" est la phase finale permettant de diffuser les données correctement à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapapers.
+- la phase 7<modif CH l'étape 7 </modif CH "{ref}`publier`" est la phase finale permettant de diffuser les données correctement à travers des catalogues de données, des thesaurus de mots clés fournissant une interopérabilité sémantique, des identifiants pérennes et des entrepôts de données, des datapapers.
 
 Deux annexes reprennent des thèmes transverses à ces phases successives :
 
@@ -81,6 +81,4 @@ de la gestion des données pour alimenter ce guide.  Le lecteur est
 ou suggestions qui serait de nature à améliorer et compléter ce
 travail en envoyant un mail sur [la liste de diffusion](mailto:contact-guide@services.cnrs.fr).
 
-
-[^dist]: Anciennement DIST.
 [^plateformes]: Il s’agit de plateformes développées en fonction des besoins par des unités ou établissements comme par exemple le data center du GRICAD qui propose  aux équipes de recherche un espace de stockage et un service d’accompagnement pour la gestion des données.
