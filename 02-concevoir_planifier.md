@@ -88,13 +88,6 @@ L'analyse de risque permet alors d'identifier les objectifs de sécurité et les
 
 L'analyse de risques et la gestion des risques sont des processus importants de la gestion de projet. Un ensemble de présentations réalisées en décembre 2015 en dresse un panorama.
 
-
-```{admonition} [L’analyse des risques, leviers de différenciations des projets et d’amélioration de la qualité de la recherche](http://qualite-en-recherche.cnrs.fr/IMG/pdf/introduction_a_l_ecole_Risque.pdf)      
-:class: seealso
-Thierry Bontems, UMR Pacte, Professeur affilié à Grenoble École de Management      
-6e rencontre du réseau Qualité en Recherche, Biarritz, 2015
-```
-
 ```{admonition} [La cartographie des risques pour améliorer les services relatifs à la gestion des contrats et conventions](https://qualsimp.sciencesconf.org/data/program/17_La_cartographie_des_risques_pour_ame_liorer_les_services_relatifs_a_la_gestion_des_contrats_et_conventions_S._GOULIN_C._ROCH.pdf)      
 :class: seealso
 Catherine ROCH – Sabine GOULIN, Université de Lorraine       
