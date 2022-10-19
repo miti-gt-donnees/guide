@@ -455,17 +455,6 @@ Les projets de recherche au sein de ces infrastructures ont donné lieu à diver
 Ces pôles proposent des Entrepots thématiques Institutionnels pour les données environnementales, tels  qu'ils sont nécessaires[ dans la phase de diffusion du cycle de vie des données ](https://mi-gt-donnees.pages.math.unistra.fr/synthese/07-publier.html#les-entrepots-de-donnees), pour un accès interopérable et ouvert aux données 
 
 
-**Sciences Sociales**
-
-Dans cette présentation très complète bien qu’ancienne, Roxane Silberman fait une description du Réseau Quetelet, composante de la TGIR Progedo qui est une banque française de données pour les sciences sociales. Elle indique la spécificité des données collectées au sein de ce réseau qui peuvent être des données 
-individuelles, qualitatives, parfois de santé publique et les enjeux de protection de la vie privée  associés à ces données. Elle retrace l’historique des premières banques de données pour lesquelles se posait déjà  la question de l’accès et du partage des données à caractère individuel. Ce réseau s’inscrit dans une infrastructure européenne, le CESSDA (réseau européen des archives de données) et fournit des métadonnées accessibles à tous et en particulier aux chercheurs. 
-Après avoir expliqué les grandes fonctions de Quetelet (dépôt, archivage, documentation, diffusion des données), elle revient sur quelques enjeux pour l’état, les politiques publiques et autres  acteurs économiques, le paysage qui se dessine autour de la donnée et qui bouscule les frontières dans le contexte de l’open data.  
-
-```{admonition} [Réseau Quetelet : Banques de données pour les sciences sociales](http://renatis.cnrs.fr/IMG/pdf/SILBERMAN_08102013.pdf)   
-:class: seealso
-Roxane Silberman  
-Quetelet, 2013
-```
 **Biodiversité**
 
 Dans le domaine de la biodiversité, le Pôle national de données de Biodiversité, PNDB, e-Infrastructure nationale de recherche est inscrite sur la feuille de route du MESRI depuis mars 2018. L'UMS PatriNat du Museum National d'Histoire Naturelle, MNHN, en est le maître d'oeuvre. Yvan Le Bras, lors des JCAD 2020 a présenté le PNDB et l'implémentation en cours.
