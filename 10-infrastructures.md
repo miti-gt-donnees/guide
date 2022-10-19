@@ -476,7 +476,7 @@ A l’occasion d’une intervention au Gricad à Grenoble, Olivier Rouchon, dét
 :class: seealso
 Oliver Rouchon, CINES   
 Archivage numérique des données de la recherche, 2019, Grenoble   
-[vidéo](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4)  
+[vidéo](https://videos.univ-grenoble-alpes.fr/recherche/archivage-numerique-des-donnees-de-recherche/video/19535-archivage-des-donnees-au-cines/)  
 ```
   
 A noter :  
