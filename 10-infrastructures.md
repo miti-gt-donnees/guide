@@ -454,17 +454,6 @@ Les projets de recherche au sein de ces infrastructures ont donné lieu à diver
 
 Ces pôles proposent des Entrepots thématiques Institutionnels pour les données environnementales, tels  qu'ils sont nécessaires[ dans la phase de diffusion du cycle de vie des données ](https://mi-gt-donnees.pages.math.unistra.fr/synthese/07-publier.html#les-entrepots-de-donnees), pour un accès interopérable et ouvert aux données 
 
-**Sismologie et géodésie**
-
-Dans le domaine de la sismologie et de la géodésie, Résif (Réseau sismologique et géodésique français), une infrastructure de recherche pour l’observation des déformations de la terre a été mise en place. Catherine Pequegnat lors de son intervention aux Fredocs 2013, présente la spécificité des données de sismologie, les réseaux de capteurs associés à ces données et pointe les manques et les avancées en termes de description, de norme et de formats pour la transcription et l’échange des données. Elle aborde aussi la question des possibilités d’accès aux données. Elle présente ensuite la TGIR Résif, son projet, son centre de données national (possibilités d’hébergement et de stockage) et sa contribution au projet européen EPOS
-
-```{admonition} [« RESIF (données sismologiques et géodésiques) »](http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf)  
-:class: seealso
-Catherine Pequenat, Institut des Sciences de la Terre, Observatoire des Sciences de l’Univers de Grenoble  
-Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois 
-```
-
-
 
 **Sciences Sociales**
 
