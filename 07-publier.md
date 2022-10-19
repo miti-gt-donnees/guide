@@ -139,9 +139,9 @@ L'utilisation du protocole WMS permet d'échanger les données de manière inter
 Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC [WMS (Web Map Service](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir et récupérer des données provenant de serveurs cartographiques comme [GeoServer](http://geoserver.org/).
 
 
-L'utilisation des logiciels GeoNetwork et GeoServer fait partie des recommandations du réseau SIST en matiere de gestions des données, et a fait l'objet de deux actions de formation nationales (ANF) pour lesquelles on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/)
+L'utilisation des logiciels GeoNetwork et GeoServer fait partie des recommandations du réseau SIST en matiere de gestions des données, et a fait l'objet de deux actions de formation nationales (ANF)
 
-```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)    
+```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/anf-2018-gestion-des-donnees-dobservation/)    
 :class: seealso   
 J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer    
 ANF SIST 2017 Fréjus , ANF SIST 2018 Autrans   
@@ -193,7 +193,7 @@ Maurice Libes
 Séminaire SIST22 - [Grenoble Juin 2022](https://sist.cnrs.fr/sist22/)
 ```
 
-[La formation sur istSOS](https://sist.cnrs.fr/les-formations/formation-istsos-1) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
+[La formation sur istSOS](https://sist.cnrs.fr/2021-istsos/) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
 
 - *[le logiciel 52North]( https://52north.org/)* est développé par la société éponyme https://52north.org/ qui travaille sur les technologies et infrastructures d’information spatialisées. C’est actuellement un des logiciels suffisamment matures pour mettre en œuvre le standard SOS, à l’instar du logiciel istSOS.
 
@@ -202,7 +202,7 @@ La formation mise en place par le réseau SIST en 2021 avec les concepteurs de c
 - [Le support de cours de la  formation](https://sist.pages.in2p3.fr/anf21-sos52north/) permet de savoir insérer des capteurs et des données dans le serveur SOS, de les visualiser et de comprendre comment fonctionne le protocole SOS. Ce standard et ce logiciel peuvent permettre de gérer correctement et de manière interopérable les nombreuses séries temporelles qui sont collectées dans nos unités.
 
 
-```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/les-formations/anf-2021-sos-52degnorth)
+```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/anf-2021-sos-52north/)
 :class: seealso
 Simon Jirka, Carsten Hollmann, Christian Autermann
 ANF SIST - Octobre 2021
