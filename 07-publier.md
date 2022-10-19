@@ -346,6 +346,17 @@ Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 ```
 
+Dans sa communication JC Desconnet montre qu'il faut utiliser des vocabulaires contrôlés pour FAIRiser les données, et 
+fournit un Panorama des thésaurus de référence ayant un niveau de maturité sémantique
+
+
+```{admonition} [Utiliser des vocabulaires contrôlés pour FAIRiser les données](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Enjeux-notions-et-etat-des-lieux.pdf)  
+:class: seealso
+Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV)
+[Séminaire SIST22 à l'OSUG Grenoble](https://sist.cnrs.fr/sist22/)  
+```
+
+
 
 ## Utilisation d'identifiants pérennes
 
