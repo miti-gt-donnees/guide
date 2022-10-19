@@ -46,21 +46,21 @@ On peut ainsi décrire de manière assez précise les données du fichier, par e
 Toutefois dans son format originel NetCDF n'a pas imposé de directives particulieres pour inscrire les métadonnées dans l'entete du fichier. De ce fait, il était possible d'inscrire n'importe quel libellé de variables, unités, etc. Une standardisation a été nécessaire pour obtenir des fichiers compréhensibles et interopérables. 
 C'est le but de la  [convention CF (climate forecast)](https://cfconventions.org/) qui fournit une [table de standardisation des variables et unités de mesures](https://cfconventions.org/Data/cf-standard-names/76/build/cf-standard-name-table.html) à inscrire dans l'entete d'un fichier NetCDF.
 
-Ce format standard, la convention "CF", et l'interface de programmation (API) en Python pour créer des fichiers NetCDF par programme ont été présentés au [séminaire SIST19 à l'OMP](https://sist19.sciencesconf.org) de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :
+Ce format standard, la convention "CF", et l'interface de programmation (API) en Python pour créer des fichiers NetCDF par programme ont été présentés au [séminaire SIST19 à l'OMP](https://sist.cnrs.fr/sist19) de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :
 
-```{admonition} [Présentation du format NetCDF](<https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_JS.pdf>)   
+```{admonition} [Présentation du format NetCDF](<https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-Atelier-NetCDF-1-Introduction.pdf>)   
 :class: seealso
 Joël Sudre, LEGOS
-[Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
+[Séminaire SIST19 Toulouse](https://sist.cnrs.fr/sist19)
 ```
 
-```{admonition} [La convention CF (climate forecast) pour les fichiers NetCDF](https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_CF_ML.pdf)   
+```{admonition} [La convention CF (climate forecast) pour les fichiers NetCDF](hhttps://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-Atelier-NetCDF-2-La-convention-CF.pdf)   
 :class: seealso
 Joël Sudre, LEGOS et Maurice Libes, Institut Pytheas   
-[Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
+[Séminaire SIST19 Toulouse](https://sist.cnrs.fr/sist19)
 ```
 
-```{admonition} [Utilisation de l'API de programmation Python pour NetCDF](<https://sist19.sciencesconf.org/data/pages/SIST19_Atelier_NetCDF_python.pdf>)   
+```{admonition} [Utilisation de l'API de programmation Python pour NetCDF](<https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-Atelier-NetCDF-3-Generer-avec-python.pdf>)   
 :class: seealso
 Maurice Libes, Didier Mallarino, Institut Phyteas   
 [Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
