@@ -83,10 +83,10 @@ Le recueil des métadonnées, ainsi que la rédaction et la mise à jour des mé
 
 C. Bernard, J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à leur unité.
 
-```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf)  
+```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-17-O-Lobry-DOI-a-lOSU-OREME.pdf)  
 :class: seealso
 C. Bernard,   J. Fabre, et O. Lobry  
-[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)
+[Séminaire SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
 ```
 
 De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de bibliothèques de programmation écrites en "R", destinées
@@ -99,10 +99,10 @@ Ces développements ont été présentés lors d'un atelier organisé par le ré
   - Gérer des métadonnées dans GeoNetwork avec la librairie R *geonapi*   
 
 
-```{admonition} [GeoFlow :  workflow R pour gérer les données spatiales](https://sist19.sciencesconf.org/data/pages/SIST19_J_Barde.pdf)   
+```{admonition} [GeoFlow :  workflow R pour gérer les données spatiales](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-12-J-Barde-Geoflow.pdf)   
 :class: seealso
 Julien Barde,   Emmanuel Blondel et  Wilfried Heintz  
-[Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
+[Séminaire SIST19 Toulouse](https://sist.cnrs.fr/sist19/)
 ```
 
 Le développement de GeoFlow, toujours actif fait l'objet d'un  intérêt suivi par le réseau SIST. Dans cette présentation les auteurs nous montrent Les concepts de geoflow et le schéma d’un workflow pour préparer et insérer des métadonnées.
@@ -153,7 +153,7 @@ GeoCMS permet de visualiser une carte des utilisateurs enregistrés afin de gér
 
 Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) nous indiquent comment ils ont utilisé diverses technologies interopérables pour diffuser les données de leur plateforme DataECLA. Les auteurs ont testé un certain nombre d'outils comme GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers ils ont rajouté à cette palette d'outils des dashboards python.
 
-```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](https://sist20.sciencesconf.org/data/pages/SIST2021_Tormos_Reynaud_DataEcla_1.pdf)
+```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-06-T-Tormos-N-Reynaud-la-plateforme-de-donnees-dataECLA-sur-les-ecosytemes-lacustres.pdf)
 :class: seealso 
 https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_retours_d_experiences_en_gestion_de_donnees_d_observation_1.61601
 [video](Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) )
@@ -244,7 +244,7 @@ Seadatanet est un exemple d'envergure européenne pour la mise en place de stand
 ```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://nuage.osupytheas.fr/s/9iKa6GLzHGJ95Zz)
 :class: seealso
 Michèle Fichaut, Systèmes d'Informations Scientifiques pour la Mer   
-[Séminaire SIST15 OSU Pytheas Marseille 2015](https://sist15.sciencesconf.org/)   
+[Séminaire SIST15 OSU Pytheas Marseille 2015](https://sist.cnrs.fr/sist15/)   
 ```
 
 Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ de Versailles, présente un exemple de dépôt de données de cytométrie en flux dans le portail de données Seadatanet. Il est intéressant de prendre connaissance de la démarche et du workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un grand nombre de standards.
@@ -508,10 +508,11 @@ ANF rBDD du 5 au 7 novembre 2018 à Sète
 
 Dans cette présentation complète, Jean-Christophe Desconnets passe en revue les rôles, les fonctionnalités et les domaines d'utilisation des entrepôts de données :
 
-```{admonition} [Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  ](https://sist20.sciencesconf.org/data/pages/SIST20_entrepot_de_donnees_Desconnets.pdf)      
+```{admonition} [Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-02-J-Desconnets-Entrepots-de-donnees.pdf)
+[Video : ](https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_jean_christophe_desconnets_direction_technique_data_terra_les_entrepots_de_donnees.59593)
 :class: seealso
 Jean-Christophe Desconnets   
-[Séminaire SIST2020 OSU Lyon](https://sist20.sciencesconf.org/)   
+[Séminaire SIST2020 OSU Lyon](https://sist.cnrs.fr/sist20-21/)   
 ```
 
 ```{admonition} [Les entrepôts de données : pierre angulaire du partage des données de la recherche](https://anfdonnees2016.sciencesconf.org/conference/anfdonnees2016/pages/Entrepots_ANFRenatis.pptx)  
@@ -542,7 +543,7 @@ La science ouverte énonce un certain nombre de principes  : transparence (Trans
 Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle nous rappelle que : "rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté".
 
 
-```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"    
+```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-01-A-Chambodut-La-Certification-CoreTrustSeal.pdf)"    
 :class: seealso    
 [vidéo :](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-01-A-Chambodut-La-Certification-CoreTrustSeal.pdf)    
 Aude Chambodut    
