@@ -2,7 +2,7 @@
 # Publier et diffuser
 
 
-Cette dernière étape du cycle de vie des données représente la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et à diffuser les données de manière à ce qu'elles soient correctement faciles à trouver, accessibles et réutilisables selon des formats ouverts et des processus interopérables.
+Cette dernière étape du cycle de vie des données représente la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et à diffuser les données de manière à ce qu'elles soient correctement faciles à trouver, accessibles et surtout ... "réutilisables", selon des formats ouverts et des processus interopérables.
 
 L’accompagnement des réseaux métiers s’exerce sur diverses actions comme par exemple:
 - la documentation des données via des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
@@ -11,6 +11,7 @@ L’accompagnement des réseaux métiers s’exerce sur diverses actions comme p
 - l'utilisation d'outils logiciels et de protocoles interopérables permettant d'échanger ouvertement les données;
 - la description et l'identification des données avec des "datapapers" et des identifiants pérennes (DOI);
 - la représentation des données sous forme de graphes;
+- l'aide au choix d'entrepôts de données 
 - etc.
 
 Ainsi, les réseaux travaillent sur l’ensemble des informations (métadonnées, données, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation pertinents en rapport avec l’objectif du projet initial.
