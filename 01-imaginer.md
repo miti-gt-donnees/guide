@@ -50,7 +50,7 @@ On constate en effet aujourd’hui que les services communs de documentation, no
 
 L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'accompagnement de la recherche à caractère national ou international qui bénéficie d’un processus de labellisation et qui a pour vocation d’apporter un service à la communauté scientifique. Il s’agit des  [Services Nationaux d’Observation](https://www.insu.cnrs.fr/fr/les-services-nationaux-dobservation) (SNO) labellisés par la direction de l'INSU. Ces services ont été créés pour répondre au besoin de documenter sur le long terme la formation, l'évolution, la variabilité des systèmes astronomiques et des milieux terrestres, et de faire progresser les connaissances dans ces domaines. 
 
-<new: CH JJ>
+
   ** Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
 
 Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur et de la recherche (MESR) a  mis en route la création d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Il s’agit de mettre à disposition des chercheurs un entrepôt pluridisciplinaire pour le dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.  
@@ -62,9 +62,6 @@ Outre le service de dépôt et de diffusion, cette plateforme propose aux cherch
 
 
 Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner un [webinaire](https://www.canal-u.tv/chaines/rda/rda-france-recherche-data-gouv-l-entrepot-national-federe-des-donnees-de-la-recherche) animé par  Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche et Pierre Yves Arnould, chargée de mission au MESR ou à consulter le [déroulé de leur présentation](https://rdafrance2021.sciencesconf.org/data/pages/2021.10.12_Recherche_Data_Gouv_RDA.pdf) réalisé le 12 octobre 2021 à l’occasion de la 4ème réunion annuelle de RDA France.
-</new CH JJ>
-
-
 
 
 ### Comprendre le contexte
@@ -106,10 +103,10 @@ De nombreuses initiatives internationales et programmes européens ont été con
 
 Une présentation de Françoise Genova et de Francis André détaille le fonctionnement de la RDA, organisation internationale créée en mars 2013, pilotée par la communauté, qui vise à construire les ponts sociaux et techniques pour le meilleur partage des données. Les groupes d’intérêt et de travail y sont présentés par thématiques ainsi que les productions et recommandations issues de ces groupes. Un focus particulier est porté sur le nœud national RDA France, ses objectifs et ses activités.
                                 
-```{admonition} [Les activités de RDA : perspectives dans le cadre du noeud national français](https://sist18.sciencesconf.org/data/pages/27_F_Andre_Research_Data_Alliance.pdf)  
+```{admonition} [Les activités de RDA : perspectives dans le cadre du noeud national français](https://sist.cnrs.fr/wp-content/uploads/2021/12/27-F-Andre-Research-Data-Alliance.pdf)  
 :class: seealso
 Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Strasbourg    
-SIST 2018 : Séries Interopérables et Systèmes de Traitement, 2016, Guyancourt
+[SIST 2018](http://sist.cnrs.fr/sist18) : Séries Interopérables et Systèmes de Traitement, 2018, Guyancourt
 ```
 
 
@@ -318,16 +315,12 @@ Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) q
 
 Parmi les réalisations récentes, on peut citer le guide « [Pour une politique des données de la recherche : guide stratégique](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) » où le CoSO émet sept recommandations pour aider à la formalisation et à la mise en œuvre d'une politique des données de la recherche au sein des établissements de l’ESR, la réalisation du [Passeport pour la science ouverte](https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/) destiné aux doctorants de toutes disciplines, le guide « [Je publie, quels sont mes droits](https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/) » qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits et la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente ».
 
-<new: CH JJ>
 Fort de l’intérêt suscité par le Passeport, deux autres guides thématiques: “Codes et logiciels” et “Idées reçues sur la science ouverte” sont en cours de rédaction. Une déclinaison de ce travail sera éditorialisé au travers de capsules vidéos portant sur différentes thématiques. Tous ces livrables verront le jour à la rentrée 2022-2023. 
-</new CH JJ>
 
-<new: CH JJ>
 
 ```{admonition} A noter !
 :class: warning
 A noter ! Le service Ingénierie terminologique de l’Inist-CNRS a créé un « [Thésaurus de la science ouverte](https://skosmos.loterre.fr/TSO/fr/) » trilingue (français, anglais et espagnol) actuellement riche de près de 400 concepts. 
 ```
 
-</new CH JJ>
 
