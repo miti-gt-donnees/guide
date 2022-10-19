@@ -119,13 +119,13 @@ Julien Barde (IRD), Emmanuel Blondel (FAO) et Wilfried Heintz (INRAE) : geoflow
 
 ## Diffuser avec des protocoles interopérables
 
-Outre les formats de fichiers qui doivent répondre à des standards ouverts pour être partagés et réutilisables, il est également nécessaire de se préoccuper de diffuser les données par des protocoles d'échanges standards interopérables.
+Outre les formats de fichiers qui doivent répondre à des standards ouverts pour être partagés et réutilisables, il est également nécessaire de se préoccuper de diffuser les données par des protocoles d'échanges standards interopérables entre machines.
 Dans les sciences environnementales l'[OGC](https://www.ogc.org/standards) est en charge de déterminer un certains nombre de standards ouverts particulièrement dans le cadre des données géo-spatialisées.
 
 
 ### diffusion des métadonnées de catalogue par le protocole CSW 
 
-CSW "Catalogue service for the Web" est un exemple de protocole standardisé défini par l'OGC dont l'objectif est de pouvoir réaliser des catalogues interopérables de données. Ces catalogues permettent d'afficher, rechercher et découvrir des ressources disponibles sur différents  critères avancées le titre, le système de coordonnées, le type de données,…) recherche dans une zone (spatio-temporelle), suivant une thématique issue de thesaurus disciplinaires (météorologie, géologie, océanograpie, etc.) 
+CSW "Catalogue service for the Web" est un exemple de protocole standardisé défini par l'OGC dont l'objectif est de pouvoir réaliser des catalogues interopérables de données. Ces catalogues permettent d'afficher, rechercher et découvrir des ressources (dataset, jaux de données) disponibles sur différents critères avancées comme le titre, le système de coordonnées, des mots clés, le type de données,…) recherche dans une zone (spatio-temporelle), suivant une thématique issue de thesaurus disciplinaires (météorologie, géologie, océanograpie, etc.) 
 
 Les champs du catalogue sont normalisés selon les normes ISO 19115/19139, et les données sont transmises sous forme de contenu XML.
 
