@@ -744,7 +744,6 @@ Cet atelier technique est organisé selon le plan suivant :
   - Exemples d'exploitation du Sparql Endpoint
 
 
-[ajout ML]
 L'intéropérabilité sémantique est au coeur de la démarche des pôles de données environnementaux :  le besoin est d'associer une signification aux données, et les positionner dans un domaine de connaissances. 
 
 Cela nécessite :
@@ -756,7 +755,7 @@ Ce questionnement "Quels schéma de métadonnées et quels vocabulaires utiliser
 données en naviguant dans les compartiments de la Terre, les capteurs et les propriétés observées.
 Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés dans diverses disciplines, et nous donnes les bonnes pratiques de création des terminologies
 
-```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-04-J-Desconnets-Linterop%C3%A9rabilit%C3%A9-s%C3%A9mantique-dans-les-p%C3%B4les-de-donn%C3%A9es.pdf)
+```{admonition} [L'interopérabilité sémantique dans les pôles de données](http://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-04-J-Desconnets-Linterope%CC%81rabilite%CC%81-se%CC%81mantique-dans-les-po%CC%82les-de-donne%CC%81es.pdf)
 :class: seealso
 [vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
  J-C Desconnet , Institut de l’information scientifique et technique   
