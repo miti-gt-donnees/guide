@@ -68,7 +68,7 @@ Ces activités couvrent :
 - la gestion de la documentation et de la configuration ;
 - l’assurance qualité Logiciel.
 
-Le réseau Qualité en Recherche a élaboré une [guide assurance produit](http://qualite-en-recherche.cnrs.fr/IMG/pdf/Guide_Assurance_Produit-2019_05_24.pdf) qui détaille ces points.
+Le réseau Qualité en Recherche a élaboré une [guide assurance produit](https://qualite-en-recherche.cnrs.fr/wp-content/uploads/2021/08/Guide_Assurance_Produit-2019_05_24.pdf) qui détaille ces points.
 
 ### Analyser les risques
 
