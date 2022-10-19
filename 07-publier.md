@@ -11,7 +11,7 @@ L’accompagnement des réseaux métiers s’exerce sur diverses actions comme p
 - l'utilisation d'outils logiciels et de protocoles interopérables permettant d'échanger ouvertement les données;
 - la description et l'identification des données avec des "datapapers" et des identifiants pérennes (DOI);
 - la représentation des données sous forme de graphes;
-- l'aide au choix d'entrepôts de données 
+- l'aide au choix d'entrepôts de données ;
 - etc.
 
 Ainsi, les réseaux travaillent sur l’ensemble des informations (métadonnées, données, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation pertinents en rapport avec l’objectif du projet initial.
