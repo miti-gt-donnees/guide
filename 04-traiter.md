@@ -489,19 +489,19 @@ détectables automatiquement.  L’outil ATCQc a été développé afin
 de permettre aux scientifiques de visualiser et qualifier rapidement
 leurs données issues des instruments de mesures du réseau.
 
-```{admonition} [ATCQc : Un outil pour le QA/QC de mesures atmosphériques du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/29_L_Hazan_ATCQc.pdf), [vidéo](https://sist18.sciencesconf.org/data/pages/29_L_Hazan_ATCQc.mp4)   
+```{admonition} [ATCQc : Un outil pour le QA/QC de mesures atmosphériques du TGIR ICOS](https://sist.cnrs.fr/wp-content/uploads/2021/12/07-L-Hazan-Chaines-de-traitement-ICOS.pdf)   
 :class: seealso
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
-[Séminaire SIST 2018 OVSQ ](https://sist18.sciencesconf.org/), Guyancourt.   
+[Séminaire SIST 2018 OVSQ ](https://sist.cnrs.fr/sist18/), Guyancourt.   
 ```
 
 Dans cette présentation, les auteurs abordent la qualité des données sous l'angle utilisation de référentiels pour décrire finement les
 données et les rendre interopérables
 
-```{admonition} [La qualité des données à l'OSU OREME](https://sist18.sciencesconf.org/data/pages/31_F_Fabre_O_Lobry_Qualite_des_donnees_de_l_OSU_OREME_.pdf)   
+```{admonition} [La qualité des données à l'OSU OREME](https://sist.cnrs.fr/wp-content/uploads/2021/12/31-F-Fabre-O-Lobry-Qualite-des-donnees-de-lOSU-OREME-.pdf)   
 :class: seealso
 Juliette Fabre, Olivier Lobry, Observatoire de REcherche Méditerranéen de l'Environnement    
-[Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.    
+[Séminaire SIST 2018 OVSQ](https://sist.cnrs.fr/sist18/), Guyancourt.    
 ```
 
 Dans cette présentation, les auteurs proposent un développement graphique avec la librairie "[DyGraphs](http://dygraphs.com)" pour
@@ -510,17 +510,17 @@ visualiser et valider des données de séries temporelles.
 ```{admonition} [Outil web interactif de visualisation et validation de séries temporelles](https://nuage.osupytheas.fr/s/qmJrrMLFHwN729G)
 :class: seealso
 Olivier Lobry, Juliette Fabre
-[Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/).    
+[Séminaire SIST 2015 OSU Pytheas Marseille](https://sist.cnrs.fr/sist15/).    
 ```
 
 Dans son projet A. Campos utilise un ensemble de scripts Python pour convertir les fichiers "xls" en fichier "ascii", puis effectue
 un nettoyage avec la commande "awk" de Unix. Enfin des scripts en langage R permet de faire des moyennes glissantes, des graphes
 et des exports des fichiers au format NetCDF.
 
-```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist16.sciencesconf.org/data/pages/10_A_Campos.pdf)  
+```{admonition} [Site Web de diffusion des données "Sahelian Dust Transect"](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-10-A-Campos-Sahelian-dust-transect-OSU-Efluve.pdf)  
 :class: seealso
 André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques   
-[SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
+[SIST 2016 OSU OREME Montpellier](https://sist.cnrs.fr/sist16)      
 ```
 
 
@@ -574,6 +574,15 @@ dans leur communication sur les thesaurus au séminaire SIST22
 :class: seealso
 Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
 [séminaire SIST2022 Grenoble](https://sist.cnrs.fr/sist22)      
+```
+
+On retrouve cette nécessaire interopérabilité sémantique dans des projets comme celui décrit par S. Lahbib pour des données de cytométrie en flux. Pour lesquelles il est nécessaire que les différents scientifiques utilisant cette technique se mettent d'accord sur la nomenclature des groupes de phytoplanton détectés par cette technique de Cytométrie, au sein de l'infrastructures SeadataNet.
+
+
+```{admonition} [Interopérabilité des données cytométrie en flux dans l’IR SeadataNet – S. Lahbib](https://sist.cnrs.fr/wp-content/uploads/2021/12/26-S-Lahbib-Interoperabilite-de-donnees-pour-SeaDataNet.pdf)  
+:class: seealso
+Soumaya Lahbib
+[séminaire SIST2018 OVSQ](https://sist.cnrs.fr/sist18)      
 ```
 
 La présentation d'Eric Garnier montre l'intérêt de l'utilisation de la sémantique en écologie végétale. Dans ce domaine, la majorité des jeux de données sont de petite taille et sémantiquement hétérogènes. Leur réutilisation pour des objectifs de synthèse demande par conséquent un important travail d’homogénéisation afin de pouvoir conduire des analyses pertinentes. Il retrace les étapes qui ont été nécessaires pour préparer les jeux de données qui ont conduit à l’identification de deux dimensions majeures du fonctionnement des plantes. 
