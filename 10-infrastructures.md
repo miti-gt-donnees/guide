@@ -464,15 +464,7 @@ Catherine Pequenat, Institut des Sciences de la Terre, Observatoire des Sciences
 Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois 
 ```
 
-**Astronomie**
 
-Soizick Lesteven, retrace ensuite les missions du centre astronomique de Strasbourg qui depuis 1972 collecte des informations « utiles » sur les objets astronomiques. Elle détaille les processus de collecte et de traitements effectués pour mettre à disposition des données. Elle explique comment se crée l’interopérabilité des données entre les bases « Simbad », « Vizier », « Aladin » et leur interaction avec le dictionnaire des nomenclatures des objets célestes. Elle explique ainsi le processus de création de contenu de qualité, des données d’observations réutilisables et à forte valeur ajoutée pour les équipes de recherche.
-
-```{admonition} [La gestion des données astronomiques à l’Observatoire Astronomique de Strasbourg](http://renatis.cnrs.fr/IMG/pdf/LESTEVEN.pdf)  
-:class: seealso
-Soizick Lesteven, Observatoire Astronomique de Strasbourg  
-Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois  
-```
 
 **Sciences Sociales**
 
