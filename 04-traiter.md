@@ -40,7 +40,7 @@ Parmi les premiers traitements opérés sur des données brutes provenant du ter
 Chaque discipline utilise, voire définit un certain nombre de formats standards, et il est bon de les connaitre et de s'y référer. 
 
 On ne pourra pas tous les citer, mais à titre d'exemple dans les domaines Océan, Atmosphère par exemple, 
-- **Le format [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)** est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l'environnement. Il est très bien adapté et utilisé, par exemple pour représenter et formater des données qui sont des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit "auto-descriptif" en ce sens qu'il permet de ne pas avoir besoin d'un fichier de description complémentaire. Les métadonnées sont en effet insérées dans l'entête du fichier, avec les données elles-mêmes.
+- **Le format [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)** est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l'environnement. Il est très bien adapté et utilisé, par exemple pour représenter et formater des données dimensionnées sous forme de tableaux, comme par exemple des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit "auto-descriptif" car le es métadonnées sont en effet insérées dans l'entête du fichier, avec les données elles-mêmes. En ce sens il permet de ne pas avoir besoin d'un fichier de description complémentaire.
 On peut ainsi décrire de manière assez précise les données du fichier, par exemple en insérant les unités de mesure des paramètres mesurés, la licence de diffusion, les propriétaires, etc., ainsi que l'organisation des données.
 
 Toutefois dans son format originel NetCDF n'a pas imposé de directives particulieres pour inscrire les métadonnées dans l'entete du fichier. De ce fait, il était possible d'inscrire n'importe quel libellé de variables, unités, etc. Une standardisation a été nécessaire pour obtenir des fichiers compréhensibles et interopérables. 
@@ -63,7 +63,7 @@ Joël Sudre, LEGOS et Maurice Libes, Institut Pytheas
 ```{admonition} [Utilisation de l'API de programmation Python pour NetCDF](<https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-Atelier-NetCDF-3-Generer-avec-python.pdf>)   
 :class: seealso
 Maurice Libes, Didier Mallarino, Institut Phyteas   
-[Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
+[Séminaire SIST19 Toulouse](https://sist.cnrs.fr/sist19/)
 ```
 
 - **[Le format ODV](https://odv.awi.de/)** (ocean data view) est également un format standard ouvert intéressant. C'est un format de type "tableur", ensemble de lignes comportant un nombre fixe de colonnes qui se rapproche d'un format CSV, composé de colonnes de
@@ -96,7 +96,7 @@ HDF5 : theory & practice [1](https://materials.prace-ri.eu/386/6.haslightboxThum
 Prace Advanced Training Centers, [Course: Parallel I/O and management of large scientific data, 2014](https://materials.prace-ri.eu/386/)
 ```
 
-[Ajout MCQ]
+
 Il est possible aussi de définir de nouveaux schémas de données pour normaliser le dépôt de données et ainsi faciliter leur réutilisation. De nombreuses initiatives existent comme schema.org ou schema.data.gouv.fr, qui référence des schémas de données publiques pour la France.
 
 ```{admonition} [Cycle de vie de la donnée ouverte de qualité](https://gt-atelier-donnees.miti.cnrs.fr/download/2021_07_05_webinaire_atelier_Aldebert.pdf)
@@ -105,7 +105,7 @@ Il est possible aussi de définir de nouveaux schémas de données pour normalis
 Geoffrey Aldebert, Etalab
 Webinaire « Qualité des données », GT Atelier Données, 2021
 ```
-[/Ajout MCQ]
+
 
 ## Organiser les données
 
@@ -155,15 +155,6 @@ Eric Quinton
 Réseau RBDD, 2017. Paris.   
 ```
 
-Ce logiciel "Talend" a été également utilisé par Soumaya Lahbib
-pour traiter les fichiers de données issues des capteurs du [projet EMSO Ligure-ouest](https://www.osupytheas.fr/?Presentation-du-projet-EMSO)
-et les transformer en fichiers CSV utilisables facilement.
-
-```{admonition} [Gestion des données du projet EMSO avec Talend et ERDDAP](https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf)    
-:class: seealso
-Maurice Libes, Soumaya Lahbib   
-[Séminaire SIST18 OVSQ](https://sist18.sciencesconf.org), Guyancourt.   
-```
 
 ### Déposer et structurer dans des plateformes de gestion de données locales
 
@@ -230,7 +221,7 @@ Mathias Rouan, Jonathan Schaeffer
 ANF SIST 2018, Toulouse.
 ```
 
-[ajout ML]
+
 ### la gestion des données géolocalisées
 
 Un grand nombre de données environnementales proviennent du terrain et sont donc géolocalisées. Les coordonnées géographiques (latitude, longitude) font partie des métadonnées fondamentales, ainsi que le système de projection, pour savoir d'où proviennent les données.
@@ -256,7 +247,7 @@ Le réseau SIST a mis en place une formation nationale ANF en 2021 intitulée "_
  Cyril Bernard, Emilie Lerigoleur, Laure Paradis, Marie Silvestre  
 [ANF SIST 2021 Sète](https://sist.cnrs.fr/les-formations/anf-2020)    
 ```
-[/ajout ML]
+
 
 #### Exemple de mise en oeuvre de plateformes de données
 
@@ -276,13 +267,13 @@ G. Brissebrat nous montre comment sont diffusées des données maillées NetCDF 
 ```{admonition} [Distribution et visualisation de données avec THREDDS, exemples d'utilisation au SEDOO](https://nuage.osupytheas.fr/s/XsJSkXxCjkHwrfP)
 :class: seealso
 Guillaume Brissebrat, Service de données de l'OMP   
-[Séminaire SIST 2015 OSU Pytheas Marseille](https://sist15.sciencesconf.org/)    
+[Séminaire SIST 2015 OSU Pytheas Marseille](https://sist.cnrs.fr/sist15)    
 ```
 
-```{admonition} [Eccad, un exemple de mise en oeuvre de THREDDS](https://sist19.sciencesconf.org/data/pages/SIST19_S_Darras.pdf)   
+```{admonition} [Eccad, un exemple de mise en oeuvre de THREDDS](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-04-S-Darras-Eccad-une-mise-en-oeuvre-de-Thredds.pdf)   
 :class: seealso
 Sabine Darras, Observatoire Midi-Pyrénées   
-[Séminaire SIST 2019 OMP Toulouse](https://sist19.sciencesconf.org/)   
+[Séminaire SIST 2019 OMP Toulouse](https://sist.cnrs.fr/sist19)   
 ```
 
 
@@ -296,26 +287,26 @@ erddap permet d'aggréger automatiquement les données journalières
 qui sont déposées par programme dans un répertoire, sans intervention
 humaine.
 
-```{admonition} [Gestion des données du projet EMSO avec Talend et ERDDAP](<https://sist18.sciencesconf.org/data/pages/05_M_Libes_Getsion_des_donnees_EMSO.pdf>)   
+```{admonition} [Gestion des données du projet EMSO avec Talend et ERDDAP](<https://sist.cnrs.fr/wp-content/uploads/2021/12/05-M-Libes-Getsion-des-donnees-EMSO.pdf>)   
 :class: seealso
 Soumaya Lahbib, Maurice Libes, OSU Pytheas  
-[Séminaire SIST 2018 OVSQ](https://sist18.sciencesconf.org/), Guyancourt.
+[Séminaire SIST 2018 OVSQ](https://sist.cnrs.fr/sist18/), Guyancourt.
 ```
 La plateforme de gestion de données ERDDAP est utilisée dans le
 projet Européen EMSO et permet de constituer un réseau de serveurs
 qui  regroupe les données d'un même projet avec des données issues
 de sites différents [^erddap].
 
-[^erddap]: <http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000>
+[^erddap]: <https://erddap.emso.eu/erddap/info/index.html?page=1&itemsPerPage=1000>
 
 Dans cette présentation, les auteurs avaient pour objectif de
 diffuser des données dans un environnement tropical et ont utilisé
 et comparés les platformes logicielles THREDDS et ERDDAP
 
-```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist16.sciencesconf.org/data/pages/11_T_Valero_F_Bongat.pdf)    
+```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-11-T-Valero-F-Bongat-Mise-a-disposition-de-donnees-climatiques-avec-Thredds-et-Erddap.pdf)    
 :class: seealso
 Thierry Valéro, Institut de Recherche pour le Développement, Laboratoire d'Océanographie et du Climat   
-[Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)    
+[Séminaire SIST 2016 OSU OREME Montpellier](https://sist.cnrs.fr/sist16/)    
 ```
 
 Les présentations suivantes fournissent  un certain nombre de
@@ -323,36 +314,35 @@ connaissances sur l’utilisation d'infrastructure de données
 géographiques (IDS, IDG) et de différentes plateforme logicielle
 de gestion des données
 
-```{admonition} [Infrastructure de données spatiales et de traitements GEOSUD : des standards à la réalité](https://sist16.sciencesconf.org/data/pages/01_JC_Desconnets.pdf)      
+```{admonition} [Infrastructure de données spatiales et de traitements GEOSUD : des standards à la réalité](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-01-JC-Desconnets-IDS-GEOSUD.pdf)      
 :class: seealso
 Jean-Christophe Desconnets, UMR Espace-Dev, IRD   
-[Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)   
+[Séminaire SIST 2016 OSU OREME Montpellier](https://sist.cnrs.fr/sist16/)   
 ```
    
-```{admonition} [Publication automatique de données et de métadonnées dans geOrchestra](https://sist18.sciencesconf.org/data/pages/19_E_Chiarello_GeOrchestra.pdf)  
+```{admonition} [Publication automatique de données et de métadonnées dans geOrchestra](https://sist.cnrs.fr/wp-content/uploads/2021/12/19-E-Chiarello-GeOrchestra.pdf)  
 :class: seealso
 Ernest Chiarello, Théoriser et modéliser pour aménager, MSHE   
-[Séminaire SIST 2018](https://sist18.sciencesconf.org/), Guyancourt.
+[Séminaire SIST 2018](https://sist.cnrs.fr/sist18), Guyancourt.
 ```
 
 Loic Salaun nous montre un exemple de consultation des données à
 partir d’un visualiseur cartographique (visualiseur d’INDIGEO),
 utilisant les services web géographiques (WMS, WFS, WCS, CSW)
 
-```{admonition} [Mise en place d'une IDS pour le programme de recherche Réseau de Suivi et de Surveillance de l'Environnement.](https://sist16.sciencesconf.org/data/pages/02_L_Salaun.pdf)   
+```{admonition} [Mise en place d'une IDS pour le programme de recherche Réseau de Suivi et de Surveillance de l'Environnement.](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-02-L-Salaun-IDS-OSUNA.pdf)   
 :class: seealso
 Loïc Salaun, Observatoire des Sciences de l'Univers Nantes Atlantique   
-[Séminaire SIST 2016](https://sist16.sciencesconf.org), Montpellier.   
+[Séminaire SIST 2016](https://sist.cnrs.fr/sist16/), Montpellier.   
 ```
 
 ## Mettre en place un contrôle qualité des données
 
-[ajout ML)]
-La qualité des données est un thème transversal aux métiers de la recherche. Cette notion se retrouve sur toutes les étapes du cycle de vie de la donnée mais elle recouvre des concepts différents (qualité des données, des métadonnées, du code, de la documentation, de l'archivage, ...) mais quelque soit l'étape, elle peut toujours être vue sous deux angles : 
+La qualité des données est une préoccupation transversale aux différentsmétiers de la recherche. Cette notion se retrouve sur toutes les étapes du cycle de vie de la donnée mais elle recouvre des concepts différents (qualité des données, des métadonnées, du code, de la documentation, de l'archivage, ...) mais quelle que soit l'étape, elle peut toujours être vue sous deux angles : 
 - qu'est ce qu'une donnée de qualité ? 
 - quelle organisation faut-il mettre en place pour arriver à obtenir des données de qualité ?
 
-Par ailleurs, la recherche n’est pas répétitive, mais riche en incertitudes contrairement à un processus industriel.  La confiance
+Par ailleurs, la recherche n’est pas répétitive, mais peuplée d'incertitudes contrairement à un processus industriel.  La confiance
 dans la qualité d’une recherche consiste donc à établir et vérifier que les différentes étapes d’une étude peuvent être répétées en
 obtenant le même résultat par des chercheurs différents à des moments différents. Ainsi, une donnée est fiable si, dans des conditions
 données, aucune déviation n’est constatée en fonction du temps, durant un laps de temps donné.  Il est donc essentiel de s’assurer
@@ -371,7 +361,7 @@ Christine Hadrossek
 
 ### la qualité des données en sciences environnementales 
 
-Christine Coatanoan, ingénieure au SISMER nous expose clairement quels sont les Processus de contrôle et de qualification des données dans un système d’observation océanographique.
+Christine Coatanoan, ingénieure au SISMER nous expose clairement quels sont les processus de contrôle et de qualification des données dans un système d’observation océanographique.
 
 L'interopérabilité est la clé du succès d'un système de gestion de données distribuées et elle est réalisée par exemple dans
 le projet [Seadatanet](https://www.seadatanet.org/) par :
@@ -385,9 +375,9 @@ La livraison des données aux utilisateurs nécessite des formats de transport d
 
 Un  certain nombre de formats de transport de données ont été définis :
 - [ODV4](https://odv.awi.de/fileadmin/user_upload/odv/misc/GettingStarted.pdf) ASCII pour les profils, les séries chronologiques et les trajectoires,
-- [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) avec conformité CF pour les profils, les séries chronologiques et les trajectoires,
+- [NetCDF](https://www.unidata.ucar.edu/software/netcdf/) avec conformité à la convention CF pour les profils, les séries chronologiques et les trajectoires,
 - MedAtlas comme format supplémentaire optionnel,
-- NetCDF avec[ conformité CF](https://cfconventions.org/) pour les données d'observation 3D telles que les ADCP
+- NetCDF avec [conformité CF](https://cfconventions.org/) pour les données d'observation 3D telles que les ADCP
 
 Dans le contrôle qualité : Il faut pouvoir contrôler la qualité des données et des mesures, c’est-à-dire de distinguer une mesure aberrante (capteur) d'une mesure qui reflète un phénomène réel (passage dans un tourbillon, maximum de salinité de la
 Méditerranée en Atlantique,...).
@@ -419,7 +409,6 @@ une [table "L20" standardisant les codes qualité](https://vocab.seadatanet.org/
 Virginie JAN LOGASSI, Université de Lorraine  
 [Rencontres du réseau Qualité en Recherche, 2019](https://qualsimp.sciencesconf.org/), Nancy.
 ```
-[/ajoutML]
 
 Le réseau rBDD a consacré un atelier à la qualité des données pour apporter des éclairages sur les questions suivantes :
 * Quelles sont les différentes notions de qualité des données ?
@@ -483,10 +472,10 @@ mesures comme le niveau de la mer ou la salinité de surface (SSS:
 Sea Surface Salinity ) dans différents projets. On peut constater
 la diversité des solutions mises en place.
 
-```{admonition} [Suivi de la qualité des mesures de réseaux d'observation océanographique](https://sist16.sciencesconf.org/data/pages/09_P_Techine.pdf)   
+```{admonition} [Suivi de la qualité des mesures de réseaux d'observation océanographique](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-09-P-Techine-Qualite-des-donnees-en-oceanographie.pdf)   
 :class: seealso
 Philippe Téchiné, B. Buisson, L. Testut, T. Delcroix, G. Alory, Laboratoire d'études en Géophysique et océanographie spatiales   
-[Séminaire SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)   
+[Séminaire SIST 2016 OSU OREME Montpellier](https://sist.cnrs.fr/sist16/)   
 ```
 
 Dans cette présentation Lynn Hazan décrit son processus d'attribution
@@ -534,7 +523,6 @@ André CAMPOS, Laboratoire interuniversitaire des systèmes atmosphériques
 [SIST 2016 OSU OREME Montpellier](https://sist16.sciencesconf.org/)      
 ```
 
-[ajout ML]
 
 ### L’interopérabilité sémantique - Utilisation de vocabulaires contrôlés - Thesaurus disciplinaires
 
@@ -588,10 +576,7 @@ Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
 [séminaire SIST2022 Grenoble](https://sist.cnrs.fr/sist22)      
 ```
 
-ajout ML
-
-[ajout MCQ]
-La présentation d'Eric Garnier montre l'intérêt de l'utillisation de la sémantique en écologie végétale. Dans ce domaine, la majorité des jeux de données sont de petite taille et sémantiquement hétérogènes. Leur réutilisation pour des objectifs de synthèse demande par conséquent un important travail d’homogénéisation afin de pouvoir conduire des analyses pertinentes. Il retrace les étapes qui ont été nécessaires pour préparer les jeux de données qui ont conduit à l’identification de deux dimensions majeures du fonctionnement des plantes. 
+La présentation d'Eric Garnier montre l'intérêt de l'utilisation de la sémantique en écologie végétale. Dans ce domaine, la majorité des jeux de données sont de petite taille et sémantiquement hétérogènes. Leur réutilisation pour des objectifs de synthèse demande par conséquent un important travail d’homogénéisation afin de pouvoir conduire des analyses pertinentes. Il retrace les étapes qui ont été nécessaires pour préparer les jeux de données qui ont conduit à l’identification de deux dimensions majeures du fonctionnement des plantes. 
 
 ```{admonition} [Retour d’expérience en écologie végétale sur les étapes d’homogénéisation des données](https://gt-atelier-donnees.miti.cnrs.fr/download/2021_07_05_webinaire_atelier_Garnier.pdf)  
 :class: seealso
@@ -600,4 +585,3 @@ Eric Garnir, CEFE
 Webinaire Qualité des données, GT Atelier Données, 2021
 ```
 
-[/ajout MCQ]
