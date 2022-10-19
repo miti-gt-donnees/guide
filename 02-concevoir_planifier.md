@@ -172,10 +172,10 @@ ANF Participer à l'organisation du management des données de la recherche, ges
 Comme l'ont introduit les présentations précédentes, un plan de gestion de données ne se rédige pas seul, mais au contraire en associant les différents acteurs du projet. 
 Il s'agit donc de rédiger collaborativement le PGD. La plateforme "DMP OPIDoR" de l'INIST fournit un service en réponse à ce besoin à l'ensemble de la communauté enseignement supérieur recherche en France pour rédiger de façon collaborative un PGD. Après un rappel du contexte autour de la gestion des données, cette présentation montre avec de nombreuses copies d'écran comment utiliser "DMP OPIDoR". À ne pas manquer si vous souhaitez un panorama du contexte et si vous souhaitez savoir comment réaliser en pratique un plan de gestion de données en collaborant avec vos collègues.
 
-```{admonition} [Data management plan ? Plan de gestion de données ? DMP OPIDoR vous guide !](https://sist18.sciencesconf.org/data/pages/15_MC_Jacquemot_Perbal_L_Rassinoux_OPIDoR.pdf)   
+```{admonition} [Data management plan ? Plan de gestion de données ? DMP OPIDoR vous guide !](https://sist.cnrs.fr/wp-content/uploads/2021/12/15-MC-Jacquemot-Perbal-L-Rassinoux-OPIDoR.pdf)   
 :class: seealso
 Laurent RASSINOUX, Marie-Christine JACQUEMOT-PERBAL, INIST,   
-SIST 2018 : Séries Interopérables et Systèmes de Traitement, Guyancourt, 2018   
+[SIST 2018 :](https://sist.cnrs.fr/sist18) Séries Interopérables et Systèmes de Traitement, Guyancourt, 2018   
 ```
 Des discussions, lors des Journées Calcul et Données 2019 (JCAD 2019), autour d'une Table ronde intitulée "Les Plans de Gestion des Données des projets Scientifiques, quels impacts pour les centres de Calcul et de Données ?" 
 vous permettront aussi d'en voir les implications pour les centres de  calcul et de données.
@@ -201,10 +201,10 @@ JCAD 2019
 
 Afin de conclure ce tour d'horizon des plans de gestion de données, ce retour d'expérience relatif au domaine de la biodiversité vous permettra de mieux comprendre comment utiliser les plans de gestion de données comme un véritable outil de gestion qui va bien au-delà du document administratif nécessaire à la validation du projet.
 
-```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie.](https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf)   
+```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie.](https://sist.cnrs.fr/wp-content/uploads/2021/12/16-W-Heintz-Du-plan-de-gestion-des-donnees-au-data-paper.pdf)   
 :class: seealso
 HEINTZ, Wilfried, INRA Dynafor   
-SIST 2018 
+[SIST 2018 ](https://sist.cnrs.fr/sist18)
 ```
 
 Enfin, à des fins pédagogiques, le [CEFE](https://www.cefe.cnrs.fr/fr/) a  rédigé un [plan de gestion de données](https://dmp.opidor.fr/plans/5848/export.pdf) sur un projet fictif de "Suivi de population de poissons dans le lac du Bourget". Il correspond à la version qui devra être transmise dans les 6 mois qui suivent le démarrage scientifique du projet financé par l'ANR. Il est disponible dans la rubrique [DMPs publics](https://dmp.opidor.fr/public_plans) de l'outil DMP Opidor.
