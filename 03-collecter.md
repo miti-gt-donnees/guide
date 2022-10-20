@@ -305,7 +305,7 @@ L’ensemble des données produites par la recherche doit être répertorié et 
 
 Alain Rivet positionne le cahier de laboratoire comme un outil de gestion des données de la recherche : 
 
-```{admonition} [Cahier de laboratoire et gestion des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Rivet.pdf)
+```{admonition} [Cahier de laboratoire et gestion des données de la recherche](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Rivet.pdf)
 :class: seealso
 Alain Rivet, CERMAV  
 Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
