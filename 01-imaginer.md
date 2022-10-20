@@ -91,7 +91,7 @@ Une présentation de Françoise Genova et de Francis André détaille le fonctio
 ```{admonition} [Les activités de RDA : perspectives dans le cadre du noeud national français](https://sist.cnrs.fr/wp-content/uploads/2021/12/27-F-Andre-Research-Data-Alliance.pdf)  
 :class: seealso
 Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Strasbourg    
-[SIST 2018](http://sist.cnrs.fr/sist18) : Séries Interopérables et Systèmes de Traitement, 2018, Guyancourt
+[SIST 2018](http://sist.cnrs.fr/sist18) - Séries Interopérables et Systèmes de Traitement, 2018, Guyancourt
 ```
 
 
@@ -101,7 +101,7 @@ Il présente la stratégie européenne d’élaboration de ce Cloud européen la
 ```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Beckmann.pdf)  
 :class: seealso
 Volker Beckman,  CNRS/IN2P3   
-Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020
+Atelier Dialogu’IST - Rendre FAIR les données, mais quelles données préserver ? 2020
 ```
 
 Pour accompagner les communautés de chercheurs, une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/fr/la-feuille-de-route-nationale-des-infrastructures-de-recherche-2021-84056) est mise à disposition sur son site par le ministère de l’Enseignement supérieur et de la Recherche. Elle recense aujourd’hui 108 infrastructures de formes et contenus variés et est régulièrement remise à jour. 
@@ -131,8 +131,8 @@ ANF  "Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se
 
 ```{admonition} [Questions juridiques autour de l’ouverture des données](http://rbdd.cnrs.fr/IMG/pdf/20181107_questions_juridiques_autour_de_l_ouverture_des_donnees_rbdd.pdf?515/adba03a95aa28dd17a08e0c052414e099ad26347)  
 :class: seealso
-Nathalie Le Ba (DAJ du CNRS)   
-ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données », 2018, Sète      
+Nathalie Le Ba, CNRS   
+ANF «Sciences des données : un nouveau challenge pour les métiers liés aux bases de données», 2018, Sète      
 ```
 En complément de ces présentations, il est important de retenir que le droit des producteurs de bases de données (droit sui generis) est désormais "neutralisé" par la Loi sur la république numérique. Comme toute administration, les universités et établissements de recherche ne peuvent opposer leur droit de producteur de bases de données à la libre réutilisation des informations qu'elles produisent. Le principe d'ouverture par défaut s'applique. Pour plus d'information sur ce point nous vous invitons à consulter l'article de Lionel Maurel : [les universités françaises et l’Open Data après la loi numérique](https://scinfolex.com/2016/11/01/les-universites-francaises-et-lopen-data-apres-la-loi-numerique/).
 
