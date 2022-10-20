@@ -12,10 +12,7 @@ L’apport des réseaux est ici important en termes de croisement des discipline
 Avant d’aborder la gestion des données sous ses aspects techniques qui seront développés tout au long des étapes du cycle de vie de la donnée dans ce guide, nous souhaitons apporter une vision d’ensemble du paysage de la gestion des données.  
 Ce paysage s’appréhende dans le cadre du mouvement open science, de la politique d’open data en particulier et par la connaissance de l’ensemble du processus de recherche depuis la compréhension des possibilités de financement de la recherche (attendu des financeurs H2020, ERC, ANR …) jusqu’à la diffusion, la valorisation et l’évaluation des résultats.
 
-### Connaître les politiques d'accompagnement des données au niveau <modif: CH JJ>
-   français,
-</modif: CH JJ>
- européen et international 
+### Connaître les politiques d'accompagnement des données au niveau français, européen et international 
 
 Différentes initiatives institutionnelles sont développées au sein de nos établissements en France ou à l’étranger pour accompagner la politique des données de la recherche. Il est intéressant de se pencher sur ces travaux pour anticiper les besoins et prévoir les évolutions stratégiques possibles au sein de notre environnement.
  
@@ -51,9 +48,10 @@ On constate en effet aujourd’hui que les services communs de documentation, no
 L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'accompagnement de la recherche à caractère national ou international qui bénéficie d’un processus de labellisation et qui a pour vocation d’apporter un service à la communauté scientifique. Il s’agit des  [Services Nationaux d’Observation](https://www.insu.cnrs.fr/fr/les-services-nationaux-dobservation) (SNO) labellisés par la direction de l'INSU. Ces services ont été créés pour répondre au besoin de documenter sur le long terme la formation, l'évolution, la variabilité des systèmes astronomiques et des milieux terrestres, et de faire progresser les connaissances dans ces domaines. 
 
 
-  ** Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
+**Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
 
-Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur et de la recherche (MESR) a  mis en route la création d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Il s’agit de mettre à disposition des chercheurs un entrepôt pluridisciplinaire pour le dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.  
+Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur et de la recherche (MESR) a inauguré le 8 juillet 2022 l'ouverture de la  d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Cette plateforme a pour vocation de soutenir les équipes de recherche dans leur travail de structuration des données et met à leur disposition un entrepôt pluridisciplinaire dédié au dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.
+
 Outre le service de dépôt et de diffusion, cette plateforme propose aux chercheurs un catalogue des données de la recherche française et des services d’accompagnement de la donnée. Ces services se décomposent en trois catégories :  
 
 - Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes
@@ -113,7 +111,7 @@ Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Stra
 Dans cette autre présentation, Volker Beckman (chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS) explique comment concrètement les chercheurs pourront utiliser l'EOSC.
 Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2018, qui coordonne les initiatives et projets de construction de cet espace à destination de la recherche et des chercheurs. Partant des nombreux projets qui ont été financés pour élaborer ce cloud ([EOSCpilot](https://eoscpilot.eu/), [EOSC-Pillar](https://www.eosc-pillar.eu/), [EOSC-hub](https://www.eosc-hub.eu/) etc.), il montre les possibilités de collaboration. Depuis 2019, une structuration est en cours avec la mise en place d’une gouvernance temporaire et une implication forte des ministères en charge de la recherche dans les différents pays européens. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement complémentaires dans le programme cadre "Horizon Europe".
 
-```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf)  
+```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Beckmann.pdf)  
 :class: seealso
 Volker Beckman,  CNRS/IN2P3   
 Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020
