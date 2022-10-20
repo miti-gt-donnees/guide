@@ -164,7 +164,7 @@ En débutant par un point sur l’état de l’art (définition, réglementation
 - Quels sont les critères de surveillance et systèmes de contrôle des installations ? 
 - Comment doit-on travailler en salles propres ? Quelles sont les bonnes pratiques de gestion d'une salle propre ?
 
-```{admonition} [Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences](<https://sallespropres17.sciencesconf.org/program>)   
+```{admonition} [Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences](<https://sallespropres17.sciencesconf.org/program.html>)   
 :class: seealso
 Journée thématique, réseau QeR, 2017   
 ```
