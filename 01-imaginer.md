@@ -68,26 +68,13 @@ Ces dernières années, la réglementation en matière de science ouverte a larg
 
 **Un contexte politique favorable à la gestion et au partage des données**
 
-En 2018, à la suite des objectifs fixés par l'Europe, la France s'est dotée d'un [plan national pour la science ouverte](https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf)
-
-<modif: CH JJ>
-qui prône la diffusion sans entraves des publications et des données de la recherche. Renouvelé en 2021 dans la continuité des [actions menées au cours des trois dernières années](https://www.ouvrirlascience.fr/wp-content/uploads/2021/07/Bilan-PNSO-2018-2021.pdf), et en résonance avec la [loi de programmation de la recherche de 2020](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042738033), ce [second plan](https://www.ouvrirlascience.fr/wp-content/uploads/2021/06/Deuxieme-Plan-National-Science-Ouverte_2021-2024.pdf) inscrit la science ouverte dans les missions des chercheurs et des enseignants-chercheurs, vise 100% des publications en accès ouvert en 2030 et s’enrichit d’un nouvel axe dédié aux codes sources et logiciels libre prenant appui sur la [politique nationale des données, des algorithmes et des codes sources](https://www.numerique.gouv.fr/uploads/feuillederoute_mesri.pdf) impulsée par le Premier ministre.
+En 2018, à la suite des objectifs fixés par l'Europe, la France s'est dotée d'un [plan national pour la science ouverte](https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf) qui prône la diffusion sans entraves des publications et des données de la recherche. Renouvelé en 2021 dans la continuité des [actions menées au cours des trois dernières années](https://www.ouvrirlascience.fr/wp-content/uploads/2021/07/Bilan-PNSO-2018-2021.pdf), et en résonance avec la [loi de programmation de la recherche de 2020](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042738033), ce [second plan](https://www.ouvrirlascience.fr/wp-content/uploads/2021/06/Deuxieme-Plan-National-Science-Ouverte_2021-2024.pdf) inscrit la science ouverte dans les missions des chercheurs et des enseignants-chercheurs, vise 100% des publications en accès ouvert en 2030 et s’enrichit d’un nouvel axe dédié aux codes sources et logiciels libre prenant appui sur la [politique nationale des données, des algorithmes et des codes sources](https://www.numerique.gouv.fr/uploads/feuillederoute_mesri.pdf) impulsée par le Premier ministre.
 
 Suivant le même cap à l’échelle internationale, l’UNESCO produit en novembre 2021, une [recommandation sur la science ouverte](https://www.ouvrirlascience.fr/recommandation-de-lunesco-sur-une-science-ouverte/) et propose des actions en convergence avec le deuxième Plan national pour la Science ouverte.
 
-</modif: CH JJ>
+Le CNRS, a pour sa part rédigé une [feuille de route pour la science ouverte](https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf) s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d'une culture de la gestion et du partage des données, (iii) développement d'infrastructure pour la fouille et (iv) l'analyse des contenus et la transformation des modalités d'évaluation des chercheurs). 
 
-
-<modif: CH JJ A SUPPRIMER>
-
-. Présenté le 4 juillet par Frédérique Vidal, la ministre de l’Enseignement et de la Recherche, ce plan prône la diffusion sans entraves des publications et des données de la recherche. Il comporte différentes mesures déclinées en trois axes stratégiques et pose les conditions du développement de la science ouverte dans nos établissements. Dans la continuité de ce plan, 
-
-</modif: CH JJ A SUPPRIMER>
-
-<modif: CH JJ> Le CNRS, a pour sa part <modif: CH JJ> rédigé une [feuille de route pour la science ouverte](https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf) s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d'une culture de la gestion et du partage des données, (iii) développement d'infrastructure pour la fouille et (iv) l'analyse des contenus et la transformation des modalités d'évaluation des chercheurs). 
-
-
-<modif: CH JJ>Il a également publié <modif: CH JJ>, <modif: CH JJ A SUPPRIMER>Enfin, le CNRS a publié <modif: CH JJ A SUPPRIMER> en novembre 2020 un [plan Données de la recherche](https://www.cnrs.fr/sites/default/files/pdf/Plaquette_PlanDDOR_Nov20.pdf) avec l'objectif d'accélérer le développment vers la science ouverte, et d'encourager les chercheurs à rendre leur données accessibles et réutilisables. A côté de la mise en place d'une politique des données en phase avec les besoins des communautés scientifiques, ce plan envisage un nouveau mode de gouvernance et un plan d'action pour les données de la recherche.
+Il a également publié en novembre 2020 un [plan Données de la recherche](https://www.cnrs.fr/sites/default/files/pdf/Plaquette_PlanDDOR_Nov20.pdf) avec l'objectif d'accélérer le développment vers la science ouverte, et d'encourager les chercheurs à rendre leur données accessibles et réutilisables. A côté de la mise en place d'une politique des données en phase avec les besoins des communautés scientifiques, ce plan envisage un nouveau mode de gouvernance et un plan d'action pour les données de la recherche.
 
 Du côté des financeurs de la recherche, l’ANR dans son plan d’action 2020 réaffirme son engagement en faveur de la science ouverte. En lien avec le plan national pour la science ouverte, elle demande l’élaboration d’un Plan de Gestion des Données (PGD) pour les projets financés à partir de 2019. Partant des recommandations du [Comité pour la Science Ouverte](https://www.ouvrirlascience.fr/) (CoSO), elle a adopté un [modèle de PGD](https://anr.fr/fileadmin/documents/2019/ANR-modele-PGD.pdf) proposé par Science Europe qui vise à harmoniser la gestion des données au niveau international. Ce plan constitue désormais un livrable de tout projet financé par l'ANR.
 
@@ -117,7 +104,7 @@ Volker Beckman,  CNRS/IN2P3
 Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020
 ```
 
-Pour accompagner les communautés de chercheurs,<modif: CH une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/fr/la-feuille-de-route-nationale-des-infrastructures-de-recherche-2021-84056) </modif: CH est mise à disposition sur son site par le ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation. Elle recense aujourd’hui <MODIF A SUPP supp 99 infrastructures </MODIF A SUPP <modif :ch 108 infrastructures de formes et contenus variés </modif CH et est régulièrement remise à jour. 
+Pour accompagner les communautés de chercheurs, une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/fr/la-feuille-de-route-nationale-des-infrastructures-de-recherche-2021-84056) est mise à disposition sur son site par le ministère de l’Enseignement supérieur et de la Recherche. Elle recense aujourd’hui 108 infrastructures de formes et contenus variés et est régulièrement remise à jour. 
 
 Les projets de recherche au sein de ces infrastructures ont donné lieu à certains retours d’expériences qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche.  (Ils sont détaillés dans la partie dédiée aux {ref}`infrastructures`)
 
