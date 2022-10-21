@@ -176,7 +176,7 @@ Journée thématique, réseau QeR, 2017
 
 Diverses communautés scientifiques sont intéressées par les problématiques inhérentes aux systèmes d'acquisitions et aux instruments associés. Différents aspects de collecte de données existent, qu'ils proviennent d'un équipement, d'un capteur automatisé, d'un modèle numérique ou qu'ils soient obtenus par un personnel de terrain, par une enquête, au moyen d'interfaces. Dès lors, il convient d'élaborer des méthodologies de collecte, de se documenter sur les choix des référentiels de métadonnées et des thésaurus de vocabulaire, mais également de développer les procédures d'intégration des données dans les bases.
 
-Pour la thématique "Ocean-Atmosphere" cette problématique occupe une place importante, à tel point que, depuis plusieurs décennies, METEO-FRANCE et l'INSU depuis 1966, l'IFREMER depuis 2002, l'IRD et le CNES depuis 2004, le Service hydrographique et océanographique de la Marine (SHOM) depuis 2005, organisent un atelier dédié aux rencontres portant sur l'expériementation et l'instrumentation. Cet [Atelier Expérimentation et Instrumentation (AEI)](http://www.aei-ocean-atmosphere.org/) permet de réunir la communauté scientifique spécialisée dans la recherche instrumentale et de traiter divers thèmes d'actualité lors de ses [différentes éditions](http://www.aei-ocean-atmosphere.org/Editions-Precedentes).
+Pour la thématique "Ocean-Atmosphere" cette problématique occupe une place importante, à tel point que, depuis plusieurs décennies, METEO-FRANCE et l'INSU depuis 1966, l'IFREMER depuis 2002, l'IRD et le CNES depuis 2004, le Service hydrographique et océanographique de la Marine (SHOM) depuis 2005, organisent un atelier dédié aux rencontres portant sur l'expérimentation et l'instrumentation. Cet [Atelier Expérimentation et Instrumentation (AEI)](http://www.aei-ocean-atmosphere.org/) permet de réunir la communauté scientifique spécialisée dans la recherche instrumentale et de traiter divers thèmes d'actualité lors de ses [différentes éditions](http://www.aei-ocean-atmosphere.org/Editions-Precedentes).
 L'AEI traite de manière privilégiée les aspects de mesure et de méthodologie, sans exclure pour autant l'exploitation scientifique des résultats. Il a lieu alternativement à Paris, Toulon, Lille et Brest, généralement en début d'année. L'AEI permet aux équipes de recherche d'exposer leurs résultats dans un colloque francophone. C'est un lieu de rencontre pour les participants, issus des différents organismes et groupes industriels, afin de favoriser les synergies et coopérations. 
 
 Pour la gestion des capteurs, l'[OGC (Open Geospatial Consortium)](https://www.ogc.org/standards) cité précédemment, publie un standard d’interopérabilité, [Sensor Web Enablement (SWE)](http://docs.opengeospatial.org/wp/07-165r1/), qui permet de présenter des données de capteurs de manière standardisée et interopérable. Ce protocole et les logiciels qui les implémentent sont bien adaptés à la description des capteurs et à la gestion des séries temporelles.
@@ -230,7 +230,7 @@ Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de
 
 Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d'un réseau de stations météorologiques de la région rennaise.
 
-```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome](https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX) :  exemple de la métropole rennaise (Zone Atelier Armorique)   
+```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome : exemple de la métropole rennaise (Zone Atelier Armorique)](https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX)    
 :class: seealso
 Alban Thomas - Hervé Quénol UMR LETG Rennes    
 [Séminaire SIST15, OSU Pytheas Marseille](https://sist.cnrs.fr/sist15/)   
@@ -238,13 +238,11 @@ Alban Thomas - Hervé Quénol UMR LETG Rennes
 
 ### Surveillance et monitoring des chaine de collecte
 
-Récupérer des données releve souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs transferts de fichiers, voire plusieurs transformations de données.
-
-Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systeme de contrôles, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port, au bon format, à l'endroit ou elles sont attendues.
+Récupérer des données releve souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs transferts de fichiers, voire plusieurs transformations de données. Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systemes de contrôle, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port, au bon format, à l'endroit ou elles sont attendues.
 
 L'élaboration de "dashboard" ou "tableau de contrôle" peut etre envisagé pour ce type de surveillance.
 
-En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il etait nécessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaines au contrôle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes_
+En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il etait nécessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaines au contrôle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes.
 
 Franck Gabarrot préconise "Apache Airflow" qui est un outil open source d’orchestration de workflows programmables en
 Python. [workflow = pipeline = flux de travaux = enchaînement de tâches]
@@ -256,10 +254,7 @@ Franck Gabarrot
 [séminaire SIST19 à Toulouse](https://sist.cnrs.fr/sist19/)
 ```
 
-
-Lors du séminaire SIST22 à Grenoble, une session a été consacrée à quelques outils de monitoring pour surveiller les données
-
-Emmanuel Delage présente le logiciel Grafana permettant la visualisation de données temporelles à l'aide de graphiques organisés en tableaux de bord. Les données du site instrumenté COPDD de l'OPGC sont envoyés toutes les 5 minutes sur le serveur Web au moyen de services Web de l'observatoire virtuel. Ensuite ces données sont enregistrées dans une base de données PostgreSQL contenant l'ensemble des données des derniers sept jours. Cette base de données est définie en tant que source sur le serveur Grafana, permettant la visualisation sous forme de graphiques des données proche temps-réel, sur le serveur Web, selon différents paramètres d'affichage au design reponsive.
+Lors du séminaire SIST22 à Grenoble, une session a été consacrée à quelques outils de monitoring pour surveiller les données. Emmanuel Delage présente le logiciel Grafana permettant la visualisation de données temporelles à l'aide de graphiques organisés en tableaux de bord. Les données du site instrumenté COPDD de l'OPGC sont envoyées toutes les 5 minutes sur le serveur Web au moyen de services Web de l'observatoire virtuel. Ensuite ces données sont enregistrées dans une base de données PostgreSQL contenant l'ensemble des données des derniers sept jours. Cette base de données est définie en tant que source sur le serveur Grafana, permettant la visualisation sous forme de graphiques des données proche temps-réel, sur le serveur Web, selon différents paramètres d'affichage au design reponsive.
 
 ```{admonition} [Visualisation des quicklooks du site national instrumenté COPDD au moyen de Grafana](https://sist.cnrs.fr/wp-content/uploads/2022/06/01-SIST22-Visu-Quicklooks-COPDD-1.pdf)
 :class: seealso
@@ -267,10 +262,7 @@ Emmanuel Delage
 [séminaire SIST22 à Grenoble](https://sist.cnrs.fr/sist22), réseau SIST, Juin 2022  
 ```
 
-Christophe Ferrier  présente le [logiciel "ReDash"](https://redash.io/) qui permet de concevoir un dashboard facilement et rapidement sans programmation. L'objectif de ReDash est de se connecter à une source de données (donc préférablement avec un protocoel interopérable) d'établir des requetes pour filtrer les données, et le logiciel compose des graphes automatiquement.
-Cet type de DashBoard permet donc de surveiller ses donénes en les visualisant en temps réel
-
-Connect and query your data sources, build dashboards to visualize data and share them with your company.
+Christophe Ferrier  présente le [logiciel "ReDash"](https://redash.io/) qui permet de concevoir un dashboard facilement et rapidement sans programmation. L'objectif de ReDash est de se connecter à une source de données (donc préférablement avec un protocoel interopérable) d'établir des requetes pour filtrer les données, et le logiciel compose des graphes automatiquement. Cet type de DashBoard permet donc de surveiller ses données en les visualisant en temps réel.
 
 ```{admonition} [Concevoir un dashboard sans programmation et en 3 clicks… Ou presque !!](https://sist.cnrs.fr/sist22/#retours-dexperiences-et-presentations)
 :class: seealso
@@ -278,7 +270,7 @@ Christophe Ferrier
 [séminaire SIST22 à Grenoble,](https://sist.cnrs.fr/sist19/) réseau SIST, Juin 2022  
 ```
 
-Enfin W. Masson dans le même esprit de mise en place de "DashBoards" utilise le Framework "Dash" en Python développé en 2017 par la société Plotly. Ce Framework Permet de développer des applications web de type tableau de bord pour la visualisation de  données et pour créer des interfaces utilisateurs interactives. "Dash" offre  une couche d'abstraction qui permet de développer 100% en Python la visualisation et le monitoring de données.
+Enfin W. Masson dans le même esprit de mise en place de "DashBoards" utilise le Framework "Dash" en Python développé en 2017 par la société Plotly. Ce Framework permet de développer des applications web de type tableau de bord pour la visualisation de  données et pour créer des interfaces utilisateurs interactives. "Dash" offre  une couche d'abstraction qui permet de développer 100% en Python la visualisation et le monitoring de données.
 
 
 ```{admonition} [Framework Dash – Dashboard web 100% Python ](https://sist.cnrs.fr/wp-content/uploads/2022/06/03-SIST22-dash.pdf)
@@ -290,11 +282,11 @@ séminaire SIST22 à Grenoble, réseau SIST, Juin 2022
 
 ### Web scraping ou grattage Web : collecte automatique et analyse de données 
 
-"Le Web scraping est une technique permettant de convertir des données présentes dans un format non structuré (balises HTML) sur le Web en un format structuré facilement utilisable. Les exemples peuvent aller du texte sur Wikipedia, à des images sur Flickr en passant par les commentaires sur TripAdvisor, les articles d’actualité ou de chercheurs ou n’importe quelle page web présente sur Internet" [Introduction au Webscraping](https://stateofther.github.io/finistR2018/atelier1_webscraping_intro.html).
+"Le Web scraping est une technique permettant de convertir des données présentes dans un format non structuré (balises HTML) sur le Web en un format structuré facilement utilisable. Les exemples peuvent aller du texte sur Wikipedia, à des images sur Flickr en passant par les commentaires sur TripAdvisor, les articles d’actualité ou de chercheurs ou n’importe quelle page web présente sur Internet" ([Introduction au Webscraping](https://stateofther.github.io/finistR2018/atelier1_webscraping_intro.html)).
 
 Depuis l’explosion quantitative des données numériques, il est devenu extrêmement intéressant d’apprendre à recueillir, comprendre et exploiter les informations issues du web. On constate ces dernières années, dans le domaine des sciences sociales, l'intérêt croissant des chercheurs ou ingénieurs pour l'utilisation de nouvelles techniques de collecte et de traitement automatisé des données et en particulier des données massives. Chaque utilisateur en fonction de son profil et de ses compétences peut choisir une technologie partant de simples outils comme les aspirateurs de site qui permettent de réaliser des opérations basiques de grattage (scraping) jusqu’à l’utilisation de langages plus performants comme R ou Python pour des utilisateurs plus avancés.
 
-Au-delà des fonctionnalités de grattage web, la présentation « [Analyse de données avec R](https://hpecout.gitpages.huma-num.fr/R_presentation_FR/) » proposée par Hugues Pécout (CNRS) donne un exemple de l’analyse de donnée avec le logiciel R. En plus d’une présentation du logiciel R et de RStudio, elle contextualise R dans le paysage de l’analyse de données en le comparant à des logiciels propriétaires existants sur le marché ainsi qu’au langage Python. En Python, il faut utiliser le package BeautifulSoup, qui est très populaire [Webscraping avec Python](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/TD2A_Eco_Web_Scraping.html).
+Au-delà des fonctionnalités de grattage web, la présentation « [Analyse de données avec R](https://hpecout.gitpages.huma-num.fr/R_presentation_FR/) » proposée par Hugues Pécout (CNRS) donne un exemple de l’analyse de données avec le logiciel R. En plus d’une présentation du logiciel R et de RStudio, elle contextualise R dans le paysage de l’analyse de données en le comparant à des logiciels propriétaires existants sur le marché ainsi qu’au langage Python. En Python, il faut utiliser le package BeautifulSoup, qui est très populaire [Webscraping avec Python](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/TD2A_Eco_Web_Scraping.html).
 
 Ces outils sont depuis quelques années en plein essor car ils permettent d’automatiser la constitution des bases de données, de collecter des sommes de données importantes, inaccessibles il y a de cela quelques années comme les données de réseaux sociaux, de compiler des données pour créer ses propres indicateurs (impossible avec des techniques de collecte classiques) ou encore de nettoyer, structurer des données déjà existantes… Ces modes de collecte automatisés renvoient aussi aux notions d'exploration de données (Data Crawling) et de récolte de données (Data Harvesting). 
 
@@ -494,9 +486,9 @@ Benoit Parrein
 ANF "Des données au BigData : exploitez le stockage distribué !", 2016   
 ```
 
-Divers outils de sauvegarde des données sont fréquemment utilisés dans les milieux informatiques comme [backuppc](https://backuppc.github.io/backuppc/), [bacula](https://www.bacula.org/), [rdiff-backup](https://rdiff-backup.net/)
+Divers outils de sauvegarde des données sont fréquemment utilisés dans les milieux informatiques comme [backuppc](https://backuppc.github.io/backuppc/), [bacula](https://www.bacula.org/), [rdiff-backup](https://rdiff-backup.net/).
 
-Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des fonctionnalités de _déduplication_. Cette technologie consistant à réduire les volumes sauvegardés et les durées de sauvegarde en découpant les gros fichiers en fragments (blocs) et en ne sauvegardant qu'une seule fois les fragments identiques.
+Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des fonctionnalités de _déduplication_. Cette technologie consiste à réduire les volumes sauvegardés et les durées de sauvegarde en découpant les gros fichiers en fragments (blocs) et en ne sauvegardant qu'une seule fois les fragments identiques.
 
 Un retour d'expérience sur le [logiciel borgbackup](https://borgbackup.readthedocs.io/en/stable/) donne des résultats intéressants et prend tout son sens quand on a beaucoup de fichiers volumineux peu différents.
 
