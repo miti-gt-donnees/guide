@@ -89,9 +89,9 @@ Séminaire SIST15 - [OSU Pytheas Marseille 2015](https://sist.cnrs.fr/sist15/)
 Parmi les standards de l'OGC les plus utilisés dans nos réseaux métiers chez les gestionnaires de données environnementales, on peut citer :
 -    [CS-W](https://www.ogc.org/standards/cat) - Catalog Service for the Web : ce protocole est destiné à diffuser des métadonnées ISO 19139 et permettre l'interrogation de catalogues de métadonnées. Une très bonne implémentation de ce protocole est réalisée dans le logiciel ["Geonetwork"](<https://geonetwork-opensource.org/>) utilisé pour constituer des catalogues et des inventaires de jeux de données et les présenter sur le Web de manière interopérable. Ce logiciel est détaillé dans le chapitre 7 "Publier" du  présent guide, dédié à la publication des jeux de données. 
 Grâce à ce protocole, on peut constituer des réseaux de catalogues tels que demandés par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
--  [WMS](https://www.ogc.org/standards/wms) - [Web Map Service](https://fr.wikipedia.org/wiki/Web_Map_Service) est un protocole de communication standard qui permet de constituer des cartes de données géoréférencées à partir de différents serveurs de données cartographiques. . 
+-  [WMS](https://www.ogc.org/standards/wms) - [Web Map Service](https://fr.wikipedia.org/wiki/Web_Map_Service) est un protocole de communication standard qui permet de constituer des cartes de données géoréférencées à partir de différents serveurs de données cartographiques. 
    
-Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d'interopérabilité WMS, CSW et SOS qui permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d'observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.
+Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d'interopérabilité WMS, CSW et SOS. Ils permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d'observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.
 
 ```{admonition} ["Gestion des données d'observation : les outils informatiques pour la valorisation" ](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)   
 :class: seealso
@@ -127,12 +127,12 @@ Le RGPD est perçu bien souvent comme un véritable obstacle à la collecte de d
 
 Après une définition claire de ce que sont les données et le traitement de données à caractère personnel, on découvre les trois exceptions applicables aux domaine de la recherche permettant de collecter des données personnelles à savoir le consentement, la mission de service public et les intérêts légitimes. 
 
-Au sujet du consentement libre et éclairé, difficile, voire impossible à obtenir dans certain cas, on verra qu’il n’est pas forcément obligatoire et qu’en pratique le fondement de licéité (base légale d'un traitement de données personnelles) repose davantage (si ce n’est exclusivement) sur le principe de mission de service public (et non sur celui de consentement).
+Au sujet du consentement libre et éclairé, difficile, voire impossible à obtenir dans certains cas, on verra qu’il n’est pas forcément obligatoire et qu’en pratique le fondement de licéité (base légale d'un traitement de données personnelles) repose davantage (si ce n’est exclusivement) sur le principe de mission de service public (et non sur celui de consentement).
 
 Quant aux données sensibles, même si par principe leur collecte n’est pas autorisée, nous apprenons 
-•	qu’un consentement explicite pour une ou plusieurs finalités spécifiques peut lever cette interdiction, 
-•	qu’il est possible de collecter des données sensibles manifestement rendues publiques par la personne concernée, 
-•	ou de justifier la collecte du fait d’un nécessaire archivage dans l’intérêt public, selon certaines conditions (détaillées dans l’intervention).
+-	qu’un consentement explicite pour une ou plusieurs finalités spécifiques peut lever cette interdiction, 
+-	qu’il est possible de collecter des données sensibles manifestement rendues publiques par la personne concernée, 
+-	ou de justifier la collecte du fait d’un nécessaire archivage dans l’intérêt public, selon certaines conditions (détaillées dans l’intervention).
 
 Avant de conclure sur la nécessaire mise en sécurité des données personnelles, Emilie Masson indique la démarche à suivre pour être en conformité avec la loi : 
 -	Déterminer son objectif (finalité du projet de recherche) : cela est possible aussi en cas de recherche exploratoire !
