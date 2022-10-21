@@ -432,7 +432,7 @@ Pierre-Yves Arnould nous présente sa solution à base de ODK pour Faciliter la 
 Uniformiser la structure des fichiers, Génération d’étiquettes pour les échantillons, et Sauvegarder automatiquement sur un micro-serveur
 sur le terrain puis sur le SI OTELo
 
-```{admonition} [Retour terrain : la délicate question de l’intégration des données](http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33)   
+```{admonition} [Retour terrain : la délicate question de l’intégration des données](https://rbdd.cnrs.fr/spip.php?article317)   
 :class: seealso   
 Pierre-Yves Arnould, OTELo   
 ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019, Sète.   
@@ -469,9 +469,13 @@ Séminaire « les technologies mobiles : retours d'expériences et prospectives 
 
 Fruit d’une collaboration initiale entre l'Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENSs à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.
 
-```{admonition} [Webinaire Collec-Science](http://rbdd.cnrs.fr/spip.php?article360)   
+```{admonition} [Collec-Science](http://rbdd.cnrs.fr/spip.php?article360)   
 :class: seealso
-Réseau rBDD, 2021
+Webinaire réseau rBDD, 2021
+```
+```{admonition} [« Outils de gestion de collections de recherche »](http://rbdd.cnrs.fr/spip.php?article349)   
+:class: seealso
+Webinaire réseau rBDD, 2020
 ```
 
 ## Environnements de stockage - Sauvegarder les données
