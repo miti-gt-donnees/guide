@@ -76,14 +76,14 @@ La norme ISO 19139 est l'implémentation XML de la norme ISO 19115. Elle défini
 
 ### Les protocoles standards en information Géographique 
 
-L'échange de données d'une plateforme à l'autre se fait au travers de protocoles informatiques. De ce fait, si l'on veut que les systèmes soient interopérables entre eux, il est nécessaire d'utiliser des protocoles ouverts et standards pour permettre l'interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, [l'Open Geospatial Consortium (OGC)](https://www.ogc.org/standards/), est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l'interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l'information géographique. 
+L'échange de données d'une plateforme à l'autre se fait au travers de protocoles informatiques. De ce fait, si l'on veut que les systèmes soient interopérables entre eux, il est nécessaire d'utiliser des protocoles ouverts et standards, voire normés, pour permettre l'interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, [l'Open Geospatial Consortium (OGC)](https://www.ogc.org/standards/), est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l'interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l'information géographique. 
 
 Les standards OGC sont importants à connaitre dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l'Institut National des Sciences de l'Univers (INSU). Pour ce dernier réseau, l'interopérabilité dans la gestion des données des Observatoires de l'INSU est un enjeu important.
 
-```{admonition} [Les Normes OGC (Open Geospatial Consortium)](https://sist15.sciencesconf.org/data/program/ogc.pdf)   
+```{admonition} [Les Normes OGC (Open Geospatial Consortium)](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?dir=undefined&openfile=651558)   
 :class: seealso
 François André, Aeris   
-Séminaire SIST15 - OSU Pytheas Marseille 2015
+Séminaire SIST15 - [OSU Pytheas Marseille 2015](https://sist.cnrs.fr/sist15/)
 ```
 
 Parmi les standards de l'OGC les plus utilisés dans nos réseaux métiers chez les gestionnaires de données environnementales, on peut citer :
@@ -104,7 +104,7 @@ Sylvain Grelet communique par exemple le retour d'expérience sur l'utilisation 
 ```{admonition} [De la définition au déploiement de standards d'interopérabilité :](https://nuage.osupytheas.fr/s/aQogG6iPq6eGabf) retour d'expérience de la Direction des Systèmes d'Information (DSI) du BRGM   
 :class: seealso
 Grellet Sylvain, Stéphane Loigerot, BRGM   
-[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)  
+[Séminaire SIST15, Marseille](https://sist.cnrs.fr/sist15/)  
 ```
 
 Véronique Chaffard nous présente la mise en oeuvre des standards de l'OGC dans le projet AMMA-CATCH :
@@ -112,7 +112,7 @@ Véronique Chaffard nous présente la mise en oeuvre des standards de l'OGC dans
 ```{admonition} [Portail Web d'accès aux données de l'observatoire AMMA-CATCH et mise en oeuvre des standards d'échange des données OGC ](https://nuage.osupytheas.fr/s/Mrm2oRT8QFt9HS9)   
 :class: seealso
 Véronique Chaffard, IRD  
-[Séminaire SIST15, OSU Pytheas Marseille](https://sist15.sciencesconf.org)
+[Séminaire SIST15, OSU Pytheas Marseille](https://sist.cnrs.fr/sist15/)
 ```
 
 ## Les systèmes d'acquisition : maîtriser l’acquisition et la collecte des données
@@ -140,10 +140,10 @@ Avant de conclure sur la nécessaire mise en sécurité des données personnelle
 -	Ne collecter que les données nécessaires et en lien avec son objectif (en justifiant le besoin)
 -	Déterminer une durée de conservation
 
-```{admonition} [Tout est possible avec le RGPD)](https://videos.univ-grenoble-alpes.fr/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)   
+```{admonition} [Tout est possible avec le RGPD](https://videos.univ-grenoble-alpes.fr/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)   
 :class: seealso
 Emilie Masson, CNRS   
-[Séminaire « Journée Gestion des données de recherche en SHS", Grenoble, 202](https://gdr2021.sciencesconf.org/)
+[Séminaire « Journée Gestion des données de recherche en SHS », Grenoble, 2021](https://gdr2021.sciencesconf.org/) 
 ```
 
 ### La métrologie des équipements
@@ -166,7 +166,7 @@ En débutant par un point sur l’état de l’art (définition, réglementation
 - Quels sont les critères de surveillance et systèmes de contrôle des installations ? 
 - Comment doit-on travailler en salles propres ? Quelles sont les bonnes pratiques de gestion d'une salle propre ?
 
-```{admonition} [Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences](<https://sallespropres17.sciencesconf.org/program>)   
+```{admonition} [Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences](<https://sallespropres17.sciencesconf.org/program.html>)   
 :class: seealso
 Journée thématique, réseau QeR, 2017   
 ```
@@ -186,7 +186,7 @@ Le protocole "[SOS" (Sensor observation service) de l'OGC](https://www.ogc.org/s
 ```{admonition} [Sensor Web Enablement Standards & Technology](<https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk>)   
 :class: seealso
 Christoph Stasch, Simon Jirka, 52North   
-[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)
+[Séminaire SIST15, Marseille](https://sist.cnrs.fr/sist15/)
 ```
 
 Actuellement on trouve deux implémentations intéressantes du protocole SOS dans la gestion des données de capteurs environnementaux. Il s'agit de :
@@ -198,19 +198,18 @@ istSOS est un logiciel libre qui fonctionne sur toutes les principales plates-fo
 ```{admonition} [Présentation du logiciel istSOS](https://nuage.osupytheas.fr/s/eK7y9w6ewfL36Kk)
 :class: seealso
 Massimiliano Canata   
-[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)  
+[Séminaire SIST15, Marseille](https://sist.cnrs.fr/sist15/)  
 ```
 
 Ces 2 logiciels ont été présentés par Christoph Stasch, et Massimiliano Canata lors du séminaire du réseau [SIST](https://sist.cnrs.fr) en 2015 à l'[OSU Pytheas Marseille](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz).
 
 Stephane Debard présente l'utilisation d'istSOS dans la gestion de mesures altimétriques radars : 
 
-```{admonition} [Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS ](https://sist19.sciencesconf.org/data/pages/SIST19_S_Debard.pdf)   
+```{admonition} [Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-02-S-Debard-Altimetrie-spatiale-et-istSOS.pdf)   
 :class: seealso
 Stéphane Debard IRD   
-[Séminaire SIST19 OMP Toulouse](https://sist19.sciencesconf.org)   
+[Séminaire SIST19 OMP Toulouse](https://sist.cnrs.fr/sist19/)   
 ```
-
 
 
 ### Les chaines de collecte
@@ -218,15 +217,15 @@ Les gestionnaires de données environnementales mettent en place des chaînes de
 
 Regis Hocdé et ses collègues nous présentent un retour d'expérience sur le réseau de suivi de température des eaux côtières dans la région du Pacifique Sud et Sud-Ouest :
 
-```{admonition} [Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG)   
+```{admonition} [Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG)
 :class: seealso
 Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement    
-[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)   
+[Séminaire SIST15, Marseille](https://sist.cnrs.fr/sist15/)   
 ```
-```{admonition} [Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf>)   
+```{admonition} [Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-12-R-Hocde-Reseau-dobservations-Reeftemps.pdf>)   
 :class: seealso
 Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de Recherche pour le Développement    
-[Séminaire SIST16,  OSU OREME, Montpellier ](https://sist16.sciencesconf.org) 
+[Séminaire SIST16,  OSU OREME, Montpellier ](https://sist.cnrs.fr/sist16/) 
 ```
 
 Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d'un réseau de stations météorologiques de la région rennaise.
@@ -234,8 +233,60 @@ Alban Thomas nous présente la technologie utilisée à base de Raspberry et de 
 ```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome](https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX) :  exemple de la métropole rennaise (Zone Atelier Armorique)   
 :class: seealso
 Alban Thomas - Hervé Quénol UMR LETG Rennes    
-[Séminaire SIST15, OSU Pytheas Marseille](https://sist15.sciencesconf.org)   
+[Séminaire SIST15, OSU Pytheas Marseille](https://sist.cnrs.fr/sist15/)   
 ```
+
+### Surveillance et monitoring des chaine de collecte
+
+Récupérer des données releve souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs transferts de fichiers, voire plusieurs transformations de données.
+
+Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systeme de contrôles, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port, au bon format, à l'endroit ou elles sont attendues.
+
+L'élaboration de "dashboard" ou "tableau de contrôle" peut etre envisagé pour ce type de surveillance.
+
+En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il etait nécessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaines au contrôle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes_
+
+Franck Gabarrot préconise "Apache Airflow" qui est un outil open source d’orchestration de workflows programmables en
+Python. [workflow = pipeline = flux de travaux = enchaînement de tâches]
+
+Service de gestion des flux de données basé sur Apache Airflow – F. Gabarrot
+```{admonition} [Service de gestion des flux de données basé sur Apache Airflow ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-05-F-Gabarrot-Gestion-des-flux-avec-Apache-Airflow.pdf)
+:class: seealso
+Franck Gabarrot
+[séminaire SIST19 à Toulouse](https://sist.cnrs.fr/sist19/)
+```
+
+
+Lors du séminaire SIST22 à Grenoble, une session a été consacrée à quelques outils de monitoring pour surveiller les données
+
+Emmanuel Delage présente le logiciel Grafana permettant la visualisation de données temporelles à l'aide de graphiques organisés en tableaux de bord. Les données du site instrumenté COPDD de l'OPGC sont envoyés toutes les 5 minutes sur le serveur Web au moyen de services Web de l'observatoire virtuel. Ensuite ces données sont enregistrées dans une base de données PostgreSQL contenant l'ensemble des données des derniers sept jours. Cette base de données est définie en tant que source sur le serveur Grafana, permettant la visualisation sous forme de graphiques des données proche temps-réel, sur le serveur Web, selon différents paramètres d'affichage au design reponsive.
+
+```{admonition} [Visualisation des quicklooks du site national instrumenté COPDD au moyen de Grafana](https://sist.cnrs.fr/wp-content/uploads/2022/06/01-SIST22-Visu-Quicklooks-COPDD-1.pdf)
+:class: seealso
+Emmanuel Delage  
+[séminaire SIST22 à Grenoble](https://sist.cnrs.fr/sist22), réseau SIST, Juin 2022  
+```
+
+Christophe Ferrier  présente le [logiciel "ReDash"](https://redash.io/) qui permet de concevoir un dashboard facilement et rapidement sans programmation. L'objectif de ReDash est de se connecter à une source de données (donc préférablement avec un protocoel interopérable) d'établir des requetes pour filtrer les données, et le logiciel compose des graphes automatiquement.
+Cet type de DashBoard permet donc de surveiller ses donénes en les visualisant en temps réel
+
+Connect and query your data sources, build dashboards to visualize data and share them with your company.
+
+```{admonition} [Concevoir un dashboard sans programmation et en 3 clicks… Ou presque !!](https://sist.cnrs.fr/sist22/#retours-dexperiences-et-presentations)
+:class: seealso
+Christophe Ferrier  
+[séminaire SIST22 à Grenoble,](https://sist.cnrs.fr/sist19/) réseau SIST, Juin 2022  
+```
+
+Enfin W. Masson dans le même esprit de mise en place de "DashBoards" utilise le Framework "Dash" en Python développé en 2017 par la société Plotly. Ce Framework Permet de développer des applications web de type tableau de bord pour la visualisation de  données et pour créer des interfaces utilisateurs interactives. "Dash" offre  une couche d'abstraction qui permet de développer 100% en Python la visualisation et le monitoring de données.
+
+
+```{admonition} [Framework Dash – Dashboard web 100% Python ](https://sist.cnrs.fr/wp-content/uploads/2022/06/03-SIST22-dash.pdf)
+:class: seealso
+William Masson, Nathalie Reynaud, Arthur Coqué, Michel Candido & Thierry Tormos
+séminaire SIST22 à Grenoble, réseau SIST, Juin 2022  
+```
+
 
 ### Web scraping ou grattage Web : collecte automatique et analyse de données 
 
@@ -256,7 +307,7 @@ L’ensemble des données produites par la recherche doit être répertorié et 
 
 Alain Rivet positionne le cahier de laboratoire comme un outil de gestion des données de la recherche : 
 
-```{admonition} [Cahier de laboratoire et gestion des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Rivet.pdf)
+```{admonition} [Cahier de laboratoire et gestion des données de la recherche](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Rivet.pdf)
 :class: seealso
 Alain Rivet, CERMAV  
 Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
@@ -299,7 +350,7 @@ Paul-Guy Dupré, Fanny Brizzi Inserm, DSI
 ```{admonition} [Déploiement du cahier de laboratoire  électronique à l’INSERM et nouvelles perspectives]( https://conf-ng.jres.org/2019/document_revision_5213.html?download)   
 :class: seealso
 PaulGuy Dupré Inserm & Claudia Gallina-Muller - Inserm DSI   
-[JRES2019  ](https://www.jres.org/fr/programme/)   
+[JRES2019  ](https://2019.jres.org/fr/programme/)   
 ```
 
 La problématique des cahiers de laboratoire électroniques s'est intensifiée ces dernières années. Ainsi, le CNRS a lancé en 2020 une réflexion sur la mise en place de cahiers de laboratoires électroniques suite aux besoins remontés par les agents en laboratoire en alternative au cahier de laboratoire national (format papier). Cela s'est traduit par 
@@ -312,10 +363,28 @@ Nathalie Léon – Domenico Libri, CNRS
 
 Les travaux se sont poursuivis courant 2021 avec le groupe de travail « Cahier de laboratoire électronique » (ELN) du comité pour la science ouverte (CoSO). Le rapport présente une vision partagée sur la définition, le cadrage, les usages et le périmètre fonctionnel de l’ELN, qui doit pouvoir s’intégrer dans les environnements informatiques et institutionnels existants. Il émet un ensemble de recommandations sur les critères de choix d’un outil et intègre une liste comparative d'outils existants.
 
-```{admonition} [Rapport du Groupe de Travail sur les Cahiers de Laboratoire électroniques](https://www.ouvrirlascience.fr/wp-content/uploads/2022/01/Rapport_GT_ELN_v3.2-2022-01-04FINAL.pdf)  
+```{admonition} [Rapport du Groupe de Travail sur les Cahiers de Laboratoire électroniques](https://www.ouvrirlascience.fr/rapport-du-groupe-de-travail-sur-les-cahiers-de-laboratoire-electroniques/)  
 :class: seealso
 Membres du GT    
 "Ouvrir la science", MESRI, 2021
+```
+
+Dans le cadre des séminaires [Pour une Recherche Reproductible](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/programme_050522.html#programme_050522), Gricad, MaiMoSiNE et SARI ont mis en place un webinaire sur l'ouil elabFTW .
+
+Dans ce cadre, NIcolas Carpi, auteur et développeur d’elabFTW, a présenté son logiciel. eLabFTW est un cahier de laboratoire numérique open source destiné aux laboratoires de recherche, quelle que soit leur discipline. Il est utilisé par de nombreuses institutions et labos à travers le monde. Cette session est l’occasion de découvrir ce logiciel, ses fonctionnalités et son intérêt pour une recherche reproductible. 
+
+```{admonition} [Présentation du cahier de laboratoire électronique open source eLabFTW](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2022-05-05-N-CARPI-elabftw-presentation.pdf)   
+:class: seealso
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/23424-un-outil-pour-la-recherche-reproductible-le-cahier-electronique-elabftw-partie-i/)
+NIcolas Carpi, Institut Curie 
+```
+
+Jean-Luc Parouty ingénieur à SIMAP, a ensuite détaillé le service mutualisé de cahier de laboratoire elabFTW, intitulé CAOLILA, mis à disposition de la communauté ESR Grenobloise 
+
+```{admonition} [Mise en œuvre du cahier de laboratoire eLabFTW à l’UGA/GINP ](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2022-05-05-JL-PAROUTY-CAOLILA.pdf)   
+:class: seealso
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/23426-un-outil-pour-la-recherche-reproductible-le-cahier-electronique-elabftw-et-son-implementation-sur-le-campus-de-grenoble-partie-ii/)
+Jean-Luc Parouty, SIMAP
 ```
 
 ### Les tablettes et carnets de terrain

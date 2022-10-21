@@ -2,14 +2,17 @@
 # Publier et diffuser
 
 
-Cette dernière étape du cycle de vie des données représente la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et à diffuser les données de manière à ce qu'elles soient correctement faciles à trouver, accessibles et réutilisables selon des formats ouverts et des processus interopérables.
+Cette dernière étape du cycle de vie des données représente la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et à diffuser les données de manière à ce qu'elles soient correctement faciles à trouver, accessibles et surtout ... "réutilisables", selon des formats ouverts et des processus interopérables.
 
-L’accompagnement des réseaux métiers s’exerce en diverses actions :
-- sur la documentation des données via des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
-- sur l'établissement de catalogues (idéalement moissonnables) de données nécessaires pour trouver et identifier les données
-- sur le processus de dépôt des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès centralisé, 
-- sur l'utilisation d'outils logiciels et de protocoles interopérables permettant d'échanger ouvertement les données
-- sur la représentation des données sous forme de graphes
+L’accompagnement des réseaux métiers s’exerce sur diverses actions comme par exemple:
+- la documentation des données via des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
+- l'établissement de catalogues de données (idéalement moissonnables) nécessaires pour trouver et identifier les données;
+- le processus de dépôt des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès centralisé; 
+- l'utilisation d'outils logiciels et de protocoles interopérables permettant d'échanger ouvertement les données;
+- la description et l'identification des données avec des "datapapers" et des identifiants pérennes (DOI);
+- la représentation des données sous forme de graphes;
+- l'aide au choix d'entrepôts de données ;
+- etc.
 
 Ainsi, les réseaux travaillent sur l’ensemble des informations (métadonnées, données, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation pertinents en rapport avec l’objectif du projet initial.
 
@@ -20,7 +23,7 @@ Cette étape de publication et de diffusion est en outre accompagnée désormais
 
 **Finaliser le Plan de Gestion de Données**
 
-Pour rappel, le fin d'un projet est marqué par la finalisation de la rédaction du plan de gestion de données qui a été initié en début de projet. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et d'effectuer une mise à jour en ajoutant les dernières informations disponibles.
+Pour rappel, la fin d'un projet est marquée par la finalisation de la rédaction du plan de gestion de données qui a été initié en début de projet. Il est nécessaire de s'assurer que les premières informations saisies sont encore valides et d'effectuer une mise à jour en ajoutant les dernières informations disponibles.
               
 ## Publier les métadonnées
 
@@ -37,13 +40,12 @@ Elle fournit des informations concernant l'identification, l'étendue, la qualit
 
 En ce sens, dans le domaine environnemental où les données proviennent fréquemment de mesures géolocalisées sur le terrain, le logiciel [GeoNetwork](https://geonetwork-opensource.org/ ) est une des références importante pour décrire et représenter les jeux de données géolocalisées et constituer un catalogue qui inventorie les différents jeux de données d'un Institut.
 
-
 Ce logiciel de catalogage GeoNetwork est par ailleurs utilisé dans de nombreux portails de données comme le catalogue Sextant d'Ifremer pour lequel M. Treguer nous indique les services de l'OGC utilisés.
 
-```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist16.sciencesconf.org/data/pages/03_M_Treguer.pdf)  
+```{admonition} [Visualisation et analyse des données marines et littorales avec Sextant : Utilisation des services OGC](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-03-M-Treguer-Donnees-marines-et-littorales-avec-Sextant.pdf)  
 :class: seealso
 Michael Treguer  
-[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org/resource/page/id/6)  
+[Séminaire SIST16 Montpellier](https://sist.cnrs.fr/sist16/)  
 ```
 A titre d'exemple, de nombreux OSU (Observatoire des Sciences de l'Univers) mettent en oeuvre ces catalogues "geonetwork" très utiles pour inventorier les jeux de données disponibles dans les unités de recherche :
  - [portail de données OSU Oreme](<https://sig.oreme.org/geonetwork>)
@@ -67,15 +69,13 @@ Marc Leobet, Chargé de mission et PCE INSPIRE
 Frédocs2013 -7 au 10 octobre 2013, Aussois  
 ```
 
-
-
 D'autres OSU se sont engagés dans un développement spécifique d'un catalogue de données. B. Debray nous présente le projet "DataOSU" destiné à élaborer un [portail de données original propre à l'OSU Theta](https://dataosu.obs-besancon.fr/index.php). Il décrit toute l'organisation et le développement nécessaire à la réalisation du projet. La nécessaire collecte des métadonnées auprès des chercheurs et le mapping sémantique destiné à assurer l'interopérabilité avec les standards existants du Dublin core, IVOA, Datacite, GBIF
 
 
-```{admonition} [Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist16.sciencesconf.org/data/pages/13_B_Debray.pdf)   
+```{admonition} [Le projet Dat@OSU de gestion et valorisation des données de la recherche](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-13-B-Debray-S-Damy-dat@OSU.pdf)   
 :class: seealso
 Bernard Debray, Univers, Transport, Interfaces, Nanostructures, Atmosphère et environnement, Molécules  
-[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)    
+[Séminaire SIST16 Montpellier](https://sist.cnrs.fr/sist16/)    
 ```
 
 - **l'API de Geonetwork pour des échanges interopérables**
@@ -84,10 +84,10 @@ Le recueil des métadonnées, ainsi que la rédaction et la mise à jour des mé
 
 C. Bernard, J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à leur unité.
 
-```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist16.sciencesconf.org/data/pages/14_C_Bernard_J_Fabre.pdf)  
+```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-17-O-Lobry-DOI-a-lOSU-OREME.pdf)  
 :class: seealso
 C. Bernard,   J. Fabre, et O. Lobry  
-[Séminaire SIST16 Montpellier](https://sist16.sciencesconf.org)
+[Séminaire SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
 ```
 
 De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de bibliothèques de programmation écrites en "R", destinées
@@ -100,32 +100,32 @@ Ces développements ont été présentés lors d'un atelier organisé par le ré
   - Gérer des métadonnées dans GeoNetwork avec la librairie R *geonapi*   
 
 
-```{admonition} [GeoFlow :  workflow R pour gérer les données spatiales](https://sist19.sciencesconf.org/data/pages/SIST19_J_Barde.pdf)   
+```{admonition} [GeoFlow :  workflow R pour gérer les données spatiales](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-12-J-Barde-Geoflow.pdf)   
 :class: seealso
 Julien Barde,   Emmanuel Blondel et  Wilfried Heintz  
-[Séminaire SIST19 Toulouse](https://sist19.sciencesconf.org/program)
+[Séminaire SIST19 Toulouse](https://sist.cnrs.fr/sist19/)
 ```
 
 Le développement de GeoFlow, toujours actif fait l'objet d'un  intérêt suivi par le réseau SIST. Dans cette présentation les auteurs nous montrent Les concepts de geoflow et le schéma d’un workflow pour préparer et insérer des métadonnées.
 
-```{admonition} [Geoflow : un workflow pour une gestion simple, FAIR et durable des données](https://sist20.sciencesconf.org/data/pages/FAIR_Geoflow_2021.pdf)
+```{admonition} [Geoflow : un workflow pour une gestion simple, FAIR et durable des données](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-05-J-Barde-E-Blondel-W-Heintz-Geoflow.pdf)
 :class: seealso
 Julien Barde (IRD), Emmanuel Blondel (FAO) et Wilfried Heintz (INRAE) : geoflow
 [vidéo GeoFlow](https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_julien_barde_emmanuel_blondel_et_wilfried_heintz_geoflow_un_workflow_pour_une_gestion_simple_fair_et_durable_des_donnees.60389)
 
-[Séminaire SIST20 Lyon](https://sist20.sciencesconf.org/resource/page/id/5)
+[Séminaire SIST20 Lyon](https://sist.cnrs.fr/sist20-21/)
 ```
 
 
 ## Diffuser avec des protocoles interopérables
 
-Outre les formats de fichiers qui doivent répondre à des standards ouverts pour être partagés et réutilisables, il est également nécessaire de se préoccuper de les diffuser par des protocoles d'échanges standards interopérables.
+Outre les formats de fichiers qui doivent répondre à des standards ouverts pour être partagés et réutilisables, il est également nécessaire de se préoccuper de diffuser les données par des protocoles d'échanges standards interopérables entre machines.
 Dans les sciences environnementales l'[OGC](https://www.ogc.org/standards) est en charge de déterminer un certains nombre de standards ouverts particulièrement dans le cadre des données géo-spatialisées.
 
 
 ### diffusion des métadonnées de catalogue par le protocole CSW 
 
-CSW "Catalogue service for the Web" est un exemple de protocole standardisé défini par l'OGC dont l'objectif est de pouvoir réaliser des catalogues interopérables de données. Ces catalogues permettent d'afficher, rechercher et découvrir des ressources disponibles sur différents  critères avancées le titre, le système de coordonnées, le type de données,…) recherche dans une zone (spatio-temporelle), suivant une thématique issue de thesaurus disciplinaires (météorologie, géologie, océanograpie, etc.) 
+CSW "Catalogue service for the Web" est un exemple de protocole standardisé défini par l'OGC dont l'objectif est de pouvoir réaliser des catalogues interopérables de données. Ces catalogues permettent d'afficher, rechercher et découvrir des ressources (dataset, jaux de données) disponibles sur différents critères avancées comme le titre, le système de coordonnées, des mots clés, le type de données,…) recherche dans une zone (spatio-temporelle), suivant une thématique issue de thesaurus disciplinaires (météorologie, géologie, océanograpie, etc.) 
 
 Les champs du catalogue sont normalisés selon les normes ISO 19115/19139, et les données sont transmises sous forme de contenu XML.
 
@@ -134,14 +134,14 @@ Grace a l'utilisation de ce protocole d'échange normalisé, le logiciel GeoNetw
 
 ### diffusion de données géolocalisées par le protocole WMS
 
-
-Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC](https://geoservices.ign.fr/documentation/geoservices/wms.html), [WMS (Web Map Service) pour pouvoir interagir avec des serveurs cartographiques comme [GeoServer](http://geoserver.org/).
-
 L'utilisation du protocole WMS permet d'échanger les données de manière interopérable entre les logiciels, pour représenter les points de mesures sur une carte, et pouvoir ainsi accéder aux données brutes associées à un point de mesure géoréférencé.
 
-L'utilisation des logiciels GeoNetwork et GeoServer fait partie des recommandations du réseau SIST en matiere de gestions des données, et a fait l'objet de deux actions de formation nationales (ANF) pour lesquelles on trouvera les informations sur les [pages formation du site SIST](https://sist.cnrs.fr/les-formations/)
+Le logiciel GeoNetwork utilise, en outre, un autre protocole standard de l'OGC [WMS (Web Map Service](https://geoservices.ign.fr/documentation/geoservices/wms.html), pour pouvoir interagir et récupérer des données provenant de serveurs cartographiques comme [GeoServer](http://geoserver.org/).
 
-```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)    
+
+L'utilisation des logiciels GeoNetwork et GeoServer fait partie des recommandations du réseau SIST en matiere de gestions des données, et a fait l'objet de deux actions de formation nationales (ANF)
+
+```{admonition} [Documentations sur les logiciels étudiés GeoNetwork et GeoServer](https://sist.cnrs.fr/anf-2018-gestion-des-donnees-dobservation/)    
 :class: seealso   
 J. Fabre, M. Libes,  O. Lobry, D. Mallarino, M. Rouan, J. Schaeffer    
 ANF SIST 2017 Fréjus , ANF SIST 2018 Autrans   
@@ -154,18 +154,16 @@ GeoCMS permet de visualiser une carte des utilisateurs enregistrés afin de gér
 
 Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) nous indiquent comment ils ont utilisé diverses technologies interopérables pour diffuser les données de leur plateforme DataECLA. Les auteurs ont testé un certain nombre d'outils comme GeoNetwork, GeoServer, ERDDAP, THREDDS, GeoCMS et Managechart. Afin de proposer des représentations et un accès aux données adaptés aux besoins métiers ils ont rajouté à cette palette d'outils des dashboards python.
 
-```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](https://sist20.sciencesconf.org/data/pages/SIST2021_Tormos_Reynaud_DataEcla_1.pdf)
+```{admonition} [La plateforme de données et de visualisation sur les écosystèmes lacustres](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-06-T-Tormos-N-Reynaud-la-plateforme-de-donnees-dataECLA-sur-les-ecosytemes-lacustres.pdf)
 :class: seealso 
-Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) 
-[Séminaire SIST 2021](https://sist20.sciencesconf.org/)  
+https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_retours_d_experiences_en_gestion_de_donnees_d_observation_1.61601
+[video](Thierry Tormos (OFB) et Nathalie Reynaud (RECOVER) )
+[Séminaire SIST 2021](https://sist.cnrs.fr/sist20-21/)  
 ```
-
-[ajout ML]
 
 ### diffusion de données de capteurs par le protocole SOS
 
-Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs géoréférencés qui mesurent des phénomènes sur le terrain. Les données sont fréquemment acquises en continue pour suivre l'évoluton d'un phénomène physique ou biologique et sont donc représentées sous la forme de séries temporelles, des valeurs échelonnées dans le temps afin de pouvoir suivre leur évolution temporelle.
-
+Une proportion importante de données environnementales sont acquises par différentes sortes de capteurs géoréférencés qui mesurent des phénomènes sur le terrain. Les données sont fréquemment acquises en continu pour suivre l'évoluton d'un phénomène physique ou biologique et sont donc représentées sous la forme de séries temporelles, des valeurs échelonnées dans le temps afin de pouvoir suivre leur évolution.
 
 De nombreux standards sont édictés par l'OGC pour la gestion des données de capteurs : SWE, [O&M](http://www.opengeospatial.org/standards/om), [SOS](https://www.ogc.org/standards/sos) 
 
@@ -185,9 +183,17 @@ SOS fait partie des standards recommandés par le réseau SIST qui à ce titre a
 
 - *[le logiciel istSOS](http://istsos.org/)* développé par l'Institut des Sciences de la Terre" de l'université de Suisse permet de fournir les metadonnées et données de capteurs dans le modèle standardisé O&M en utilisant des opérations normalisées via SOS. Ainsi, l'accès aux données de capteurs est simplifié pour l'utilisateur et rendu interopérable pour de systèmes externes automatisées (machine to machine) ou non (client web). 
 
-Le logiciel permet de plusd'afficher la description et la localisation des capteurs sur une carte, et d'établir des graphes d'évolutions temporelles.
- 
-[La formation sur istSOS](https://sist.cnrs.fr/les-formations/formation-istsos-1) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
+Le logiciel permet de plus d'afficher la description et la localisation des capteurs sur une carte, et d'établir des graphes d'évolutions temporelles.
+
+Maurice Libes fait un retour d'expérience sur l'utilisation du protocole SOS et du logiciel istSOS dans la gestion de données météorologiques à l'OSU Pytheas. Il donne quelques avantages et inconvénients, à ce jour, de l'utilisation de ce protocole et logiciel.
+
+```{admonition} [Utilisation de istSOS dans la gestion de données Météo ](http://sist.cnrs.fr/wp-content/uploads/2022/06/04-SIST22-istSOS.pdf)
+:class: seealso
+Maurice Libes
+Séminaire SIST22 - [Grenoble Juin 2022](https://sist.cnrs.fr/sist22/)
+```
+
+[La formation sur istSOS](https://sist.cnrs.fr/2021-istsos/) aborde quelques rappels sur le standard SOS, puis l'installation, la configuration et l'utilisation du logiciel en intégrant des données et des métadonnées (simples ou en masse) dans la BD du logiciel.
 
 - *[le logiciel 52North]( https://52north.org/)* est développé par la société éponyme https://52north.org/ qui travaille sur les technologies et infrastructures d’information spatialisées. C’est actuellement un des logiciels suffisamment matures pour mettre en œuvre le standard SOS, à l’instar du logiciel istSOS.
 
@@ -196,14 +202,11 @@ La formation mise en place par le réseau SIST en 2021 avec les concepteurs de c
 - [Le support de cours de la  formation](https://sist.pages.in2p3.fr/anf21-sos52north/) permet de savoir insérer des capteurs et des données dans le serveur SOS, de les visualiser et de comprendre comment fonctionne le protocole SOS. Ce standard et ce logiciel peuvent permettre de gérer correctement et de manière interopérable les nombreuses séries temporelles qui sont collectées dans nos unités.
 
 
-```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/les-formations/anf-2021-sos-52degnorth)
+```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/anf-2021-sos-52north/)
 :class: seealso
 Simon Jirka, Carsten Hollmann, Christian Autermann
 ANF SIST - Octobre 2021
 ```
-
-
-[/ajout ML]
 
 
 ### Les portails nationaux et européens
@@ -214,10 +217,10 @@ L'établissement de catalogues et de portails d'accès aux données se matérial
 
 La mission de [l’IR Data Terra](https://www.data-terra.org/) consiste à organiser de manière intégrée la diffusion et l’accès aux données, en mettant à disposition les données, les produits et des services relatifs à l’observation du système Terre, via les pôles de données et de services existants :
 
-```{admonition} [Présentation de l'IR Data terra](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_IRDataTerra.pdf)  
+```{admonition} [Présentation de l'IR Data terra](https://sist.cnrs.fr/sist19/#session-poles-de-donnees-data-terra)  
 :class: seealso
 Richard Moreno, directeur technique IR Data Terra  
-[Séminaire SIST 2019](https://sist19.sciencesconf.org), OMP Toulouse
+[Séminaire SIST 2019](https://sist.cnrs.fr/sist19/), OMP Toulouse
 ```
 
 l’IR Data Terra est constitué de quatre pôles de données  (ODATIS, AERIS, ForM@Ter \& Theia dont la mission principale est de mettre à disposition des données, des produits, des logiciels, des outils et/ou des services destinés en premier lieu à la communauté scientifique française dans le cadre de ses recherches sur le système Terre. 
@@ -226,10 +229,10 @@ Les informations proposées par les pôles de données sont aussi fondamentales 
 
 Les politiques opérationnelles de ces pôles sont suivies par le réseau SIST où elles ont été présentées :
 
-- Données océanographiques : [Pôle Odatis](https://www.odatis-ocean.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_ODATIS.pdf).
-- Données atmosphériques : [Pôle Aeris](https://www.aeris-data.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_AERIS.pdf).
-- Données terre solide: [Pôle Form@ter](https://www.poleterresolide.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_FORMATER.pdf).
-- Données surfaces continentales : [Pôle Theia](https://www.theia-land.fr/), [supports de présentation](https://sist19.sciencesconf.org/data/pages/SIST19_Poles_THEIA.pdf).
+- Données océanographiques : [Pôle Odatis](https://www.odatis-ocean.fr/), [supports de présentation](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-10-Pole-ODATIS.pdf).
+- Données atmosphériques : [Pôle Aeris](https://www.aeris-data.fr/), [supports de présentation](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-07-Pole-AERIS.pdf).
+- Données terre solide: [Pôle Form@ter](https://www.poleterresolide.fr/), [supports de présentation](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-09-Pole-FORMATER.pdf).
+- Données surfaces continentales : [Pôle Theia](https://www.theia-land.fr/), [supports de présentation](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-08-Pole-THEIA.pdf).
 
 
 **Les portails de données européens**
@@ -242,33 +245,29 @@ Seadatanet est un exemple d'envergure européenne pour la mise en place de stand
 ```{admonition} [Présentation du projet SeaDataNet, interopérabilité à l'échelle paneuropéenne](https://nuage.osupytheas.fr/s/9iKa6GLzHGJ95Zz)
 :class: seealso
 Michèle Fichaut, Systèmes d'Informations Scientifiques pour la Mer   
-[Séminaire SIST15 OSU Pytheas Marseille 2015](https://sist15.sciencesconf.org/)   
+[Séminaire SIST15 OSU Pytheas Marseille 2015](https://sist.cnrs.fr/sist15/)   
 ```
 
 Soumaya Lahbib au séminaire SIST18 à l'observatoire OVSQ de Versailles, présente un exemple de dépôt de données de cytométrie en flux dans le portail de données Seadatanet. Il est intéressant de prendre connaissance de la démarche et du workflow de traitement nécessaire pour intégrer des données dans un portail interopérable qui respecte un grand nombre de standards.
 
-```{admonition} [Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist18.sciencesconf.org/data/pages/26_S_Lahbib_Interoperabilite_de_donnees_pour_SeaDataNet.pdf)  
+```{admonition} [Interopérabilité des données issues d’analyses par Cytométrie en Flux dans l’infrastructure européenne SeaDataNet](https://sist.cnrs.fr/wp-content/uploads/2021/12/05-M-Libes-Getsion-des-donnees-EMSO.pdf)  
 :class: seealso
 Soumaya Lahbib  
-[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
+[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist.cnrs.fr/sist18/)  
 ```
 
-
-<ajoutML>
-Dans l'infras structure de recherches Data Terra, le catalogage des données selon des domaines du système Terre, utilisant des thesaurus disciplinaires est au coeur de la démarche des pôles de données . Il est en effet nécessaire de produire un vocabulaire commun pour permettre la découverte homogène des données à l'aide des variables observées.
+Dans l'infrastructure de recherches Data Terra, le catalogage des données selon des domaines du système Terre, utilisant des thesaurus disciplinaires est au coeur de la démarche des pôles de données . Il est en effet nécessaire de produire un vocabulaire commun pour permettre la découverte homogène des données à l'aide des variables observées.
 
 L'objectif est de rendre visible l’ensemble des données in-situ des surfaces continentales sur un portail unique, en faciliter la découverte, l’accès et la réutilisabilité pour les besoins scientifiques. L'interopérabilité doit se faire conformément à des standards et thésaurus internationaux et interdisciplinaires.
 
 C'est la démarche que nous présentent Véronique Chaffard et Charly Coussot pour la diffusion des données in-situ des surfaces continentales das le cadre du système d'information Theia/OZCAR
 
-```{admonition} [mise en œuvre des principes FAIR pour la diffusion des données in-situ des surfaces continentales: le système d'information Theia/OZCAR](https://sist20.sciencesconf.org/data/pages/SIST2021_Coussot_Chaffard_Theia_Ozcar.pdf)
+```{admonition} [mise en œuvre des principes FAIR pour la diffusion des données in-situ des surfaces continentales: le système d'information Theia/OZCAR](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-08-C-Coussot-V-Chaffard-le-SI-Theia-Ozcar.pdf)
 :class: seealso
 Charly Coussot, Véronique Chaffard
-[Séminaire SIST20 OSU Lyon 2020](https://sist20.sciencesconf.org/)   
+[Séminaire SIST20 OSU Lyon 2020](https://sist.cnrs.fr/sist20-21/)   
 ```
-</ajout>
 
-[ajout ML]
 
 Les pôles de données se doivent de gérer une problématique de la gestion des données environnementales au niveau national, R. Moreno et K. Ramage nous exposent le Projet "Gaia Data", qui est une Infrastructure distribuée de données et services pour l'observation et la modélisation du système Terre. Ce projet "Gaia Data" est porté par 3 Infrastructures de Recherche numériques du domaine « système Terre et Environnement »
 - Data Terra (données observations du système Terre),
@@ -292,14 +291,13 @@ Les services prévus seront :
   - VRE : définition et exécution de workflows de traitements spécifiques des domaines 
   - Travail collaboratif, bac à sable, développement et exécution d’algorithmes
 
-```{admonition} [l'IR Data Terra et le projet Gaia-Data](https://sist20.sciencesconf.org/data/pages/Data_Terra_GAIA_Data.pdf)
+```{admonition} [l'IR Data Terra et le projet Gaia-Data](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-03-R-Moreno-K-Ramage-LIR-Data-Terra-et-le-projet-Gaia-Data.pdf)
 :class: seealso
 [vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
  Richard Moreno et Karim Ramage (direction technique Data Terra)   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist20.sciencesconf.org/)  
+[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist.cnrs.fr/sist20-21/)  
 ```
 
-[/ajout]
 
 ## Utilisation de thesaurus 
 
@@ -318,11 +316,10 @@ Le logiciel open source [opentheso](https://www.mom.fr/ressources-numeriques/ope
 
 Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.semandiv.cnrs.fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
 
-```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv.pdf)
+```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist.cnrs.fr/wp-content/uploads/2021/12/30-D-Vachez-T-Semandiv.pdf)
 :class: seealso
-[Poster résumant le thesaurus T_Semandiv](https://sist18.sciencesconf.org/data/pages/30_D_Vachez_T_Semandiv_Poster.pdf)  
 Dominique Vachez, Institut de l’information scientifique et technique   
-[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist18.sciencesconf.org/)  
+[Séminaire SIST18 à l'Observatoire de Versailles, 2018](https://sist.cnrs.fr/sist18/)  
 ```
 
 La première version de ce thésaurus a été élaborée avec l'outil [ThesauForm](https://hal.archives-ouvertes.fr/hal-01577680) développé par Baptiste Laporte. ThesauForm est un outil pour faciliter la création d'un thésaurus collaboratif. Ces deux points forts sont une élaboration collaborative des termes et une procédure de vote. Cet outil a été utilisé pour construire le thesaurus [T-SITA](https://t-sita.betsi.cnrs.fr/BETSI_vizIndex.jsp) qui est le fruit du groupe de travail "CESAB/BETSI". Ce thesaurus a été utilisé pour annoter des données dans leur base de données à partir du vocabulaire créé.
@@ -333,10 +330,10 @@ Baptiste Laporte (Centre de synthèse et d’analyse sur la biodiversité)
 JrBDD 2015, Sète, mercredi 21/10/2015
 ```
 
-```{admonition} [Thesauform un outil collaboratif pour faciliter la création de vocabulaire contrôlé par des experts de domaine](https://sist18.sciencesconf.org/data/pages/12_MC_Quidoz_Thesauform.pdf)  
+```{admonition} [Thesauform un outil collaboratif pour faciliter la création de vocabulaire contrôlé par des experts de domaine](https://sist.cnrs.fr/wp-content/uploads/2021/12/12-MC-Quidoz-Thesauform.pdf)  
 :class: seealso
 MC Quidoz  
-[Séminaire SIST18 à l'OVSQ de Versailles](https://sist18.sciencesconf.org/)  
+[Séminaire SIST18 à l'OVSQ de Versailles](https://sist.cnrs.fr/sist18/)  
 ```
 
 En Archéologie, Blandine Nouvel nous présente l'intérêt du thésaurus PACTOLS pour l’archéologie sur le web des données de manière à en faire un référentiel national, et ouvrir son utilisation au-delà des seules bibliothèques.
@@ -348,6 +345,17 @@ Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 [La révision des PACTOLS au regard du BackBone Thesaurus](https://f.hypotheses.org/wp-content/blogs.dir/1718/files/2018/12/JourneesMASA_Pactols.pdf)  
 Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 ```
+
+Dans sa communication JC Desconnet montre qu'il faut utiliser des vocabulaires contrôlés pour FAIRiser les données, et 
+fournit un Panorama des thésaurus de référence ayant un niveau de maturité sémantique
+
+
+```{admonition} [Utiliser des vocabulaires contrôlés pour FAIRiser les données](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Enjeux-notions-et-etat-des-lieux.pdf)  
+:class: seealso
+Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV)
+[Séminaire SIST22 à l'OSUG Grenoble](https://sist.cnrs.fr/sist22/)  
+```
+
 
 
 ## Utilisation d'identifiants pérennes
@@ -399,20 +407,20 @@ Pour en savoir plus sur le DOI de DataCite :
 Mohamed Salah Yahia INIST  
 
 Nécessité de publier en identifiant les jeux de données par des  "DOI": 
-[présentation ](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
+[présentation ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-15-M-Yahia-Les-DOI-de-Datacite.pdf)  
 [vidéo sur les DOI de Datacite](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F\&files=16-DOI-Yahia-Inist-SIST2016.mp4)
 Mohamed Salah Yahia, Institut de l'information scientifique et technique du CNRS                     
-[Séminaire SIST16 OSU Oreme Montpellier ](https://sist16.sciencesconf.org)
+[Séminaire SIST16 OSU Oreme Montpellier ](https://sist.cnrs.fr/sist16/)
 ```
 
 ### Comment obtenir des DOI ?
 
 Une unité CNRS a la possibilité de souscrire un contrat avec l'INIST du CNRS pour être détenteur d'un préfixe de DOI qui servira à construire et déposer un DOI, comme nous l'explique M. Yahia de l'INIST :  
 
-```{admonition} [Workflow d’attribution de DOI par l’Inist-CNRS](https://sist16.sciencesconf.org/data/pages/15_M_Yahia.pdf)  
+```{admonition} [Workflow d’attribution de DOI par l’Inist-CNRS](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-15-M-Yahia-Les-DOI-de-Datacite.pdf)  
 :class: seealso
 Mohamed Salah Yahia
-[Séminaire SIST16 OSU Oreme Montpellier](https://sist16.sciencesconf.org)
+[Séminaire SIST16 OSU Oreme Montpellier](https://sist.cnrs.fr/sist16/)
 ```
 
 Cependant dans le paysage national actuel des données environnementales, certaines infrastructures de recherche comme Data Terra seront en charge de fournir des DOI selon les disciplines concernées. Dans le domaine marin le [pôle de données Odatis](https://www.odatis-ocean.fr/) fournit d'ores et déjà un service de fourniture de D.O.I via le site [Seanoe](https://www.seanoe.org/).
@@ -428,34 +436,34 @@ les métadonnées obligatoires sont :
 
 Il est pratique d'avoir un outil logiciel qui vérifie de façon autonome les métadonnées requises pour obtenir un DOI et fasse la demande directement auprès de Datacite. C'est le cas du logiciel Geonetwork, que nous avons vu précédemment, pour élaborer des catalogues de jeux de données. Dans cette présentation Annick Battais indique comment demander et assigner un D.O.I a des jeux de données en utilisant le logiciel de catalogage Geonetwork.
 
-```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist19.sciencesconf.org/data/pages/SIST19\_A\_BATTAIS.pdf)  
+```{admonition} [Utilisation d'un outil de catalogage normalisé ISO19139 comme GeoNetwork pour constituer une "landing page" pour un D.O.I](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-14-A-Battais-GeoNetwork-et-DOI.pdf)  
 :class: seealso
 Annick Battais  
-[Séminaire SIST2019 Toulouse 2019](https://sist19.sciencesconf.org)   
+[Séminaire SIST2019 Toulouse 2019](https://sist.cnrs.fr/sist19/)   
 ```
 
 ### Retours d'expériences d'utilisation de DOI
 
 Philippe Techiné nous indique comment il fournit des DOI sur des données océanographiques grâce à un contrat passé avec l'INIST du CNRS qui, en tant que membre de DataCite, peut fournir et attribuer des DOI. Il passe en revue les métadonnées obligatoires et la landing page qui est constituée.
 
-```{admonition} [Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](https://sist16.sciencesconf.org/data/pages/16_P_Techine.pdf)    
+```{admonition} [Mise en place d'un DOI sur les données d'un réseau d'observations océanographiques ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-16-P-Techine-DOI-et-observations-oceanographiques.pdf)    
 :class: seealso
 Philippe Téchiné, Laboratoire d'études en Géophysique et océanographie spatiales    
-[Journée SIST16 Montpellier](https://sist16.sciencesconf.org/)
+[Journée SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
 ```
 
-```{admonition} [Création de DOI sur les données et produits grillés du Service National d'Observation SSS  ](https://sist18.sciencesconf.org/data/pages/14_P_Techine_DOI_sur_les_donnees_du_SNO_SSS.pdf)                                 
+```{admonition} [Création de DOI sur les données et produits grillés du Service National d'Observation SSS  ](https://sist.cnrs.fr/wp-content/uploads/2021/12/10-P-Techine-Qualification-de-mesures-du-SNO-SSS.pdf)                                 
 :class: seealso
 Philippe Téchiné, Laboratoire d'études en Géophysique et océanographie spatiales
-[Journée SIST18 OVSQ](https://sist18.sciencesconf.org/)
+[Journée SIST18 OVSQ](https://sist.cnrs.fr/sist18)
 ```
 
 Juliette Fabre et Olivier Lobry nous indiquent leur solution pour attribuer des DOI aux jeux de données du Service National d'Observation  "Karst".  
 
-```{admonition} [Retour d'expérience sur l'attribution de DOI à l'OSU OREME.](https://sist16.sciencesconf.org/data/pages/17_O_Lobry.pdf)  
+```{admonition} [Retour d'expérience sur l'attribution de DOI à l'OSU OREME.](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-17-O-Lobry-DOI-a-lOSU-OREME.pdf)  
 :class: seealso
 Juliette Fabre, OSU OREME - Olivier Lobry, OSU OREME
-[Journée SIST16 Montpellier](https://sist16.sciencesconf.org/)
+[Journée SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
 ```
 
 * Établissement de DOI sur des requêtes dynamiques sur des Bases de données
@@ -483,12 +491,12 @@ Les enjeux liés à la gestion et au partage des données de la recherche néces
 
 Qu'est-ce qui différencie un entrepôt de données d'une base de données classique dans le contexte de l'ouverture des données ? Quels services peut-on attendre d'un entrepôt de données aux différentes étapes du cycle de vie de la donnée? Comment trouver et choisir un entrepôt de données ? Un certain nombre de ces questions relatives aux entrepôts ont été abordées lors d'une [journée de type Hackaton intitulée "entrepôts de données, comment améliorer le dépôt et le partage des données de la recherche ?"](https://gt-donnees2020.sciencesconf.org/). Cette journée consacrée aux entrepôts de données a permis de cerner les fonctionnalités que l'on se doit d'attendre d'un entrepôt de données FAIR et les conditions d’utilisation de ce type de service. 
 
-Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.
+Au terme de cette journée, un document "FAQ" a été rédigé répondant aux questions les plus fréquentes que l'on se pose sur le dépôt de données. Cette FAQ est la [synthèse des échanges](https://gt-atelier-donnees.miti.cnrs.fr/faq.html) qui se sont tenus lors de l'hackathon « Comment améliorer le dépôt et le partage de données de recherche ? ». Elle est enrichie régulièrement des discussions sur la liste “données”.
 
 On y répond à des questions fréquentes concernant les entrepôts comme :
   - Qu'est-ce qu'un entrepôt de données ?
-  - [Comment choisir un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#choisir)
-  - [Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#entrepot)
+  - [Comment choisir un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/faq.html#choisir)
+  - [Quels sont les critères à prendre en compte pour sélectionner un entrepôt ?](https://gt-atelier-donnees.miti.cnrs.fr/faq.html#entrepot)
   - Quels sont les points de vigilance pour préparer le partage de données ?
   - Quels sont les formats à privilégier pour le partage de données ?
   - Quelle est la durée de vie d'un dépôt de jeux de données dans un entrepôt ?
@@ -512,10 +520,11 @@ ANF rBDD du 5 au 7 novembre 2018 à Sète
 
 Dans cette présentation complète, Jean-Christophe Desconnets passe en revue les rôles, les fonctionnalités et les domaines d'utilisation des entrepôts de données :
 
-```{admonition} [Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  ](https://sist20.sciencesconf.org/data/pages/SIST20_entrepot_de_donnees_Desconnets.pdf)      
+```{admonition} [Les entrepôts de données  : Ou comment rendre les données trouvables, accessibles et réutilisables ?  ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-02-J-Desconnets-Entrepots-de-donnees.pdf)
+[Video : ](https://www.canal-u.tv/video/sist/webinaires_sist_2020_21_jean_christophe_desconnets_direction_technique_data_terra_les_entrepots_de_donnees.59593)
 :class: seealso
 Jean-Christophe Desconnets   
-[Séminaire SIST2020 OSU Lyon](https://sist20.sciencesconf.org/)   
+[Séminaire SIST2020 OSU Lyon](https://sist.cnrs.fr/sist20-21/)   
 ```
 
 ```{admonition} [Les entrepôts de données : pierre angulaire du partage des données de la recherche](https://anfdonnees2016.sciencesconf.org/conference/anfdonnees2016/pages/Entrepots_ANFRenatis.pptx)  
@@ -546,11 +555,11 @@ La science ouverte énonce un certain nombre de principes  : transparence (Trans
 Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle nous rappelle que : "rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté".
 
 
-```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist20.sciencesconf.org/data/pages/SIST20_Certification_Chambodut.pdf)"    
+```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-01-A-Chambodut-La-Certification-CoreTrustSeal.pdf)"    
 :class: seealso    
-[vidéo :](https://sist20.sciencesconf.org/resource/page/id/5)    
+[vidéo :](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-01-A-Chambodut-La-Certification-CoreTrustSeal.pdf)    
 Aude Chambodut    
-[Séminaires SIST20](https://sist20.sciencesconf.org/)   
+[Séminaires SIST20](https://sist.cnrs.fr/sist20-21/)   
 ```
 
 CoreTrustSeal est un organisme communautaire sans but lucratif qui permet de promouvoir le développement d'infrastructures de données durables et fiables et spécifie les critères de conformité qui permettent de certifier un entrepôt.
@@ -588,7 +597,7 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 
 **Déposer dans des Entrepôts.. lesquels? comment?**
 
-Il existe beaucoup d'entrepôts de données, de nature et de qualité différentes. Certains sont des entrepôts Institutionnels (Portail Data INRAE, DataSuds, Didomena, … ), d'autres sont thématiques (PANGAEA pour les données environnementales, SEANOE spécifique aux données marines …) ou généralistes. 
+Il existe beaucoup d'entrepôts de données, de nature et de qualité différentes. Certains sont des entrepôts Institutionnels (Portail Data INRAE, DataSuds (IRD), Didomena, … ), d'autres sont thématiques (PANGAEA pour les données environnementales, SEANOE entrepot du pôle Odatis, spécifique aux données marines …) ou généralistes. 
 
 Pour aider à trouver et à choisir un entrepôt, des catalogues sont disponibles : <https://cat.opidor.fr/>, <https://www.re3data.org/> et <https://fairsharing.org/databases/>. Des entrepôts spécifiques peuvent être suggérés (ou imposés) par le journal dans lequel on dépose un article, mais aussi par le financeur, le consortium du projet ou l’institution dans laquelle on travaille. Il est conseillé de vérifier si l'établissement dans lequel on travaille a mis en place une politique de partage de données et de s'y référer pour éviter la dispersion des données tous azimuts.
 
@@ -608,7 +617,7 @@ Le data paper est un article scientifique sur les données : il permet de décri
 - l’originalité et la portée de ce jeu de données, ainsi que leur potentiel pour des utilisations futures (arguments décisifs pour l'acceptation de la publication),
 - l'accès au jeu de données, dans un fichier attaché ou par un lien pérenne (URL, DOI) vers un entrepôt où le jeu est déposé et accessible.
 
-On ne confondra pas les informations fournies par un data paper, avec celles qu'on l'on donne lorsqu'on rédige un Plan de Gestion de données. Ce sont des informations différentes [nous en parlons dans une FAQ](https://gt-atelier-donnees.miti.cnrs.fr/FAQ.html#PGD)
+On ne confondra pas les informations fournies par un data paper, avec celles qu'on l'on donne lorsqu'on rédige un Plan de Gestion de données. Ce sont des informations différentes [nous en parlons dans une FAQ](https://gt-atelier-donnees.miti.cnrs.fr/faq.html#PGD)
 
 Publier un data paper permet de :
 
@@ -650,7 +659,7 @@ Sophie Pamerlon présente les avantages de publier un datapaper, ainsi que deux 
 *  IPT (Integrated Publishing Toolkit) qui facilite le remplissage des métadonnées et la production automatisée d’un manuscrit de Data Paper
 * ARPHA : Outil de rédaction qui facilite la mise en page, la soumission, le processus de relecture, la publication, l’hébergement et l’archivage d’articles scientifiques.
 
-```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_2.GBIF_IPT_Sophie_Pamerlon.pdf)    
+```{admonition} [Exemple d’intégration du data paper à un workflow de publication de jeux de données : l’outil intégré de publication (IPT) du GBIF/ Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/GBIF_IPT_Sophie_Pamerlon.pdf)    
 :class: seealso   
 [Vidéo : ](https://www.canal-u.tv/video/medici/exemple_d_integration_du_data_paper_a_un_workflow_de_publication_de_jeux_donnees.58275)     
 Sophie Pamerlon, GBIF France – USM Patrimoine naturel  
@@ -669,7 +678,7 @@ Annegret Nicolai, (Univ. Rennes 1 – UMR ECOBIO, Station Biologique de Paimpont
 Dans sa présentation, Clémentine Cottineau nous indique quels sont les principes et le processus d'évaluation d'un datapaper pour la revue Cybergeo: Retour d’expérience et difficultés rencontrées.
 On trouvera sur cybergeo  un [exemple de recommandations aux auteurs pour un datapaper](https://journals.openedition.org/cybergeo/23412#tocto1n7).
 
-```{admonition} [Évaluer un data paper : retour d'expérience de la revue Cybergeo](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_4.Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf)    
+```{admonition} [Évaluer un data paper : retour d'expérience de la revue Cybergeo](https://gt-atelier-donnees.miti.cnrs.fr/download/Cybergeo_Denise_Pumain_Clementine_Cottineau_Christine_Kosmopoulos.pdf)    
 :class: seealso    
 [Vidéo : ](https://www.canal-u.tv/video/medici/evaluer_un_data_paper_retour_d_experience_de_la_revue_cybergeo.58277)    
 Clémentine Cottineau, CNRS – Centre Maurice Halbwachs   
@@ -680,7 +689,7 @@ Christine Kosmopoulos, CNRS – UMR Géographie-Cités
 Victor Gay nous présente un retour d'expérience de rédaction d'un [datapaper publié sur HAL](https://hal.archives-ouvertes.fr/hal-02951461) selon le modèle de la revue [Scientific Data](https://www.nature.com/sdata/).
 Il nous présente la production d'un data paper du point de vue d'un chercheur. Après avoir exposé sa recherche et les données produites, il explique pourquoi il a décidé de rédiger un data paper, la manière dont il s'y est pris pour le dépôt des données et la rédaction, avant de revenir sur les choix de dissémination et le rôle des métiers de l'accompagnement de la recherche dans l'ensemble du processus.
 
-```{admonition} [Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_5.REX_TRFGIS_Victor_Gay.pdf)    
+```{admonition} [Retour d’expérience d’un producteur de data paper](https://gt-atelier-donnees.miti.cnrs.fr/download/REX_TRFGIS_Victor_Gay.pdf)    
 :class: seealso    
 [Vidéo : ](https://www.canal-u.tv/video/medici/retour_d_experience_d_un_producteur_de_data_paper.58279)    
 Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse     
@@ -690,7 +699,7 @@ Victor Gay, Univ. Toulouse 1 – École d‘Économie de Toulouse
 Joachim Schöpfel,  propose une synthèse des différentes communications du webinaire en indiquant qu'un data paper fournit l'information "on the _what, where, why, how and who of the data_".
 Il revient ainsi sur l'intégration des data papers dans les pratiques des communautés, leurs diversités de forme, leurs objectifs, leur évaluation, leur impact, le rôle des différents métiers de la recherche dans leur production, pour finir sur les perspectives en la matière et ouvrir ainsi sur des échanges avec les participants.
 
-```{admonition} [Synthèse du webinaire et échanges](https://gt-atelier-donnees.miti.cnrs.fr/download/2020_11_05_Webinaire_Data_Paper_GT_Atelier_Donne%CC%81es_6.Synthe%CC%80se_Joachim_Schopfel.pdf)   
+```{admonition} [Synthèse du webinaire et échanges](https://gt-atelier-donnees.miti.cnrs.fr/download/Synthese_Joachim_Schopfel.pdf)   
 :class: seealso   
 [Vidéo : ](https://www.canal-u.tv/video/medici/synthese_du_webinaire_et_echanges_a_partir_des_questions_du_tchat.58161)    
 Joachim Schöpfel, Université Lille 3 – GERiiCO    
@@ -698,10 +707,10 @@ Joachim Schöpfel, Université Lille 3 – GERiiCO
 
 En guise d'exercice de conclusion, Wilfried Heintz nous fait part de sa conception d'une gestion pérenne des données scientifiques, en reliant nos différentes actions depuis l'étape initiale de la rédaction d'un DMP (Plan de gestion des données) jusqu'à à la publication d'un DataPaper :
 
-```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie](https://sist18.sciencesconf.org/data/pages/16_W_Heintz_Du_plan_de_gestion_des_donnees_au_data_paper.pdf)
+```{admonition} [Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie](https://sist.cnrs.fr/wp-content/uploads/2021/12/16-W-Heintz-Du-plan-de-gestion-des-donnees-au-data-paper.pdf)
 :class: seealso
 Wilfried Heintz, UMR 1201 Dynafor   
-[Séminaire SIST18 Observatoire Versailles](https://sist18.sciencesconf.org)
+[Séminaire SIST18 Observatoire Versailles](https://sist.cnrs.fr/sist18/)
 ```
 
 ```{admonition} [Gestion pérenne des données scientifiques : du plan de gestion de données au datapaper.](http://rbdd.cnrs.fr/IMG/pdf/sd2018_datamanagement_wheintz.pdf?435/8949f16992fdffdffe7b7ef53258e71f9500c685)
@@ -746,7 +755,6 @@ Cet atelier technique est organisé selon le plan suivant :
   - Exemples d'exploitation du Sparql Endpoint
 
 
-<ajout ML>
 L'intéropérabilité sémantique est au coeur de la démarche des pôles de données environnementaux :  le besoin est d'associer une signification aux données, et les positionner dans un domaine de connaissances. 
 
 Cela nécessite :
@@ -758,13 +766,25 @@ Ce questionnement "Quels schéma de métadonnées et quels vocabulaires utiliser
 données en naviguant dans les compartiments de la Terre, les capteurs et les propriétés observées.
 Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés dans diverses disciplines, et nous donnes les bonnes pratiques de création des terminologies
 
-```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist20.sciencesconf.org/data/pages/L_interope_rabilite_se_mantique_dans_les_po_les_de_donne_es.pdf)
+```{admonition} [L'interopérabilité sémantique dans les pôles de données](http://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-04-J-Desconnets-Linterope%CC%81rabilite%CC%81-se%CC%81mantique-dans-les-po%CC%82les-de-donne%CC%81es.pdf)
 :class: seealso
 [vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
  J-C Desconnet , Institut de l’information scientifique et technique   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist20.sciencesconf.org/)  
+[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist.cnrs.fr/sist20-21/)  
 ```
 
-</ajout>
+Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV) indiquent en outre que les données doivent pouvoir être réutilisées et mises en relation avec
+d’autres données au delà de sa propre base de données
+
+Utiliser des vocabulaires contrôlés pour FAIRiser les données
 
 Tous les éléments exposés dans ce chapitre sont nécessaires et importants pour mettre en place une bonne publication et diffusion des données de la science selon les principes FAIR.
+
+L'Interopérabilité se décline au niveau "sémantique", car les (méta)données doivent utiliser des vocabulaires qui suivent les principes FAIR, et doivent inclure des références vers d’autres (méta)données
+
+```{admonition} [L'interopérabilité sémantique dans les pôles de données](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Enjeux-notions-et-etat-des-lieux.pdf)
+:class: seealso
+Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV)  
+[Séminaire SIST22 webinaire à l'OSU de Grenoble, 2022](https://sist.cnrs.fr/sist22/)  
+```
+

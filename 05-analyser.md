@@ -134,13 +134,13 @@ L’assurance qualité logiciel donc permet de garantir que :
  Clémence Agrapart, [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
 ```
 
-Antoine Pérus insiste sur le fait que LE CODE est une UNE CONSTRUCTION COLLECTIVE et donne des règles de partage et d'échange pour le codage : 
+Antoine Pérus insiste sur le fait que LE CODE est une construction collective et donne des règles de partage et d'échange pour le codage : 
 - utilisation de tickets :  espace privilégié pour échanger tant au sein du projet qu'entre les membres du groupe et le monde extérieur.
 - utilisation de labels, associées aux tickets, aux Merge/Pull Request (MR/PR) et qui permettent de catégoriser, et donc de structurer. Ils facilitent la lecture, le partage des tâches et donc la vie collective.
 - bonne utilisation des workflow de dépots de code
 - etc.
 
-```{admonition} [LE CODE est une UNE CONSTRUCTION COLLECTIVE](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/construction_collective.pdf)
+```{admonition} [le code est une construction collective](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/construction_collective.pdf)
 :class: seealso   
  Antoine Pérus , [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
 ```
@@ -208,6 +208,10 @@ journées et conférences sont organisées sur le sujet. En particulier,
 il fait l'objet de sessions spéciales lors des Journées Développement
 (Jdev) de [2020](http://devlog.cnrs.fr/jdev2020/t8) et
 [2017](http://devlog.cnrs.fr/jdev2017/t7).
+
+Un cycle de formation a également été mis en place. Fidle (pour Formation d'Introduction au Deep Learning) est une formation ouverte à toutes et à tous et dont l'objectif est de proposer une large introduction au Deep Learning, allant des concepts fondamentaux aux architectures avancée, à destination d'un large public scientifique.
+
+Cette formation est organisée en distanciel sous forme de 15 séquences courtes, mêlant cours magistraux et travaux pratiques, totalisant une trentaine d'heures. L'accès à Fidle est totalement libre, aucune inscription n'est requise et l'ensemble des ressources pédagogiques (supports, vidéos, notebooks, etc.) est librement accessible (CC BY-NC-SA). Fidle est portée par l'institut 3IA MIAI, le CNRS, via la Mission pour les Initiative Transverses et Interdisciplinaires (MITI) et les réseaux DevLOG, Resinfo et SARI : https://fidle.cnrs.fr
 
 ### Visualisation des données numériques
 
@@ -378,22 +382,22 @@ Dans le domaine environnemental, les chaines logicielles sont également mises e
 Plusieurs présentations issues des journées du réseau SIST illustrent
 des mises en oeuvre de chaîne logicielle d'analyse de données:
 
-```{admonition} [Filtrage interactif de données multidimensionnelles](https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf)  
+```{admonition} [Filtrage interactif de données multidimensionnelles](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-08-P-Brockmann-Filtrage-de-donnees-multidimensionnelles.pdf)  
 :class: seealso
 Patrick Brockmann, Laboratoire des Sciences du Climat et de l'Environnement   
-[SIST16 OSU OREME 2016, Montpellier](https://sist16.sciencesconf.org/).
+[SIST16 OSU OREME 2016, Montpellier](https://sist.cnrs.fr/sist16).
 ```
 
-```{admonition} [Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf)   
+```{admonition} [Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS](https://sist.cnrs.fr/wp-content/uploads/2021/12/07-L-Hazan-Chaines-de-traitement-ICOS.pdf)   
 :class: seealso
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
-[SIST18 2018, Observatoire Versailles](https://sist18.sciencesconf.org/).
+[SIST18 2018, Observatoire Versailles](https://sist.cnrs.fr/sist18).
 ```
 
-```{admonition} [Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf)   
+```{admonition} [Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist.cnrs.fr/wp-content/uploads/2021/12/08-D-Wolyniec-J-Schaeffer-Vie-dune-donnees-sismologique.pdf)   
 :class: seealso
 David Wolyniec, OSU Grenoble - Jonathan Schaeffer, OSU Grenoble   
-[SIST16 OSU OREME 2016, Montpellier](https://sist16.sciencesconf.org/).
+[SIST18 OSU OVSQ](https://sist.cnrs.fr/sist18).
 ```
 
 ## Optimiser l'utilisation des ressources
