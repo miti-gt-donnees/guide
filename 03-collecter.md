@@ -469,9 +469,9 @@ Séminaire « les technologies mobiles : retours d'expériences et prospectives 
 
 Fruit d’une collaboration initiale entre l'Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENSs à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.
 
-```{admonition} [Stockez et retrouvez vos échantillons avec Collec-Science](http://rbdd.cnrs.fr/spip.php?article304)   
+```{admonition} [Webinaire Collec-Science](http://rbdd.cnrs.fr/spip.php?article360)   
 :class: seealso
-Marie-Claude Quidoz   
+Réseau rBDD, 2021
 ```
 
 ## Environnements de stockage - Sauvegarder les données
