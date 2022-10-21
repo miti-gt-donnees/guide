@@ -305,7 +305,7 @@ L’ensemble des données produites par la recherche doit être répertorié et 
 
 Alain Rivet positionne le cahier de laboratoire comme un outil de gestion des données de la recherche : 
 
-```{admonition} [Cahier de laboratoire et gestion des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Rivet.pdf)
+```{admonition} [Cahier de laboratoire et gestion des données de la recherche](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Rivet.pdf)
 :class: seealso
 Alain Rivet, CERMAV  
 Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
@@ -348,7 +348,7 @@ Paul-Guy Dupré, Fanny Brizzi Inserm, DSI
 ```{admonition} [Déploiement du cahier de laboratoire  électronique à l’INSERM et nouvelles perspectives]( https://conf-ng.jres.org/2019/document_revision_5213.html?download)   
 :class: seealso
 PaulGuy Dupré Inserm & Claudia Gallina-Muller - Inserm DSI   
-[JRES2019  ](https://www.jres.org/fr/programme/)   
+[JRES2019  ](https://2019.jres.org/fr/programme/)   
 ```
 
 La problématique des cahiers de laboratoire électroniques s'est intensifiée ces dernières années. Ainsi, le CNRS a lancé en 2020 une réflexion sur la mise en place de cahiers de laboratoires électroniques suite aux besoins remontés par les agents en laboratoire en alternative au cahier de laboratoire national (format papier). Cela s'est traduit par 
@@ -361,7 +361,7 @@ Nathalie Léon – Domenico Libri, CNRS
 
 Les travaux se sont poursuivis courant 2021 avec le groupe de travail « Cahier de laboratoire électronique » (ELN) du comité pour la science ouverte (CoSO). Le rapport présente une vision partagée sur la définition, le cadrage, les usages et le périmètre fonctionnel de l’ELN, qui doit pouvoir s’intégrer dans les environnements informatiques et institutionnels existants. Il émet un ensemble de recommandations sur les critères de choix d’un outil et intègre une liste comparative d'outils existants.
 
-```{admonition} [Rapport du Groupe de Travail sur les Cahiers de Laboratoire électroniques](https://www.ouvrirlascience.fr/wp-content/uploads/2022/01/Rapport_GT_ELN_v3.2-2022-01-04FINAL.pdf)  
+```{admonition} [Rapport du Groupe de Travail sur les Cahiers de Laboratoire électroniques](https://www.ouvrirlascience.fr/rapport-du-groupe-de-travail-sur-les-cahiers-de-laboratoire-electroniques/)  
 :class: seealso
 Membres du GT    
 "Ouvrir la science", MESRI, 2021

@@ -12,10 +12,7 @@ L’apport des réseaux est ici important en termes de croisement des discipline
 Avant d’aborder la gestion des données sous ses aspects techniques qui seront développés tout au long des étapes du cycle de vie de la donnée dans ce guide, nous souhaitons apporter une vision d’ensemble du paysage de la gestion des données.  
 Ce paysage s’appréhende dans le cadre du mouvement open science, de la politique d’open data en particulier et par la connaissance de l’ensemble du processus de recherche depuis la compréhension des possibilités de financement de la recherche (attendu des financeurs H2020, ERC, ANR …) jusqu’à la diffusion, la valorisation et l’évaluation des résultats.
 
-### Connaître les politiques d'accompagnement des données au niveau <modif: CH JJ>
-   français,
-</modif: CH JJ>
- européen et international 
+### Connaître les politiques d'accompagnement des données au niveau français, européen et international 
 
 Différentes initiatives institutionnelles sont développées au sein de nos établissements en France ou à l’étranger pour accompagner la politique des données de la recherche. Il est intéressant de se pencher sur ces travaux pour anticiper les besoins et prévoir les évolutions stratégiques possibles au sein de notre environnement.
  
@@ -51,9 +48,10 @@ On constate en effet aujourd’hui que les services communs de documentation, no
 L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'accompagnement de la recherche à caractère national ou international qui bénéficie d’un processus de labellisation et qui a pour vocation d’apporter un service à la communauté scientifique. Il s’agit des  [Services Nationaux d’Observation](https://www.insu.cnrs.fr/fr/les-services-nationaux-dobservation) (SNO) labellisés par la direction de l'INSU. Ces services ont été créés pour répondre au besoin de documenter sur le long terme la formation, l'évolution, la variabilité des systèmes astronomiques et des milieux terrestres, et de faire progresser les connaissances dans ces domaines. 
 
 
-  ** Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
+**Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
 
-Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur et de la recherche (MESR) a  mis en route la création d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Il s’agit de mettre à disposition des chercheurs un entrepôt pluridisciplinaire pour le dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.  
+Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur et de la recherche (MESR) a inauguré le 8 juillet 2022 l'ouverture de la  d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Cette plateforme a pour vocation de soutenir les équipes de recherche dans leur travail de structuration des données et met à leur disposition un entrepôt pluridisciplinaire dédié au dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.
+
 Outre le service de dépôt et de diffusion, cette plateforme propose aux chercheurs un catalogue des données de la recherche française et des services d’accompagnement de la donnée. Ces services se décomposent en trois catégories :  
 
 - Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes
@@ -70,26 +68,13 @@ Ces dernières années, la réglementation en matière de science ouverte a larg
 
 **Un contexte politique favorable à la gestion et au partage des données**
 
-En 2018, à la suite des objectifs fixés par l'Europe, la France s'est dotée d'un [plan national pour la science ouverte](https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf)
-
-<modif: CH JJ>
-qui prône la diffusion sans entraves des publications et des données de la recherche. Renouvelé en 2021 dans la continuité des [actions menées au cours des trois dernières années](https://www.ouvrirlascience.fr/wp-content/uploads/2021/07/Bilan-PNSO-2018-2021.pdf), et en résonance avec la [loi de programmation de la recherche de 2020](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042738033), ce [second plan](https://www.ouvrirlascience.fr/wp-content/uploads/2021/06/Deuxieme-Plan-National-Science-Ouverte_2021-2024.pdf) inscrit la science ouverte dans les missions des chercheurs et des enseignants-chercheurs, vise 100% des publications en accès ouvert en 2030 et s’enrichit d’un nouvel axe dédié aux codes sources et logiciels libre prenant appui sur la [politique nationale des données, des algorithmes et des codes sources](https://www.numerique.gouv.fr/uploads/feuillederoute_mesri.pdf) impulsée par le Premier ministre.
+En 2018, à la suite des objectifs fixés par l'Europe, la France s'est dotée d'un [plan national pour la science ouverte](https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf) qui prône la diffusion sans entraves des publications et des données de la recherche. Renouvelé en 2021 dans la continuité des [actions menées au cours des trois dernières années](https://www.ouvrirlascience.fr/wp-content/uploads/2021/07/Bilan-PNSO-2018-2021.pdf), et en résonance avec la [loi de programmation de la recherche de 2020](https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042738033), ce [second plan](https://www.ouvrirlascience.fr/wp-content/uploads/2021/06/Deuxieme-Plan-National-Science-Ouverte_2021-2024.pdf) inscrit la science ouverte dans les missions des chercheurs et des enseignants-chercheurs, vise 100% des publications en accès ouvert en 2030 et s’enrichit d’un nouvel axe dédié aux codes sources et logiciels libre prenant appui sur la [politique nationale des données, des algorithmes et des codes sources](https://www.numerique.gouv.fr/uploads/feuillederoute_mesri.pdf) impulsée par le Premier ministre.
 
 Suivant le même cap à l’échelle internationale, l’UNESCO produit en novembre 2021, une [recommandation sur la science ouverte](https://www.ouvrirlascience.fr/recommandation-de-lunesco-sur-une-science-ouverte/) et propose des actions en convergence avec le deuxième Plan national pour la Science ouverte.
 
-</modif: CH JJ>
+Le CNRS, a pour sa part rédigé une [feuille de route pour la science ouverte](https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf) s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d'une culture de la gestion et du partage des données, (iii) développement d'infrastructure pour la fouille et (iv) l'analyse des contenus et la transformation des modalités d'évaluation des chercheurs). 
 
-
-<modif: CH JJ A SUPPRIMER>
-
-. Présenté le 4 juillet par Frédérique Vidal, la ministre de l’Enseignement et de la Recherche, ce plan prône la diffusion sans entraves des publications et des données de la recherche. Il comporte différentes mesures déclinées en trois axes stratégiques et pose les conditions du développement de la science ouverte dans nos établissements. Dans la continuité de ce plan, 
-
-</modif: CH JJ A SUPPRIMER>
-
-<modif: CH JJ> Le CNRS, a pour sa part <modif: CH JJ> rédigé une [feuille de route pour la science ouverte](https://www.cnrs.fr/sites/default/files/press_info/2019-11/Plaquette_ScienceOuverte.pdf) s’appuyant sur des actions concrètes structurées autour de quatre grands objectifs : (i) 100% de la production scientifique en accès ouvert, (ii) développement d'une culture de la gestion et du partage des données, (iii) développement d'infrastructure pour la fouille et (iv) l'analyse des contenus et la transformation des modalités d'évaluation des chercheurs). 
-
-
-<modif: CH JJ>Il a également publié <modif: CH JJ>, <modif: CH JJ A SUPPRIMER>Enfin, le CNRS a publié <modif: CH JJ A SUPPRIMER> en novembre 2020 un [plan Données de la recherche](https://www.cnrs.fr/sites/default/files/pdf/Plaquette_PlanDDOR_Nov20.pdf) avec l'objectif d'accélérer le développment vers la science ouverte, et d'encourager les chercheurs à rendre leur données accessibles et réutilisables. A côté de la mise en place d'une politique des données en phase avec les besoins des communautés scientifiques, ce plan envisage un nouveau mode de gouvernance et un plan d'action pour les données de la recherche.
+Il a également publié en novembre 2020 un [plan Données de la recherche](https://www.cnrs.fr/sites/default/files/pdf/Plaquette_PlanDDOR_Nov20.pdf) avec l'objectif d'accélérer le développment vers la science ouverte, et d'encourager les chercheurs à rendre leur données accessibles et réutilisables. A côté de la mise en place d'une politique des données en phase avec les besoins des communautés scientifiques, ce plan envisage un nouveau mode de gouvernance et un plan d'action pour les données de la recherche.
 
 Du côté des financeurs de la recherche, l’ANR dans son plan d’action 2020 réaffirme son engagement en faveur de la science ouverte. En lien avec le plan national pour la science ouverte, elle demande l’élaboration d’un Plan de Gestion des Données (PGD) pour les projets financés à partir de 2019. Partant des recommandations du [Comité pour la Science Ouverte](https://www.ouvrirlascience.fr/) (CoSO), elle a adopté un [modèle de PGD](https://anr.fr/fileadmin/documents/2019/ANR-modele-PGD.pdf) proposé par Science Europe qui vise à harmoniser la gestion des données au niveau international. Ce plan constitue désormais un livrable de tout projet financé par l'ANR.
 
@@ -106,20 +91,20 @@ Une présentation de Françoise Genova et de Francis André détaille le fonctio
 ```{admonition} [Les activités de RDA : perspectives dans le cadre du noeud national français](https://sist.cnrs.fr/wp-content/uploads/2021/12/27-F-Andre-Research-Data-Alliance.pdf)  
 :class: seealso
 Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Strasbourg    
-[SIST 2018](http://sist.cnrs.fr/sist18) : Séries Interopérables et Systèmes de Traitement, 2018, Guyancourt
+[SIST 2018](http://sist.cnrs.fr/sist18) - Séries Interopérables et Systèmes de Traitement, 2018, Guyancourt
 ```
 
 
 Dans cette autre présentation, Volker Beckman (chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS) explique comment concrètement les chercheurs pourront utiliser l'EOSC.
 Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2018, qui coordonne les initiatives et projets de construction de cet espace à destination de la recherche et des chercheurs. Partant des nombreux projets qui ont été financés pour élaborer ce cloud ([EOSCpilot](https://eoscpilot.eu/), [EOSC-Pillar](https://www.eosc-pillar.eu/), [EOSC-hub](https://www.eosc-hub.eu/) etc.), il montre les possibilités de collaboration. Depuis 2019, une structuration est en cours avec la mise en place d’une gouvernance temporaire et une implication forte des ministères en charge de la recherche dans les différents pays européens. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement complémentaires dans le programme cadre "Horizon Europe".
 
-```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf)  
+```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Beckmann.pdf)  
 :class: seealso
 Volker Beckman,  CNRS/IN2P3   
-Rendre FAIR les données, mais quelles données préserver ? Atelier Dialogu’IST, 2020
+Atelier Dialogu’IST - Rendre FAIR les données, mais quelles données préserver ? 2020
 ```
 
-Pour accompagner les communautés de chercheurs,<modif: CH une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/fr/la-feuille-de-route-nationale-des-infrastructures-de-recherche-2021-84056) </modif: CH est mise à disposition sur son site par le ministère de l’Enseignement supérieur, de la Recherche et de l’Innovation. Elle recense aujourd’hui <MODIF A SUPP supp 99 infrastructures </MODIF A SUPP <modif :ch 108 infrastructures de formes et contenus variés </modif CH et est régulièrement remise à jour. 
+Pour accompagner les communautés de chercheurs, une [feuille de route nationale des infrastructures de recherche](https://www.enseignementsup-recherche.gouv.fr/fr/la-feuille-de-route-nationale-des-infrastructures-de-recherche-2021-84056) est mise à disposition sur son site par le ministère de l’Enseignement supérieur et de la Recherche. Elle recense aujourd’hui 108 infrastructures de formes et contenus variés et est régulièrement remise à jour. 
 
 Les projets de recherche au sein de ces infrastructures ont donné lieu à certains retours d’expériences qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche.  (Ils sont détaillés dans la partie dédiée aux {ref}`infrastructures`)
 
@@ -146,8 +131,8 @@ ANF  "Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se
 
 ```{admonition} [Questions juridiques autour de l’ouverture des données](http://rbdd.cnrs.fr/IMG/pdf/20181107_questions_juridiques_autour_de_l_ouverture_des_donnees_rbdd.pdf?515/adba03a95aa28dd17a08e0c052414e099ad26347)  
 :class: seealso
-Nathalie Le Ba (DAJ du CNRS)   
-ANF « Sciences des données : un nouveau challenge pour les métiers liés aux bases de données », 2018, Sète      
+Nathalie Le Ba, CNRS   
+ANF «Sciences des données : un nouveau challenge pour les métiers liés aux bases de données», 2018, Sète      
 ```
 En complément de ces présentations, il est important de retenir que le droit des producteurs de bases de données (droit sui generis) est désormais "neutralisé" par la Loi sur la république numérique. Comme toute administration, les universités et établissements de recherche ne peuvent opposer leur droit de producteur de bases de données à la libre réutilisation des informations qu'elles produisent. Le principe d'ouverture par défaut s'applique. Pour plus d'information sur ce point nous vous invitons à consulter l'article de Lionel Maurel : [les universités françaises et l’Open Data après la loi numérique](https://scinfolex.com/2016/11/01/les-universites-francaises-et-lopen-data-apres-la-loi-numerique/).
 
