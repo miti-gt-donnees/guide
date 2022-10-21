@@ -109,11 +109,11 @@ La protection du patrimoine scientifique et technique est l’affaire de tous, m
  
 Sans prise de conscience de tous sur la nécessité de préserver le patrimoine scientifique, une disparition (partielle sinon généralisée) de nos données est plus que probable. Marion Massol lors de sa présentation au séminaire SIST en 2016 nous rappelle cependant que des solutions d'avenir existent déjà (au CINES). 
 
-```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist16.sciencesconf.org/data/pages/18_M_Massol.pdf)   
+```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-18-M-Massol-CINES.pdf)   
 :class: seealso    
 [Vidéo : ](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
 Marion MASSOL, CINES   
-Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
+[Séminaire SIST 2016](https://sist.cnrs.fr/sist16/) : réseau SIST, Montpellier, 2016   
 ```
 
 ## Préserver les objets numériques
@@ -138,6 +138,18 @@ Atelier « Carnets de terrain électroniques », Montpellier, 2018
 ### Les bases de données
 
 En Avril 2004, le CINES a publié un  « [Guide Méthodologique pour l’archivage des bases de données](https://cultura.gencat.cat/web/.content/dgpc/arxius_i_gestio_documental/14_Gestio_documental/06_GD_Estandaritzacio/preservacio_publicacions/GM_archivage_BDD.pdf) » que nous recommandons fortement, même s'il est un peu ancien (la famille NoSQL est absente). Il contient les bonnes questions à se poser (est-ce une base de données vivante / consultée / cumulative ?), est-ce une base de données pilotée par une interface ? etc). Il présente les différents modes de sauvegarde possibles d'une base de données avec pour chacun leurs avantages et leurs inconvénients. Il liste les différentes documentations à joindre. Et surtout il sensibilise l'utilisateur sur la problématique de l'interface qui du point de vue préservation est un problème à prendre en compte en tant que tel (maillon faible).
+
+[ajout MCQ]
+Parmi les documents à joindre, le CINES conseille de ne pas oublier les documents réalisés lors de la modélisation, c'est à dire le modèle conceptuel de données (MCD), le modèle logique des données (MLD) et le modèle physique des données (MPD) car chacun apporte un niveau de répresentation nécessaire à la compréhension des données conservées.
+
+Ce sujet est au coeur de l'action nationale de formation « UML appliqué à la conception et à la documentation des bases de données » dont un des objectifs est de sensibiliser les acteurs à l'importance de la modélisation pour la conservation des données.
+
+```{admonition} [ANF UML appliqué à la conception et à la documentation des bases de données ](https://rbdd.cnrs.fr/IMG/zip/uml.zip?630/3411bfaf0a0fa7be8b0d46d164c94ca4afe9746a)   
+:class: seealso
+Laurent Perochon, VetAgro Sup & Christine Plumejeaud, CNRS & Marie-Claude Quidoz, CNRS
+ANF « UML appliqué à la conception et à la documentation des bases de données », réseau rBDD, Sète, 2022   
+```
+[/ajout MCQ]
 
 En novembre 2014, le réseau rBDD a consacré une journée à cette thématique « [Journée de sensibilisation à la sécurisation et à la pérennisation des données](http://webcast.in2p3.fr/events-rbdd2014) ». À cette occasion, Michel Jacobson a fait une présentation dans laquelle il présente le contexte de la pérennisation des bases de données, le  format *Software Independent Archiving of Relational Databases* (SIARD) et un retour d'expérience de l'utilisation de ce format pour la matrice cadastrale numérique.  
 
@@ -168,29 +180,23 @@ Dans cette présentation, Emilie Masson et Patrick Guillot proposent une carte m
 Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes    
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019    
 ```
+[Ajout CH et MCQ]
+[Les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article368) ont été abordées lors d'un webinaire en deux parties : la première partie a été consacrée à la présentation d'outils et la deuxième aux nombreuses questions juridiques mais aussi éthiques qui se posent pour rendre accessible les données de recherche. 
 
-<new: MCQ>
+En introduction de la première journée, Kim Montalibet introduit les notions de pseudoanomynisation et d'anonymisation et illustre avec des exemples la notion de données à caractère personnel et données sensibles.
 
-Mettre peut être à la place de la référence précedente la présentation faite lors de la Journée Gestion des données de recherche en SHS 2021 qui a été enregistrée
-Ces vidéos sont associées à la journée d'information et d'échanges sur la gestion des données de recherche organisée le 23 novembre 2021 par le laboratoire Pacte, en partenariat avec la Cellule Data Grenoble Alpes et la Plateforme Universitaire de Données Grenoble Alpes.
-Plus d'informations : https://gdr2021.sciencesconf.org/
-le porbleme ce n'est pas un réseau membre du GT
-
- 
-```{admonition} [Tout est possible avec le RGPD](https://gdr2021.sciencesconf.org/data/pages/Session2_Tout_est_possible_avec_le_RGPD_me_me_dans_le_cas_de_projets_de_recherche_EmilieMasson.pdf)    
-[Vidéo : ](https://videos.univ-grenoble-alpes.fr/recherche/journee-gestion-des-donnees-de-recherche-en-shs-2021/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)     
-:class: seealso   
-Emilie Masson, SPD-CNRS  
-Séminaire « Journée Gestion des données de recherche en SHS 2021 », xxxx , Grenoble, 2021    
+```{admonition} [Pseudonymiser des documents grâce à l’IA](https://rbdd.cnrs.fr/IMG/pdf/20211105_seminairerbdd_pseudonymisation.pdf?624/63ad6526b4f6b3fd9981265a780d7ac3d1e7b1cd)    
+:class: seealso 
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/pseudonymiser-des-documents)     
+Kim Montalibet, Etalab   
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-
-
-<new: MCQ>
-
-Si vos données personnelles nécessitent une anonymisation, vous pouvez consuter ses présentations faites lors du webinaire [les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article36)
+ 
+Ensuite, Damien Clochard présente l'extension « PostgreSQL Anonymiser » du SGBD PostgreSQL et Vincent Merilhou, grâce à un retour d'expérience de son utilisation dans le cadre de son laboratoire nous permet de mieux en appréhender les contours.
 
 ```{admonition} [PostgreSQL Anonymizer](https://dalibo.gitlab.io/postgresql_anonymizer/how-to.slides.html)    
 :class: seealso   
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/postgresql-anonymizer-damien-clochard-dalibo)     
 Damien Clochard, Dalibo   
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
@@ -198,40 +204,38 @@ Webinaire « les contraintes réglementaires liées aux bases de données », r�
 ```{admonition} [Retour d’expérience de PostgreSQL Anonymizer](https://rbdd.cnrs.fr/IMG/pdf/pg_anonymizer_dsi_cnrs.pdf?625/ad097df2d0d3b025bfc7ac05c094bdf72ed38803)    
 :class: seealso 
 [Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/retour-d-experience-de)     
-Vincent Merilhou, CNRS,   
+Vincent Merilhou, CNRS   
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-mettre PDF et visio
 
-</new MCQ>
-
-<new CH>
-
-Rendre accessible les données de recherche ouvre de nombreuses questions juridiques mais aussi éthiques. Les trois interventions présentées lors du webinaire sur les contraintes réglementaires liées aux bases de données offrent un panorama des différentes actions menées dans le domaine des sciences humaines et sociale mais aussi de l’environnement pour concilier diffusion des données et de recherche, protection des personnes et sécurisation des données.
+Dans le cadre de la deuxième partie, trois interventions offrent un panorama des différentes actions menées dans le domaine des sciences humaines et sociale mais aussi de l’environnement pour concilier diffusion des données et de recherche, protection des personnes et sécurisation des données.
 
 La première présentation d’Emilie Jouin et Justine lascard témoigne d’une démarche de collecte et diffusion de données audiovisuelle en contexte médical et pointe à travers des exemples sur les principales questions juridiques et éthiques que posent le traitement de données à caractère personnel, voir sensible (voix, image, propos …). On voit que cette démarche passe par la constitution d’un dossier juridique et éthique qui permet une négociation sur le terrain et le recueil de consentements éclairés, que le partage des corpus pour l’analyse des données suppose également des actions de sécurisation des données et enfin que la valorisation des résultats implique d’imaginer des solutions techniques (pseudonymisation, floutage, traitements …) pour l’application des clauses de protection des personnes. Des exemples en image illustrent les techniques utilisées.
 
+```{admonition} [Collecte et diffusion de données audiovisuelles en contexte médical : enjeux juridiques, éthiques et techniques](https://rbdd.cnrs.fr/IMG/pdf/jouin_lascar_com_rbdd_nov2021.pdf?627/7f5383d11607eabdf50cca6e3191cd1a33cbb97b)    
+:class: seealso   
+Emilie Jouin, CNRS & Justine Lascar, CNRS
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+
 La présentation très complète de Véronique Ginouves traduit elle aussi une démarche d’archivage complexe de fonds sonores et audiovisuels considérés par les chercheurs comme des objets de recherche et des informations à partager. Elle pose la question de la propriété des archives de terrain (témoin, enquêté, interprète, ayant droits etc.?) de la pratique d’anonymisation, des règles juridiques et éthiques à appliquer et du nécessaire respect des droits patrimoniaux pour assurer notamment le rôle central du témoin comme source de savoir.
+
+```{admonition} [Collecter, archiver et diffuser des données avec le droit et l'éthique comme alliés](https://rbdd.cnrs.fr/IMG/pdf/anonymat-2021-11_ginouves.pdf?628/9e92a166d217896185dddc42c62becfa9593c707)    
+:class: seealso   
+Véronique Ginouvès, CNRS/AMU (a vérifier)
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
 
 La dernière présentation de Frédéric Vest pose le cadre des obligations légales de diffusion des données dans le domaine de l’environnement et la biodiversité (Directive Inspire, Loi biodiversité, Loi Lemaire, RGPD …) et précise les modalités de gestions fines et adaptées mises en application pour respecter les contraintes spécifiques et la législation en vigueur (notamment sur les données de rapportage qui nécessite une normalisation).
 
-```{admonition} [Collecte et diffusion de données audiovisuelles en contexte médical : enjeux juridiques, éthiques et techniques](https://rbdd.cnrs.fr/IMG/pdf/jouin_lascar_com_rbdd_nov2021.pdf?627/7f5383d11607eabdf50cca6e3191cd1a33cbb97b)    
-:class: seealso   
-Emilie Jouin, Justine Lascar  
-Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
-```
-```{admonition} [Collecter, archiver et diffuser des données avec le droit et l'éthique comme alliés](hhttps://rbdd.cnrs.fr/IMG/pdf/anonymat-2021-11_ginouves.pdf?628/9e92a166d217896185dddc42c62becfa9593c707)    
-:class: seealso   
-Véronique Ginovès
-Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
-```
 ```{admonition} [Contraintes liées aux données environnementales et leurs mises en applications](https://rbdd.cnrs.fr/IMG/pdf/webinair_rbdd_nov2021_vest.pdf?626/cfe7ec27e8fc8dfbeabd3126236ff0a8269a8b37)    
-:class: seealso   
-Frédéric Vest
+:class: seealso  
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/webinaire-sur-les-contraintes)      
+Frédéric Vest, CNRS (à verifier)
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
 ```
-</new CH>
 
+[/ Ajout CH et MCQ]
 
 ### Les logiciels / les codes sources 
 

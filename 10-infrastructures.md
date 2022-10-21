@@ -454,37 +454,7 @@ Les projets de recherche au sein de ces infrastructures ont donné lieu à diver
 
 Ces pôles proposent des Entrepots thématiques Institutionnels pour les données environnementales, tels  qu'ils sont nécessaires[ dans la phase de diffusion du cycle de vie des données ](https://mi-gt-donnees.pages.math.unistra.fr/synthese/07-publier.html#les-entrepots-de-donnees), pour un accès interopérable et ouvert aux données 
 
-**Sismologie et géodésie**
 
-Dans le domaine de la sismologie et de la géodésie, Résif (Réseau sismologique et géodésique français), une infrastructure de recherche pour l’observation des déformations de la terre a été mise en place. Catherine Pequegnat lors de son intervention aux Fredocs 2013, présente la spécificité des données de sismologie, les réseaux de capteurs associés à ces données et pointe les manques et les avancées en termes de description, de norme et de formats pour la transcription et l’échange des données. Elle aborde aussi la question des possibilités d’accès aux données. Elle présente ensuite la TGIR Résif, son projet, son centre de données national (possibilités d’hébergement et de stockage) et sa contribution au projet européen EPOS
-
-```{admonition} [« RESIF (données sismologiques et géodésiques) »](http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf)  
-:class: seealso
-Catherine Pequenat, Institut des Sciences de la Terre, Observatoire des Sciences de l’Univers de Grenoble  
-Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois 
-```
-
-**Astronomie**
-
-Soizick Lesteven, retrace ensuite les missions du centre astronomique de Strasbourg qui depuis 1972 collecte des informations « utiles » sur les objets astronomiques. Elle détaille les processus de collecte et de traitements effectués pour mettre à disposition des données. Elle explique comment se crée l’interopérabilité des données entre les bases « Simbad », « Vizier », « Aladin » et leur interaction avec le dictionnaire des nomenclatures des objets célestes. Elle explique ainsi le processus de création de contenu de qualité, des données d’observations réutilisables et à forte valeur ajoutée pour les équipes de recherche.
-
-```{admonition} [La gestion des données astronomiques à l’Observatoire Astronomique de Strasbourg](http://renatis.cnrs.fr/IMG/pdf/LESTEVEN.pdf)  
-:class: seealso
-Soizick Lesteven, Observatoire Astronomique de Strasbourg  
-Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois  
-```
-
-**Sciences Sociales**
-
-Dans cette présentation très complète bien qu’ancienne, Roxane Silberman fait une description du Réseau Quetelet, composante de la TGIR Progedo qui est une banque française de données pour les sciences sociales. Elle indique la spécificité des données collectées au sein de ce réseau qui peuvent être des données 
-individuelles, qualitatives, parfois de santé publique et les enjeux de protection de la vie privée  associés à ces données. Elle retrace l’historique des premières banques de données pour lesquelles se posait déjà  la question de l’accès et du partage des données à caractère individuel. Ce réseau s’inscrit dans une infrastructure européenne, le CESSDA (réseau européen des archives de données) et fournit des métadonnées accessibles à tous et en particulier aux chercheurs. 
-Après avoir expliqué les grandes fonctions de Quetelet (dépôt, archivage, documentation, diffusion des données), elle revient sur quelques enjeux pour l’état, les politiques publiques et autres  acteurs économiques, le paysage qui se dessine autour de la donnée et qui bouscule les frontières dans le contexte de l’open data.  
-
-```{admonition} [Réseau Quetelet : Banques de données pour les sciences sociales](http://renatis.cnrs.fr/IMG/pdf/SILBERMAN_08102013.pdf)   
-:class: seealso
-Roxane Silberman  
-Quetelet, 2013
-```
 **Biodiversité**
 
 Dans le domaine de la biodiversité, le Pôle national de données de Biodiversité, PNDB, e-Infrastructure nationale de recherche est inscrite sur la feuille de route du MESRI depuis mars 2018. L'UMS PatriNat du Museum National d'Histoire Naturelle, MNHN, en est le maître d'oeuvre. Yvan Le Bras, lors des JCAD 2020 a présenté le PNDB et l'implémentation en cours.
@@ -506,7 +476,7 @@ A l’occasion d’une intervention au Gricad à Grenoble, Olivier Rouchon, dét
 :class: seealso
 Oliver Rouchon, CINES   
 Archivage numérique des données de la recherche, 2019, Grenoble   
-[vidéo](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4)  
+[vidéo](https://videos.univ-grenoble-alpes.fr/recherche/archivage-numerique-des-donnees-de-recherche/video/19535-archivage-des-donnees-au-cines/)  
 ```
   
 A noter :  
