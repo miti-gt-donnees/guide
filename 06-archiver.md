@@ -37,7 +37,7 @@ Marie-Laure Bachèlerie, DAJ-CNRS
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019     
 ```
 
-```{admonition} [Traçabilité des activités de recherche et gestion des connaissances - Guide pratique de mise en place](http://qualite-en-recherche.cnrs.fr/IMG/pdf/guide_tracabilite_activites_recherche_gestion_connaissances.pdf)   
+```{admonition} [Traçabilité des activités de recherche et gestion des connaissances - Guide pratique de mise en place](https://qualite-en-recherche.cnrs.fr/wp-content/uploads/2021/08/guide_tracabilite_activites_recherche_gestion_connaissances.pdf)   
 :class: seealso
 Alain Rivet, CERMAV & Marie-Laure Bachèlerie, DAJ-CNRS & Auriane Denis-Meyere, IBS & Delphine Tisserand, ISTerre   
 MITI-CNRS, 2018   
