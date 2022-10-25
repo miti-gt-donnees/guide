@@ -59,7 +59,7 @@ Cette présentation est une bonne entrée en la matière. Cristinel Diaconu intr
 
 La dernière partie de sa présentation est consacrée au projet **PREDON** qui propose une approche nouvelle mélangeant les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.
 
-```{admonition} [La préservation des données scientifiques](http://renatis.cnrs.fr/IMG/pdf/DIACONU_DPHEP_PREDON_FREDOCS.pdf)   
+```{admonition} [La préservation des données scientifiques](http://renatis.cnrs.fr/wp-content/uploads/2022/10/DIACONU_DPHEP_PREDON_FREDOCS.pdf)   
 :class: seealso   
 Cristinel Diaconu, CPPM   
 FRéDoc « Gestion et valorisation des données de la recherche », réseau Renatis, Aussois, 2013   
