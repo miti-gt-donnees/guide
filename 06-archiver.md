@@ -260,14 +260,14 @@ Gilles Duvert témoigne quant à lui de la préservation des données en Astrono
 
 ```{admonition} [Archivage des données à Huma-NUM](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf)
 :class: seealso
-[Vidéo : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)  
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/recherche/archivage-numerique-des-donnees-de-recherche/video/19534-archivage-des-donnees-a-huma-num/)  
 Michel Jacobson, Huma-Num   
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```  
 
 ```{admonition} [Archivage des données à l'IN2P3](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)   
 :class: seealso
-[Vidéo : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/19533-archivage-des-donnees-a-lin2p3)   
 Yonny Cardenas, CC-IN2P3    
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
@@ -280,7 +280,7 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 
 ```{admonition} [L'archivage des données en astronomie](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)   
 :class: seealso 
-[Vidéo : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4)   
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/19532-archivage-des-donnees-en-astronomie)
 Françoise Genova,observatoire astronomique de Strasbourg, Gilles Duvert, IPAG, OSUG et JMMC   
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
