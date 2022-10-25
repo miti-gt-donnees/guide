@@ -276,6 +276,7 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 :class: seealso
 Jean-Francois Perrin, ILL   
 Archivage Numérique des Données de Recherche, 2019, Grenoble   
+```
 
 ```{admonition} [L'archivage des données en astronomie](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)   
 :class: seealso 
