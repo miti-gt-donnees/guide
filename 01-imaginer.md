@@ -43,16 +43,16 @@ Susan Reilly, Liber
 ANF "Frédocs2013 - Gestion et valorisation des données de la recherche", 2013, Aussois 
 ```
 
-On constate en effet aujourd’hui que les services communs de documentation, nouvellement investis de ces problématiques d’open acces et de gestion des données de la recherche ont entrepris une restructuration de fond au sein des Universités pour proposer des services d’accompagnement à destination des équipes de recherches *(Voir [Arabesque n°95](http://www.abes.fr/Publications-Evenements/Arabesques/Arabesques-n-95), ADBU, 2019)*. De nouveaux services d'appui à la recherche se constituent peu à peu et proposent un soutien pour la publication en libre accès ou la rédaction de plan de gestion de données.  *(voir [SOS-PGD](https://openaccess.couperin.org/sos-pgd/), répertoire des services opérationnels de soutien à la rédaction de plans de Gestion de données au sein des établissements de l'enseignement supérieur et de la recherche)*  
+On constate en effet aujourd’hui que les services communs de documentation, nouvellement investis de ces problématiques d’open acces et de gestion des données de la recherche ont entrepris une restructuration de fond au sein des Universités pour proposer des services d’accompagnement à destination des équipes de recherches. De nouveaux services d'appui à la recherche se constituent peu à peu et proposent un soutien pour la publication en libre accès ou la rédaction de plan de gestion de données.  *(voir [SOS-PGD](https://openaccess.couperin.org/sos-pgd/), répertoire des services opérationnels de soutien à la rédaction de plans de Gestion de données au sein des établissements de l'enseignement supérieur et de la recherche)*  
 
 L’INSU est aussi depuis les années 1990 à l’origine d’un dispositif d'accompagnement de la recherche à caractère national ou international qui bénéficie d’un processus de labellisation et qui a pour vocation d’apporter un service à la communauté scientifique. Il s’agit des  [Services Nationaux d’Observation](https://www.insu.cnrs.fr/fr/les-services-nationaux-dobservation) (SNO) labellisés par la direction de l'INSU. Ces services ont été créés pour répondre au besoin de documenter sur le long terme la formation, l'évolution, la variabilité des systèmes astronomiques et des milieux terrestres, et de faire progresser les connaissances dans ces domaines. 
 
 
-**Une nouvelle plateforme et de nouveaux services d’accompagnement accessibles dès mars 2022 au niveau national**
+**Un écosystème au service du partage et de l’ouverture des données de recherche**
 
 Pour favoriser le partage et l’ouverture des données produites par la recherche française, le Ministère de l’enseignement supérieur et de la recherche (MESR) a inauguré le 8 juillet 2022 l'ouverture de la  d’une plateforme nationale fédérée des données de la recherche [“Recherche Data Gouv”](https://projet-recherchedatagv.ouvrirlascience.fr/). Cette plateforme a pour vocation de soutenir les équipes de recherche dans leur travail de structuration des données et met à leur disposition un entrepôt pluridisciplinaire dédié au dépôt des données qui ne trouveraient pas place au sein d’un entrepôt thématique de confiance.
 
-Outre le service de dépôt et de diffusion, cette plateforme propose aux chercheurs un catalogue des données de la recherche française et des services d’accompagnement de la donnée. Ces services se décomposent en trois catégories :  
+Outre le service de dépôt et de diffusion, cet environnement propose aux chercheurs un catalogue des données de la recherche française et des services d’accompagnement de la donnée. Ces services se décomposent en trois catégories :  
 
 - Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes
 - Centres de référence thématiques : en appui aux ateliers de la donnée, ils apportent une expertise disciplinaire
