@@ -287,14 +287,14 @@ Cette étape nécessite une phase de sélection des informations pertinentes (va
 
 Plusieurs critères sont à prendre en considération :
 
--	la date et la fréquence à laquelle faire cette sélection : fin de thèse, de projet ou de contrat / avant de quitter son emploi / à date régulière / etc ;
--	la durée de conservation : durée officielle pour les documents administratifs, à définir en fonction des besoins pour les données scientifiques ;  
--  l'obligation administrative de destruction éventuelle ;
--  la nécessité d'anonymisation éventuelle ;
--	le format, la nature des données qui définiront leur lisibilité dans le temps ;  
--	les supports d’enregistrement, d’utilisation et de stockage des données ;  
--	la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;  
--	le coût de ces supports ou encore des modifications de format de fichiers, ou bien de l’espace de stockage nécessaires à la conservation des données.  
+- la date et la fréquence à laquelle faire cette sélection : fin de thèse, de projet ou de contrat / avant de quitter son emploi / à date régulière / etc ;
+- la durée de conservation : durée officielle pour les documents administratifs, à définir en fonction des besoins pour les données scientifiques ;  
+- l'obligation administrative de destruction éventuelle ;
+- la nécessité d'anonymisation éventuelle ;
+- le format, la nature des données qui définiront leur lisibilité dans le temps ;  
+- les supports d’enregistrement, d’utilisation et de stockage des données ;  
+- la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;  
+- le coût de ces supports ou encore des modifications de format de fichiers, ou bien de l’espace de stockage nécessaires à la conservation des données.  
 
 Ses critères ont été établis dans le cadre de l'archivage pérenne, mais ils s'appliquent tout à fait à l'archivage (nota bene : la différence entre archive pérenne et archive porte sur la durée de conservation).
 
