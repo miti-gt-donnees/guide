@@ -67,9 +67,7 @@ FRéDoc « Gestion et valorisation des données de la recherche », réseau Rena
 
 ### Protéger et sécuriser le patrimoine scientifique
 
-L'analyse de risque suit un processus normé (ISO 2700x) comme nous le montre Alain Rivet. Cette présentation inclut une étude de cas sur l'utilisation d’un portable par un chercheur qui illustre le passage de la théorie à la pratique.
-
-La sécurité de l’information est définie comme la « protection de la **confidentialité**, de l'**intégrité** et de la **disponibilité** de l'information ». Elle est aujourd’hui une des problématiques majeures de nos unités et s’appuie sur la mise en place des Politiques de Sécurité des Systèmes d’Informations (PSSI) par les services compétents au sein des structures de recherche.
+Dans le domaine des systèmes d'information, l'analyse de risque suit un processus normé (ISO 2700x). La sécurité de l’information est définie comme la « protection de la **confidentialité**, de l'**intégrité** et de la **disponibilité** de l'information ». Elle est aujourd’hui une des problématiques majeures de nos unités et s’appuie sur la mise en place des Politiques de Sécurité des Systèmes d’Informations (PSSI) par les services compétents au sein des structures de recherche.
 
 Nous pouvons résumer la finalité de la « protection du patrimoine scientifique » comme étant le fait de :
 
@@ -79,13 +77,7 @@ Nous pouvons résumer la finalité de la « protection du patrimoine scientifiqu
 - assurer la protection des données sensibles de la structure (données scientifiques et techniques ; données de gestion administrative, données individuelles) ;
 - assurer la protection juridique (risques administratifs, risques pénaux, atteinte à la réputztion scientifique ou à l'image institutionnelle).
 
-```{admonition} [L'analyse de risques dans le cadre du système d'information](http://qualite-en-recherche.cnrs.fr/IMG/pdf/gestion_risques_ssi_rivet_2015.pdf)   
-:class: seealso   
-Alain Rivet, CERMAV   
-6ème rencontres du Réseau Qualité en Recherche, réseau QeR, Biarritz, 2015   
-```
-
-Cyril Bras ajoute un quatrième critère pour définir le niveau de sécurité d’un élément du système d'information : la **preuve** qu'il définit comme la propriété d'un bien permettant de retrouver, avec une confiance suffisante, les circonstances dans lesquelles ce bien évolue. Cette propriété englobe notamment :
+A ces différents aspects, Cyril Bras ajoute un quatrième critère pour définir le niveau de sécurité d’un élément du système d'information : la **preuve** qu'il définit comme la propriété d'un bien permettant de retrouver, avec une confiance suffisante, les circonstances dans lesquelles ce bien évolue. Cette propriété englobe notamment :
 
 - la traçabilité des actions menées ;
 - l’authentification des utilisateurs ;
