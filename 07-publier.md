@@ -214,7 +214,7 @@ ANF SIST - Octobre 2021
 
 **Les pôles de données nationaux en environnement**
 
-L'établissement de catalogues et de portails d'accès aux données se matérialisent également au niveau national où une infrastructure de recherche (IR) Data terra a été créée pour organiser et accéder aux données spatiales et in situ du système Terre.
+L'établissement de catalogues et de portails d'accès aux données se matérialisent désormais au niveau national où une infrastructure de recherche (IR) Data terra a été créée pour organiser et accéder aux données spatiales et in situ du système Terre.
 
 La mission de [l’IR Data Terra](https://www.data-terra.org/) consiste à organiser de manière intégrée la diffusion et l’accès aux données, en mettant à disposition les données, les produits et des services relatifs à l’observation du système Terre, via les pôles de données et de services existants :
 
@@ -238,7 +238,7 @@ Les politiques opérationnelles de ces pôles sont suivies par le réseau SIST o
 
 **Les portails de données européens**
 
-Par ailleurs, de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du [British Oceanographic Data Center : BODC](https://www.bodc.ac.uk/).
+Par ailleurs, de grands projets européens mettent désormais en place des portails d'accès à très large échelle. C'est le cas par exemple du portail du [projet Seadatanet](https://www.seadatanet.org/) qui vise à rassembler les données marines de plus de 30 pays européens. L'intérêt de ces portails est de fournir toutes les garanties d'une interopérabilité maximale basée sur des protocoles standards et des thesaurus et vocabulaires contrôlés du [British Oceanographic Data Center : BODC](https://www.bodc.ac.uk/).
 Le projet européen Seadatanet vise à élaborer et mettre en place un portail européen d'accès aux données marines en se basant sur de nombreux standards rendant les données FAIR. 
 
 Seadatanet est un exemple d'envergure européenne pour la mise en place de standards d'interopérabilité. Il repose sur de nombreux vocabulaires contrôlés fournis par le BODC. Une présentation du projet Seadatanet a été faite par Michele Fichaut et Florence Conquet  
@@ -270,7 +270,7 @@ Charly Coussot, Véronique Chaffard
 ```
 
 
-Les pôles de données se doivent de gérer une problématique de la gestion des données environnementales au niveau national, R. Moreno et K. Ramage nous exposent le Projet "Gaia Data", qui est une Infrastructure distribuée de données et services pour l'observation et la modélisation du système Terre. Ce projet "Gaia Data" est porté par 3 Infrastructures de Recherche numériques du domaine « système Terre et Environnement »
+Les pôles de données se doivent de gérer une problématique de la gestion des données environnementales au niveau national, R. Moreno et K. Ramage nous exposent [le projet "Gaia Data"](http://gaia-data.org/), qui est une Infrastructure distribuée de données et services pour l'observation et la modélisation du système Terre. Ce projet "Gaia Data" est porté par 3 Infrastructures de Recherche numériques du domaine « système Terre et Environnement »
 - Data Terra (données observations du système Terre),
 - CLIMERI (données simulations climatiques),
 - PNDB (données biodiversité)
@@ -347,7 +347,7 @@ Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 Blandine Nouvel  (Centre Camille Jullian / Frantiq)
 ```
 
-Dans sa communication JC Desconnet montre qu'il faut utiliser des vocabulaires contrôlés pour FAIRiser les données, et 
+Dans sa communication JC Desconnet montre qu'il faut utiliser des vocabulaires contrôlés pour "FAIR-iser" les données, et 
 fournit un Panorama des thésaurus de référence ayant un niveau de maturité sémantique
 
 
