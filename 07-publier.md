@@ -2,16 +2,17 @@
 # Publier et diffuser
 
 
-Cette dernière étape du cycle de vie des données représente la finalité de toute une politique FAIR de gestion de données puisqu'elle vise, dans un contexte de Science ouverte, à publier et à diffuser les données de manière à ce qu'elles soient correctement faciles à trouver, accessibles et surtout ... "réutilisables", selon des formats ouverts et des processus interopérables.
+Cette dernière étape du cycle de vie des données représente la finalité de toute une politique de gestion de données FAIR, puisqu'elle vise, dans un contexte de Science ouverte, à publier et à diffuser les données de manière à ce qu'elles soient correctement faciles à trouver, accessibles et surtout ... "réutilisables", selon des formats ouverts et des processus interopérables.
 
 L’accompagnement des réseaux métiers s’exerce sur diverses actions comme par exemple:
-- la documentation des données via des métadonnées descriptives provenant de vocabulaires contrôlés et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
+- la documentation des données via des métadonnées descriptives provenant de vocabulaires contrôlés (thesaurus disciplinaires) et de leurs formats d’exploitation pour en assurer la réutilisabilité. 
 - l'établissement de catalogues de données (idéalement moissonnables) nécessaires pour trouver et identifier les données;
-- le processus de dépôt des données dans des entrepôts ou des plateformes techniques, pour en permettre l’accès centralisé; 
-- l'utilisation d'outils logiciels et de protocoles interopérables permettant d'échanger ouvertement les données;
-- la description et l'identification des données avec des "datapapers" et des identifiants pérennes (DOI);
-- la représentation des données sous forme de graphes;
+- le processus de dépôt des données dans des [entrepôts "TRUST"](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/) ou des plateformes techniques, pour en permettre l’accès centralisé; 
 - l'aide au choix d'entrepôts de données ;
+- l'utilisation d'outils logiciels et de protocoles _interopérables_ permettant d'échanger ouvertement les données;
+- la description et l'identification des données avec des "datapapers", et des identifiants pérennes (DOI);
+- la représentation des données sous forme de graphes;
+- le monitoring des flux de données au moyen de tableaux de bords;
 - etc.
 
 Ainsi, les réseaux travaillent sur l’ensemble des informations (métadonnées, données, modes opératoires, échantillons, publications, visualisation et interfaces graphiques) nécessaires à la mise en œuvre des supports de diffusion et de valorisation pertinents en rapport avec l’objectif du projet initial.
