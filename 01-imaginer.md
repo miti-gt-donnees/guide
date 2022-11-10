@@ -164,6 +164,20 @@ L'ouverture et le partage des données impliquent par ailleurs l'utilisation de 
 
 Pour accompagner les équipes dans le traitement juridique des données, un collectif de juristes issus de l’enseignement supérieur et de la recherche a rédigé un guide de référence  [“Ouverture des données de recherche. Guide d’analyse du cadre juridique en France”](https://www.ouvrirlascience.fr/wp-content/uploads/2018/11/Guide_Juridique_V2.pdf) qui explique les principes à respecter en matière de diffusion des données.
 
+<NewCH>
+## Adopter des pratiques numériques responsables dans la gestion des données scientifiques
+
+La démarche d’ouverture des données de recherche dans laquelle nos établissements sont engagés est une démarche positive à de nombreux égards (préservation pérenne, reproductibilité, etc.), elle doit néanmoins, et de manière urgente, être considérée aussi du point de vue de son impact environnemental.
+
+S’il est encore difficile de quantifier très précisément l’impact de la gestion des données de recherche en particulier sur l’empreinte carbone ou sur la biodiversité, la disponibilité, la manipulation et le traitement de gros volumes de données entraîne de nouveaux usages qu’il s’agit aujourd’hui de mesurer et de questionner pour parvenir à une gestion sobre et écoresponsable.
+
+Une réflexion sur les outils et les infrastructures, les formats à utiliser s’impose de même qu’une gestion FAIR rigoureuse avec une sélection stricte des données utiles, nécessaires, validées et suffisamment bien qualifiée (avec des métadonnées de qualité) pour d’éviter de sauvegarder et de conserver des données inutilisables.
+
+Une maîtrise des impacts environnementaux est nécessaire. Elle passe par l’application de pratiques écoresponsables. En février 2022, un [guide de bonnes pratiques numérique responsable pour les organisations] (https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/), porté par la Direction Interministérielle du Numérique (DINUM), a été publié en licence ouverte pour une réutilisation par tous. Il a pour vocation de sensibiliser les acteurs aux impacts de certaines pratiques en cours dans nos organisations et aider la mise en œuvre d’actions permettant de réduire l’empreinte environnementale du numérique.
+
+
+**Ajouter la présentation MITI**
+</new:CH>
 
 ## Connaitre et comprendre les principes FAIR
 
