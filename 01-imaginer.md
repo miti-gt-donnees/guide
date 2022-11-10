@@ -164,7 +164,8 @@ L'ouverture et le partage des données impliquent par ailleurs l'utilisation de 
 
 Pour accompagner les équipes dans le traitement juridique des données, un collectif de juristes issus de l’enseignement supérieur et de la recherche a rédigé un guide de référence  [“Ouverture des données de recherche. Guide d’analyse du cadre juridique en France”](https://www.ouvrirlascience.fr/wp-content/uploads/2018/11/Guide_Juridique_V2.pdf) qui explique les principes à respecter en matière de diffusion des données.
 
-<NewCH>
+<New:CH>
+
 ## Adopter des pratiques numériques responsables dans la gestion des données scientifiques
 
 La démarche d’ouverture des données de recherche dans laquelle nos établissements sont engagés est une démarche positive à de nombreux égards (préservation pérenne, reproductibilité, etc.), elle doit néanmoins, et de manière urgente, être considérée aussi du point de vue de son impact environnemental.
@@ -292,7 +293,7 @@ Les réseaux favorisent le maintien et le développement des compétences, l’�
 
 Les réseaux rattachés à la MITI du CNRS  sont transversaux à tous les Instituts du CNRS, et accessibles aux personnels de l’Enseignement supérieur et de la Recherche,
 
-La MITI accueille et pilote actuellement [20 réseaux](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
+La MITI accueille et pilote actuellement [23 réseaux](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
 
 Les réseaux labellisés par les instituts du CNRS viennent plus spécifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense uncertain nombre dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
 
@@ -308,6 +309,7 @@ Outre les actions de formation, d’expérimentations et innovations pédagogiqu
 
 ### Suivre les travaux du Collège "Compétences et formation du COSO"
 
+<SUPP:JJ>
 Le Plan national pour la science ouverte, s’appuyant sur trois axes, engage les opérateurs de la recherche à "*mettre en œuvre une politique de science ouverte et à structurer et ouvrir les données de la recherche"*. La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions de deux collèges du  [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (COSO) :  les collèges [Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
 
 Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mettent en oeuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte. 
@@ -315,7 +317,22 @@ Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) q
 Parmi les réalisations récentes, on peut citer le guide « [Pour une politique des données de la recherche : guide stratégique](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) » où le CoSO émet sept recommandations pour aider à la formalisation et à la mise en œuvre d'une politique des données de la recherche au sein des établissements de l’ESR, la réalisation du [Passeport pour la science ouverte](https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/) destiné aux doctorants de toutes disciplines, le guide « [Je publie, quels sont mes droits](https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/) » qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits et la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente ».
 
 Fort de l’intérêt suscité par le Passeport, deux autres guides thématiques: “Codes et logiciels” et “Idées reçues sur la science ouverte” sont en cours de rédaction. Une déclinaison de ce travail sera éditorialisé au travers de capsules vidéos portant sur différentes thématiques. Tous ces livrables verront le jour à la rentrée 2022-2023. 
+</SUPP: JJ>
 
+<NEW:JJ>
+Le 2e Plan national pour la science ouverte (2021-2024), poursuit la trajectoire ambitieuse et s'appuie sur la politique nationale des données, des algorithmes et des codes sources impulsée par le Premier ministre qui vise à faciliter l'accès des chercheurs aux données publiques. Il engage la communauté scientifique à « transformer les pratiques pour faire de la science ouverte le principe par défaut ».
+
+Il souhaite étendre le mouvement de partage des données en développant et valorisant les compétences de la science ouverte tout au long du parcours des étudiants et des personnels de la recherche.
+
+La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions des collèges du [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (COSO), notamment les [collèges Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
+
+Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mette en œuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte.
+
+Parmi leurs réalisations, on peut citer le guide « [Pour une politique des données de la recherche : guide stratégique](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) » où le CoSO émet sept recommandations pour aider à la formalisation et à la mise en œuvre d’une politique des données de la recherche au sein des établissements de l’ESR. Notons également la mise à jour du [Passeport pour la science ouverte](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) destiné aux doctorants de toutes disciplines, à chaque étape de leur parcours de recherche ainsi que deux déclinaisons du Passeport : le livret [Science ouverte - entrez dans le débat](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) qui apporte des éléments de réponses qui correspondent aux principaux questionnements des scientifiques et le livret [Science ouverte – codes et logiciels](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) qui aborde les questions spécifiques liées aux codes sources et logiciels.
+
+A signaler également le guide « [Je publie, quels sont mes droits](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) » qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits et la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente ».
+
+</NEW:JJ>
 
 ```{admonition} A noter !
 :class: warning
