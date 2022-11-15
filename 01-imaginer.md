@@ -35,7 +35,7 @@ Francis André, DIST-CNRS
 ANF "Participer à l'organisation du management des données de la recherche : gestion de contenu et documentation des données", 2017, Paris 
 ```
 
-La gestion des données s’organise également au sein des structures d’accompagnement au niveau européen comme en témoigne dès 2013 Susan Reilly (Directeur exécutif de la Ligue Européenne des Bibliothèques de Recherche [LIBER](https://libereurope.eu/)) qui pointe en particulier les besoins de réorganisation et d’adaptation des structures d’accompagnement de la recherche pour aider les chercheurs dans la gestion des données. Le rôle des bibliothèques est crucial dans ces actions et les opportunités à saisir pour évoluer dans ce sens sont nombreuses. Partant du constat que sans une infrastructure qui aide les chercheurs à gérer leurs données de façon adéquate et efficace, aucune culture du partage n’est possible. Elle expose dans le cadre de LIBER une démarche proactive au sein des bibliothèques de recherche en Europe et présente 10 recommandations à suivre pour répondre aux besoins des chercheurs en termes de services et de supports.
+La gestion des données s’organise également au sein des structures d’accompagnement au niveau européen comme en témoigne dès 2013 Susan Reilly (Directeur exécutif de la Ligue Européenne des Bibliothèques de Recherche [LIBER](https://libereurope.eu/)) qui pointe en particulier les besoins de réorganisation et d’adaptation des structures d’accompagnement de la recherche pour aider les chercheurs dans la gestion de leurs données. Le rôle des bibliothèques est crucial dans ces actions et les opportunités à saisir pour évoluer dans ce sens sont nombreuses. Partant du constat que sans une infrastructure qui aide les chercheurs à gérer leurs données de façon adéquate et efficace, aucune culture du partage n’est possible. Elle expose dans le cadre de LIBER une démarche proactive au sein des bibliothèques de recherche en Europe et présente 10 recommandations à suivre pour répondre aux besoins des chercheurs en termes de services et de supports.
 
 ```{admonition} [From data management policy to implementation : opportunities and challenges for libraries](https://renatis.cnrs.fr/wp-content/uploads/2022/10/ReillyFredoc.pdf)  
 :class: seealso
@@ -54,9 +54,9 @@ Pour favoriser le partage et l’ouverture des données produites par la recherc
 
 Outre le service de dépôt et de diffusion, cet environnement propose aux chercheurs un catalogue des données de la recherche française et des services d’accompagnement de la donnée. Ces services se décomposent en trois catégories :  
 
-- Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes
-- Centres de référence thématiques : en appui aux ateliers de la donnée, ils apportent une expertise disciplinaire
-- Centre de ressources rattachés à recherche data.gouv : ils apportent des services liés à l’entrepôt générique des données, au catalogue, aux e-formation etc.
+- Ateliers de la donnée : point d’entrée des équipes de recherche, les ateliers de la donnée apportent un premier niveau d’expertise et développent des services généralistes,
+- Centres de référence thématiques : en appui aux ateliers de la donnée, ils apportent une expertise disciplinaire,
+- Centre de ressources rattachés à recherche data.gouv : ils apportent des services liés à l’entrepôt générique des données, au catalogue, aux e-formations etc.
 
 
 Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner un [webinaire](https://www.canal-u.tv/chaines/rda/rda-france-recherche-data-gouv-l-entrepot-national-federe-des-donnees-de-la-recherche) animé par  Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche et Pierre Yves Arnould, chargée de mission au MESR ou à consulter le [déroulé de leur présentation](https://rdafrance2021.sciencesconf.org/data/pages/2021.10.12_Recherche_Data_Gouv_RDA.pdf) réalisé le 12 octobre 2021 à l’occasion de la 4ème réunion annuelle de RDA France.
@@ -98,7 +98,7 @@ Francis André, DIST-CNRS & Françoise Genova, Observatoire Astronomique de Stra
 ```
 
 
-Dans cette autre présentation, Volker Beckman (chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS) explique comment concrètement les chercheurs pourront utiliser l'EOSC.
+Dans cette autre présentation, Volker Beckman (chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS) explique, de manière concrète, comment les chercheurs pourront utiliser l'EOSC.
 Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2018, qui coordonne les initiatives et projets de construction de cet espace à destination de la recherche et des chercheurs. Partant des nombreux projets qui ont été financés pour élaborer ce cloud ([EOSCpilot](https://eoscpilot.eu/), [EOSC-Pillar](https://www.eosc-pillar.eu/), [EOSC-hub](https://www.eosc-hub.eu/) etc.), il montre les possibilités de collaboration. Depuis 2019, une structuration est en cours avec la mise en place d’une gouvernance temporaire et une implication forte des ministères en charge de la recherche dans les différents pays européens. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement complémentaires dans le programme cadre "Horizon Europe".
 
 ```{admonition} [European Open Science Cloud (EOSC), opportunités pour la recherche en France](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Beckmann.pdf)  
@@ -175,17 +175,17 @@ La démarche d’ouverture des données de recherche dans laquelle nos établiss
 
 S’il est encore difficile de quantifier très précisément l’impact de la gestion des données de recherche en particulier sur l’empreinte carbone ou sur la biodiversité, la disponibilité, la manipulation et le traitement de gros volumes de données entraîne de nouveaux usages qu’il s’agit aujourd’hui de mesurer et de questionner pour parvenir à une gestion sobre et écoresponsable.
 
-Une réflexion sur les outils et les infrastructures, les formats à utiliser s’impose de même qu’une gestion FAIR rigoureuse avec une sélection stricte des données utiles, nécessaires, validées et suffisamment bien qualifiée (avec des métadonnées de qualité) pour d’éviter de sauvegarder et de conserver des données inutilisables.
+Une réflexion sur les outils et les infrastructures, les formats à utiliser s’impose de même qu’une gestion FAIR rigoureuse avec une sélection stricte des données utiles, nécessaires, validées et suffisamment bien qualifiée (avec des métadonnées de qualité) pour éviter de sauvegarder et de conserver des données inutilisables.
 
-Une maîtrise des impacts environnementaux est nécessaire. Elle passe par l’application de pratiques écoresponsables. En février 2022, un [guide de bonnes pratiques numérique responsable pour les organisations] (https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/), porté par la Direction Interministérielle du Numérique (DINUM), a été publié en licence ouverte pour une réutilisation par tous. Il a pour vocation de sensibiliser les acteurs aux impacts de certaines pratiques en cours dans nos organisations et aider la mise en œuvre d’actions permettant de réduire l’empreinte environnementale du numérique.
+Une maîtrise des impacts environnementaux est nécessaire. Elle passe par l’application de pratiques écoresponsables. En février 2022, un [guide de bonnes pratiques numérique responsable pour les organisations](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/), porté par la Direction Interministérielle du Numérique (DINUM), a été publié en licence ouverte pour une réutilisation par tous. Il a pour vocation de sensibiliser les acteurs aux impacts de certaines pratiques en cours dans nos organisations et aider la mise en œuvre d’actions permettant de réduire l’empreinte environnementale du numérique.
 
 
 **Ajouter la présentation MITI**
 </new:CH>
 
-## Connaitre et comprendre les principes FAIR
+## Connaître et comprendre les principes FAIR
 
-Enoncés initialement par le groupe de travail FORCE 11, les principes FAIR « The FAIR Guiding Principles for scientific data management and stewardhip » ont été publiés en mars 2016 dans la revue Scientific Data. Elaborés par des représentants du monde universitaire, de l’édition, de l’industrie et des organismes de financement, ils répondent aux besoins urgents d’amélioration des infrastructures permettant la réutilisation des données scientifiques.
+Enoncés initialement par le groupe de travail FORCE 11, les principes FAIR « The FAIR Guiding Principles for scientific data management and stewardhip » ont été publiés en mars 2016 dans la revue _Scientific Data_. Elaborés par des représentants du monde universitaire, de l’édition, de l’industrie et des organismes de financement, ils répondent aux besoins urgents d’amélioration des infrastructures permettant la réutilisation des données scientifiques.
 
 ### Définir les principes FAIR pour guider les stratégies de gestion des données
 
@@ -209,14 +209,14 @@ Atelier Données Inter réseau, 2018, Paris
 
 ## Prévoir la traçabilité des données 
 
-Dans un environnement où l'information arrive en masse, pouvoir assurer la traçabilité des données est essentiel. Les données numériques représentent un enjeu majeur pour la recherche et il est important d'intégrer une démarche qualité au sein des structures de recherche pour disposer de données fiables et réutilisables. 
+Dans un environnement où l'information arrive en masse, pouvoir assurer la traçabilité des données est essentiel. Les données numériques représentent un enjeu majeur pour la recherche, il est donc important d'intégrer une démarche qualité au sein des structures de recherche pour disposer de données fiables et réutilisables. 
 
 Le réseau Qualité en Recherche particulièrement investi sur ce sujet, a élaboré en 2018, un guide de référence : [Traçabilité des activités de recherche et gestion des connaissances](http://qualite-en-recherche.cnrs.fr/IMG/pdf/guide_tracabilite_activites_recherche_gestion_connaissances.pdf), à destination des agents des unités de recherche.
 Ce guide a pour objectif de fournir des recommandations et bonnes pratiques pouvant être appliquées dans tous les domaines d’activités, tant administratifs, techniques que scientifiques, afin d’assurer la traçabilité des activités de recherche et d’améliorer la gestion des données de la recherche.
 
 Alain Rivet, Responsable qualité et système d'information au CERMAV, illustre cette question à l'occasion de l'ANF Données 2016 en  présentant la problématique de la donnée dans la perspective de la traçabilité des activités de recherche. Il pose la question du défi organisationnel de la gestion des données dans les laboratoires et les établissements face aux contraintes de plus en plus fortes des autorités de tutelle. Il souligne ainsi le besoin d’optimiser le fonctionnement de nos laboratoires, la solution étant de s’appuyer sur des référentiels comme la norme ISO 9001. La nécessaire confiance en la qualité d’une recherche suppose une maîtrise de l’ensemble des moyens d’acquisition, de traitement, de diffusion et de conservation des résultats. 
 
-Nos tutelles, en réponse à cette problématique d'intégrité scientifique, ont mis en place une stratégie nationale avec la rédaction début 2016 d’une charte de déontologie des métiers de la recherche qui insiste sur l’importance de permettre la traçabilité des travaux expérimentaux et la conservation des données de la recherche. Une bonne gestion des données de la recherche apparait comme une réponse au problème soulevé.
+Nos tutelles, en réponse à cette problématique d'intégrité scientifique, ont mis en place une stratégie nationale avec la rédaction début 2016 d’une charte de déontologie des métiers de la recherche qui insiste sur l’importance de permettre la traçabilité des travaux expérimentaux et la conservation des données de la recherche. Une bonne gestion des données de la recherche apparaît comme une réponse au problème soulevé.
 
 ```{admonition} [Activités de recherche et gestion des connaissances](https://anfdonnees2016.sciencesconf.org/data/pages/donnees_renatis_Al1_Rivet_2016.pdf)  
 :class: seealso
@@ -280,11 +280,11 @@ Pour plus de détails, on se reportera à la section {ref}`archiver`.
 
 La formation continue des personnels est fondamentale pour suivre l'évolution des métiers et des technologies.
 
-Au CNRS, la formation continue est pilotée par le Service formation et Itinéraire Professionnel ([SFIP](http://www.dgdr.cnrs.fr/drh)). Celui-ci met en oeuvre des actions adaptées aux orientations et à la stratégie de l’établissement à travers deux dispositifs de formation principaux : les Actions Nationales de Formation (ANF) fortement orientée sur les technologies et ingénierie, et les "Écoles Thématiques"  d'un contenu davantage scientifique et plutôt en relation avec les chercheurs. Le SFIP soutient également des actions régionales de formation.
+Au CNRS, la formation continue est pilotée par le Service formation et Itinéraire Professionnel ([SFIP](http://www.dgdr.cnrs.fr/drh)). Celui-ci met en oeuvre des actions adaptées aux orientations et à la stratégie de l’établissement à travers deux dispositifs de formation principaux : les Actions Nationales de Formation (ANF) fortement orientées sur les technologies et ingénierie, et les "Écoles Thématiques"  d'un contenu davantage scientifique et plutôt en relation avec les chercheurs. Le SFIP soutient également des actions régionales de formation.
 
 **Les réseaux métiers et réseaux technologiques**
 
-Dans ces dispositifs de formation institutionnels, _les réseaux métiers_ sont fréquemment au coeur des propositions de programme, du montage et de l'organisation des ANF. Chaque année de nombreuses formations sont en effet régulièrement organisées par les réseaux, et les supports de formations présentés sont habituellement capitalisés sous une forme ou une autre (résumé, pdf, vidéo) sur les sites des réseaux.
+Dans ces dispositifs de formation institutionnels, les réseaux sont fréquemment au coeur des propositions de programme, du montage et de l'organisation des ANF. Chaque année de nombreuses formations sont en effet régulièrement organisées par les réseaux, et les supports de formations présentés sont habituellement capitalisés sous une forme ou une autre (résumé, pdf, vidéo) sur les sites des réseaux.
 
 Outre les ANF, les réseaux organisent également de manière autonome, sur budget propre attribués par la [Mission pour les Initiatives transverses et l'Interdisciplinarité ](https://miti.cnrs.fr/) (MITI) ou par les Instituts du CNRS, des journées de séminaires qui regroupent les membres des réseaux comme par exemple les [journées thématiques organisées par le groupe de travail inter-réseaux « Atelier données »](https://gt-atelier-donnees.miti.cnrs.fr) ou les [séminaires annuels du réseau SIST de l'INSU](https://sist.cnrs.fr/sist22/#).
 
@@ -298,22 +298,22 @@ Les réseaux rattachés à la MITI du CNRS  sont transversaux à tous les Instit
 
 La MITI accueille et pilote actuellement [23 réseaux](https://miti.cnrs.fr/presentation-de-la-plateforme-reseaux/les-reseaux/) labellisés au sein de sa plateforme. Ils couvrent l’ensemble du territoire national et sont transverses à l’organisme.
 
-Les réseaux labellisés par les instituts du CNRS viennent plus spécifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense uncertain nombre dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
+Les réseaux labellisés par les instituts du CNRS viennent plus spécifiquement en support à leurs axes stratégiques scientifiques. Le blog RH du CNRS en recense un certain nombre dans son billet « [Evoluer, échanger, innover : les réseaux professionnels du CNRS](https://blog-rh.cnrs.fr/evoluer-echanger-innover-reseaux-professionnels-cnrs/) ».
 
 
 Un dispositif de formation à distance sur les données de la recherche est accessible sur le site [DoRANum](https://doranum.fr/) (Données de la Recherche : Apprentissage NUMérique à la gestion et au partage). Cette plateforme met à disposition différentes ressources d’autoformation en libre accès sur la gestion et le partage des données de la recherche.
 
-Le réseau national des [URFIST](http://gis-reseau-urfist.fr/) (Unité Régionale de Formation à l'Information Scientifique et Technique), créé en 1982 est un réseau inter-académique structuré depuis 2017 en Groupement d’Intérêt Scientifique (GIS) qui a pour objectif de développer l’usage de l’IST dans l’enseignement supérieur et de la recherche. 
+Le réseau national des [URFIST](http://gis-reseau-urfist.fr/) (Unité Régionale de Formation à l'Information Scientifique et Technique), créé en 1982 est un réseau inter-académique structuré depuis 2017 en Groupement d’Intérêt Scientifique (GIS) qui a pour objectif de développer l’usage de l’IST dans l’Enseignement Supérieur et de la Recherche. 
 
 Les sept unités régionales proposent chacune des ressources, documents pédagogiques ainsi que des formations (y compris doctorales) et manifestations scientifiques et professionnelles à [Bordeaux](http://weburfist.univ-bordeaux.fr/formations-programme/), [Lyon](https://urfist.univ-lyon1.fr/), [Paris](https://urfist.chartes.psl.eu/formations/stages/programme), [Nice](https://urfist.univ-cotedazur.fr/formations/), [Rennes](https://urfist.univ-rennes2.fr/formations/stages/presentation-du-programme-en-cours), [Strasbourg](http://urfist.unistra.fr/formations/) et [Toulouse](http://urfist.univ-toulouse.fr/formations/sessions-date). Leur mission s’organise autour de trois axes principaux : la conception et la réalisation d’actions de formation, d’outils pédagogiques ainsi que la veille et la recherche dans le domaine des technologies de l’information. 
 
 Outre les actions de formation, d’expérimentations et innovations pédagogiques initiées par les Urfist, le réseau met à disposition un blog « [UrfistInfo](https://urfistinfo.hypotheses.org/) ».
 
 
-### Suivre les travaux du Collège "Compétences et formation du COSO"
+### Suivre les travaux du Collège "Compétences et formation du CoSO"
 
 <SUPP:JJ>
-Le Plan national pour la science ouverte, s’appuyant sur trois axes, engage les opérateurs de la recherche à "*mettre en œuvre une politique de science ouverte et à structurer et ouvrir les données de la recherche"*. La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions de deux collèges du  [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (COSO) :  les collèges [Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
+Le Plan national pour la science ouverte, s’appuyant sur trois axes, engage les opérateurs de la recherche à "*mettre en œuvre une politique de science ouverte et à structurer et ouvrir les données de la recherche"*. La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions de deux collèges du  [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (CoSO) :  les collèges [Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
 
 Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mettent en oeuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte. 
 
@@ -327,7 +327,7 @@ Le 2e Plan national pour la science ouverte (2021-2024), poursuit la trajectoire
 
 Il souhaite étendre le mouvement de partage des données en développant et valorisant les compétences de la science ouverte tout au long du parcours des étudiants et des personnels de la recherche.
 
-La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions des collèges du [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (COSO), notamment les [collèges Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
+La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions des collèges du [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (CoSO), notamment les [collèges Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
 
 Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mette en œuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte.
 
