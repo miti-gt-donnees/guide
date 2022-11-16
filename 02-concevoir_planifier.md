@@ -76,15 +76,15 @@ La sécurité de l’information est définie comme la « protection de la confi
 
 Forts de ce constat, nous devons envisager la finalité de « protection du patrimoine scientifique » à travers des enjeux principaux :
 
-- garantir la disponibilité de l’outil de travail pour l’ensemble des personnels de la structure 
+- garantir la disponibilité de l’outil de travail pour l’ensemble des personnels de la structure ; 
 - garantir la confidentialité des informations, qu’elles soient professionnelles ou personnelles ;
 - garantir l’intégrité des informations et des personnes ;
 - assurer la protection des données à caractère personnel et / ou sensibles collectées, produites ou gérées par la structure (données scientifiques et techniques, données de gestion administrative, données individuelles) ;
 - assurer la protection juridique (risques administratifs, risques pénaux, perte d’image de marque).
 
-Une analyse de risque telle qu'évoquée dans le [Guide des bonnes pratiques pour les Administrateurs Systèmes et Réseaux ](http://gbp.resinfo.org/) apparaît comme une réponse aux besoins de protection des données de nos unités de recherche.
+Une analyse de risques telle qu'évoquée dans le [Guide des bonnes pratiques pour les Administrateurs Systèmes et Réseaux ](http://gbp.resinfo.org/) apparaît comme une réponse aux besoins de protection des données de nos unités de recherche.
 
-L'analyse de risque permet alors d'identifier les objectifs de sécurité et les mesures à prendre adaptées aux besoins de protection de données de l'unité. Elle sert d'élément à l'élaboration de la politique de sécurité du Système d'Information (PSSI).
+L'analyse de risques permet alors d'identifier les objectifs de sécurité et les mesures à prendre adaptées aux besoins de protection de données de l'unité. Elle sert d'élément à l'élaboration de la politique de sécurité du Système d'Information (PSSI).
 
 L'analyse de risques et la gestion des risques sont des processus importants de la gestion de projet. Un ensemble de présentations réalisées en décembre 2015 en dresse un panorama.
 
@@ -103,8 +103,8 @@ Sabine GOULIN, Université de Lorraine
 #### Définir le risque associé à un jeu de données 
 
 Eric Quinton aborde la question de la protection des données dans un contexte de menaces informatiques. Que représente la donnée ?  Il précise qu’une donnée n’a pas de valeur intrinsèque, c’est la représentation d’une réalité, elle dépend de son contexte d’acquisition, de son traitement. Lorsque l’on travaille sur les données, on travaille toujours sur un processus d’acquisition dans le cadre d’un référentiel.
-Certaines données doivent être protégées, car elles comportent un risque si elles venaient à être diffusées et réutilisées. Face aux menaces informatiques qui n’ont jamais été aussi nombreuses (piratages, attaques, arnaques), il importe de définir le risque et de comprendre comment l’intégrer à la gestion des données. Il existe plusieurs définitions, mais l’on s’accorde pour dire que c’est la conjonction entre une cible, un impact, une cause et une probabilité. Une fois la cible définie (un jeu de donnée) il convient de définir l’impact ou la gravité. Celui-ci s’évalue selon trois critères (confidentialité de l’information, intégrité des données et disponibilité du système) classés chez IRSTEA selon un schéma détaillé correspondant à une échelle de 1 à 4. Il est important aussi de calculer l’impact en cas de défaillance – pour chaque critère, on note 4 niveaux d’impact  estimés selon 4 thématiques. L’étude débouche sur un tableau récapitulatif qui est reporté dans le plan de gestion de données. Ce tableau permet de définir l’impact maximal et la sensibilité du système.
-On ne peut connaitre toutes les menaces et les causes à prendre en compte. L’usage est de consulter les recueils de bonnes pratiques et de se référer aux listes et référentiels existants. La probabilité d’occurrence d’une menace est à évaluer en fonction du risque associé – on note trois niveaux de risque : opportuniste, ciblé attaque concertée. 
+Certaines données doivent être protégées, car elles comportent un risque si elles venaient à être diffusées et réutilisées. Face aux menaces informatiques qui n’ont jamais été aussi nombreuses (piratages, attaques, arnaques), il importe de définir le risque et de comprendre comment l’intégrer à la gestion des données. Il existe plusieurs définitions, mais l’on s’accorde pour dire que c’est la conjonction entre une cible, un impact, une cause et une probabilité. Une fois la cible définie (un jeu de données) il convient de définir l’impact ou la gravité. Celui-ci s’évalue selon trois critères (confidentialité de l’information, intégrité des données et disponibilité du système) classés chez IRSTEA selon un schéma détaillé correspondant à une échelle de 1 à 4. Il est important aussi de calculer l’impact en cas de défaillance – pour chaque critère, on note 4 niveaux d’impact  estimés selon 4 thématiques. L’étude débouche sur un tableau récapitulatif qui est reporté dans le plan de gestion de données. Ce tableau permet de définir l’impact maximal et la sensibilité du système.
+On ne peut connaître toutes les menaces et les causes à prendre en compte. L’usage est de consulter les recueils de bonnes pratiques et de se référer aux listes et référentiels existants. La probabilité d’occurrence d’une menace est à évaluer en fonction du risque associé – on note trois niveaux de risques : opportuniste, ciblé attaque concertée. 
 En conclusion, Eric Quinton explique comment intégrer concrètement le risque dans le plan de gestion des données en présentant des exercices pratiques.
 
 
@@ -120,7 +120,7 @@ Voir aussi les vidéos :
 
 ### Sauvegarder les données
 
-À ce stade, il est important de prévoir une sauvegarde pour les données qui seront collectées, créées, construites dans le cadre du projet. La sauvegarde des données est un point important de la gestion du projet qui répond au risque de perte des données, c'est aussi un pint qui doit être traité dans le plan de gestion de données traité au paragraphe suivant. Etant donnée l'importance de la sauvegarde des données, nous préférons, au risque de redondance, mettre l'accent ici sur cette nécessité.  
+À ce stade, il est important de prévoir une sauvegarde pour les données qui seront collectées, créées, construites dans le cadre du projet. La sauvegarde des données est un point important de la gestion du projet qui répond au risque de perte des données, c'est aussi un point qui doit être traité dans le plan de gestion de données traité au paragraphe suivant. Etant donné l'importance de la sauvegarde des données, nous préférons, au risque de redondance, mettre l'accent ici sur cette nécessité.  
 L'objet de cette phase préparatoire n'est pas de discuter le choix d'une technologie ou d'une stratégie, mais simplement de se préoccuper de prévoir la sauvegarde des données, et se poser les bonnes questions :
 
 - Quel volume approximatif devrons-nous sauvegarder ?  
@@ -189,7 +189,7 @@ JCAD 2019
 ### Créer un plan de gestion de logiciel
 
 Les logiciels sont aussi des données, un peu particulières et qui méritent donc un modèle approprié de plan de gestion : le plan de gestion de logiciel. 
-Le [projet PRESOFT](http://www.france-grilles.fr/presoft/) propose un modèle adapté à la fois au logiciel et au contexte de la recherche en France. Après une présentation de ce contexte, du modèle et de la procédure associée, les apports de PRESOFT sont détaillés. À noter que le modèle proposé par PRESOFT s’étend sur l'ensemble de la "vie" du logiciel depuis l'idée, avec les documents préparatoires, jusqu'à la préservation (sous toutes ses formes) et qu'il prend en compte toutes les formes de financement (projets, stages...). Le modèle est disponible sur [DMP OPIdOR](https://dmp.opidor.fr/public_templates) et [déposé sur HAL](https://hal.archives-ouvertes.fr/hal-01802565).
+Le [projet PRESOFT](http://www.france-grilles.fr/presoft/) propose un modèle adapté à la fois au logiciel et au contexte de la recherche en France. Après une présentation de ce contexte, du modèle et de la procédure associée, les apports de PRESOFT sont détaillés. À noter que le modèle proposé par PRESOFT s’étend sur l'ensemble de la "vie" du logiciel depuis l'idée, avec les documents préparatoires, jusqu'à la préservation (sous toutes ses formes) et qu'il prend en compte toutes les formes de financements (projets, stages...). Le modèle est disponible sur [DMP OPIdOR](https://dmp.opidor.fr/public_templates) et [déposé sur HAL](https://hal.archives-ouvertes.fr/hal-01802565).
 
 ```{admonition} [Plans de gestion de logiciels](https://jcad2019.sciencesconf.org/data/PRESOFT\_JCAD2019.pdf)   
 :class: seealso
@@ -214,7 +214,7 @@ Enfin, à des fins pédagogiques, le [CEFE](https://www.cefe.cnrs.fr/fr/) a  ré
 Une fois les besoins exprimés, il faut identifier les infrastructures nécessaires à la réalisation du projet. On apportera également un soin particulier aux différents 
 critères de choix de ces infrastructures.
 
-La section {ref}`infrastructures` de ce guide présente différents types d'infrastructures destinées à la recherche que ce soit au niveau européen, national, régional ou par thématique scientifique.
+La section {ref}`infrastructures` de ce guide présente différents types d'infrastructures destinées à la recherche que ce soit au niveau européen, national, régional ou par thématiques scientifiques.
 
 Les modes de collecte et de stockage sont détaillés dans la section collecter de même que l'utilisation d'un cahier de laboratoire.
 
@@ -240,7 +240,7 @@ Isabelle BALY et Philippe GRISON,
 Comment concevoir une base de données en archéométrie, 2014. 
 ```
 
-Cette autre présentation de Marie-Claude Quidoz s'intéresse à la problématique de la traçabilité des données appliquée cette fois aux bases de données. Elle recommande en particulier, dès que l'on traite des données de noter toutes les opérations faites (insertion / suppression / modification). Pour cela un mécanisme d'historisation doit être mis en place au moment de la création de la structure de la base de données. Cette historisation repose sur un mécanisme de déclencheur qui s'active sur les actions cités précédemment.  Dans le cadre de PostgreSQL, le logiciel de SGBD recommandé dans la [circulaire Ayrault](https://www.legifrance.gouv.fr/circulaire/id/35837), cette historisation peut être automatisée grâce à l'extension E-Maj. La mise en place de ce mécanisme permet aussi d'envisager de pouvoir rejouer une requête et de reproduire le résultat tel qu'il était quand, par exemple, un identifiant (un DOI ou autre identifiant) a été défini.
+Cette autre présentation de Marie-Claude Quidoz s'intéresse à la problématique de la traçabilité des données appliquée cette fois aux bases de données. Elle recommande en particulier, dès que l'on traite des données de noter toutes les opérations faites (insertion / suppression / modification). Pour cela un mécanisme d'historisation doit être mis en place au moment de la création de la structure de la base de données. Cette historisation repose sur un mécanisme de déclencheur qui s'active sur les actions citées précédemment.  Dans le cadre de PostgreSQL, le logiciel de SGBD recommandé dans la [circulaire Ayrault](https://www.legifrance.gouv.fr/circulaire/id/35837), cette historisation peut être automatisée grâce à l'extension E-Maj. La mise en place de ce mécanisme permet aussi d'envisager de pouvoir rejouer une requête et de reproduire le résultat tel qu'il était quand, par exemple, un identifiant (un DOI ou autre identifiant) a été défini.
 
 ```{admonition} [Présentation générale sur la problématique de la traçabilité des données appliquée aux bases de données](http://rbdd.cnrs.fr/IMG/pdf/atelier\_tracabilite.pdf)  
 :class: seealso
