@@ -431,7 +431,7 @@ ANF "Interfacer les outils mobiles avec son système d’information", réseau R
 ```
 
 
-De nombreuses autres solutions sont aussi envisageables, nous invitons le lecteur a consulté les ateliers et séminaires suivants pour en découvrir leurs avantages et inconvénients :
+De nombreuses autres solutions sont aussi envisageables, nous invitons le lecteur a consulter les ateliers et séminaires suivants pour en découvrir leurs avantages et inconvénients :
  
 ```{admonition} [Atelier « Carnets de terrain électroniques »](http://rbdd.cnrs.fr/spip.php?article270)   
 :class: seealso
