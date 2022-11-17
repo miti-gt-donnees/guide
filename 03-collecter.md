@@ -11,7 +11,7 @@ Cette phase "Collecter" va nécessiter :
    * de mettre en place des chaines de collecte : du capteur jusqu'aux espaces disques et aux applications sur des serveurs où les traitements pourront être réalisés, avec la documentation adaptée;
    * d'utiliser des protocoles si possibles normalisés ou standardisés pour présenter les données brutes et les dispositifs d'acquisition (capteurs...) et les rendre interopérables;
    * de mettre en place une gestion et conduite de projets pour faire travailler ensemble les différents acteurs intervenant dans la chaîne de collecte : électroniciens, informaticiens, chercheurs...;
-   * de disposer de cahier de laboratoire, tablettes de terrain ou supports divers pour consigner les relevés et métadonnées observées; 
+   * de disposer de cahiers de laboratoire, tablettes de terrain ou supports divers pour consigner les relevés et métadonnées observées; 
    * de définir le stockage nécessaire à la collecte de données : travailler en amont avec une équipe informatique en mode projet (gestion de projet).
 
 
@@ -59,7 +59,7 @@ On trouve plusieurs standards et normes qui permettent de définir un ensemble d
 2. Créateur (métadonnée) (Creator) : Nom de la personne, de l'organisation ou du service responsables de la création du contenu de la ressource
 3. Sujet (métadonnée) ou mots clés (Subject) : Thème du contenu de la ressource (mots clés, expressions, codes de classification)
 4. Description (métadonnée) (Description) : Présentation du contenu de la ressource (résumé, table des matières, représentation graphique du contenu, texte libre)
-5. Éditeur (Publisher) : Nom de la personne, de l'organisation ou du service responsables de la mise à disposition ou de la diffusion de la ressource
+5. Éditeur (Publisher) : Nom de la personne, de l'organisation ou du service responsable de la mise à disposition ou de la diffusion de la ressource
 6. Contributeur (Contributor) : Nom de la personne, de l'organisation ou du service responsables de contributions au contenu de la ressource
 7. Date (métadonnée) (Date) :	Date de création ou de mise à disposition de la ressource
 8. Type (Type) : Nature ou genre de la ressource (catégories, fonctions, genres généraux, niveaux d'agrégation du contenu)
@@ -71,14 +71,14 @@ On trouve plusieurs standards et normes qui permettent de définir un ensemble d
 14. Couverture (métadonnée) (Coverage) : Couverture spatio-temporelle de la ressource (domaine d'application)
 15. Gestion de droits (métadonnée) 	(Rights) : Informations sur les droits associés à la ressource (IPR, copyright, etc.)
 
-Pour la description des jeux de données géolocalisées, les [normes ISO 19115 et ISO 19139](https://pro.arcgis.com/fr/pro-app/help/metadata/create-iso-19115-and-iso-19139-metadata.htm) sont des normes de référence dans le domaine des métadonnées pour l'information géographique. L'ISO 19115 fournit une structure permettant de décrire et de découvrir des données géospatiales, y compris le moment et l'endroit de leur localisation, une vue d'ensemble de leur contenu, de leurs propriétés, de leur qualité, de leur utilisation adéquate, du mécanisme de distribution, des points de contact pour les demandes d'informations, etc.
+Pour la description des jeux de données géolocalisés, les [normes ISO 19115 et ISO 19139](https://pro.arcgis.com/fr/pro-app/help/metadata/create-iso-19115-and-iso-19139-metadata.htm) sont des normes de référence dans le domaine des métadonnées pour l'information géographique. L'ISO 19115 fournit une structure permettant de décrire et de découvrir des données géospatiales, y compris le moment et l'endroit de leur localisation, une vue d'ensemble de leur contenu, de leurs propriétés, de leur qualité, de leur utilisation adéquate, du mécanisme de distribution, des points de contact pour les demandes d'informations, etc.
 La norme ISO 19139 est l'implémentation XML de la norme ISO 19115. Elle définit le codage XML des métadonnées géographiques, une implémentation de schéma XML dérivée de la norme ISO 19115. La norme ISO 19139 est le modèle principal utilisé pour décrire des données dans le logiciel GeoNetwork et constituer ainsi un catalogue de données géospatialisées que l'on abordera dans le chapitre 7 "Publier" du présent guide.
 
 ### Les protocoles standards en information Géographique 
 
 L'échange de données d'une plateforme à l'autre se fait au travers de protocoles informatiques. De ce fait, si l'on veut que les systèmes soient interopérables entre eux, il est nécessaire d'utiliser des protocoles ouverts et standards, voire normés, pour permettre l'interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, [l'Open Geospatial Consortium (OGC)](https://www.ogc.org/standards/), est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l'interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l'information géographique. 
 
-Les standards OGC sont importants à connaitre dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l'Institut National des Sciences de l'Univers (INSU). Pour ce dernier réseau, l'interopérabilité dans la gestion des données des Observatoires de l'INSU est un enjeu important.
+Les standards OGC sont importants à connaître dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l'Institut National des Sciences de l'Univers (INSU). Pour ce dernier réseau, l'interopérabilité dans la gestion des données des Observatoires de l'INSU est un enjeu important.
 
 ```{admonition} [Les Normes OGC (Open Geospatial Consortium)](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?dir=undefined&openfile=651558)   
 :class: seealso
@@ -125,7 +125,7 @@ Si l’ouverture des données intervient dans un processus de recherche, génér
 
 Le RGPD est perçu bien souvent comme un véritable obstacle à la collecte de données. Emilie Masson, dans une intervention à Grenoble en 2021 pour la journée « Gestion des données de recherche en SHS », réfute cette idée dès le titre de sa présentation :  tout est possible avec le RGPD ! Elle indique clairement que si l’esprit de cette réglementation va dans le sens de la protection des données personnelles, il n’interdit pas pour autant le traitement scientifique de données personnelles ou sensibles.
 
-Après une définition claire de ce que sont les données et le traitement de données à caractère personnel, on découvre les trois exceptions applicables aux domaine de la recherche permettant de collecter des données personnelles à savoir le consentement, la mission de service public et les intérêts légitimes. 
+Après une définition claire de ce que sont les données et le traitement de données à caractère personnel, on découvre les trois exceptions applicables aux domaines de la recherche permettant de collecter des données personnelles à savoir le consentement, la mission de service public et les intérêts légitimes. 
 
 Au sujet du consentement libre et éclairé, difficile, voire impossible à obtenir dans certains cas, on verra qu’il n’est pas forcément obligatoire et qu’en pratique le fondement de licéité (base légale d'un traitement de données personnelles) repose davantage (si ce n’est exclusivement) sur le principe de mission de service public (et non sur celui de consentement).
 
@@ -160,7 +160,7 @@ ANF Outils qualité, réseau QeR, 2019
 De nombreux laboratoires et plateformes de tests du CNRS sont équipés de salles propres, dans des domaines variés tels que la micro et nanotechnologie, la géochimie, l’optique, la médecine, le spatial…
 En débutant par un point sur l’état de l’art (définition, réglementation, documentation…) de ces deux aspects, l'objectif principal de la journée thématique est de faire bénéficier de retours d’expériences sur les bonnes pratiques déjà éprouvées et sur les écueils à éviter afin de répondre, entre autres, aux questions suivantes : 
 - Quand a-t-on besoin de travailler en salles propres ? 
-- Quelles règlementations régissent l'installation, la maintenance et le contrôle des salles propres ? 
+- Quelles réglementations régissent l'installation, la maintenance et le contrôle des salles propres ? 
 - Comment préparer l'installation dans nos locaux ? A quoi doit-on penser ? 
 - Quelles sont les solutions techniques les mieux adaptées à notre besoin ? 
 - Quels sont les critères de surveillance et systèmes de contrôle des installations ? 
@@ -236,13 +236,13 @@ Alban Thomas - Hervé Quénol UMR LETG Rennes
 [Séminaire SIST15, OSU Pytheas Marseille](https://sist.cnrs.fr/sist15/)   
 ```
 
-### Surveillance et monitoring des chaine de collecte
+### Surveillance et monitoring des chaines de collecte
 
-Récupérer des données releve souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs transferts de fichiers, voire plusieurs transformations de données. Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systemes de contrôle, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port, au bon format, à l'endroit ou elles sont attendues.
+Récupérer des données relève souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs transferts de fichiers, voire plusieurs transformations de données. Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systèmes de contrôle, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port, au bon format, à l'endroit où elles sont attendues.
 
 L'élaboration de "dashboard" ou "tableau de contrôle" peut etre envisagé pour ce type de surveillance.
 
-En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il etait nécessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaines au contrôle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes.
+En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il était nécessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaines au contrôle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes.
 
 Franck Gabarrot préconise "Apache Airflow" qui est un outil open source d’orchestration de workflows programmables en
 Python. [workflow = pipeline = flux de travaux = enchaînement de tâches]
@@ -262,7 +262,7 @@ Emmanuel Delage
 [séminaire SIST22 à Grenoble](https://sist.cnrs.fr/sist22), réseau SIST, Juin 2022  
 ```
 
-Christophe Ferrier  présente le [logiciel "ReDash"](https://redash.io/) qui permet de concevoir un dashboard facilement et rapidement sans programmation. L'objectif de ReDash est de se connecter à une source de données (donc préférablement avec un protocoel interopérable) d'établir des requetes pour filtrer les données, et le logiciel compose des graphes automatiquement. Cet type de DashBoard permet donc de surveiller ses données en les visualisant en temps réel.
+Christophe Ferrier  présente le [logiciel "ReDash"](https://redash.io/) qui permet de concevoir un dashboard facilement et rapidement sans programmation. L'objectif de ReDash est de se connecter à une source de données (donc préférablement avec un protocole interopérable) d'établir des requêtes pour filtrer les données, et le logiciel compose des graphes automatiquement. Cet type de DashBoard permet donc de surveiller ses données en les visualisant en temps réel.
 
 ```{admonition} [Concevoir un dashboard sans programmation et en 3 clicks… Ou presque !!](https://sist.cnrs.fr/sist22/#retours-dexperiences-et-presentations)
 :class: seealso
@@ -353,9 +353,9 @@ le déploiement d'une enquête destinée à réaliser un état des lieux sur l'u
 Nathalie Léon – Domenico Libri, CNRS    
  ```
 
-Les travaux se sont poursuivis courant 2021 avec le groupe de travail « Cahier de laboratoire électronique » (ELN) du comité pour la science ouverte (CoSO). Le rapport présente une vision partagée sur la définition, le cadrage, les usages et le périmètre fonctionnel de l’ELN, qui doit pouvoir s’intégrer dans les environnements informatiques et institutionnels existants. Il émet un ensemble de recommandations sur les critères de choix d’un outil et intègre une liste comparative d'outils existants.
+Les travaux se sont poursuivis courant 2021 avec le groupe de travail « Cahiers de laboratoire électronique » (ELN) du comité pour la science ouverte (CoSO). Le rapport présente une vision partagée sur la définition, le cadrage, les usages et le périmètre fonctionnel de l’ELN, qui doit pouvoir s’intégrer dans les environnements informatiques et institutionnels existants. Il émet un ensemble de recommandations sur les critères de choix d’un outil et intègre une liste comparative d'outils existants.
 
-```{admonition} [Rapport du Groupe de Travail sur les Cahiers de Laboratoire électroniques](https://www.ouvrirlascience.fr/rapport-du-groupe-de-travail-sur-les-cahiers-de-laboratoire-electroniques/)  
+```{admonition} [Rapport du Groupe de Travail sur les cahiers de Laboratoire électroniques](https://www.ouvrirlascience.fr/rapport-du-groupe-de-travail-sur-les-cahiers-de-laboratoire-electroniques/)  
 :class: seealso
 Membres du GT    
 "Ouvrir la science", MESRI, 2021
@@ -363,7 +363,7 @@ Membres du GT
 
 Dans le cadre des séminaires [Pour une Recherche Reproductible](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/programme_050522.html#programme_050522), Gricad, MaiMoSiNE et SARI ont mis en place un webinaire sur l'ouil elabFTW .
 
-Dans ce cadre, NIcolas Carpi, auteur et développeur d’elabFTW, a présenté son logiciel. eLabFTW est un cahier de laboratoire numérique open source destiné aux laboratoires de recherche, quelle que soit leur discipline. Il est utilisé par de nombreuses institutions et labos à travers le monde. Cette session est l’occasion de découvrir ce logiciel, ses fonctionnalités et son intérêt pour une recherche reproductible. 
+Dans ce cadre, Nicolas Carpi, auteur et développeur d’elabFTW, a présenté son logiciel. eLabFTW est un cahier de laboratoire numérique open source destiné aux laboratoires de recherche, quelle que soit leur discipline. Il est utilisé par de nombreuses institutions et labos à travers le monde. Cette session est l’occasion de découvrir ce logiciel, ses fonctionnalités et son intérêt pour une recherche reproductible. 
 
 ```{admonition} [Présentation du cahier de laboratoire électronique open source eLabFTW](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2022-05-05-N-CARPI-elabftw-presentation.pdf)   
 :class: seealso
