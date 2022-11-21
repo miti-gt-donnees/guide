@@ -25,7 +25,7 @@ exploitables et peu interopérables directement tels quels.
 Dans une optique de gestion FAIR, il est donc important de se
 préoccuper du format des données afin de les rendre "ouverts" et
 interopérables. La notion de format "ouvert" est importante pour
-que les données puissent être partagées, interopéables et préservées
+que les données puissent être partagées, interopérables et préservées
 sur le long terme. A cet effet, le site Doranum propose une
 [introduction à la définition de formats ouverts ou fermés](https://doranum.fr/stockage-archivage/quiz-format-ouvert-ou-ferme/).
 
@@ -43,7 +43,7 @@ On ne pourra pas tous les citer, mais à titre d'exemple dans les domaines Océa
 - **Le format [NetCDF](https://www.unidata.ucar.edu/software/netcdf/)** est un format ouvert, autodocumenté et très utilisé en particulier dans les communautés sciences de l'environnement. Il est très bien adapté et utilisé, par exemple pour représenter et formater des données dimensionnées sous forme de tableaux, comme par exemple des profils verticaux, des séries temporelles, des trajectoires, ou encore des surfaces maillées en 2D. Ce format est dit "auto-descriptif" car le es métadonnées sont en effet insérées dans l'entête du fichier, avec les données elles-mêmes. En ce sens il permet de ne pas avoir besoin d'un fichier de description complémentaire.
 On peut ainsi décrire de manière assez précise les données du fichier, par exemple en insérant les unités de mesure des paramètres mesurés, la licence de diffusion, les propriétaires, etc., ainsi que l'organisation des données.
 
-Toutefois dans son format originel NetCDF n'a pas imposé de directives particulieres pour inscrire les métadonnées dans l'entete du fichier. De ce fait, il était possible d'inscrire n'importe quel libellé de variables, unités, etc. Une standardisation a été nécessaire pour obtenir des fichiers compréhensibles et interopérables. 
+Toutefois dans son format originel NetCDF n'a pas imposé de directives particulières pour inscrire les métadonnées dans l'entête du fichier. De ce fait, il était possible d'inscrire n'importe quel libellé de variables, unités, etc. Une standardisation a été nécessaire pour obtenir des fichiers compréhensibles et interopérables. 
 C'est le but de la  [convention CF (climate forecast)](https://cfconventions.org/) qui fournit une [table de standardisation des variables et unités de mesures](https://cfconventions.org/Data/cf-standard-names/76/build/cf-standard-name-table.html) à inscrire dans l'entete d'un fichier NetCDF.
 
 Ce format standard, la convention "CF", et l'interface de programmation (API) en Python pour créer des fichiers NetCDF par programme ont été présentés au [séminaire SIST19 à l'OMP](https://sist.cnrs.fr/sist19) de Toulouse, par Joël Sudre, Maurice Libes et Didier Mallarino :
@@ -192,7 +192,7 @@ Antoine Queric, Rob Thomas, Maurice Libes, Enoc Martinez, Claudia Fratianni, Tan
 IMDIS 2021 Marseille
 ```
 
-Par ailleurs les principales fonctionnalité de ERDDAP ont été exposées dans un tutoriel au congrès JRES 2022 à Marseille
+Par ailleurs les principales fonctionnalités de ERDDAP ont été exposées dans un tutoriel au congrès JRES 2022 à Marseille
 
 ```{admonition} ERDDAP, un outil pour la Science Ouverte pour des données Faciles  à trouver, Accessibles, Interopérables et Réutilisables
 - [video](https://replay.jres.org/w/vepPKvw5q4N2NMT93Hzbqa)
@@ -213,7 +213,7 @@ Juliette Fabre, Olivier Lobry
 ANF SIST 2018, Toulouse.   
 ```
   
-*  l'application GeoCMS permettent la visualisation de données géospatiales sur le web et de mettre en place une Infrastructure de Données Géographique (IDG). on peut voir un exemple de l'interet de cette application sur un[ portail comme celui de  Indigeo ](https://portail.indigeo.fr/geocms/maps/new/false)
+*  l'application GeoCMS permettent la visualisation de données géospatiales sur le web et de mettre en place une Infrastructure de Données Géographique (IDG). On peut voir un exemple de l'interêt de cette application sur un[ portail comme celui de  Indigeo ](https://portail.indigeo.fr/geocms/maps/new/false)
 
 ```{admonition} [TP GeoCMS - Installation, configuration, visualisation et interrogation de jeux de données géospatialisés](https://sist.cnrs.fr/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation/)   
 :class: seealso
@@ -259,8 +259,8 @@ G. Brissebrat nous montre comment sont diffusées des données maillées NetCDF 
 - Accéder uniquement à une partie d’un jeu de données
 - Télécharger un seul fichier même si les données originales sont réparties dans plusieurs fichiers
 - Avoir le choix entre plusieurs moyens d’accéder aux données
-- Accéder aux données dans des format compatibles avec les outils communs d’analyse ou de visualisation de données
-- Offrir plusieurs formats et protocoles d’accès aux données-
+- Accéder aux données dans des formats compatibles avec les outils communs d’analyse ou de visualisation de données
+- Offrir plusieurs formats et protocoles d’accès aux données
 - Fournir une prévisualisation des données
 - Pouvoir moissonner des données d’un autre serveur THREDDS
 
@@ -278,7 +278,7 @@ Sabine Darras, Observatoire Midi-Pyrénées
 
 
 Dans cette présentation les auteurs montrent un workflow complexe
-depuis l'acquisition de données a 2500m de profondeur, jusqu'à
+depuis l'acquisition de données à 2500m de profondeur, jusqu'à
 l'affichage et la diffusion sur un serveur ERDDAP.  Les données de
 capteurs sont traitées avec l'ETL Talend pour produire des fichiers
 CSV et NetCDF qui sont diffusées via la plateforme ERDDAP. Dans
@@ -301,7 +301,7 @@ de sites différents [^erddap].
 
 Dans cette présentation, les auteurs avaient pour objectif de
 diffuser des données dans un environnement tropical et ont utilisé
-et comparés les platformes logicielles THREDDS et ERDDAP
+et comparé les plateformes logicielles THREDDS et ERDDAP
 
 ```{admonition} [Copier les succès et rester simple (AMEO) : mise à disposition de sorties de modèles climatiques avec un NAS, THREDDS et ERDDAP.](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-11-T-Valero-F-Bongat-Mise-a-disposition-de-donnees-climatiques-avec-Thredds-et-Erddap.pdf)    
 :class: seealso
@@ -338,8 +338,8 @@ Loïc Salaun, Observatoire des Sciences de l'Univers Nantes Atlantique
 
 ## Mettre en place un contrôle qualité des données
 
-La qualité des données est une préoccupation transversale aux différentsmétiers de la recherche. Cette notion se retrouve sur toutes les étapes du cycle de vie de la donnée mais elle recouvre des concepts différents (qualité des données, des métadonnées, du code, de la documentation, de l'archivage, ...) mais quelle que soit l'étape, elle peut toujours être vue sous deux angles : 
-- qu'est ce qu'une donnée de qualité ? 
+La qualité des données est une préoccupation transversale aux différents métiers de la recherche. Cette notion se retrouve sur toutes les étapes du cycle de vie de la donnée mais elle recouvre des concepts différents (qualité des données, des métadonnées, du code, de la documentation, de l'archivage, ...) mais quelle que soit l'étape, elle peut toujours être vue sous deux angles : 
+- qu'est-ce qu'une donnée de qualité ? 
 - quelle organisation faut-il mettre en place pour arriver à obtenir des données de qualité ?
 
 Par ailleurs, la recherche n’est pas répétitive, mais peuplée d'incertitudes contrairement à un processus industriel.  La confiance
@@ -368,7 +368,7 @@ le projet [Seadatanet](https://www.seadatanet.org/) par :
 
 1. l'utilisation de vocabulaires communs,
 2. l'adoption de la norme de métadonnées ISO 19115 pour tous les répertoires de métadonnées,
-3. l'utilisation de formats de transport de données harmonisés pour la diffusion des jeux de données, et
+3. l'utilisation de formats de transport de données harmonisées pour la diffusion des jeux de données, et
 4. l'utilisation de protocoles de contrôle de qualité et d'échelles de codes qualité communs
 
 La livraison des données aux utilisateurs nécessite des formats de transport de données communs, qui interagissent avec d'autres normes SeaDataNet (vocabulaires, codes de qualité) et avec les outils d'analyse et de présentation SeaDataNet (ODV, DIVA).
@@ -382,7 +382,7 @@ Un  certain nombre de formats de transport de données ont été définis :
 Dans le contrôle qualité : Il faut pouvoir contrôler la qualité des données et des mesures, c’est-à-dire de distinguer une mesure aberrante (capteur) d'une mesure qui reflète un phénomène réel (passage dans un tourbillon, maximum de salinité de la
 Méditerranée en Atlantique,...).
 
-On le met en oeuvre Au moyen de programmes/outils pour vérifier et contrôler
+On le met en oeuvre au moyen de programmes/outils pour vérifier et contrôler
 - par des tests automatiques
 - par un contrôle par des experts
 
@@ -428,7 +428,7 @@ Littoral [SOMLIT](https://www.somlit.fr/en/) qui a défini sa propre classificat
 
 Sa présentation se poursuit sur l'utilisation de contraintes SQL pour éviter l'insertion en base de données de valeurs incohérentes
 ou impossibles. Ces contraintes sont la transcription des régles de gestion définies lors de la modélisation de la base de données.
-Une fois la structure de la base de données définie, il reste une étape, celle du nettoyage des données, a réaliser avant l'intégration
+Une fois la structure de la base de données définie, il reste une étape, celle du nettoyage des données, à réaliser avant l'intégration
 des données en base. Le réseau rBDD conseille pour cela le logiciel [OpenRefine](https://openrefine.org/) très simple à prendre en main
 et très puissant.
 
@@ -444,9 +444,9 @@ Mathieu SABY, BU Université de Nice Sophia-Antipolis
 ```
 
 Dans cette intervention, Christine Plumejeaud se place dans le cadre de l'utilisation d'outils nomades qui envoient directement les
-données collectées sur tablette dans une base de données. La problèmatique est sensiblement différente. Partant du principe que
+données collectées sur tablette dans une base de données. La problématique est sensiblement différente. Partant du principe que
 sur le terrain, il est communément recommandé de laisser la saisie la plus libre possible pour permettre une prise en compte des aléas
-plus faciles, la détection des choses non conformes aux régles métier est à traiter a posteriori.
+plus faciles, la détection des choses non conformes aux règles métier est à traiter a posteriori.
 
 ```{admonition} [Outils nomades : validation des données](http://rbdd.cnrs.fr/IMG/pdf/anf_rbbd_2019_outils_mobiles_tp_qualite.pdf?573/e1425561fd10c6bd1dd92fdee22871bc427f9873)   
 :class: seealso
@@ -457,7 +457,7 @@ ANF "Interfacer les outils mobiles avec son système d’information", réseau R
 Certains logiciels comme [ODV (Ocean Data View) ](https://odv.awi.de/en/)
 permettent de qualifier les données et d'attribuer un code qualité
 a des données après analyse par un expert du domaine.  ODV est
-un format de fichiers, et un logiciel utilisés par le projet européen
+un format de fichiers, et un logiciel utilisé par le projet européen
 [SeadataNet](https://www.seadatanet.org/Software/ODV).
 
 Cependant peu de logiciels de traitement de données propose d'associer
@@ -535,11 +535,11 @@ L'interopérabilité sémantique est la capacité des systèmes informatiques à
 _Elle assure que la signification exacte des informations échangées soit compréhensible par n’importe quelle autre application, même si celle-ci n’a pas été conçue initialement dans ce but précis. En effet, des conflits sémantiques surviennent lorsque les systèmes n’utilisent pas la même interprétation de l’information qui est définie différemment d’une organisation à l’autre. Pour réaliser l'interopérabilité sémantique, les deux côtés doivent se référer à un modèle de référence d'échange d'informations commun._ [in wikipedia](https://fr.wikipedia.org/wiki/Interop%C3%A9rabilit%C3%A9_en_informatique)
 
 Dans le cas de la gestion FAIR des données environnementales il est important d'utiliser des vocabulaires contrôlés issus de thesaurus disciplinaires qui auront la vertu de nommer les données de la même façon au sein d'une même discipline.
-Ainsi [la convention CF](https://cfconventions.org/), par exemple, utilise [une table de nommage standardisée](https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html) qui définit le nommage d'un grand nombre de variables. Ainci, par exemple, la température à la surface de l'ocean sera _"sea_surface_temperature"_ 
+Ainsi [la convention CF](https://cfconventions.org/), par exemple, utilise [une table de nommage standardisée](https://cfconventions.org/Data/cf-standard-names/current/build/cf-standard-name-table.html) qui définit le nommage d'un grand nombre de variables. Ainci, par exemple, la température à la surface de l'océan sera _"sea_surface_temperature"_ 
 
 En France l'Infrastructure de Recherche "Data Terra" et ses différents pôles de données sont soumis à la même problématique de nommage des paramètres mesurés. Les données doivent pouvoir être réutilisées et mises en relation avec d’autres données au delà de sa propre base de données locale. “L’interopérabilité des données correspond à leur capacité à être intégrées avec d’autres  données et à être utilisées et interprétées par des applications et des processus d’analyse et ce de manière automatique”
 
-Face à ce probleme JC Desconnets a présenté la problématique de cette interopérabilité sémantique et les solutions actuelles qui s'offrent à nous avec un ensemble de thesaurus disciplinaires existants à ce jour recommandés par les pôles de données de l'IR Data Terra.
+Face à ce problème, JC Desconnets a présenté la problématique de cette interopérabilité sémantique et les solutions actuelles qui s'offrent à nous avec un ensemble de thesaurus disciplinaires existants à ce jour recommandés par les pôles de données de l'IR Data Terra.
 
 Le but est d'assurer l’interopérabilité sémantique pour associer une signification aux données, les positionner dans un domaine de
 connaissance. Cela inclut le développement de vocabulaires et de schémas pour décrire les données et les liens entre les données
@@ -552,7 +552,7 @@ Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
 ```
 
 De la même manière qu'on procède à certains traitement pour rendre ses données, FAIR, il en est de même avec les métadonnées.
-Ei on veut rendre les métadonnées, "interopérables" et "réutilisables", il convient de se soucier d'utiliser des vocabulaires contrôlés provenant de thesaurus disciplinaires, mais en outre de relier les terminologies d'un thesaurus avec celles d'un autre thesaurus
+Et si on veut rendre les métadonnées, "interopérables" et "réutilisables", il convient de se soucier d'utiliser des vocabulaires contrôlés provenant de thesaurus disciplinaires, mais en outre de relier les terminologies d'un thesaurus avec celles d'un autre thesaurus.
 
 Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets ont réuni dans un document :
 
@@ -590,7 +590,7 @@ La présentation d'Eric Garnier montre l'intérêt de l'utilisation de la séman
 ```{admonition} [Retour d’expérience en écologie végétale sur les étapes d’homogénéisation des données](https://gt-atelier-donnees.miti.cnrs.fr/download/2021_07_05_webinaire_atelier_Garnier.pdf)  
 :class: seealso
 [Vidéo :](https://www.canal-u.tv/chaines/ad/qualite-des-donnees/retour-d-experience-en-ecologie-vegetale-sur-les-etapes-d)
-Eric Garnir, CEFE
+Eric Garnier, CEFE
 Webinaire Qualité des données, GT Atelier Données, 2021
 ```
 
