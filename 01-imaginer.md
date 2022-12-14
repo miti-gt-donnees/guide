@@ -169,7 +169,6 @@ L'ouverture et le partage des données impliquent par ailleurs l'utilisation de 
 
 Pour accompagner les équipes dans le traitement juridique des données, un collectif de juristes issus de l’enseignement supérieur et de la recherche a rédigé un guide de référence  [“Ouverture des données de recherche. Guide d’analyse du cadre juridique en France”](https://www.ouvrirlascience.fr/wp-content/uploads/2018/11/Guide_Juridique_V2.pdf) qui explique les principes à respecter en matière de diffusion des données.
 
-<New:CH>
 
 ## Adopter des pratiques numériques responsables dans la gestion des données scientifiques
 
@@ -182,8 +181,6 @@ Une réflexion sur les outils et les infrastructures, les formats à utiliser s�
 Une maîtrise des impacts environnementaux est nécessaire. Elle passe par l’application de pratiques écoresponsables. En février 2022, un [guide de bonnes pratiques numérique responsable pour les organisations](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/), porté par la Direction Interministérielle du Numérique (DINUM), a été publié en licence ouverte pour une réutilisation par tous. Il a pour vocation de sensibiliser les acteurs aux impacts de certaines pratiques en cours dans nos organisations et aider la mise en œuvre d’actions permettant de réduire l’empreinte environnementale du numérique.
 
 
-**Ajouter la présentation MITI**
-</new:CH>
 
 ## Connaître et comprendre les principes FAIR
 
@@ -314,17 +311,6 @@ Outre les actions de formation, d’expérimentations et innovations pédagogiqu
 
 ### Suivre les travaux du Collège "Compétences et formation du CoSO"
 
-<SUPP:JJ>
-Le Plan national pour la science ouverte, s’appuyant sur trois axes, engage les opérateurs de la recherche à "*mettre en œuvre une politique de science ouverte et à structurer et ouvrir les données de la recherche"*. La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions de deux collèges du  [Comité pour la science ouverte](https://www.ouvrirlascience.fr/presentation-du-comite/) (CoSO) :  les collèges [Données de la recherche](https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/) et [Compétences et formation](https://www.ouvrirlascience.fr/college-competences-et-formation/).
-
-Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) qui impulsent et mettent en oeuvre les projets en s’appuyant sur les acteurs, notamment ceux de la formation à la science ouverte. 
-
-Parmi les réalisations récentes, on peut citer le guide « [Pour une politique des données de la recherche : guide stratégique](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) » où le CoSO émet sept recommandations pour aider à la formalisation et à la mise en œuvre d'une politique des données de la recherche au sein des établissements de l’ESR, la réalisation du [Passeport pour la science ouverte](https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/) destiné aux doctorants de toutes disciplines, le guide « [Je publie, quels sont mes droits](https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/) » qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits et la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente ».
-
-Fort de l’intérêt suscité par le Passeport, deux autres guides thématiques: “Codes et logiciels” et “Idées reçues sur la science ouverte” sont en cours de rédaction. Une déclinaison de ce travail sera éditorialisé au travers de capsules vidéos portant sur différentes thématiques. Tous ces livrables verront le jour à la rentrée 2022-2023. 
-</SUPP: JJ>
-
-<NEW:JJ>
 Le 2e Plan national pour la science ouverte (2021-2024), poursuit sa trajectoire ambitieuse et s'appuie sur la politique nationale des données, des algorithmes et des codes sources impulsée par le Premier ministre qui vise à faciliter l'accès des chercheurs aux données publiques. Il engage la communauté scientifique à « transformer les pratiques pour faire de la science ouverte le principe par défaut ».
 
 Il souhaite étendre le mouvement de partage des données en développant et valorisant les compétences de la science ouverte tout au long du parcours des étudiants et des personnels de la recherche.
@@ -335,7 +321,6 @@ Les collèges sont des groupes d’experts (plus de 200 à l’heure actuelle) q
 
 Parmi leurs réalisations, on peut citer le guide « [Pour une politique des données de la recherche : guide stratégique](https://www.ouvrirlascience.fr/wp-content/uploads/2019/12/Politique-des-donn%C3%A9es-de-la-recherche-guide-strat%C3%A9gique-%C3%A0-l%E2%80%99usage-des-%C3%A9tablissements_v5.3.pdf) » où le CoSO émet sept recommandations pour aider à la formalisation et à la mise en œuvre d’une politique des données de la recherche au sein des établissements de l’ESR. Notons également la mise à jour du [Passeport pour la science ouverte](https://www.ouvrirlascience.fr/passeport-pour-la-science-ouverte-guide-pratique-a-lusage-des-doctorants/) destiné aux doctorants de toutes disciplines, à chaque étape de leur parcours de recherche ainsi que deux déclinaisons du Passeport : le livret [Science ouverte - entrez dans le débat](https://www.ouvrirlascience.fr/science-ouverte-entrez-dans-le-debat/) qui apporte des éléments de réponses qui correspondent aux principaux questionnements des scientifiques et le livret [Science ouverte – codes et logiciels](https://www.ouvrirlascience.fr/science-ouverte-codes-et-logiciels/) qui aborde les questions spécifiques liées aux codes sources et logiciels, le guide « [Je publie, quels sont mes droits](https://www.ouvrirlascience.fr/je-publie-quels-sont-mes-droits/) » qui répond aux questions que se posent le plus souvent les auteurs de publications scientifiques sur leurs droits et la contribution à la session 3 du Mooc « Recherche reproductible : principes méthodologiques pour une science transparente ».
 
-</NEW:JJ>
 
 ```{admonition} A noter !
 :class: warning
