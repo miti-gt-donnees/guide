@@ -59,12 +59,12 @@ Outre le service de dépôt et de diffusion, cet environnement propose aux cherc
 - Centre de ressources rattachés à recherche data.gouv : ils apportent des services liés à l’entrepôt générique des données, au catalogue, aux e-formations etc.
 
 
-Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner une [vidéo](https://www.canal-u.tv/chaines/renatis/dialogu-ist-13-comment-la-gestion-des-donnees-a-change-ma-vie/atelier-dialogu-ist) d'Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche réalisée dans le cadre du 13ème ateliers Dialogu'IST ou à consulter le [déroulé de sa présentation](https://renatis.cnrs.fr/wp-content/uploads/2022/12/DialoguIST_Recherche-Data-Gouv.pdf) qui dresse un panorama politique de cet écosystème en construction.
+Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner une [vidéo](https://www.canal-u.tv/chaines/renatis/dialogu-ist-13-comment-la-gestion-des-donnees-a-change-ma-vie/atelier-dialogu-ist) d'Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche réalisée dans le cadre du 13ème atelier Dialogu'IST ou à consulter le [déroulé de sa présentation](https://renatis.cnrs.fr/wp-content/uploads/2022/12/DialoguIST_Recherche-Data-Gouv.pdf) qui dresse un panorama politique de cet écosystème en construction.
 Des témoignages et retours d'expérience autour des modules d'accompagnement sont également proposés.
 
 ```{admonition} [Comment la gestion des données a changé notre vie](https://renatis.cnrs.fr/13e-atelier-dialoguist-lundi-28-novembre-2022/)  
 :class: seealso
-Ateliers Dialogu'IST "Comment la gestion des données a changé ma vie ? ", 2022
+Ateliers Dialogu'IST, 2022
 ```
 ### Comprendre le contexte
 
