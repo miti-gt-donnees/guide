@@ -75,6 +75,6 @@ Deux annexes reprennent des thèmes transverses à ces phases successives :
 
 
 Ce guide a été rédigé par quelques réseaux métiers et de ce fait n'a pas la prétention d'être exhaustif. D'autres contributions peuvent être mises à profit pour l'alimenter. Nous invitons donc les réseaux concernés par la gestion des données à nous faire remonter leurs pratiques métier.
-Nous invitons égalemement ceux qui le souhaitent à partager tous commentaires, remarques ou suggestions qui seraient de nature à améliorer et compléter ce travail en envoyant un mail sur [la liste de diffusion](https://listes.services.cnrs.fr/wws/info/contact-guide). 
+Nous invitons égalemement ceux qui le souhaitent à partager tous commentaires, remarques ou suggestions qui seraient de nature à améliorer et compléter ce travail, en envoyant un mail sur [la liste de contact du guide](https://listes.services.cnrs.fr/wws/info/contact-guide). 
 
 [^plateformes]: Il s’agit de plateformes développées en fonction des besoins par des unités ou établissements comme par exemple le data center du GRICAD qui propose  aux équipes de recherche un espace de stockage et un service d’accompagnement pour la gestion des données.
