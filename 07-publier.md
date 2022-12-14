@@ -607,7 +607,7 @@ L'annexe "Infrastructures" de ce Guide fournit un ensemble de références vers 
 
 ### Les Infrastructures de Recherche nationales
 
-Le [ministère  de l'Enseignement supérieur, de la Recherche et de l'Innovation](https://www.enseignementsup-recherche.gouv.fr) tient à jour la liste officielle des [Infrastructures de Recherche nationales](https://www.enseignementsup-recherche.gouv.fr/cid70554/la-feuille-de-route-nationale-des-infrastructures-de-recherche.html).
+Le [ministère  de l'Enseignement supérieur, de la Recherche et de l'Innovation](https://www.enseignementsup-recherche.gouv.fr) tient à jour la liste officielle des [Infrastructures de Recherche nationales](https://www.enseignementsup-recherche.gouv.fr/fr/la-feuille-de-route-nationale-des-infrastructures-de-recherche-2021-84056)
 
 ## Publier un "Datapaper" pour valoriser et expliciter les données
 
