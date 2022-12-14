@@ -393,7 +393,7 @@ Herbert Gruttemeier illustre ses propos par des exemples de jeux de données exp
 Data Cite propose un certain nombre de services (création de différents formats de citation pour les DOI, exposition des métadonnées, schéma de métadonnées DataCite et un environnement de test) que l’auteur détaille. Il est question aussi de « Data Citation Index » et de métrique, de l’importance d’accéder à la découverte des données (principe de moissonnage des 
 métadonnées DataCite), des partenariats avec ORCID, OPENAIR, CODATA, FORCE 11, RDA...
 
-```{admonition} [DataCite : identifiants pérennes pour le partage des données](http://renatis.cnrs.fr/IMG/pdf/DataCite_FreDoc.pdf)  
+```{admonition} [DataCite : identifiants pérennes pour le partage des données](http://renatis.cnrs.fr/wp-content/uploads/2022/10/DataCite_FreDoc.pdf)  
 :class: seealso
 Herbert Gruttemeier, INIST/ CNRS  
 Frédocs2013 - Gestion et valorisation des données de la recherche -  7 au 10 octobre 2013, Aussois   
