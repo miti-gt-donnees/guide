@@ -59,9 +59,7 @@ Outre le service de dépôt et de diffusion, cet environnement propose aux cherc
 - Centre de ressources rattachés à recherche data.gouv : ils apportent des services liés à l’entrepôt générique des données, au catalogue, aux e-formations etc.
 
 
-Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner un [webinaire](https://www.canal-u.tv/chaines/rda/rda-france-recherche-data-gouv-l-entrepot-national-federe-des-donnees-de-la-recherche) animé par  Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche et Pierre Yves Arnould, chargée de mission au MESR ou à consulter le [déroulé de leur présentation](https://rdafrance2021.sciencesconf.org/data/pages/2021.10.12_Recherche_Data_Gouv_RDA.pdf) réalisé le 12 octobre 2021 à l’occasion de la 4ème réunion annuelle de RDA France.
-
-Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner une [vidéo](https://www.canal-u.tv/chaines/renatis/dialogu-ist-13-comment-la-gestion-des-donnees-a-change-ma-vie/atelier-dialogu-ist) d'Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche réalisée dans le cadre du 13ème ateliers Dialogu'IST ou à consulter le [déroulé de sa présentationvi](https://renatis.cnrs.fr/wp-content/uploads/2022/12/DialoguIST_Recherche-Data-Gouv.pdf) qui dresse un panorama politique de cet écosystème en construction.
+Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner une [vidéo](https://www.canal-u.tv/chaines/renatis/dialogu-ist-13-comment-la-gestion-des-donnees-a-change-ma-vie/atelier-dialogu-ist) d'Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche réalisée dans le cadre du 13ème ateliers Dialogu'IST ou à consulter le [déroulé de sa présentation](https://renatis.cnrs.fr/wp-content/uploads/2022/12/DialoguIST_Recherche-Data-Gouv.pdf) qui dresse un panorama politique de cet écosystème en construction.
 Des témoignages et retours d'expérience autour des modules d'accompagnement sont également proposés.
 
 ```{admonition} [Comment la gestion des données a changé notre vie](https://renatis.cnrs.fr/13e-atelier-dialoguist-lundi-28-novembre-2022/)  
@@ -314,10 +312,13 @@ Les sept unités régionales proposent chacune des ressources, documents pédago
 
 Outre les actions de formation, d’expérimentations et innovations pédagogiques initiées par les Urfist, le réseau met à disposition un blog « [UrfistInfo](https://urfistinfo.hypotheses.org/) ».
 
+**Les Ateliers de la Donnée**
+
+Comme présenté plus haut dans la partie consacrée aux politiques d'accompagnement de la donnée, l'écosystème Recherche Data.Gouv et son maillage d'offre se construit pogressivement. L'accompagnement est un élément central de ce dispositif qui propose d'ores et déjà, avec les 13 ateliers de la donnée actuellement constitués un service de proximité thématique et géographique qui déploie une expertise généraliste sur l'ensemble des questions relatives à l'ouverture des données. Au côté de ces ateliers de la donnée, 6 centres de références (expertise par domaine scientifique) et 4 centres de ressources complètent le dispositif. L'ensemble de ces services est amené à se développer au service des équipes scientifiques.
 
 ### Suivre les travaux du Collège "Compétences et formation du CoSO"
 
-Le 2e Plan national pour la science ouverte (2021-2024), poursuit sa trajectoire ambitieuse et s'appuie sur la politique nationale des données, des algorithmes et des codes sources impulsée par le Premier ministre qui vise à faciliter l'accès des chercheurs aux données publiques. Il engage la communauté scientifique à « transformer les pratiques pour faire de la science ouverte le principe par défaut ».
+Le 2ème Plan national pour la science ouverte (2021-2024), poursuit sa trajectoire ambitieuse et s'appuie sur la politique nationale des données, des algorithmes et des codes sources impulsée par le Premier ministre qui vise à faciliter l'accès des chercheurs aux données publiques. Il engage la communauté scientifique à « transformer les pratiques pour faire de la science ouverte le principe par défaut ».
 
 Il souhaite étendre le mouvement de partage des données en développant et valorisant les compétences de la science ouverte tout au long du parcours des étudiants et des personnels de la recherche.
 
