@@ -589,7 +589,7 @@ L'entrepôt de données de recherche NAKALA, est destiné à accueillir, conserv
 On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepôt nakala :
 
 * [Un tutoriel pour deposer et documenter ses donnees dans nakala](https://doranum.fr/2017/06/22/tutoriel-deposer-et-documenter-ses-donnees-dans-nakala/) 
-* [Utilisation de nakala pour deposer et diffuser les donnees de la recherche](https://doranum.fr/2016/10/12/nakala-plate-forme-pour-deposer-documenter-et-diffuser-les-donnees-de-la-recherche/) 
+* [Utilisation de nakala pour deposer et diffuser les donnees de la recherche](https://doranum.fr/2021/12/03/tout-savoir-sur-nakala/) 
 * [Pour découvrir pas à pas l'interface de NAKALA ainsi que les modalités de l'authentification](https://www.huma-num.fr/ressources/videos )
 
 
