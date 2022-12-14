@@ -64,7 +64,7 @@ Marc Leobet, chargé de mission à la Mission information géographique du minis
 F. Merrien, M. Léobet, M. Francès   Mission de l'information géographique du ministère de l'Environnement  
 ```
 
-```{admonition} [Gestion et valorisation des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/Leobet_INSPIRE_Fredoc2013.pdf)
+```{admonition} [Gestion et valorisation des données de la recherche](http://renatis.cnrs.fr/wp-content/uploads/2022/10/Leobet_INSPIRE_Fredoc2013.pdf)
 :class: seealso
 Marc Leobet, Chargé de mission et PCE INSPIRE     
 Frédocs2013 -7 au 10 octobre 2013, Aussois  
@@ -531,7 +531,7 @@ Jean-Christophe Desconnets
 ```{admonition} [Les entrepôts de données : pierre angulaire du partage des données de la recherche](https://anfdonnees2016.sciencesconf.org/conference/anfdonnees2016/pages/Entrepots_ANFRenatis.pptx)  
 :class: seealso
 Ester Dzale Yeumo (INRA)  
-[participer à l'organisation du management des données de la recherche](https://anfdonnees2016.sciencesconf.org/resource/page/id/1) : gestion de contenu et documentation des données -  2016 Paris 
+[participer à l'organisation du management des données de la recherche](https://anfdonnees2016.sciencesconf.org/resource/page/id/1.html) : gestion de contenu et documentation des données -  2016 Paris 
 ```
 
 ```{admonition} [Les entrepôts de données de recherche](https://anfdonnees2017.sciencesconf.org/data/pages/Entrepots_ANFRenatis_2017_Cocaud_Aventurier_1.pdf)
