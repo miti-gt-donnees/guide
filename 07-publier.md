@@ -315,7 +315,7 @@ Cependant selon le domaine scientifique et dans certaines disciplines, lorsque l
 
 Le logiciel open source [opentheso](https://www.mom.fr/ressources-numeriques/opentheso) permet l'élaboration collaborative d'un thésaurus tout comme ThesauForm, mais aussi la gestion de thésaurus multilingue supportant la polyhiérarchie, en conformité avec la norme ISO 25964.
 
-Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://www.semandiv.cnrs.fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
+Ainsi, lors du séminaire SIST 2018, Dominique Vachez a présenté, en s'appuyant sur le thésaurus [T-Semandiv](https://thesaurus-biodiversite.semandiv.cnrs.fr/), les conditions requises pour une interopérabilité sémantique dans le domaine de la biodiversité : choix de vocabulaires contrôlés et structurés en relations sémantiques utilisés comme référentiels permettant le partage et le croisement des données/métadonnées.
 
 ```{admonition} [T_Semandiv le thésaurus de la biodiversité](https://sist.cnrs.fr/wp-content/uploads/2021/12/30-D-Vachez-T-Semandiv.pdf)
 :class: seealso
@@ -591,7 +591,6 @@ On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepô
 * [L'ANF Maîtriser l’exposition des données entreposées dans Nakala :](https://anf2022-humanum.sciencesconf.org/)
 * [Un tutoriel pour deposer et documenter ses donnees dans nakala](https://doranum.fr/2022/08/25/action-nationale-de-formation-en-distanciel-maitriser-lexposition-des-donnees-entreposees-dans-nakala-24-28-novembre-2022/) 
 * [Utilisation de nakala pour deposer et diffuser les donnees de la recherche](https://doranum.fr/2021/12/03/tout-savoir-sur-nakala/) 
-* [Pour découvrir pas à pas l'interface de NAKALA ainsi que les modalités de l'authentification](https://www.huma-num.fr/ressources/videos )
 
 
 
