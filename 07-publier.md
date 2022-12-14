@@ -95,7 +95,7 @@ De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de bibliothèq
 à faciliter l'insertion de métadonnées dans les catalogues "GeoNetwork". 
 
 Ces développements ont été présentés lors d'un atelier organisé par le réseau RBDD et SIST :
-* [Atelier "Métadonnées et R"](https://sist.cnrs.fr/les-formations/2018-atelier-metadonnees-et-r)   
+* [Atelier "Métadonnées et R"](https://sist.cnrs.fr/2018-r-et-metadonnees/)  
   - Écrire et Lire des métadonnées avec la librairie R *geometa*  
   - Gérer des données dans GeoServer avec la librairie R *geosapi*   
   - Gérer des métadonnées dans GeoNetwork avec la librairie R *geonapi*   
@@ -553,7 +553,7 @@ Il est également nécessaire de se préoccuper de la qualité des entrepôts qu
 Pour être dignes de confiance, les entrepôts doivent également répondre à certains prérequis et spécifications.
 La science ouverte énonce un certain nombre de principes  : transparence (Transparency), responsabilité (Responsibility), orientation vers l’utilisateur (User focus), durabilité (Sustainability) et technologie (Technology) qui permettent de fournir un cadre commun pour la mise en œuvre des meilleures pratiques en matière de préservation numérique. On parle d'entrepôt "TRUST"
 
-Dans le cadre du [séminaire du réseau SIST20](https://sist.cnrs.fr/les-seminaires), Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle nous rappelle que : "rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté".
+Dans le cadre du séminaire du réseau SIST20, Aude Chambodut a présenté les fonctionnalités "TRUST"  qui permettent d'avoir confiance dans un entrepôt, et en quoi consiste l'intérêt d'une certification "Core Trust Seal" . Comme  [Le Plan national pour la Science ouverte ](https://www.ouvrirlascience.fr/les-principes-trust-des-entrepots-de-donnees/), elle nous rappelle que : "rendre les données FAIR tout en les préservant sur le long terme nécessite d’avoir des entrepôts fiables, dotés d’une gouvernance et de cadres organisationnels durables, d’une infrastructure fiable et des politiques globales soutenant des pratiques approuvées par la communauté".
 
 
 ```{admonition} "[Pourquoi et comment aller vers la certification Core Trust Seal ?](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-01-A-Chambodut-La-Certification-CoreTrustSeal.pdf)"    
@@ -588,7 +588,8 @@ L'entrepôt de données de recherche NAKALA, est destiné à accueillir, conserv
 
 On trouvera ci dessous  les présentations nécessaires pour utiliser l'entrepôt nakala :
 
-* [Un tutoriel pour deposer et documenter ses donnees dans nakala](https://doranum.fr/2017/06/22/tutoriel-deposer-et-documenter-ses-donnees-dans-nakala/) 
+* [L'ANF Maîtriser l’exposition des données entreposées dans Nakala :](https://anf2022-humanum.sciencesconf.org/)
+* [Un tutoriel pour deposer et documenter ses donnees dans nakala](https://doranum.fr/2022/08/25/action-nationale-de-formation-en-distanciel-maitriser-lexposition-des-donnees-entreposees-dans-nakala-24-28-novembre-2022/) 
 * [Utilisation de nakala pour deposer et diffuser les donnees de la recherche](https://doranum.fr/2021/12/03/tout-savoir-sur-nakala/) 
 * [Pour découvrir pas à pas l'interface de NAKALA ainsi que les modalités de l'authentification](https://www.huma-num.fr/ressources/videos )
 
