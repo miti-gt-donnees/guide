@@ -314,7 +314,8 @@ Outre les actions de formation, d’expérimentations et innovations pédagogiqu
 
 **Les Ateliers de la Donnée**
 
-Comme présenté plus haut dans la partie consacrée aux politiques d'accompagnement de la donnée, l'écosystème Recherche Data.Gouv et son maillage d'offre se construit pogressivement. L'accompagnement est un élément central de ce dispositif qui propose d'ores et déjà, avec les 13 ateliers de la donnée actuellement constitués un service de proximité thématique et géographique qui déploie une expertise généraliste sur l'ensemble des questions relatives à l'ouverture des données. Au côté de ces ateliers de la donnée, 6 centres de références (expertise par domaine scientifique) et 4 centres de ressources complètent le dispositif. L'ensemble de ces services est amené à se développer au service des équipes scientifiques.
+Comme présenté plus haut dans la partie consacrée aux politiques d'accompagnement de la donnée, l'écosystème Recherche Data.Gouv et son maillage d'offre se construit pogressivement. L'accompagnement est un élément central de ce dispositif qui propose d'ores et déjà, avec les 13 ateliers de la donnée actuellement constitués, un service de proximité thématique et géographique qui déploie une expertise généraliste sur l'ensemble des questions relatives à l'ouverture des données. 
+Au côté de ces ateliers, 6 centres de références (expertise par domaine scientifique) et 4 centres de ressources complètent le dispositif. L'ensemble de ces services est amené à se développer au service des équipes scientifiques.
 
 ### Suivre les travaux du Collège "Compétences et formation du CoSO"
 
