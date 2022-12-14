@@ -181,10 +181,9 @@ La plateforme d'accès ERDDAP se présente comme étant un "accès facile aux do
 Une des fonctionnalités intéressantes est qu'ERDDAP agrège  automatiquement les données nouvelles répondant a un format donné,
 qui sont déposées dans un répertoire. Ainsi pour les séries temporelles cette fonctionnalité est intéressante puisqu'il suffit de déposer des fichiers dans un répertoire pour que la série soit automatiquement enrichie et mise à jour.
 
-Dans le projet scientifique [EMSO](http://emso.eu/), le logiciel ERDDAP permet de constituer un [réseau de serveurs](http://erddap.emso.eu:8080/erddap/info/index.html?page=1&itemsPerPage=1000)
-permettant de rassembler et  fournir toutes les données d'un même projet sur plusieurs sites .
+Dans le projet scientifique [EMSO](http://emso.eu/), le logiciel ERDDAP permet de constituer un [réseau de serveurs](https://erddap.emso.eu/erddap/info/index.html?page=1&itemsPerPage=1000) permettant de fournir une vision synoptique de toutes les données d'un même projet sur plusieurs sites.
 
-Cette fédération de serveur ERDDAP pour le projet EMSO a fait l'objet d'une présentation au [congrès IMDIS 2021](https://imdis.seadatanet.org/) :
+Cette fédération de serveur ERDDAP de plusieurs pays pour le projet EMSO a fait l'objet d'une présentation au congrès IMDIS 2021 :
 
 ```{admonition} [EMSO ERIC Data Services: managing distributed data through an ERDDAP federation](https://imdis.seadatanet.org/files/IMDIS2021_135_abstract.pdf)   
 :class: seealso
@@ -207,7 +206,7 @@ comme :
 
 *  le serveur cartographique [Geoserver](http://geoserver.org/) permet d'afficher et d'échanger des données géospatiales sur le web selon les standards (WMS, WFS, ...) de l'OGC ; 
 
-```{admonition} [Geoserver - Installation, configuration, affichage et diffusion de jeux de données géospatialisés](http://162.38.140.228/doc_tp_geoserver/presentation/index.html)   
+```{admonition} [Geoserver - Installation, configuration, affichage et diffusion de jeux de données géospatialisés](https://sist.pages.in2p3.fr/anf18-geoserver/)   
 :class: seealso
 Juliette Fabre, Olivier Lobry   
 ANF SIST 2018, Toulouse.   
