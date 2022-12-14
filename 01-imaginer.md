@@ -61,7 +61,13 @@ Outre le service de dépôt et de diffusion, cet environnement propose aux cherc
 
 Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner un [webinaire](https://www.canal-u.tv/chaines/rda/rda-france-recherche-data-gouv-l-entrepot-national-federe-des-donnees-de-la-recherche) animé par  Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche et Pierre Yves Arnould, chargée de mission au MESR ou à consulter le [déroulé de leur présentation](https://rdafrance2021.sciencesconf.org/data/pages/2021.10.12_Recherche_Data_Gouv_RDA.pdf) réalisé le 12 octobre 2021 à l’occasion de la 4ème réunion annuelle de RDA France.
 
+Pour en savoir plus sur la plateforme et les services d’accompagnement, nous vous invitons à visionner une [vidéo](https://www.canal-u.tv/chaines/renatis/dialogu-ist-13-comment-la-gestion-des-donnees-a-change-ma-vie/atelier-dialogu-ist) d'Isabelle Blanc, administratrice ministérielle des données, des algorithmes et du code de la recherche réalisée dans le cadre du 13ème ateliers Dialogu'IST ou à consulter le [déroulé de sa présentationvi](https://renatis.cnrs.fr/wp-content/uploads/2022/12/DialoguIST_Recherche-Data-Gouv.pdf) qui dresse un panorama politique de cet écosystème en construction.
+Des témoignages et retours d'expérience autour des modules d'accompagnement sont également proposés.
 
+```{admonition} [Comment la gestion des données a changé notre vie](https://renatis.cnrs.fr/13e-atelier-dialoguist-lundi-28-novembre-2022/)  
+:class: seealso
+Ateliers Dialogu'IST "Comment la gestion des données a changé ma vie ? ", 2022
+```
 ### Comprendre le contexte
 
 Ces dernières années, la réglementation en matière de science ouverte a largement modifié le paysage des données de la recherche et a permis de mieux cadrer les pratiques scientifiques sur le plan juridique.
