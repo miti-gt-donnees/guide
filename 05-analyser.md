@@ -17,7 +17,7 @@ Plusieurs évènements récurrents, annuels ou bisannuels, auxquels
 participent activement les réseaux métiers, comme les [JCAD (Journées
 Calcul et Données)](http://www.france-grilles.fr/category/journees-jcad/),
 les [JDEV (Journées du DEVeloppement
-logiciel)](http://devlog.cnrs.fr/manifestations/start) par exemple,
+logiciel)](http://devlog.cnrs.fr/jdev/) par exemple,
 intègrent de nombreuses interventions sur ces différentes thématiques,
 allant de la description des plateformes aux outils disponibles,
 en passant par l'organisation des développements et la reproductibilité,
@@ -197,10 +197,10 @@ De même, le réseau SARI grenoblois a organisé une journée sur le
 sujet, avec une présentation de Jean-Luc Parouty particulièrement
 didactique.
 
-```{admonition} [AI Machine Learning & Deep Learning](https://sari.grenoble-inp.fr/lib/exe/fetch.php?media=theme:ia_deep_learning:ia_deep_learning:ia_machinelearning_pres20190606.pdf)   
+```{admonition} [AI Machine Learning & Deep Learning](https://sari.cnrs.fr/wp-content/uploads/2021/12/ia_machinelearning_pres20190606.pdf)   
 :class: seealso
 Jean-Luc Parouty (SIMAP)
-[Séminaire SARI 2019](https://sari.grenoble-inp.fr/doku.php?id=theme:ia_deep_learning:ia_deep_learning:ia)
+[Séminaire SARI 2019](https://gricad-media.univ-grenoble-alpes.fr/multimedia/videos/sari-intelligence-artificielle-machine-learning-et-deep-learning)
 ```
 
 Compte tenu de l'engouement engendré autour de l'IA, de nombreuses
@@ -422,7 +422,7 @@ propose régulièrement des journées sur ces sujets :
 2019, Observatoire de Haute Provence.
 ```
 
-Enfin, l'optimisation des ressources s'entend aussi au niveau environnemental, afin de réduire l'impact des analyses de données. Le [GDS EcoInfo](https://ecoinfo.cnrs.fr/)  a organisé en 2017 une [journée sur l'impact des logiciels sur l’environnement](https://ecoinfo.cnrs.fr/2017/01/05/conf-ecoinfo-3-fevrier-2017-impact-des-logiciels-sur-lenvironnement-quid-de-leco-conception/), dont certains exposés peuvent directement concerner la problématique de l'analyse des données :
+Enfin, l'optimisation des ressources s'entend aussi au niveau environnemental, afin de réduire l'impact des analyses de données. Le [GDS EcoInfo](https://ecoinfo.cnrs.fr/)  a organisé en 2017 une [journée sur l'impact des logiciels sur l’environnement](https://ecoinfo.cnrs.fr/2017/01/05/conf-ecoinfo-impact-des-logiciels-sur-lenvironnement-quid-de-leco-conception-3-fevrier-2017/), dont certains exposés peuvent directement concerner la problématique de l'analyse des données :
 
 ```{admonition} [Écoconception logicielle, retours d’expérience sur la réduction de l’impact des logiciels](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/greenspector.pdf)
 :class: seealso
@@ -500,13 +500,13 @@ construire une base de connaissance à partir de source et de données
 hétérogènes. Il explique ce qu’est une base de connaissance et
 comment l’interroger.
 
-```{admonition} [Des technologies sémantiques pour l’information scientifique et technique](http://renatis.cnrs.fr/IMG/pdf/Nedellec_Girard_Fredoc-v4.pdf)  
+```{admonition} [Des technologies sémantiques pour l’information scientifique et technique](http://renatis.cnrs.fr/wp-content/uploads/2022/10/Nedellec_Girard_Fredoc-v4.pdf)  
 :class: seealso
 Claire Nedellec, Agnès Girard, INRA  
 Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois   
 ```
 
-```{admonition} [Annotation des Bulletins de santé du végétal (BSV) et interrogation](http://renatis.cnrs.fr/IMG/pdf/FreDoc_Irstea.pdf)  
+```{admonition} [Annotation des Bulletins de santé du végétal (BSV) et interrogation](http://renatis.cnrs.fr/wp-content/uploads/2022/10/FreDoc_Irstea.pdf)  
 :class: seealso
 Fabien Amarger , IRIT-IRSTEA  
 Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois  
