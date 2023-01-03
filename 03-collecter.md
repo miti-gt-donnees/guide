@@ -379,6 +379,15 @@ Jean-Luc Parouty ingénieur à SIMAP, a ensuite détaillé le service mutualisé
 Jean-Luc Parouty, SIMAP
 ```
 
+Plus récemment, un guide intitulé "Bonnes pratiques de mise en place d'un cahier de laboratoire électronique - Exemple d'eLabFTW" a été réalisé par le réseau “Qualité en Recherche” soutenu par la plateforme reseau de la Mission pour les Initiatives Transverses et Interdisciplinaires du CNRS. 
+
+```{admonition} [Bonnes pratiques de mise en place d'un cahier de laboratoire électronique - Exemple d'eLabFTW](https://qualite-en-recherche.cnrs.fr/guide/)  
+:class: seealso
+Y. Hersant, N. Léon, A. Rivet, H. Valeins, réseau Qer, 2022
+```
+A travers ce guide de bonnes pratiques, le réseau Qualité en Recherche souhaite sensibiliser les personnels des unités de recherche à la mise en place et à l’utilisation d’un cahier de laboratoire électronique au sein d’une unité de recherche en apportant une vision « terrain » à cette nouvelle organisation des activités de recherche.
+
+
 ### Les tablettes et carnets de terrain
 
 Les données et documents produits directement sur le terrain témoignent de l’activité de recherche dans diverses disciplines, notamment en sciences humaines et sociales, en sciences de la terre... Il s’agit aussi bien de carnets issus d’entretiens de sociologues, d’ethnologues, de carnets de prélèvements en géochimie, géologie que de carnets de fouilles en archéologie, de notes, de photographies prises sur le terrain, etc. De plus, certaines données peuvent se révéler d'une valeur inestimable, qu'il s'agisse de données fortement temporelles (images satellites de la banquise, données sur les glaciers alpins) ou de données provenant de sites aujourd'hui endommagés ou détruits (Notre Dame de Paris, cité antique de Palmyre, etc). Il est de ce fait essentiel que ces données soient répertoriées et archivées. 
