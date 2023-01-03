@@ -196,7 +196,6 @@ La conservation pérenne de la donnée passe par l’application des principes F
 
 Cependant, ces principes permettent de garantir que la donnée sera exploitable et réutilisable et le formalisme nécessaire à les appliquer à également plusieurs avantages (mais aussi quelques inconvénients) environnementaux. Parmi les avantages, on notera tout de même des éléments importants qui vont à priori dans le sens d’une certaine sobriété et rationalisation des processus numérique :
 
-    
 - Garantir la disponibilité des données dans le temps impose une réflexion sur les outils et les infrastructures à utiliser. Cette réflexion doit impérativement se mener à plusieurs échelles avec des collaborations et des réflexions locales, nationales et internationales pour être pensée avec des éléments qui intègre les impacts environnementaux. Normalement, cette réflexion devrait conduire assez naturellement à réduire et rationaliser les centres de données et grandes infrastructures assurant le stockage mais également à utiliser des outils et des formats communs et interopérables ce qui permet de favoriser des outils performants, éco conçus,
     
 -  Garantir la pérennité de la donnée permet de réutiliser des jeux de données souvent uniques et donc « d’absorber » et rentabiliser le coût environnemental des campagnes d’acquisition de ces données. 
@@ -239,7 +238,7 @@ N’oublions pas cependant que cette mise à disposition pourrait entraîner un 
 
 Aujourd'hui, la situation nationale et internationale sur les aspects centre de données reste assez confuse. On observe plutôt une augmentation des volumes de données notamment avec l'ajout de métadonnées mais aussi une multiplication des entrepôts et des solutions techniques qui peinent encore à émerger et se stabiliser.
 
-On n’est donc pas encore arrivé dans une phase stable et encore moins à une phase prenant en compte les impacts environnementaux. Il sera donc nécessaire de se questionner et de questionner les acteurs en place sur cette prise en compte des enjeux pour faire les choix les plus pertinents vis à vis de ses jeux de données. 
+On n’est donc pas encore arrivés dans une phase stable et encore moins dans une phase prenant en compte les impacts environnementaux. Il sera donc nécessaire de se questionner et de questionner les acteurs en place sur cette prise en compte des enjeux pour faire les choix les plus pertinents vis à vis de ses jeux de données pérennisés. 
 
 L’Open Data est une voie rationnelle, institutionnellement valorisée, et à priori prometteuse, ou en tout cas logique et pertinente quant à la valorisation des jeux de données et leur conservation. Mais il apparaît malgré tout que ce sont la simplicité, la [sobriété](https://ecoinfo.cnrs.fr/2021/03/01/agir-vers-la-sobriete-numerique/) ou la frugalité et le questionnement de nos usages qui restent cependant, les priorités à mettre en œuvre. Ces principes peuvent réellement conduire à une diminution concrète et réelle des infrastructures et des outils numériques, ce qui est la seule voie accessible rapidement face à l’urgence environnementale qui nous menace dès aujourd’hui.
 
