@@ -192,7 +192,7 @@ Ces objectifs d’économie du numérique ne sont pas si triviaux et devront êt
 
 ### La gestion des données scientifiques face à ces enjeux
 
-La conservation pérenne de la donnée passe par l’application des principes FAIR qui ne sont pas en soient « éco responsable » puisque ces principes imposent en effet de mobiliser des fortes ressources informatiques en permanence pour la conservation et la diffusion des données. Par ailleurs, pour permettre la pérennité et la réutilisation de ces données, les métadonnées descriptives des jeux de données augmentent d’autant les volumes de données à stocker.  
+La conservation pérenne de la donnée passe par l’application des principes FAIR qui, en soit, ne sont pas « éco responsables » puisque ces principes imposent en effet de mobiliser des fortes ressources informatiques en permanence pour la conservation et la diffusion des données. Par ailleurs, pour permettre la pérennité et la réutilisation de ces données, les métadonnées descriptives des jeux de données augmentent d’autant les volumes de données à stocker.  
 
 Cependant, ces principes permettent de garantir que la donnée sera exploitable et réutilisable et le formalisme nécessaire à les appliquer à également plusieurs avantages (mais aussi quelques inconvénients) environnementaux. Parmi les avantages, on notera tout de même des éléments importants qui vont à priori dans le sens d’une certaine sobriété et rationalisation des processus numérique :
 
