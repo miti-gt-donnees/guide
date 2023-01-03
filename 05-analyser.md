@@ -273,16 +273,12 @@ Arnaud RENARD, Université de Reims Champagne-Ardenne
 [JCAD 2018](https://jcad2018.sciencesconf.org), Lyon.
 ```
 
-### Qualité logicielle
-
-
-
 ### La qualité logicielle
 
 Programmer dix lignes de code quand on est seul, c'est facile et ca n'engage que soit, mais dès lors qu'on a à faire avec des projets
 complexes, de longue durée, nécessitant des équipes de développeurs, il est nécessaire d'avoir des pratiques de codage collaboratives et industrialisées qui doivent assurer la qualité du produit développé.
 
-Les chaînes de traitement logiciels sont souvent associées à des instruments complexes et nécessitent ainsi de s’interfacer parfaitement avec le reste de l’instrument.  Dans ce contexte, il convient d'assurer le suivi des exigences liées au logiciel, la gestion des interfaces avec le reste de l’instrument et l’activité Assurance Qualité Logiciel. Cette dernière permet notamment de répondre à des exigences applicables à un logiciel, du développement à la maintenance de celui-ci.  L’ensemble des activités, normes, contrôles et procédures mis en place doit couvrir la totalité de la durée de vie d’un logiciel. Il est par exemple important de vérifier et valider au travers de tests la bonne santé du code et de constamment veiller à la traçabilité qui lui est liée.
+Les chaînes de traitement logiciels sont souvent associées à des instruments complexes et nécessitent ainsi de s’interfacer parfaitement avec les différentes partie de l’instrument.  Dans ce contexte, il convient d'assurer le suivi des exigences liées au logiciel, la gestion des interfaces avec le reste de l’instrument et l’activité "Assurance Qualité Logiciel". Cette dernière permet notamment de répondre à des exigences applicables à un logiciel, du développement à la maintenance de celui-ci.  L’ensemble des activités, normes, contrôles et procédures mis en place doit couvrir la totalité de la durée de vie d’un logiciel. Il est par exemple important de vérifier et valider au travers de tests la bonne santé du code et de constamment veiller à la traçabilité qui lui est liée.
 
 
 La qualité d'un projet informatique ne se résume pas à la qualité du codage, mais dépend également de la qualité des interactions collectives au sein du projet et de leur mise en œuvre.
