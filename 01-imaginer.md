@@ -176,10 +176,6 @@ Pour accompagner les équipes dans le traitement juridique des données, un coll
 
 ## Adopter des pratiques numériques responsables dans la gestion des données scientifiques
 
-
-Une maîtrise des impacts environnementaux est nécessaire. Elle passe par l’application de pratiques écoresponsables. En février 2022, un [guide de bonnes pratiques numérique responsable pour les organisations](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/), porté par la Direction Interministérielle du Numérique (DINUM), a été publié en licence ouverte pour une réutilisation par tous. Il a pour vocation de sensibiliser les acteurs aux impacts de certaines pratiques en cours dans nos organisations et aider la mise en œuvre d’actions permettant de réduire l’empreinte environnementale du numérique.
-
-
 La démarche d’ouverture des données de recherche dans laquelle nos établissements sont engagés est une démarche positive à de nombreux égards (préservation pérenne, reproductibilité, etc.), elle doit néanmoins, et de manière urgente, être considérée aussi du point de vue de son impact environnemental. 
 
 S’il est encore difficile de quantifier très précisément l’impact de la gestion des données de recherche en particulier sur l’empreinte carbone ou sur la biodiversité, la disponibilité, la manipulation et le traitement de gros volumes de données entraînent de nouveaux usages qu’il s’agit aujourd’hui de mesurer et de questionner pour parvenir à une gestion sobre et écoresponsable. 
@@ -207,7 +203,7 @@ Cependant, ces principes permettent de garantir que la donnée sera exploitable 
 
 Parmi les inconvénients, on notera cependant :
     
--  Le risque de sauvegarder « tout et n’importe quoi », fruit du symptôme « ça peut servir ». Il est indispensable que les données qui rentrent dans le cycle soient utiles, qualifiés et validées, et respectent scrupuleusement les principes FAIR.
+-  Le risque de sauvegarder « tout et n’importe quoi », fruit du symptôme « ça peut servir ». Il est indispensable que les données qui rentrent dans le cycle soient utiles, qualifiés et validées, et respectent scrupuleusement les [principes FAIR](https://www.ccsd.cnrs.fr/principes-fair/).
   
 -  Cette logique d’ouverture contribue à la croissance déjà très forte des données numériques.
 
@@ -218,13 +214,14 @@ Parmi les inconvénients, on notera cependant :
 - éviter de dupliquer la donnée inutilement,
 - ne pas produire ni stocker de données inutiles,
 - utiliser la bonne « distance » physique lorsqu’on manipule les données (penser « traitement au plus près du stockage »),
-- archiver sur des systèmes passifs ou en collaboration avec des centres adaptés à l’archivage (on pensera par exemple au CINES dans le monde de l’ESR ou encore aux différentes solutions institutionnelles qui se mettent en place telles que l’Infrastructure de Recherche Data Terra par exemple).
+- archiver sur des systèmes passifs ou en collaboration avec des centres adaptés à l’archivage (on pensera par exemple au [CINES](https://www.cines.fr/presentation/) dans le monde de l’ESR ou encore aux différentes solutions institutionnelles qui se mettent en place telles que [l’Infrastructure de Recherche Data Terra](https://www.data-terra.org/) par exemple).
 
 La mise en place des infrastructures nationales et internationales doit impérativement se faire en cohérence avec les enjeux environnementaux. Cette mise en place doit également intégrer l’instabilité potentielle de la fourniture d’énergie aux centres de données qui risque de s’aggraver avec le déclin inéluctable des énergies fossiles. Il paraît ainsi judicieux de se pencher sur des capacités de stockage hors ligne (stockage froids), pour des données faiblement utilisées et donc accessibles à la demande dans des délais de traitement acceptables. Cette méthode permettrait de minimiser ainsi les stockages actifs (stockage chauds) nécessaires à héberger les données 24/24 et 7j7.
 
 L’open data  permettant le partage et la réutilisation des données, pourrait  également permettre une maîtrise des impacts environnementaux à travers la rationalisation et une cohérence de la gestion des donnée à l’échelle nationale.  
 
-La diminution des impacts de la donnée numérique s’inscrit clairement dans un contexte plus large de diminution des impacts du numérique. Cette réflexion ne peut pas se mener sans regarder dans leur ensemble les solutions de service numériques mises en place, et donc, demande de tenir compte des aspects matériels et logiciels.
+La diminution des impacts de la donnée numérique s’inscrit clairement dans un contexte plus large de diminution des impacts du numérique. Cette réflexion ne peut pas se mener sans regarder dans leur ensemble les [solutions de service numériques](https://ecoinfo.cnrs.fr/2021/03/01/agir-sur-les-services-numeriques/) mises en place, et donc, demande de tenir compte des [aspects matériels](https://ecoinfo.cnrs.fr/2021/03/01/agir-sur-le-materiel/) et [logiciels](https://ecoinfo.cnrs.fr/2020/11/20/plaquette-je-code-les-bonnes-pratiques-en-eco-conception-de-service-numerique-a-destination-des-developpeurs-de-logiciels/
+).
 
 Pour le matériel, les enjeux de durée de vie sont la première clé de la diminution des impacts. Quant aux logiciels et aux formats de fichiers, les formats et les logiciels libres assurent une pérennité incontestable et sont donc une réponse incontournable.
 
@@ -234,7 +231,7 @@ Ces aspects sommairement évoqués ici, sont tout aussi importants que l’atten
    - développer ses propres solutions logicielles : de nombreux outils, formats de données et/ou conventions existent déjà dans de nombreux domaines permettant de diffuser de la donnée respectant les principes FAIR,
    - déployer des infrastructures de stockage local alors que des infrastructures nationales existent.
 
-- Limiter les transports physiques de la donnée. On pensera ainsi à mettre la donnée au plus près de l’usage (notamment les phases de calculs et traitement, ou de nettoyage des données devront se faire sans avoir à consulter en permanence des données « à distance »,
+- Limiter les [transports physiques de la donnée](https://ecoinfo.cnrs.fr/2020/12/04/quelle-est-lempreinte-carbone-de-la-transmission-d1-go-sur-le-reseau-renater/). On pensera ainsi à mettre la donnée au plus près de l’usage (notamment les phases de calculs et traitement, ou de nettoyage des données devront se faire sans avoir à consulter en permanence des données « à distance »,
     
 - Minimiser les copies de données, ce qui demande une réflexion approfondie sur les infrastructures à mettre en place et leur cohérence et qui dépasse donc un peu le cadre de ce guide. Cependant, on pensera à se rapprocher des infrastructures nationales déjà existantes (IR Data Terra, data.gouv.fr) ou des réseaux métiers et technologiques qui pourront nous guider vers les meilleurs solutions du moment.
 
@@ -244,12 +241,16 @@ Aujourd'hui, la situation nationale et internationale sur les aspects centre de 
 
 On n’est donc pas encore arrivé dans une phase stable et encore moins à une phase prenant en compte les impacts environnementaux. Il sera donc nécessaire de se questionner et de questionner les acteurs en place sur cette prise en compte des enjeux pour faire les choix les plus pertinents vis à vis de ses jeux de données. 
 
-L’Open Data est une voie rationnelle, institutionnellement valorisée, et à priori prometteuse, ou en tout cas logique et pertinente quant à la valorisation des jeux de données et leur conservation. Mais il apparaît malgré tout que ce sont la simplicité, la sobriété ou la frugalité et le questionnement de nos usages qui restent cependant, les priorités à mettre en œuvre. Ces principes peuvent réellement conduire à une diminution concrète et réelle des infrastructures et des outils numériques, ce qui est la seule voie accessible rapidement face à l’urgence environnementale qui nous menace dès aujourd’hui.
+L’Open Data est une voie rationnelle, institutionnellement valorisée, et à priori prometteuse, ou en tout cas logique et pertinente quant à la valorisation des jeux de données et leur conservation. Mais il apparaît malgré tout que ce sont la simplicité, la [sobriété](https://ecoinfo.cnrs.fr/2021/03/01/agir-vers-la-sobriete-numerique/) ou la frugalité et le questionnement de nos usages qui restent cependant, les priorités à mettre en œuvre. Ces principes peuvent réellement conduire à une diminution concrète et réelle des infrastructures et des outils numériques, ce qui est la seule voie accessible rapidement face à l’urgence environnementale qui nous menace dès aujourd’hui.
 
-De manière générale, on pourra se tourner vers le site d’EcoInfo (https://ecoinfo.cnrs.fr) ou vers le  guide de bonnes pratiques numérique responsable pour les organisations, porté par la Direction Interministérielle du Numérique (DINUM), afin de trouver des informations pratiques plus complètes sur les actions à mener pour diminuer les impacts environnementaux du numérique.
+De manière générale, on pourra se tourner vers le site du [GDS EcoInfo](https://ecoinfo.cnrs.fr) ou vers le  [guide de bonnes pratiques numérique responsable pour les organisations](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/), porté par la Direction Interministérielle du Numérique (DINUM), afin de trouver des informations pratiques plus complètes sur les actions à mener pour une maîtrise des impacts environnementaux , et l’application de pratiques écoresponsables
 
-Sur les aspects plus orientés données, citons l’article « Agir sur les données de la recherche » du groupe EcoInfo pour se questionner et « agir sur les données ». Lors des JRES 2022, Didier Mallarino Sylvie Le Bras et Cyrille Bonamy abordent également « Les impacts environnementaux et sociétaux des données : un défi pour l’avenir ».
+Sur les aspects plus orientés données, citons l’article « Agir sur les données de la recherche » du groupe EcoInfo pour se questionner et [agir sur les données](https://ecoinfo.cnrs.fr/2021/03/01/agir-sur-les-donnees/). Lors des JRES 2022, Didier Mallarino Sylvie Le Bras et Cyrille Bonamy abordent également « Les impacts environnementaux et sociétaux des données : un défi pour l’avenir ».
 
+```{admonition} [Les impacts environnementaux et sociétaux des données : un défi pour l’avenir ](https://conf-ng.jres.org/2021/document_revision_2468.html?download)  
+:class: seealso
+JRES 2022 Marseille
+```
 
 
 ## Connaître et comprendre les principes FAIR
