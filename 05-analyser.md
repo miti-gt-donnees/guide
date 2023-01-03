@@ -89,71 +89,6 @@ qui facilite l'exécution massive de calculs sur des données distribuées.
  Guillaume Eynard-Bontemps (CNES), [JCAD 2019, Toulouse](https://jcad2019.sciencesconf.org).
 ```
 
-### La qualité logicielle
-
-Programmer dix lignes de code quand on est seul, c'est facile et ca n'engage que soit, mais dès lors qu'on a à faire avec des projets
-complexes, de longue durée, nécessitant des équipes de développeurs, il est nécessaire d'avoir des pratiques de codage collaboratives et industrialisées qui doivent assurer la qualité du produit développé.
-
-En effet la qualité d'un projet informatique ne se résume pas à la qualité du codage, mais dépend également de la qualité des interactions collectives au sein du projet et de leur mise en œuvre.
-
-L'INSU et l'IN2P3 du CNRS sont des instituts impliqués dans des gros projets de développements et ont investi dans l'apprentissage de bonnes pratiques pour assurer la qualité locigielle au travers d'un Action Nationale de Formation.
-
-L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif 
-
-```{admonition} [ANF Qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/)
-:class: seealso   
-https://gitlab.in2p3.fr/cylo/anf-qualite_logicielle
- Cyril l'Orphelin (IN2P3), [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
-```
-
-La formation montre comment un flot de traitement bien organisé et maîtrisé participe de façon très importante à la démarche collective pour assurer la qualité logicielle.
-
-Clémence Agrapart explique quels sont les "Principes de bases de la qualité logicielle" : 
- - définir des outils et des procédures qui permettent d’harmoniser les méthodes
- - sensibiliser les agents pour une meilleure synergie et visibilité des pratiques
- - transmettre et faciliter la communication (nouveaux entrants, turnover de personnel)
-
-Dans l'objectif d'améliorer les règles de fonctionnement :
- - Renforcer la confiance entre les équipes et les partenaires impliqués
- - Maîtriser les savoir-faire
- - Optimiser le travail et gagner en efficacité
- - Réduire les risques de dysfonctionnement
-
-Le développement logiciel se rapproche de l'Assurance Produit pour s’assurer que le produit est conforme aux exigences,
-que le logiciel réponde aux objectifs d’utilisation, de maintenance et de portage en respectant les délais et les budgets définis
-
-L’assurance qualité logiciel donc permet de garantir que :
- - Les règles et normes de codage sont respectées
- - La gestion de versions du code est gérée au fur et à mesure et à travers les outils adaptés
-
-
-```{admonition} [Principes de bases de la qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/bases_qualite_logicielle.pdf)
-:class: seealso   
- Clémence Agrapart, [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
-```
-
-Antoine Pérus insiste sur le fait que le "code" logiciel est une construction collective et donne des règles de partage et d'échange pour le codage : 
-- utilisation de tickets :  espace privilégié pour échanger tant au sein du projet qu'entre les membres du groupe et le monde extérieur.
-- utilisation de labels, associées aux tickets, aux Merge/Pull Request (MR/PR) et qui permettent de catégoriser, et donc de structurer. Ils facilitent la lecture, le partage des tâches et donc la vie collective.
-- bonne utilisation des workflow de dépots de code
-- etc.
-
-```{admonition} [le code est une construction collective](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/construction_collective.pdf)
-:class: seealso   
- Antoine Pérus , [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
-```
-
-On trouvera sur le site de la formation la majeure partie des bonnes pratiques de production de code collaboratif
-
-- Indicateur de suivi de la qualité logicielle - William Recart
-- Gestion de la documentation - Julien Peloton
-- Processus de traitement de la qualité logicielle: outils et notion d'usine logicielle - Alexis Chatillon
-- Partage de code et plateformes collaboratives - Cyril L'Orphelin
-- Outils de test- Cyril L'Orphelin
-- Outils d’analyse et de mesure de la qualité du code - Cyril L'Orphelin
-- Outils de construction du code final, d'intégration et de déploiement continus- Cyril L'Orphelin
-
-
 ### Approches méthodologiques
 
 L'analyse des données ne concerne pas uniquement les modèles
@@ -340,20 +275,77 @@ Arnaud RENARD, Université de Reims Champagne-Ardenne
 
 ### Qualité logicielle
 
-Ces chaînes de traitement sont très souvent associées à des instruments
-complexes et nécessitent ainsi de s’interfacer parfaitement avec
-le reste de l’instrument.  Dans ce contexte, il convient d'assurer
-le suivi des exigences liées au logiciel, la gestion des interfaces
-avec le reste de l’instrument et l’activité Assurance Qualité
-Logiciel. Cette dernière permet notamment de répondre à des exigences
-applicables à un logiciel, du développement à la maintenance de
-celui-ci.  L’ensemble des activités, normes, contrôles et procédures
-mis en place doit couvrir la totalité de la durée de vie d’un
-logiciel. Il est par exemple important de vérifier et valider au
-travers de tests la bonne santé du code et de constamment veiller
-à la traçabilité qui lui est liée.
 
-Une [journée du réseau Qualité en Recherche](https://jt-aql.sciencesconf.org/) a été entièrement
+
+### La qualité logicielle
+
+Programmer dix lignes de code quand on est seul, c'est facile et ca n'engage que soit, mais dès lors qu'on a à faire avec des projets
+complexes, de longue durée, nécessitant des équipes de développeurs, il est nécessaire d'avoir des pratiques de codage collaboratives et industrialisées qui doivent assurer la qualité du produit développé.
+
+Les chaînes de traitement logiciels sont souvent associées à des instruments complexes et nécessitent ainsi de s’interfacer parfaitement avec le reste de l’instrument.  Dans ce contexte, il convient d'assurer le suivi des exigences liées au logiciel, la gestion des interfaces avec le reste de l’instrument et l’activité Assurance Qualité Logiciel. Cette dernière permet notamment de répondre à des exigences applicables à un logiciel, du développement à la maintenance de celui-ci.  L’ensemble des activités, normes, contrôles et procédures mis en place doit couvrir la totalité de la durée de vie d’un logiciel. Il est par exemple important de vérifier et valider au travers de tests la bonne santé du code et de constamment veiller à la traçabilité qui lui est liée.
+
+
+La qualité d'un projet informatique ne se résume pas à la qualité du codage, mais dépend également de la qualité des interactions collectives au sein du projet et de leur mise en œuvre.
+
+L'INSU et l'IN2P3 du CNRS sont des instituts impliqués dans des gros projets de développements et ont investi dans l'apprentissage de bonnes pratiques pour assurer la qualité locigielle au travers d'un Action Nationale de Formation.
+
+L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif 
+
+```{admonition} [ANF Qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/)
+:class: seealso   
+https://gitlab.in2p3.fr/cylo/anf-qualite_logicielle
+ Cyril l'Orphelin (IN2P3), [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
+
+La formation montre comment un flot de traitement bien organisé et maîtrisé participe de façon très importante à la démarche collective pour assurer la qualité logicielle.
+
+Clémence Agrapart explique quels sont les "Principes de bases de la qualité logicielle" : 
+ - définir des outils et des procédures qui permettent d’harmoniser les méthodes
+ - sensibiliser les agents pour une meilleure synergie et visibilité des pratiques
+ - transmettre et faciliter la communication (nouveaux entrants, turnover de personnel)
+
+Dans l'objectif d'améliorer les règles de fonctionnement :
+ - Renforcer la confiance entre les équipes et les partenaires impliqués
+ - Maîtriser les savoir-faire
+ - Optimiser le travail et gagner en efficacité
+ - Réduire les risques de dysfonctionnement
+
+Le développement logiciel se rapproche de l'Assurance Produit pour s’assurer que le produit est conforme aux exigences,
+que le logiciel réponde aux objectifs d’utilisation, de maintenance et de portage en respectant les délais et les budgets définis
+
+L’assurance qualité logiciel donc permet de garantir que :
+ - Les règles et normes de codage sont respectées
+ - La gestion de versions du code est gérée au fur et à mesure et à travers les outils adaptés
+
+
+```{admonition} [Principes de bases de la qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/bases_qualite_logicielle.pdf)
+:class: seealso   
+ Clémence Agrapart, [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
+
+Antoine Pérus insiste sur le fait que le "code" logiciel est une construction collective et donne des règles de partage et d'échange pour le codage : 
+- utilisation de tickets :  espace privilégié pour échanger tant au sein du projet qu'entre les membres du groupe et le monde extérieur.
+- utilisation de labels, associées aux tickets, aux Merge/Pull Request (MR/PR) et qui permettent de catégoriser, et donc de structurer. Ils facilitent la lecture, le partage des tâches et donc la vie collective.
+- bonne utilisation des workflow de dépots de code
+- etc.
+
+```{admonition} [le code est une construction collective](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/construction_collective.pdf)
+:class: seealso   
+ Antoine Pérus , [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
+
+On trouvera sur le site de la formation [ANF Qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/) un ensemble de bonnes pratiques de production de code collaboratif.
+
+- Indicateur de suivi de la qualité logicielle - William Recart
+- Gestion de la documentation - Julien Peloton
+- Processus de traitement de la qualité logicielle: outils et notion d'usine logicielle - Alexis Chatillon
+- Partage de code et plateformes collaboratives - Cyril L'Orphelin
+- Outils de test- Cyril L'Orphelin
+- Outils d’analyse et de mesure de la qualité du code - Cyril L'Orphelin
+- Outils de construction du code final, d'intégration et de déploiement continus- Cyril L'Orphelin
+
+
+Par ailleurs, une [journée du réseau Qualité en Recherche](https://jt-aql.sciencesconf.org/) a été entièrement
 consacrée à ce sujet en 2019. Plusieurs exposés ont permis d'illustrer
 les concepts associés à la qualité logicielle :
 
@@ -376,6 +368,8 @@ Z.Tucsnak,  Journée thématique Assurance Qualité Logiciel 2019, Paris.
 :class: seealso
 Colin Gonzalez, AstroParticules et Cosmologie,  Journée thématique Assurance Qualité Logiciel 2019, Paris.
 ```
+
+
 
 ### Retours d'expérience
 
