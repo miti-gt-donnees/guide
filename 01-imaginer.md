@@ -176,13 +176,79 @@ Pour accompagner les équipes dans le traitement juridique des données, un coll
 
 ## Adopter des pratiques numériques responsables dans la gestion des données scientifiques
 
-La démarche d’ouverture des données de recherche dans laquelle nos établissements sont engagés est une démarche positive à de nombreux égards (préservation pérenne, reproductibilité, etc.), elle doit néanmoins, et de manière urgente, être considérée aussi du point de vue de son impact environnemental.
-
-S’il est encore difficile de quantifier très précisément l’impact de la gestion des données de recherche en particulier sur l’empreinte carbone ou sur la biodiversité, la disponibilité, la manipulation et le traitement de gros volumes de données entraîne de nouveaux usages qu’il s’agit aujourd’hui de mesurer et de questionner pour parvenir à une gestion sobre et écoresponsable.
-
-Une réflexion sur les outils et les infrastructures, les formats à utiliser s’impose de même qu’une gestion FAIR rigoureuse avec une sélection stricte des données utiles, nécessaires, validées et suffisamment bien qualifiée (avec des métadonnées de qualité) pour éviter de sauvegarder et de conserver des données inutilisables.
 
 Une maîtrise des impacts environnementaux est nécessaire. Elle passe par l’application de pratiques écoresponsables. En février 2022, un [guide de bonnes pratiques numérique responsable pour les organisations](https://ecoresponsable.numerique.gouv.fr/publications/bonnes-pratiques/), porté par la Direction Interministérielle du Numérique (DINUM), a été publié en licence ouverte pour une réutilisation par tous. Il a pour vocation de sensibiliser les acteurs aux impacts de certaines pratiques en cours dans nos organisations et aider la mise en œuvre d’actions permettant de réduire l’empreinte environnementale du numérique.
+
+
+La démarche d’ouverture des données de recherche dans laquelle nos établissements sont engagés est une démarche positive à de nombreux égards (préservation pérenne, reproductibilité, etc.), elle doit néanmoins, et de manière urgente, être considérée aussi du point de vue de son impact environnemental. 
+
+S’il est encore difficile de quantifier très précisément l’impact de la gestion des données de recherche en particulier sur l’empreinte carbone ou sur la biodiversité, la disponibilité, la manipulation et le traitement de gros volumes de données entraînent de nouveaux usages qu’il s’agit aujourd’hui de mesurer et de questionner pour parvenir à une gestion sobre et écoresponsable. 
+
+Rappelons que la gestion des données y participe avec une soixantaine de zettaoctets de données créées en 2020 et des projections à 170 zettaoctets pour 2025.
+
+Une réflexion sur les outils et les infrastructures, les formats à utiliser s’impose de même qu’une gestion FAIR rigoureuse avec une sélection stricte des données utiles, nécessaires, validées et suffisamment bien qualifiées (avec des métadonnées de qualité) pour éviter de sauvegarder et de conserver des données inutilisables.
+
+C’est la croissance matérielle portée par de nouveaux usages (IA, cryptomonnaies par exemple) et par l’obsolescence rapide du matériel et du logiciel qui participe fortement à ces impacts. Cette croissance n’est malheureusement pas compensée par les progrès techniques d’efficacité énergétique qui, bien que destinés à aider à une plus grande sobriété, participent au final à une augmentation des usages notamment à cause de l’effet rebond.
+
+La croissance et la disponibilité des jeux de données entraîne de nouveaux usages tels que le deep learning qui introduit de nombreuses interrogations, notamment vis à vis d’usages discutables (fake news, profilage, …). Les performances associées à ces usages se font cependant au prix d’une consommation d’énergie importante afin de manipuler et extraire les gros volumes de données nécessaires.
+
+Ces objectifs d’économie du numérique ne sont pas si triviaux et devront être réfléchis pour être atteints avec intelligence et efficacité. On cherchera ainsi à ce que l'investissement en temps et en argent ainsi que l'impact environnemental d’acquisition ou de fabrication de ces données ne soient pas vains.
+
+### La gestion des données scientifiques face à ces enjeux
+
+La conservation pérenne de la donnée passe par l’application des principes FAIR qui ne sont pas en soient « éco responsable » puisque ces principes imposent en effet de mobiliser des fortes ressources informatiques en permanence pour la conservation et la diffusion des données. Par ailleurs, pour permettre la pérennité et la réutilisation de ces données, les métadonnées descriptives des jeux de données augmentent d’autant les volumes de données à stocker.  
+
+Cependant, ces principes permettent de garantir que la donnée sera exploitable et réutilisable et le formalisme nécessaire à les appliquer à également plusieurs avantages (mais aussi quelques inconvénients) environnementaux. Parmi les avantages, on notera tout de même des éléments importants qui vont à priori dans le sens d’une certaine sobriété et rationalisation des processus numérique :
+
+    
+- Garantir la disponibilité des données dans le temps impose une réflexion sur les outils et les infrastructures à utiliser. Cette réflexion doit impérativement se mener à plusieurs échelles avec des collaborations et des réflexions locales, nationales et internationales pour être pensée avec des éléments qui intègre les impacts environnementaux. Normalement, cette réflexion devrait conduire assez naturellement à réduire et rationaliser les centres de données et grandes infrastructures assurant le stockage mais également à utiliser des outils et des formats communs et interopérables ce qui permet de favoriser des outils performants, éco conçus,
+    
+-  Garantir la pérennité de la donnée permet de réutiliser des jeux de données souvent uniques et donc « d’absorber » et rentabiliser le coût environnemental des campagnes d’acquisition de ces données. 
+
+Parmi les inconvénients, on notera cependant :
+    
+-  Le risque de sauvegarder « tout et n’importe quoi », fruit du symptôme « ça peut servir ». Il est indispensable que les données qui rentrent dans le cycle soient utiles, qualifiés et validées, et respectent scrupuleusement les principes FAIR.
+  
+-  Cette logique d’ouverture contribue à la croissance déjà très forte des données numériques.
+
+À chacune des étapes du cycle de vie de la donnée, on pourra s’attacher à identifier les axes d’amélioration possible en prenant en compte les enjeux environnementaux critiques. Cette réflexion devra être menée dès la création du projet d’acquisition afin de penser aux impacts environnementaux à chaque étape :
+- capteurs lowtech et réutilisables,
+- minimisation des transports physiques,
+- gestion intelligente des flux de données à toutes les étapes,
+- éviter de dupliquer la donnée inutilement,
+- ne pas produire ni stocker de données inutiles,
+- utiliser la bonne « distance » physique lorsqu’on manipule les données (penser « traitement au plus près du stockage »),
+- archiver sur des systèmes passifs ou en collaboration avec des centres adaptés à l’archivage (on pensera par exemple au CINES dans le monde de l’ESR ou encore aux différentes solutions institutionnelles qui se mettent en place telles que l’Infrastructure de Recherche Data Terra par exemple).
+
+La mise en place des infrastructures nationales et internationales doit impérativement se faire en cohérence avec les enjeux environnementaux. Cette mise en place doit également intégrer l’instabilité potentielle de la fourniture d’énergie aux centres de données qui risque de s’aggraver avec le déclin inéluctable des énergies fossiles. Il paraît ainsi judicieux de se pencher sur des capacités de stockage hors ligne (stockage froids), pour des données faiblement utilisées et donc accessibles à la demande dans des délais de traitement acceptables. Cette méthode permettrait de minimiser ainsi les stockages actifs (stockage chauds) nécessaires à héberger les données 24/24 et 7j7.
+
+L’open data  permettant le partage et la réutilisation des données, pourrait  également permettre une maîtrise des impacts environnementaux à travers la rationalisation et une cohérence de la gestion des donnée à l’échelle nationale.  
+
+La diminution des impacts de la donnée numérique s’inscrit clairement dans un contexte plus large de diminution des impacts du numérique. Cette réflexion ne peut pas se mener sans regarder dans leur ensemble les solutions de service numériques mises en place, et donc, demande de tenir compte des aspects matériels et logiciels.
+
+Pour le matériel, les enjeux de durée de vie sont la première clé de la diminution des impacts. Quant aux logiciels et aux formats de fichiers, les formats et les logiciels libres assurent une pérennité incontestable et sont donc une réponse incontournable.
+
+Ces aspects sommairement évoqués ici, sont tout aussi importants que l’attention portée à la donnée sous peine de prendre le risque d’effet rebond ou pire, de partir dans des directions orthogonales à l’objectif qui reste de diminuer les impacts de l’ensemble de la chaîne numérique pour répondre à un besoin : la pérennisation des jeux de données utiles et importants pour la recherche tout en minimisant les impacts environnementaux associés à cette conservation. Parmi les pistes logiques, on pourra ainsi penser à :
+
+- Eviter de refaire localement ce qui existe à d’autres échelles comme :
+   - développer ses propres solutions logicielles : de nombreux outils, formats de données et/ou conventions existent déjà dans de nombreux domaines permettant de diffuser de la donnée respectant les principes FAIR,
+   - déployer des infrastructures de stockage local alors que des infrastructures nationales existent.
+
+- Limiter les transports physiques de la donnée. On pensera ainsi à mettre la donnée au plus près de l’usage (notamment les phases de calculs et traitement, ou de nettoyage des données devront se faire sans avoir à consulter en permanence des données « à distance »,
+    
+- Minimiser les copies de données, ce qui demande une réflexion approfondie sur les infrastructures à mettre en place et leur cohérence et qui dépasse donc un peu le cadre de ce guide. Cependant, on pensera à se rapprocher des infrastructures nationales déjà existantes (IR Data Terra, data.gouv.fr) ou des réseaux métiers et technologiques qui pourront nous guider vers les meilleurs solutions du moment.
+
+N’oublions pas cependant que cette mise à disposition pourrait entraîner un « effet rebond » d’usage qui annihilerait rapidement les gains environnementaux acquis par cette rationalisation de la gestion de la donnée. En effet, dans le domaine du numérique, les gains observés pourraient ainsi être absorbés par une augmentation de la demande de calcul intensif et de stockage d’informations.
+
+Aujourd'hui, la situation nationale et internationale sur les aspects centre de données reste assez confuse. On observe plutôt une augmentation des volumes de données notamment avec l'ajout de métadonnées mais aussi une multiplication des entrepôts et des solutions techniques qui peinent encore à émerger et se stabiliser.
+
+On n’est donc pas encore arrivé dans une phase stable et encore moins à une phase prenant en compte les impacts environnementaux. Il sera donc nécessaire de se questionner et de questionner les acteurs en place sur cette prise en compte des enjeux pour faire les choix les plus pertinents vis à vis de ses jeux de données. 
+
+L’Open Data est une voie rationnelle, institutionnellement valorisée, et à priori prometteuse, ou en tout cas logique et pertinente quant à la valorisation des jeux de données et leur conservation. Mais il apparaît malgré tout que ce sont la simplicité, la sobriété ou la frugalité et le questionnement de nos usages qui restent cependant, les priorités à mettre en œuvre. Ces principes peuvent réellement conduire à une diminution concrète et réelle des infrastructures et des outils numériques, ce qui est la seule voie accessible rapidement face à l’urgence environnementale qui nous menace dès aujourd’hui.
+
+De manière générale, on pourra se tourner vers le site d’EcoInfo (https://ecoinfo.cnrs.fr) ou vers le  guide de bonnes pratiques numérique responsable pour les organisations, porté par la Direction Interministérielle du Numérique (DINUM), afin de trouver des informations pratiques plus complètes sur les actions à mener pour diminuer les impacts environnementaux du numérique.
+
+Sur les aspects plus orientés données, citons l’article « Agir sur les données de la recherche » du groupe EcoInfo pour se questionner et « agir sur les données ». Lors des JRES 2022, Didier Mallarino Sylvie Le Bras et Cyrille Bonamy abordent également « Les impacts environnementaux et sociétaux des données : un défi pour l’avenir ».
 
 
 
