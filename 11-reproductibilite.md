@@ -59,16 +59,7 @@ Sorina Camarasu-Pop, Frédéric Cervenansky, CREATIS
 JoSy 2019
 ```
      
-Ludovic Courtès explique comment utiliser Guix et Jupyter pour la science reproductible.  Guix est utilisé pour rendre l'environnement logiciel du notebook reproductible et déployé de façon automatique et reproductible. Nous vous conseillons de visionner la vidéo très didactique !
-
-```{admonition} [Vers un environnement reproductible pour les blocs-notes Jupyter](https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf)  
-:class: seealso
-[vidéo](https://prismes.univ-toulouse.fr/player.php?code=s5cfr0Ue&width=100%&height=100%)  
-Ludovic Courtès, Inria  
-JCAD 2019
-```
-
-Etre capable de reproduire des campagnes de calcul nécessite de connaître et savoir utiliser des outils adéquats. La [bibliothèque Python Execo](http://execo.gforge.inria.fr/doc/latest-stable/) et le [logiciel OpenMole](https://openmole.org/) sont deux exemples permettant de réaliser des campagnes de calcul reproductibles pour des applications de modélisation, simulations paramétriques, benchmarking, analyses de données numériques ou expérimentales.
+Etre capable de reproduire des campagnes de calcul nécessite de connaître et savoir utiliser des outils adéquats. La [bibliothèque Python Execo](https://mimbert.gitlabpages.inria.fr/execo/) et le [logiciel OpenMole](https://openmole.org/) sont deux exemples permettant de réaliser des campagnes de calcul reproductibles pour des applications de modélisation, simulations paramétriques, benchmarking, analyses de données numériques ou expérimentales.
 
 ```{admonition} [Execo](https://calcul.math.cnrs.fr/attachments/spip/IMG/pdf/2018-ExecoExpeNum.pdf)  
 :class: seealso
@@ -81,6 +72,47 @@ Journées Campagnes de calcul reproductibles, 2018
 Romain Reuillon, Mathieu Leclaire  
 Journées Campagnes de calcul reproductibles, 2018
 ```
+
+### Outils de packaging
+
+Il existe des gestionnaires de paquets qui utilisent une approche
+fonctionnelle, en particulier Nix et GNU Guix. Cette approche permet
+de gérer des environnements logiciels reproductibles et composables.
+Un séminaire introductif a été organisé sur le sujet en 2021 par
+MaiMosine, GRICAD, SARI dans le cadre des "[Séminaire Recherche Reproductible](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/pages/seminaires.html#seminaires)".
+
+```{admonition} [Reproductibilité: apport des gestionnaires de paquet fonctionnels](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2021-11-25-O-Richard-fm-repro.pdf)  
+:class: seealso
+[vidéo](https://videos.univ-grenoble-alpes.fr/video/21805-reproductibilite-apport-des-gestionnaires-de-paquet-fonctionnels/)
+Olivier Richard, LIG
+Séminaire Recherche Reproductible du 25 novembre 2021 (MaiMosine, GRICAD, SARI)
+```
+
+```{admonition} [La reproductibilité logicielle en pratique avec GUIX](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2021-11-25-PA-Bouttier_rech_repro.pdf)  
+:class: seealso
+[vidéo](https://videos.univ-grenoble-alpes.fr/video/21804-la-reproductibilite-logicielle-en-pratique-avec-guix/)
+Pierre-Antoine Bouttier, GRICAD
+Séminaire Recherche Reproductible du 25 novembre 2021 (MaiMosine, GRICAD, SARI)
+```
+
+```{admonition} [Le gestionnaire de paquets NIX](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2021-11-25-NIX-B.Bzeznik.pdf)  
+:class: seealso
+[vidéo](https://videos.univ-grenoble-alpes.fr/video/21803-le-gestionnaire-de-paquets-nix/)
+Bruno Bzeznik, GRICAD
+Séminaire Recherche Reproductible du 25 novembre 2021 (MaiMosine, GRICAD, SARI)
+```
+
+Ludovic Courtès explique comment utiliser Guix et Jupyter pour la science reproductible.  Guix est utilisé pour rendre l'environnement logiciel du notebook reproductible et déployé de façon automatique et reproductible. Nous vous conseillons de visionner la vidéo très didactique !
+
+```{admonition} [Vers un environnement reproductible pour les blocs-notes Jupyter](https://jcad2019.sciencesconf.org/data/talkLCourtes.pdf)  
+:class: seealso
+[vidéo](https://prismes.univ-toulouse.fr/player.php?code=s5cfr0Ue&width=100%&height=100%)  
+Ludovic Courtès, Inria  
+JCAD 2019
+```
+
+Pour aller plus loin sur Guix sont organisés des "[cafés Guix](https://hpc.guix.info/events/2022/caf%C3%A9-guix/)" qui
+permettent d'aborder différents sujets.
 
 ## Développement open source et reproductibilité
 
@@ -99,6 +131,14 @@ Les utilisateurs du langage de programmation "[Julia](https://julialang.org/)" s
 Mathieu Besançon, Centrale Lille et Polytechnique Montréal  
 Atelier JuliaNantes, 2019
 ```
+Les questions de portabilité, performance et reproductibilité sont étudiées dans cette présentation qui donnera aux développeurs des éléments concrets pour choisir les bibliothèques qui répondent le mieux à ce dilemne.
+
+```{admonition} [Reproductibilité et portabilité des performances](https://jcad2021.sciencesconf.org/data/Reproductibilite_Performance_Ludovic_Courtes.pdf)    
+:class: seealso
+[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b385earkrprhq/iframe/)  
+Ludovic Courtès, Inria
+JCAD 2021
+```
 
 Lorsque la reproductibilité n'est pas garantie, la validation, la vérification des logiciels, le processus de développement doivent être abordés différemment. On doit être en mesure d'estimer la précision des résultats numériques d'un logiciel et mettre en place des solutions pour contenir les sources d'imprécision. Lors de l'école [Précisions, Reproductibilité en Calcul et Informatique Scientifique](https://precis.sciencesconf.org/) quatre thèmes en lien avec ces problématiques ont été abordés :
 - Arithmétique flottante
@@ -110,7 +150,7 @@ Pour chaque thème, des cours, présentations et TPs ont été organisés. Ces c
 Les usines logicielles et les outils de production de code comme supports des bonnes pratiques de génie logiciel est une [thématique importante des JDEV 2020](http://devlog.cnrs.fr/jdev2020/t4). 
 Au cours de son exposé,  Arnaud Legrand présente les différents enjeux, les solutions émergentes, les outils et standards, les plateformes qui permettent de tracer les codes, les simulations, les données...
 
-```{admonition} [Software Factories for Reproductible Big Data/AI/…](http://devlog.cnrs.fr/_media/jdev2020/t4_pleniere_arnaud_legrand_20_07_10_jdev.pdf?id=jdev2020%3At4&cache=cache)  
+```{admonition} [Software Factories for Reproductible Big Data/AI/…](https://www.canal-u.tv/chaines/jdev/t4-usines-logicielles-et-sciences-reproductibles/jdev2020-t4-keynote-reproductibility)  
 :class: seealso
 Arnaud Legrand, Inria  
 JDEV 2020

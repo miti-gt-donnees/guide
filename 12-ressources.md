@@ -14,8 +14,7 @@
 
 ---
 
-*Isabelle André-Poyaud, Sandrine Astor, Olivier Baude, Fabrice Boudjaaba, Gaëlle Bujan, Béatrice Collignon, Frédéric Dubois, Emmanuel Kessous, Lionel Maurel, Muriel Roger*.
-[InSHS - Les sciences humaines et sociales et la protection des données à caractère personnel dans le contexte de la science ouverte, Guide pour la recherche](https://www.inshs.cnrs.fr/sites/institut_inshs/files/pdf/guide-rgpd_2.pdf). CNRS, juin 2019
+*Fabrice Boudjaaba, Gaëlle Bujan, Béatrice Collignon, Christine Hadrossek, Emilie Masson, Lionel Maurel, Clément Olivier, Serge Pinto, Muriel Roger, Paola Tubaro*. [InSHS - Les sciences humaines et sociales et la protection des données à caractère personnel dans le contexte de la science ouverte, Guide pour la recherche](https://www.inshs.cnrs.fr/sites/institut_inshs/files/pdf/Guide_rgpd_2021.pdf). CNRS, février 2021
 
 
 ---

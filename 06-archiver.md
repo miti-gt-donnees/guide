@@ -37,7 +37,7 @@ Marie-Laure Bachèlerie, DAJ-CNRS
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019     
 ```
 
-```{admonition} [Traçabilité des activités de recherche et gestion des connaissances - Guide pratique de mise en place](http://qualite-en-recherche.cnrs.fr/IMG/pdf/guide_tracabilite_activites_recherche_gestion_connaissances.pdf)   
+```{admonition} [Traçabilité des activités de recherche et gestion des connaissances - Guide pratique de mise en place](https://qualite-en-recherche.cnrs.fr/wp-content/uploads/2021/08/guide_tracabilite_activites_recherche_gestion_connaissances.pdf)   
 :class: seealso
 Alain Rivet, CERMAV & Marie-Laure Bachèlerie, DAJ-CNRS & Auriane Denis-Meyere, IBS & Delphine Tisserand, ISTerre   
 MITI-CNRS, 2018   
@@ -59,7 +59,7 @@ Cette présentation est une bonne entrée en la matière. Cristinel Diaconu intr
 
 La dernière partie de sa présentation est consacrée au projet **PREDON** qui propose une approche nouvelle mélangeant les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.
 
-```{admonition} [La préservation des données scientifiques](http://renatis.cnrs.fr/IMG/pdf/DIACONU_DPHEP_PREDON_FREDOCS.pdf)   
+```{admonition} [La préservation des données scientifiques](http://renatis.cnrs.fr/wp-content/uploads/2022/10/DIACONU_DPHEP_PREDON_FREDOCS.pdf)   
 :class: seealso   
 Cristinel Diaconu, CPPM   
 FRéDoc « Gestion et valorisation des données de la recherche », réseau Renatis, Aussois, 2013   
@@ -67,9 +67,7 @@ FRéDoc « Gestion et valorisation des données de la recherche », réseau Rena
 
 ### Protéger et sécuriser le patrimoine scientifique
 
-L'analyse de risque suit un processus normé (ISO 2700x) comme nous le montre Alain Rivet. Cette présentation inclut une étude de cas sur l'utilisation d’un portable par un chercheur qui illustre le passage de la théorie à la pratique.
-
-La sécurité de l’information est définie comme la « protection de la **confidentialité**, de l'**intégrité** et de la **disponibilité** de l'information ». Elle est aujourd’hui une des problématiques majeures de nos unités et s’appuie sur la mise en place des Politiques de Sécurité des Systèmes d’Informations (PSSI) par les services compétents au sein des structures de recherche.
+Dans le domaine des systèmes d'information, l'analyse de risque suit un processus normé (ISO 2700x). La sécurité de l’information est définie comme la « protection de la **confidentialité**, de l'**intégrité** et de la **disponibilité** de l'information ». Elle est aujourd’hui une des problématiques majeures de nos unités et s’appuie sur la mise en place des Politiques de Sécurité des Systèmes d’Informations (PSSI) par les services compétents au sein des structures de recherche.
 
 Nous pouvons résumer la finalité de la « protection du patrimoine scientifique » comme étant le fait de :
 
@@ -79,13 +77,7 @@ Nous pouvons résumer la finalité de la « protection du patrimoine scientifiqu
 - assurer la protection des données sensibles de la structure (données scientifiques et techniques ; données de gestion administrative, données individuelles) ;
 - assurer la protection juridique (risques administratifs, risques pénaux, atteinte à la réputztion scientifique ou à l'image institutionnelle).
 
-```{admonition} [L'analyse de risques dans le cadre du système d'information](http://qualite-en-recherche.cnrs.fr/IMG/pdf/gestion_risques_ssi_rivet_2015.pdf)   
-:class: seealso   
-Alain Rivet, CERMAV   
-6ème rencontres du Réseau Qualité en Recherche, réseau QeR, Biarritz, 2015   
-```
-
-Cyril Bras ajoute un quatrième critère pour définir le niveau de sécurité d’un élément du système d'information : la **preuve** qu'il définit comme la propriété d'un bien permettant de retrouver, avec une confiance suffisante, les circonstances dans lesquelles ce bien évolue. Cette propriété englobe notamment :
+A ces différents aspects, Cyril Bras ajoute un quatrième critère pour définir le niveau de sécurité d’un élément du système d'information : la **preuve** qu'il définit comme la propriété d'un bien permettant de retrouver, avec une confiance suffisante, les circonstances dans lesquelles ce bien évolue. Cette propriété englobe notamment :
 
 - la traçabilité des actions menées ;
 - l’authentification des utilisateurs ;
@@ -109,11 +101,11 @@ La protection du patrimoine scientifique et technique est l’affaire de tous, m
  
 Sans prise de conscience de tous sur la nécessité de préserver le patrimoine scientifique, une disparition (partielle sinon généralisée) de nos données est plus que probable. Marion Massol lors de sa présentation au séminaire SIST en 2016 nous rappelle cependant que des solutions d'avenir existent déjà (au CINES). 
 
-```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist16.sciencesconf.org/data/pages/18_M_Massol.pdf)   
+```{admonition} [Patrimoine scientifique en danger : des solutions d'avenir existent déjà](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-18-M-Massol-CINES.pdf)   
 :class: seealso    
 [Vidéo : ](https://nuage.osupytheas.fr/s/hxjuXQwST6oZwsH/download?path=%2F&files=19-archivage-Massol-cines-SIST2016.mp4&downloadStartSecret=ggtwzdj99bb)  
 Marion MASSOL, CINES   
-Séminaire SIST 2016 : réseau SIST, Montpellier, 2016   
+[Séminaire SIST 2016](https://sist.cnrs.fr/sist16/) : réseau SIST, Montpellier, 2016   
 ```
 
 ## Préserver les objets numériques
@@ -138,6 +130,18 @@ Atelier « Carnets de terrain électroniques », Montpellier, 2018
 ### Les bases de données
 
 En Avril 2004, le CINES a publié un  « [Guide Méthodologique pour l’archivage des bases de données](https://cultura.gencat.cat/web/.content/dgpc/arxius_i_gestio_documental/14_Gestio_documental/06_GD_Estandaritzacio/preservacio_publicacions/GM_archivage_BDD.pdf) » que nous recommandons fortement, même s'il est un peu ancien (la famille NoSQL est absente). Il contient les bonnes questions à se poser (est-ce une base de données vivante / consultée / cumulative ?), est-ce une base de données pilotée par une interface ? etc). Il présente les différents modes de sauvegarde possibles d'une base de données avec pour chacun leurs avantages et leurs inconvénients. Il liste les différentes documentations à joindre. Et surtout il sensibilise l'utilisateur sur la problématique de l'interface qui du point de vue préservation est un problème à prendre en compte en tant que tel (maillon faible).
+
+[ajout MCQ]
+Parmi les documents à joindre, le CINES conseille de ne pas oublier les documents réalisés lors de la modélisation, c'est à dire le modèle conceptuel de données (MCD), le modèle logique des données (MLD) et le modèle physique des données (MPD) car chacun apporte un niveau de répresentation nécessaire à la compréhension des données conservées.
+
+Ce sujet est au coeur de l'action nationale de formation « UML appliqué à la conception et à la documentation des bases de données » dont un des objectifs est de sensibiliser les acteurs à l'importance de la modélisation pour la conservation des données.
+
+```{admonition} [ANF UML appliqué à la conception et à la documentation des bases de données ](https://rbdd.cnrs.fr/IMG/zip/uml.zip?630/3411bfaf0a0fa7be8b0d46d164c94ca4afe9746a)   
+:class: seealso
+Laurent Perochon, VetAgro Sup & Christine Plumejeaud, CNRS & Marie-Claude Quidoz, CNRS
+ANF « UML appliqué à la conception et à la documentation des bases de données », réseau rBDD, Sète, 2022   
+```
+[/ajout MCQ]
 
 En novembre 2014, le réseau rBDD a consacré une journée à cette thématique « [Journée de sensibilisation à la sécurisation et à la pérennisation des données](http://webcast.in2p3.fr/events-rbdd2014) ». À cette occasion, Michel Jacobson a fait une présentation dans laquelle il présente le contexte de la pérennisation des bases de données, le  format *Software Independent Archiving of Relational Databases* (SIARD) et un retour d'expérience de l'utilisation de ce format pour la matrice cadastrale numérique.  
 
@@ -168,6 +172,62 @@ Dans cette présentation, Emilie Masson et Patrick Guillot proposent une carte m
 Emilie Masson, SPD-CNRS & Patrick Guillot, Université Grenoble Alpes    
 Séminaire « Archivage Numérique des Données de Recherche », réseau SARI, Grenoble, 2019    
 ```
+[Ajout CH et MCQ]
+[Les contraintes réglementaires liées aux bases de données](https://rbdd.cnrs.fr/spip.php?article368) ont été abordées lors d'un webinaire en deux parties : la première partie a été consacrée à la présentation d'outils et la deuxième aux nombreuses questions juridiques mais aussi éthiques qui se posent pour rendre accessible les données de recherche. 
+
+En introduction de la première journée, Kim Montalibet introduit les notions de pseudoanomynisation et d'anonymisation et illustre avec des exemples la notion de données à caractère personnel et données sensibles.
+
+```{admonition} [Pseudonymiser des documents grâce à l’IA](https://rbdd.cnrs.fr/IMG/pdf/20211105_seminairerbdd_pseudonymisation.pdf?624/63ad6526b4f6b3fd9981265a780d7ac3d1e7b1cd)    
+:class: seealso 
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/pseudonymiser-des-documents)     
+Kim Montalibet, Etalab   
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+ 
+Ensuite, Damien Clochard présente l'extension « PostgreSQL Anonymiser » du SGBD PostgreSQL et Vincent Merilhou, grâce à un retour d'expérience de son utilisation dans le cadre de son laboratoire nous permet de mieux en appréhender les contours.
+
+```{admonition} [PostgreSQL Anonymizer](https://dalibo.gitlab.io/postgresql_anonymizer/how-to.slides.html)    
+:class: seealso   
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/postgresql-anonymizer-damien-clochard-dalibo)     
+Damien Clochard, Dalibo   
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+
+```{admonition} [Retour d’expérience de PostgreSQL Anonymizer](https://rbdd.cnrs.fr/IMG/pdf/pg_anonymizer_dsi_cnrs.pdf?625/ad097df2d0d3b025bfc7ac05c094bdf72ed38803)    
+:class: seealso 
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/retour-d-experience-de)     
+Vincent Merilhou, CNRS   
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+
+Dans le cadre de la deuxième partie, trois interventions offrent un panorama des différentes actions menées dans le domaine des sciences humaines et sociale mais aussi de l’environnement pour concilier diffusion des données et de recherche, protection des personnes et sécurisation des données.
+
+La première présentation d’Emilie Jouin et Justine lascard témoigne d’une démarche de collecte et diffusion de données audiovisuelle en contexte médical et pointe à travers des exemples sur les principales questions juridiques et éthiques que posent le traitement de données à caractère personnel, voir sensible (voix, image, propos …). On voit que cette démarche passe par la constitution d’un dossier juridique et éthique qui permet une négociation sur le terrain et le recueil de consentements éclairés, que le partage des corpus pour l’analyse des données suppose également des actions de sécurisation des données et enfin que la valorisation des résultats implique d’imaginer des solutions techniques (pseudonymisation, floutage, traitements …) pour l’application des clauses de protection des personnes. Des exemples en image illustrent les techniques utilisées.
+
+```{admonition} [Collecte et diffusion de données audiovisuelles en contexte médical : enjeux juridiques, éthiques et techniques](https://rbdd.cnrs.fr/IMG/pdf/jouin_lascar_com_rbdd_nov2021.pdf?627/7f5383d11607eabdf50cca6e3191cd1a33cbb97b)    
+:class: seealso   
+Emilie Jouin, CNRS & Justine Lascar, CNRS
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+
+La présentation très complète de Véronique Ginouves traduit elle aussi une démarche d’archivage complexe de fonds sonores et audiovisuels considérés par les chercheurs comme des objets de recherche et des informations à partager. Elle pose la question de la propriété des archives de terrain (témoin, enquêté, interprète, ayant droits etc.?) de la pratique d’anonymisation, des règles juridiques et éthiques à appliquer et du nécessaire respect des droits patrimoniaux pour assurer notamment le rôle central du témoin comme source de savoir.
+
+```{admonition} [Collecter, archiver et diffuser des données avec le droit et l'éthique comme alliés](https://rbdd.cnrs.fr/IMG/pdf/anonymat-2021-11_ginouves.pdf?628/9e92a166d217896185dddc42c62becfa9593c707)    
+:class: seealso   
+Véronique Ginouvès, CNRS/AMU (a vérifier)
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+
+La dernière présentation de Frédéric Vest pose le cadre des obligations légales de diffusion des données dans le domaine de l’environnement et la biodiversité (Directive Inspire, Loi biodiversité, Loi Lemaire, RGPD …) et précise les modalités de gestions fines et adaptées mises en application pour respecter les contraintes spécifiques et la législation en vigueur (notamment sur les données de rapportage qui nécessite une normalisation).
+
+```{admonition} [Contraintes liées aux données environnementales et leurs mises en applications](https://rbdd.cnrs.fr/IMG/pdf/webinair_rbdd_nov2021_vest.pdf?626/cfe7ec27e8fc8dfbeabd3126236ff0a8269a8b37)    
+:class: seealso  
+[Vidéo : ](https://www.canal-u.tv/chaines/rbdd/contraintes-reglementaires-liees-aux-bases-de-donnees/webinaire-sur-les-contraintes)      
+Frédéric Vest, CNRS (à verifier)
+Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021
+```
+
+[/ Ajout CH et MCQ]
 
 ### Les logiciels / les codes sources 
 
@@ -192,14 +252,14 @@ Gilles Duvert témoigne quant à lui de la préservation des données en Astrono
 
 ```{admonition} [Archivage des données à Huma-NUM](https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_ARCHIVAGE_HN.pdf)
 :class: seealso
-[Vidéo : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_10-Michel_Jacobson.mp4)  
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/recherche/archivage-numerique-des-donnees-de-recherche/video/19534-archivage-des-donnees-a-huma-num/)  
 Michel Jacobson, Huma-Num   
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```  
 
 ```{admonition} [Archivage des données à l'IN2P3](https://dataarchivage.sciencesconf.org/data/pages/archivage_numerique_des_donnees_de_recherche_grenoble_novembre_2020.pdf)   
 :class: seealso
-[Vidéo : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_11-Yonny_Cardenas.mp4)   
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/19533-archivage-des-donnees-a-lin2p3)   
 Yonny Cardenas, CC-IN2P3    
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
@@ -208,10 +268,11 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble
 :class: seealso
 Jean-Francois Perrin, ILL   
 Archivage Numérique des Données de Recherche, 2019, Grenoble   
+```
 
 ```{admonition} [L'archivage des données en astronomie](https://dataarchivage.sciencesconf.org/data/pages/ArchivageDonneesAstronomie_20nov2019_Genova_Duvert.pdf)   
 :class: seealso 
-[Vidéo : ](http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_12-Gilles_Duvert.mp4)   
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/19532-archivage-des-donnees-en-astronomie)
 Françoise Genova,observatoire astronomique de Strasbourg, Gilles Duvert, IPAG, OSUG et JMMC   
 Archivage Numérique des Données de Recherche, 2019, Grenoble    
 ```
@@ -226,14 +287,14 @@ Cette étape nécessite une phase de sélection des informations pertinentes (va
 
 Plusieurs critères sont à prendre en considération :
 
--	la date et la fréquence à laquelle faire cette sélection : fin de thèse, de projet ou de contrat / avant de quitter son emploi / à date régulière / etc ;
--	la durée de conservation : durée officielle pour les documents administratifs, à définir en fonction des besoins pour les données scientifiques ;  
--  l'obligation administrative de destruction éventuelle ;
--  la nécessité d'anonymisation éventuelle ;
--	le format, la nature des données qui définiront leur lisibilité dans le temps ;  
--	les supports d’enregistrement, d’utilisation et de stockage des données ;  
--	la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;  
--	le coût de ces supports ou encore des modifications de format de fichiers, ou bien de l’espace de stockage nécessaires à la conservation des données.  
+- la date et la fréquence à laquelle faire cette sélection : fin de thèse, de projet ou de contrat / avant de quitter son emploi / à date régulière / etc ;
+- la durée de conservation : durée officielle pour les documents administratifs, à définir en fonction des besoins pour les données scientifiques ;  
+- l'obligation administrative de destruction éventuelle ;
+- la nécessité d'anonymisation éventuelle ;
+- le format, la nature des données qui définiront leur lisibilité dans le temps ;  
+- les supports d’enregistrement, d’utilisation et de stockage des données ;  
+- la criticité et donc le niveau de sécurité et d’accessibilité nécessaires pour protéger les données ;  
+- le coût de ces supports ou encore des modifications de format de fichiers, ou bien de l’espace de stockage nécessaires à la conservation des données.  
 
 Ses critères ont été établis dans le cadre de l'archivage pérenne, mais ils s'appliquent tout à fait à l'archivage (nota bene : la différence entre archive pérenne et archive porte sur la durée de conservation).
 
@@ -251,7 +312,7 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
 
 Dans cette présentation, après avoir évoqué le contexte réglementaire en matière de gestion d'**archives publiques**, Magalie Moysan, coordinatrice du pôle Sécurisation des données et documents et responsable du département archives à l'Université de Paris, aborde les enjeux de leur préservation ainsi que les outils et méthodes disponibles pour procéder à leur sélection. Elle insiste sur le statut « d'archives publiques » souvent méconnu dans nos établissements et sur les obligations légales et réglementaires qui y sont associées notamment l'obligation de bien gérer, conserver et archiver ses documents ou l'interdiction de les détruire sans visa préalable des autorités compétentes. Elle explique ensuite l'intérêt de concevoir l'archivage comme un moyen de « conserver les preuves », de garantir une antériorité, d'assurer le suivi d'une activité, de fiabiliser les résultats et de constituer un patrimoine scientifique. La sélection des données en vue de leur conservation suppose très en amont de pouvoir anticiper cette tâche en procédant à une description rigoureuse des données et de leur contexte de production (contenu, date, modalité d'entrée, conditions d'accès etc.). Le processus de sélection s'organise autour de quelques grands principes (intérêt scientifique, juridique, historique de la donnée, intelligibilité de la donnée) et se détermine souvent dans le cadre d'un échange entre scientifiques et archivistes. Les référentiels de conservation sont des outils d'aide intéressants pour accompagner le processus de sélection.
 
-```{admonition} [Sélectionner les données pour la préservation : enjeux et méthodes](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Moysan.pdf)    
+```{admonition} [Sélectionner les données pour la préservation : enjeux et méthodes](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Moysan.pdf)    
 :class: seealso   
 Magalie Moysan, Université de Paris    
 Atelier Dialogu’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
