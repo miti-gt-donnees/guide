@@ -54,7 +54,7 @@ Joël Sudre, LEGOS
 [Séminaire SIST19 Toulouse](https://sist.cnrs.fr/sist19)
 ```
 
-```{admonition} [La convention CF (climate forecast) pour les fichiers NetCDF](hhttps://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-Atelier-NetCDF-2-La-convention-CF.pdf)   
+```{admonition} [La convention CF (climate forecast) pour les fichiers NetCDF](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-Atelier-NetCDF-2-La-convention-CF.pdf)   
 :class: seealso
 Joël Sudre, LEGOS et Maurice Libes, Institut Pytheas   
 [Séminaire SIST19 Toulouse](https://sist.cnrs.fr/sist19)
