@@ -379,7 +379,7 @@ Jean-Luc Parouty ingénieur à SIMAP, a ensuite détaillé le service mutualisé
 Jean-Luc Parouty, SIMAP
 ```
 
-Plus récemment, un guide intitulé "Bonnes pratiques de mise en place d'un cahier de laboratoire électronique - Exemple d'eLabFTW" a été réalisé par le réseau “Qualité en Recherche” soutenu par la plateforme reseau de la Mission pour les Initiatives Transverses et Interdisciplinaires du CNRS. 
+En 2022, dans le cadre d'un des huit projets USERFIRST, lauréats du Fonds pour la Transformation de l'Action Publique (FTAP), le guide "Bonnes pratiques de mise en place d'un cahier de laboratoire électronique - Exemple d'eLabFTW" a été réalisé par le réseau “Qualité en Recherche” soutenu par la plateforme reseau de la Mission pour les Initiatives Transverses et Interdisciplinaires du CNRS . 
 
 ```{admonition} [Bonnes pratiques de mise en place d'un cahier de laboratoire électronique - Exemple d'eLabFTW](https://qualite-en-recherche.cnrs.fr/wp-content/uploads/2022/11/Guide_bonnes_pratiques_CLE_V1.pdf)  
 :class: seealso
