@@ -17,7 +17,7 @@ Plusieurs évènements récurrents, annuels ou bisannuels, auxquels
 participent activement les réseaux métiers, comme les [JCAD (Journées
 Calcul et Données)](http://www.france-grilles.fr/category/journees-jcad/),
 les [JDEV (Journées du DEVeloppement
-logiciel)](http://devlog.cnrs.fr/manifestations/start) par exemple,
+logiciel)](http://devlog.cnrs.fr/jdev/) par exemple,
 intègrent de nombreuses interventions sur ces différentes thématiques,
 allant de la description des plateformes aux outils disponibles,
 en passant par l'organisation des développements et la reproductibilité,
@@ -141,10 +141,10 @@ De même, le réseau SARI grenoblois a organisé une journée sur le
 sujet, avec une présentation de Jean-Luc Parouty particulièrement
 didactique.
 
-```{admonition} [AI Machine Learning & Deep Learning](https://sari.grenoble-inp.fr/lib/exe/fetch.php?media=theme:ia_deep_learning:ia_deep_learning:ia_machinelearning_pres20190606.pdf)   
+```{admonition} [AI Machine Learning & Deep Learning](https://sari.cnrs.fr/wp-content/uploads/2021/12/ia_machinelearning_pres20190606.pdf)   
 :class: seealso
 Jean-Luc Parouty (SIMAP)
-[Séminaire SARI 2019](https://sari.grenoble-inp.fr/doku.php?id=theme:ia_deep_learning:ia_deep_learning:ia)
+[Séminaire SARI 2019](https://gricad-media.univ-grenoble-alpes.fr/multimedia/videos/sari-intelligence-artificielle-machine-learning-et-deep-learning)
 ```
 
 Compte tenu de l'engouement engendré autour de l'IA, de nombreuses
@@ -152,6 +152,10 @@ journées et conférences sont organisées sur le sujet. En particulier,
 il fait l'objet de sessions spéciales lors des Journées Développement
 (Jdev) de [2020](http://devlog.cnrs.fr/jdev2020/t8) et
 [2017](http://devlog.cnrs.fr/jdev2017/t7).
+
+Un cycle de formation a également été mis en place. Fidle (pour Formation d'Introduction au Deep Learning) est une formation ouverte à toutes et à tous et dont l'objectif est de proposer une large introduction au Deep Learning, allant des concepts fondamentaux aux architectures avancée, à destination d'un large public scientifique.
+
+Cette formation est organisée en distanciel sous forme de 15 séquences courtes, mêlant cours magistraux et travaux pratiques, totalisant une trentaine d'heures. L'accès à Fidle est totalement libre, aucune inscription n'est requise et l'ensemble des ressources pédagogiques (supports, vidéos, notebooks, etc.) est librement accessible (CC BY-NC-SA). Fidle est portée par l'institut 3IA MIAI, le CNRS, via la Mission pour les Initiative Transverses et Interdisciplinaires (MITI) et les réseaux DevLOG, Resinfo et SARI : https://fidle.cnrs.fr
 
 ### Visualisation des données numériques
 
@@ -269,22 +273,75 @@ Arnaud RENARD, Université de Reims Champagne-Ardenne
 [JCAD 2018](https://jcad2018.sciencesconf.org), Lyon.
 ```
 
-### Qualité logicielle
+### La qualité logicielle
 
-Ces chaînes de traitement sont très souvent associées à des instruments
-complexes et nécessitent ainsi de s’interfacer parfaitement avec
-le reste de l’instrument.  Dans ce contexte, il convient d'assurer
-le suivi des exigences liées au logiciel, la gestion des interfaces
-avec le reste de l’instrument et l’activité Assurance Qualité
-Logiciel. Cette dernière permet notamment de répondre à des exigences
-applicables à un logiciel, du développement à la maintenance de
-celui-ci.  L’ensemble des activités, normes, contrôles et procédures
-mis en place doit couvrir la totalité de la durée de vie d’un
-logiciel. Il est par exemple important de vérifier et valider au
-travers de tests la bonne santé du code et de constamment veiller
-à la traçabilité qui lui est liée.
+Programmer dix lignes de code quand on est seul, c'est facile et ca n'engage que soit, mais dès lors qu'on a à faire avec des projets
+complexes, de longue durée, nécessitant des équipes de développeurs, il est nécessaire d'avoir des pratiques de codage collaboratives et industrialisées qui doivent assurer la qualité du produit développé.
 
-Une [journée du réseau Qualité en Recherche](https://jt-aql.sciencesconf.org/) a été entièrement
+Les chaînes de traitement logiciels sont souvent associées à des instruments complexes et nécessitent ainsi de s’interfacer parfaitement avec les différentes partie de l’instrument.  Dans ce contexte, il convient d'assurer le suivi des exigences liées au logiciel, la gestion des interfaces avec le reste de l’instrument et l’activité "Assurance Qualité Logiciel". Cette dernière permet notamment de répondre à des exigences applicables à un logiciel, du développement à la maintenance de celui-ci.  L’ensemble des activités, normes, contrôles et procédures mis en place doit couvrir la totalité de la durée de vie d’un logiciel. Il est par exemple important de vérifier et valider au travers de tests la bonne santé du code et de constamment veiller à la traçabilité qui lui est liée.
+
+
+La qualité d'un projet informatique ne se résume pas à la qualité du codage, mais dépend également de la qualité des interactions collectives au sein du projet et de leur mise en œuvre.
+
+L'INSU et l'IN2P3 du CNRS sont des instituts impliqués dans des gros projets de développements et ont investi dans l'apprentissage de bonnes pratiques pour assurer la qualité locigielle au travers d'un Action Nationale de Formation.
+
+L'ANF "Qualité logicielle" réalisée en 2021 fournit les éléments de contexte et de programmation nécessaire à un développement collaboratif 
+
+```{admonition} [ANF Qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/)
+:class: seealso   
+https://gitlab.in2p3.fr/cylo/anf-qualite_logicielle
+ Cyril l'Orphelin (IN2P3), [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
+
+La formation montre comment un flot de traitement bien organisé et maîtrisé participe de façon très importante à la démarche collective pour assurer la qualité logicielle.
+
+Clémence Agrapart explique quels sont les "Principes de bases de la qualité logicielle" : 
+ - définir des outils et des procédures qui permettent d’harmoniser les méthodes
+ - sensibiliser les agents pour une meilleure synergie et visibilité des pratiques
+ - transmettre et faciliter la communication (nouveaux entrants, turnover de personnel)
+
+Dans l'objectif d'améliorer les règles de fonctionnement :
+ - Renforcer la confiance entre les équipes et les partenaires impliqués
+ - Maîtriser les savoir-faire
+ - Optimiser le travail et gagner en efficacité
+ - Réduire les risques de dysfonctionnement
+
+Le développement logiciel se rapproche de l'Assurance Produit pour s’assurer que le produit est conforme aux exigences,
+que le logiciel réponde aux objectifs d’utilisation, de maintenance et de portage en respectant les délais et les budgets définis
+
+L’assurance qualité logiciel donc permet de garantir que :
+ - Les règles et normes de codage sont respectées
+ - La gestion de versions du code est gérée au fur et à mesure et à travers les outils adaptés
+
+
+```{admonition} [Principes de bases de la qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/bases_qualite_logicielle.pdf)
+:class: seealso   
+ Clémence Agrapart, [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
+
+Antoine Pérus insiste sur le fait que le "code" logiciel est une construction collective et donne des règles de partage et d'échange pour le codage : 
+- utilisation de tickets :  espace privilégié pour échanger tant au sein du projet qu'entre les membres du groupe et le monde extérieur.
+- utilisation de labels, associées aux tickets, aux Merge/Pull Request (MR/PR) et qui permettent de catégoriser, et donc de structurer. Ils facilitent la lecture, le partage des tâches et donc la vie collective.
+- bonne utilisation des workflow de dépots de code
+- etc.
+
+```{admonition} [le code est une construction collective](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/ressources/presentations/construction_collective.pdf)
+:class: seealso   
+ Antoine Pérus , [ANF QL 2021, Lyon](https://indico.in2p3.fr/event/24503/).
+```
+
+On trouvera sur le site de la formation [ANF Qualité logicielle](https://ri3.pages.in2p3.fr/ecole-info/2021/anf-qualite-logicielle/) un ensemble de bonnes pratiques de production de code collaboratif.
+
+- Indicateur de suivi de la qualité logicielle - William Recart
+- Gestion de la documentation - Julien Peloton
+- Processus de traitement de la qualité logicielle: outils et notion d'usine logicielle - Alexis Chatillon
+- Partage de code et plateformes collaboratives - Cyril L'Orphelin
+- Outils de test- Cyril L'Orphelin
+- Outils d’analyse et de mesure de la qualité du code - Cyril L'Orphelin
+- Outils de construction du code final, d'intégration et de déploiement continus- Cyril L'Orphelin
+
+
+Par ailleurs, une [journée du réseau Qualité en Recherche](https://jt-aql.sciencesconf.org/) a été entièrement
 consacrée à ce sujet en 2019. Plusieurs exposés ont permis d'illustrer
 les concepts associés à la qualité logicielle :
 
@@ -308,6 +365,8 @@ Z.Tucsnak,  Journée thématique Assurance Qualité Logiciel 2019, Paris.
 Colin Gonzalez, AstroParticules et Cosmologie,  Journée thématique Assurance Qualité Logiciel 2019, Paris.
 ```
 
+
+
 ### Retours d'expérience
 
 Dans le domaine environnemental, les chaines logicielles sont également mises en place pour automatiser et enchainer un certain nombre de traitements comme:
@@ -322,22 +381,22 @@ Dans le domaine environnemental, les chaines logicielles sont également mises e
 Plusieurs présentations issues des journées du réseau SIST illustrent
 des mises en oeuvre de chaîne logicielle d'analyse de données:
 
-```{admonition} [Filtrage interactif de données multidimensionnelles](https://sist16.sciencesconf.org/data/pages/08_P_Brockmann.pdf)  
+```{admonition} [Filtrage interactif de données multidimensionnelles](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-08-P-Brockmann-Filtrage-de-donnees-multidimensionnelles.pdf)  
 :class: seealso
 Patrick Brockmann, Laboratoire des Sciences du Climat et de l'Environnement   
-[SIST16 OSU OREME 2016, Montpellier](https://sist16.sciencesconf.org/).
+[SIST16 OSU OREME 2016, Montpellier](https://sist.cnrs.fr/sist16).
 ```
 
-```{admonition} [Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS](https://sist18.sciencesconf.org/data/pages/07_L_Hazan_Chaines_de_traitement_ICOS.pdf)   
+```{admonition} [Chaînes de traitement en temps quasi réel des mesures de gaz à effet de serre du TGIR ICOS](https://sist.cnrs.fr/wp-content/uploads/2021/12/07-L-Hazan-Chaines-de-traitement-ICOS.pdf)   
 :class: seealso
 Lynn Hazan, Laboratoire des Sciences du Climat et de l'Environnement   
-[SIST18 2018, Observatoire Versailles](https://sist18.sciencesconf.org/).
+[SIST18 2018, Observatoire Versailles](https://sist.cnrs.fr/sist18).
 ```
 
-```{admonition} [Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist18.sciencesconf.org/data/pages/08_D_Wolyniec_J_Schaeffer_Vie_d_une_donnees_sismologique.pdf)   
+```{admonition} [Vie d'une données sismologique de sa naissance sur le terrain jusqu'à sa distribution](https://sist.cnrs.fr/wp-content/uploads/2021/12/08-D-Wolyniec-J-Schaeffer-Vie-dune-donnees-sismologique.pdf)   
 :class: seealso
 David Wolyniec, OSU Grenoble - Jonathan Schaeffer, OSU Grenoble   
-[SIST16 OSU OREME 2016, Montpellier](https://sist16.sciencesconf.org/).
+[SIST18 OSU OVSQ](https://sist.cnrs.fr/sist18).
 ```
 
 ## Optimiser l'utilisation des ressources
@@ -362,7 +421,7 @@ propose régulièrement des journées sur ces sujets :
 2019, Observatoire de Haute Provence.
 ```
 
-Enfin, l'optimisation des ressources s'entend aussi au niveau environnemental, afin de réduire l'impact des analyses de données. Le [GDS EcoInfo](https://ecoinfo.cnrs.fr/)  a organisé en 2017 une [journée sur l'impact des logiciels sur l’environnement](https://ecoinfo.cnrs.fr/2017/01/05/conf-ecoinfo-3-fevrier-2017-impact-des-logiciels-sur-lenvironnement-quid-de-leco-conception/), dont certains exposés peuvent directement concerner la problématique de l'analyse des données :
+Enfin, l'optimisation des ressources s'entend aussi au niveau environnemental, afin de réduire l'impact des analyses de données. Le [GDS EcoInfo](https://ecoinfo.cnrs.fr/)  a organisé en 2017 une [journée sur l'impact des logiciels sur l’environnement](https://ecoinfo.cnrs.fr/2017/01/05/conf-ecoinfo-impact-des-logiciels-sur-lenvironnement-quid-de-leco-conception-3-fevrier-2017/), dont certains exposés peuvent directement concerner la problématique de l'analyse des données :
 
 ```{admonition} [Écoconception logicielle, retours d’expérience sur la réduction de l’impact des logiciels](https://ecoinfo.cnrs.fr/wp-content/uploads/2017/01/greenspector.pdf)
 :class: seealso
@@ -440,13 +499,13 @@ construire une base de connaissance à partir de source et de données
 hétérogènes. Il explique ce qu’est une base de connaissance et
 comment l’interroger.
 
-```{admonition} [Des technologies sémantiques pour l’information scientifique et technique](http://renatis.cnrs.fr/IMG/pdf/Nedellec_Girard_Fredoc-v4.pdf)  
+```{admonition} [Des technologies sémantiques pour l’information scientifique et technique](http://renatis.cnrs.fr/wp-content/uploads/2022/10/Nedellec_Girard_Fredoc-v4.pdf)  
 :class: seealso
 Claire Nedellec, Agnès Girard, INRA  
 Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois   
 ```
 
-```{admonition} [Annotation des Bulletins de santé du végétal (BSV) et interrogation](http://renatis.cnrs.fr/IMG/pdf/FreDoc_Irstea.pdf)  
+```{admonition} [Annotation des Bulletins de santé du végétal (BSV) et interrogation](http://renatis.cnrs.fr/wp-content/uploads/2022/10/FreDoc_Irstea.pdf)  
 :class: seealso
 Fabien Amarger , IRIT-IRSTEA  
 Frédocs2013 - Gestion et valorisation des données de la recherche -  2013, Aussois  

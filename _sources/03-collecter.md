@@ -11,7 +11,7 @@ Cette phase "Collecter" va nécessiter :
    * de mettre en place des chaines de collecte : du capteur jusqu'aux espaces disques et aux applications sur des serveurs où les traitements pourront être réalisés, avec la documentation adaptée;
    * d'utiliser des protocoles si possibles normalisés ou standardisés pour présenter les données brutes et les dispositifs d'acquisition (capteurs...) et les rendre interopérables;
    * de mettre en place une gestion et conduite de projets pour faire travailler ensemble les différents acteurs intervenant dans la chaîne de collecte : électroniciens, informaticiens, chercheurs...;
-   * de disposer de cahier de laboratoire, tablettes de terrain ou supports divers pour consigner les relevés et métadonnées observées; 
+   * de disposer de cahiers de laboratoire, tablettes de terrain ou supports divers pour consigner les relevés et métadonnées observées; 
    * de définir le stockage nécessaire à la collecte de données : travailler en amont avec une équipe informatique en mode projet (gestion de projet).
 
 
@@ -59,7 +59,7 @@ On trouve plusieurs standards et normes qui permettent de définir un ensemble d
 2. Créateur (métadonnée) (Creator) : Nom de la personne, de l'organisation ou du service responsables de la création du contenu de la ressource
 3. Sujet (métadonnée) ou mots clés (Subject) : Thème du contenu de la ressource (mots clés, expressions, codes de classification)
 4. Description (métadonnée) (Description) : Présentation du contenu de la ressource (résumé, table des matières, représentation graphique du contenu, texte libre)
-5. Éditeur (Publisher) : Nom de la personne, de l'organisation ou du service responsables de la mise à disposition ou de la diffusion de la ressource
+5. Éditeur (Publisher) : Nom de la personne, de l'organisation ou du service responsable de la mise à disposition ou de la diffusion de la ressource
 6. Contributeur (Contributor) : Nom de la personne, de l'organisation ou du service responsables de contributions au contenu de la ressource
 7. Date (métadonnée) (Date) :	Date de création ou de mise à disposition de la ressource
 8. Type (Type) : Nature ou genre de la ressource (catégories, fonctions, genres généraux, niveaux d'agrégation du contenu)
@@ -71,27 +71,27 @@ On trouve plusieurs standards et normes qui permettent de définir un ensemble d
 14. Couverture (métadonnée) (Coverage) : Couverture spatio-temporelle de la ressource (domaine d'application)
 15. Gestion de droits (métadonnée) 	(Rights) : Informations sur les droits associés à la ressource (IPR, copyright, etc.)
 
-Pour la description des jeux de données géolocalisées, les [normes ISO 19115 et ISO 19139](https://pro.arcgis.com/fr/pro-app/help/metadata/create-iso-19115-and-iso-19139-metadata.htm) sont des normes de référence dans le domaine des métadonnées pour l'information géographique. L'ISO 19115 fournit une structure permettant de décrire et de découvrir des données géospatiales, y compris le moment et l'endroit de leur localisation, une vue d'ensemble de leur contenu, de leurs propriétés, de leur qualité, de leur utilisation adéquate, du mécanisme de distribution, des points de contact pour les demandes d'informations, etc.
+Pour la description des jeux de données géolocalisés, les [normes ISO 19115 et ISO 19139](https://pro.arcgis.com/fr/pro-app/help/metadata/create-iso-19115-and-iso-19139-metadata.htm) sont des normes de référence dans le domaine des métadonnées pour l'information géographique. L'ISO 19115 fournit une structure permettant de décrire et de découvrir des données géospatiales, y compris le moment et l'endroit de leur localisation, une vue d'ensemble de leur contenu, de leurs propriétés, de leur qualité, de leur utilisation adéquate, du mécanisme de distribution, des points de contact pour les demandes d'informations, etc.
 La norme ISO 19139 est l'implémentation XML de la norme ISO 19115. Elle définit le codage XML des métadonnées géographiques, une implémentation de schéma XML dérivée de la norme ISO 19115. La norme ISO 19139 est le modèle principal utilisé pour décrire des données dans le logiciel GeoNetwork et constituer ainsi un catalogue de données géospatialisées que l'on abordera dans le chapitre 7 "Publier" du présent guide.
 
 ### Les protocoles standards en information Géographique 
 
-L'échange de données d'une plateforme à l'autre se fait au travers de protocoles informatiques. De ce fait, si l'on veut que les systèmes soient interopérables entre eux, il est nécessaire d'utiliser des protocoles ouverts et standards pour permettre l'interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, [l'Open Geospatial Consortium (OGC)](https://www.ogc.org/standards/), est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l'interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l'information géographique. 
+L'échange de données d'une plateforme à l'autre se fait au travers de protocoles informatiques. De ce fait, si l'on veut que les systèmes soient interopérables entre eux, il est nécessaire d'utiliser des protocoles ouverts et standards, voire normés, pour permettre l'interopérabilité. Dans le domaine environnemental, pour des données qui sont souvent géolocalisées par des coordonnées Latitude/Longitude, [l'Open Geospatial Consortium (OGC)](https://www.ogc.org/standards/), est un consortium international qui a pour objectif de développer et promouvoir des standards ouverts, les spécifications OpenGIS, afin de garantir l'interopérabilité des contenus, des services et des échanges dans les domaines de la géomatique et de l'information géographique. 
 
-Les standards OGC sont importants à connaitre dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l'Institut National des Sciences de l'Univers (INSU). Pour ce dernier réseau, l'interopérabilité dans la gestion des données des Observatoires de l'INSU est un enjeu important.
+Les standards OGC sont importants à connaître dans la mesure où ils définissent les protocoles et formats à suivre pour être interopérables. Ils ont été présentés par François André dans les réseaux DEVLOG et dans le réseau SIST de l'Institut National des Sciences de l'Univers (INSU). Pour ce dernier réseau, l'interopérabilité dans la gestion des données des Observatoires de l'INSU est un enjeu important.
 
-```{admonition} [Les Normes OGC (Open Geospatial Consortium)](https://sist15.sciencesconf.org/data/program/ogc.pdf)   
+```{admonition} [Les Normes OGC (Open Geospatial Consortium)](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz?dir=undefined&openfile=651558)   
 :class: seealso
 François André, Aeris   
-Séminaire SIST15 - OSU Pytheas Marseille 2015
+Séminaire SIST15 - [OSU Pytheas Marseille 2015](https://sist.cnrs.fr/sist15/)
 ```
 
 Parmi les standards de l'OGC les plus utilisés dans nos réseaux métiers chez les gestionnaires de données environnementales, on peut citer :
 -    [CS-W](https://www.ogc.org/standards/cat) - Catalog Service for the Web : ce protocole est destiné à diffuser des métadonnées ISO 19139 et permettre l'interrogation de catalogues de métadonnées. Une très bonne implémentation de ce protocole est réalisée dans le logiciel ["Geonetwork"](<https://geonetwork-opensource.org/>) utilisé pour constituer des catalogues et des inventaires de jeux de données et les présenter sur le Web de manière interopérable. Ce logiciel est détaillé dans le chapitre 7 "Publier" du  présent guide, dédié à la publication des jeux de données. 
 Grâce à ce protocole, on peut constituer des réseaux de catalogues tels que demandés par la [Directive Européenne Inspire](http://cnig.gouv.fr/?page_id=8991).
--  [WMS](https://www.ogc.org/standards/wms) - [Web Map Service](https://fr.wikipedia.org/wiki/Web_Map_Service) est un protocole de communication standard qui permet de constituer des cartes de données géoréférencées à partir de différents serveurs de données cartographiques. . 
+-  [WMS](https://www.ogc.org/standards/wms) - [Web Map Service](https://fr.wikipedia.org/wiki/Web_Map_Service) est un protocole de communication standard qui permet de constituer des cartes de données géoréférencées à partir de différents serveurs de données cartographiques. 
    
-Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d'interopérabilité WMS, CSW et SOS qui permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d'observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.
+Le réseau SIST a organisé deux actions de formation nationale (ANF) sur ces logiciels mettant en oeuvre les standards d'interopérabilité WMS, CSW et SOS. Ils permettent aux personnels d’améliorer la gestion et la diffusion de leurs données scientifiques d'observation en apprenant à installer, configurer et utiliser différents outils logiciels, choisis pour leur aptitude à répondre de manière standardisée à ces problématiques.
 
 ```{admonition} ["Gestion des données d'observation : les outils informatiques pour la valorisation" ](https://sist.cnrs.fr/les-formations/supports-des-anf-gestion-de-donnees-dobservation/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation)   
 :class: seealso
@@ -104,7 +104,7 @@ Sylvain Grelet communique par exemple le retour d'expérience sur l'utilisation 
 ```{admonition} [De la définition au déploiement de standards d'interopérabilité :](https://nuage.osupytheas.fr/s/aQogG6iPq6eGabf) retour d'expérience de la Direction des Systèmes d'Information (DSI) du BRGM   
 :class: seealso
 Grellet Sylvain, Stéphane Loigerot, BRGM   
-[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)  
+[Séminaire SIST15, Marseille](https://sist.cnrs.fr/sist15/)  
 ```
 
 Véronique Chaffard nous présente la mise en oeuvre des standards de l'OGC dans le projet AMMA-CATCH :
@@ -112,12 +112,39 @@ Véronique Chaffard nous présente la mise en oeuvre des standards de l'OGC dans
 ```{admonition} [Portail Web d'accès aux données de l'observatoire AMMA-CATCH et mise en oeuvre des standards d'échange des données OGC ](https://nuage.osupytheas.fr/s/Mrm2oRT8QFt9HS9)   
 :class: seealso
 Véronique Chaffard, IRD  
-[Séminaire SIST15, OSU Pytheas Marseille](https://sist15.sciencesconf.org)
+[Séminaire SIST15, OSU Pytheas Marseille](https://sist.cnrs.fr/sist15/)
 ```
 
 ## Les systèmes d'acquisition : maîtriser l’acquisition et la collecte des données
 
 Il est important que le processus de collecte des données soit clairement défini et validé. Par exemple, il conviendra de s'assurer que les systèmes d'acquisition sont bien étalonnés. Par ailleurs, l'ensemble des données produites doit être parfaitement répertorié et enregistré. Nous disposons pour ce faire d’un certain nombre de supports tels que les cahiers de laboratoires, les carnets de terrain... 
+
+### La collecte de données à caractère personnel
+
+Si l’ouverture des données intervient dans un processus de recherche, généralement en fin de cycle, un certain nombre de mesures réglementaires doivent être prises en compte très en amont et notamment lorsqu’il s’agit de collecter des données personnelles.
+
+Le RGPD est perçu bien souvent comme un véritable obstacle à la collecte de données. Emilie Masson, dans une intervention à Grenoble en 2021 pour la journée « Gestion des données de recherche en SHS », réfute cette idée dès le titre de sa présentation :  tout est possible avec le RGPD ! Elle indique clairement que si l’esprit de cette réglementation va dans le sens de la protection des données personnelles, il n’interdit pas pour autant le traitement scientifique de données personnelles ou sensibles.
+
+Après une définition claire de ce que sont les données et le traitement de données à caractère personnel, on découvre les trois exceptions applicables aux domaines de la recherche permettant de collecter des données personnelles à savoir le consentement, la mission de service public et les intérêts légitimes. 
+
+Au sujet du consentement libre et éclairé, difficile, voire impossible à obtenir dans certains cas, on verra qu’il n’est pas forcément obligatoire et qu’en pratique le fondement de licéité (base légale d'un traitement de données personnelles) repose davantage (si ce n’est exclusivement) sur le principe de mission de service public (et non sur celui de consentement).
+
+Quant aux données sensibles, même si par principe leur collecte n’est pas autorisée, nous apprenons 
+-	qu’un consentement explicite pour une ou plusieurs finalités spécifiques peut lever cette interdiction, 
+-	qu’il est possible de collecter des données sensibles manifestement rendues publiques par la personne concernée, 
+-	ou de justifier la collecte du fait d’un nécessaire archivage dans l’intérêt public, selon certaines conditions (détaillées dans l’intervention).
+
+Avant de conclure sur la nécessaire mise en sécurité des données personnelles, Emilie Masson indique la démarche à suivre pour être en conformité avec la loi : 
+-	Déterminer son objectif (finalité du projet de recherche) : cela est possible aussi en cas de recherche exploratoire !
+-	Informer les personnes concernées (avec une liste d’information complète)
+-	Ne collecter que les données nécessaires et en lien avec son objectif (en justifiant le besoin)
+-	Déterminer une durée de conservation
+
+```{admonition} [Tout est possible avec le RGPD](https://videos.univ-grenoble-alpes.fr/video/21889-collecter-traiter-valoriser-les-particularites-des-donnees-des-shs/)   
+:class: seealso
+Emilie Masson, CNRS   
+[Séminaire « Journée Gestion des données de recherche en SHS », Grenoble, 2021](https://gdr2021.sciencesconf.org/) 
+```
 
 ### La métrologie des équipements
 
@@ -133,13 +160,13 @@ ANF Outils qualité, réseau QeR, 2019
 De nombreux laboratoires et plateformes de tests du CNRS sont équipés de salles propres, dans des domaines variés tels que la micro et nanotechnologie, la géochimie, l’optique, la médecine, le spatial…
 En débutant par un point sur l’état de l’art (définition, réglementation, documentation…) de ces deux aspects, l'objectif principal de la journée thématique est de faire bénéficier de retours d’expériences sur les bonnes pratiques déjà éprouvées et sur les écueils à éviter afin de répondre, entre autres, aux questions suivantes : 
 - Quand a-t-on besoin de travailler en salles propres ? 
-- Quelles règlementations régissent l'installation, la maintenance et le contrôle des salles propres ? 
+- Quelles réglementations régissent l'installation, la maintenance et le contrôle des salles propres ? 
 - Comment préparer l'installation dans nos locaux ? A quoi doit-on penser ? 
 - Quelles sont les solutions techniques les mieux adaptées à notre besoin ? 
 - Quels sont les critères de surveillance et systèmes de contrôle des installations ? 
 - Comment doit-on travailler en salles propres ? Quelles sont les bonnes pratiques de gestion d'une salle propre ?
 
-```{admonition} [Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences](<https://sallespropres17.sciencesconf.org/program>)   
+```{admonition} [Les salles propres de l’installation à l’utilisation, de la théorie à la pratique - Usages et retours d’expériences](<https://sallespropres17.sciencesconf.org/program.html>)   
 :class: seealso
 Journée thématique, réseau QeR, 2017   
 ```
@@ -149,7 +176,7 @@ Journée thématique, réseau QeR, 2017
 
 Diverses communautés scientifiques sont intéressées par les problématiques inhérentes aux systèmes d'acquisitions et aux instruments associés. Différents aspects de collecte de données existent, qu'ils proviennent d'un équipement, d'un capteur automatisé, d'un modèle numérique ou qu'ils soient obtenus par un personnel de terrain, par une enquête, au moyen d'interfaces. Dès lors, il convient d'élaborer des méthodologies de collecte, de se documenter sur les choix des référentiels de métadonnées et des thésaurus de vocabulaire, mais également de développer les procédures d'intégration des données dans les bases.
 
-Pour la thématique "Ocean-Atmosphere" cette problématique occupe une place importante, à tel point que, depuis plusieurs décennies, METEO-FRANCE et l'INSU depuis 1966, l'IFREMER depuis 2002, l'IRD et le CNES depuis 2004, le Service hydrographique et océanographique de la Marine (SHOM) depuis 2005, organisent un atelier dédié aux rencontres portant sur l'expériementation et l'instrumentation. Cet [Atelier Expérimentation et Instrumentation (AEI)](http://www.aei-ocean-atmosphere.org/) permet de réunir la communauté scientifique spécialisée dans la recherche instrumentale et de traiter divers thèmes d'actualité lors de ses [différentes éditions](http://www.aei-ocean-atmosphere.org/Editions-Precedentes).
+Pour la thématique "Ocean-Atmosphere" cette problématique occupe une place importante, à tel point que, depuis plusieurs décennies, METEO-FRANCE et l'INSU depuis 1966, l'IFREMER depuis 2002, l'IRD et le CNES depuis 2004, le Service hydrographique et océanographique de la Marine (SHOM) depuis 2005, organisent un atelier dédié aux rencontres portant sur l'expérimentation et l'instrumentation. Cet [Atelier Expérimentation et Instrumentation (AEI)](http://www.aei-ocean-atmosphere.org/) permet de réunir la communauté scientifique spécialisée dans la recherche instrumentale et de traiter divers thèmes d'actualité lors de ses [différentes éditions](http://www.aei-ocean-atmosphere.org/Editions-Precedentes).
 L'AEI traite de manière privilégiée les aspects de mesure et de méthodologie, sans exclure pour autant l'exploitation scientifique des résultats. Il a lieu alternativement à Paris, Toulon, Lille et Brest, généralement en début d'année. L'AEI permet aux équipes de recherche d'exposer leurs résultats dans un colloque francophone. C'est un lieu de rencontre pour les participants, issus des différents organismes et groupes industriels, afin de favoriser les synergies et coopérations. 
 
 Pour la gestion des capteurs, l'[OGC (Open Geospatial Consortium)](https://www.ogc.org/standards) cité précédemment, publie un standard d’interopérabilité, [Sensor Web Enablement (SWE)](http://docs.opengeospatial.org/wp/07-165r1/), qui permet de présenter des données de capteurs de manière standardisée et interopérable. Ce protocole et les logiciels qui les implémentent sont bien adaptés à la description des capteurs et à la gestion des séries temporelles.
@@ -159,7 +186,7 @@ Le protocole "[SOS" (Sensor observation service) de l'OGC](https://www.ogc.org/s
 ```{admonition} [Sensor Web Enablement Standards & Technology](<https://nuage.osupytheas.fr/s/iMx5S9orQ9zyoxk>)   
 :class: seealso
 Christoph Stasch, Simon Jirka, 52North   
-[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)
+[Séminaire SIST15, Marseille](https://sist.cnrs.fr/sist15/)
 ```
 
 Actuellement on trouve deux implémentations intéressantes du protocole SOS dans la gestion des données de capteurs environnementaux. Il s'agit de :
@@ -171,19 +198,18 @@ istSOS est un logiciel libre qui fonctionne sur toutes les principales plates-fo
 ```{admonition} [Présentation du logiciel istSOS](https://nuage.osupytheas.fr/s/eK7y9w6ewfL36Kk)
 :class: seealso
 Massimiliano Canata   
-[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)  
+[Séminaire SIST15, Marseille](https://sist.cnrs.fr/sist15/)  
 ```
 
 Ces 2 logiciels ont été présentés par Christoph Stasch, et Massimiliano Canata lors du séminaire du réseau [SIST](https://sist.cnrs.fr) en 2015 à l'[OSU Pytheas Marseille](https://nuage.osupytheas.fr/index.php/s/ROh4LCpHZCWdlHz).
 
 Stephane Debard présente l'utilisation d'istSOS dans la gestion de mesures altimétriques radars : 
 
-```{admonition} [Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS ](https://sist19.sciencesconf.org/data/pages/SIST19_S_Debard.pdf)   
+```{admonition} [Mise en accord de mesures  altimétriques radars avec le standard de l’OGC - SOS ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-02-S-Debard-Altimetrie-spatiale-et-istSOS.pdf)   
 :class: seealso
 Stéphane Debard IRD   
-[Séminaire SIST19 OMP Toulouse](https://sist19.sciencesconf.org)   
+[Séminaire SIST19 OMP Toulouse](https://sist.cnrs.fr/sist19/)   
 ```
-
 
 
 ### Les chaines de collecte
@@ -191,32 +217,76 @@ Les gestionnaires de données environnementales mettent en place des chaînes de
 
 Regis Hocdé et ses collègues nous présentent un retour d'expérience sur le réseau de suivi de température des eaux côtières dans la région du Pacifique Sud et Sud-Ouest :
 
-```{admonition} [Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG)   
+```{admonition} [Retour d'expérience sur le système d'information dédié capteurs et reconstitution de séries temporelles de ReefTEMP](https://nuage.osupytheas.fr/s/k6NoLaGsLjya5kG)
 :class: seealso
 Sylvie Fiat, Régis Hocdé, Institut de Recherche pour le Développement    
-[Séminaire SIST15, Marseille](https://sist15.sciencesconf.org)   
+[Séminaire SIST15, Marseille](https://sist.cnrs.fr/sist15/)   
 ```
-```{admonition} [Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist16.sciencesconf.org/data/pages/12_R_Hocde.pdf>)   
+```{admonition} [Réseau d'observation du Pacifique Sud ‘ReefTEMPS' : évolutions fonctionnelles et optimisation d'un système d'information dédié capteurs et reconstitution de séries temporelles](<https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-12-R-Hocde-Reseau-dobservations-Reeftemps.pdf>)   
 :class: seealso
 Régis Hocdé, Sylvie Fiat, Guillaume Brissebrat, Bernard Pelletier, Institut de Recherche pour le Développement    
-[Séminaire SIST16,  OSU OREME, Montpellier ](https://sist16.sciencesconf.org) 
+[Séminaire SIST16,  OSU OREME, Montpellier ](https://sist.cnrs.fr/sist16/) 
 ```
 
 Alban Thomas nous présente la technologie utilisée à base de Raspberry et de développement en Python, dans la constitution d'un réseau de stations météorologiques de la région rennaise.
 
-```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome](https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX) :  exemple de la métropole rennaise (Zone Atelier Armorique)   
+```{admonition} [Collecte de mesures météorologiques à l’aide d’un système autonome : exemple de la métropole rennaise (Zone Atelier Armorique)](https://nuage.osupytheas.fr/s/TsnZ7FcSZHoxSwX)    
 :class: seealso
 Alban Thomas - Hervé Quénol UMR LETG Rennes    
-[Séminaire SIST15, OSU Pytheas Marseille](https://sist15.sciencesconf.org)   
+[Séminaire SIST15, OSU Pytheas Marseille](https://sist.cnrs.fr/sist15/)   
 ```
+
+### Surveillance et monitoring des chaines de collecte
+
+Récupérer des données relève souvent de la mise en place de chaines de collecte composées de plusieurs étapes, plusieurs transferts de fichiers, voire plusieurs transformations de données. Dans ces cas où les chaines de collecte sont automatisées il devient utile d'avoir des systèmes de contrôle, de surveillance ou de monitoring, qui permettent de s'assurer que les données arrivent bien à bon port, au bon format, à l'endroit où elles sont attendues.
+
+L'élaboration de "dashboard" ou "tableau de contrôle" peut etre envisagé pour ce type de surveillance.
+
+En 2019 Franck Gabarrot signalait déjà dans le réseau SIST qu'il était nécessaire d'automatiser l'acquisition de données, et qu'il y avait des limites humaines au contrôle de chaque situation, et _qu'il est nécessaire de centraliser l’orchestration, le contrôle/pilotage de nos flux de données hétérogènes.
+
+Franck Gabarrot préconise "Apache Airflow" qui est un outil open source d’orchestration de workflows programmables en
+Python. [workflow = pipeline = flux de travaux = enchaînement de tâches]
+
+Service de gestion des flux de données basé sur Apache Airflow – F. Gabarrot
+```{admonition} [Service de gestion des flux de données basé sur Apache Airflow ](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-05-F-Gabarrot-Gestion-des-flux-avec-Apache-Airflow.pdf)
+:class: seealso
+Franck Gabarrot
+[séminaire SIST19 à Toulouse](https://sist.cnrs.fr/sist19/)
+```
+
+Lors du séminaire SIST22 à Grenoble, une session a été consacrée à quelques outils de monitoring pour surveiller les données. Emmanuel Delage présente le logiciel Grafana permettant la visualisation de données temporelles à l'aide de graphiques organisés en tableaux de bord. Les données du site instrumenté COPDD de l'OPGC sont envoyées toutes les 5 minutes sur le serveur Web au moyen de services Web de l'observatoire virtuel. Ensuite ces données sont enregistrées dans une base de données PostgreSQL contenant l'ensemble des données des derniers sept jours. Cette base de données est définie en tant que source sur le serveur Grafana, permettant la visualisation sous forme de graphiques des données proche temps-réel, sur le serveur Web, selon différents paramètres d'affichage au design reponsive.
+
+```{admonition} [Visualisation des quicklooks du site national instrumenté COPDD au moyen de Grafana](https://sist.cnrs.fr/wp-content/uploads/2022/06/01-SIST22-Visu-Quicklooks-COPDD-1.pdf)
+:class: seealso
+Emmanuel Delage  
+[séminaire SIST22 à Grenoble](https://sist.cnrs.fr/sist22), réseau SIST, Juin 2022  
+```
+
+Christophe Ferrier  présente le [logiciel "ReDash"](https://redash.io/) qui permet de concevoir un dashboard facilement et rapidement sans programmation. L'objectif de ReDash est de se connecter à une source de données (donc préférablement avec un protocole interopérable) d'établir des requêtes pour filtrer les données, et le logiciel compose des graphes automatiquement. Cet type de DashBoard permet donc de surveiller ses données en les visualisant en temps réel.
+
+```{admonition} [Concevoir un dashboard sans programmation et en 3 clicks… Ou presque !!](https://sist.cnrs.fr/sist22/#retours-dexperiences-et-presentations)
+:class: seealso
+Christophe Ferrier  
+[séminaire SIST22 à Grenoble,](https://sist.cnrs.fr/sist19/) réseau SIST, Juin 2022  
+```
+
+Enfin W. Masson dans le même esprit de mise en place de "DashBoards" utilise le Framework "Dash" en Python développé en 2017 par la société Plotly. Ce Framework permet de développer des applications web de type tableau de bord pour la visualisation de  données et pour créer des interfaces utilisateurs interactives. "Dash" offre  une couche d'abstraction qui permet de développer 100% en Python la visualisation et le monitoring de données.
+
+
+```{admonition} [Framework Dash – Dashboard web 100% Python ](https://sist.cnrs.fr/wp-content/uploads/2022/06/03-SIST22-dash.pdf)
+:class: seealso
+William Masson, Nathalie Reynaud, Arthur Coqué, Michel Candido & Thierry Tormos
+séminaire SIST22 à Grenoble, réseau SIST, Juin 2022  
+```
+
 
 ### Web scraping ou grattage Web : collecte automatique et analyse de données 
 
-"Le Web scraping est une technique permettant de convertir des données présentes dans un format non structuré (balises HTML) sur le Web en un format structuré facilement utilisable. Les exemples peuvent aller du texte sur Wikipedia, à des images sur Flickr en passant par les commentaires sur TripAdvisor, les articles d’actualité ou de chercheurs ou n’importe quelle page web présente sur Internet" [Introduction au Webscraping](https://stateofther.github.io/finistR2018/atelier1_webscraping_intro.html).
+"Le Web scraping est une technique permettant de convertir des données présentes dans un format non structuré (balises HTML) sur le Web en un format structuré facilement utilisable. Les exemples peuvent aller du texte sur Wikipedia, à des images sur Flickr en passant par les commentaires sur TripAdvisor, les articles d’actualité ou de chercheurs ou n’importe quelle page web présente sur Internet" ([Introduction au Webscraping](https://stateofther.github.io/finistR2018/atelier1_webscraping_intro.html)).
 
 Depuis l’explosion quantitative des données numériques, il est devenu extrêmement intéressant d’apprendre à recueillir, comprendre et exploiter les informations issues du web. On constate ces dernières années, dans le domaine des sciences sociales, l'intérêt croissant des chercheurs ou ingénieurs pour l'utilisation de nouvelles techniques de collecte et de traitement automatisé des données et en particulier des données massives. Chaque utilisateur en fonction de son profil et de ses compétences peut choisir une technologie partant de simples outils comme les aspirateurs de site qui permettent de réaliser des opérations basiques de grattage (scraping) jusqu’à l’utilisation de langages plus performants comme R ou Python pour des utilisateurs plus avancés.
 
-Au-delà des fonctionnalités de grattage web, la présentation « [Analyse de données avec R](https://hpecout.gitpages.huma-num.fr/R_presentation_FR/) » proposée par Hugues Pécout (CNRS) donne un exemple de l’analyse de donnée avec le logiciel R. En plus d’une présentation du logiciel R et de RStudio, elle contextualise R dans le paysage de l’analyse de données en le comparant à des logiciels propriétaires existants sur le marché ainsi qu’au langage Python. En Python, il faut utiliser le package BeautifulSoup, qui est très populaire [Webscraping avec Python](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/TD2A_Eco_Web_Scraping.html).
+Au-delà des fonctionnalités de grattage web, la présentation « [Analyse de données avec R](https://hpecout.gitpages.huma-num.fr/R_presentation_FR/) » proposée par Hugues Pécout (CNRS) donne un exemple de l’analyse de données avec le logiciel R. En plus d’une présentation du logiciel R et de RStudio, elle contextualise R dans le paysage de l’analyse de données en le comparant à des logiciels propriétaires existants sur le marché ainsi qu’au langage Python. En Python, il faut utiliser le package BeautifulSoup, qui est très populaire [Webscraping avec Python](http://www.xavierdupre.fr/app/ensae_teaching_cs/helpsphinx/notebooks/TD2A_Eco_Web_Scraping.html).
 
 Ces outils sont depuis quelques années en plein essor car ils permettent d’automatiser la constitution des bases de données, de collecter des sommes de données importantes, inaccessibles il y a de cela quelques années comme les données de réseaux sociaux, de compiler des données pour créer ses propres indicateurs (impossible avec des techniques de collecte classiques) ou encore de nettoyer, structurer des données déjà existantes… Ces modes de collecte automatisés renvoient aussi aux notions d'exploration de données (Data Crawling) et de récolte de données (Data Harvesting). 
 
@@ -229,7 +299,7 @@ L’ensemble des données produites par la recherche doit être répertorié et 
 
 Alain Rivet positionne le cahier de laboratoire comme un outil de gestion des données de la recherche : 
 
-```{admonition} [Cahier de laboratoire et gestion des données de la recherche](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Rivet.pdf)
+```{admonition} [Cahier de laboratoire et gestion des données de la recherche](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Rivet.pdf)
 :class: seealso
 Alain Rivet, CERMAV  
 Atelier Dialog’IST « Rendre FAIR les données, mais quelles données préserver ? », réseau Renatis, 2020   
@@ -272,8 +342,51 @@ Paul-Guy Dupré, Fanny Brizzi Inserm, DSI
 ```{admonition} [Déploiement du cahier de laboratoire  électronique à l’INSERM et nouvelles perspectives]( https://conf-ng.jres.org/2019/document_revision_5213.html?download)   
 :class: seealso
 PaulGuy Dupré Inserm & Claudia Gallina-Muller - Inserm DSI   
-[JRES2019  ](https://www.jres.org/fr/programme/)   
+[JRES2019  ](https://2019.jres.org/fr/programme/)   
 ```
+
+La problématique des cahiers de laboratoire électroniques s'est intensifiée ces dernières années. Ainsi, le CNRS a lancé en 2020 une réflexion sur la mise en place de cahiers de laboratoires électroniques suite aux besoins remontés par les agents en laboratoire en alternative au cahier de laboratoire national (format papier). Cela s'est traduit par 
+le déploiement d'une enquête destinée à réaliser un état des lieux sur l'utilisation des cahiers de lboratoire dans les unités de recherche et à définir les attentes et les craintes des personnels de la recherche sur le sujet.
+
+```{admonition} [Analyse de l’enquête sur les cahiers de laboratoire électroniques au CNRS](https://www.datacc.org/wp-content/uploads/2021/03/analyse_enquete_cle_2020-1.pdf)  
+:class: seealso
+Nathalie Léon – Domenico Libri, CNRS    
+ ```
+
+Les travaux se sont poursuivis courant 2021 avec le groupe de travail « Cahiers de laboratoire électronique » (ELN) du comité pour la science ouverte (CoSO). Le rapport présente une vision partagée sur la définition, le cadrage, les usages et le périmètre fonctionnel de l’ELN, qui doit pouvoir s’intégrer dans les environnements informatiques et institutionnels existants. Il émet un ensemble de recommandations sur les critères de choix d’un outil et intègre une liste comparative d'outils existants.
+
+```{admonition} [Rapport du Groupe de Travail sur les cahiers de Laboratoire électroniques](https://www.ouvrirlascience.fr/rapport-du-groupe-de-travail-sur-les-cahiers-de-laboratoire-electroniques/)  
+:class: seealso
+Membres du GT    
+"Ouvrir la science", MESRI, 2021
+```
+
+Dans le cadre des séminaires [Pour une Recherche Reproductible](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/programme_050522.html#programme_050522), Gricad, MaiMoSiNE et SARI ont mis en place un webinaire sur l'ouil elabFTW .
+
+Dans ce cadre, Nicolas Carpi, auteur et développeur d’elabFTW, a présenté son logiciel. eLabFTW est un cahier de laboratoire numérique open source destiné aux laboratoires de recherche, quelle que soit leur discipline. Il est utilisé par de nombreuses institutions et labos à travers le monde. Cette session est l’occasion de découvrir ce logiciel, ses fonctionnalités et son intérêt pour une recherche reproductible. 
+
+```{admonition} [Présentation du cahier de laboratoire électronique open source eLabFTW](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2022-05-05-N-CARPI-elabftw-presentation.pdf)   
+:class: seealso
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/23424-un-outil-pour-la-recherche-reproductible-le-cahier-electronique-elabftw-partie-i/)
+NIcolas Carpi, Institut Curie 
+```
+
+Jean-Luc Parouty ingénieur à SIMAP, a ensuite détaillé le service mutualisé de cahier de laboratoire elabFTW, intitulé CAOLILA, mis à disposition de la communauté ESR Grenobloise 
+
+```{admonition} [Mise en œuvre du cahier de laboratoire eLabFTW à l’UGA/GINP ](https://reproducibility.gricad-pages.univ-grenoble-alpes.fr/web/medias/slides/2022-05-05-JL-PAROUTY-CAOLILA.pdf)   
+:class: seealso
+[Vidéo : ](https://videos.univ-grenoble-alpes.fr/video/23426-un-outil-pour-la-recherche-reproductible-le-cahier-electronique-elabftw-et-son-implementation-sur-le-campus-de-grenoble-partie-ii/)
+Jean-Luc Parouty, SIMAP
+```
+
+En 2022, dans le cadre d'un des huit projets USERFIRST, lauréats du Fonds pour la Transformation de l'Action Publique (FTAP), le guide "Bonnes pratiques de mise en place d'un cahier de laboratoire électronique - Exemple d'eLabFTW" a été réalisé par le réseau “Qualité en Recherche” soutenu par la plateforme reseau de la Mission pour les Initiatives Transverses et Interdisciplinaires du CNRS . 
+
+```{admonition} [Bonnes pratiques de mise en place d'un cahier de laboratoire électronique - Exemple d'eLabFTW](https://qualite-en-recherche.cnrs.fr/wp-content/uploads/2022/11/Guide_bonnes_pratiques_CLE_V1.pdf)  
+:class: seealso
+Y. Hersant, N. Léon, A. Rivet, H. Valeins, réseau Qer, 2022
+```
+A travers ce guide de bonnes pratiques, le réseau Qualité en Recherche souhaite sensibiliser les personnels des unités de recherche à la mise en place et à l’utilisation d’un cahier de laboratoire électronique au sein d’une unité de recherche en apportant une vision « terrain » à cette nouvelle organisation des activités de recherche.
+
 
 ### Les tablettes et carnets de terrain
 
@@ -320,14 +433,14 @@ Pierre-Yves Arnould nous présente sa solution à base de ODK pour Faciliter la 
 Uniformiser la structure des fichiers, Génération d’étiquettes pour les échantillons, et Sauvegarder automatiquement sur un micro-serveur
 sur le terrain puis sur le SI OTELo
 
-```{admonition} [Retour terrain : la délicate question de l’intégration des données](http://rbdd.cnrs.fr/IMG/pdf/anf2019_seshat.pdf?576/575888582b8771a01200c5a6a5e751f0964e0c33)   
+```{admonition} [Retour terrain : la délicate question de l’intégration des données](https://rbdd.cnrs.fr/spip.php?article317)   
 :class: seealso   
 Pierre-Yves Arnould, OTELo   
 ANF "Interfacer les outils mobiles avec son système d’information", réseau RBDD, 2019, Sète.   
 ```
 
 
-De nombreuses autres solutions sont aussi envisageables, nous invitons le lecteur a consulté les ateliers et séminaires suivants pour en découvrir leurs avantages et inconvénients :
+De nombreuses autres solutions sont aussi envisageables, nous invitons le lecteur a consulter les ateliers et séminaires suivants pour en découvrir leurs avantages et inconvénients :
  
 ```{admonition} [Atelier « Carnets de terrain électroniques »](http://rbdd.cnrs.fr/spip.php?article270)   
 :class: seealso
@@ -357,9 +470,13 @@ Séminaire « les technologies mobiles : retours d'expériences et prospectives 
 
 Fruit d’une collaboration initiale entre l'Irstea (centre de Bordeaux), le laboratoire Epoc à Bordeaux, le LIENSs à La Rochelle, il a été enrichi avec la participation de nombreux autres laboratoires, dont les laboratoires Chrono-environnement à Besançon, Edytem à l’Université Savoie - Mont Blanc, etc. Il a été choisi par le Réseau des Zones Ateliers pour assurer le suivi des échantillons.
 
-```{admonition} [Stockez et retrouvez vos échantillons avec Collec-Science](http://rbdd.cnrs.fr/spip.php?article304)   
+```{admonition} [Collec-Science](http://rbdd.cnrs.fr/spip.php?article360)   
 :class: seealso
-Marie-Claude Quidoz   
+Webinaire réseau rBDD, 2021
+```
+```{admonition} [« Outils de gestion de collections de recherche »](http://rbdd.cnrs.fr/spip.php?article349)   
+:class: seealso
+Webinaire réseau rBDD, 2020
 ```
 
 ## Environnements de stockage - Sauvegarder les données
@@ -378,9 +495,9 @@ Benoit Parrein
 ANF "Des données au BigData : exploitez le stockage distribué !", 2016   
 ```
 
-Divers outils de sauvegarde des données sont fréquemment utilisés dans les milieux informatiques comme [backuppc](https://backuppc.github.io/backuppc/), [bacula](https://www.bacula.org/), [rdiff-backup](https://rdiff-backup.net/)
+Divers outils de sauvegarde des données sont fréquemment utilisés dans les milieux informatiques comme [backuppc](https://backuppc.github.io/backuppc/), [bacula](https://www.bacula.org/), [rdiff-backup](https://rdiff-backup.net/).
 
-Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des fonctionnalités de _déduplication_. Cette technologie consistant à réduire les volumes sauvegardés et les durées de sauvegarde en découpant les gros fichiers en fragments (blocs) et en ne sauvegardant qu'une seule fois les fragments identiques.
+Un nouveau paradigme dans la sauvegarde consiste à introduire et utiliser des fonctionnalités de _déduplication_. Cette technologie consiste à réduire les volumes sauvegardés et les durées de sauvegarde en découpant les gros fichiers en fragments (blocs) et en ne sauvegardant qu'une seule fois les fragments identiques.
 
 Un retour d'expérience sur le [logiciel borgbackup](https://borgbackup.readthedocs.io/en/stable/) donne des résultats intéressants et prend tout son sens quand on a beaucoup de fichiers volumineux peu différents.
 

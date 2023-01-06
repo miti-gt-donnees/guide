@@ -4,11 +4,13 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
     <title>Infrastructures</title>
     
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -18,43 +20,42 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
     <script src="_static/doctools.js"></script>
-    <script src="_static/togglebutton.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
     <script src="_static/translations.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
-    <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
     <link rel="next" title="Reproductibilité" href="11-reproductibilite.html" />
-    <link rel="prev" title="Glossaire" href="09-glossaire.html" />
+    <link rel="prev" title="Conclusion" href="08-conclusion.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="fr">
     
@@ -62,7 +63,21 @@
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+<!-- Checkboxes to toggle the left sidebar -->
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
+<label class="overlay overlay-navbar" for="__navigation">
+    <div class="visually-hidden">Toggle navigation sidebar</div>
+</label>
+<!-- Checkboxes to toggle the in-page toc -->
+<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
+<label class="overlay overlay-pagetoc" for="__page-toc">
+    <div class="visually-hidden">Toggle in-page Table of Contents</div>
+</label>
+<!-- Headers at the top -->
+<div class="announcement header-item noprint"></div>
+<div class="header header-item noprint"></div>
+
     
     <div class="container-fluid" id="banner"></div>
 
@@ -71,9 +86,10 @@
     <div class="container-xl">
       <div class="row">
           
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
+<!-- Sidebar -->
+<div class="bd-sidebar noprint" id="site-navigation">
+    <div class="bd-sidebar__content">
+        <div class="bd-sidebar__top"><div class="navbar-brand-box">
     <a class="navbar-brand text-wrap" href="index.html">
       
         <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
@@ -86,7 +102,7 @@
     </a>
 </div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Rechercher dans ce livre ..." aria-label="Rechercher dans ce livre ..." autocomplete="off" >
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         <p aria-level="2" class="caption" role="heading">
@@ -140,11 +156,6 @@
    Conclusion
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="09-glossaire.html">
-   Glossaire
-  </a>
- </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Infrastructures
@@ -153,11 +164,6 @@
  <li class="toctree-l1">
   <a class="reference internal" href="11-reproductibilite.html">
    Reproductibilité
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="12-ressources.html">
-   Autres guides de bonnes pratiques
   </a>
  </li>
  <li class="toctree-l1">
@@ -173,87 +179,148 @@
 </ul>
 
     </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
-</div>
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
-    
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
+</nav></div>
+        <div class="bd-sidebar__bottom">
+             <!-- To handle the deprecated key -->
             
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Basculer la navigation" aria-controls="site-navigation"
-                title="Basculer la navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Téléchargez cette page"><i
-            class="fas fa-download"></i></button>
-
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
-        
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/10-infrastructures.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Télécharger le fichier source" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Imprimer au format PDF"
-            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        
-        <a class="issues-button"
-            href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F10-infrastructures.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Ouvrez un problème"><i class="fas fa-lightbulb"></i>signaler un problème</button></a>
-        
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Mode plein écran"
-        title="Mode plein écran"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contenu
+            <div class="navbar_extra_footer">
+            <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
             </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
+            
+        </div>
+    </div>
+    <div id="rtd-footer-container"></div>
+</div>
+
+
+          
+
+
+          
+<!-- A tiny helper pixel to detect if we've scrolled -->
+<div class="sbt-scroll-pixel-helper"></div>
+<!-- Main content -->
+<div class="col py-0 content-container">
+    
+    <div class="header-article row sticky-top noprint">
+        
+
+
+
+<div class="col py-1 d-flex header-article-main">
+    <div class="header-article__left">
+        
+        <label for="__navigation"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="right"
+title="Toggle navigation"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-bars"></i>
+  </span>
+
+</label>
+
+        
+    </div>
+    <div class="header-article__right">
+<button onclick="toggleFullScreen()"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="bottom"
+title="Fullscreen mode"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F10-infrastructures.html&body=Your%20issue%20content%20here."
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="bottom"
+title="Open an issue"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+
+</a>
+
+<div class="menu-dropdown menu-dropdown-download-buttons">
+  <button class="headerbtn menu-dropdown__trigger"
+      aria-label="Download this page">
+      <i class="fas fa-download"></i>
+  </button>
+  <div class="menu-dropdown__content">
+    <ul>
+      <li>
+        <a href="_sources/10-infrastructures.md"
+   class="headerbtn"
+   data-toggle="tooltip"
+data-placement="left"
+title="Download source file"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="headerbtn__text-container">.md</span>
+</a>
+
+      </li>
+      
+      <li>
+        
+<button onclick="printPdf(this)"
+  class="headerbtn"
+  data-toggle="tooltip"
+data-placement="left"
+title="Print to PDF"
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="headerbtn__text-container">.pdf</span>
+</button>
+
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<label for="__page-toc"
+  class="headerbtn headerbtn-page-toc"
+  
+>
+  
+
+<span class="headerbtn__icon-container">
+  <i class="fas fa-list"></i>
+  </span>
+
+</label>
+
+    </div>
+</div>
+
+<!-- Table of contents -->
+<div class="col-md-3 bd-toc show noprint">
+    <div class="tocsection onthispage pt-5 pb-3">
+        <i class="fas fa-list"></i> Contents
+    </div>
+    <nav id="bd-toc-nav" aria-label="Page">
+        <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#infrastructures-europeennes">
    Infrastructures Européennes
@@ -287,6 +354,23 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructures-des-mesocentres-et-centres-regionaux">
+     Infrastructures des mésocentres et centres régionaux,
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique">
+   Infrastructure pour les expériences à grande échelle en informatique
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plateforme-nationale-federee-des-donnees-de-la-recherche">
+   Plateforme nationale fédérée des données de la recherche
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#infrastructures-regionales-de-gestion-de-donnees">
      Infrastructures régionales de gestion de données
     </a>
@@ -307,8 +391,8 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-thematiques">
-     Infrastructures thématiques
+    <a class="reference internal nav-link" href="#infrastructures-thematiques-de-donnees">
+     Infrastructures thématiques de données
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -320,34 +404,141 @@
  </li>
 </ul>
 
-            </nav>
-        </div>
-    </div>
+    </nav>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-        
+    </div>
+    <div class="article row">
+        <div class="col pl-md-3 pl-lg-5 content-container">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Infrastructures</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#infrastructures-europeennes">
+   Infrastructures Européennes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage">
+     European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu">
+     Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), egi.eu
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#infrastructures-nationales">
+   Infrastructures Nationales
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructures-de-travail-collaboratif">
+     Infrastructures de travail collaboratif
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructures-de-traitement-de-donnees-calcul-stockage">
+     Infrastructures de traitement de données, calcul, stockage
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructures-des-mesocentres-et-centres-regionaux">
+     Infrastructures des mésocentres et centres régionaux,
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique">
+   Infrastructure pour les expériences à grande échelle en informatique
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#plateforme-nationale-federee-des-donnees-de-la-recherche">
+   Plateforme nationale fédérée des données de la recherche
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructures-regionales-de-gestion-de-donnees">
+     Infrastructures régionales de gestion de données
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#les-datalakes-ou-lacs-de-donnees">
+     Les “datalakes” ou “lacs de données”
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructures-pour-linformation-scientifique-et-technique">
+     Infrastructures pour l’information scientifique et technique
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructures-pour-les-logiciels-les-codes-sources">
+     Infrastructures pour les logiciels / les codes sources
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#infrastructures-thematiques-de-donnees">
+     Infrastructures thématiques de données
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#plateformes-darchivage-des-donnees">
+     Plateformes d’archivage des données
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <main id="main-content" role="main">
+                
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="infrastructures">
-<span id="id1"></span><h1>Infrastructures<a class="headerlink" href="#infrastructures" title="Lien permanent vers ce titre">¶</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="infrastructures">
+<span id="id1"></span><h1>Infrastructures<a class="headerlink" href="#infrastructures" title="Lien permanent vers ce titre">#</a></h1>
 <p>Le paysage des infrastructures destinées à la recherche scientifique est vaste. Cette section est destinée à la présentation d’infrastructures européennes, nationales, thématiques dans différents domaines. Cette liste n’est bien sûr pas exhaustive et sa caractéristique principale est d’être alimentée par les présentations qui ont été réalisées au cours des événements organisés par les réseaux métiers. Ces exposés ciblent donc en général le public de ces réseaux.</p>
-<div class="section" id="infrastructures-europeennes">
-<h2>Infrastructures Européennes<a class="headerlink" href="#infrastructures-europeennes" title="Lien permanent vers ce titre">¶</a></h2>
+<section id="infrastructures-europeennes">
+<h2>Infrastructures Européennes<a class="headerlink" href="#infrastructures-europeennes" title="Lien permanent vers ce titre">#</a></h2>
 <p>Ces infrastructures font régulièrement l’objet de présentations qui permettent de comprendre leur organisation, leur mode de fonctionnement, et de suivre leurs évolutions.</p>
-<div class="section" id="european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage">
-<h3>European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)<a class="headerlink" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage" title="Lien permanent vers ce titre">¶</a></h3>
-<p>Le cloud européen EOSC a été abordé par Volker Beckman, chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS, lors des <a class="reference external" href="https://jcad2019.sciencesconf.org/data/EOSC_FranceGrilles_Beckmann_20191011.pdf">JCAD 2019</a>. Il explique comment concrètement les chercheurs peuvent utiliser EOSC, et fait le point sur les principales questions que vous vous posez peut-être sur EOSC : Qu’est ce que EOSC ?	Où en est-on et quelles sont les prochaines étapes ? Comment puis-je contribuer et/ou bénéficier ? EOSC en France.
-Il présente la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui offre aux chercheurs des services, l’accès à des données et à d’autres ressources fournies par des infrastructures de recherche publiques nationales, régionales et institutionnelles en Europe. Partant des nombreux appels à projets qui ont été lancés pour construire ce cloud (EOSCpilot, EOSC-hub, EOSC-Pillar, etc.), il expose les possibilités de collaboration. Depuis 2019, une structuration se met en place : une gouvernance temporaire et une implication forte des ministères nationaux comme têtes de file des communautés scientifiques impliquées. Ces travaux préparatoires devraient déboucher sur d’importantes opportunités de financement dans le “Horizon Europe Work Programme”.
-Le lien avec l’infrastructure nationale France Grilles est également décrit.</p>
-<p>EOSC a fait l’objet d’une <a class="reference external" href="https://indico.in2p3.fr/event/20051/"> journée spéciale au CNRS en janvier 2020</a>. Cette journée a en particulier permis de faire le point sur l’implication française dans le projet à travers plusieurs exemples. Une journée nationale <a class="reference external" href="https://eoscfrance.sciencesconf.org/">EOSC-France</a> aura lieu en février 2021.</p>
-<p>Plus récemment dans le cadre de l’atelier Dialogu’IST, Réseau Renatis, le 9 juillet 2020, une autre présentation de Volker Beckman a fait le point sur l’<a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf">European Open Science Cloud (EOSC), opportunités pour la recherche en France</a>.</p>
-<p>Enfin, lors des JCAD 2020, Volker Beckmann a présenté dans “<a class="reference external" href="https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf">EOSC en France: défis et opportunités.</a>” (<a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/">vidéo</a>) les prochaines étapes prévues.</p>
+<section id="european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage">
+<h3>European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)<a class="headerlink" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage" title="Lien permanent vers ce titre">#</a></h3>
+<p>Le cloud européen EOSC a été abordé dès 2019 par Volker Beckman, alors chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS, et maintenant Chargé de Mission European Open Science Cloud (EOSC) au MESRI lors des <a class="reference external" href="https://jcad2019.sciencesconf.org/data/EOSC_FranceGrilles_Beckmann_20191011.pdf">JCAD 2019</a>. Il expliquait alors comment concrètement les chercheurs peuvent utiliser EOSC, et faisait le point sur les principales questions que l’on se pose sur EOSC : Qu’est ce que EOSC ?	Où en est-on et quelles sont les prochaines étapes ? Comment puis-je contribuer et/ou bénéficier ? EOSC en France.
+Il y présentait la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui offre aux chercheurs des services, l’accès à des données et à d’autres ressources fournies par des infrastructures de recherche publiques nationales, régionales et institutionnelles en Europe.</p>
+<p>Depuis 2019, une structuration se met en place. Les évolutions font l’objet de présentations régulières dans le cadre de journées dédiées ou à l’occasion d’événements.</p>
+<p>EOSC a donc fait l’objet d’une <a class="reference external" href="https://indico.in2p3.fr/event/20051/"> journée spéciale au CNRS en janvier 2020</a>. Cette journée a en particulier permis de faire le point sur l’implication française dans le projet à travers plusieurs exemples.</p>
+<p>Plus récemment dans le cadre de l’atelier Dialogu’IST, Réseau Renatis, le 9 juillet 2020, une autre présentation de Volker Beckman a fait le point sur l’<a class="reference external" href="https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Beckmann.pdf">European Open Science Cloud (EOSC), opportunités pour la recherche en France</a>.</p>
+<p>Puis, lors des JCAD 2020, Volker Beckmann a présenté dans “<a class="reference external" href="https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf">EOSC en France: défis et opportunités.</a>” (<a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/">vidéo</a>) les prochaines étapes prévues.</p>
+<p>Une nouvelle journée nationale <a class="reference external" href="https://eoscfrance.sciencesconf.org/">EOSC-France</a> a eu lieu en février 2021 et a été l’occasion de présenter <a class="reference external" href="https://eoscfrance.sciencesconf.org/344323">la structuration en France</a>, Kostas Glinos de la commission européenne a présenté la politique Open SCience et EOSC dans son exposé intitulé <a class="reference external" href="https://eoscfrance.sciencesconf.org/342553">European Open Science policy and EOSC</a> et l’<a class="reference external" href="https://eoscfrance.sciencesconf.org/344324">Association EOSC</a> a fait l’objet de la présentation de Suzanne Dumouchel, Huma-Num, CNRS. La suite du programme concernait différents projets et EOSC en 2021 et au-delà.</p>
+<p>Enfin, une nouvelle présentation intitulée <a class="reference external" href="https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateur_Beckmann_Volker_EOSC.pdf">EUROPEAN OPEN SCIENCE CLOUD</a> a été donnée par Volker Beckmann lors des JCAD 2021.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf">EOSC en France: défis et opportunités. </a>  </p>
+<p class="admonition-title"><a class="reference external" href="https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf">EOSC en France: défis et opportunités.</a>  </p>
 <p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/">Vidéo : </a><br />
 Volker Beckmann, Chargé de mission EOSC France pour le ministère.<br />
 JCAD 2020</p>
+</div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateur_Beckmann_Volker_EOSC.pdf">EUROPEAN OPEN SCIENCE CLOUD</a>  </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e979e19f72ra5qw/iframe/">Vidéo à venir: </a><br />
+Volker Beckmann, Chargé de mission EOSC France pour le ministère.<br />
+JCAD 2021</p>
 </div>
 <p>EOSC est ouvert à la participation de fournisseurs de services, que ce soit des services de stockage ou de traitement de données ou encore des services de publication. Différents projets européens successifs ont pour objectif de préparer EOSC. Dans le cadre du projet <a class="reference external" href="https://www.eosc-pillar.eu/">EOSC-Pillar</a>, une enquête internationale a été menées dans cinq pays (Allemagne, Autriche, Belgique, France et Italie) pour connaître l’état des Infrastructures de Recherche, e-infrastructures, universités et organismes financeurs par rapport à une éventuelle participation à EOSC. Un aperçu des <a class="reference external" href="https://doi.org/10.5281/zenodo.3937318">résultats de cette enquête</a> a été présenté lors des JCAD 2020.</p>
 <div class="seealso admonition">
@@ -356,9 +547,17 @@ JCAD 2020</p>
 Geneviève Romier, Centre de Calcul de l’IN2P3, CNRS<br />
 JCAD 2020</p>
 </div>
+<ul class="simple">
+<li><p>Pour compléter, vous pouvez aussi consulter le poster concernant une utilisation concrète d’EOSC. Il s’agit de la présentation d’un cas d’usage en bioinformatique.</p></li>
+</ul>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/Poster_Cas_dusage_EOSC_Pillar_Yosra_SANAA.pdf">Une utilisation concrète d’EOSC : Cas d’usage en bioinformatique dans le cadre du projet EOSC-Pillar</a>  </p>
+<p>Gilles Mathieu, Yosra Sanaa
+JCAD 2021</p>
 </div>
-<div class="section" id="infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu">
-<h3>Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), <a class="reference external" href="http://egi.eu">egi.eu</a><a class="headerlink" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu" title="Lien permanent vers ce titre">¶</a></h3>
+</section>
+<section id="infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu">
+<h3>Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), <a class="reference external" href="http://egi.eu">egi.eu</a><a class="headerlink" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu" title="Lien permanent vers ce titre">#</a></h3>
 <p>L’infrastructure EGI a été présentée de façon complète en 2018 lors des JCAD, Journées Calcul et Données : la fédération, les participants, le catalogue de services, les utilisateurs, le positionnement dans EOSC. Le projet EOSC-Hub qui participe à la construction d’EOSC est également détaillé. C’est la présentation à consulter si vous souhaitez savoir ce qu’est EGI.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/20181024_JCAD_EGI_v1.1.pdf">EGI, the EOSC and the Hub</a>  </p>
@@ -376,15 +575,15 @@ JCAD 2018</p>
 Baptiste Grenier, fondation EGI<br />
 JCAD 2019</p>
 </div>
-</div>
-</div>
-<div class="section" id="infrastructures-nationales">
-<h2>Infrastructures Nationales<a class="headerlink" href="#infrastructures-nationales" title="Lien permanent vers ce titre">¶</a></h2>
+</section>
+</section>
+<section id="infrastructures-nationales">
+<h2>Infrastructures Nationales<a class="headerlink" href="#infrastructures-nationales" title="Lien permanent vers ce titre">#</a></h2>
 <p><a class="reference external" href="https://cat.opidor.fr/index.php/Cat_OPIDoR,_wiki_des_services_d%C3%A9di%C3%A9s_aux_donn%C3%A9es_de_la_recherche">CAT OPIDoR</a> recense les services dédiés aux données de la recherche
 en perspective du cycle de vie des données et par type de service. Ce catalogue se présente sous la forme d’un wiki, n’hésitez donc pas à le compléter si besoin.</p>
 <p>Les présentations détaillées de différentes infrastructures et de leurs services citées ci-dessous peuvent vous permettre à la fois de découvrir le large paysage de l’offre en Europe et en France mais aussi de vérifier rapidement si les critères de votre projet peuvent être remplis par les différentes infrastructures et leurs offres de services.</p>
-<div class="section" id="infrastructures-de-travail-collaboratif">
-<h3>Infrastructures de travail collaboratif<a class="headerlink" href="#infrastructures-de-travail-collaboratif" title="Lien permanent vers ce titre">¶</a></h3>
+<section id="infrastructures-de-travail-collaboratif">
+<h3>Infrastructures de travail collaboratif<a class="headerlink" href="#infrastructures-de-travail-collaboratif" title="Lien permanent vers ce titre">#</a></h3>
 <p>Dans la phase de montage de projet, il convient de choisir et de mettre en place des outils de gestion de projets tels que :</p>
 <ul class="simple">
 <li><p>des listes de discussion fournies par un service de gestion de listes,</p></li>
@@ -392,11 +591,18 @@ en perspective du cycle de vie des données et par type de service. Ce catalogue
 <li><p>une plate-forme de gestion de projet de type “redmine” ou autre.</p></li>
 </ul>
 <p>Pour cela il est utile de connaître les possibilités et ressources internes à l’unité et celles fournies par l’institution ou des partenaires extérieurs : université, CNRS, Renater, etc…</p>
-</div>
-<div class="section" id="infrastructures-de-traitement-de-donnees-calcul-stockage">
-<h3>Infrastructures de traitement de données, calcul, stockage<a class="headerlink" href="#infrastructures-de-traitement-de-donnees-calcul-stockage" title="Lien permanent vers ce titre">¶</a></h3>
+</section>
+<section id="infrastructures-de-traitement-de-donnees-calcul-stockage">
+<h3>Infrastructures de traitement de données, calcul, stockage<a class="headerlink" href="#infrastructures-de-traitement-de-donnees-calcul-stockage" title="Lien permanent vers ce titre">#</a></h3>
 <p>De nombreuses infrastructures offrent des services à la communauté scientifique. Il convient de choisir celles qui conviennent le mieux pour chaque projet.</p>
 <p><strong>Infrastructure France Grilles, <a class="reference external" href="http://www.france-grilles.fr">www.france-grilles.fr</a></strong></p>
+<p>France Grilles a fait l’objet lors des JCAD 2021 d’une présentation rétrospective des dix dernières années d’activité. Dans cet exposé, Vincent Breton a expliqué les évolutions, l’implication dans l’infrastructure EGI et dans les projets récents ainsi que les différents services proposés.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/FRANCE_GRILLE_VINCENT_BRETON.pptx">France Grilles : 10 ans de services aux utilisateurs</a>   </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b35efa48ryxih/iframe/">Vidéo</a>
+Vincent Breton, Laurent Caillat-Valet, Sorina Camarasu-Pop, Cyril L’orphelin, Gilles Mathieu, Jérôme Pansanel, Geneviève Romier<br />
+JCAD 2021</p>
+</div>
 <p>Le catalogue de services de France Grilles propose des services de traitement de données qui s’appuient sur une infrastructure de grille et une infrastructure cloud ainsi que des services de stockage de données. L’ensemble est interconnecté permettant aux données stockées d’être traitées grâce aux services grille et cloud.</p>
 <p>Un poster présente le service de stockage de France Grilles :</p>
 <div class="seealso admonition">
@@ -417,12 +623,37 @@ JCAD 2018</p>
 Vincent Negre, Eric David, Philippe Burger, Romain Chapuis, Boris Adam,  Anne Tireau, Patrick Moreau, Antony Tong, Samuel Thomas, Gallian Colombeau, Pascal Neveu, Jérôme Pansanel, Frédéric Baret, Marie Weiss<br />
 JCAD 2019</p>
 </div>
+<p><strong>Moyens de calcul de l’Inria</strong></p>
+<p>Inria transforme actuellement ses Moyens de Calcul vers une infrastructure nationale de moyens de calcul. Lucas Nussbaum a détaillé cette transformation dans un exposé lors des JCAD 2021. La cible visée à terme est de construire une offre nationale de moyens de calcul, opérée par Inria mais ouverte plus largement pour répondre aux besoins spécifiques de la recherche en sciences du numérique (flexibilité, reconfiguration, reproductibilité). Cette  infrastructure nationale sera construite sur la base de Grid’5000/SILECS.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/Transformation_Calcul_Inria_NUSSBAUM_Lucas.pdf">Transformation des moyens de calcul de l’Inria</a>   </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e9797e17vd7dfes/iframe/">Vidéo</a><br />
+Lucas Nussbaum<br />
+JCAD 2021</p>
+</div>
+<p><strong>Offre de service “informatique scientifique” à l’Inserm</strong></p>
+<p>L’INSERM travaille actuellement au projet SCaaS : Scientific Computing as a Service. A partir d’une étude de la situation à l’échelle de l’institut et des besoins remontés par les unités de recherche, le projet SCaaS est conçu pour répondre à la fois aux besoins des chercheurs et aux exigences de l’INSERM. Le projet et son état d’avancement a été présenté lors des JCAD 2021.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/Courte_InformatiqueScientifiqueInserm_JCAD2021.pdf">Vers une offre de service “informatique scientifique” à l’Inserm</a>   </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e9797da6z42o12y/iframe/">Vidéo</a><br />
+Gilles Mathieu, Daniel Salas, Yosra Sanaa, Dominique Pigeon, Fanny Brizzi
+JCAD 2021</p>
+</div>
+<p><strong>Portail Calcul Stockage et Cloud</strong></p>
+<p>En 2018, Inrae a initié une démarche communautaire pour concevoir et mettre en place un “Portail Calcul Stockage et Cloud” (PCSC). L’objectif est de répondre à la question que se posent beacoup de scientifiques : Où puis-je VRAIMENT calculer et/ou stocker ?. La présentation réalisée aux JACD 2021 présente le projet, la communauté impliquée et l’avancement de la réalisation du portail.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/PCSC_presentation_JCAD2021.pdf">PCSC : le Portail pour le Calcul, le Stockage et le Cloud</a>   </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e9797ce98b646ye/iframe/">Vidéo</a><br />
+Pierre Adenot, Estelle Ancelet, Sophie Aubin, David Benaben, Damien Berry, Emmanuel Braux, Éric Cahuzac, Patrick Chabrier, Alexandre Dehne-Garcia, Frédéric de Lamotte, Lise Frappier, Pierre Gay, Loïc Houde, Pierre-Emmanuel Guerin, Arnaud Jean-Charles, Cyril Jousse, Anne Laurent, Emilie Lerigoleur, Benjamin Marguin, Gilles Mathieu, Vincent Nègre, Nadia Ponts, Tovo Rabemanantsoa, Richard Randriatoamanana, Jean-François Rey, Fabrice Roy, Sandrine Sabatié, Daniel Salas, Martin Souchal,  Florian Trincal, Zenaida
+JCAD 2021</p>
+</div>
 <p><strong>Centres de calcul de GENCI</strong></p>
 <p>Les plateformes de calcul intensif nationales, ainsi que leurs évolutions, sont régulièrement présentées par l’opérateur GENCI (Grand Equipement National pour le Calcul Intensif). GENCI et ses trois centres nationaux fournissent des moyens de calcul de niveau “Tier 1” pour les utilisateurs nationaux :</p>
 <ul class="simple">
 <li><p>Ainsi, lors des <a class="reference external" href="https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf">JCAD 2019</a> a été abordé le supercalculateur Jean Zay dont une partie est dédiée à l’Intelligence Articficielle (IA).</p></li>
 <li><p>La <a class="reference external" href="https://jcad2018.sciencesconf.org/data/presentation_genci_24_10_2018.pdf">présentation de GENCI aux JCAD 2018</a> propose une approche plus générale et introduit également l’écosystème national des mésocentres, et les projets européens liés au calcul intensif.</p></li>
 <li><p>Une <a class="reference external" href="https://jcad2020.sciencesconf.org/data/Presentation_GENCI_JCAD2020.pdf">présentation plus récente de GENCI</a> aux JCAD 2020 présente aussi des résultats obtenus sur le supercalculateur Jean Zay.</p></li>
+<li><p>Le <a class="reference external" href="https://jcad2021.sciencesconf.org/data/JCAD_GENCI_PL.pptx">point d’actualité de GENCI dans l ’écosystème HPC/HPDA/IA/Q</a> aux JCAD 2021 présente l’actualité des centres hébergeant les calculateurs de GENCI et l’écosystème en cours de construction.</p></li>
 </ul>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf">Actualité GENCI</a>   </p>
@@ -436,7 +667,16 @@ JCAD 2019</p>
 Stéphane Requena, Directeur innovation et technologie, GENCI.<br />
 JCAD 2020</p>
 </div>
-<p><strong>Infrastructures des mésocentres et centres régionaux, quelques exemples</strong></p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/JCAD_GENCI_PL.pptx">Point d’actualité de GENCI dans l ’écosystème HPC/HPDA/IA/Q</a>   </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b3b5b3gl5l6c3/iframe/">Vidéo</a><br />
+Philippe Lavocat, GENCI.<br />
+JCAD 2021</p>
+</div>
+</section>
+<section id="infrastructures-des-mesocentres-et-centres-regionaux">
+<h3>Infrastructures des mésocentres et centres régionaux,<a class="headerlink" href="#infrastructures-des-mesocentres-et-centres-regionaux" title="Lien permanent vers ce titre">#</a></h3>
+<p><strong>Présentations générales</strong></p>
 <p>Au niveau régional et local, les mésocentres de calcul fournissent des ressources et un accompagnement de proximité plus souple et en général plus facile d’accès que les ressources nationales.</p>
 <p>Une <a class="reference external" href="https://calcul.math.cnrs.fr/attachments/spip/IMG/pdf/aventuremeso_v1.1.pdf">présentation réalisée en 2017</a> fait un retour sur les mésocentres au cours des dix dernières années.</p>
 <p>Les mésocentres ont fait l’objet de présentations régulières, à la fois techniques et organisationnelles, lors des journées mésocentres organisées jusqu’en 2017 par le réseau Calcul :</p>
@@ -444,7 +684,22 @@ JCAD 2020</p>
 <li><p><a class="reference external" href="https://calcul.math.cnrs.fr/2016-10-journees-mesocentres.html">Journée mésocentres 2016</a></p></li>
 <li><p><a class="reference external" href="https://calcul.math.cnrs.fr/2017-09-journees-mesocentres.html">Journée mésocentres 2017</a></p></li>
 </ul>
-<p>De nombreux mésocentres ont participé à l’equipex Equip&#64;Meso coordonné par GENCI et qui a fait l’objet par exemple, lors des JCAD 2018, d’<a class="reference external" href="https://jcad2018.sciencesconf.org/data/JCAD2018PosterEquipameso.pdf">un poster</a> d’Elise Quentel de GENCI, qui synthétise les informations</p>
+<p>De nombreux mésocentres ont participé à l’equipex Equip&#64;Meso coordonné par GENCI et qui a fait l’objet par exemple, lors des JCAD 2018, d’<a class="reference external" href="https://jcad2018.sciencesconf.org/data/JCAD2018PosterEquipameso.pdf">un poster</a> d’Elise Quentel de GENCI, qui synthétise les informations.</p>
+<p>Mesonet, projet PIA3 “Équipements structurants pour la recherche” a débuté en octobre 2021 pour 6 ans. Il regroupe 21 partenaires et est coordonné par GENCI. Ce projet a été présenté lors des JCAD 2021 par Jean-Philippe Proux, Arnaud Renard dans “MesoNET : le mésocentre national distribué”.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/JCAD_Mesonet.pdf">MesoNET : le mésocentre national distribué</a>   </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b3ae33ngflyux/iframe/">Vidéo</a><br />
+Jean-Philippe Proux, Arnaud Renard<br />
+JCAD 2021</p>
+</div>
+<p>Lors des JCAD 2021, Guillaume Aulanier et Laurent CROUZET du MESRI ont présenté le contexte de transformation numérique de l’ESRI, le périmètre d’activité et le fonctionnement du CoSIN et détaillé le Groupe Thématique “Mésocentres de Calcul et de Traitements de Données”.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateurs_Crouzet_et_Aulanier_Quelle_Place_Pour_Les_Mesocentres.pdf">Quelle place pour les mésocentres de calcul et de traitement de données au sein de la transformation numérique ?</a>   </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e9797271hqrjuv6/iframe/">Vidéo</a><br />
+Guillaume Aulanier et Laurent CROUZET, MESRI
+JCAD 2021</p>
+</div>
+<p><strong>Quelques exemples</strong></p>
 <p>Lors des JCAD 2019, Cyrille Toulet a présenté l’intégration du cloud OpenStack du mésocentre de Lille dans plusieurs fédérations de cloud nationales et internationale. Il explique l’intérêt de ces intégrations et les aspects techniques et donne des cas d’utilisation dans différentes disciplines.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/Inte_gration_d_un_cloud_OpenStack_a_plusieurs_fe_de_rations_de_cloud_11_octobre_2019_.pdf">Intégration d’un cloud OpenStack à plusieurs fédérations de cloud</a></p>
@@ -484,7 +739,10 @@ JCAD 2018</p>
 Anthony Scemama, Patrick BOUSQUET-MELOU, Marie-Sophie Cabot, Nicolas Renon<br />
 JCAD 2019</p>
 </div>
-<p><strong>Infrastructure pour les expériences à grande échelle en informatique</strong></p>
+</section>
+</section>
+<section id="infrastructure-pour-les-experiences-a-grande-echelle-en-informatique">
+<h2>Infrastructure pour les expériences à grande échelle en informatique<a class="headerlink" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique" title="Lien permanent vers ce titre">#</a></h2>
 <p>SILECS, “Super Infrastructure for Large-scale Experimental Computer Science”, est dédiée aux expériences à grande échelle en informatique basée sur les infrastructures FIT et GRID’5000. Cette infrastructure, tout en conservant les objectifs de FIT et GRID’5000, vise de nouveaux challenges : Internet des objets - Internet of Things (IoT) et Clouds, nouvelles générations de plateformes Cloud et de piles logicielles (Edge, FOG), applications de Data streaming, gestion de volumes de données importants, mobilité…</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/silecs_jcad2019.pdf">SILECS, une infrastructure pour les expériences à grande échelle en informatique</a>   </p>
@@ -499,12 +757,28 @@ JCAD 2019</p>
 Christian Perez, Inria<br />
 JCAD 2020</p>
 </div>
+<p>Cette présentation aux JCAD 2021 fait le point sur l’avancement de SLICES qui est maintenant un projet ESFRI : Research infrastructure for experimental computer science and future services in Europe et SILECS. Les liens entre les deux infrastrutures sont explicités ainsi que les prochaines étapes pour Slices (H2020 Slices-PP) et Silecs (PEPR)</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/silecs_slices_JCAD_2021.pdf">SILECS/SLICES</a></p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b386d4tdkvdue/iframe/">Vidéo</a><br />
+Christian Perez, Inria<br />
+JCAD 2021</p>
 </div>
-<div class="section" id="infrastructures-regionales-de-gestion-de-donnees">
-<h3>Infrastructures régionales de gestion de données<a class="headerlink" href="#infrastructures-regionales-de-gestion-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
-<p>Des initiatives régionales proposent des infrastructures de gestion et valorisation des données pour la recherche.</p>
+</section>
+<section id="plateforme-nationale-federee-des-donnees-de-la-recherche">
+<h2>Plateforme nationale fédérée des données de la recherche<a class="headerlink" href="#plateforme-nationale-federee-des-donnees-de-la-recherche" title="Lien permanent vers ce titre">#</a></h2>
+<p>Lors des JCAD 2021, Isabelle Blanc, Administratrice ministérielle des données, des algorithmes et des codes sources au MESRI a rappelé la place des données de recherche dans les politiques nationales et les ambitions du deuxième plan national pour la science ouverte. Dans son exposé “Recherche Data Gouv: une plateforme nationale fédérée des données de la recherche, dans le contexte du Plan national pour la science ouverte et de la politique des données , des algorithmes et des codes sources de l’ESR.” elle a également présenté la plateforme nationale fédérée des données de la recherche et le calendrier d’ouverture des services associés.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateurs_Crouzet_et_Aulanier_Quelle_Place_Pour_Les_Mesocentres.pdf">Recherche Data Gouv: une plateforme nationale fédérée des données de la recherche, dans le contexte du Plan national pour la science ouverte et de la politique des données , des algorithmes et des codes sources de l’ESR.</a>   </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e97971a6b6unqgr/iframe/">Vidéo</a><br />
+Isabelle Blanc, MESRI<br />
+JCAD 2021</p>
+</div>
+<section id="infrastructures-regionales-de-gestion-de-donnees">
+<h3>Infrastructures régionales de gestion de données<a class="headerlink" href="#infrastructures-regionales-de-gestion-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<p>Des initiatives régionales proposent des infrastructures de gestion et valorisation des données pour la recherche. Les infrastructures thématiques sont décrites dans la partie Publier de ce guide.</p>
 <p>A Toulouse, le mésocentre CALMIP étoffe son offre de services et construit CALLISTO, une interface pour le partage et l’analyse semi-automatique de données. CALLISTO propose ainsi une aide à la rédaction de Plans de Gestion de Données sur les aspects techniques, une plateforme de partage de données proche des utilisateurs et en lien avec les ressources du supercalculateur pour permettre la réutilisation des données hébergées.</p>
-<p>Une présentation du projet a été réalisée lors des JCAD 2019, puis une démonstration a eu lieu lors des JCAD 2020 qui permettent de voir les évolutions.</p>
+<p>Une présentation du projet a été réalisée lors des JCAD 2019, puis une démonstration a eu lieu lors des JCAD 2020 qui permettent de voir les évolutions. Enfin, lors des JCAD 2021, le prototype de la plateforme Datanoos a fait l’objet d’une présentation détaillée.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/callisto_jcad.pdf">CALLISTO : Une interface pour le partage et l’analyse semi-automatique de données.</a>  </p>
 <p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=8r669jA6&amp;width=100%&amp;height=100%">Vidéo : </a>
@@ -517,6 +791,16 @@ JCAD 2019</p>
 Thierry Louge - du mésocentre CALMIP, Toulouse.
 JCAD 2020</p>
 </div>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/N_Aussenac_M_Sibilla_Datanoos2.pdf">Prototype de plateforme contribuant à la Science Ouverte par la valorisation de données et pratiques interdisciplinaires.</a>  </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b2f50crd7qudv/iframe/">Vidéo : </a>
+Pascal Dayre  1, Nathalie Aussenac 1, Michelle Sibilla  1, Ba-Huy Tran 1, Emilie Lerigoleur  2, Franck Ravat  1 , Amina Annane  1, Cassia Trojahn  1, Ghita Amal 1, Weihao Xu  1, Lise Kleiber  1, Alexandre Champagne  1, Louis Mendy  1 , Datacore Datanoos 3, Data Driihm Labex Driihm 4
+1 : IRIT, CNRS, Université Paul Sabatier
+2 : Géographie de l’Environnement, CNRS, Université Toulouse - Jean Jaurès
+3 : Université de Toulouse
+4 : CNRS INEE
+JCAD 2021</p>
+</div>
 <p>En Bourgogne Franche-Comté, le projet dat&#64;UBFC a pour objectif la création d’un service de gestion des données de la recherche pour la communauté scientifique de l’Université de Bourgogne Franche-Comté. Ce projet fait le lien entre dat&#64;OSU (Description et référencement des données de recherche de l’OSU THETA) et le datacenter régional UBFC. Il a fait l’objet d’une présentation détaillée aux JCAD 2020.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2020.sciencesconf.org/data/Presentation_longue_Orateur_Damy_Sylvie_dataubfc.pdf">Projet dat&#64;UBFC : création d’un service de gestion des données de la recherche pour l’Université de Bourgogne Franche-Comté.</a>  </p>
@@ -524,9 +808,18 @@ JCAD 2020</p>
 Sylvie Damy, laboratoire Chrono-Environnement, Besançon.
 JCAD 2020</p>
 </div>
+<p>A Grenoble, le site Grenoble-Alpes a mis en place une cellule Data Grenoble Alpes - CDGA, adossée à GRICAD et regroupant des membres aux compétences multiples pour accompagner et conseiller les chercheurs sur tous leurs besoins liés aux données.</p>
+<div class="seealso admonition">
+<p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateur_Louvet_Violaine_Cellule_Data_Grenoble_Alpes.pdf">Cellule Data Grenoble Alpes : accompagnement sur les données de la recherche</a>  </p>
+<p><a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v1263e8b2f9b3lipxe9x/iframe/">Vidéo : </a>
+Violaine Louvet  1, Lucie Albaret  2, Arnaud Alexis  1
+1 : GRICAD, Université Grenoble Alpes, Institut polytechnique de Grenoble, Inria, CNRS
+2 : SICD Université Grenoble Alpes
+JCAD 2021</p>
 </div>
-<div class="section" id="les-datalakes-ou-lacs-de-donnees">
-<h3>Les “datalakes” ou “lacs de données”<a class="headerlink" href="#les-datalakes-ou-lacs-de-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+</section>
+<section id="les-datalakes-ou-lacs-de-donnees">
+<h3>Les “datalakes” ou “lacs de données”<a class="headerlink" href="#les-datalakes-ou-lacs-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
 <p>De nouvelles infrastructures de stockage de grandes quantités de données apparaissent dans le paysage. Plusieurs présentations vous permettront de vous faire une idée sur ce qu’est un Data Lake même si le concept n’est pas encore complétement défini et figé.</p>
 <p>Jean-Pierre Gleyze présente le contexte du CNES, quelques applications et leur dimensionnement. Les points de vue des utilisateurs et des administeurs des infrastructures sont exposés, aussi cet exposé intéressera autant les informaticiens que les utilisateurs scientifiques.</p>
 <div class="seealso admonition">
@@ -556,9 +849,9 @@ JCAD 2018</p>
 Eric Fede, CC-IN2P3, CNRS<br />
 JCAD 2019</p>
 </div>
-</div>
-<div class="section" id="infrastructures-pour-linformation-scientifique-et-technique">
-<h3>Infrastructures pour l’information scientifique et technique<a class="headerlink" href="#infrastructures-pour-linformation-scientifique-et-technique" title="Lien permanent vers ce titre">¶</a></h3>
+</section>
+<section id="infrastructures-pour-linformation-scientifique-et-technique">
+<h3>Infrastructures pour l’information scientifique et technique<a class="headerlink" href="#infrastructures-pour-linformation-scientifique-et-technique" title="Lien permanent vers ce titre">#</a></h3>
 <p>L’Institut de l’Information Scientifique et Technique (INIST), unité de service du CNRS déploie ses activités vers un projet d’ingénierie des connaissances qui s’articule
 autour de 3 axes principaux : <strong>« Analyse et fouille de l’information », « Valorisation des données de la recherche », « Accès à l’information scientifique »</strong>. Claire
 François présente ici un <strong>panorama des outils et services proposés aux chercheurs</strong> : portail d’accès aux ressources électroniques (bibCNRS), plateforme d’accès aux
@@ -572,9 +865,9 @@ bibliométriques</p>
 <p>Claire François<br />
 Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se) réinventer », 2018, Albi</p>
 </div>
-</div>
-<div class="section" id="infrastructures-pour-les-logiciels-les-codes-sources">
-<h3>Infrastructures pour les logiciels / les codes sources<a class="headerlink" href="#infrastructures-pour-les-logiciels-les-codes-sources" title="Lien permanent vers ce titre">¶</a></h3>
+</section>
+<section id="infrastructures-pour-les-logiciels-les-codes-sources">
+<h3>Infrastructures pour les logiciels / les codes sources<a class="headerlink" href="#infrastructures-pour-les-logiciels-les-codes-sources" title="Lien permanent vers ce titre">#</a></h3>
 <p>Le projet <strong>Software Heritage</strong> a pour objectif de collecter, préserver et rendre disponible le code source (et son historique) de tous les logiciels publiquement disponibles. Cette présentation explique le contexte et les motivations qui ont donné lieu à Software Heritage, puis, l’architecture mise en oeuvre.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/2019_10_10_jcadSoftwareHeritage.pdf">Software Heritage: source code archival and analysis at the scale of the world</a>  </p>
@@ -582,45 +875,31 @@ Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se) réi
 Stefano Zacchiroli, Inria<br />
 JCAD 2019</p>
 </div>
-</div>
-<div class="section" id="infrastructures-thematiques">
-<h3>Infrastructures thématiques<a class="headerlink" href="#infrastructures-thematiques" title="Lien permanent vers ce titre">¶</a></h3>
+</section>
+<section id="infrastructures-thematiques-de-donnees">
+<h3>Infrastructures thématiques de données<a class="headerlink" href="#infrastructures-thematiques-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
 <p>Des portails nationaux et européens organisés autour d’une thématique scientifique existent par ailleurs. Ils donnent accès à des pôles de données qui fédèrent dans différentes disciplines, des activités de gestion et valorisation des données.</p>
-<p>Au sein de l’infrastructure de recherche “Data Terra” on trouve par exemple <a class="reference external" href="https://www.odatis-ocean.fr/">Odatis</a> qui est un pôle de données et de services pour l’océan, <a class="reference external" href="https://www.theia-land.fr/">Theia</a>, une infrastructure de données et de services dédiée aux données spatiales d’observation de la terre, <a class="reference external" href="https://www.aeris-data.fr/">Aeris</a>  qui s’intéresse aux données et services pour l’atmosphère mais aussi <a class="reference external" href="https://www.poleterresolide.fr/">Form&#64;ter</a> ou  <a class="reference external" href="http://www.patrinat.fr/fr/pole-national-de-donnees-de-biodiversite-pndb-6256">PNDB</a> (Pôle National de Données de Biodiversité).</p>
-<p>Les projets de recherche au sein de ces infrastructures ont donné lieu à des retours d’expériences qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche.</p>
-<p><strong>Sismologie et géodésie</strong></p>
-<p>Dans le domaine de la sismologie et de la géodésie, Résif (Réseau sismologique et géodésique français), une infrastructure de recherche pour l’observation des déformations de la terre a été mise en place. Catherine Pequegnat lors de son intervention aux Fredocs 2013, présente la spécificité des données de sismologie, les réseaux de capteurs associés à ces données et pointe les manques et les avancées en termes de description, de norme et de formats pour la transcription et l’échange des données. Elle aborde aussi la question des possibilités d’accès aux données. Elle présente ensuite la TGIR Résif, son projet, son centre de données national (possibilités d’hébergement et de stockage) et sa contribution au projet européen EPOS</p>
-<div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf">« RESIF (données sismologiques et géodésiques) »</a>  </p>
-<p>Catherine Pequenat, Institut des Sciences de la Terre, Observatoire des Sciences de l’Univers de Grenoble<br />
-Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois</p>
-</div>
-<p><strong>Astronomie</strong></p>
-<p>Soizick Lesteven, retrace ensuite les missions du centre astronomique de Strasbourg qui depuis 1972 collecte des informations « utiles » sur les objets astronomiques. Elle détaille les processus de collecte et de traitements effectués pour mettre à disposition des données. Elle explique comment se crée l’interopérabilité des données entre les bases « Simbad », « Vizier », « Aladin » et leur interaction avec le dictionnaire des nomenclatures des objets célestes. Elle explique ainsi le processus de création de contenu de qualité, des données d’observations réutilisables et à forte valeur ajoutée pour les équipes de recherche.</p>
-<div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/LESTEVEN.pdf">La gestion des données astronomiques à l’Observatoire Astronomique de Strasbourg</a>  </p>
-<p>Soizick Lesteven, Observatoire Astronomique de Strasbourg<br />
-Fredocs2013 - Gestion et valorisation des données de la recherche, 2013, Aussois</p>
-</div>
-<p><strong>Sciences Sociales</strong></p>
-<p>Dans cette présentation très complète bien qu’ancienne, Roxane Silberman fait une description du Réseau Quetelet, composante de la TGIR Progedo qui est une banque française de données pour les sciences sociales. Elle indique la spécificité des données collectées au sein de ce réseau qui peuvent être des données
-individuelles, qualitatives, parfois de santé publique et les enjeux de protection de la vie privée  associés à ces données. Elle retrace l’historique des premières banques de données pour lesquelles se posait déjà  la question de l’accès et du partage des données à caractère individuel. Ce réseau s’inscrit dans une infrastructure européenne, le CESSDA (réseau européen des archives de données) et fournit des métadonnées accessibles à tous et en particulier aux chercheurs.
-Après avoir expliqué les grandes fonctions de Quetelet (dépôt, archivage, documentation, diffusion des données), elle revient sur quelques enjeux pour l’état, les politiques publiques et autres  acteurs économiques, le paysage qui se dessine autour de la donnée et qui bouscule les frontières dans le contexte de l’open data.</p>
-<div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/SILBERMAN_08102013.pdf">Réseau Quetelet : Banques de données pour les sciences sociales</a>   </p>
-<p>Roxane Silberman<br />
-Quetelet, 2013</p>
-</div>
+<p>Au sein de l’<a class="reference external" href="https://www.data-terra.org/">infrastructure de recherche “Data Terra”</a> on trouve par exemple le pôles de données :</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.odatis-ocean.fr/">Odatis</a> qui est un pôle de données et de services pour l’océan,</p></li>
+<li><p><a class="reference external" href="https://www.theia-land.fr/">Theia</a>, une infrastructure de données et de services dédiée aux données spatiales d’observation de la terre,</p></li>
+<li><p><a class="reference external" href="https://www.aeris-data.fr/">Aeris</a>  qui s’intéresse aux données et services pour l’atmosphère mais aussi</p></li>
+<li><p><a class="reference external" href="https://www.poleterresolide.fr/">Form&#64;ter</a> ou</p></li>
+<li><p>le <a class="reference external" href="http://www.patrinat.fr/fr/pole-national-de-donnees-de-biodiversite-pndb-6256">PNDB</a> (Pôle National de Données de Biodiversité).</p></li>
+</ul>
+<p>Les projets de recherche au sein de ces infrastructures ont donné lieu à diverses communications et  retours d’expériences cités dans ce guide, qui témoignent de spécificités disciplinaires dans la gestion des données de la recherche.</p>
+<p>Ces pôles proposent des Entrepots thématiques Institutionnels pour les données environnementales, tels  qu’ils sont nécessaires<a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/synthese/07-publier.html#les-entrepots-de-donnees"> dans la phase de diffusion du cycle de vie des données </a>, pour un accès interopérable et ouvert aux données</p>
 <p><strong>Biodiversité</strong></p>
 <p>Dans le domaine de la biodiversité, le Pôle national de données de Biodiversité, PNDB, e-Infrastructure nationale de recherche est inscrite sur la feuille de route du MESRI depuis mars 2018. L’UMS PatriNat du Museum National d’Histoire Naturelle, MNHN, en est le maître d’oeuvre. Yvan Le Bras, lors des JCAD 2020 a présenté le PNDB et l’implémentation en cours.</p>
 <div class="seealso admonition">
-<p class="admonition-title"><a class="reference external" href="http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf">Infrastructure PNDB, de la donnée de biodiversité au calcul scientifique via la métadonnée.</a>  </p>
+<p class="admonition-title"><a class="reference external" href="https://jcad2020.sciencesconf.org/data/PresentationPNDB_JCAD_03122020_Yvan_Elie_Coline.pdf">Infrastructure PNDB, de la donnée de biodiversité au calcul scientifique via la métadonnée.</a>  </p>
 <p>Yvan Le Bras – Laboratoire Patrinate du Museum national d’Histoire Naturelle, Paris.<br />
-JCAD 2020</p>
+JCAD 2020
+<a class="reference external" href="https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd51dfe9h33m/iframe/">vidéo</a></p>
 </div>
-</div>
-<div class="section" id="plateformes-darchivage-des-donnees">
-<h3>Plateformes d’archivage des données<a class="headerlink" href="#plateformes-darchivage-des-donnees" title="Lien permanent vers ce titre">¶</a></h3>
+</section>
+<section id="plateformes-darchivage-des-donnees">
+<h3>Plateformes d’archivage des données<a class="headerlink" href="#plateformes-darchivage-des-donnees" title="Lien permanent vers ce titre">#</a></h3>
 <p>Agrée par le Service Interministériel des Archives de France, le <a class="reference external" href="https://www.cines.fr/">CINES</a> (Centre Informatique National de l’Enseignement Supérieur) est le centre officiel d’archivage d’une partie de la production scientifique de nos établissements.<br />
 Il offre une solution pour la conservation à long terme du patrimoine numérique (données scientifiques : issues d’observations ou de calculs, données patrimoniales, données administratives) et est impliqué le projet européen <a class="reference external" href="https://www.eudat.eu/">EUDAT</a> visant à mettre en place une infrastructure européenne d’échange et de conservation de données.</p>
 <p>A l’occasion d’une intervention au Gricad à Grenoble, Olivier Rouchon, détaille largement l’offre de service du CINES et témoigne de la variété des données archivées. Il retrace également le processus d’archivage et rend compte des défis et problématiques qu’il pose.</p>
@@ -628,13 +907,13 @@ Il offre une solution pour la conservation à long terme du patrimoine numériqu
 <p class="admonition-title"><a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf">L’offre de service archivage du CINES </a>    </p>
 <p>Oliver Rouchon, CINES<br />
 Archivage numérique des données de la recherche, 2019, Grenoble<br />
-<a class="reference external" href="http://newstream.u-ga.fr/2019_11_20-Archivage_Donnees_Recherche_9-Olivier_Rouchon.mp4">vidéo</a></p>
+<a class="reference external" href="https://videos.univ-grenoble-alpes.fr/recherche/archivage-numerique-des-donnees-de-recherche/video/19535-archivage-des-donnees-au-cines/">vidéo</a></p>
 </div>
 <p>A noter :<br />
 La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de données tout au long du processus d’archivage à long terme vers un dépôt au CINES. (Voir la présentation de Michel Jacobson « <a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/2019_11_20_GRICAD_CINES.pdf">Archivage des données à Huma-Num</a> » présentée dans la section Préserver et archiver )</p>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -658,14 +937,16 @@ La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de
 
               </div>
               
-        
-            <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="09-glossaire.html" title="précédent page">
+            </main>
+            <footer class="footer-article noprint">
+                
+    <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="08-conclusion.html" title="précédent page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">précédent</p>
-            <p class="prev-next-title">Glossaire</p>
+            <p class="prev-next-title">Conclusion</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="11-reproductibilite.html" title="suivant page">
@@ -676,32 +957,34 @@ La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de
     <i class="fas fa-angle-right"></i>
     </a>
 </div>
-        
+            </footer>
         </div>
     </div>
-    <footer class="footer">
-    <div class="container">
+    <div class="footer-content row">
+        <footer class="col footer"><p>
+  
+    By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+  
+    Last updated on 06 janv. 2023.<br/>
+    <div class="extra_footer">
       <p>
-        
-          Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
-        
-          Dernière mise à jour le 08 déc. 2021.<br/>
-          <div class="extra_footer">
-            <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
 </p>
 
-          </div>
-      </p>
     </div>
-  </footer>
-</main>
+</p>
+        </footer>
+    </div>
+    
+</div>
 
 
       </div>
     </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
 
   </body>
 </html>
