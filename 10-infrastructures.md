@@ -459,10 +459,11 @@ Ces pôles proposent des Entrepots thématiques Institutionnels pour les donnée
 
 Dans le domaine de la biodiversité, le Pôle national de données de Biodiversité, PNDB, e-Infrastructure nationale de recherche est inscrite sur la feuille de route du MESRI depuis mars 2018. L'UMS PatriNat du Museum National d'Histoire Naturelle, MNHN, en est le maître d'oeuvre. Yvan Le Bras, lors des JCAD 2020 a présenté le PNDB et l'implémentation en cours.
 
-```{admonition} [Infrastructure PNDB, de la donnée de biodiversité au calcul scientifique via la métadonnée.](http://renatis.cnrs.fr/IMG/pdf/RESIF-FREDOC-SISMO.pdf)  
+```{admonition} [Infrastructure PNDB, de la donnée de biodiversité au calcul scientifique via la métadonnée.](https://jcad2020.sciencesconf.org/data/PresentationPNDB_JCAD_03122020_Yvan_Elie_Coline.pdf)  
 :class: seealso
 Yvan Le Bras – Laboratoire Patrinate du Museum national d’Histoire Naturelle, Paris.  
 JCAD 2020 
+[vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766dd51dfe9h33m/iframe/) 
 ```
 
 ### Plateformes d'archivage des données
