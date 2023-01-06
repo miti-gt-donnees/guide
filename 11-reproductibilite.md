@@ -150,7 +150,7 @@ Pour chaque thème, des cours, présentations et TPs ont été organisés. Ces c
 Les usines logicielles et les outils de production de code comme supports des bonnes pratiques de génie logiciel est une [thématique importante des JDEV 2020](http://devlog.cnrs.fr/jdev2020/t4). 
 Au cours de son exposé,  Arnaud Legrand présente les différents enjeux, les solutions émergentes, les outils et standards, les plateformes qui permettent de tracer les codes, les simulations, les données...
 
-```{admonition} [Software Factories for Reproductible Big Data/AI/…](http://devlog.cnrs.fr/_media/jdev2020/t4_pleniere_arnaud_legrand_20_07_10_jdev.pdf?id=jdev2020%3At4&cache=cache)  
+```{admonition} [Software Factories for Reproductible Big Data/AI/…](https://www.canal-u.tv/chaines/jdev/t4-usines-logicielles-et-sciences-reproductibles/jdev2020-t4-keynote-reproductibility)  
 :class: seealso
 Arnaud Legrand, Inria  
 JDEV 2020
