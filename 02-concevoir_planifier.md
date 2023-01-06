@@ -138,10 +138,10 @@ Un Plan de Gestion de Données (PGD), ou Data Management Plan (DMP) en anglais, 
 
 À noter qu'il existe des modèles de [plans de gestion de données dits "de structure"](https://urfistinfo.hypotheses.org/3555) dont la période considérée s'étend au-delà de la durée d'un seul projet. Ce type de modèle s'applique par exemple aux plateformes et est donc sans doute de façon générale plus adapté aux besoins du personnel technique. 
 
-```{admonition} [PGD de structure contrainte ou opportunité ?](https://pgd17juin2019.sciencesconf.org/data/pages/06_PGD_de_structure.pdf)   
+```{admonition} [PGD structure](https://urfistinfo.hypotheses.org/files/2020/07/PGD-Structure_SC-DLH_GTDMP_25062020.pdf)   
 :class: seealso
-P. Clastre, URFM, INRA PACA   
-Montpellier Science Ouverte : Plan de Gestion de Données, 2019
+Dominique L'Hostis, Sylvie Cocaud
+Atelier distant sur la formation aux PGD - 25 juin 2020
 ```
 
 L'initialisation du plan de gestion de données dans cette phase est un préalable à sa mise à jour nécessaire dans les étapes suivantes. Le PGD doit suivre les évolutions du projet.
