@@ -16,7 +16,7 @@ Depuis 2019, une structuration se met en place. Les évolutions font l'objet de 
 
 EOSC a donc fait l'objet d'une [ journée spéciale au CNRS en janvier 2020](https://indico.in2p3.fr/event/20051/). Cette journée a en particulier permis de faire le point sur l'implication française dans le projet à travers plusieurs exemples. 
 
-Plus récemment dans le cadre de l'atelier Dialogu’IST, Réseau Renatis, le 9 juillet 2020, une autre présentation de Volker Beckman a fait le point sur l'[European Open Science Cloud (EOSC), opportunités pour la recherche en France](http://renatis.cnrs.fr/IMG/pdf/DIALOGIST_9_2020_Beckmann.pdf). 
+Plus récemment dans le cadre de l'atelier Dialogu’IST, Réseau Renatis, le 9 juillet 2020, une autre présentation de Volker Beckman a fait le point sur l'[European Open Science Cloud (EOSC), opportunités pour la recherche en France](https://renatis.cnrs.fr/wp-content/uploads/2021/11/DIALOGIST_9_2020_Beckmann.pdf). 
 
 Puis, lors des JCAD 2020, Volker Beckmann a présenté dans "[EOSC en France: défis et opportunités.](https://jcad2020.sciencesconf.org/data/EOSC_Beckmann_JCAD_20201203.pdf)" ([vidéo](https://mediaserveur.u-bourgogne.fr/permalink/v125f766e1c70g9sjvce/iframe/)) les prochaines étapes prévues.
 
