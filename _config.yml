@@ -7,12 +7,16 @@ email: contact-guide@services.cnrs.fr
 description: "Guide de Bonnes Pratiques sur la gestion des données de la Recherche"
 exclude_patterns: [venv,public,README.md,LICENSE.md]
 
+repository:
+  url: https://github.com/miti-gt-donnees/guide
+
 html:
-    home_page_in_navbar: false
-    use_repository_button: false
-    use_edit_page_button: false
-    extra_navbar: <a href="mailto:contact-guide@services.cnrs.fr">contact</a> 
-    extra_footer: |
+  home_page_in_navbar: false
+  use_repository_button: false
+  use_edit_page_button: false
+  use_issues_button: true
+  extra_navbar: <a href="mailto:contact-guide@services.cnrs.fr">contact</a> 
+  extra_footer: |
         <p>
         Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
         </p>
