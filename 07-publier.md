@@ -781,13 +781,6 @@ Ce questionnement "Quels schéma de métadonnées et quels vocabulaires utiliser
 données en naviguant dans les compartiments de la Terre, les capteurs et les propriétés observées.
 Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés dans diverses disciplines, et nous donnes les bonnes pratiques de création des terminologies
 
-```{admonition} [L'interopérabilité sémantique dans les pôles de données](http://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-04-J-Desconnets-Linterope%CC%81rabilite%CC%81-se%CC%81mantique-dans-les-po%CC%82les-de-donne%CC%81es.pdf)
-:class: seealso
-[vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
- J-C Desconnet , Institut de l’information scientifique et technique   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist.cnrs.fr/sist20-21/)  
-```
-
 Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV) indiquent en outre que les données doivent pouvoir être réutilisées et mises en relation avec
 d’autres données au delà de sa propre base de données
 
