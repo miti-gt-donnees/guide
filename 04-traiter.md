@@ -214,10 +214,10 @@ ANF SIST 2018, Toulouse.
   
 *  l'application GeoCMS permettent la visualisation de données géospatiales sur le web et de mettre en place une Infrastructure de Données Géographique (IDG). On peut voir un exemple de l'interêt de cette application sur un[ portail comme celui de  Indigeo ](https://portail.indigeo.fr/geocms/maps/new/false)
 
-```{admonition} [TP GeoCMS - Installation, configuration, visualisation et interrogation de jeux de données géospatialisés](https://sist.cnrs.fr/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation/)   
+```{admonition} [TP GeoCMS - Installation, configuration, visualisation et interrogation de jeux de données géospatialisés](https://sist.cnrs.fr/sist22/#atelier-geocms-managechart)   
 :class: seealso
-Mathias Rouan, Jonathan Schaeffer   
-ANF SIST 2018, Toulouse.
+Mathias Rouan
+ANF SIST 2022, OSUG Grenoble.
 ```
 
 
