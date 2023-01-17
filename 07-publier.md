@@ -85,10 +85,10 @@ Le recueil des métadonnées, ainsi que la rédaction et la mise à jour des mé
 
 C. Bernard, J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à leur unité.
 
-```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-17-O-Lobry-DOI-a-lOSU-OREME.pdf)  
+```{admonition} [Génération automatique d'un catalogue standardisé à l'OSU OREME](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-15-J-Fabre-Generation-automatique-dun-catalogue-GeoNetwork.pdf)  
 :class: seealso
 C. Bernard,   J. Fabre, et O. Lobry  
-[Séminaire SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
+[Séminaire SIST19 OMP Toulouse](https://sist.cnrs.fr/sist19/)
 ```
 
 De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de bibliothèques de programmation écrites en "R", destinées
