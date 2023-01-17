@@ -561,13 +561,12 @@ Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets 
 
 
 Rendre ses métadonnées "FAIR", c'est construire et partager les terminologies au delà de son domaine et de ses bases de données
-et fournir une représentation lisible et accessible pour les machines
+et fournir une représentation lisible et accessible pour les machines.
 
-Imposer un vocabulaire standard existant est difficilement envisageable, et chaque discipline doit adapter son vocabulaire à ses besoins par le biais de relations
+Imposer un vocabulaire standard existant est difficilement envisageable, et chaque discipline doit adapter son vocabulaire à ses besoins par le biais de relations.
 
 C'est ce que nous expliquent Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
-dans leur communication sur les thesaurus au séminaire SIST22
-
+dans leur communication sur les thesaurus au séminaire SIST22 :
 
 ```{admonition} [Vocabulaires contrôlés et thésaurus disciplinaires](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Fairiser-son-vocabulaire.pdf)  
 :class: seealso
