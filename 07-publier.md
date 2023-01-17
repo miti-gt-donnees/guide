@@ -208,6 +208,20 @@ La formation mise en place par le réseau SIST en 2021 avec les concepteurs de c
 Simon Jirka, Carsten Hollmann, Christian Autermann
 ANF SIST - Octobre 2021
 ```
+### diffusion de données de capteurs par Sensor Things API
+
+"SensorThing API" (ST API)  peut être vu comme l'évolution naturelle du standard "SOS"  pour collecter et exposer les données de capteurs (et d'observations au sens large). C'est un protocole ouvert, géospatialisé et unifié pour interconnecter les dispositifs, les données et les applications de l'Internet des objets (IoT) sur le Web. 
+
+l'API ST fournit un moyen standard de gérer et de récupérer des observations et des métadonnées à partir de systèmes de capteurs IoT hétérogènes. Il permet également d'exposer les observations présentes dans les base de données d'observations des organismes de recherche.
+Le standard est d'ores et déjà implémenté dans certains outils logiciels comme FROST (https://fraunhoferiosb.github.io/FROST-Server/) qui semblent prometteurs. Il est également depuis peu reconnu comme un service INSPIRE valide.
+
+le pôle Inside du BRGM en association avec le réseau SIST ont fait un webinaire qui présente ce nouveau standard. Un compte-rendu complet de la journée, avec les présentations, les vidéos et les liens de démonstration, est disponible sur le github du Pôle INSIDE. 
+
+```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/webinaire-sensorthings/)
+:class: seealso
+Sylvain Grellet (BRGM, pôle INSIDE)
+Webinaire SIST - 29 septembre 2022
+```
 
 
 ### Les portails nationaux et européens
