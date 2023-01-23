@@ -214,10 +214,10 @@ ANF SIST 2018, Toulouse.
   
 *  l'application GeoCMS permettent la visualisation de données géospatiales sur le web et de mettre en place une Infrastructure de Données Géographique (IDG). On peut voir un exemple de l'interêt de cette application sur un[ portail comme celui de  Indigeo ](https://portail.indigeo.fr/geocms/maps/new/false)
 
-```{admonition} [TP GeoCMS - Installation, configuration, visualisation et interrogation de jeux de données géospatialisés](https://sist.cnrs.fr/supports-des-anf-gestion-de-donnees-dobservation-les-outils-informatiques-pour-la-valorisation/)   
+```{admonition} [TP GeoCMS - Installation, configuration, visualisation et interrogation de jeux de données géospatialisés](https://sist.cnrs.fr/sist22/#atelier-geocms-managechart)   
 :class: seealso
-Mathias Rouan, Jonathan Schaeffer   
-ANF SIST 2018, Toulouse.
+Mathias Rouan
+ANF SIST 2022, OSUG Grenoble.
 ```
 
 
@@ -561,13 +561,12 @@ Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets 
 
 
 Rendre ses métadonnées "FAIR", c'est construire et partager les terminologies au delà de son domaine et de ses bases de données
-et fournir une représentation lisible et accessible pour les machines
+et fournir une représentation lisible et accessible pour les machines.
 
-Imposer un vocabulaire standard existant est difficilement envisageable, et chaque discipline doit adapter son vocabulaire à ses besoins par le biais de relations
+Imposer un vocabulaire standard existant est difficilement envisageable, et chaque discipline doit adapter son vocabulaire à ses besoins par le biais de relations.
 
 C'est ce que nous expliquent Viqui Agazzi, Véronique Chaffard, Charly Coussot et Jean-Christophe Desconnets
-dans leur communication sur les thesaurus au séminaire SIST22
-
+dans leur communication sur les thesaurus au séminaire SIST22 :
 
 ```{admonition} [Vocabulaires contrôlés et thésaurus disciplinaires](https://sist.cnrs.fr/wp-content/uploads/2022/06/SIST22-Atelier-vocabulaires-Fairiser-son-vocabulaire.pdf)  
 :class: seealso
