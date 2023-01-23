@@ -85,10 +85,10 @@ Le recueil des métadonnées, ainsi que la rédaction et la mise à jour des mé
 
 C. Bernard, J. Fabre, et O. Lobry indiquent comment alimenter un catalogue de données GeoNetwork de l'OSU Oreme, de manière automatique à partir de données stockées dans une base de données interne à leur unité.
 
-```{admonition} [Mise en place de catalogues INSPIRE et de leur alimentation automatique](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST16-17-O-Lobry-DOI-a-lOSU-OREME.pdf)  
+```{admonition} [Génération automatique d'un catalogue standardisé à l'OSU OREME](https://sist.cnrs.fr/wp-content/uploads/2021/12/SIST19-15-J-Fabre-Generation-automatique-dun-catalogue-GeoNetwork.pdf)  
 :class: seealso
 C. Bernard,   J. Fabre, et O. Lobry  
-[Séminaire SIST16 Montpellier](https://sist.cnrs.fr/sist16/)
+[Séminaire SIST19 OMP Toulouse](https://sist.cnrs.fr/sist19/)
 ```
 
 De la même manière, Emmanuel Blondel est l'auteur d'un ensemble de bibliothèques de programmation écrites en "R", destinées
@@ -207,6 +207,20 @@ La formation mise en place par le réseau SIST en 2021 avec les concepteurs de c
 :class: seealso
 Simon Jirka, Carsten Hollmann, Christian Autermann
 ANF SIST - Octobre 2021
+```
+### diffusion de données de capteurs par Sensor Things API
+
+"SensorThing API" (ST API)  peut être vu comme l'évolution naturelle du standard "SOS"  pour collecter et exposer les données de capteurs (et d'observations au sens large). C'est un protocole ouvert, géospatialisé et unifié pour interconnecter les dispositifs, les données et les applications de l'Internet des objets (IoT) sur le Web. 
+
+l'API ST fournit un moyen standard de gérer et de récupérer des observations et des métadonnées à partir de systèmes de capteurs IoT hétérogènes. Il permet également d'exposer les observations présentes dans les base de données d'observations des organismes de recherche.
+Le standard est d'ores et déjà implémenté dans certains outils logiciels comme FROST (https://fraunhoferiosb.github.io/FROST-Server/) qui semblent prometteurs. Il est également depuis peu reconnu comme un service INSPIRE valide.
+
+le pôle Inside du BRGM en association avec le réseau SIST ont fait un webinaire qui présente ce nouveau standard. Un compte-rendu complet de la journée, avec les présentations, les vidéos et les liens de démonstration, est disponible sur le github du Pôle INSIDE. 
+
+```{admonition} [ANF SOS/52North](https://sist.cnrs.fr/webinaire-sensorthings/)
+:class: seealso
+Sylvain Grellet (BRGM, pôle INSIDE)
+Webinaire SIST - 29 septembre 2022
 ```
 
 
@@ -766,13 +780,6 @@ Cela nécessite :
 Ce questionnement "Quels schéma de métadonnées et quels vocabulaires utiliser ?" est au coeur de la démarche de l'IR "Data Terra" et de ses pôles de données, comme nous l'explique J-C Desconnet au séminaire SIST 2020 à Lyon, puisque l'objectif est de découvrir les
 données en naviguant dans les compartiments de la Terre, les capteurs et les propriétés observées.
 Dans cette présentation J-C Desconnet passe en revue les vocabulaires utilisés dans diverses disciplines, et nous donnes les bonnes pratiques de création des terminologies
-
-```{admonition} [L'interopérabilité sémantique dans les pôles de données](http://sist.cnrs.fr/wp-content/uploads/2021/12/SIST20-21-04-J-Desconnets-Linterope%CC%81rabilite%CC%81-se%CC%81mantique-dans-les-po%CC%82les-de-donne%CC%81es.pdf)
-:class: seealso
-[vidéo](https://nuage.osupytheas.fr/s/Fi2LiZSHBq2GTnR)  
- J-C Desconnet , Institut de l’information scientifique et technique   
-[Séminaire SIST20 webinaire à l'OSU de Lyon, 2020](https://sist.cnrs.fr/sist20-21/)  
-```
 
 Victoria Agazzi (CNRS, UAR CPST), Véronique Chaffard (IRD, UMR IGE), Charly Coussot (IRD, OSUG), Jean-Christophe Desconnets (IRD, ESPACE-DEV) indiquent en outre que les données doivent pouvoir être réutilisées et mises en relation avec
 d’autres données au delà de sa propre base de données
