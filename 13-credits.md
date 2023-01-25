@@ -32,7 +32,7 @@ Cet ouvrage est mis à disposition selon les termes de la [Licence Creative Comm
 
 Ce site a été conçu et réalisé par Pierre Navaro avec [Jupyter Book](https://jupyterbook.org), logiciel libre diffusé sous licence [BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause).
 
-[![DOI](images/309799008.png)](https://zenodo.org/record/4561570)
+[![DOI](images/309799008.png)](https://doi.org/10.5281/zenodo.4561569)
 
 [![HAL](images/HAL_Logo_RVB.png)](https://hal.archives-ouvertes.fr/hal-03152732)
 
