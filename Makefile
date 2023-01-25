@@ -5,7 +5,8 @@ default: $(md_files)
 	jupyter-book build . 
 	jupyter-book build . --builder pdflatex
 	mv _build/html public
-	mv _build/latex/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf public/
+	cp _build/latex/*.pdf .
+	mv _build/latex/*.pdf public/
 
 .PHONY: clean
 
