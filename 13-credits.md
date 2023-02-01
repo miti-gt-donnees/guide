@@ -17,6 +17,7 @@ Ce guide de bonnes pratiques sur la gestion des données dans les réseaux méti
 
 ## Relecteurs
 
+* Mathilde Bernier : [DDOR](https://www.science-ouverte.cnrs.fr/)
 * Pierre Brochard : [réseau DevLog](http://devlog.cnrs.fr/)
 * Dominique Desbois : [réseau DevLog](http://devlog.cnrs.fr/)
 * Emilie Lerigoleur : [réseau SIST](https://sist.cnrs.fr)
