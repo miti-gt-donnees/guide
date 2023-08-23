@@ -1,50 +1,61 @@
 
+
 <!DOCTYPE html>
 
-<html lang="fr">
+
+<html lang="fr" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>Infrastructures</title>
-    
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -52,474 +63,311 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '10-infrastructures';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
     <link rel="next" title="Reproductibilité" href="11-reproductibilite.html" />
     <link rel="prev" title="Conclusion" href="08-conclusion.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="fr">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="fr"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
-    <div class="container-fluid" id="banner"></div>
-
-    
-
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <a class="skip-link" href="#main-content">Passer au contenu principal</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="00-introduction.html">
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="_static/logo.png" class="logo" alt="logo">
-      
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
- </span>
-</p>
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text"> </span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="01-imaginer.html">
-   1. Imaginer et préparer
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="02-concevoir_planifier.html">
-   2. Concevoir et planifier
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="03-collecter.html">
-   3. Collecter
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="04-traiter.html">
-   4. Traiter
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="05-analyser.html">
-   5. Analyser
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="06-archiver.html">
-   6. Préserver et archiver
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="07-publier.html">
-   7. Publier et diffuser
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="01-imaginer.html">1. Imaginer et préparer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-concevoir_planifier.html">2. Concevoir et planifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-collecter.html">3. Collecter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-traiter.html">4. Traiter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-analyser.html">5. Analyser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-archiver.html">6. Préserver et archiver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-publier.html">7. Publier et diffuser</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text"> </span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="08-conclusion.html">
-   Conclusion
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Infrastructures
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="11-reproductibilite.html">
-   Reproductibilité
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="13-credits.html">
-   Crédits
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf">
-   Document pdf
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="08-conclusion.html">Conclusion</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Infrastructures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-reproductibilite.html">Reproductibilité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-credits.html">Crédits</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf">Document pdf</a></li>
 </ul>
 
     </div>
 </nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
-            </div>
-            
-        </div>
     </div>
-    <div id="rtd-footer-container"></div>
-</div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
-          
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
 
-
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
 <div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
 
-
-
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
   
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
     </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F10-infrastructures.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Ouvrez un problème"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F10-infrastructures.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="bottom"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-lightbulb"></i>
   </span>
 
 </a>
 
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Téléchargez cette page">
+    <i class="fas fa-download"></i>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="_sources/10-infrastructures.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/10-infrastructures.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Télécharger le fichier source"
+   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="btn__text-container">.md</span>
 </a>
-
-      </li>
+</li>
+      
+      
+      
       
       <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Imprimer au format PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-file-pdf"></i>
   </span>
-<span class="headerbtn__text-container">.pdf</span>
+<span class="btn__text-container">.pdf</span>
 </button>
-
-      </li>
+</li>
       
-    </ul>
-  </div>
+  </ul>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Mode plein écran"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
   </span>
 
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="clair/sombre" aria-label="clair/sombre" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Recherche" aria-label="Recherche" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </label>
-
+</div></div>
+      
     </div>
+  
 </div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#infrastructures-europeennes">
-   Infrastructures Européennes
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage">
-     European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu">
-     Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), egi.eu
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#infrastructures-nationales">
-   Infrastructures Nationales
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-de-travail-collaboratif">
-     Infrastructures de travail collaboratif
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-de-traitement-de-donnees-calcul-stockage">
-     Infrastructures de traitement de données, calcul, stockage
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-des-mesocentres-et-centres-regionaux">
-     Infrastructures des mésocentres et centres régionaux,
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique">
-   Infrastructure pour les expériences à grande échelle en informatique
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#plateforme-nationale-federee-des-donnees-de-la-recherche">
-   Plateforme nationale fédérée des données de la recherche
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-regionales-de-gestion-de-donnees">
-     Infrastructures régionales de gestion de données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-datalakes-ou-lacs-de-donnees">
-     Les “datalakes” ou “lacs de données”
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-pour-linformation-scientifique-et-technique">
-     Infrastructures pour l’information scientifique et technique
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-pour-les-logiciels-les-codes-sources">
-     Infrastructures pour les logiciels / les codes sources
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-thematiques-de-donnees">
-     Infrastructures thématiques de données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#plateformes-darchivage-des-donnees">
-     Plateformes d’archivage des données
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-    </nav>
 </div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Infrastructures</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#infrastructures-europeennes">
-   Infrastructures Européennes
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage">
-     European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu">
-     Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), egi.eu
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#infrastructures-nationales">
-   Infrastructures Nationales
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-de-travail-collaboratif">
-     Infrastructures de travail collaboratif
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-de-traitement-de-donnees-calcul-stockage">
-     Infrastructures de traitement de données, calcul, stockage
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-des-mesocentres-et-centres-regionaux">
-     Infrastructures des mésocentres et centres régionaux,
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique">
-   Infrastructure pour les expériences à grande échelle en informatique
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#plateforme-nationale-federee-des-donnees-de-la-recherche">
-   Plateforme nationale fédérée des données de la recherche
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-regionales-de-gestion-de-donnees">
-     Infrastructures régionales de gestion de données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-datalakes-ou-lacs-de-donnees">
-     Les “datalakes” ou “lacs de données”
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-pour-linformation-scientifique-et-technique">
-     Infrastructures pour l’information scientifique et technique
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-pour-les-logiciels-les-codes-sources">
-     Infrastructures pour les logiciels / les codes sources
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#infrastructures-thematiques-de-donnees">
-     Infrastructures thématiques de données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#plateformes-darchivage-des-donnees">
-     Plateformes d’archivage des données
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
+              
+              
 
-                        </nav>
-                    </div>
-                </div>
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Infrastructures</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contenu </h2>
             </div>
-            <main id="main-content" role="main">
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-europeennes">Infrastructures Européennes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage">European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu">Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), egi.eu</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-nationales">Infrastructures Nationales</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-de-travail-collaboratif">Infrastructures de travail collaboratif</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-de-traitement-de-donnees-calcul-stockage">Infrastructures de traitement de données, calcul, stockage</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-des-mesocentres-et-centres-regionaux">Infrastructures des mésocentres et centres régionaux,</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique">Infrastructure pour les expériences à grande échelle en informatique</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plateforme-nationale-federee-des-donnees-de-la-recherche">Plateforme nationale fédérée des données de la recherche</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-regionales-de-gestion-de-donnees">Infrastructures régionales de gestion de données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-datalakes-ou-lacs-de-donnees">Les “datalakes” ou “lacs de données”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-pour-linformation-scientifique-et-technique">Infrastructures pour l’information scientifique et technique</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-pour-les-logiciels-les-codes-sources">Infrastructures pour les logiciels / les codes sources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-thematiques-de-donnees">Infrastructures thématiques de données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plateformes-darchivage-des-donnees">Plateformes d’archivage des données</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
                 
-              <div>
-                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
   <section class="tex2jax_ignore mathjax_ignore" id="infrastructures">
-<span id="id1"></span><h1>Infrastructures<a class="headerlink" href="#infrastructures" title="Lien permanent vers ce titre">#</a></h1>
+<span id="id1"></span><h1>Infrastructures<a class="headerlink" href="#infrastructures" title="Lien permanent vers cette rubrique">#</a></h1>
 <p>Le paysage des infrastructures destinées à la recherche scientifique est vaste. Cette section est destinée à la présentation d’infrastructures européennes, nationales, thématiques dans différents domaines. Cette liste n’est bien sûr pas exhaustive et sa caractéristique principale est d’être alimentée par les présentations qui ont été réalisées au cours des événements organisés par les réseaux métiers. Ces exposés ciblent donc en général le public de ces réseaux.</p>
 <section id="infrastructures-europeennes">
-<h2>Infrastructures Européennes<a class="headerlink" href="#infrastructures-europeennes" title="Lien permanent vers ce titre">#</a></h2>
+<h2>Infrastructures Européennes<a class="headerlink" href="#infrastructures-europeennes" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Ces infrastructures font régulièrement l’objet de présentations qui permettent de comprendre leur organisation, leur mode de fonctionnement, et de suivre leurs évolutions.</p>
 <section id="european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage">
-<h3>European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)<a class="headerlink" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage" title="Lien permanent vers ce titre">#</a></h3>
+<h3>European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)<a class="headerlink" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Le cloud européen EOSC a été abordé dès 2019 par Volker Beckman, alors chargé de mission CNRS-EOSC et Directeur adjoint scientifique Calcul et Données IN2P3/CNRS, et maintenant Chargé de Mission European Open Science Cloud (EOSC) au MESRI lors des <a class="reference external" href="https://jcad2019.sciencesconf.org/data/EOSC_FranceGrilles_Beckmann_20191011.pdf">JCAD 2019</a>. Il expliquait alors comment concrètement les chercheurs peuvent utiliser EOSC, et faisait le point sur les principales questions que l’on se pose sur EOSC : Qu’est ce que EOSC ?	Où en est-on et quelles sont les prochaines étapes ? Comment puis-je contribuer et/ou bénéficier ? EOSC en France.
 Il y présentait la stratégie européenne d’élaboration de ce Cloud européen lancé en 2016, qui offre aux chercheurs des services, l’accès à des données et à d’autres ressources fournies par des infrastructures de recherche publiques nationales, régionales et institutionnelles en Europe.</p>
 <p>Depuis 2019, une structuration se met en place. Les évolutions font l’objet de présentations régulières dans le cadre de journées dédiées ou à l’occasion d’événements.</p>
@@ -557,7 +405,7 @@ JCAD 2021</p>
 </div>
 </section>
 <section id="infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu">
-<h3>Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), <a class="reference external" href="http://egi.eu">egi.eu</a><a class="headerlink" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), <a class="reference external" href="http://egi.eu">egi.eu</a><a class="headerlink" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>L’infrastructure EGI a été présentée de façon complète en 2018 lors des JCAD, Journées Calcul et Données : la fédération, les participants, le catalogue de services, les utilisateurs, le positionnement dans EOSC. Le projet EOSC-Hub qui participe à la construction d’EOSC est également détaillé. C’est la présentation à consulter si vous souhaitez savoir ce qu’est EGI.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2018.sciencesconf.org/data/20181024_JCAD_EGI_v1.1.pdf">EGI, the EOSC and the Hub</a>  </p>
@@ -571,19 +419,19 @@ JCAD 2018</p>
 <p>Une présentation des évolutions a eu lieu en 2019 avec un focus sur quelques services EGI - Check-in, Cloud, Stockage, Notebooks, Application on Demand - et quelques communautés utilisatrices.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/EGI_update_about_services_2019_10_10_JCAD_v3_vf.pdf">Update about EGI and services to support user communities and Federation’s participants</a>      </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=4Q88P63z&amp;width=100%&amp;height=100%">Vidéo : </a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=4Q88P63z&amp;width=100%25&amp;height=100%25">Vidéo : </a><br />
 Baptiste Grenier, fondation EGI<br />
 JCAD 2019</p>
 </div>
 </section>
 </section>
 <section id="infrastructures-nationales">
-<h2>Infrastructures Nationales<a class="headerlink" href="#infrastructures-nationales" title="Lien permanent vers ce titre">#</a></h2>
+<h2>Infrastructures Nationales<a class="headerlink" href="#infrastructures-nationales" title="Lien permanent vers cette rubrique">#</a></h2>
 <p><a class="reference external" href="https://cat.opidor.fr/index.php/Cat_OPIDoR,_wiki_des_services_d%C3%A9di%C3%A9s_aux_donn%C3%A9es_de_la_recherche">CAT OPIDoR</a> recense les services dédiés aux données de la recherche
 en perspective du cycle de vie des données et par type de service. Ce catalogue se présente sous la forme d’un wiki, n’hésitez donc pas à le compléter si besoin.</p>
 <p>Les présentations détaillées de différentes infrastructures et de leurs services citées ci-dessous peuvent vous permettre à la fois de découvrir le large paysage de l’offre en Europe et en France mais aussi de vérifier rapidement si les critères de votre projet peuvent être remplis par les différentes infrastructures et leurs offres de services.</p>
 <section id="infrastructures-de-travail-collaboratif">
-<h3>Infrastructures de travail collaboratif<a class="headerlink" href="#infrastructures-de-travail-collaboratif" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Infrastructures de travail collaboratif<a class="headerlink" href="#infrastructures-de-travail-collaboratif" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Dans la phase de montage de projet, il convient de choisir et de mettre en place des outils de gestion de projets tels que :</p>
 <ul class="simple">
 <li><p>des listes de discussion fournies par un service de gestion de listes,</p></li>
@@ -593,7 +441,7 @@ en perspective du cycle de vie des données et par type de service. Ce catalogue
 <p>Pour cela il est utile de connaître les possibilités et ressources internes à l’unité et celles fournies par l’institution ou des partenaires extérieurs : université, CNRS, Renater, etc…</p>
 </section>
 <section id="infrastructures-de-traitement-de-donnees-calcul-stockage">
-<h3>Infrastructures de traitement de données, calcul, stockage<a class="headerlink" href="#infrastructures-de-traitement-de-donnees-calcul-stockage" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Infrastructures de traitement de données, calcul, stockage<a class="headerlink" href="#infrastructures-de-traitement-de-donnees-calcul-stockage" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>De nombreuses infrastructures offrent des services à la communauté scientifique. Il convient de choisir celles qui conviennent le mieux pour chaque projet.</p>
 <p><strong>Infrastructure France Grilles, <a class="reference external" href="http://www.france-grilles.fr">www.france-grilles.fr</a></strong></p>
 <p>France Grilles a fait l’objet lors des JCAD 2021 d’une présentation rétrospective des dix dernières années d’activité. Dans cet exposé, Vincent Breton a expliqué les évolutions, l’implication dans l’infrastructure EGI et dans les projets récents ainsi que les différents services proposés.</p>
@@ -619,7 +467,7 @@ JCAD 2018</p>
 <p>Le projet Phénome, Infrastructure nationale de phénomique végétale, regroupe sur neuf sites des plateformes expérimentales de phénotypage haut-débit (champ, serre, omique). Un système complet a été mis en place pour ce projet, système qui s’appuie sur les services FG-iRODS et FG-Cloud.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/4P.pdf">Déploiement de la plateforme de traitement des données phénotypage haut débit 4P sur l’infrastructure France Grilles</a>   </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=P0420GlL&amp;width=100%&amp;height=100%">Vidéo : </a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=P0420GlL&amp;width=100%25&amp;height=100%25">Vidéo : </a><br />
 Vincent Negre, Eric David, Philippe Burger, Romain Chapuis, Boris Adam,  Anne Tireau, Patrick Moreau, Antony Tong, Samuel Thomas, Gallian Colombeau, Pascal Neveu, Jérôme Pansanel, Frédéric Baret, Marie Weiss<br />
 JCAD 2019</p>
 </div>
@@ -657,7 +505,7 @@ JCAD 2021</p>
 </ul>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/Presentation_JCAD_GENCI.pdf">Actualité GENCI</a>   </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=0j2Egs4s&amp;width=100%&amp;height=100%">vidéo</a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=0j2Egs4s&amp;width=100%25&amp;height=100%25">vidéo</a><br />
 Philippe Lavocat représenté par Elise Quentel et Jean-Philippe Proux, GENCI<br />
 JCAD 2019</p>
 </div>
@@ -675,7 +523,7 @@ JCAD 2021</p>
 </div>
 </section>
 <section id="infrastructures-des-mesocentres-et-centres-regionaux">
-<h3>Infrastructures des mésocentres et centres régionaux,<a class="headerlink" href="#infrastructures-des-mesocentres-et-centres-regionaux" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Infrastructures des mésocentres et centres régionaux,<a class="headerlink" href="#infrastructures-des-mesocentres-et-centres-regionaux" title="Lien permanent vers cette rubrique">#</a></h3>
 <p><strong>Présentations générales</strong></p>
 <p>Au niveau régional et local, les mésocentres de calcul fournissent des ressources et un accompagnement de proximité plus souple et en général plus facile d’accès que les ressources nationales.</p>
 <p>Une <a class="reference external" href="https://calcul.math.cnrs.fr/attachments/spip/IMG/pdf/aventuremeso_v1.1.pdf">présentation réalisée en 2017</a> fait un retour sur les mésocentres au cours des dix dernières années.</p>
@@ -703,7 +551,7 @@ JCAD 2021</p>
 <p>Lors des JCAD 2019, Cyrille Toulet a présenté l’intégration du cloud OpenStack du mésocentre de Lille dans plusieurs fédérations de cloud nationales et internationale. Il explique l’intérêt de ces intégrations et les aspects techniques et donne des cas d’utilisation dans différentes disciplines.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/Inte_gration_d_un_cloud_OpenStack_a_plusieurs_fe_de_rations_de_cloud_11_octobre_2019_.pdf">Intégration d’un cloud OpenStack à plusieurs fédérations de cloud</a></p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=21F552ao&amp;width=100%&amp;height=100%">Vidéo : </a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=21F552ao&amp;width=100%25&amp;height=100%25">Vidéo : </a><br />
 Cyrille TOULET, Mésocentre de Lille, Université de Lille
 JCAD 2019</p>
 </div>
@@ -735,18 +583,18 @@ JCAD 2018</p>
 <p>Il est aussi possible d’utiliser des ressources fournies par plusieurs mésocentres dans le cadre d’un même projet. Ce retour d’expérience dans le domaine de la chimie en est un témoignage.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/JCAD2019AScemama.pdf">Calculs de chimie quantique distribués entre méso-centres avec Quantum Package</a></p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=6E3Cefg2&amp;width=100%&amp;height=100%">Vidéo : </a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=6E3Cefg2&amp;width=100%25&amp;height=100%25">Vidéo : </a><br />
 Anthony Scemama, Patrick BOUSQUET-MELOU, Marie-Sophie Cabot, Nicolas Renon<br />
 JCAD 2019</p>
 </div>
 </section>
 </section>
 <section id="infrastructure-pour-les-experiences-a-grande-echelle-en-informatique">
-<h2>Infrastructure pour les expériences à grande échelle en informatique<a class="headerlink" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique" title="Lien permanent vers ce titre">#</a></h2>
+<h2>Infrastructure pour les expériences à grande échelle en informatique<a class="headerlink" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>SILECS, “Super Infrastructure for Large-scale Experimental Computer Science”, est dédiée aux expériences à grande échelle en informatique basée sur les infrastructures FIT et GRID’5000. Cette infrastructure, tout en conservant les objectifs de FIT et GRID’5000, vise de nouveaux challenges : Internet des objets - Internet of Things (IoT) et Clouds, nouvelles générations de plateformes Cloud et de piles logicielles (Edge, FOG), applications de Data streaming, gestion de volumes de données importants, mobilité…</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/silecs_jcad2019.pdf">SILECS, une infrastructure pour les expériences à grande échelle en informatique</a>   </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=4HxTGQp2&amp;width=100%&amp;height=100%">Vidéo : </a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=4HxTGQp2&amp;width=100%25&amp;height=100%25">Vidéo : </a><br />
 Frédéric Desprez, Christian Perez, Inria<br />
 JCAD 2019</p>
 </div>
@@ -766,7 +614,7 @@ JCAD 2021</p>
 </div>
 </section>
 <section id="plateforme-nationale-federee-des-donnees-de-la-recherche">
-<h2>Plateforme nationale fédérée des données de la recherche<a class="headerlink" href="#plateforme-nationale-federee-des-donnees-de-la-recherche" title="Lien permanent vers ce titre">#</a></h2>
+<h2>Plateforme nationale fédérée des données de la recherche<a class="headerlink" href="#plateforme-nationale-federee-des-donnees-de-la-recherche" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Lors des JCAD 2021, Isabelle Blanc, Administratrice ministérielle des données, des algorithmes et des codes sources au MESRI a rappelé la place des données de recherche dans les politiques nationales et les ambitions du deuxième plan national pour la science ouverte. Dans son exposé “Recherche Data Gouv: une plateforme nationale fédérée des données de la recherche, dans le contexte du Plan national pour la science ouverte et de la politique des données , des algorithmes et des codes sources de l’ESR.” elle a également présenté la plateforme nationale fédérée des données de la recherche et le calendrier d’ouverture des services associés.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2021.sciencesconf.org/data/Presentation_longue_Orateurs_Crouzet_et_Aulanier_Quelle_Place_Pour_Les_Mesocentres.pdf">Recherche Data Gouv: une plateforme nationale fédérée des données de la recherche, dans le contexte du Plan national pour la science ouverte et de la politique des données , des algorithmes et des codes sources de l’ESR.</a>   </p>
@@ -775,13 +623,13 @@ Isabelle Blanc, MESRI<br />
 JCAD 2021</p>
 </div>
 <section id="infrastructures-regionales-de-gestion-de-donnees">
-<h3>Infrastructures régionales de gestion de données<a class="headerlink" href="#infrastructures-regionales-de-gestion-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Infrastructures régionales de gestion de données<a class="headerlink" href="#infrastructures-regionales-de-gestion-de-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Des initiatives régionales proposent des infrastructures de gestion et valorisation des données pour la recherche. Les infrastructures thématiques sont décrites dans la partie Publier de ce guide.</p>
 <p>A Toulouse, le mésocentre CALMIP étoffe son offre de services et construit CALLISTO, une interface pour le partage et l’analyse semi-automatique de données. CALLISTO propose ainsi une aide à la rédaction de Plans de Gestion de Données sur les aspects techniques, une plateforme de partage de données proche des utilisateurs et en lien avec les ressources du supercalculateur pour permettre la réutilisation des données hébergées.</p>
 <p>Une présentation du projet a été réalisée lors des JCAD 2019, puis une démonstration a eu lieu lors des JCAD 2020 qui permettent de voir les évolutions. Enfin, lors des JCAD 2021, le prototype de la plateforme Datanoos a fait l’objet d’une présentation détaillée.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/callisto_jcad.pdf">CALLISTO : Une interface pour le partage et l’analyse semi-automatique de données.</a>  </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=8r669jA6&amp;width=100%&amp;height=100%">Vidéo : </a>
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=8r669jA6&amp;width=100%25&amp;height=100%25">Vidéo : </a>
 Thierry Louge - du mésocentre CALMIP, Toulouse.<br />
 JCAD 2019</p>
 </div>
@@ -819,19 +667,19 @@ JCAD 2021</p>
 </div>
 </section>
 <section id="les-datalakes-ou-lacs-de-donnees">
-<h3>Les “datalakes” ou “lacs de données”<a class="headerlink" href="#les-datalakes-ou-lacs-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Les “datalakes” ou “lacs de données”<a class="headerlink" href="#les-datalakes-ou-lacs-de-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>De nouvelles infrastructures de stockage de grandes quantités de données apparaissent dans le paysage. Plusieurs présentations vous permettront de vous faire une idée sur ce qu’est un Data Lake même si le concept n’est pas encore complétement défini et figé.</p>
 <p>Jean-Pierre Gleyze présente le contexte du CNES, quelques applications et leur dimensionnement. Les points de vue des utilisateurs et des administeurs des infrastructures sont exposés, aussi cet exposé intéressera autant les informaticiens que les utilisateurs scientifiques.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/JACD_2019_datalake_CNES.pdf">Keynote : Infrastructures de traitement de données : vers un datalake CNES</a>   </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=x9b2k0Gd&amp;width=100%&amp;height=100%">Vidéo : </a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=x9b2k0Gd&amp;width=100%25&amp;height=100%25">Vidéo : </a><br />
 Jean-Pierre Gleyze, CNES<br />
 JCAD 2019</p>
 </div>
 <p>CEBA, a pour ambition la création d’un « grand » observatoire de l’environnement en Auvergne, unique en Europe. Ce cloud environnemental permettra la gestion des données à tous les stades de leur cycle de vie. Il propose différents services comme un site Web, des outils d’ingestion, un moteur d’indexation, un catalogue de données, des outils de visualisation qui s’appuient sur une infrastructure incluant des bases de données et système de fichiers.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/20191002_JCAD_CEBA.pdf">CEBA, un data lake dédié à l’observation des écosystèmes environnementaux</a>   </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=gS95Z11G&amp;width=100%&amp;height=100%">Vidéo : </a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=gS95Z11G&amp;width=100%25&amp;height=100%25">Vidéo : </a><br />
 Francis Ogereau, Vincent Breton, Alexandre Claude, David Grimbichler, Antoine Mahul, Gilles Mailhot, Jérémy Mezhoud, Christine Plumejeaud, Laurent Royer,  Estelle Théveniaud, Richard Vandaele, David Sarramia<br />
 JCAD 2019</p>
 </div>
@@ -845,13 +693,13 @@ JCAD 2018</p>
 </div>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/DOMA_JCAD_2019_v2.pdf">Projet DOMA : Retour sur la première année des études faites autour des futurs services de stockage de données scientifiques.</a>   </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&amp;width=100%&amp;height=100%">Vidéo : </a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=8zxEkSuf&amp;width=100%25&amp;height=100%25">Vidéo : </a><br />
 Eric Fede, CC-IN2P3, CNRS<br />
 JCAD 2019</p>
 </div>
 </section>
 <section id="infrastructures-pour-linformation-scientifique-et-technique">
-<h3>Infrastructures pour l’information scientifique et technique<a class="headerlink" href="#infrastructures-pour-linformation-scientifique-et-technique" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Infrastructures pour l’information scientifique et technique<a class="headerlink" href="#infrastructures-pour-linformation-scientifique-et-technique" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>L’Institut de l’Information Scientifique et Technique (INIST), unité de service du CNRS déploie ses activités vers un projet d’ingénierie des connaissances qui s’articule
 autour de 3 axes principaux : <strong>« Analyse et fouille de l’information », « Valorisation des données de la recherche », « Accès à l’information scientifique »</strong>. Claire
 François présente ici un <strong>panorama des outils et services proposés aux chercheurs</strong> : portail d’accès aux ressources électroniques (bibCNRS), plateforme d’accès aux
@@ -867,17 +715,17 @@ Fredocs 2018 - Démarches innovantes en IST : expérimenter, proposer, (se) réi
 </div>
 </section>
 <section id="infrastructures-pour-les-logiciels-les-codes-sources">
-<h3>Infrastructures pour les logiciels / les codes sources<a class="headerlink" href="#infrastructures-pour-les-logiciels-les-codes-sources" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Infrastructures pour les logiciels / les codes sources<a class="headerlink" href="#infrastructures-pour-les-logiciels-les-codes-sources" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Le projet <strong>Software Heritage</strong> a pour objectif de collecter, préserver et rendre disponible le code source (et son historique) de tous les logiciels publiquement disponibles. Cette présentation explique le contexte et les motivations qui ont donné lieu à Software Heritage, puis, l’architecture mise en oeuvre.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://jcad2019.sciencesconf.org/data/2019_10_10_jcadSoftwareHeritage.pdf">Software Heritage: source code archival and analysis at the scale of the world</a>  </p>
-<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=9rW78559&amp;width=100%&amp;height=100%">vidéo</a><br />
+<p><a class="reference external" href="https://prismes.univ-toulouse.fr/player.php?code=9rW78559&amp;width=100%25&amp;height=100%25">vidéo</a><br />
 Stefano Zacchiroli, Inria<br />
 JCAD 2019</p>
 </div>
 </section>
 <section id="infrastructures-thematiques-de-donnees">
-<h3>Infrastructures thématiques de données<a class="headerlink" href="#infrastructures-thematiques-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Infrastructures thématiques de données<a class="headerlink" href="#infrastructures-thematiques-de-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Des portails nationaux et européens organisés autour d’une thématique scientifique existent par ailleurs. Ils donnent accès à des pôles de données qui fédèrent dans différentes disciplines, des activités de gestion et valorisation des données.</p>
 <p>Au sein de l’<a class="reference external" href="https://www.data-terra.org/">infrastructure de recherche “Data Terra”</a> on trouve par exemple le pôles de données :</p>
 <ul class="simple">
@@ -899,7 +747,7 @@ JCAD 2020
 </div>
 </section>
 <section id="plateformes-darchivage-des-donnees">
-<h3>Plateformes d’archivage des données<a class="headerlink" href="#plateformes-darchivage-des-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3>Plateformes d’archivage des données<a class="headerlink" href="#plateformes-darchivage-des-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Agrée par le Service Interministériel des Archives de France, le <a class="reference external" href="https://www.cines.fr/">CINES</a> (Centre Informatique National de l’Enseignement Supérieur) est le centre officiel d’archivage d’une partie de la production scientifique de nos établissements.<br />
 Il offre une solution pour la conservation à long terme du patrimoine numérique (données scientifiques : issues d’observations ou de calculs, données patrimoniales, données administratives) et est impliqué le projet européen <a class="reference external" href="https://www.eudat.eu/">EUDAT</a> visant à mettre en place une infrastructure européenne d’échange et de conservation de données.</p>
 <p>A l’occasion d’une intervention au Gricad à Grenoble, Olivier Rouchon, détaille largement l’offre de service du CINES et témoigne de la variété des données archivées. Il retrace également le processus d’archivage et rend compte des défis et problématiques qu’il pose.</p>
@@ -927,7 +775,7 @@ La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./."
         },
         predefinedOutput: true
@@ -935,56 +783,127 @@ La TGIR Huma-Num propose une offre de service pour accompagne les producteurs de
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="08-conclusion.html" title="précédent page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">précédent</p>
-            <p class="prev-next-title">Conclusion</p>
-        </div>
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="08-conclusion.html"
+       title="page précédente">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">précédent</p>
+        <p class="prev-next-title">Conclusion</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="11-reproductibilite.html" title="suivant page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="11-reproductibilite.html"
+       title="page suivante">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">suivant</p>
         <p class="prev-next-title">Reproductibilité</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
+</div></div>
+  
 </div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contenu
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-europeennes">Infrastructures Européennes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#european-open-science-cloud-eosc-infrastructure-europeenne-pour-la-science-ouverte-en-cours-de-montage">European Open Science Cloud (EOSC), Infrastructure Européenne pour la science ouverte (en cours de montage)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructure-europeenne-egi-infrastructure-proposant-differents-services-bases-sur-des-infrastructures-grille-et-cloud-egi-eu">Infrastructure Européenne EGI (infrastructure proposant différents services basés sur des infrastructures grille et cloud), egi.eu</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-nationales">Infrastructures Nationales</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-de-travail-collaboratif">Infrastructures de travail collaboratif</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-de-traitement-de-donnees-calcul-stockage">Infrastructures de traitement de données, calcul, stockage</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-des-mesocentres-et-centres-regionaux">Infrastructures des mésocentres et centres régionaux,</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructure-pour-les-experiences-a-grande-echelle-en-informatique">Infrastructure pour les expériences à grande échelle en informatique</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#plateforme-nationale-federee-des-donnees-de-la-recherche">Plateforme nationale fédérée des données de la recherche</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-regionales-de-gestion-de-donnees">Infrastructures régionales de gestion de données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-datalakes-ou-lacs-de-donnees">Les “datalakes” ou “lacs de données”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-pour-linformation-scientifique-et-technique">Infrastructures pour l’information scientifique et technique</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-pour-les-logiciels-les-codes-sources">Infrastructures pour les logiciels / les codes sources</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#infrastructures-thematiques-de-donnees">Infrastructures thématiques de données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plateformes-darchivage-des-donnees">Plateformes d’archivage des données</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-    By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+  <div class="footer-item">
+    
+<p class="component-author">
+Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS
+</p>
+
+  </div>
   
-    Last updated on 01 févr. 2023.<br/>
-    <div class="extra_footer">
-      <p>
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    <p class="last-updated">
+  Mis à jour le 23 août 2023.
+  <br/>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
 </p>
 
-    </div>
-</p>
-        </footer>
-    </div>
-    
 </div>
+  </div>
+  
+</div>
+          </footer>
+        
 
-
-      </div>
+      </main>
     </div>
+  </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
 
-
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>

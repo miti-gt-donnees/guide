@@ -1,50 +1,61 @@
 
+
 <!DOCTYPE html>
 
-<html lang="fr">
+
+<html lang="fr" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>6. Préserver et archiver</title>
-    
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -52,498 +63,315 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '06-archiver';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
     <link rel="next" title="7. Publier et diffuser" href="07-publier.html" />
     <link rel="prev" title="5. Analyser" href="05-analyser.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="fr">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="fr"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
-    <div class="container-fluid" id="banner"></div>
-
-    
-
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <a class="skip-link" href="#main-content">Passer au contenu principal</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="00-introduction.html">
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="_static/logo.png" class="logo" alt="logo">
-      
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
- </span>
-</p>
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text"> </span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="01-imaginer.html">
-   1. Imaginer et préparer
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="02-concevoir_planifier.html">
-   2. Concevoir et planifier
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="03-collecter.html">
-   3. Collecter
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="04-traiter.html">
-   4. Traiter
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="05-analyser.html">
-   5. Analyser
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   6. Préserver et archiver
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="07-publier.html">
-   7. Publier et diffuser
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="01-imaginer.html">1. Imaginer et préparer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-concevoir_planifier.html">2. Concevoir et planifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-collecter.html">3. Collecter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-traiter.html">4. Traiter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-analyser.html">5. Analyser</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">6. Préserver et archiver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-publier.html">7. Publier et diffuser</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text"> </span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="08-conclusion.html">
-   Conclusion
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="10-infrastructures.html">
-   Infrastructures
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="11-reproductibilite.html">
-   Reproductibilité
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="13-credits.html">
-   Crédits
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf">
-   Document pdf
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="08-conclusion.html">Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-infrastructures.html">Infrastructures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-reproductibilite.html">Reproductibilité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-credits.html">Crédits</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf">Document pdf</a></li>
 </ul>
 
     </div>
 </nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
-            </div>
-            
-        </div>
     </div>
-    <div id="rtd-footer-container"></div>
-</div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
-          
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
 
-
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
 <div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
 
-
-
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
   
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
     </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F06-archiver.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Ouvrez un problème"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F06-archiver.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="bottom"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-lightbulb"></i>
   </span>
 
 </a>
 
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Téléchargez cette page">
+    <i class="fas fa-download"></i>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="_sources/06-archiver.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/06-archiver.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Télécharger le fichier source"
+   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="btn__text-container">.md</span>
 </a>
-
-      </li>
+</li>
+      
+      
+      
       
       <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Imprimer au format PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-file-pdf"></i>
   </span>
-<span class="headerbtn__text-container">.pdf</span>
+<span class="btn__text-container">.pdf</span>
 </button>
-
-      </li>
+</li>
       
-    </ul>
-  </div>
+  </ul>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Mode plein écran"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
   </span>
 
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="clair/sombre" aria-label="clair/sombre" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Recherche" aria-label="Recherche" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </label>
-
+</div></div>
+      
     </div>
+  
 </div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#comprendre-et-differentier-les-differents-concepts">
-   6.1. Comprendre et différentier les différents concepts
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#definitions-generales">
-     6.1.1. Définitions générales
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#preserver-la-masse-de-donnees-scientifiques">
-     6.1.2. Préserver la masse de données scientifiques
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#proteger-et-securiser-le-patrimoine-scientifique">
-     6.1.3. Protéger et sécuriser le patrimoine scientifique
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#preserver-les-objets-numeriques">
-   6.2. Préserver les objets numériques
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-donnees-dun-tableur">
-     6.2.1. Les données d’un tableur
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-bases-de-donnees">
-     6.2.2. Les bases de données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-donnees-chiffrees">
-     6.2.3. Les données chiffrées
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-donnees-a-caractere-personnel">
-     6.2.4. Les données à caractère personnel
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-logiciels-les-codes-sources">
-     6.2.5. Les logiciels / les codes sources
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#archiver-les-objets-numeriques">
-   6.3. Archiver les objets numériques
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#archivage-a-long-terme-et-politiques-de-preservation">
-     6.3.1. Archivage à long terme et politiques de préservation
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-plateformes-darchivage-des-donnees">
-     6.3.2. Les plateformes d’archivage des données
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#selectionner-les-donnees-pertinentes">
-   6.4. Sélectionner les données pertinentes
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sappuyer-sur-les-enseignements-des-retours-dexperience">
-   6.5. S’appuyer sur les enseignements des retours d’expérience
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-numeriques-en-ecologie">
-     6.5.1. Retour d’expérience sur des données numériques en Écologie
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-orales-en-shs">
-     6.5.2. Retour d’expérience sur des données orales en SHS
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-    </nav>
 </div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Préserver et archiver</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#comprendre-et-differentier-les-differents-concepts">
-   6.1. Comprendre et différentier les différents concepts
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#definitions-generales">
-     6.1.1. Définitions générales
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#preserver-la-masse-de-donnees-scientifiques">
-     6.1.2. Préserver la masse de données scientifiques
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#proteger-et-securiser-le-patrimoine-scientifique">
-     6.1.3. Protéger et sécuriser le patrimoine scientifique
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#preserver-les-objets-numeriques">
-   6.2. Préserver les objets numériques
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-donnees-dun-tableur">
-     6.2.1. Les données d’un tableur
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-bases-de-donnees">
-     6.2.2. Les bases de données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-donnees-chiffrees">
-     6.2.3. Les données chiffrées
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-donnees-a-caractere-personnel">
-     6.2.4. Les données à caractère personnel
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-logiciels-les-codes-sources">
-     6.2.5. Les logiciels / les codes sources
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#archiver-les-objets-numeriques">
-   6.3. Archiver les objets numériques
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#archivage-a-long-terme-et-politiques-de-preservation">
-     6.3.1. Archivage à long terme et politiques de préservation
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-plateformes-darchivage-des-donnees">
-     6.3.2. Les plateformes d’archivage des données
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#selectionner-les-donnees-pertinentes">
-   6.4. Sélectionner les données pertinentes
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sappuyer-sur-les-enseignements-des-retours-dexperience">
-   6.5. S’appuyer sur les enseignements des retours d’expérience
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-numeriques-en-ecologie">
-     6.5.1. Retour d’expérience sur des données numériques en Écologie
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-orales-en-shs">
-     6.5.2. Retour d’expérience sur des données orales en SHS
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
+              
+              
 
-                        </nav>
-                    </div>
-                </div>
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Préserver et archiver</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contenu </h2>
             </div>
-            <main id="main-content" role="main">
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprendre-et-differentier-les-differents-concepts">6.1. Comprendre et différentier les différents concepts</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#definitions-generales">6.1.1. Définitions générales</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preserver-la-masse-de-donnees-scientifiques">6.1.2. Préserver la masse de données scientifiques</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proteger-et-securiser-le-patrimoine-scientifique">6.1.3. Protéger et sécuriser le patrimoine scientifique</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#preserver-les-objets-numeriques">6.2. Préserver les objets numériques</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-donnees-dun-tableur">6.2.1. Les données d’un tableur</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-bases-de-donnees">6.2.2. Les bases de données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-donnees-chiffrees">6.2.3. Les données chiffrées</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-donnees-a-caractere-personnel">6.2.4. Les données à caractère personnel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-logiciels-les-codes-sources">6.2.5. Les logiciels / les codes sources</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#archiver-les-objets-numeriques">6.3. Archiver les objets numériques</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#archivage-a-long-terme-et-politiques-de-preservation">6.3.1. Archivage à long terme et politiques de préservation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-plateformes-darchivage-des-donnees">6.3.2. Les plateformes d’archivage des données</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#selectionner-les-donnees-pertinentes">6.4. Sélectionner les données pertinentes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sappuyer-sur-les-enseignements-des-retours-dexperience">6.5. S’appuyer sur les enseignements des retours d’expérience</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-numeriques-en-ecologie">6.5.1. Retour d’expérience sur des données numériques en Écologie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-orales-en-shs">6.5.2. Retour d’expérience sur des données orales en SHS</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
                 
-              <div>
-                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
   <section class="tex2jax_ignore mathjax_ignore" id="preserver-et-archiver">
-<span id="archiver"></span><h1><span class="section-number">6. </span>Préserver et archiver<a class="headerlink" href="#preserver-et-archiver" title="Lien permanent vers ce titre">#</a></h1>
+<span id="archiver"></span><h1><span class="section-number">6. </span>Préserver et archiver<a class="headerlink" href="#preserver-et-archiver" title="Lien permanent vers cette rubrique">#</a></h1>
 <p>Préserver, sécuriser l’information et sauvegarder, voire archiver les données sont des phases essentielles de la gestion rigoureuse des données, mais il n’est pas toujours aisé de faire la distinction entre ces notions et d’utiliser le bon terme et la procédure associée. De plus, préserver pour un usage futur dont on ignore le plus souvent les caractéristiques est compliqué. C’est pourquoi des retours d’expériences avec leurs succès et leurs échecs sont intéressants à faire connaître. Ces retours d’expérience sont complétés par des conseils appropriés pour sélectionner les données à préserver et pour mener à bien la préservation d’objets numériques.</p>
 <section id="comprendre-et-differentier-les-differents-concepts">
-<h2><span class="section-number">6.1. </span>Comprendre et différentier les différents concepts<a class="headerlink" href="#comprendre-et-differentier-les-differents-concepts" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">6.1. </span>Comprendre et différentier les différents concepts<a class="headerlink" href="#comprendre-et-differentier-les-differents-concepts" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Les notions de stockage, de sauvegarde et d’archivage ainsi que les actions de préservation et de pérennisation ne sont pas toujours définies dans les mêmes termes. Afin de faciliter la lecture de ce chapitre et aider à distinguer les différences entre les termes utilisés, nous vous proposons les définitions suivantes.</p>
 <section id="definitions-generales">
-<h3><span class="section-number">6.1.1. </span>Définitions générales<a class="headerlink" href="#definitions-generales" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.1.1. </span>Définitions générales<a class="headerlink" href="#definitions-generales" title="Lien permanent vers cette rubrique">#</a></h3>
 <dl class="simple myst">
 <dt>Stocker</dt><dd><p>C’est l’étape première qui consiste à déposer les données sur un support numérique pour les rendre accessibles. Cela peut être un ordinateur personnel, un disque partagé ou tout autre organe de dépôt. Le stockage permet d’assurer la continuité de l’exploitation sur du court terme. A ce stade, la donnée n’est ni sauvegardée et ni sécurisée.</p>
 </dd>
@@ -583,7 +411,7 @@ MITI-CNRS, 2018</p>
 <p>Dans la suite de ce chapître, nous utiliserons les termes “préserver / préservation” qui sont les termes le plus utilisés actuellement.</p>
 </section>
 <section id="preserver-la-masse-de-donnees-scientifiques">
-<h3><span class="section-number">6.1.2. </span>Préserver la masse de données scientifiques<a class="headerlink" href="#preserver-la-masse-de-donnees-scientifiques" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.1.2. </span>Préserver la masse de données scientifiques<a class="headerlink" href="#preserver-la-masse-de-donnees-scientifiques" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Cette présentation est une bonne entrée en la matière. Cristinel Diaconu introduit sa présentation en illustrant le « Big Bang » des données et en questionnant le destin des masses de données scientifiques (<em>big scientific data</em>) sur le long terme. Il explique la fragilité des données numériques et la limite dépassée des capacités de stockage des données. Pourtant les données scientifiques sont riches en information, car structurées selon un plan de recherche et une démarche scientifique, elles sont de plus en plus massives et diverses, produites avec des efforts humains et financiers significatifs, elles englobent des connaissances uniques qu’il faut absolument préserver. Partant d’exemples issus de la physique des hautes énergies produits par des instruments gigantesques pour des collaborations internationales, il démontre l’importance de se préoccuper du sort de ces données et de planifier leur préservation. Il aborde la question du risque associé à la réutilisation, de l’organisation sur le long terme, et des différents modèles de données et niveaux de préservation.</p>
 <p>La dernière partie de sa présentation est consacrée au projet <strong>PREDON</strong> qui propose une approche nouvelle mélangeant les capacités scientifique, technique et organisationnelle  des grandes collaborations en physique des particules et astrophysique pour définir et construire un système robuste de stockage et analyse des données à long terme.  Il présente les principaux défis scientifiques associés à ce projet (nécessité d’identifier les demandes et possibilités techniques pour une approche unifiée, besoin de cohérence et standardisation, de mise en place d’un suivi des lots de données, etc), le plan multi annuel, les compétences et challenges dans la préservation des données, la méthodologie de l’archivage au CINES.</p>
 <div class="seealso admonition">
@@ -593,7 +421,7 @@ FRéDoc « Gestion et valorisation des données de la recherche », réseau Rena
 </div>
 </section>
 <section id="proteger-et-securiser-le-patrimoine-scientifique">
-<h3><span class="section-number">6.1.3. </span>Protéger et sécuriser le patrimoine scientifique<a class="headerlink" href="#proteger-et-securiser-le-patrimoine-scientifique" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.1.3. </span>Protéger et sécuriser le patrimoine scientifique<a class="headerlink" href="#proteger-et-securiser-le-patrimoine-scientifique" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Dans le domaine des systèmes d’information, l’analyse de risque suit un processus normé (ISO 2700x). La sécurité de l’information est définie comme la « protection de la <strong>confidentialité</strong>, de l’<strong>intégrité</strong> et de la <strong>disponibilité</strong> de l’information ». Elle est aujourd’hui une des problématiques majeures de nos unités et s’appuie sur la mise en place des Politiques de Sécurité des Systèmes d’Informations (PSSI) par les services compétents au sein des structures de recherche.</p>
 <p>Nous pouvons résumer la finalité de la « protection du patrimoine scientifique » comme étant le fait de :</p>
 <ul class="simple">
@@ -633,11 +461,11 @@ Marion MASSOL, CINES<br />
 </section>
 </section>
 <section id="preserver-les-objets-numeriques">
-<h2><span class="section-number">6.2. </span>Préserver les objets numériques<a class="headerlink" href="#preserver-les-objets-numeriques" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">6.2. </span>Préserver les objets numériques<a class="headerlink" href="#preserver-les-objets-numeriques" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Tous les objets numériques ne nécessitent pas les mêmes opérations pour être préservés. Leur préservation dépend parfois de leur nature (données textuelles, données numériques, données audiovisuelles, modèles et codes informatiques …), du niveau de leur protection (chiffrés, non chiffrés) de leur façon d’être collectés (observateur, capteur, modèle, etc) ou de leur évolution dans le temps (stable, croissante, révisable).</p>
 <p>Voici quelques exemples de préservation d’objets numériques qui ont fait l’objet de présentation.</p>
 <section id="les-donnees-dun-tableur">
-<h3><span class="section-number">6.2.1. </span>Les données d’un tableur<a class="headerlink" href="#les-donnees-dun-tableur" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.2.1. </span>Les données d’un tableur<a class="headerlink" href="#les-donnees-dun-tableur" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Marie-Claude Quidoz revient sur les quatre risques menaçant inéluctablement un fichier sur une longue période et donne des pistes d’améliorations possibles. Elle fait trois recommandations importantes :</p>
 <ul class="simple">
 <li><p>ne pas penser uniquement format ouvert, mais penser aussi format durable pour une sauvegarde à long terme,</p></li>
@@ -651,7 +479,7 @@ Atelier « Carnets de terrain électroniques », Montpellier, 2018</p>
 </div>
 </section>
 <section id="les-bases-de-donnees">
-<h3><span class="section-number">6.2.2. </span>Les bases de données<a class="headerlink" href="#les-bases-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.2.2. </span>Les bases de données<a class="headerlink" href="#les-bases-de-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>En Avril 2004, le CINES a publié un  « <a class="reference external" href="https://cultura.gencat.cat/web/.content/dgpc/arxius_i_gestio_documental/14_Gestio_documental/06_GD_Estandaritzacio/preservacio_publicacions/GM_archivage_BDD.pdf">Guide Méthodologique pour l’archivage des bases de données</a> » que nous recommandons fortement, même s’il est un peu ancien (la famille NoSQL est absente). Il contient les bonnes questions à se poser (est-ce une base de données vivante / consultée / cumulative ?), est-ce une base de données pilotée par une interface ? etc.).</p>
 <p>Il présente les différents modes de sauvegarde possibles d’une base de données avec pour chacun leurs avantages et leurs inconvénients. Il liste les différentes documentations à joindre. Et surtout il sensibilise l’utilisateur sur la problématique de l’interface qui du point de vue préservation est un problème à prendre en compte en tant que tel (maillon faible).</p>
 <p>Parmi les documents à joindre, le CINES conseille de ne pas oublier les documents réalisés lors de la modélisation, c’est à dire le modèle conceptuel de données (MCD), le modèle logique des données (MLD) et le modèle physique des données (MPD) car chacun apporte un niveau de répresentation nécessaire à la compréhension des données conservées.</p>
@@ -670,7 +498,7 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
 </div>
 </section>
 <section id="les-donnees-chiffrees">
-<h3><span class="section-number">6.2.3. </span>Les données chiffrées<a class="headerlink" href="#les-donnees-chiffrees" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.2.3. </span>Les données chiffrées<a class="headerlink" href="#les-donnees-chiffrees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Dans cette présentation, François Morris aborde le cas des données protégées par un chiffrement. Après un rappel de ce qu’est le chiffrement, il présente le chiffrement dans la durée : archivage des données chiffrées et utilisation de ces données, donc comment déchiffrer dans le futur ces données archivées.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/chiffrement-perennisation.pdf?185/c4475004eab7dcd07a72e8230a8d74d493dc2495">La pérennisation des données chiffrées ? Quel est l’impact du chiffrement sur le long terme ?</a>   </p>
@@ -680,7 +508,7 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
 </div>
 </section>
 <section id="les-donnees-a-caractere-personnel">
-<h3><span class="section-number">6.2.4. </span>Les données à caractère personnel<a class="headerlink" href="#les-donnees-a-caractere-personnel" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.2.4. </span>Les données à caractère personnel<a class="headerlink" href="#les-donnees-a-caractere-personnel" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Dans cette présentation, Emilie Masson et Patrick Guillot proposent une carte mentale avec deux parties distinctes. À droite du terme « données personnelles et archivage » ils donnent une définition des données à caractère personnel et des traitements de données personnelles. À gauche du terme « données personnelles et archivage », ils rappellent les obligations de la RGPD en termes de conservation après l’exercice de la finalité et ils établissent des recommandations en fonction de trois types d’archives : archives courantes / archives intermédiaires et archives définitives.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://dataarchivage.sciencesconf.org/data/pages/Donne_es_personnelles_et_archivage.pdf">Données personnelles et archivage</a>    </p>
@@ -709,7 +537,7 @@ Vincent Merilhou, CNRS<br />
 Webinaire « les contraintes réglementaires liées aux bases de données », réseau rBDD, 2021</p>
 </div>
 <p>Dans le cadre de la deuxième partie, trois interventions offrent un panorama des différentes actions menées dans le domaine des sciences humaines et sociale mais aussi de l’environnement pour concilier diffusion des données et de recherche, protection des personnes et sécurisation des données.</p>
-<p>La première présentation d’Emilie Jouin et Justine lascard témoigne d’une démarche de collecte et diffusion de données audiovisuelle en contexte médical et pointe à travers des exemples sur les principales questions juridiques et éthiques que posent le traitement de données à caractère personnel, voir sensible (voix, image, propos …). On voit que cette démarche passe par la constitution d’un dossier juridique et éthique qui permet une négociation sur le terrain et le recueil de consentements éclairés, que le partage des corpus pour l’analyse des données suppose également des actions de sécurisation des données et enfin que la valorisation des résultats implique d’imaginer des solutions techniques (pseudonymisation, floutage, traitements …) pour l’application des clauses de protection des personnes. Des exemples en image illustrent les techniques utilisées.</p>
+<p>La première présentation d’Emilie Jouin et Justine Lascar témoigne d’une démarche de collecte et diffusion de données audiovisuelle en contexte médical et pointe à travers des exemples sur les principales questions juridiques et éthiques que posent le traitement de données à caractère personnel, voir sensible (voix, image, propos …). On voit que cette démarche passe par la constitution d’un dossier juridique et éthique qui permet une négociation sur le terrain et le recueil de consentements éclairés, que le partage des corpus pour l’analyse des données suppose également des actions de sécurisation des données et enfin que la valorisation des résultats implique d’imaginer des solutions techniques (pseudonymisation, floutage, traitements …) pour l’application des clauses de protection des personnes. Des exemples en image illustrent les techniques utilisées.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://rbdd.cnrs.fr/IMG/pdf/jouin_lascar_com_rbdd_nov2021.pdf?627/7f5383d11607eabdf50cca6e3191cd1a33cbb97b">Collecte et diffusion de données audiovisuelles en contexte médical : enjeux juridiques, éthiques et techniques</a>    </p>
 <p>Emilie Jouin, CNRS &amp; Justine Lascar, CNRS
@@ -730,15 +558,15 @@ Webinaire « les contraintes réglementaires liées aux bases de données », r�
 </div>
 </section>
 <section id="les-logiciels-les-codes-sources">
-<h3><span class="section-number">6.2.5. </span>Les logiciels / les codes sources<a class="headerlink" href="#les-logiciels-les-codes-sources" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.2.5. </span>Les logiciels / les codes sources<a class="headerlink" href="#les-logiciels-les-codes-sources" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>La préservation des logiciels et des codes sources est indispensable pour assurer la reproductibilité de la science. Le projet Software Heritage a pour objectif de collecter, préserver et rendre disponible le code source (et son historique) de tous les logiciels publiquement disponibles. Une présentation du projet est disponible dans la section <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a> de ce guide.</p>
 </section>
 </section>
 <section id="archiver-les-objets-numeriques">
-<h2><span class="section-number">6.3. </span>Archiver les objets numériques<a class="headerlink" href="#archiver-les-objets-numeriques" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">6.3. </span>Archiver les objets numériques<a class="headerlink" href="#archiver-les-objets-numeriques" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>L’archivage des objets numériques s’appuie sur les mêmes concepts que la préservation, mais elle demande de choisir un centre d’archivage homologué aux fonctionnalités d’interrogation moindres.</p>
 <section id="archivage-a-long-terme-et-politiques-de-preservation">
-<h3><span class="section-number">6.3.1. </span>Archivage à long terme et politiques de préservation<a class="headerlink" href="#archivage-a-long-terme-et-politiques-de-preservation" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.3.1. </span>Archivage à long terme et politiques de préservation<a class="headerlink" href="#archivage-a-long-terme-et-politiques-de-preservation" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Ces retours d’expériences recueillis lors du séminaire “<a class="reference external" href="https://dataarchivage.sciencesconf.org/">Archivage Numérique des Données de Recherche</a>” (Grenoble, novembre 2019) illustrent les démarches en cours dans certains instituts et sur certaines infrastructures pour mettre en oeuvres des politiques d’archivage et de préservation des données.</p>
 <p>Ces présentations offrent un panorama des différents processus ou démarches d’archivage à long terme mis en place dans diverses disciplines scientifiques. On y découvre les politiques de gestion ou de partage des données et les démarches spécifiques à chaque structure pour mettre en place ou organiser un système d’archivage et de préservation des données sur le long terme.</p>
 <p>Pour commencer, Michel Jacobson présente l’offre de service de la Très Grande Infrastructure de Recherche (TGIR) Huma-Num pour l’archivage à long terme.
@@ -770,12 +598,12 @@ Archivage Numérique des Données de Recherche, 2019, Grenoble</p>
 </div>
 </section>
 <section id="les-plateformes-darchivage-des-donnees">
-<h3><span class="section-number">6.3.2. </span>Les plateformes d’archivage des données<a class="headerlink" href="#les-plateformes-darchivage-des-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.3.2. </span>Les plateformes d’archivage des données<a class="headerlink" href="#les-plateformes-darchivage-des-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Les plateformes d’archivage sont décrites dans la partie <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a>.</p>
 </section>
 </section>
 <section id="selectionner-les-donnees-pertinentes">
-<h2><span class="section-number">6.4. </span>Sélectionner les données pertinentes<a class="headerlink" href="#selectionner-les-donnees-pertinentes" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">6.4. </span>Sélectionner les données pertinentes<a class="headerlink" href="#selectionner-les-donnees-pertinentes" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Cette étape nécessite une phase de sélection des informations pertinentes (validées, utiles…) pour son activité tout en se préoccupant de leur exploitation future à travers les problématiques de durée de vie, de confidentialité et de sécurité des données.</p>
 <p>Plusieurs critères sont à prendre en considération :</p>
 <ul class="simple">
@@ -809,10 +637,10 @@ Atelier Dialogu’IST « Rendre FAIR les données, mais quelles données préser
 </div>
 </section>
 <section id="sappuyer-sur-les-enseignements-des-retours-dexperience">
-<h2><span class="section-number">6.5. </span>S’appuyer sur les enseignements des retours d’expérience<a class="headerlink" href="#sappuyer-sur-les-enseignements-des-retours-dexperience" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">6.5. </span>S’appuyer sur les enseignements des retours d’expérience<a class="headerlink" href="#sappuyer-sur-les-enseignements-des-retours-dexperience" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Le premier retour d’expérience du siècle dernier est un échec tandis que le deuxième datant du début du XXIe siècle est synonyme de succès.</p>
 <section id="retour-dexperience-sur-des-donnees-numeriques-en-ecologie">
-<h3><span class="section-number">6.5.1. </span>Retour d’expérience sur des données numériques en Écologie<a class="headerlink" href="#retour-dexperience-sur-des-donnees-numeriques-en-ecologie" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.5.1. </span>Retour d’expérience sur des données numériques en Écologie<a class="headerlink" href="#retour-dexperience-sur-des-donnees-numeriques-en-ecologie" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>À travers ce retour d’expérience, Marie-Claude Quidoz explique pourquoi, des données pourtant préservées avec attention au CEFE en 1984, ont été impossibles à réutiliser vingt-cinq ans plus tard. Cette expérience malheureuse est riche d’enseignements et permet très rapidement de comprendre sur un exemple concret les difficultés rencontrées qui sont de quatre ordres :</p>
 <ul class="simple">
 <li><p>l’obsolescence matérielle ;</p></li>
@@ -828,7 +656,7 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
 </div>
 </section>
 <section id="retour-dexperience-sur-des-donnees-orales-en-shs">
-<h3><span class="section-number">6.5.2. </span>Retour d’expérience sur des données orales en SHS<a class="headerlink" href="#retour-dexperience-sur-des-donnees-orales-en-shs" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">6.5.2. </span>Retour d’expérience sur des données orales en SHS<a class="headerlink" href="#retour-dexperience-sur-des-donnees-orales-en-shs" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Michel Jacobson débute sa présentation par la présentation de la plateforme technique Cocoon pour « COllections de COrpus Oraux Numériques ». C’est une plateforme technique qui accompagne les producteurs de ressources orales, à créer, structurer et archiver leurs corpus ; un corpus pouvant se composer d’enregistrements (en général audio) accompagnés éventuellement d’annotations de ces enregistrements. Cette plateforme s’appuie sur les services d’Huma-Num. Ensuite, il détaille les différentes étapes suivies pour mener à bien l’archivage pérenne mis en place en collaboration avec le CINES.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/rbdd_cocoon.pdf?182/90fe1749f3bc65530849f4ed42f395c4078a1e55">Organisation du Centre de ressources numériques Cocoon comme service versant pour l’archivage de données orales en SHS</a>   </p>
@@ -852,7 +680,7 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./."
         },
         predefinedOutput: true
@@ -860,56 +688,131 @@ Journée « Sensibilisation à la sécurisation et à la pérennisation des donn
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="05-analyser.html" title="précédent page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">précédent</p>
-            <p class="prev-next-title"><span class="section-number">5. </span>Analyser</p>
-        </div>
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="05-analyser.html"
+       title="page précédente">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">précédent</p>
+        <p class="prev-next-title"><span class="section-number">5. </span>Analyser</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="07-publier.html" title="suivant page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="07-publier.html"
+       title="page suivante">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">suivant</p>
         <p class="prev-next-title"><span class="section-number">7. </span>Publier et diffuser</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
+</div></div>
+  
 </div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contenu
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprendre-et-differentier-les-differents-concepts">6.1. Comprendre et différentier les différents concepts</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#definitions-generales">6.1.1. Définitions générales</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#preserver-la-masse-de-donnees-scientifiques">6.1.2. Préserver la masse de données scientifiques</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#proteger-et-securiser-le-patrimoine-scientifique">6.1.3. Protéger et sécuriser le patrimoine scientifique</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#preserver-les-objets-numeriques">6.2. Préserver les objets numériques</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-donnees-dun-tableur">6.2.1. Les données d’un tableur</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-bases-de-donnees">6.2.2. Les bases de données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-donnees-chiffrees">6.2.3. Les données chiffrées</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-donnees-a-caractere-personnel">6.2.4. Les données à caractère personnel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-logiciels-les-codes-sources">6.2.5. Les logiciels / les codes sources</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#archiver-les-objets-numeriques">6.3. Archiver les objets numériques</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#archivage-a-long-terme-et-politiques-de-preservation">6.3.1. Archivage à long terme et politiques de préservation</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-plateformes-darchivage-des-donnees">6.3.2. Les plateformes d’archivage des données</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#selectionner-les-donnees-pertinentes">6.4. Sélectionner les données pertinentes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sappuyer-sur-les-enseignements-des-retours-dexperience">6.5. S’appuyer sur les enseignements des retours d’expérience</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-numeriques-en-ecologie">6.5.1. Retour d’expérience sur des données numériques en Écologie</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#retour-dexperience-sur-des-donnees-orales-en-shs">6.5.2. Retour d’expérience sur des données orales en SHS</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-    By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+  <div class="footer-item">
+    
+<p class="component-author">
+Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS
+</p>
+
+  </div>
   
-    Last updated on 01 févr. 2023.<br/>
-    <div class="extra_footer">
-      <p>
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    <p class="last-updated">
+  Mis à jour le 23 août 2023.
+  <br/>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
 </p>
 
-    </div>
-</p>
-        </footer>
-    </div>
-    
 </div>
+  </div>
+  
+</div>
+          </footer>
+        
 
-
-      </div>
+      </main>
     </div>
+  </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
 
-
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>

@@ -1,50 +1,61 @@
 
+
 <!DOCTYPE html>
 
-<html lang="fr">
+
+<html lang="fr" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>1. Imaginer et préparer</title>
-    
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -52,482 +63,317 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '01-imaginer';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
     <link rel="next" title="2. Concevoir et planifier" href="02-concevoir_planifier.html" />
     <link rel="prev" title="Guide de bonnes pratiques sur la gestion des données de la recherche" href="00-introduction.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="fr">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="fr"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
-    <div class="container-fluid" id="banner"></div>
-
-    
-
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <a class="skip-link" href="#main-content">Passer au contenu principal</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="00-introduction.html">
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="_static/logo.png" class="logo" alt="logo">
-      
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
- </span>
-</p>
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text"> </span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   1. Imaginer et préparer
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="02-concevoir_planifier.html">
-   2. Concevoir et planifier
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="03-collecter.html">
-   3. Collecter
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="04-traiter.html">
-   4. Traiter
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="05-analyser.html">
-   5. Analyser
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="06-archiver.html">
-   6. Préserver et archiver
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="07-publier.html">
-   7. Publier et diffuser
-  </a>
- </li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">1. Imaginer et préparer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-concevoir_planifier.html">2. Concevoir et planifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-collecter.html">3. Collecter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-traiter.html">4. Traiter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-analyser.html">5. Analyser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-archiver.html">6. Préserver et archiver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-publier.html">7. Publier et diffuser</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text"> </span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="08-conclusion.html">
-   Conclusion
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="10-infrastructures.html">
-   Infrastructures
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="11-reproductibilite.html">
-   Reproductibilité
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="13-credits.html">
-   Crédits
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf">
-   Document pdf
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="08-conclusion.html">Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-infrastructures.html">Infrastructures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-reproductibilite.html">Reproductibilité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-credits.html">Crédits</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf">Document pdf</a></li>
 </ul>
 
     </div>
 </nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
-            </div>
-            
-        </div>
     </div>
-    <div id="rtd-footer-container"></div>
-</div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
-          
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
 
-
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
 <div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
 
-
-
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
   
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
     </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F01-imaginer.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Ouvrez un problème"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F01-imaginer.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="bottom"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-lightbulb"></i>
   </span>
 
 </a>
 
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Téléchargez cette page">
+    <i class="fas fa-download"></i>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="_sources/01-imaginer.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/01-imaginer.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Télécharger le fichier source"
+   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="btn__text-container">.md</span>
 </a>
-
-      </li>
+</li>
+      
+      
+      
       
       <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Imprimer au format PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-file-pdf"></i>
   </span>
-<span class="headerbtn__text-container">.pdf</span>
+<span class="btn__text-container">.pdf</span>
 </button>
-
-      </li>
+</li>
       
-    </ul>
-  </div>
+  </ul>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Mode plein écran"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
   </span>
 
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="clair/sombre" aria-label="clair/sombre" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Recherche" aria-label="Recherche" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </label>
-
+</div></div>
+      
     </div>
+  
 </div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#comprendre-le-paysage-de-la-gestion-des-donnees">
-   1.1. Comprendre le paysage de la gestion des données
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#connaitre-les-politiques-daccompagnement-des-donnees-au-niveau-francais-europeen-et-international">
-     1.1.1. Connaître les politiques d’accompagnement des données au niveau français, européen et international
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#comprendre-le-contexte">
-     1.1.2. Comprendre le contexte
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#comprendre-et-respecter-la-legislation-en-vigueur">
-   1.2. Comprendre et respecter la législation en vigueur
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#adopter-des-pratiques-numeriques-responsables-dans-la-gestion-des-donnees-scientifiques">
-   1.3. Adopter des pratiques numériques responsables dans la gestion des données scientifiques
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#la-gestion-des-donnees-scientifiques-face-a-ces-enjeux">
-     1.3.1. La gestion des données scientifiques face à ces enjeux
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#connaitre-et-comprendre-les-principes-fair">
-   1.4. Connaître et comprendre les principes FAIR
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees">
-     1.4.1. Définir les principes FAIR pour guider les stratégies de gestion des données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#appliquer-les-principes-fair-retours-dexperiences">
-     1.4.2. Appliquer les principes FAIR -  Retours d’expériences
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#prevoir-la-tracabilite-des-donnees">
-   1.5. Prévoir la traçabilité des données
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#envisager-la-curation-des-donnees">
-   1.6. Envisager la curation des données
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#prevoir-larchivage-des-donnees">
-   1.7. Prévoir l’archivage des données
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche">
-   1.8. Identifier les compétences et expertises pour la gestion des données de la recherche
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#sinformer-et-se-former">
-     1.8.1. S’informer et se former
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#suivre-les-travaux-du-college-competences-et-formation-du-coso">
-     1.8.2. Suivre les travaux du Collège “Compétences et formation du CoSO”
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-    </nav>
 </div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Imaginer et préparer</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#comprendre-le-paysage-de-la-gestion-des-donnees">
-   1.1. Comprendre le paysage de la gestion des données
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#connaitre-les-politiques-daccompagnement-des-donnees-au-niveau-francais-europeen-et-international">
-     1.1.1. Connaître les politiques d’accompagnement des données au niveau français, européen et international
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#comprendre-le-contexte">
-     1.1.2. Comprendre le contexte
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#comprendre-et-respecter-la-legislation-en-vigueur">
-   1.2. Comprendre et respecter la législation en vigueur
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#adopter-des-pratiques-numeriques-responsables-dans-la-gestion-des-donnees-scientifiques">
-   1.3. Adopter des pratiques numériques responsables dans la gestion des données scientifiques
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#la-gestion-des-donnees-scientifiques-face-a-ces-enjeux">
-     1.3.1. La gestion des données scientifiques face à ces enjeux
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#connaitre-et-comprendre-les-principes-fair">
-   1.4. Connaître et comprendre les principes FAIR
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees">
-     1.4.1. Définir les principes FAIR pour guider les stratégies de gestion des données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#appliquer-les-principes-fair-retours-dexperiences">
-     1.4.2. Appliquer les principes FAIR -  Retours d’expériences
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#prevoir-la-tracabilite-des-donnees">
-   1.5. Prévoir la traçabilité des données
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#envisager-la-curation-des-donnees">
-   1.6. Envisager la curation des données
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#prevoir-larchivage-des-donnees">
-   1.7. Prévoir l’archivage des données
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche">
-   1.8. Identifier les compétences et expertises pour la gestion des données de la recherche
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#sinformer-et-se-former">
-     1.8.1. S’informer et se former
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#suivre-les-travaux-du-college-competences-et-formation-du-coso">
-     1.8.2. Suivre les travaux du Collège “Compétences et formation du CoSO”
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
+              
+              
 
-                        </nav>
-                    </div>
-                </div>
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Imaginer et préparer</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contenu </h2>
             </div>
-            <main id="main-content" role="main">
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprendre-le-paysage-de-la-gestion-des-donnees">1.1. Comprendre le paysage de la gestion des données</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#connaitre-les-politiques-daccompagnement-des-donnees-au-niveau-francais-europeen-et-international">1.1.1. Connaître les politiques d’accompagnement des données au niveau français, européen et international</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comprendre-le-contexte">1.1.2. Comprendre le contexte</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprendre-et-respecter-la-legislation-en-vigueur">1.2. Comprendre et respecter la législation en vigueur</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adopter-des-pratiques-numeriques-responsables-dans-la-gestion-des-donnees-scientifiques">1.3. Adopter des pratiques numériques responsables dans la gestion des données scientifiques</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-gestion-des-donnees-scientifiques-face-a-ces-enjeux">1.3.1. La gestion des données scientifiques face à ces enjeux</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connaitre-et-comprendre-les-principes-fair">1.4. Connaître et comprendre les principes FAIR</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees">1.4.1. Définir les principes FAIR pour guider les stratégies de gestion des données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#appliquer-les-principes-fair-retours-dexperiences">1.4.2. Appliquer les principes FAIR -  Retours d’expériences</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prevoir-la-tracabilite-des-donnees">1.5. Prévoir la traçabilité des données</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#envisager-la-curation-des-donnees">1.6. Envisager la curation des données</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prevoir-larchivage-des-donnees">1.7. Prévoir l’archivage des données</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche">1.8. Identifier les compétences et expertises pour la gestion des données de la recherche</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sinformer-et-se-former">1.8.1. S’informer et se former</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#suivre-les-travaux-du-college-competences-et-formation-du-coso">1.8.2. Suivre les travaux du Collège “Compétences et formation du CoSO”</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
                 
-              <div>
-                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
   <section class="tex2jax_ignore mathjax_ignore" id="imaginer-et-preparer">
-<span id="imaginer"></span><h1><span class="section-number">1. </span>Imaginer et préparer<a class="headerlink" href="#imaginer-et-preparer" title="Lien permanent vers ce titre">#</a></h1>
+<span id="imaginer"></span><h1><span class="section-number">1. </span>Imaginer et préparer<a class="headerlink" href="#imaginer-et-preparer" title="Lien permanent vers cette rubrique">#</a></h1>
 <p>Imaginer est la première étape de notre cycle de vie. C’est une phase préparatoire qui correspond à la connaissance et à l’identification des problématiques générales, techniques et juridiques associées à la gestion des données dans un projet de recherche ou dans la pratique quotidienne de nos métiers.
 Etape où l’on doit se projeter, s’informer, comprendre pour anticiper et envisager sereinement le déroulement d’un projet.
 C’est une étape initiale importante pour appréhender globalement la gestion des données, l’écosystème dans lequel elle s’inscrit avec ses contraintes et opportunités, les outils et infrastructures disponibles ou nécessaires, les politiques d’accompagnement et la multiplicité des acteurs qui interagissent, les réglementations en vigueur ou encore les compétences et expertises à acquérir.</p>
 <p>L’apport des réseaux est ici important en termes de croisement des disciplines et des métiers pour apporter un éclairage global dans la nécessaire évolution des métiers et compétences et répondre au mieux aux besoins des communautés scientifiques.</p>
 <section id="comprendre-le-paysage-de-la-gestion-des-donnees">
-<h2><span class="section-number">1.1. </span>Comprendre le paysage de la gestion des données<a class="headerlink" href="#comprendre-le-paysage-de-la-gestion-des-donnees" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">1.1. </span>Comprendre le paysage de la gestion des données<a class="headerlink" href="#comprendre-le-paysage-de-la-gestion-des-donnees" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Avant d’aborder la gestion des données sous ses aspects techniques qui seront développés tout au long des étapes du cycle de vie de la donnée dans ce guide, nous souhaitons apporter une vision d’ensemble du paysage de la gestion des données.<br />
 Ce paysage s’appréhende dans le cadre du mouvement open science, de la politique d’open data en particulier et par la connaissance de l’ensemble du processus de recherche depuis la compréhension des possibilités de financement de la recherche (attendu des financeurs Horizon Europe, ERC, ANR …) jusqu’à la diffusion, la valorisation et l’évaluation des résultats.</p>
 <section id="connaitre-les-politiques-daccompagnement-des-donnees-au-niveau-francais-europeen-et-international">
-<h3><span class="section-number">1.1.1. </span>Connaître les politiques d’accompagnement des données au niveau français, européen et international<a class="headerlink" href="#connaitre-les-politiques-daccompagnement-des-donnees-au-niveau-francais-europeen-et-international" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">1.1.1. </span>Connaître les politiques d’accompagnement des données au niveau français, européen et international<a class="headerlink" href="#connaitre-les-politiques-daccompagnement-des-donnees-au-niveau-francais-europeen-et-international" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Différentes initiatives institutionnelles sont développées au sein de nos établissements en France ou à l’étranger pour accompagner la politique des données de la recherche. Il est intéressant de se pencher sur ces travaux pour anticiper les besoins et prévoir les évolutions stratégiques possibles au sein de notre environnement.</p>
 <p>À l’occasion des « FréDoc 2013 », Simon Hodson (Directeur exécutif de CODATA) dresse un panorama très complet des différentes politiques institutionnelles, des tendances gouvernementales et internationales. Nous percevons déjà très distinctement les défis et obstacles à lever pour la mise en place d’une gestion des données de la recherche. On comprend l’importance d’analyser le comportement des communautés de recherche pour parvenir à construire ensemble une politique autour des données et aussi l’intérêt d’une approche convergente « top down et bottom up » pour la mise en place d’actions de terrain qui rejoignent les actions de la gouvernance. Les nombreux défis à la mise en place d’une politique des données de la recherche sont bien présents, à commencer par le fait d’instaurer au sein de nos communautés une culture du partage de la donnée et de mettre à disposition des chercheurs des infrastructures et des services de formation.<br />
 Simon Hodson souligne aussi le rôle essentiel des politiques et parties prenantes pour mettre en place des actions et des concertations.</p>
@@ -567,7 +413,7 @@ Des témoignages et retours d’expérience autour des modules d’accompagnemen
 </div>
 </section>
 <section id="comprendre-le-contexte">
-<h3><span class="section-number">1.1.2. </span>Comprendre le contexte<a class="headerlink" href="#comprendre-le-contexte" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">1.1.2. </span>Comprendre le contexte<a class="headerlink" href="#comprendre-le-contexte" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Ces dernières années, la réglementation en matière de science ouverte a largement modifié le paysage des données de la recherche et a permis de mieux cadrer les pratiques scientifiques sur le plan juridique.</p>
 <p><strong>Un contexte politique favorable à la gestion et au partage des données</strong></p>
 <p>En 2018, à la suite des objectifs fixés par l’Europe, la France s’est dotée d’un <a class="reference external" href="https://cache.media.enseignementsup-recherche.gouv.fr/file/Actus/67/2/PLAN_NATIONAL_SCIENCE_OUVERTE_978672.pdf">plan national pour la science ouverte</a> qui prône la diffusion sans entraves des publications et des données de la recherche. Renouvelé en 2021 dans la continuité des <a class="reference external" href="https://www.ouvrirlascience.fr/wp-content/uploads/2021/07/Bilan-PNSO-2018-2021.pdf">actions menées au cours des trois dernières années</a>, et en résonance avec la <a class="reference external" href="https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000042738033">loi de programmation de la recherche de 2020</a>, ce <a class="reference external" href="https://www.ouvrirlascience.fr/wp-content/uploads/2021/06/Deuxieme-Plan-National-Science-Ouverte_2021-2024.pdf">second plan</a> inscrit la science ouverte dans les missions des chercheurs et des enseignants-chercheurs, vise 100% des publications en accès ouvert en 2030 et s’enrichit d’un nouvel axe dédié aux codes sources et logiciels libre prenant appui sur la <a class="reference external" href="https://www.numerique.gouv.fr/uploads/feuillederoute_mesri.pdf">politique nationale des données, des algorithmes et des codes sources</a> impulsée par le Premier ministre.</p>
@@ -602,7 +448,7 @@ Atelier Dialogu’IST - Rendre FAIR les données, mais quelles données préserv
 </section>
 </section>
 <section id="comprendre-et-respecter-la-legislation-en-vigueur">
-<h2><span class="section-number">1.2. </span>Comprendre et respecter la législation en vigueur<a class="headerlink" href="#comprendre-et-respecter-la-legislation-en-vigueur" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">1.2. </span>Comprendre et respecter la législation en vigueur<a class="headerlink" href="#comprendre-et-respecter-la-legislation-en-vigueur" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Gérer les données de la recherche suppose de clarifier en amont les modalités de partage et de mise à disposition des données de la recherche et le cadre juridique applicable aux projets de recherche.</p>
 <p>Comme le précisent les interventions de Nathalie Gandon (Frédocs 2018) ou Nathalie Le Ba (ANF Sciences des données), il existe un certain nombre de principes fondamentaux associés à la notion d’open data et un certain nombre de textes législatifs en France et en Europe qui réglementent ou impactent la gestion des données de la recherche et la réutilisation des informations publiques. Parmi ces textes, figurent principalement la <a class="reference external" href="https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031701525/">loi Valter</a> (2015) et la    <a class="reference external" href="https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000031589829/">Loi pour la république numérique</a>] (2016) qui toutes deux élargissent le champ d’application de la <a class="reference external" href="https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000339241/2020-12-15/">Loi CADA</a> et ont pour objectif de favoriser la réutilisation de l’information publique. La loi Valter instaure le principe de gratuité dans la réutilisation des informations publiques tandis que la Loi pour la république numérique (Loi Lemaire) conduit à l’obligation de mise en ligne spontanée des documents administratifs librement réutilisables (y compris à des fins commerciales). Ces deux lois sont à l’origine du principe d’ouverture ou d’open data par défaut.
 Les notions de « document administratif », d’universalité et de gratuité des informations publiques sont ici des notions incontournables à saisir pour passer d’une logique de demande citoyenne à une logique de diffusion volontaire des informations du secteur public.</p>
@@ -636,7 +482,7 @@ ANF “Traçabilité des activités de recherche et gestion des connaissances”
 <p>Pour accompagner les équipes dans le traitement juridique des données, un collectif de juristes issus de l’enseignement supérieur et de la recherche a rédigé un guide de référence  <a class="reference external" href="https://www.ouvrirlascience.fr/wp-content/uploads/2018/11/Guide_Juridique_V2.pdf">“Ouverture des données de recherche. Guide d’analyse du cadre juridique en France”</a> qui explique les principes à respecter en matière de diffusion des données.</p>
 </section>
 <section id="adopter-des-pratiques-numeriques-responsables-dans-la-gestion-des-donnees-scientifiques">
-<h2><span class="section-number">1.3. </span>Adopter des pratiques numériques responsables dans la gestion des données scientifiques<a class="headerlink" href="#adopter-des-pratiques-numeriques-responsables-dans-la-gestion-des-donnees-scientifiques" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">1.3. </span>Adopter des pratiques numériques responsables dans la gestion des données scientifiques<a class="headerlink" href="#adopter-des-pratiques-numeriques-responsables-dans-la-gestion-des-donnees-scientifiques" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>La démarche d’ouverture des données de recherche dans laquelle nos établissements sont engagés est une démarche positive à de nombreux égards (préservation pérenne, reproductibilité, etc.), elle doit néanmoins, et de manière urgente, être considérée aussi du point de vue de son impact environnemental.</p>
 <p>S’il est encore difficile de quantifier très précisément l’impact de la gestion des données de recherche en particulier sur l’empreinte carbone ou sur la biodiversité, la disponibilité, la manipulation et le traitement de gros volumes de données entraînent de nouveaux usages qu’il s’agit aujourd’hui de mesurer et de questionner pour parvenir à une gestion sobre et écoresponsable. La gestion des données participe à cet impact avec une soixantaine de zettaoctets de données créées en 2020 et des projections à 170 zettaoctets pour 2025.</p>
 <p>Une réflexion sur les outils, les infrastructures et les formats à utiliser s’impose, de même qu’une gestion FAIR rigoureuse avec une sélection stricte des données utiles, nécessaires, validées et suffisamment bien qualifiées (avec des métadonnées de qualité) pour éviter de sauvegarder et de conserver des données inutilisables.</p>
@@ -644,7 +490,7 @@ ANF “Traçabilité des activités de recherche et gestion des connaissances”
 <p>La croissance et la disponibilité des jeux de données entraînent de nouveaux usages tels que le deep learning qui introduit de nombreuses interrogations, notamment vis à vis d’usages discutables (fake news, profilage, …). Les performances associées à ces usages se font cependant au prix d’une consommation d’énergie importante afin de manipuler et extraire les gros volumes de données nécessaires.</p>
 <p>Ces objectifs d’économie du numérique ne sont pas si triviaux et devront être réfléchis pour être atteints avec intelligence et efficacité. On cherchera ainsi à ce que l’investissement en temps et en argent ainsi que l’impact environnemental d’acquisition ou de fabrication de ces données ne soient pas vains.</p>
 <section id="la-gestion-des-donnees-scientifiques-face-a-ces-enjeux">
-<h3><span class="section-number">1.3.1. </span>La gestion des données scientifiques face à ces enjeux<a class="headerlink" href="#la-gestion-des-donnees-scientifiques-face-a-ces-enjeux" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">1.3.1. </span>La gestion des données scientifiques face à ces enjeux<a class="headerlink" href="#la-gestion-des-donnees-scientifiques-face-a-ces-enjeux" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>La conservation pérenne de la donnée passe par l’application des principes FAIR qui, en soit, ne sont pas « éco responsables » puisque ces principes imposent de mobiliser des fortes ressources informatiques en permanence pour la conservation et la diffusion des données. Par ailleurs, pour permettre la pérennité et la réutilisation de ces données, les métadonnées descriptives des jeux de données augmentent d’autant les volumes de données à stocker.</p>
 <p>Cependant, ces principes permettent de garantir que la donnée sera exploitable et réutilisable et le formalisme nécessaire à leur application présente également plusieurs avantages (mais aussi quelques inconvénients) environnementaux. Parmi les avantages, on notera tout de même des éléments importants qui vont à priori dans le sens d’une certaine sobriété et rationalisation des processus numériques :</p>
 <ul class="simple">
@@ -694,17 +540,17 @@ ANF “Traçabilité des activités de recherche et gestion des connaissances”
 </section>
 </section>
 <section id="connaitre-et-comprendre-les-principes-fair">
-<h2><span class="section-number">1.4. </span>Connaître et comprendre les principes FAIR<a class="headerlink" href="#connaitre-et-comprendre-les-principes-fair" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">1.4. </span>Connaître et comprendre les principes FAIR<a class="headerlink" href="#connaitre-et-comprendre-les-principes-fair" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Enoncés initialement par le groupe de travail FORCE 11, les principes FAIR « The FAIR Guiding Principles for scientific data management and stewardhip » ont été publiés en mars 2016 dans la revue <em>Scientific Data</em>. Elaborés par des représentants du monde universitaire, de l’édition, de l’industrie et des organismes de financement, ils répondent aux besoins urgents d’amélioration des infrastructures permettant la réutilisation des données scientifiques.</p>
 <section id="definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees">
-<h3><span class="section-number">1.4.1. </span>Définir les principes FAIR pour guider les stratégies de gestion des données<a class="headerlink" href="#definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">1.4.1. </span>Définir les principes FAIR pour guider les stratégies de gestion des données<a class="headerlink" href="#definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Il s’agit d’un ensemble de <a class="reference external" href="https://www.ouvrirlascience.fr/fair-principles/">principes directeurs</a> visant à rendre les données de la recherche, Faciles à trouver, Accessibles, Interopérables et Réutilisables (FAIR) par les êtres humains et les machines.
 Ces principes permettent de guider les stratégies de gestion des données et d’aider tous les acteurs qui œuvrent à les produire, à en contrôler la qualité, à les traiter et les analyser, à assurer leur publication et leur dissémination, à les sélectionner et les préparer pour le dépôt dans des plateformes de partage ou d’archivage.<br />
 Il s’agit aussi en particulier de mettre l’accent sur le renforcement de la capacité des machines à rechercher et utiliser automatiquement les données afin de favoriser leur réutilisation par des particuliers.</p>
 <p>Les principes FAIR ont pour objectif de guider le partage et la publication des données. Toutefois, s’il y a une volonté forte en faveur du partage et de la réutilisation des données (les principes sont adoptés par de plus en plus d’organismes de financement de communautés scientifiques et sont également préconisés dans le plan national pour la science ouverte et dans la feuille de route du CNRS), il faut bien garder à l’esprit qu’appliquer les principes FAIR n’implique pas l’ouverture systématique des données.  Le principe de base « aussi ouvert que possible, aussi fermé que nécessaire » reste en vigueur y compris lorsque l’on applique les principes FAIR.</p>
 </section>
 <section id="appliquer-les-principes-fair-retours-dexperiences">
-<h3><span class="section-number">1.4.2. </span>Appliquer les principes FAIR -  Retours d’expériences<a class="headerlink" href="#appliquer-les-principes-fair-retours-dexperiences" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">1.4.2. </span>Appliquer les principes FAIR -  Retours d’expériences<a class="headerlink" href="#appliquer-les-principes-fair-retours-dexperiences" title="Lien permanent vers cette rubrique">#</a></h3>
 <p><a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr">Le groupe de travail inter-réseaux « Atelier données »</a> s’est intéressé à l’application des principes FAIR. Une journée d’étude a été organisée en novembre 2018 avec l’objectif de présenter des retours d’expériences et des réflexions sur les pratiques de gestion des données de la recherche mises en œuvre par les réseaux métiers et les réseaux technologiques du CNRS. Elle a donné lieu à la production d’un <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/site/download/Livret_FAIR_2018.pdf">livret de synthèse</a>.</p>
 <p>Cette journée s’appuie plus spécifiquement sur les notions de pérennisation et d’interopérabilité des données dans les projets de recherche, et cherche à en comprendre les facteurs ressorts de réussite et les points sensibles à surveiller.<br />
 Elle a pour ambition d’analyser les complémentarités des expériences au travers des métiers représentés par les réseaux ; de formuler des points de convergence de bonnes pratiques et d’accroître les échanges entre les réseaux de la MITI sur des questions à forts enjeux pour l’évolution de nos métiers.</p>
@@ -715,7 +561,7 @@ Elle a pour ambition d’analyser les complémentarités des expériences au tra
 </section>
 </section>
 <section id="prevoir-la-tracabilite-des-donnees">
-<h2><span class="section-number">1.5. </span>Prévoir la traçabilité des données<a class="headerlink" href="#prevoir-la-tracabilite-des-donnees" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">1.5. </span>Prévoir la traçabilité des données<a class="headerlink" href="#prevoir-la-tracabilite-des-donnees" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Dans un environnement où l’information arrive en masse, pouvoir assurer la traçabilité des données est essentiel. Les données numériques représentent un enjeu majeur pour la recherche, il est donc important d’intégrer une démarche qualité au sein des structures de recherche pour disposer de données fiables et réutilisables.</p>
 <p>Le réseau Qualité en Recherche particulièrement investi sur ce sujet, a élaboré en 2018, un guide de référence : <a class="reference external" href="https://qualite-en-recherche.cnrs.fr/wp-content/uploads/2021/08/guide_tracabilite_activites_recherche_gestion_connaissances.pdf">Traçabilité des activités de recherche et gestion des connaissances</a>, à destination des agents des unités de recherche.
 Ce guide a pour objectif de fournir des recommandations et bonnes pratiques pouvant être appliquées dans tous les domaines d’activités, tant administratifs, techniques que scientifiques, afin d’assurer la traçabilité des activités de recherche et d’améliorer la gestion des données de la recherche.</p>
@@ -734,7 +580,7 @@ Voir aussi les vidéos :
 </div>
 </section>
 <section id="envisager-la-curation-des-donnees">
-<h2><span class="section-number">1.6. </span>Envisager la curation des données<a class="headerlink" href="#envisager-la-curation-des-donnees" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">1.6. </span>Envisager la curation des données<a class="headerlink" href="#envisager-la-curation-des-donnees" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>La curation des données est une activité essentielle dans la pratique de gestion des données, car elle assure la pérennité des données sur le long terme, leur qualité et leur réexploitation. Elle s’avère toutefois difficile à définir, car sa pratique se situe très souvent à la croisée de différentes disciplines.  Elle s’applique tout au long du cycle de vie de la donnée et intègre des tâches de nature parfois différentes comme la sélection, la vérification, la normalisation ou encore l’enrichissement nécessaires à la publication des données.</p>
 <p>« Les activités de curation de données permettent de faciliter la découverte et la récupération de données, de maintenir la qualité des données, de leur ajouter de la valeur et d’en fournir pour de futures réutilisations. Ce nouveau champ inclut la représentation, l’archivage, l’authentification, la gestion, la préservation, la récupération, et l’utilisation. »</p>
 <p><em>Digital Humanities Data Curation</em></p>
@@ -753,7 +599,7 @@ Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Ausso
 <p>Dans le domaine spécifique des humanités numériques, il existe un guide auquel se référer : le <a class="reference external" href="https://guide.dhcuration.org/about/">DH Curation Guide</a>. Il est composé d’un recueil d’articles fiables sur la curation des données, contextualisés par des rédacteurs experts et des membres de la communauté. Ce guide, réalisé suite à une analyse de besoins exprimés par des professionnels en Humanités numériques dans le cadre d’un projet de recherche (Data Curation Education Program for the Humanities (DCEP-H) a été conçu avec l’objectif d’aider à relever les défis posés par la curation des données.</p>
 </section>
 <section id="prevoir-larchivage-des-donnees">
-<h2><span class="section-number">1.7. </span>Prévoir l’archivage des données<a class="headerlink" href="#prevoir-larchivage-des-donnees" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">1.7. </span>Prévoir l’archivage des données<a class="headerlink" href="#prevoir-larchivage-des-donnees" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>La gestion des archives d’un laboratoire de recherche est une pratique assez peu courante au sein de nos unités, mais tend à se développer avec l’explosion du volume des données produites ou générées par les communautés de chercheurs.</p>
 <p>Pour les archivistes de la section « Aurore » de l’association des archivistes français, « Les données de la recherche sont l’ensemble des informations et matériaux produits et reçus par des équipes de recherche et des chercheurs. Elles sont collectées et documentées à des fins de recherche scientifique. A ce titre, elles constituent une partie des archives de la recherche ».</p>
 <p>Se préoccuper de l’archivage des données fait partie intégrante d’une bonne gestion des données. Dans une logique de préservation, l’archivage se conçoit très en amont d’un projet, dès la création de la donnée. Son objectif est de décrire, documenter, contextualiser les données pour pouvoir ensuite assurer leur diffusion et leur préservation à long terme. Il concerne tout type de données (bases de données, questionnaire d’enquête, données brutes, photos, etc.). Au-delà du stockage, il s’agit là de faire en sorte qu’une donnée soit réexploitable (intègre, lisible, intelligible) dans 10, 20 ou 50 ans par une nouvelle communauté de chercheurs.</p>
@@ -762,15 +608,15 @@ Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Ausso
 <p>Pour plus de détails, on se reportera à la section <a class="reference internal" href="06-archiver.html#archiver"><span class="std std-ref">Préserver et archiver</span></a>.</p>
 </section>
 <section id="identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche">
-<h2><span class="section-number">1.8. </span>Identifier les compétences et expertises pour la gestion des données de la recherche<a class="headerlink" href="#identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">1.8. </span>Identifier les compétences et expertises pour la gestion des données de la recherche<a class="headerlink" href="#identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Évoluer dans nos pratiques suppose de développer de nouvelles expertises et d’acquérir de nouvelles connaissances. Les réseaux professionnels, vecteurs de partage et d’échange sont particulièrement indiqués pour organiser et faciliter l’acquisition de nouvelles compétences.</p>
 <section id="sinformer-et-se-former">
-<h3><span class="section-number">1.8.1. </span>S’informer et se former<a class="headerlink" href="#sinformer-et-se-former" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">1.8.1. </span>S’informer et se former<a class="headerlink" href="#sinformer-et-se-former" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>La formation continue des personnels est fondamentale pour suivre l’évolution des métiers et des technologies.</p>
 <p>Au CNRS, la formation continue est pilotée par le Service formation et Itinéraire Professionnel (<a class="reference external" href="http://www.dgdr.cnrs.fr/drh">SFIP</a>). Celui-ci met en oeuvre des actions adaptées aux orientations et à la stratégie de l’établissement à travers deux dispositifs de formation principaux : les Actions Nationales de Formation (ANF) fortement orientées sur les technologies et ingénierie, et les “Écoles Thématiques”  d’un contenu davantage scientifique et plutôt en relation avec les chercheurs. Le SFIP soutient également des actions régionales de formation.</p>
 <p><strong>Les réseaux métiers et réseaux technologiques</strong></p>
 <p>Dans ces dispositifs de formation institutionnels, les réseaux sont fréquemment au coeur des propositions de programme, du montage et de l’organisation des ANF. Chaque année de nombreuses formations sont en effet régulièrement organisées par les réseaux, et les supports de formations présentés sont habituellement capitalisés sous une forme ou une autre (résumé, pdf, vidéo) sur les sites des réseaux.</p>
-<p>Outre les ANF, les réseaux organisent également de manière autonome, sur budget propre attribués par la <a class="reference external" href="https://miti.cnrs.fr/">Mission pour les Initiatives transverses et l’Interdisciplinarité </a> (MITI) ou par les Instituts du CNRS, des journées de séminaires qui regroupent les membres des réseaux comme par exemple les <a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr">journées thématiques organisées par le groupe de travail inter-réseaux « Atelier données »</a> ou les <a class="reference external" href="https://sist.cnrs.fr/sist22/">séminaires annuels du réseau SIST de l’INSU</a>.</p>
+<p>Outre les ANF, les réseaux organisent également de manière autonome, sur budget propre attribués par la <a class="reference external" href="https://miti.cnrs.fr/">Mission pour les Initiatives transverses et l’Interdisciplinarité </a> (MITI) ou par les Instituts du CNRS, des journées de séminaires qui regroupent les membres des réseaux comme par exemple les <a class="reference external" href="https://gt-atelier-donnees.miti.cnrs.fr">journées thématiques organisées par le groupe de travail inter-réseaux « Atelier données »</a> ou les <a class="reference external" href="https://sist.cnrs.fr/sist22/#">séminaires annuels du réseau SIST de l’INSU</a>.</p>
 <p>Ils constituent bien évidemment des vecteurs importants de l’état de l’art et des connaissances à acquérir dans une discipline et contribuent à développer la connaissance d’un domaine de compétence.</p>
 <p>Initiés et portés par des membres d’un même métier ou travaillant avec les mêmes technologies (outils, instruments, méthodes, etc.), les réseaux professionnels du CNRS ont vocation à faciliter les échanges d’informations et d’idées entre leurs membres.</p>
 <p>Les réseaux favorisent le maintien et le développement des compétences, l’échange des pratiques professionnelles, l’implication et la motivation. Ils développent une connaissance fine de l’évolution des métiers et/ou des technologies de demain en assurant ainsi une veille pour les établissements d’Enseignement Supérieur et de la Recherche.</p>
@@ -786,7 +632,7 @@ Frédocs2013 - Gestion et valorisation des données de la recherche, 2013, Ausso
 Au côté de ces ateliers, 6 centres de références (expertise par domaine scientifique) et 4 centres de ressources complètent le dispositif. L’ensemble de ces services est amené à se développer au service des équipes scientifiques.</p>
 </section>
 <section id="suivre-les-travaux-du-college-competences-et-formation-du-coso">
-<h3><span class="section-number">1.8.2. </span>Suivre les travaux du Collège “Compétences et formation du CoSO”<a class="headerlink" href="#suivre-les-travaux-du-college-competences-et-formation-du-coso" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">1.8.2. </span>Suivre les travaux du Collège “Compétences et formation du CoSO”<a class="headerlink" href="#suivre-les-travaux-du-college-competences-et-formation-du-coso" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Le 2ème Plan national pour la science ouverte (2021-2024), poursuit sa trajectoire ambitieuse et s’appuie sur la politique nationale des données, des algorithmes et des codes sources impulsée par le Premier ministre qui vise à faciliter l’accès des chercheurs aux données publiques. Il engage la communauté scientifique à « transformer les pratiques pour faire de la science ouverte le principe par défaut ».</p>
 <p>Il souhaite étendre le mouvement de partage des données en développant et valorisant les compétences de la science ouverte tout au long du parcours des étudiants et des personnels de la recherche.</p>
 <p>La mise en œuvre de ce principe est exprimée à travers des objectifs et des actions des collèges du <a class="reference external" href="https://www.ouvrirlascience.fr/presentation-du-comite/">Comité pour la science ouverte</a> (CoSO), notamment les <a class="reference external" href="https://www.ouvrirlascience.fr/college-donnees-de-la-recherche/">collèges Données de la recherche</a> et <a class="reference external" href="https://www.ouvrirlascience.fr/college-competences-et-formation/">Compétences et formation</a>.</p>
@@ -812,7 +658,7 @@ Au côté de ces ateliers, 6 centres de références (expertise par domaine scie
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./."
         },
         predefinedOutput: true
@@ -820,56 +666,129 @@ Au côté de ces ateliers, 6 centres de références (expertise par domaine scie
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="00-introduction.html" title="précédent page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">précédent</p>
-            <p class="prev-next-title">Guide de bonnes pratiques sur la gestion des données de la recherche</p>
-        </div>
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="00-introduction.html"
+       title="page précédente">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">précédent</p>
+        <p class="prev-next-title">Guide de bonnes pratiques sur la gestion des données de la recherche</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="02-concevoir_planifier.html" title="suivant page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="02-concevoir_planifier.html"
+       title="page suivante">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">suivant</p>
         <p class="prev-next-title"><span class="section-number">2. </span>Concevoir et planifier</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
+</div></div>
+  
 </div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contenu
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprendre-le-paysage-de-la-gestion-des-donnees">1.1. Comprendre le paysage de la gestion des données</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#connaitre-les-politiques-daccompagnement-des-donnees-au-niveau-francais-europeen-et-international">1.1.1. Connaître les politiques d’accompagnement des données au niveau français, européen et international</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comprendre-le-contexte">1.1.2. Comprendre le contexte</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprendre-et-respecter-la-legislation-en-vigueur">1.2. Comprendre et respecter la législation en vigueur</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adopter-des-pratiques-numeriques-responsables-dans-la-gestion-des-donnees-scientifiques">1.3. Adopter des pratiques numériques responsables dans la gestion des données scientifiques</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-gestion-des-donnees-scientifiques-face-a-ces-enjeux">1.3.1. La gestion des données scientifiques face à ces enjeux</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connaitre-et-comprendre-les-principes-fair">1.4. Connaître et comprendre les principes FAIR</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#definir-les-principes-fair-pour-guider-les-strategies-de-gestion-des-donnees">1.4.1. Définir les principes FAIR pour guider les stratégies de gestion des données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#appliquer-les-principes-fair-retours-dexperiences">1.4.2. Appliquer les principes FAIR -  Retours d’expériences</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prevoir-la-tracabilite-des-donnees">1.5. Prévoir la traçabilité des données</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#envisager-la-curation-des-donnees">1.6. Envisager la curation des données</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prevoir-larchivage-des-donnees">1.7. Prévoir l’archivage des données</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#identifier-les-competences-et-expertises-pour-la-gestion-des-donnees-de-la-recherche">1.8. Identifier les compétences et expertises pour la gestion des données de la recherche</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sinformer-et-se-former">1.8.1. S’informer et se former</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#suivre-les-travaux-du-college-competences-et-formation-du-coso">1.8.2. Suivre les travaux du Collège “Compétences et formation du CoSO”</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-    By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+  <div class="footer-item">
+    
+<p class="component-author">
+Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS
+</p>
+
+  </div>
   
-    Last updated on 01 févr. 2023.<br/>
-    <div class="extra_footer">
-      <p>
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    <p class="last-updated">
+  Mis à jour le 23 août 2023.
+  <br/>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
 </p>
 
-    </div>
-</p>
-        </footer>
-    </div>
-    
 </div>
+  </div>
+  
+</div>
+          </footer>
+        
 
-
-      </div>
+      </main>
     </div>
+  </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
 
-
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>

@@ -1,50 +1,61 @@
 
+
 <!DOCTYPE html>
 
-<html lang="fr">
+
+<html lang="fr" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>2. Concevoir et planifier</title>
-    
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
-<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=5115cc725059bd94278eecd172e13a965bf8f5a9" type="text/css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
     <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css" />
-    <link rel="stylesheet" type="text/css" href="_static/design-style.b7bb847fb20b106c3d81b95245e65545.min.css" />
-    
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
     <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
-    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="_static/togglebutton.js"></script>
     <script src="_static/translations.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script src="_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
 const thebe_selector = ".thebe,.cell"
@@ -52,465 +63,316 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '02-concevoir_planifier';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Recherche" href="search.html" />
     <link rel="next" title="3. Collecter" href="03-collecter.html" />
     <link rel="prev" title="1. Imaginer et préparer" href="01-imaginer.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="fr">
-    
-
-    <!-- Google Analytics -->
-    
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="fr"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
-<!-- Checkboxes to toggle the left sidebar -->
-<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation" aria-label="Toggle navigation sidebar">
-<label class="overlay overlay-navbar" for="__navigation">
-    <div class="visually-hidden">Toggle navigation sidebar</div>
-</label>
-<!-- Checkboxes to toggle the in-page toc -->
-<input type="checkbox" class="sidebar-toggle" name="__page-toc" id="__page-toc" aria-label="Toggle in-page Table of Contents">
-<label class="overlay overlay-pagetoc" for="__page-toc">
-    <div class="visually-hidden">Toggle in-page Table of Contents</div>
-</label>
-<!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
-<div class="header header-item noprint"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
-    <div class="container-fluid" id="banner"></div>
-
-    
-
-    <div class="container-xl">
-      <div class="row">
-          
-<!-- Sidebar -->
-<div class="bd-sidebar noprint" id="site-navigation">
-    <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <a class="skip-link" href="#main-content">Passer au contenu principal</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      <div class="bd-sidebar-primary bd-sidebar">
         
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="00-introduction.html">
+  
+  
+  
+  
+    
+    
       
-      
-      <img src="_static/logo.png" class="logo" alt="logo">
-      
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
- </span>
-</p>
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text"> </span></p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="01-imaginer.html">
-   1. Imaginer et préparer
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   2. Concevoir et planifier
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="03-collecter.html">
-   3. Collecter
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="04-traiter.html">
-   4. Traiter
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="05-analyser.html">
-   5. Analyser
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="06-archiver.html">
-   6. Préserver et archiver
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="07-publier.html">
-   7. Publier et diffuser
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="01-imaginer.html">1. Imaginer et préparer</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">2. Concevoir et planifier</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-collecter.html">3. Collecter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-traiter.html">4. Traiter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="05-analyser.html">5. Analyser</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-archiver.html">6. Préserver et archiver</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-publier.html">7. Publier et diffuser</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
- </span>
-</p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text"> </span></p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="08-conclusion.html">
-   Conclusion
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="10-infrastructures.html">
-   Infrastructures
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="11-reproductibilite.html">
-   Reproductibilité
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="13-credits.html">
-   Crédits
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf">
-   Document pdf
-  </a>
- </li>
+<li class="toctree-l1"><a class="reference internal" href="08-conclusion.html">Conclusion</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-infrastructures.html">Infrastructures</a></li>
+<li class="toctree-l1"><a class="reference internal" href="11-reproductibilite.html">Reproductibilité</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-credits.html">Crédits</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://mi-gt-donnees.pages.math.unistra.fr/guide/guide_bonnes_pratiques_gestion_donnees_recherche_v2.pdf">Document pdf</a></li>
 </ul>
 
     </div>
 </nav></div>
-        <div class="bd-sidebar__bottom">
-             <!-- To handle the deprecated key -->
-            
-            <div class="navbar_extra_footer">
-            <a href="mailto:contact-guide@services.cnrs.fr">contact</a>
-            </div>
-            
-        </div>
     </div>
-    <div id="rtd-footer-container"></div>
-</div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
 
 
-          
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
 
-
-          
-<!-- A tiny helper pixel to detect if we've scrolled -->
 <div class="sbt-scroll-pixel-helper"></div>
-<!-- Main content -->
-<div class="col py-0 content-container">
-    
-    <div class="header-article row sticky-top noprint">
-        
 
-
-
-<div class="col py-1 d-flex header-article-main">
-    <div class="header-article__left">
-        
-        <label for="__navigation"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="right"
-title="Toggle navigation"
->
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
   
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-bars"></i>
-  </span>
-
-</label>
-
-        
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
     </div>
-    <div class="header-article__right">
-<button onclick="toggleFullScreen()"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="bottom"
-title="Fullscreen mode"
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F02-concevoir_planifier.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Ouvrez un problème"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-expand"></i>
-  </span>
-
-</button>
-<a href="https://github.com/miti-gt-donnees/guide/issues/new?title=Issue%20on%20page%20%2F02-concevoir_planifier.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="bottom"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-lightbulb"></i>
   </span>
 
 </a>
 
-<div class="menu-dropdown menu-dropdown-download-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Download this page">
-      <i class="fas fa-download"></i>
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Téléchargez cette page">
+    <i class="fas fa-download"></i>
   </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="_sources/02-concevoir_planifier.md"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Download source file"
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/02-concevoir_planifier.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Télécharger le fichier source"
+   data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="headerbtn__text-container">.md</span>
+<span class="btn__text-container">.md</span>
 </a>
-
-      </li>
+</li>
+      
+      
+      
       
       <li>
-        
-<button onclick="printPdf(this)"
-  class="headerbtn"
-  data-toggle="tooltip"
-data-placement="left"
-title="Print to PDF"
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Imprimer au format PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
+<span class="btn__icon-container">
   <i class="fas fa-file-pdf"></i>
   </span>
-<span class="headerbtn__text-container">.pdf</span>
+<span class="btn__text-container">.pdf</span>
 </button>
-
-      </li>
+</li>
       
-    </ul>
-  </div>
+  </ul>
 </div>
-<label for="__page-toc"
-  class="headerbtn headerbtn-page-toc"
-  
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Mode plein écran"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
 >
   
 
-<span class="headerbtn__icon-container">
-  <i class="fas fa-list"></i>
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
   </span>
 
+</button>
+
+
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="clair/sombre" aria-label="clair/sombre" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Recherche" aria-label="Recherche" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
 </label>
-
+</div></div>
+      
     </div>
+  
 </div>
-
-<!-- Table of contents -->
-<div class="col-md-3 bd-toc show noprint">
-    <div class="tocsection onthispage pt-5 pb-3">
-        <i class="fas fa-list"></i> Contents
-    </div>
-    <nav id="bd-toc-nav" aria-label="Page">
-        <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#evaluer-les-besoins-lies-au-projet">
-   2.1. Évaluer les besoins liés au projet
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees">
-     2.1.1. Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#mettre-en-place-une-gestion-de-projet">
-   2.2. Mettre en place une gestion de projet
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#analyser-les-risques">
-     2.2.1. Analyser les risques
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#definir-le-risque-associe-a-un-jeu-de-donnees">
-       2.2.1.1. Définir le risque associé à un jeu de données
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#sauvegarder-les-donnees">
-     2.2.2. Sauvegarder les données
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#amorcer-un-plan-de-gestion-de-donnees">
-   2.3. Amorcer un plan de gestion de données
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#comment-creer-un-plan-de-gestion-des-donnees">
-     2.3.1. Comment créer un plan de gestion des données ?
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#creer-un-plan-de-gestion-de-logiciel">
-     2.3.2. Créer un plan de gestion de logiciel
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#retour-dexperience">
-     2.3.3. Retour d’expérience
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services">
-   2.4. Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-bases-de-donnees">
-     2.4.1. Les bases de données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#la-gestion-des-collections">
-     2.4.2. La gestion des collections
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-    </nav>
 </div>
-    </div>
-    <div class="article row">
-        <div class="col pl-md-3 pl-lg-5 content-container">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Concevoir et planifier</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#evaluer-les-besoins-lies-au-projet">
-   2.1. Évaluer les besoins liés au projet
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees">
-     2.1.1. Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#mettre-en-place-une-gestion-de-projet">
-   2.2. Mettre en place une gestion de projet
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#analyser-les-risques">
-     2.2.1. Analyser les risques
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#definir-le-risque-associe-a-un-jeu-de-donnees">
-       2.2.1.1. Définir le risque associé à un jeu de données
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#sauvegarder-les-donnees">
-     2.2.2. Sauvegarder les données
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#amorcer-un-plan-de-gestion-de-donnees">
-   2.3. Amorcer un plan de gestion de données
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#comment-creer-un-plan-de-gestion-des-donnees">
-     2.3.1. Comment créer un plan de gestion des données ?
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#creer-un-plan-de-gestion-de-logiciel">
-     2.3.2. Créer un plan de gestion de logiciel
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#retour-dexperience">
-     2.3.3. Retour d’expérience
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services">
-   2.4. Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#les-bases-de-donnees">
-     2.4.1. Les bases de données
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#la-gestion-des-collections">
-     2.4.2. La gestion des collections
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
+              
+              
 
-                        </nav>
-                    </div>
-                </div>
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Concevoir et planifier</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contenu </h2>
             </div>
-            <main id="main-content" role="main">
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluer-les-besoins-lies-au-projet">2.1. Évaluer les besoins liés au projet</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees">2.1.1. Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mettre-en-place-une-gestion-de-projet">2.2. Mettre en place une gestion de projet</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analyser-les-risques">2.2.1. Analyser les risques</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#definir-le-risque-associe-a-un-jeu-de-donnees">2.2.1.1. Définir le risque associé à un jeu de données</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sauvegarder-les-donnees">2.2.2. Sauvegarder les données</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#amorcer-un-plan-de-gestion-de-donnees">2.3. Amorcer un plan de gestion de données</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comment-creer-un-plan-de-gestion-des-donnees">2.3.1. Comment créer un plan de gestion des données ?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creer-un-plan-de-gestion-de-logiciel">2.3.2. Créer un plan de gestion de logiciel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#retour-dexperience">2.3.3. Retour d’expérience</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services">2.4. Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-bases-de-donnees">2.4.1. Les bases de données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-gestion-des-collections">2.4.2. La gestion des collections</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
                 
-              <div>
-                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
   <section class="tex2jax_ignore mathjax_ignore" id="concevoir-et-planifier">
-<span id="concevoir-planifier"></span><h1><span class="section-number">2. </span>Concevoir et planifier<a class="headerlink" href="#concevoir-et-planifier" title="Lien permanent vers ce titre">#</a></h1>
+<span id="concevoir-planifier"></span><h1><span class="section-number">2. </span>Concevoir et planifier<a class="headerlink" href="#concevoir-et-planifier" title="Lien permanent vers cette rubrique">#</a></h1>
 <p>Dans cette étape du cycle de vie de la donnée, il s’agit de définir les tâches à accomplir pour réaliser le projet de recherche, d’élaborer un planning, de rechercher d’éventuels partenaires et financements, d’élaborer les spécifications nécessaires (i.e. de définir précisément les éléments fonctionnels et techniques souhaités), de définir les données et les métadonnées qui seront utiles, de penser au futur plan de diffusion et bien d’autres actions de préparation et de planification.</p>
 <p>Pour ces travaux de conception et de planification, les réseaux apportent un appui sur la gestion de projet, les méthodologies de conduite de projet qui permettent par exemple la définition des indicateurs utiles au projet, les outils pour assurer l’interopérabilité des systèmes mis en oeuvre.</p>
 <p>Ils fournissent des  recommandations et des retours d’expérience pour la rédaction des plans de gestion de	données,	pour la définition du type	de données à collecter, l’identification de	nouveaux supports de publication…</p>
 <p>À ce stade, il est aussi nécessaire de	prévoir	le	mode de collecte et de stockage afin d’organiser	la traçabilité en	amont, traçabilité qui permettra de garantir la réutilisation des données.</p>
 <section id="evaluer-les-besoins-lies-au-projet">
-<h2><span class="section-number">2.1. </span>Évaluer les besoins liés au projet<a class="headerlink" href="#evaluer-les-besoins-lies-au-projet" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">2.1. </span>Évaluer les besoins liés au projet<a class="headerlink" href="#evaluer-les-besoins-lies-au-projet" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Lors du montage du projet ou au plus tard en début de projet, il est nécessaire d’évaluer les différents besoins, de mettre en place une organisation et les outils collaboratifs nécessaires à son bon déroulement. Les paragraphes suivants abordent différents points de vue complémentaires.</p>
 <section id="anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees">
-<h3><span class="section-number">2.1.1. </span>Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)<a class="headerlink" href="#anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">2.1.1. </span>Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)<a class="headerlink" href="#anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Il convient de prendre en compte les besoins des utilisateurs du projet, quelquefois appelés “use cases”, et les besoins entre les différents systèmes qui seront sollicités, qu’ils existent déjà ou qu’ils soient élaborés pour le projet.</p>
 <p>À l’occasion de l’ANF “Système d’information embarqué, cahier/carnet de terrain et de laboratoire électronique : quelles interactions avec les bases de données ?”
 organisée en mai 2016, Nadine Mandran, du laboratoire LIG, explique comment intégrer l’utilisateur au sein d’un projet.
@@ -524,7 +386,7 @@ Séminaire « Système d’information embarqué, cahier/carnet de terrain et de
 </section>
 </section>
 <section id="mettre-en-place-une-gestion-de-projet">
-<h2><span class="section-number">2.2. </span>Mettre en place une gestion de projet<a class="headerlink" href="#mettre-en-place-une-gestion-de-projet" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">2.2. </span>Mettre en place une gestion de projet<a class="headerlink" href="#mettre-en-place-une-gestion-de-projet" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Les aspects de conception et de planification nécessitent de mettre en place une méthodologie de gestion de projet. En complément, une analyse des risques et une analyse SWOT (méthode permettant d’analyser les forces, les faiblesses, les opportunités et menaces liées à un projet) pourront également être menées.</p>
 <p>De façon à mieux comprendre l’amplitude de la gestion de projet et sa nécessaire adéquation avec la thématique scientifique du laboratoire et les contraintes qui lui sont afférentes, on pourra consulter la présentation de Myriam Ferro réalisée en 2017. Elle présente la démarche qualité mise en place au laboratoire “Étude de la dynamique des protéomes” ainsi que les outils déployés pour appuyer la démarche.</p>
 <div class="seealso admonition">
@@ -558,7 +420,7 @@ Ces activités couvrent :</p>
 </ul>
 <p>Le réseau Qualité en Recherche a élaboré une <a class="reference external" href="https://qualite-en-recherche.cnrs.fr/wp-content/uploads/2021/08/Guide_Assurance_Produit-2019_05_24.pdf">guide assurance produit</a> qui détaille ces points.</p>
 <section id="analyser-les-risques">
-<h3><span class="section-number">2.2.1. </span>Analyser les risques<a class="headerlink" href="#analyser-les-risques" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">2.2.1. </span>Analyser les risques<a class="headerlink" href="#analyser-les-risques" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>La sécurité de l’information est définie comme la « protection de la confidentialité, de l’intégrité et de la disponibilité de l’information ». Elle devient aujourd’hui une des problématiques majeures de nos unités.</p>
 <p>Forts de ce constat, nous devons envisager la finalité de « protection du patrimoine scientifique » à travers des enjeux principaux :</p>
 <ul class="simple">
@@ -582,7 +444,7 @@ Ces activités couvrent :</p>
 6e rencontre du réseau Qualité en Recherche, Biarritz, 2015</p>
 </div>
 <section id="definir-le-risque-associe-a-un-jeu-de-donnees">
-<h4><span class="section-number">2.2.1.1. </span>Définir le risque associé à un jeu de données<a class="headerlink" href="#definir-le-risque-associe-a-un-jeu-de-donnees" title="Lien permanent vers ce titre">#</a></h4>
+<h4><span class="section-number">2.2.1.1. </span>Définir le risque associé à un jeu de données<a class="headerlink" href="#definir-le-risque-associe-a-un-jeu-de-donnees" title="Lien permanent vers cette rubrique">#</a></h4>
 <p>Eric Quinton aborde la question de la protection des données dans un contexte de menaces informatiques. Que représente la donnée ?  Il précise qu’une donnée n’a pas de valeur intrinsèque, c’est la représentation d’une réalité, elle dépend de son contexte d’acquisition, de son traitement. Lorsque l’on travaille sur les données, on travaille toujours sur un processus d’acquisition dans le cadre d’un référentiel.
 Certaines données doivent être protégées, car elles comportent un risque si elles venaient à être diffusées et réutilisées. Face aux menaces informatiques qui n’ont jamais été aussi nombreuses (piratages, attaques, arnaques), il importe de définir le risque et de comprendre comment l’intégrer à la gestion des données. Il existe plusieurs définitions, mais l’on s’accorde pour dire que c’est la conjonction entre une cible, un impact, une cause et une probabilité. Une fois la cible définie (un jeu de données) il convient de définir l’impact ou la gravité. Celui-ci s’évalue selon trois critères (confidentialité de l’information, intégrité des données et disponibilité du système) classés chez IRSTEA selon un schéma détaillé correspondant à une échelle de 1 à 4. Il est important aussi de calculer l’impact en cas de défaillance – pour chaque critère, on note 4 niveaux d’impact  estimés selon 4 thématiques. L’étude débouche sur un tableau récapitulatif qui est reporté dans le plan de gestion de données. Ce tableau permet de définir l’impact maximal et la sensibilité du système.
 On ne peut connaître toutes les menaces et les causes à prendre en compte. L’usage est de consulter les recueils de bonnes pratiques et de se référer aux listes et référentiels existants. La probabilité d’occurrence d’une menace est à évaluer en fonction du risque associé – on note trois niveaux de risques : opportuniste, ciblé attaque concertée.
@@ -599,7 +461,7 @@ Voir aussi les vidéos :
 </section>
 </section>
 <section id="sauvegarder-les-donnees">
-<h3><span class="section-number">2.2.2. </span>Sauvegarder les données<a class="headerlink" href="#sauvegarder-les-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">2.2.2. </span>Sauvegarder les données<a class="headerlink" href="#sauvegarder-les-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>À ce stade, il est important de prévoir une sauvegarde pour les données qui seront collectées, créées, construites dans le cadre du projet. La sauvegarde des données est un point important de la gestion du projet qui répond au risque de perte des données, c’est aussi un point qui doit être traité dans le plan de gestion de données traité au paragraphe suivant. Etant donné l’importance de la sauvegarde des données, nous préférons, au risque de redondance, mettre l’accent ici sur cette nécessité.<br />
 L’objet de cette phase préparatoire n’est pas de discuter le choix d’une technologie ou d’une stratégie, mais simplement de se préoccuper de prévoir la sauvegarde des données, et se poser les bonnes questions :</p>
 <ul class="simple">
@@ -614,7 +476,7 @@ L’objet de cette phase préparatoire n’est pas de discuter le choix d’une 
 </section>
 </section>
 <section id="amorcer-un-plan-de-gestion-de-donnees">
-<h2><span class="section-number">2.3. </span>Amorcer un plan de gestion de données<a class="headerlink" href="#amorcer-un-plan-de-gestion-de-donnees" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">2.3. </span>Amorcer un plan de gestion de données<a class="headerlink" href="#amorcer-un-plan-de-gestion-de-donnees" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Un Plan de Gestion de Données (PGD), ou Data Management Plan (DMP) en anglais, est un document formalisé - un livrable du projet pour la plupart des appels à projets actuellement - explicitant la manière dont seront obtenues, documentées, analysées, disséminées et utilisées les données produites au cours et à l’issue d’un processus ou d’un projet de recherche.</p>
 <p>À noter qu’il existe des modèles de <a class="reference external" href="https://urfistinfo.hypotheses.org/3555">plans de gestion de données dits “de structure”</a> dont la période considérée s’étend au-delà de la durée d’un seul projet. Ce type de modèle s’applique par exemple aux plateformes et est donc sans doute de façon générale plus adapté aux besoins du personnel technique.</p>
 <div class="seealso admonition">
@@ -624,7 +486,7 @@ Atelier distant sur la formation aux PGD - 25 juin 2020</p>
 </div>
 <p>L’initialisation du plan de gestion de données dans cette phase est un préalable à sa mise à jour nécessaire dans les étapes suivantes. Le PGD doit suivre les évolutions du projet.</p>
 <section id="comment-creer-un-plan-de-gestion-des-donnees">
-<h3><span class="section-number">2.3.1. </span>Comment créer un plan de gestion des données ?<a class="headerlink" href="#comment-creer-un-plan-de-gestion-des-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">2.3.1. </span>Comment créer un plan de gestion des données ?<a class="headerlink" href="#comment-creer-un-plan-de-gestion-des-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Cette présentation de Marie-Claude Quidoz présente dans une première partie le plan de gestion de données en perspective du cycle de vie des données et détaille les principes FAIR. Une seconde partie présente différents modèles de plans issus de plusieurs origines (INRAe, appels à projets). C’est une excellente entrée en matière pour comprendre rapidement ce qu’est concrètement un plan de gestion de données.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/tempo-pgd.pdf?580/01010276848206d6f57d0d6c5d8d93a441f83668">Plan de gestion des données.</a>   </p>
@@ -658,7 +520,7 @@ JCAD 2019</p>
 </div>
 </section>
 <section id="creer-un-plan-de-gestion-de-logiciel">
-<h3><span class="section-number">2.3.2. </span>Créer un plan de gestion de logiciel<a class="headerlink" href="#creer-un-plan-de-gestion-de-logiciel" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">2.3.2. </span>Créer un plan de gestion de logiciel<a class="headerlink" href="#creer-un-plan-de-gestion-de-logiciel" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Les logiciels sont aussi des données, un peu particulières et qui méritent donc un modèle approprié de plan de gestion : le plan de gestion de logiciel.
 Le <a class="reference external" href="http://www.france-grilles.fr/presoft/">projet PRESOFT</a> propose un modèle adapté à la fois au logiciel et au contexte de la recherche en France. Après une présentation de ce contexte, du modèle et de la procédure associée, les apports de PRESOFT sont détaillés. À noter que le modèle proposé par PRESOFT s’étend sur l’ensemble de la “vie” du logiciel depuis l’idée, avec les documents préparatoires, jusqu’à la préservation (sous toutes ses formes) et qu’il prend en compte toutes les formes de financements (projets, stages…). Le modèle est disponible sur <a class="reference external" href="https://dmp.opidor.fr/public_templates">DMP OPIdOR</a> et <a class="reference external" href="https://hal.archives-ouvertes.fr/hal-01802565">déposé sur HAL</a>.</p>
 <div class="seealso admonition">
@@ -668,7 +530,7 @@ JCAD 2019</p>
 </div>
 </section>
 <section id="retour-dexperience">
-<h3><span class="section-number">2.3.3. </span>Retour d’expérience<a class="headerlink" href="#retour-dexperience" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">2.3.3. </span>Retour d’expérience<a class="headerlink" href="#retour-dexperience" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Afin de conclure ce tour d’horizon des plans de gestion de données, ce retour d’expérience relatif au domaine de la biodiversité vous permettra de mieux comprendre comment utiliser les plans de gestion de données comme un véritable outil de gestion qui va bien au-delà du document administratif nécessaire à la validation du projet.</p>
 <div class="seealso admonition">
 <p class="admonition-title"><a class="reference external" href="https://sist.cnrs.fr/wp-content/uploads/2021/12/16-W-Heintz-Du-plan-de-gestion-des-donnees-au-data-paper.pdf">Du Plan de Gestion des Données au Datapaper : suivi des données scientifiques tout au long de leur cycle de vie.</a>   </p>
@@ -679,13 +541,13 @@ JCAD 2019</p>
 </section>
 </section>
 <section id="identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services">
-<h2><span class="section-number">2.4. </span>Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services<a class="headerlink" href="#identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services" title="Lien permanent vers ce titre">#</a></h2>
+<h2><span class="section-number">2.4. </span>Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services<a class="headerlink" href="#identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services" title="Lien permanent vers cette rubrique">#</a></h2>
 <p>Une fois les besoins exprimés, il faut identifier les infrastructures nécessaires à la réalisation du projet. On apportera également un soin particulier aux différents
 critères de choix de ces infrastructures.</p>
 <p>La section <a class="reference internal" href="10-infrastructures.html#infrastructures"><span class="std std-ref">Infrastructures</span></a> de ce guide présente différents types d’infrastructures destinées à la recherche que ce soit au niveau européen, national, régional ou par thématiques scientifiques.</p>
 <p>Les modes de collecte et de stockage sont détaillés dans la section collecter de même que l’utilisation d’un cahier de laboratoire.</p>
 <section id="les-bases-de-donnees">
-<h3><span class="section-number">2.4.1. </span>Les bases de données<a class="headerlink" href="#les-bases-de-donnees" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">2.4.1. </span>Les bases de données<a class="headerlink" href="#les-bases-de-donnees" title="Lien permanent vers cette rubrique">#</a></h3>
 <p>Les bases de données font partie des différents types de services pouvant être utilisés dans le cadre d’un projet et qui sont proposés par les infrastructures ou disponibles au sein des laboratoires. Plusieurs types de bases de données sont disponibles (SQL, noSQL, …).</p>
 <p>La gestion des données dans des bases de données relationnelles est un gage de structuration cohérente, et permet une interrogation des données par des opérateurs du langage SQL (System Query Language)</p>
 <p>Plusieurs Systèmes de Gestion de Bases de Données (SGBD) existent dans le monde du logiciel libre, cependant, PostgreSQL est le SGBD conseillé par la <a class="reference external" href="http://rbdd.cnrs.fr/IMG/pdf/mcq_jrbdd2017.pdf?381/0207fc9b42426c781066e710f0702bdbe8c90096">circulaire Ayrault</a> que Marie-Claude Quidoz a présentée en 2017.</p>
@@ -720,7 +582,7 @@ Webcast RDBB, 2017</p>
 </div>
 </section>
 <section id="la-gestion-des-collections">
-<h3><span class="section-number">2.4.2. </span>La gestion des collections<a class="headerlink" href="#la-gestion-des-collections" title="Lien permanent vers ce titre">#</a></h3>
+<h3><span class="section-number">2.4.2. </span>La gestion des collections<a class="headerlink" href="#la-gestion-des-collections" title="Lien permanent vers cette rubrique">#</a></h3>
 <p><a class="reference external" href="https://www.collec-science.org">Collec-Science</a> est un logiciel web qui a été créé pour suivre les échantillons collectés lors des campagnes d’acquisition, et permet de répondre, entre autres, à ces questions :</p>
 <ul class="simple">
 <li><p>Où est stocké l’échantillon ?</p></li>
@@ -751,7 +613,7 @@ site web RBDD, 2018</p>
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./."
         },
         predefinedOutput: true
@@ -759,56 +621,129 @@ site web RBDD, 2018</p>
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            </main>
-            <footer class="footer-article noprint">
-                
-    <!-- Previous / next buttons -->
-<div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="01-imaginer.html" title="précédent page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">précédent</p>
-            <p class="prev-next-title"><span class="section-number">1. </span>Imaginer et préparer</p>
-        </div>
+
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="01-imaginer.html"
+       title="page précédente">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">précédent</p>
+        <p class="prev-next-title"><span class="section-number">1. </span>Imaginer et préparer</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="03-collecter.html" title="suivant page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="03-collecter.html"
+       title="page suivante">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">suivant</p>
         <p class="prev-next-title"><span class="section-number">3. </span>Collecter</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
+</div></div>
+  
 </div>
-            </footer>
-        </div>
-    </div>
-    <div class="footer-content row">
-        <footer class="col footer"><p>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contenu
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluer-les-besoins-lies-au-projet">2.1. Évaluer les besoins liés au projet</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#anticiper-les-interfacages-necessaires-avec-les-utilisateurs-ou-entre-bases-de-donnees">2.1.1. Anticiper les interfaçages nécessaires (avec les utilisateurs ou entre bases de données)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mettre-en-place-une-gestion-de-projet">2.2. Mettre en place une gestion de projet</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#analyser-les-risques">2.2.1. Analyser les risques</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#definir-le-risque-associe-a-un-jeu-de-donnees">2.2.1.1. Définir le risque associé à un jeu de données</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#sauvegarder-les-donnees">2.2.2. Sauvegarder les données</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#amorcer-un-plan-de-gestion-de-donnees">2.3. Amorcer un plan de gestion de données</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comment-creer-un-plan-de-gestion-des-donnees">2.3.1. Comment créer un plan de gestion des données ?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creer-un-plan-de-gestion-de-logiciel">2.3.2. Créer un plan de gestion de logiciel</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#retour-dexperience">2.3.3. Retour d’expérience</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#identifier-les-infrastructures-adaptees-au-projet-fournisseur-du-service-fonctionnalites-capacites-et-services">2.4. Identifier les infrastructures adaptées au projet : fournisseur du service, fonctionnalités, capacités et services</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-bases-de-donnees">2.4.1. Les bases de données</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-gestion-des-collections">2.4.2. La gestion des collections</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-    By l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS<br/>
+  <div class="footer-item">
+    
+<p class="component-author">
+Par l'Atelier Données – groupe de travail inter réseaux de la MITI – CNRS
+</p>
+
+  </div>
   
-    Last updated on 01 févr. 2023.<br/>
-    <div class="extra_footer">
-      <p>
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    <p class="last-updated">
+  Mis à jour le 23 août 2023.
+  <br/>
+</p>
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
 Ce guide est mis à disposition selon les termes de la Licence <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International</a>.
 </p>
 
-    </div>
-</p>
-        </footer>
-    </div>
-    
 </div>
+  </div>
+  
+</div>
+          </footer>
+        
 
-
-      </div>
+      </main>
     </div>
+  </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
 
-
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>
